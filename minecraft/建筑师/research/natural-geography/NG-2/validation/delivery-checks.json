@@ -1,0 +1,76 @@
+{
+  "integrity_check": "ok",
+  "dangling_target_samples": 0,
+  "missing_chunk_provenance": 0,
+  "missing_material_or_biome_dictionary": 0,
+  "assessment_count": 8,
+  "target_checks": [
+    {
+      "target": "SITE-015",
+      "required_fields": true,
+      "source_sample_present": true,
+      "bounds_and_orientation_array_check": true,
+      "topology_complete": "not a full-topology target",
+      "profiles": 4
+    },
+    {
+      "target": "SITE-014",
+      "required_fields": true,
+      "source_sample_present": true,
+      "bounds_and_orientation_array_check": true,
+      "topology_complete": "not a full-topology target",
+      "profiles": 4
+    },
+    {
+      "target": "SITE-017",
+      "required_fields": true,
+      "source_sample_present": true,
+      "bounds_and_orientation_array_check": true,
+      "topology_complete": "not a full-topology target",
+      "profiles": 4
+    },
+    {
+      "target": "SITE-003",
+      "required_fields": true,
+      "source_sample_present": true,
+      "bounds_and_orientation_array_check": true,
+      "topology_complete": true,
+      "profiles": 4
+    },
+    {
+      "target": "SITE-011",
+      "required_fields": true,
+      "source_sample_present": true,
+      "bounds_and_orientation_array_check": true,
+      "topology_complete": true,
+      "profiles": 4
+    },
+    {
+      "target": "SITE-002",
+      "required_fields": true,
+      "source_sample_present": true,
+      "bounds_and_orientation_array_check": true,
+      "topology_complete": "not a full-topology target",
+      "profiles": 4
+    },
+    {
+      "target": "SITE-005",
+      "required_fields": true,
+      "source_sample_present": true,
+      "bounds_and_orientation_array_check": true,
+      "topology_complete": "not a full-topology target",
+      "profiles": 4
+    },
+    {
+      "target": "SITE-019",
+      "required_fields": true,
+      "source_sample_present": true,
+      "bounds_and_orientation_array_check": true,
+      "topology_complete": true,
+      "profiles": 4
+    }
+  ],
+  "samples": 5007380,
+  "target_samples": 5016866,
+  "chunks": 44108
+}

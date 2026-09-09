@@ -1,0 +1,224 @@
+{
+  "schema": "ng-002-refinement/1.0",
+  "base_commit": "4b9b1f7e600708ff67e1ef2f844a9d3de0ba2242",
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\建筑师",
+  "world_name": "建筑师",
+  "data_version": 4903,
+  "dimension": "minecraft:overworld",
+  "timestamp": "2026-09-09T05:30:07.239838+00:00",
+  "targets": {
+    "SITE-015": {
+      "bounds": [
+        -1472,
+        -3968,
+        -193,
+        -2817
+      ],
+      "reason": "覆盖平坦低地及四侧水岸和起伏地形；只量化局部连片面积，不冒充整个GEO面积。",
+      "resolution_levels": [
+        8,
+        4,
+        1
+      ],
+      "adaptive_rule": "8-block slope>=0.25 OR observed water transition OR target radius96 -> entire intersected 16x16 chunk at4; water targets full ROI at1; four cross profiles at1",
+      "refinement_patch_count": 1163,
+      "base_sample_count": 23040
+    },
+    "SITE-014": {
+      "bounds": [
+        -5120,
+        -1376,
+        -4385,
+        -545
+      ],
+      "reason": "V1台面bounds外扩约250格，包含完整局部台面与周缘高差。",
+      "resolution_levels": [
+        8,
+        4,
+        1
+      ],
+      "adaptive_rule": "8-block slope>=0.25 OR observed water transition OR target radius96 -> entire intersected 16x16 chunk at4; water targets full ROI at1; four cross profiles at1",
+      "refinement_patch_count": 1224,
+      "base_sample_count": 9568
+    },
+    "SITE-017": {
+      "bounds": [
+        1792,
+        -2624,
+        3647,
+        -1089
+      ],
+      "reason": "从代表点向西延伸至山麓、向东延伸至更高山体，覆盖纵向山带；不承诺整个GEO闭合。",
+      "resolution_levels": [
+        8,
+        4,
+        1
+      ],
+      "adaptive_rule": "8-block slope>=0.25 OR observed water transition OR target radius96 -> entire intersected 16x16 chunk at4; water targets full ROI at1; four cross profiles at1",
+      "refinement_patch_count": 8903,
+      "base_sample_count": 44544
+    },
+    "SITE-003": {
+      "bounds": [
+        -800,
+        1376,
+        415,
+        2655
+      ],
+      "reason": "覆盖V1岛体成员与周围至少96格水环；逐列陆地分量触边时不得确认闭合岛体。",
+      "topology": true,
+      "resolution_levels": [
+        8,
+        4,
+        1
+      ],
+      "adaptive_rule": "8-block slope>=0.25 OR observed water transition OR target radius96 -> entire intersected 16x16 chunk at4; water targets full ROI at1; four cross profiles at1",
+      "refinement_patch_count": 1297,
+      "base_sample_count": 24320
+    },
+    "SITE-011": {
+      "bounds": [
+        -832,
+        -4480,
+        191,
+        -3585
+      ],
+      "reason": "围绕候选湾点覆盖凹岸和外水域，不依据单cell邻居；完整水柱连接与岸线形状共同判定。",
+      "topology": true,
+      "resolution_levels": [
+        8,
+        4,
+        1
+      ],
+      "adaptive_rule": "8-block slope>=0.25 OR observed water transition OR target radius96 -> entire intersected 16x16 chunk at4; water targets full ROI at1; four cross profiles at1",
+      "refinement_patch_count": 1007,
+      "base_sample_count": 14336
+    },
+    "SITE-002": {
+      "bounds": [
+        -6080,
+        -2048,
+        -5217,
+        -1057
+      ],
+      "reason": "山脊高点两侧各约400格，覆盖鞍部假说的四向高低地形；必要处追加通道逐列读取。",
+      "fine1_bounds": [
+        [
+          -5792,
+          -1696,
+          -5537,
+          -1441
+        ]
+      ],
+      "resolution_levels": [
+        8,
+        4,
+        1
+      ],
+      "adaptive_rule": "8-block slope>=0.25 OR observed water transition OR target radius96 -> entire intersected 16x16 chunk at4; water targets full ROI at1; four cross profiles at1",
+      "refinement_patch_count": 3316,
+      "base_sample_count": 13392
+    },
+    "SITE-005": {
+      "bounds": [
+        -3328,
+        -5888,
+        -2049,
+        -4993
+      ],
+      "reason": "向东追加512格以核查河道对岸是否存在第二谷壁；纵横剖面覆盖山麓与河流走廊。",
+      "resolution_levels": [
+        8,
+        4,
+        1
+      ],
+      "adaptive_rule": "8-block slope>=0.25 OR observed water transition OR target radius96 -> entire intersected 16x16 chunk at4; water targets full ROI at1; four cross profiles at1",
+      "refinement_patch_count": 1549,
+      "base_sample_count": 17920
+    },
+    "SITE-019": {
+      "bounds": [
+        -256,
+        -1728,
+        1855,
+        -705
+      ],
+      "reason": "首轮水分量向西触边，追加512格实际水柱以确认与边界之外水系连接；不追求完整流域。",
+      "topology": true,
+      "resolution_levels": [
+        8,
+        4,
+        1
+      ],
+      "adaptive_rule": "8-block slope>=0.25 OR observed water transition OR target radius96 -> entire intersected 16x16 chunk at4; water targets full ROI at1; four cross profiles at1",
+      "refinement_patch_count": 3630,
+      "base_sample_count": 33792
+    }
+  },
+  "status": "implementation completed / awaiting independent review",
+  "in_game_visual_review": "BLOCKED_BY_SAFE_ENVIRONMENT",
+  "reader": "read-only nbtlib 2.0.4 + numpy padded palette decoding; no game API",
+  "observed": "surface/blocks/biome/water intervals",
+  "derived": "vegetation-filtered surface, metrics and connectivity",
+  "source_file_manifest": "world-before.json",
+  "v1_manifest": "v1-before.json",
+  "delivery_timestamp": "2026-09-09T05:39:28.932383+00:00",
+  "assessment_summary": [
+    {
+      "target": "SITE-015",
+      "source": "GEO-566",
+      "verdict": "CONFIRMED",
+      "refined_type": "riverside_low_relief_plain_sector",
+      "columns": 40972
+    },
+    {
+      "target": "SITE-014",
+      "source": "GEO-729",
+      "verdict": "CONFIRMED",
+      "refined_type": "elevated_tableland_bench_sector",
+      "columns": 26708
+    },
+    {
+      "target": "SITE-017",
+      "source": "GEO-534",
+      "verdict": "CONFIRMED",
+      "refined_type": "continuous_mountain_massif_flank",
+      "columns": 156398
+    },
+    {
+      "target": "SITE-003",
+      "source": "FEAT-618",
+      "verdict": "CONFIRMED",
+      "refined_type": "low_coastal_island_with_internal_ponds",
+      "columns": 1556480
+    },
+    {
+      "target": "SITE-011",
+      "source": "HYD-142",
+      "verdict": "CONFIRMED",
+      "refined_type": "multi_opening_coastal_embayment",
+      "columns": 917504
+    },
+    {
+      "target": "SITE-002",
+      "source": "FEAT-657",
+      "verdict": "CONFIRMED",
+      "refined_type": "local_rocky_ridge_saddle",
+      "columns": 116570
+    },
+    {
+      "target": "SITE-005",
+      "source": "FEAT-001",
+      "verdict": "RECLASSIFIED",
+      "refined_type": "mountain_front_gentle_apron_beside_river_lowland",
+      "columns": 39546
+    },
+    {
+      "target": "SITE-019",
+      "source": "HYD-003",
+      "verdict": "RECLASSIFIED",
+      "refined_type": "connected_branching_channel_with_widened_reach",
+      "columns": 2162688
+    }
+  ]
+}

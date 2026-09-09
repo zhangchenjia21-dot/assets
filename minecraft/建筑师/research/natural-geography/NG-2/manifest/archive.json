@@ -1,0 +1,24 @@
+{
+  "format": "ordered binary concatenation -> gzip -> SQLite",
+  "sqlite_size": 663031808,
+  "sqlite_sha256": "4b4067e74c98060c12eaeafeda257c1b061181451cc9e4b545f2d39278df7756",
+  "gzip_size": 160910628,
+  "gzip_sha256": "d00e1f828271279bf9fa91c4c5803551de703fde6e4ebe1b725a661338fe4cc1",
+  "parts": [
+    {
+      "name": "refinement.sqlite.gz.part001",
+      "size": 67108864,
+      "sha256": "d8d39121a5ee3f896430cd22f00dc6514db5f22df3b68e2ee860e564111b347f"
+    },
+    {
+      "name": "refinement.sqlite.gz.part002",
+      "size": 67108864,
+      "sha256": "5af3a5442444ee2ae32f06531a2ac1b2c0d6476b78b09849c846c982d74d00e3"
+    },
+    {
+      "name": "refinement.sqlite.gz.part003",
+      "size": 26692900,
+      "sha256": "4f53b4b6a68760b06757fdc17985bce22e39e984ab8d036841b6cf6feb62bf74"
+    }
+  ]
+}

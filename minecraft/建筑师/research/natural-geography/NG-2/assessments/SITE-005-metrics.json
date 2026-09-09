@@ -1,0 +1,239 @@
+{
+  "roi_bounds": [
+    -3328,
+    -5888,
+    -2049,
+    -4993
+  ],
+  "grid8_elevation": {
+    "min": 57.0,
+    "p10": 62.0,
+    "median": 80.0,
+    "p90": 211.0,
+    "max": 314.0,
+    "mean": 102.27756696428571
+  },
+  "grid8_slope_rise_run": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.08838834764831845,
+    "p90": 0.5153882032022076,
+    "max": 8.087654558028552,
+    "mean": 0.3018482115365375
+  },
+  "water_sample_fraction": 0.09654017857142858,
+  "target_height": 101,
+  "surface_minus_filtered": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 1.0,
+    "p90": 17.0,
+    "max": 39.0,
+    "mean": 4.874162946428571
+  },
+  "biomes": {
+    "minecraft:snowy_taiga": 10958,
+    "minecraft:frozen_river": 675,
+    "terralith:siberian_taiga": 4614,
+    "terralith:wintry_lowlands": 182,
+    "minecraft:snowy_plains": 1491
+  },
+  "low_slope_land": {
+    "component": 6,
+    "columns": 3860,
+    "area_blocks2": 247040,
+    "bounds": [
+      -3200,
+      -5888,
+      -2537,
+      -4993
+    ],
+    "touches_roi_edges": [
+      "north",
+      "south"
+    ],
+    "grid_perimeter_blocks": 18544,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      -2992,
+      -5496
+    ],
+    "seed_distance_to_v1_point": 8.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 65.0,
+      "p10": 70.0,
+      "median": 86.0,
+      "p90": 103.0,
+      "max": 113.0,
+      "mean": 86.47694300518134
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0625,
+      "p90": 0.125,
+      "max": 0.125,
+      "mean": 0.07111481904491308
+    }
+  },
+  "target_elevation_band": {
+    "component": 1,
+    "columns": 2935,
+    "area_blocks2": 187840,
+    "bounds": [
+      -3328,
+      -5888,
+      -2785,
+      -5289
+    ],
+    "touches_roi_edges": [
+      "north",
+      "west"
+    ],
+    "grid_perimeter_blocks": 2736,
+    "contains_v1_grid_sample": true,
+    "selected_seed": [
+      -3000,
+      -5496
+    ],
+    "seed_distance_to_v1_point": 0.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 89.0,
+      "p10": 90.0,
+      "median": 98.0,
+      "p90": 107.0,
+      "max": 113.0,
+      "mean": 98.38875638841567
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0625,
+      "median": 0.08838834764831845,
+      "p90": 0.19764235376052372,
+      "max": 3.132491021535417,
+      "mean": 0.13950401247724661
+    }
+  },
+  "high_terrain_200": {
+    "component": 1,
+    "columns": 1876,
+    "area_blocks2": 120064,
+    "bounds": [
+      -3328,
+      -5768,
+      -3017,
+      -5113
+    ],
+    "touches_roi_edges": [
+      "west"
+    ],
+    "grid_perimeter_blocks": 2048,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      -3088,
+      -5408
+    ],
+    "seed_distance_to_v1_point": 124.45079348883236,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 200.0,
+      "p10": 225.5,
+      "median": 275.0,
+      "p90": 303.0,
+      "max": 314.0,
+      "mean": 270.1705756929638
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.125,
+      "median": 0.2651650429449553,
+      "p90": 2.160992217057899,
+      "max": 8.087654558028552,
+      "mean": 0.7536354082040477
+    }
+  },
+  "samples": 39546,
+  "stage_new_sample_counts": {
+    "adaptive4": 18600,
+    "context8": 17920,
+    "profile1": 3026
+  },
+  "artificial_material_samples": 0,
+  "artificial_material_names": [],
+  "water_topology": {
+    "method": "8/4-block sample context only; no full ROI connectivity claim",
+    "flow_direction": "not inferred"
+  },
+  "material_context": {
+    "meaning": "candidate materials and block entities are observations, not human-origin attribution",
+    "block_entity_counts": {
+      "minecraft:sculk_catalyst": 572,
+      "minecraft:sculk_sensor": 750,
+      "minecraft:sculk_shrieker": 75,
+      "minecraft:mob_spawner": 85,
+      "minecraft:chest": 127,
+      "waystones:waystone": 2
+    },
+    "near_surface_or_waystone_entities": [
+      {
+        "id": "waystones:waystone",
+        "x": -2176,
+        "y": 90,
+        "z": -5712,
+        "observed_exposed_y": 90
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -2176,
+        "y": 89,
+        "z": -5712,
+        "observed_exposed_y": 90
+      }
+    ],
+    "surface_candidate_states": []
+  },
+  "observed_extrema": {
+    "min": [
+      -2404,
+      56,
+      -5144
+    ],
+    "max": [
+      -3296,
+      314,
+      -5608
+    ]
+  },
+  "profiles": {
+    "east-west": {
+      "columns": 1280,
+      "min_y": 62,
+      "max_y": 302,
+      "length_blocks": 1279.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "north-south": {
+      "columns": 896,
+      "min_y": 84,
+      "max_y": 147,
+      "length_blocks": 895.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "northwest-southeast": {
+      "columns": 832,
+      "min_y": 62,
+      "max_y": 150,
+      "length_blocks": 1175.211470332042,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "southwest-northeast": {
+      "columns": 721,
+      "min_y": 62,
+      "max_y": 277,
+      "length_blocks": 1018.2337649086285,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    }
+  }
+}

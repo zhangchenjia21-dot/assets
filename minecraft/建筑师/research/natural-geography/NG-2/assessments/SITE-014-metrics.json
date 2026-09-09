@@ -1,0 +1,264 @@
+{
+  "roi_bounds": [
+    -5120,
+    -1376,
+    -4385,
+    -545
+  ],
+  "grid8_elevation": {
+    "min": 62.0,
+    "p10": 164.0,
+    "median": 191.0,
+    "p90": 246.0,
+    "max": 328.0,
+    "mean": 194.33977842809364
+  },
+  "grid8_slope_rise_run": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.1767766952966369,
+    "p90": 0.8125,
+    "max": 4.899378149316503,
+    "mean": 0.3107785604093669
+  },
+  "water_sample_fraction": 0.014423076923076924,
+  "target_height": 192,
+  "surface_minus_filtered": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 1.0,
+    "max": 11.0,
+    "mean": 0.801316889632107
+  },
+  "biomes": {
+    "minecraft:savanna_plateau": 9145,
+    "minecraft:river": 60,
+    "terralith:arid_highlands": 363
+  },
+  "low_slope_land": {
+    "component": 1,
+    "columns": 3017,
+    "area_blocks2": 193088,
+    "bounds": [
+      -5016,
+      -1376,
+      -4385,
+      -585
+    ],
+    "touches_roi_edges": [
+      "north",
+      "east"
+    ],
+    "grid_perimeter_blocks": 8960,
+    "contains_v1_grid_sample": true,
+    "selected_seed": [
+      -4792,
+      -952
+    ],
+    "seed_distance_to_v1_point": 0.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 183.0,
+      "p10": 189.0,
+      "median": 191.0,
+      "p90": 194.0,
+      "max": 200.0,
+      "mean": 191.1461716937355
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0625,
+      "p90": 0.08838834764831845,
+      "max": 0.125,
+      "mean": 0.05587121956494756
+    }
+  },
+  "target_elevation_band": {
+    "component": 1,
+    "columns": 5453,
+    "area_blocks2": 348992,
+    "bounds": [
+      -5064,
+      -1376,
+      -4385,
+      -545
+    ],
+    "touches_roi_edges": [
+      "north",
+      "south",
+      "east"
+    ],
+    "grid_perimeter_blocks": 4032,
+    "contains_v1_grid_sample": true,
+    "selected_seed": [
+      -4792,
+      -952
+    ],
+    "seed_distance_to_v1_point": 0.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 180.0,
+      "p10": 186.0,
+      "median": 191.0,
+      "p90": 200.0,
+      "max": 204.0,
+      "mean": 192.17751696313957
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.08838834764831845,
+      "p90": 0.2795084971874737,
+      "max": 1.1319231422671772,
+      "mean": 0.13055413747120254
+    }
+  },
+  "high_terrain_200": {
+    "component": 2,
+    "columns": 231,
+    "area_blocks2": 14784,
+    "bounds": [
+      -4744,
+      -920,
+      -4569,
+      -785
+    ],
+    "touches_roi_edges": [],
+    "grid_perimeter_blocks": 624,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      -4728,
+      -888
+    ],
+    "seed_distance_to_v1_point": 90.50966799187809,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 200.0,
+      "p10": 200.0,
+      "median": 203.0,
+      "p90": 206.0,
+      "max": 207.0,
+      "mean": 202.9090909090909
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0625,
+      "median": 0.13975424859373686,
+      "p90": 0.2576941016011038,
+      "max": 0.3801726581436387,
+      "mean": 0.1525921276401895
+    }
+  },
+  "samples": 26708,
+  "stage_new_sample_counts": {
+    "adaptive4": 14688,
+    "context8": 9568,
+    "profile1": 2452
+  },
+  "artificial_material_samples": 0,
+  "artificial_material_names": [],
+  "water_topology": {
+    "method": "8/4-block sample context only; no full ROI connectivity claim",
+    "flow_direction": "not inferred"
+  },
+  "material_context": {
+    "meaning": "candidate materials and block entities are observations, not human-origin attribution",
+    "block_entity_counts": {
+      "minecraft:sculk_sensor": 1064,
+      "minecraft:sculk_catalyst": 273,
+      "minecraft:sculk_shrieker": 113,
+      "minecraft:mob_spawner": 50,
+      "minecraft:chest": 77,
+      "waystones:waystone": 6
+    },
+    "near_surface_or_waystone_entities": [
+      {
+        "id": "waystones:waystone",
+        "x": -4960,
+        "y": 192,
+        "z": -864,
+        "observed_exposed_y": 193
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -4960,
+        "y": 193,
+        "z": -864,
+        "observed_exposed_y": 193
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -4848,
+        "y": 157,
+        "z": -1376,
+        "observed_exposed_y": 157
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -4848,
+        "y": 156,
+        "z": -1376,
+        "observed_exposed_y": 157
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -4592,
+        "y": 198,
+        "z": -896,
+        "observed_exposed_y": 198
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -4592,
+        "y": 197,
+        "z": -896,
+        "observed_exposed_y": 198
+      }
+    ],
+    "surface_candidate_states": []
+  },
+  "observed_extrema": {
+    "min": [
+      -4656,
+      62,
+      -1376
+    ],
+    "max": [
+      -5120,
+      329,
+      -548
+    ]
+  },
+  "profiles": {
+    "east-west": {
+      "columns": 736,
+      "min_y": 160,
+      "max_y": 290,
+      "length_blocks": 735.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "north-south": {
+      "columns": 832,
+      "min_y": 144,
+      "max_y": 218,
+      "length_blocks": 831.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "northwest-southeast": {
+      "columns": 736,
+      "min_y": 191,
+      "max_y": 278,
+      "length_blocks": 1039.4469683442248,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "southwest-northeast": {
+      "columns": 736,
+      "min_y": 62,
+      "max_y": 307,
+      "length_blocks": 1039.4469683442248,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    }
+  }
+}

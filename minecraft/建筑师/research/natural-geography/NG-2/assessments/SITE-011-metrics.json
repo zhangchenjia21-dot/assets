@@ -1,0 +1,526 @@
+{
+  "roi_bounds": [
+    -832,
+    -4480,
+    191,
+    -3585
+  ],
+  "grid8_elevation": {
+    "min": 39.0,
+    "p10": 62.0,
+    "median": 64.0,
+    "p90": 76.0,
+    "max": 102.0,
+    "mean": 65.9501953125
+  },
+  "grid8_slope_rise_run": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 0.19764235376052372,
+    "max": 3.7123106012293743,
+    "mean": 0.08829989465212072
+  },
+  "water_sample_fraction": 0.37032645089285715,
+  "target_height": 62,
+  "surface_minus_filtered": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 1.0,
+    "p90": 7.0,
+    "max": 27.0,
+    "mean": 1.7706473214285714
+  },
+  "biomes": {
+    "minecraft:snowy_taiga": 3635,
+    "minecraft:frozen_river": 369,
+    "minecraft:snowy_plains": 2976,
+    "minecraft:snowy_beach": 1217,
+    "minecraft:frozen_ocean": 1844,
+    "terralith:cold_shrubland": 1095,
+    "minecraft:plains": 599,
+    "minecraft:cold_ocean": 669,
+    "minecraft:beach": 946,
+    "minecraft:forest": 34,
+    "terralith:gravel_desert": 1,
+    "terralith:moonlight_valley": 540,
+    "minecraft:river": 369,
+    "terralith:steppe": 42
+  },
+  "low_slope_land": {
+    "component": 9,
+    "columns": 2038,
+    "area_blocks2": 130432,
+    "bounds": [
+      -552,
+      -4480,
+      -65,
+      -3945
+    ],
+    "touches_roi_edges": [
+      "north"
+    ],
+    "grid_perimeter_blocks": 3664,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      -328,
+      -4056
+    ],
+    "seed_distance_to_v1_point": 35.77708763999664,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 62.0,
+      "p10": 63.0,
+      "median": 66.0,
+      "p90": 67.0,
+      "max": 74.0,
+      "mean": 65.25564278704613
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0,
+      "p90": 0.08838834764831845,
+      "max": 0.125,
+      "mean": 0.038503401088931175
+    }
+  },
+  "target_elevation_band": {
+    "component": 15,
+    "columns": 1,
+    "area_blocks2": 64,
+    "bounds": [
+      -288,
+      -4000,
+      -281,
+      -3993
+    ],
+    "touches_roi_edges": [],
+    "grid_perimeter_blocks": 32,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      -288,
+      -4000
+    ],
+    "seed_distance_to_v1_point": 33.94112549695428,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 70.0,
+      "p10": 70.0,
+      "median": 70.0,
+      "p90": 70.0,
+      "max": 70.0,
+      "mean": 70.0
+    },
+    "slope": {
+      "min": 1.5013015186830392,
+      "p10": 1.5013015186830392,
+      "median": 1.5013015186830392,
+      "p90": 1.5013015186830392,
+      "max": 1.5013015186830392,
+      "mean": 1.5013015186830392
+    }
+  },
+  "high_terrain_200": null,
+  "samples": 917504,
+  "stage_new_sample_counts": {
+    "adaptive4": 12084,
+    "context8": 14336,
+    "topology1": 891084
+  },
+  "artificial_material_samples": 0,
+  "artificial_material_names": [],
+  "water_topology": {
+    "method": "1-block columns; four-neighbor real water vertical intervals must share at least one Y; no interpolation or biome connectivity",
+    "water_columns": 341794,
+    "land_columns": 575710,
+    "water_components": 9950,
+    "land_components": 1184,
+    "target_is_water": true,
+    "primary_water": {
+      "component": 1,
+      "columns": 314121,
+      "area_blocks2": 314121,
+      "bounds": [
+        -832,
+        -4480,
+        191,
+        -3585
+      ],
+      "touches_roi_edges": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "grid_perimeter_blocks": 13912,
+      "elevation": {
+        "min": 42.0,
+        "p10": 61.0,
+        "median": 62.0,
+        "p90": 62.0,
+        "max": 62.0,
+        "mean": 61.47458145109687
+      },
+      "depth": {
+        "min": 1.0,
+        "p10": 3.0,
+        "median": 16.0,
+        "p90": 22.0,
+        "max": 59.0,
+        "mean": 13.342953829893576
+      },
+      "biomes": {
+        "minecraft:snowy_taiga": 27462,
+        "minecraft:frozen_river": 23373,
+        "minecraft:snowy_beach": 31420,
+        "minecraft:frozen_ocean": 100530,
+        "minecraft:snowy_plains": 9552,
+        "terralith:cold_shrubland": 11675,
+        "minecraft:cold_ocean": 43131,
+        "minecraft:beach": 44444,
+        "minecraft:plains": 4534,
+        "minecraft:forest": 368,
+        "minecraft:river": 17632
+      }
+    },
+    "primary_land": {
+      "component": 684,
+      "columns": 1,
+      "area_blocks2": 1,
+      "bounds": [
+        -301,
+        -4013,
+        -301,
+        -4013
+      ],
+      "touches_roi_edges": [],
+      "grid_perimeter_blocks": 4
+    },
+    "largest_water_components": [
+      314121,
+      12475,
+      2423,
+      113,
+      45,
+      33,
+      32,
+      28,
+      25,
+      22
+    ],
+    "flow_direction": "not inferred",
+    "land_boundary_neighbor_water_components": [
+      5747,
+      5780,
+      5810,
+      5843
+    ],
+    "outer_boundary_water_components": [
+      5747,
+      5780,
+      5810,
+      5843
+    ],
+    "interior_water_boundary_columns": 0,
+    "land_fully_enclosed_by_one_water_component": false,
+    "land_highest": {
+      "x": -301,
+      "y": 67,
+      "z": -4013
+    }
+  },
+  "material_context": {
+    "meaning": "candidate materials and block entities are observations, not human-origin attribution",
+    "block_entity_counts": {
+      "minecraft:mob_spawner": 64,
+      "minecraft:chest": 103,
+      "minecraft:potent_sulfur": 42,
+      "waystones:waystone": 4,
+      "minecraft:beehive": 1
+    },
+    "near_surface_or_waystone_entities": [
+      {
+        "id": "minecraft:chest",
+        "x": -298,
+        "y": 62,
+        "z": -4285,
+        "observed_exposed_y": 66
+      },
+      {
+        "id": "minecraft:mob_spawner",
+        "x": -295,
+        "y": 62,
+        "z": -4285,
+        "observed_exposed_y": 66
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -176,
+        "y": 65,
+        "z": -4416,
+        "observed_exposed_y": 66
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -176,
+        "y": 66,
+        "z": -4416,
+        "observed_exposed_y": 66
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -160,
+        "y": 69,
+        "z": -3600,
+        "observed_exposed_y": 69
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -160,
+        "y": 68,
+        "z": -3600,
+        "observed_exposed_y": 69
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": -137,
+        "y": 72,
+        "z": -3703,
+        "observed_exposed_y": 72
+      }
+    ],
+    "surface_candidate_states": []
+  },
+  "observed_extrema": {
+    "min": [
+      -504,
+      38,
+      -4239
+    ],
+    "max": [
+      140,
+      110,
+      -4416
+    ]
+  },
+  "profiles": {
+    "east-west": {
+      "columns": 1024,
+      "min_y": 62,
+      "max_y": 74,
+      "length_blocks": 1023.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "north-south": {
+      "columns": 896,
+      "min_y": 57,
+      "max_y": 70,
+      "length_blocks": 895.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "northwest-southeast": {
+      "columns": 896,
+      "min_y": 41,
+      "max_y": 83,
+      "length_blocks": 1265.72113832392,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "southwest-northeast": {
+      "columns": 896,
+      "min_y": 59,
+      "max_y": 89,
+      "length_blocks": 1265.72113832392,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    }
+  },
+  "water_sections": [
+    {
+      "fixed_axis": "z",
+      "coordinate": -4300,
+      "water_runs": [
+        {
+          "from": -655,
+          "to": -628,
+          "width_columns": 28
+        },
+        {
+          "from": -109,
+          "to": -71,
+          "width_columns": 39
+        },
+        {
+          "from": -10,
+          "to": 29,
+          "width_columns": 40
+        },
+        {
+          "from": 41,
+          "to": 191,
+          "width_columns": 151
+        }
+      ]
+    },
+    {
+      "fixed_axis": "z",
+      "coordinate": -4200,
+      "water_runs": [
+        {
+          "from": -672,
+          "to": -636,
+          "width_columns": 37
+        },
+        {
+          "from": -129,
+          "to": -95,
+          "width_columns": 35
+        },
+        {
+          "from": -2,
+          "to": 191,
+          "width_columns": 194
+        }
+      ]
+    },
+    {
+      "fixed_axis": "z",
+      "coordinate": -4100,
+      "water_runs": [
+        {
+          "from": -643,
+          "to": -605,
+          "width_columns": 39
+        },
+        {
+          "from": -147,
+          "to": -106,
+          "width_columns": 42
+        },
+        {
+          "from": -22,
+          "to": 191,
+          "width_columns": 214
+        }
+      ]
+    },
+    {
+      "fixed_axis": "z",
+      "coordinate": -4000,
+      "water_runs": [
+        {
+          "from": -592,
+          "to": -557,
+          "width_columns": 36
+        },
+        {
+          "from": -410,
+          "to": -308,
+          "width_columns": 103
+        },
+        {
+          "from": -303,
+          "to": -290,
+          "width_columns": 14
+        },
+        {
+          "from": -249,
+          "to": -249,
+          "width_columns": 1
+        },
+        {
+          "from": -247,
+          "to": -199,
+          "width_columns": 49
+        },
+        {
+          "from": -176,
+          "to": -112,
+          "width_columns": 65
+        }
+      ]
+    },
+    {
+      "fixed_axis": "z",
+      "coordinate": -3900,
+      "water_runs": [
+        {
+          "from": -607,
+          "to": -507,
+          "width_columns": 101
+        },
+        {
+          "from": -503,
+          "to": -497,
+          "width_columns": 7
+        },
+        {
+          "from": -491,
+          "to": -474,
+          "width_columns": 18
+        },
+        {
+          "from": -466,
+          "to": -452,
+          "width_columns": 15
+        },
+        {
+          "from": -438,
+          "to": -304,
+          "width_columns": 135
+        },
+        {
+          "from": -270,
+          "to": -267,
+          "width_columns": 4
+        },
+        {
+          "from": -258,
+          "to": -258,
+          "width_columns": 1
+        },
+        {
+          "from": -256,
+          "to": -256,
+          "width_columns": 1
+        },
+        {
+          "from": -246,
+          "to": -227,
+          "width_columns": 20
+        },
+        {
+          "from": -215,
+          "to": -99,
+          "width_columns": 117
+        }
+      ]
+    },
+    {
+      "fixed_axis": "z",
+      "coordinate": -3800,
+      "water_runs": [
+        {
+          "from": -707,
+          "to": -264,
+          "width_columns": 444
+        },
+        {
+          "from": -246,
+          "to": -205,
+          "width_columns": 42
+        }
+      ]
+    },
+    {
+      "fixed_axis": "z",
+      "coordinate": -3700,
+      "water_runs": [
+        {
+          "from": -832,
+          "to": -351,
+          "width_columns": 482
+        }
+      ]
+    }
+  ]
+}

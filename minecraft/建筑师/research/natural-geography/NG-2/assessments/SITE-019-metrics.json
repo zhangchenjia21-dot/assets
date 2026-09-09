@@ -1,0 +1,1513 @@
+{
+  "roi_bounds": [
+    -256,
+    -1728,
+    1855,
+    -705
+  ],
+  "grid8_elevation": {
+    "min": -8.0,
+    "p10": 62.0,
+    "median": 67.0,
+    "p90": 142.0,
+    "max": 246.0,
+    "mean": 84.65701941287878
+  },
+  "grid8_slope_rise_run": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.0625,
+    "p90": 0.6373774391990981,
+    "max": 10.119597324004548,
+    "mean": 0.23968592326861865
+  },
+  "water_sample_fraction": 0.14574455492424243,
+  "target_height": 62,
+  "surface_minus_filtered": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 1.0,
+    "max": 25.0,
+    "mean": 0.8755918560606061
+  },
+  "biomes": {
+    "terralith:steppe": 13582,
+    "terralith:highlands": 8331,
+    "minecraft:dripstone_caves": 14,
+    "minecraft:river": 2768,
+    "terralith:forested_highlands": 1395,
+    "minecraft:cherry_grove": 1734,
+    "terralith:alpine_highlands": 34,
+    "minecraft:plains": 3236,
+    "terralith:shield": 2606,
+    "minecraft:meadow": 44,
+    "terralith:moonlight_valley": 43,
+    "terralith:cave/infested_caves": 5
+  },
+  "low_slope_land": {
+    "component": 230,
+    "columns": 2,
+    "area_blocks2": 128,
+    "bounds": [
+      1056,
+      -1200,
+      1071,
+      -1193
+    ],
+    "touches_roi_edges": [],
+    "grid_perimeter_blocks": 48,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      1064,
+      -1200
+    ],
+    "seed_distance_to_v1_point": 32.984845004941285,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 62.0,
+      "p10": 62.1,
+      "median": 62.5,
+      "p90": 62.9,
+      "max": 63.0,
+      "mean": 62.5
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.00625,
+      "median": 0.03125,
+      "p90": 0.05625,
+      "max": 0.0625,
+      "mean": 0.03125
+    }
+  },
+  "target_elevation_band": {
+    "component": 26,
+    "columns": 2,
+    "area_blocks2": 128,
+    "bounds": [
+      1056,
+      -1200,
+      1071,
+      -1193
+    ],
+    "touches_roi_edges": [],
+    "grid_perimeter_blocks": 48,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      1064,
+      -1200
+    ],
+    "seed_distance_to_v1_point": 32.984845004941285,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 62.0,
+      "p10": 62.1,
+      "median": 62.5,
+      "p90": 62.9,
+      "max": 63.0,
+      "mean": 62.5
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.00625,
+      "median": 0.03125,
+      "p90": 0.05625,
+      "max": 0.0625,
+      "mean": 0.03125
+    }
+  },
+  "high_terrain_200": {
+    "component": 1,
+    "columns": 474,
+    "area_blocks2": 30336,
+    "bounds": [
+      1728,
+      -1728,
+      1855,
+      -1305
+    ],
+    "touches_roi_edges": [
+      "north",
+      "east"
+    ],
+    "grid_perimeter_blocks": 1120,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      1736,
+      -1432
+    ],
+    "seed_distance_to_v1_point": 678.0678432133469,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 200.0,
+      "p10": 202.0,
+      "median": 214.0,
+      "p90": 235.0,
+      "max": 246.0,
+      "mean": 216.21308016877637
+    },
+    "slope": {
+      "min": 0.0625,
+      "p10": 0.2576941016011038,
+      "median": 0.4375,
+      "p90": 0.6177689872604373,
+      "max": 0.8500919067959652,
+      "mean": 0.434728313872044
+    }
+  },
+  "samples": 2162688,
+  "stage_new_sample_counts": {
+    "adaptive4": 43560,
+    "context8": 33792,
+    "topology1": 2085336
+  },
+  "artificial_material_samples": 11736,
+  "artificial_material_names": [
+    {
+      "state": {
+        "Name": "minecraft:stone"
+      },
+      "count": 2
+    },
+    {
+      "state": {
+        "Name": "minecraft:stone_slab",
+        "Properties": {
+          "type": "bottom",
+          "waterlogged": "false"
+        }
+      },
+      "count": 11596
+    },
+    {
+      "state": {
+        "Name": "minecraft:pale_moss_block"
+      },
+      "count": 138
+    }
+  ],
+  "water_topology": {
+    "method": "1-block columns; four-neighbor real water vertical intervals must share at least one Y; no interpolation or biome connectivity",
+    "water_columns": 314695,
+    "land_columns": 1847993,
+    "water_components": 250,
+    "land_components": 39,
+    "target_is_water": true,
+    "primary_water": {
+      "component": 1,
+      "columns": 308380,
+      "area_blocks2": 308380,
+      "bounds": [
+        -2,
+        -1728,
+        1674,
+        -705
+      ],
+      "touches_roi_edges": [
+        "north",
+        "south"
+      ],
+      "grid_perimeter_blocks": 10878,
+      "elevation": {
+        "min": 60.0,
+        "p10": 62.0,
+        "median": 62.0,
+        "p90": 62.0,
+        "max": 62.0,
+        "mean": 61.99994487320838
+      },
+      "depth": {
+        "min": 1.0,
+        "p10": 2.0,
+        "median": 7.0,
+        "p90": 11.0,
+        "max": 42.0,
+        "mean": 6.774122835462741
+      },
+      "biomes": {
+        "terralith:steppe": 55101,
+        "minecraft:river": 168438,
+        "terralith:highlands": 53936,
+        "minecraft:plains": 24806,
+        "terralith:shield": 4743,
+        "terralith:moonlight_valley": 1356
+      }
+    },
+    "primary_land": {
+      "component": 1,
+      "columns": 657699,
+      "area_blocks2": 657699,
+      "bounds": [
+        -256,
+        -1728,
+        1064,
+        -705
+      ],
+      "touches_roi_edges": [
+        "north",
+        "south",
+        "west"
+      ],
+      "grid_perimeter_blocks": 7274
+    },
+    "largest_water_components": [
+      308380,
+      4221,
+      141,
+      118,
+      73,
+      71,
+      40,
+      37,
+      32,
+      32
+    ],
+    "flow_direction": "not inferred",
+    "land_boundary_neighbor_water_components": [
+      1,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      80,
+      96,
+      97,
+      98,
+      100,
+      103,
+      106,
+      109,
+      110,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      143,
+      144,
+      145,
+      146,
+      147,
+      148,
+      149,
+      150,
+      151,
+      152,
+      153,
+      154,
+      155,
+      156,
+      157,
+      158,
+      159,
+      160,
+      161,
+      162,
+      163,
+      164,
+      165,
+      166,
+      167,
+      168,
+      169,
+      170,
+      171,
+      172,
+      173,
+      174,
+      175,
+      176,
+      177,
+      178,
+      179,
+      180,
+      181,
+      182,
+      183,
+      184,
+      185,
+      186,
+      187,
+      188,
+      222,
+      230,
+      242,
+      249
+    ],
+    "outer_boundary_water_components": [
+      1
+    ],
+    "interior_water_boundary_columns": 631,
+    "land_fully_enclosed_by_one_water_component": false,
+    "land_highest": {
+      "x": 1012,
+      "y": 107,
+      "z": -1160
+    }
+  },
+  "material_context": {
+    "meaning": "candidate materials and block entities are observations, not human-origin attribution",
+    "block_entity_counts": {
+      "minecraft:mob_spawner": 227,
+      "minecraft:chest": 349,
+      "waystones:waystone": 18,
+      "minecraft:beehive": 54,
+      "minecraft:sculk_sensor": 273,
+      "minecraft:sculk_shrieker": 26,
+      "minecraft:sculk_catalyst": 77
+    },
+    "near_surface_or_waystone_entities": [
+      {
+        "id": "waystones:waystone",
+        "x": 208,
+        "y": 68,
+        "z": -1280,
+        "observed_exposed_y": 69
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 208,
+        "y": 69,
+        "z": -1280,
+        "observed_exposed_y": 69
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 256,
+        "y": 67,
+        "z": -1632,
+        "observed_exposed_y": 67
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 256,
+        "y": 66,
+        "z": -1632,
+        "observed_exposed_y": 67
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 352,
+        "y": 67,
+        "z": -1296,
+        "observed_exposed_y": 68
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 352,
+        "y": 68,
+        "z": -1296,
+        "observed_exposed_y": 68
+      },
+      {
+        "id": "minecraft:chest",
+        "x": 1017,
+        "y": 64,
+        "z": -1329,
+        "observed_exposed_y": 71
+      },
+      {
+        "id": "minecraft:chest",
+        "x": 1018,
+        "y": 64,
+        "z": -1329,
+        "observed_exposed_y": 71
+      },
+      {
+        "id": "minecraft:mob_spawner",
+        "x": 1019,
+        "y": 64,
+        "z": -1330,
+        "observed_exposed_y": 70
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1024,
+        "y": 74,
+        "z": -1696,
+        "observed_exposed_y": 75
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1024,
+        "y": 75,
+        "z": -1696,
+        "observed_exposed_y": 75
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1408,
+        "y": 137,
+        "z": -1248,
+        "observed_exposed_y": 138
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1408,
+        "y": 138,
+        "z": -1248,
+        "observed_exposed_y": 138
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1424,
+        "y": 162,
+        "z": -912,
+        "observed_exposed_y": 163
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1424,
+        "y": 163,
+        "z": -912,
+        "observed_exposed_y": 163
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1440,
+        "y": 153,
+        "z": -896,
+        "observed_exposed_y": 153
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1440,
+        "y": 152,
+        "z": -896,
+        "observed_exposed_y": 153
+      },
+      {
+        "id": "minecraft:mob_spawner",
+        "x": 1463,
+        "y": 71,
+        "z": -754,
+        "observed_exposed_y": 78
+      },
+      {
+        "id": "minecraft:chest",
+        "x": 1466,
+        "y": 71,
+        "z": -756,
+        "observed_exposed_y": 76
+      },
+      {
+        "id": "minecraft:chest",
+        "x": 1466,
+        "y": 71,
+        "z": -752,
+        "observed_exposed_y": 77
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1533,
+        "y": 157,
+        "z": -1563,
+        "observed_exposed_y": 157
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1544,
+        "y": 151,
+        "z": -1615,
+        "observed_exposed_y": 151
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1552,
+        "y": 159,
+        "z": -1680,
+        "observed_exposed_y": 160
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1552,
+        "y": 160,
+        "z": -1680,
+        "observed_exposed_y": 160
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1565,
+        "y": 148,
+        "z": -1659,
+        "observed_exposed_y": 148
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1560,
+        "y": 91,
+        "z": -1446,
+        "observed_exposed_y": 91
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1552,
+        "y": 141,
+        "z": -880,
+        "observed_exposed_y": 141
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1552,
+        "y": 140,
+        "z": -880,
+        "observed_exposed_y": 141
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1580,
+        "y": 122,
+        "z": -1612,
+        "observed_exposed_y": 122
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1569,
+        "y": 107,
+        "z": -1468,
+        "observed_exposed_y": 107
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1573,
+        "y": 107,
+        "z": -1468,
+        "observed_exposed_y": 107
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1572,
+        "y": 91,
+        "z": -1440,
+        "observed_exposed_y": 91
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1587,
+        "y": 132,
+        "z": -1583,
+        "observed_exposed_y": 132
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1632,
+        "y": 164,
+        "z": -1677,
+        "observed_exposed_y": 164
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1640,
+        "y": 185,
+        "z": -1610,
+        "observed_exposed_y": 185
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1658,
+        "y": 163,
+        "z": -1690,
+        "observed_exposed_y": 163
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1658,
+        "y": 190,
+        "z": -1631,
+        "observed_exposed_y": 190
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1653,
+        "y": 194,
+        "z": -1571,
+        "observed_exposed_y": 194
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1656,
+        "y": 193,
+        "z": -1521,
+        "observed_exposed_y": 193
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1655,
+        "y": 193,
+        "z": -1508,
+        "observed_exposed_y": 193
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1678,
+        "y": 175,
+        "z": -1687,
+        "observed_exposed_y": 175
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1676,
+        "y": 195,
+        "z": -1507,
+        "observed_exposed_y": 195
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1671,
+        "y": 192,
+        "z": -1488,
+        "observed_exposed_y": 192
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1679,
+        "y": 192,
+        "z": -1441,
+        "observed_exposed_y": 192
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1687,
+        "y": 192,
+        "z": -1632,
+        "observed_exposed_y": 192
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1689,
+        "y": 194,
+        "z": -1601,
+        "observed_exposed_y": 194
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1682,
+        "y": 197,
+        "z": -1564,
+        "observed_exposed_y": 197
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1694,
+        "y": 194,
+        "z": -1439,
+        "observed_exposed_y": 194
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1698,
+        "y": 181,
+        "z": -1690,
+        "observed_exposed_y": 181
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1709,
+        "y": 187,
+        "z": -1648,
+        "observed_exposed_y": 187
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1703,
+        "y": 198,
+        "z": -1509,
+        "observed_exposed_y": 198
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1700,
+        "y": 198,
+        "z": -1471,
+        "observed_exposed_y": 198
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1701,
+        "y": 193,
+        "z": -1436,
+        "observed_exposed_y": 193
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1712,
+        "y": 185,
+        "z": -1716,
+        "observed_exposed_y": 185
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1713,
+        "y": 183,
+        "z": -1662,
+        "observed_exposed_y": 183
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1719,
+        "y": 197,
+        "z": -1569,
+        "observed_exposed_y": 197
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1722,
+        "y": 202,
+        "z": -1491,
+        "observed_exposed_y": 202
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1723,
+        "y": 191,
+        "z": -1382,
+        "observed_exposed_y": 191
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1736,
+        "y": 190,
+        "z": -1662,
+        "observed_exposed_y": 190
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1735,
+        "y": 201,
+        "z": -1541,
+        "observed_exposed_y": 201
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1739,
+        "y": 202,
+        "z": -1538,
+        "observed_exposed_y": 202
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1736,
+        "y": 199,
+        "z": -1407,
+        "observed_exposed_y": 199
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1749,
+        "y": 191,
+        "z": -1682,
+        "observed_exposed_y": 191
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1745,
+        "y": 192,
+        "z": -1672,
+        "observed_exposed_y": 192
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1771,
+        "y": 193,
+        "z": -1699,
+        "observed_exposed_y": 193
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1771,
+        "y": 196,
+        "z": -1620,
+        "observed_exposed_y": 196
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1773,
+        "y": 201,
+        "z": -1590,
+        "observed_exposed_y": 201
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1765,
+        "y": 206,
+        "z": -1553,
+        "observed_exposed_y": 206
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1785,
+        "y": 194,
+        "z": -1656,
+        "observed_exposed_y": 194
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1783,
+        "y": 227,
+        "z": -1496,
+        "observed_exposed_y": 227
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1799,
+        "y": 197,
+        "z": -1708,
+        "observed_exposed_y": 197
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1807,
+        "y": 227,
+        "z": -1533,
+        "observed_exposed_y": 227
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1822,
+        "y": 200,
+        "z": -1714,
+        "observed_exposed_y": 200
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1822,
+        "y": 239,
+        "z": -1466,
+        "observed_exposed_y": 239
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1824,
+        "y": 235,
+        "z": -1447,
+        "observed_exposed_y": 235
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1854,
+        "y": 211,
+        "z": -1691,
+        "observed_exposed_y": 211
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1852,
+        "y": 212,
+        "z": -1648,
+        "observed_exposed_y": 212
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1840,
+        "y": 245,
+        "z": -1484,
+        "observed_exposed_y": 245
+      }
+    ],
+    "surface_candidate_states": [
+      {
+        "state": {
+          "Name": "minecraft:stone_slab",
+          "Properties": {
+            "type": "bottom",
+            "waterlogged": "false"
+          }
+        },
+        "count": 11281
+      },
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "distance": "4",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:vine",
+          "Properties": {
+            "east": "false",
+            "north": "false",
+            "south": "true",
+            "up": "false",
+            "west": "false"
+          }
+        },
+        "count": 11
+      },
+      {
+        "state": {
+          "Name": "minecraft:vine",
+          "Properties": {
+            "east": "false",
+            "north": "false",
+            "south": "false",
+            "up": "false",
+            "west": "true"
+          }
+        },
+        "count": 5
+      },
+      {
+        "state": {
+          "Name": "minecraft:spruce_leaves",
+          "Properties": {
+            "distance": "3",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 49
+      },
+      {
+        "state": {
+          "Name": "minecraft:spruce_leaves",
+          "Properties": {
+            "distance": "2",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 31
+      },
+      {
+        "state": {
+          "Name": "minecraft:spruce_leaves",
+          "Properties": {
+            "distance": "4",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 35
+      },
+      {
+        "state": {
+          "Name": "minecraft:spruce_leaves",
+          "Properties": {
+            "distance": "5",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 30
+      },
+      {
+        "state": {
+          "Name": "minecraft:spruce_leaves",
+          "Properties": {
+            "distance": "6",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 9
+      },
+      {
+        "state": {
+          "Name": "minecraft:dark_oak_leaves",
+          "Properties": {
+            "distance": "3",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 9
+      },
+      {
+        "state": {
+          "Name": "minecraft:dark_oak_leaves",
+          "Properties": {
+            "distance": "4",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 45
+      },
+      {
+        "state": {
+          "Name": "minecraft:dark_oak_leaves",
+          "Properties": {
+            "distance": "2",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 17
+      },
+      {
+        "state": {
+          "Name": "minecraft:dark_oak_leaves",
+          "Properties": {
+            "distance": "5",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 37
+      },
+      {
+        "state": {
+          "Name": "minecraft:dark_oak_leaves",
+          "Properties": {
+            "distance": "6",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 17
+      },
+      {
+        "state": {
+          "Name": "minecraft:birch_leaves",
+          "Properties": {
+            "distance": "4",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:birch_leaves",
+          "Properties": {
+            "distance": "2",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 3
+      },
+      {
+        "state": {
+          "Name": "minecraft:vine",
+          "Properties": {
+            "east": "false",
+            "north": "true",
+            "south": "false",
+            "up": "false",
+            "west": "false"
+          }
+        },
+        "count": 3
+      },
+      {
+        "state": {
+          "Name": "minecraft:vine",
+          "Properties": {
+            "east": "true",
+            "north": "false",
+            "south": "false",
+            "up": "false",
+            "west": "false"
+          }
+        },
+        "count": 3
+      },
+      {
+        "state": {
+          "Name": "minecraft:cherry_leaves",
+          "Properties": {
+            "distance": "5",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 7
+      },
+      {
+        "state": {
+          "Name": "minecraft:cherry_leaves",
+          "Properties": {
+            "distance": "6",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 2
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "false",
+            "east": "none",
+            "north": "none",
+            "south": "none",
+            "west": "low"
+          }
+        },
+        "count": 5
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "none",
+            "north": "low",
+            "south": "none",
+            "west": "low"
+          }
+        },
+        "count": 3
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "false",
+            "east": "none",
+            "north": "low",
+            "south": "none",
+            "west": "none"
+          }
+        },
+        "count": 2
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "low",
+            "north": "low",
+            "south": "none",
+            "west": "none"
+          }
+        },
+        "count": 4
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "none",
+            "north": "low",
+            "south": "none",
+            "west": "none"
+          }
+        },
+        "count": 10
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "none",
+            "north": "none",
+            "south": "none",
+            "west": "none"
+          }
+        },
+        "count": 86
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "low",
+            "north": "none",
+            "south": "none",
+            "west": "none"
+          }
+        },
+        "count": 3
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "false",
+            "east": "none",
+            "north": "none",
+            "south": "low",
+            "west": "none"
+          }
+        },
+        "count": 2
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "low",
+            "north": "none",
+            "south": "low",
+            "west": "none"
+          }
+        },
+        "count": 2
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "false",
+            "east": "low",
+            "north": "none",
+            "south": "none",
+            "west": "none"
+          }
+        },
+        "count": 3
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "none",
+            "north": "none",
+            "south": "low",
+            "west": "none"
+          }
+        },
+        "count": 5
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "none",
+            "north": "none",
+            "south": "none",
+            "west": "low"
+          }
+        },
+        "count": 8
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "none",
+            "north": "none",
+            "south": "low",
+            "west": "low"
+          }
+        },
+        "count": 2
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "none",
+            "north": "low",
+            "south": "low",
+            "west": "none"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "true",
+            "east": "low",
+            "north": "none",
+            "south": "none",
+            "west": "low"
+          }
+        },
+        "count": 2
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "false",
+            "east": "none",
+            "north": "none",
+            "south": "low",
+            "west": "low"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:pale_moss_carpet",
+          "Properties": {
+            "bottom": "false",
+            "east": "low",
+            "north": "none",
+            "south": "low",
+            "west": "none"
+          }
+        },
+        "count": 1
+      }
+    ]
+  },
+  "observed_extrema": {
+    "min": [
+      -42,
+      -8,
+      -1712
+    ],
+    "max": [
+      1851,
+      249,
+      -1483
+    ]
+  },
+  "profiles": {
+    "east-west": {
+      "columns": 2112,
+      "min_y": 35,
+      "max_y": 154,
+      "length_blocks": 2111.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "north-south": {
+      "columns": 1024,
+      "min_y": 62,
+      "max_y": 110,
+      "length_blocks": 1023.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "northwest-southeast": {
+      "columns": 1024,
+      "min_y": 62,
+      "max_y": 180,
+      "length_blocks": 1446.7404743076763,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "southwest-northeast": {
+      "columns": 1024,
+      "min_y": 62,
+      "max_y": 162,
+      "length_blocks": 1446.7404743076763,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    }
+  },
+  "water_sections": [
+    {
+      "fixed_axis": "x",
+      "coordinate": -256,
+      "water_runs": []
+    },
+    {
+      "fixed_axis": "x",
+      "coordinate": 0,
+      "water_runs": [
+        {
+          "from": -706,
+          "to": -705,
+          "width_columns": 2
+        }
+      ]
+    },
+    {
+      "fixed_axis": "x",
+      "coordinate": 255,
+      "water_runs": [
+        {
+          "from": -1566,
+          "to": -1447,
+          "width_columns": 120
+        },
+        {
+          "from": -1023,
+          "to": -930,
+          "width_columns": 94
+        }
+      ]
+    },
+    {
+      "fixed_axis": "x",
+      "coordinate": 256,
+      "water_runs": [
+        {
+          "from": -1565,
+          "to": -1447,
+          "width_columns": 119
+        },
+        {
+          "from": -1023,
+          "to": -931,
+          "width_columns": 93
+        }
+      ]
+    },
+    {
+      "fixed_axis": "x",
+      "coordinate": 512,
+      "water_runs": [
+        {
+          "from": -1396,
+          "to": -1333,
+          "width_columns": 64
+        },
+        {
+          "from": -1079,
+          "to": -1019,
+          "width_columns": 61
+        }
+      ]
+    },
+    {
+      "fixed_axis": "x",
+      "coordinate": 1096,
+      "water_runs": [
+        {
+          "from": -1475,
+          "to": -1043,
+          "width_columns": 433
+        }
+      ]
+    }
+  ]
+}

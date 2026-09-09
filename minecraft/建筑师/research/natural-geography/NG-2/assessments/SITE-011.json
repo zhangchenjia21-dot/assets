@@ -1,0 +1,531 @@
+{
+  "verdict": "CONFIRMED",
+  "refined_type": "multi_opening_coastal_embayment",
+  "confidence": "medium; interpretive mouth placement",
+  "observed_evidence": [
+    "真实岸线北侧向陆地凹入，东侧有狭长陆隔，湾内水通过东北狭水道接东侧开阔海域，并向西南敞开。",
+    "Z=-4100的东北水道连续段X=-147..-106，轴向宽42格；Z=-3800西南开放断面主水段X=-707..-264，宽444格。这两条指定断面可复查，并非自动求得的唯一湾口。",
+    "目标与东侧开阔水域验证锚点(64,-4200)属于同一真实水分量；海域测试矩形约87.8%属于该水分量，独立于ocean biome计数。"
+  ],
+  "limitations": [
+    "是多出口的沿海凹入水域，不能简化为唯一入口的封闭港湾；开口方向为形态解释。",
+    "所报宽度是指定东西向断面的柱数，不是最窄航道法向宽度。",
+    "海冰/冰山造成许多小水或干柱分量，已保留；未推断潮汐、流向、可航行性或天然港价值。",
+    "未划定唯一湾体面积；主水分量延伸到ROI边，不能把其面积当成海湾面积。"
+  ],
+  "target_id": "SITE-011",
+  "v1_type": "coastal_bay_candidate",
+  "v1_source_object": "HYD-142",
+  "roi_bounds": [
+    -832,
+    -4480,
+    191,
+    -3585
+  ],
+  "sampling_method": {
+    "initial": "8-block actual grid",
+    "adaptive": "4-block entire chunks around slope>=0.25, water transition, or target radius96",
+    "critical": "full 1-block water ROI",
+    "stored_columns": 917504,
+    "first_insert_stage_counts": {
+      "adaptive4": 12084,
+      "context8": 14336,
+      "topology1": 891084
+    },
+    "roi_reason": "围绕候选湾点覆盖凹岸和外水域，不依据单cell邻居；完整水柱连接与岸线形状共同判定。"
+  },
+  "resolution_levels": [
+    8,
+    4,
+    1
+  ],
+  "refined_metrics": {
+    "source": "assessments/SITE-011-metrics.json",
+    "sha256": "73f8c471b314b1b134768619d9d4cf9b01aa9e9f19983a082079d6b67bb814bb",
+    "observed_extrema_xyz": {
+      "min": [
+        -504,
+        38,
+        -4239
+      ],
+      "max": [
+        140,
+        110,
+        -4416
+      ]
+    },
+    "grid8_elevation": {
+      "min": 39.0,
+      "p10": 62.0,
+      "median": 64.0,
+      "p90": 76.0,
+      "max": 102.0,
+      "mean": 65.9501953125
+    },
+    "grid8_slope_rise_run": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0,
+      "p90": 0.19764235376052372,
+      "max": 3.7123106012293743,
+      "mean": 0.08829989465212072
+    },
+    "low_slope_land": {
+      "component": 9,
+      "columns": 2038,
+      "area_blocks2": 130432,
+      "bounds": [
+        -552,
+        -4480,
+        -65,
+        -3945
+      ],
+      "touches_roi_edges": [
+        "north"
+      ],
+      "grid_perimeter_blocks": 3664,
+      "contains_v1_grid_sample": false,
+      "selected_seed": [
+        -328,
+        -4056
+      ],
+      "seed_distance_to_v1_point": 35.77708763999664,
+      "area_method": "8-block sampled mask area; not exact column area",
+      "elevation": {
+        "min": 62.0,
+        "p10": 63.0,
+        "median": 66.0,
+        "p90": 67.0,
+        "max": 74.0,
+        "mean": 65.25564278704613
+      },
+      "slope": {
+        "min": 0.0,
+        "p10": 0.0,
+        "median": 0.0,
+        "p90": 0.08838834764831845,
+        "max": 0.125,
+        "mean": 0.038503401088931175
+      }
+    },
+    "target_elevation_band": {
+      "component": 15,
+      "columns": 1,
+      "area_blocks2": 64,
+      "bounds": [
+        -288,
+        -4000,
+        -281,
+        -3993
+      ],
+      "touches_roi_edges": [],
+      "grid_perimeter_blocks": 32,
+      "contains_v1_grid_sample": false,
+      "selected_seed": [
+        -288,
+        -4000
+      ],
+      "seed_distance_to_v1_point": 33.94112549695428,
+      "area_method": "8-block sampled mask area; not exact column area",
+      "elevation": {
+        "min": 70.0,
+        "p10": 70.0,
+        "median": 70.0,
+        "p90": 70.0,
+        "max": 70.0,
+        "mean": 70.0
+      },
+      "slope": {
+        "min": 1.5013015186830392,
+        "p10": 1.5013015186830392,
+        "median": 1.5013015186830392,
+        "p90": 1.5013015186830392,
+        "max": 1.5013015186830392,
+        "mean": 1.5013015186830392
+      }
+    },
+    "high_terrain_200": null,
+    "profiles": {
+      "east-west": {
+        "columns": 1024,
+        "min_y": 62,
+        "max_y": 74,
+        "length_blocks": 1023.0,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "north-south": {
+        "columns": 896,
+        "min_y": 57,
+        "max_y": 70,
+        "length_blocks": 895.0,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "northwest-southeast": {
+        "columns": 896,
+        "min_y": 41,
+        "max_y": 83,
+        "length_blocks": 1265.72113832392,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "southwest-northeast": {
+        "columns": 896,
+        "min_y": 59,
+        "max_y": 89,
+        "length_blocks": 1265.72113832392,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      }
+    },
+    "opening_evidence": {
+      "open_water_anchor_xz": [
+        64,
+        -4200
+      ],
+      "same_real_water_component": true,
+      "open_water_test_rectangle": [
+        0,
+        -4464,
+        176,
+        -4145
+      ],
+      "fraction_in_target_water_component": 0.878177966101695,
+      "sections": [
+        {
+          "fixed_axis": "z",
+          "coordinate": -4300,
+          "water_runs": [
+            {
+              "from": -655,
+              "to": -628,
+              "width_columns": 28
+            },
+            {
+              "from": -109,
+              "to": -71,
+              "width_columns": 39
+            },
+            {
+              "from": -10,
+              "to": 29,
+              "width_columns": 40
+            },
+            {
+              "from": 41,
+              "to": 191,
+              "width_columns": 151
+            }
+          ]
+        },
+        {
+          "fixed_axis": "z",
+          "coordinate": -4200,
+          "water_runs": [
+            {
+              "from": -672,
+              "to": -636,
+              "width_columns": 37
+            },
+            {
+              "from": -129,
+              "to": -95,
+              "width_columns": 35
+            },
+            {
+              "from": -2,
+              "to": 191,
+              "width_columns": 194
+            }
+          ]
+        },
+        {
+          "fixed_axis": "z",
+          "coordinate": -4100,
+          "water_runs": [
+            {
+              "from": -643,
+              "to": -605,
+              "width_columns": 39
+            },
+            {
+              "from": -147,
+              "to": -106,
+              "width_columns": 42
+            },
+            {
+              "from": -22,
+              "to": 191,
+              "width_columns": 214
+            }
+          ]
+        },
+        {
+          "fixed_axis": "z",
+          "coordinate": -4000,
+          "water_runs": [
+            {
+              "from": -592,
+              "to": -557,
+              "width_columns": 36
+            },
+            {
+              "from": -410,
+              "to": -308,
+              "width_columns": 103
+            },
+            {
+              "from": -303,
+              "to": -290,
+              "width_columns": 14
+            },
+            {
+              "from": -249,
+              "to": -249,
+              "width_columns": 1
+            },
+            {
+              "from": -247,
+              "to": -199,
+              "width_columns": 49
+            },
+            {
+              "from": -176,
+              "to": -112,
+              "width_columns": 65
+            }
+          ]
+        },
+        {
+          "fixed_axis": "z",
+          "coordinate": -3900,
+          "water_runs": [
+            {
+              "from": -607,
+              "to": -507,
+              "width_columns": 101
+            },
+            {
+              "from": -503,
+              "to": -497,
+              "width_columns": 7
+            },
+            {
+              "from": -491,
+              "to": -474,
+              "width_columns": 18
+            },
+            {
+              "from": -466,
+              "to": -452,
+              "width_columns": 15
+            },
+            {
+              "from": -438,
+              "to": -304,
+              "width_columns": 135
+            },
+            {
+              "from": -270,
+              "to": -267,
+              "width_columns": 4
+            },
+            {
+              "from": -258,
+              "to": -258,
+              "width_columns": 1
+            },
+            {
+              "from": -256,
+              "to": -256,
+              "width_columns": 1
+            },
+            {
+              "from": -246,
+              "to": -227,
+              "width_columns": 20
+            },
+            {
+              "from": -215,
+              "to": -99,
+              "width_columns": 117
+            }
+          ]
+        },
+        {
+          "fixed_axis": "z",
+          "coordinate": -3800,
+          "water_runs": [
+            {
+              "from": -707,
+              "to": -264,
+              "width_columns": 444
+            },
+            {
+              "from": -246,
+              "to": -205,
+              "width_columns": 42
+            }
+          ]
+        },
+        {
+          "fixed_axis": "z",
+          "coordinate": -3700,
+          "water_runs": [
+            {
+              "from": -832,
+              "to": -351,
+              "width_columns": 482
+            }
+          ]
+        }
+      ],
+      "direction_interpretation": "broad southwest opening and narrower northeast connection; not a unique mathematically fixed mouth"
+    }
+  },
+  "water_topology": {
+    "method": "1-block columns; four-neighbor real water vertical intervals must share at least one Y; no interpolation or biome connectivity",
+    "water_columns": 341794,
+    "land_columns": 575710,
+    "water_components": 9950,
+    "land_components": 1184,
+    "target_is_water": true,
+    "primary_water": {
+      "component": 1,
+      "columns": 314121,
+      "area_blocks2": 314121,
+      "bounds": [
+        -832,
+        -4480,
+        191,
+        -3585
+      ],
+      "touches_roi_edges": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "grid_perimeter_blocks": 13912,
+      "elevation": {
+        "min": 42.0,
+        "p10": 61.0,
+        "median": 62.0,
+        "p90": 62.0,
+        "max": 62.0,
+        "mean": 61.47458145109687
+      },
+      "depth": {
+        "min": 1.0,
+        "p10": 3.0,
+        "median": 16.0,
+        "p90": 22.0,
+        "max": 59.0,
+        "mean": 13.342953829893576
+      },
+      "biomes": {
+        "minecraft:snowy_taiga": 27462,
+        "minecraft:frozen_river": 23373,
+        "minecraft:snowy_beach": 31420,
+        "minecraft:frozen_ocean": 100530,
+        "minecraft:snowy_plains": 9552,
+        "terralith:cold_shrubland": 11675,
+        "minecraft:cold_ocean": 43131,
+        "minecraft:beach": 44444,
+        "minecraft:plains": 4534,
+        "minecraft:forest": 368,
+        "minecraft:river": 17632
+      }
+    },
+    "primary_land": {
+      "component": 684,
+      "columns": 1,
+      "area_blocks2": 1,
+      "bounds": [
+        -301,
+        -4013,
+        -301,
+        -4013
+      ],
+      "touches_roi_edges": [],
+      "grid_perimeter_blocks": 4
+    },
+    "largest_water_components": [
+      314121,
+      12475,
+      2423,
+      113,
+      45,
+      33,
+      32,
+      28,
+      25,
+      22
+    ],
+    "flow_direction": "not inferred",
+    "land_boundary_neighbor_water_components": [
+      5747,
+      5780,
+      5810,
+      5843
+    ],
+    "outer_boundary_water_components": [
+      5747,
+      5780,
+      5810,
+      5843
+    ],
+    "interior_water_boundary_columns": 0,
+    "land_fully_enclosed_by_one_water_component": false,
+    "land_highest": {
+      "x": -301,
+      "y": 67,
+      "z": -4013
+    }
+  },
+  "anthropogenic_contamination": "possible",
+  "anthropogenic_evidence": {
+    "candidate_material_columns": 0,
+    "near_surface_or_waystone_entity_counts": {
+      "minecraft:chest": 1,
+      "minecraft:mob_spawner": 1,
+      "waystones:waystone": 4,
+      "minecraft:beehive": 1
+    },
+    "details": "assessments/SITE-011-metrics.json#/material_context",
+    "interpretation": "Observed Waystones and candidate materials have unresolved generated/player origin. No evidence here establishes landscape-scale grading; local interventions cannot be excluded. Retain all surfaces and lower origin confidence rather than infer pristine terrain.",
+    "material_origin_context": "validation/worldgen-material-context.json",
+    "limitations": "Material checks cover requested surface columns; entity inventory covers decoded chunks. Natural-material edits and unobserved small structures can be missed."
+  },
+  "provenance": {
+    "base_commit": "4b9b1f7e600708ff67e1ef2f844a9d3de0ba2242",
+    "world_snapshot": "manifest/world-before.json",
+    "v1_snapshot": "manifest/v1-before.json",
+    "v1_site_record": "../V1/survey/sites/SITE.jsonl#SITE-011",
+    "queryable_store": "raw-or-queryable/refinement.sqlite (restore archive first)",
+    "sample_trace": "target_samples(target,x,z) -> samples(x,z) -> chunks(x>>4,z>>4) -> region path -> world-before SHA256",
+    "decoded_chunks": 3584,
+    "regions": [
+      "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+      "dimensions/minecraft/overworld/region/r.-1.-9.mca",
+      "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+      "dimensions/minecraft/overworld/region/r.-2.-9.mca",
+      "dimensions/minecraft/overworld/region/r.0.-8.mca",
+      "dimensions/minecraft/overworld/region/r.0.-9.mca"
+    ],
+    "representative_sample": {
+      "x": -312,
+      "z": -4024,
+      "surface_y": 62,
+      "exposed_y": 62,
+      "ocean_floor_y": 62,
+      "water_y": 61,
+      "water_bottom": 46,
+      "surface_state": 114,
+      "exposed_state": 114,
+      "water_state": 91,
+      "biome": 18,
+      "ice_covered": 1,
+      "artificial_material": 0
+    },
+    "interpretation_authority": "human-readable model assessment; not a threshold-generated verdict, not World Canon",
+    "in_game_visual_review": "BLOCKED_BY_SAFE_ENVIRONMENT"
+  }
+}

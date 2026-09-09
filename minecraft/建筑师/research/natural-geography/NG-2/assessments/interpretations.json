@@ -1,0 +1,58 @@
+{
+  "SITE-002": {
+    "verdict": "CONFIRMED",
+    "refined_type": "local_rocky_ridge_saddle",
+    "confidence": "medium; local saddle only",
+    "observed_evidence": ["V1点Y=614本身是1柱微凹点；但逐列核心存在相邻的东西向连续低通道，不能仅因单点凹陷否定鞍部。", "256×256核心内保守四邻步进路径最高Y=621，870柱，最近经过V1点约17.1格；路径要求相邻整数高度差≤1、无水且顶部无遮挡。", "V1点南北64格处高程635/640，东西64格为612/603；对应局部横向高脊与东西较低地形。四条整ROI断面和核心等高线共同支持浅鞍部。"],
+    "limitations": ["CONFIRMED仅确认邻近的局部浅鞍部，不确认跨整座山脉的区域通道。", "NS最低路径位于核心东缘低坡，不能当成穿过鞍部的横断面。", "步进路径不是Minecraft实体导航；未模拟slab半格碰撞、跳跃及全程头部净空。", "材料和Waystone来源不确定，未恢复原始自然地形。"]
+  },
+  "SITE-005": {
+    "verdict": "RECLASSIFIED",
+    "refined_type": "mountain_front_gentle_apron_beside_river_lowland",
+    "confidence": "high within expanded ROI",
+    "observed_evidence": ["东西剖面从西侧约Y=302的山体急降到约105，再缓降至东侧Y=62水道；向东扩512格仍未建立相对的高谷壁。", "南北剖面Y=84..147，主要是缓坡起伏，并非稳定的双壁谷底纵槽。", "河流伴生确实存在，但不能把河流西岸山前缓坡直接称作宽谷。宽度辅助量只度量高度带连续段，不冒充谷底宽度。"],
+    "limitations": ["拒绝的是本ROI内连续双壁宽谷解释；更远处地形不在本次结论范围。", "无可靠双侧谷壁时谷底宽度为不适用，不输出虚构谷宽。", "河流流向、成因及侵蚀历史未判断。"]
+  },
+  "SITE-015": {
+    "verdict": "CONFIRMED",
+    "refined_type": "riverside_low_relief_plain_sector",
+    "confidence": "high for local plain; area is sampled and censored",
+    "observed_evidence": ["距V1点16格的低坡连片区域8格网估算619136 blocks²，高程61..78，中位68；坡度中位0.0625、P90约0.0884。", "V1点位于水岸过渡，本身不满足该低坡mask；明确保留最近分量seed=(-824,-3368)，不把面积归给单一64格cell。", "东北侧起伏至约102，水岸切分低地；读到的-27洞口低点保留并完成独立竖向验证，没有平滑填平。"],
+    "limitations": ["面积为真实8格点网的mask面积估计，非逐列精确平原面积；分量在北/南/西触ROI边。", "洞口、植被及零星改造对表面代理有影响；不是裸地DEM或原始地形重建。"]
+  },
+  "SITE-014": {
+    "verdict": "CONFIRMED",
+    "refined_type": "elevated_tableland_bench_sector",
+    "confidence": "high for local tableland; regional extent open",
+    "observed_evidence": ["包含V1点的低坡台面8格网估算193088 blocks²，高程183..200，中位191；坡度中位0.0625。", "台面相对东北水面约高130格，西侧接更高山体；局部连续台面与边缘坡降并存，符合山侧台地。", "目标高程±12带连片348992 blocks²，不能用其外包矩形冒充整个高原。"],
+    "limitations": ["低坡台面在北/东触边，高程带在北/南/东触边；未确认完整高原闭合边界。", "面积为8格采样估计；局部4格细化和逐列断面用于验证边缘，不等于整ROI逐列读取。"]
+  },
+  "SITE-017": {
+    "verdict": "CONFIRMED",
+    "refined_type": "continuous_mountain_massif_flank",
+    "confidence": "high for spatial continuity",
+    "observed_evidence": ["Y≥200的8格连通地形估算2459328 blocks²，覆盖V1点并向ROI四边延伸，不是孤立阈值碎片。", "更细样本最高点(3584,711,-2012)位于东侧高山群；东西剖面从西部山麓经起伏肩部到东部高脊，南北剖面显示南侧低槽。", "观测表面高程62..711，中央起伏山肩与东西向高差共同支持连续山体。"],
+    "limitations": ["711是当前已采样柱最高值，不承诺整个ROI或整个山体的绝对主峰。", "高地mask为操作性辅助指标，不自动等同山地语义边界；边缘仍开放。"]
+  },
+  "SITE-019": {
+    "verdict": "RECLASSIFIED",
+    "refined_type": "connected_branching_channel_with_widened_reach",
+    "confidence": "high for open connected water geometry",
+    "observed_evidence": ["2162688根实测柱中，目标水分量面积308380 blocks²；向西补读后确认连接两支水道，最终分量向北/南ROI边界继续延伸。", "旧西界X=256有119与93格两个连续水段，X=255相邻柱保持实际共享水层连接。不是封闭独立湖体。", "目标X=1096处纵向水段433格，西侧X=512两支仅64/61格，呈局部展宽与分支水道。water block证据优先；river biome只作为另列背景。"],
+    "limitations": ["面积仅为ROI内水分量，不是整条河或流域面积；展宽处也可称河湖过渡段。", "不推断上下游、流向、汇流或水源，二维表层拓扑不覆盖全部地下水。"]
+  },
+  "SITE-003": {
+    "verdict": "CONFIRMED",
+    "refined_type": "low_coastal_island_with_internal_ponds",
+    "confidence": "high for present surface island topology",
+    "observed_evidence": ["逐列陆地分量575385 blocks²，bounds=[-718,1419,280,2518]，尺度999×1100格，不触ROI边。", "排除内部池塘后，外岸全部接同一个真实连续水分量；内池塘没有被当作外海断裂。最高过滤后岛面(-294,79,2129)。", "岛岸弯曲、北侧钩状伸展并有向内部凹入水道；外围水分量达ROI四边，西/北/南较开阔，东侧有相邻高地与较窄水隔。"],
+    "limitations": ["陆地面积扣除内水柱；岸线长度为四邻栅格边长度，非平滑曲线测量。", "土径材料可来自Terralith地表规则，单块来源未证明；岛体地形保留现状。", "只确认表层水陆包围，不确认地下连桥、航道深度或港口条件。"]
+  },
+  "SITE-011": {
+    "verdict": "CONFIRMED",
+    "refined_type": "multi_opening_coastal_embayment",
+    "confidence": "medium; interpretive mouth placement",
+    "observed_evidence": ["真实岸线北侧向陆地凹入，东侧有狭长陆隔，湾内水通过东北狭水道接东侧开阔海域，并向西南敞开。", "Z=-4100的东北水道连续段X=-147..-106，轴向宽42格；Z=-3800西南开放断面主水段X=-707..-264，宽444格。这两条指定断面可复查，并非自动求得的唯一湾口。", "目标与东侧开阔水域验证锚点(64,-4200)属于同一真实水分量；海域测试矩形约87.8%属于该水分量，独立于ocean biome计数。"],
+    "limitations": ["是多出口的沿海凹入水域，不能简化为唯一入口的封闭港湾；开口方向为形态解释。", "所报宽度是指定东西向断面的柱数，不是最窄航道法向宽度。", "海冰/冰山造成许多小水或干柱分量，已保留；未推断潮汐、流向、可航行性或天然港价值。", "未划定唯一湾体面积；主水分量延伸到ROI边，不能把其面积当成海湾面积。"]
+  }
+}

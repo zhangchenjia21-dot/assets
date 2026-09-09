@@ -1,0 +1,237 @@
+{
+  "packaging/requirements.txt": {
+    "size": 42,
+    "mtime_ns": 1788929122231609500,
+    "sha256": "6b026dce9bba3526133a9a8fc73eb9bf3ed1a11d1b207085763730f558d27b53"
+  },
+  "packaging/发布归档.json": {
+    "size": 7295,
+    "mtime_ns": 1788929122231609500,
+    "sha256": "76965b831b597119dbfe900d3e96e285ceecb60aebf2a4996f277e19e75ebe22"
+  },
+  "packaging/调查成果归档.py": {
+    "size": 2765,
+    "mtime_ns": 1788929122233040000,
+    "sha256": "438578fb212263289ef3af78256e8bcbaeef350fc4d09e77e158bb0eb4bae309"
+  },
+  "README.md": {
+    "size": 1177,
+    "mtime_ns": 1788929122231609500,
+    "sha256": "01ad47a11e276fdbb73b30ac4dcddabdde7de7434a952c5d5575febd60c97922"
+  },
+  "survey/atlas/adjacency.jsonl": {
+    "size": 156629,
+    "mtime_ns": 1788929122241045600,
+    "sha256": "0eb739303a4fe794b5463a35768c24944c69faafc847b16f89c1159132b2f12f"
+  },
+  "survey/atlas/detector-assessment.json": {
+    "size": 52072,
+    "mtime_ns": 1788929122242046700,
+    "sha256": "10bc23e70a9f47d654a531bb089ba303cb92edfffc1ad218327d39ae040718b7"
+  },
+  "survey/atlas/FEAT.jsonl": {
+    "size": 1065791,
+    "mtime_ns": 1788929122236046200,
+    "sha256": "c94266aca45407089b62c343076d8fbb711b9a6774ef27364fa5a362fc87cd3d"
+  },
+  "survey/atlas/GEO.jsonl": {
+    "size": 1004132,
+    "mtime_ns": 1788929122239047600,
+    "sha256": "abc17fecc99f3ed868a682d46d754ab6dcc96c3c14fd5423c41db1e6ef53cc58"
+  },
+  "survey/atlas/HYD.jsonl": {
+    "size": 348929,
+    "mtime_ns": 1788929122240047500,
+    "sha256": "79669d2d9e9025c75bc3d6143655fc7556d15c1066093a960b613285384cba2b"
+  },
+  "survey/manifest/coverage.json": {
+    "size": 2949,
+    "mtime_ns": 1788929122242046700,
+    "sha256": "88e68904029f8b2513e1c13e3704c841698b6f5f240162f46febafe7822b53df"
+  },
+  "survey/manifest/schema.json": {
+    "size": 3848,
+    "mtime_ns": 1788929122242046700,
+    "sha256": "e458bc42eb14f6b135975d4c80ae29d4fc03b1221ca62a83965b7a969fabd31b"
+  },
+  "survey/manifest/source-after.json": {
+    "size": 309763,
+    "mtime_ns": 1788929122244633600,
+    "sha256": "b2317e91513e021b3d439402791dec3f00877e949acfca7364579f9e56c9d5af"
+  },
+  "survey/manifest/source-before.json": {
+    "size": 309763,
+    "mtime_ns": 1788929122245640600,
+    "sha256": "b2317e91513e021b3d439402791dec3f00877e949acfca7364579f9e56c9d5af"
+  },
+  "survey/manifest/survey.json": {
+    "size": 5824,
+    "mtime_ns": 1788929122246640400,
+    "sha256": "7f99fa9583c7a3719b981f61074a6b6f4bb578f21b82aae61ae94c5c2cb8827c"
+  },
+  "survey/manifest/toolchain.json": {
+    "size": 1726,
+    "mtime_ns": 1788929122246640400,
+    "sha256": "2cc914db96e2dcf2c6a7c365e5f04a3af7da291ade77aadab8ba168c24622e49"
+  },
+  "survey/manifest/write-audit.json": {
+    "size": 315,
+    "mtime_ns": 1788929122246640400,
+    "sha256": "0542eb90384e239a50763ed7117bb009f4942f6cc3c71af0b257eb0875c2bced"
+  },
+  "survey/raw/geography.sqlite.gz": {
+    "size": 20611191,
+    "mtime_ns": 1788929122348219800,
+    "sha256": "fd98df47de4067dbed9785723681a3f82f81ec3649696bbcd99b258f43f99923"
+  },
+  "survey/README.md": {
+    "size": 5922,
+    "mtime_ns": 1788929122233040000,
+    "sha256": "b9905bc40f53e5caceea3b24f1ba8ecff3bfb68b43d4be93d9691f6141cd8d3f"
+  },
+  "survey/reports/database-validation.json": {
+    "size": 98,
+    "mtime_ns": 1788929122352323500,
+    "sha256": "d26decd4cbf11400ead9e327c254b26f22cb8b580e7072060bcc219ea5a4672c"
+  },
+  "survey/reports/delivery-validation.json": {
+    "size": 17405,
+    "mtime_ns": 1788929122353322600,
+    "sha256": "a6c8df323ba7dc64f7f15c40c56d4c6a3b112bbc557c2c516bdb633bc994ed9c"
+  },
+  "survey/reports/incremental-baseline.json": {
+    "size": 282,
+    "mtime_ns": 1788929122353322600,
+    "sha256": "6965b268c913e61998b191a5f1ee69648e1e60a1b1dec4f07fa591a849652093"
+  },
+  "survey/reports/incremental-validation.json": {
+    "size": 737,
+    "mtime_ns": 1788929122354323100,
+    "sha256": "fd851d84d306fcd022bd021a857dbc6676a145bc467d20b56c5a78daadaa2820"
+  },
+  "survey/reports/map-legends.json": {
+    "size": 7191,
+    "mtime_ns": 1788929122354323100,
+    "sha256": "18a5a17f7b08cad0e1cc25972127592d8102b5dc8ca0256a4a278e871da03916"
+  },
+  "survey/reports/sample-validation.json": {
+    "size": 14427,
+    "mtime_ns": 1788929122355322200,
+    "sha256": "d14c07ab83f0ef829f136af45b6264a074df80bd9206afedf06b6de0be72cdbe"
+  },
+  "survey/reports/summary.md": {
+    "size": 4208,
+    "mtime_ns": 1788929122355322200,
+    "sha256": "10c5cc28bf111d98e8fa8c22893712ea7abe6e69aa1c959016f44cf9b601901b"
+  },
+  "survey/reports/visual-review.json": {
+    "size": 1538,
+    "mtime_ns": 1788929122355322200,
+    "sha256": "b1bb4051e10b9f0439172f6a4006a5eaed3e82e239b2dd8b19797cc357c23c5b"
+  },
+  "survey/scripts/Bootstrap/调查命令.py": {
+    "size": 731,
+    "mtime_ns": 1788929122356322600,
+    "sha256": "ee3fd47385125a118f1d41893e93eac31762336acfc85b57b110820f0f61a40a"
+  },
+  "survey/scripts/L0_公理层/地理契约.py": {
+    "size": 951,
+    "mtime_ns": 1788929122357322300,
+    "sha256": "c573a87a1420c073a9f03bc1f20cb2e50e47985e760330e4d2e1179eb556e57a"
+  },
+  "survey/scripts/L1_器件层/区块状态读取器.py": {
+    "size": 2494,
+    "mtime_ns": 1788929122357322300,
+    "sha256": "ce785cee673787a30767dbe91439d7a3adbb9a2faa65da38c3343717cb71e8ec"
+  },
+  "survey/scripts/L1_器件层/地图生成器.py": {
+    "size": 10645,
+    "mtime_ns": 1788929122358322500,
+    "sha256": "8c877269225022964bdaf177b5397577e88ae39d921a8498c3ab9910d27ebd99"
+  },
+  "survey/scripts/L1_器件层/地理存储器.py": {
+    "size": 1842,
+    "mtime_ns": 1788929122358322500,
+    "sha256": "c68411feff3f889ab911f7feafcbde14557bc47b97e40685f486d7db0aff4530"
+  },
+  "survey/scripts/L1_器件层/地貌推导器.py": {
+    "size": 11479,
+    "mtime_ns": 1788929122359323200,
+    "sha256": "60ecf6dff4f69ad38a686cbda7f9e725dc20e4e18dde93134c0d3226b8a5ef2d"
+  },
+  "survey/scripts/L1_器件层/存档读取器.py": {
+    "size": 6177,
+    "mtime_ns": 1788929122359323200,
+    "sha256": "068a16a65e062a0501a5c650d6deb5a354e987cf4592d72d4037ec29f42b62f9"
+  },
+  "survey/scripts/L2_流程层/自然调查流程.py": {
+    "size": 13516,
+    "mtime_ns": 1788929122360323600,
+    "sha256": "bcf76057dfdbe72985fa1195ea5786e77c24290aec4e3939b978a8113ef8ef54"
+  },
+  "survey/scripts/L3_外交层/自然调查接口.py": {
+    "size": 683,
+    "mtime_ns": 1788929122360323600,
+    "sha256": "8dbbd7670b4a560c63b6a1b5d966970b2a14a20045c7f4f8bd6c1a4bf68f4f0b"
+  },
+  "survey/scripts/测试/增量复用测试.py": {
+    "size": 1685,
+    "mtime_ns": 1788929122361323900,
+    "sha256": "1601bc366b524be810c79276fc0a41940e0e9d416d822dacc6489508abe7598e"
+  },
+  "survey/scripts/测试/存档解码测试.py": {
+    "size": 914,
+    "mtime_ns": 1788929122361323900,
+    "sha256": "d77d072385583f2776c9459c2561a3c70b4dc10c69e275a3e38cc4b09ad59aac"
+  },
+  "survey/scripts/测试/调查交付验证.py": {
+    "size": 5905,
+    "mtime_ns": 1788929122361323900,
+    "sha256": "dd89eba908b917f505ea6b7095e3f0dc490b2826e3b665cbce8b002f3688eec5"
+  },
+  "survey/sites/SITE.jsonl": {
+    "size": 19773,
+    "mtime_ns": 1788929122362323400,
+    "sha256": "367d3cb723af79ba229d205a80919b71fa9feb8380d55298c005c124ae3a2cfb"
+  },
+  "survey/visual/biome-overview.png": {
+    "size": 34184,
+    "mtime_ns": 1788929122365324200,
+    "sha256": "e53c1120ba4a61b4c09f4c0327ececbdefc53461440cdad613a8416ad5a65b48"
+  },
+  "survey/visual/generated-chunk-coverage.png": {
+    "size": 14228,
+    "mtime_ns": 1788929122365324200,
+    "sha256": "bd148f41c0c7faab3208a24d4590e643dfb33a4bcef28a0b6c14976552c60743"
+  },
+  "survey/visual/GEO-labeled-map.png": {
+    "size": 85745,
+    "mtime_ns": 1788929122363323000,
+    "sha256": "dcf3f1e130bc778160f558fd456ffbfdaacf5b4be231fb4a57f0ac4739b3e70a"
+  },
+  "survey/visual/heightmap.png": {
+    "size": 52184,
+    "mtime_ns": 1788929122366323100,
+    "sha256": "81e7160f791442759f7b79cfde360e8134fd9753424540a492499f076800ac5e"
+  },
+  "survey/visual/SITE-overview-map.png": {
+    "size": 59711,
+    "mtime_ns": 1788929122364322600,
+    "sha256": "7af781c634590b215e5d2e131952d81cb8131d20597e5c73c8db8f7c86b0a477"
+  },
+  "survey/visual/terrain-region-map.png": {
+    "size": 33344,
+    "mtime_ns": 1788929122367324800,
+    "sha256": "6bfe0d7bcac3250172cefb153332da844842ba5f88c4b93de94cc9ae39a1ee93"
+  },
+  "survey/visual/water-map.png": {
+    "size": 24410,
+    "mtime_ns": 1788929122368322900,
+    "sha256": "fc22b953551f7c3d78b577cf87f3a8756e19f3da015c9a56de012d7f78bd03a8"
+  },
+  "独立审核.md": {
+    "size": 2989,
+    "mtime_ns": 1788929122368322900,
+    "sha256": "1532a6fb60d25cb615edacf8ec5ef79560eeea79536b5416036328fdd0ef40f0"
+  }
+}

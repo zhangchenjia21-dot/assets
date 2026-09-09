@@ -1,0 +1,10 @@
+{
+  "world_writes": 0,
+  "world_inventory_sha256_size_mtime_equal": true,
+  "world_file_count": 1524,
+  "world_bytes": 6658996007,
+  "v1_inventory_sha256_size_mtime_equal": true,
+  "v1_file_count": 47,
+  "protection": "GENERIC_READ / FILE_SHARE_READ for all original world and V1 files; no Minecraft process launched",
+  "in_game_visual_review": "BLOCKED_BY_SAFE_ENVIRONMENT"
+}

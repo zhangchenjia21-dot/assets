@@ -1,0 +1,525 @@
+{
+  "kind": "installed worldgen material context, not individual block origin proof",
+  "jar_name": "Terralith_26.2_v2.6.4.jar",
+  "jar_sha256": "d867c6f348e869c19e8a5979e9dd2c46ed058c1edb47090f6863c32cce484917",
+  "entries": [
+    {
+      "entry": "data/terralith/worldgen/configured_feature/canyon/generic/slab_stone.json",
+      "sha256": "5e15454d15a69343709702ffe598836a134a4a725c3c9dd881c1ef385f56afc9",
+      "json": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:stone_slab"
+            }
+          }
+        }
+      }
+    },
+    {
+      "entry": "data/terralith/worldgen/placed_feature/erosion/slabs.json",
+      "sha256": "84387273a5d1d2d6da7deab65ac67de11fbac68d157e6501bae3c34d72a5749b",
+      "json": {
+        "feature": "terralith:canyon/generic/slab_stone",
+        "placement": [
+          {
+            "type": "minecraft:count",
+            "count": 20
+          },
+          {
+            "type": "minecraft:count",
+            "count": 30
+          },
+          {
+            "type": "minecraft:in_square"
+          },
+          {
+            "type": "minecraft:noise_based_count",
+            "noise_factor": 900,
+            "noise_offset": 0.0,
+            "noise_to_count_ratio": -1
+          },
+          {
+            "type": "minecraft:heightmap",
+            "heightmap": "WORLD_SURFACE"
+          },
+          {
+            "type": "minecraft:block_predicate_filter",
+            "predicate": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:air"
+                  ]
+                },
+                {
+                  "type": "minecraft:matching_blocks",
+                  "blocks": [
+                    "minecraft:stone"
+                  ],
+                  "offset": [
+                    0,
+                    -1,
+                    0
+                  ]
+                },
+                {
+                  "type": "minecraft:any_of",
+                  "predicates": [
+                    {
+                      "type": "minecraft:all_of",
+                      "predicates": [
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:stone"
+                          ],
+                          "offset": [
+                            -1,
+                            0,
+                            0
+                          ]
+                        },
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:air"
+                          ],
+                          "offset": [
+                            -1,
+                            1,
+                            0
+                          ]
+                        },
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:stone"
+                          ],
+                          "offset": [
+                            1,
+                            -1,
+                            0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:all_of",
+                      "predicates": [
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:stone"
+                          ],
+                          "offset": [
+                            1,
+                            0,
+                            0
+                          ]
+                        },
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:air"
+                          ],
+                          "offset": [
+                            1,
+                            1,
+                            0
+                          ]
+                        },
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:stone"
+                          ],
+                          "offset": [
+                            -1,
+                            -1,
+                            0
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:all_of",
+                      "predicates": [
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:stone"
+                          ],
+                          "offset": [
+                            0,
+                            0,
+                            -1
+                          ]
+                        },
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:air"
+                          ],
+                          "offset": [
+                            0,
+                            1,
+                            -1
+                          ]
+                        },
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:stone"
+                          ],
+                          "offset": [
+                            0,
+                            -1,
+                            1
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "minecraft:all_of",
+                      "predicates": [
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:stone"
+                          ],
+                          "offset": [
+                            0,
+                            0,
+                            1
+                          ]
+                        },
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:air"
+                          ],
+                          "offset": [
+                            0,
+                            1,
+                            1
+                          ]
+                        },
+                        {
+                          "type": "minecraft:matching_blocks",
+                          "blocks": [
+                            "minecraft:stone"
+                          ],
+                          "offset": [
+                            0,
+                            -1,
+                            -1
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "minecraft:biome"
+          }
+        ]
+      }
+    },
+    {
+      "entry": "data/minecraft/worldgen/biome/stony_peaks.json",
+      "sha256": "afbd0b678e4152733e57a7a818226762d9e7bd2939f5931e18094252ffe43c2d",
+      "json": {
+        "attributes": {
+          "minecraft:visual/fog_color": 12638463,
+          "minecraft:visual/water_fog_color": 329011,
+          "minecraft:visual/sky_color": 7776511,
+          "minecraft:audio/background_music": {
+            "default": {
+              "max_delay": 24000,
+              "min_delay": 12000,
+              "replace_current_music": false,
+              "sound": "minecraft:music.overworld.stony_peaks"
+            }
+          },
+          "minecraft:audio/ambient_sounds": {
+            "mood": {
+              "block_search_extent": 8,
+              "offset": 2,
+              "sound": "minecraft:ambient.cave",
+              "tick_delay": 6000
+            }
+          }
+        },
+        "carvers": [
+          "minecraft:cave",
+          "minecraft:cave_extra_underground",
+          "minecraft:canyon"
+        ],
+        "downfall": 0.3,
+        "effects": {
+          "water_color": 4159204
+        },
+        "features": [
+          [
+            "terralith:erosion/wind_line",
+            "terralith:erosion/wind_line_special",
+            "terralith:erosion/tuff_line",
+            "terralith:erosion/cobble_line",
+            "terralith:erosion/moss_line",
+            "terralith:erosion/slabs"
+          ],
+          [
+            "minecraft:lake_lava_underground",
+            "minecraft:lake_lava_surface"
+          ],
+          [
+            "minecraft:amethyst_geode"
+          ],
+          [
+            "minecraft:monster_room",
+            "minecraft:monster_room_deep"
+          ],
+          [],
+          [],
+          [
+            "minecraft:ore_gravel",
+            "minecraft:ore_granite_upper",
+            "minecraft:ore_granite_lower",
+            "minecraft:ore_diorite_upper",
+            "minecraft:ore_diorite_lower",
+            "minecraft:ore_andesite_upper",
+            "minecraft:ore_andesite_lower",
+            "minecraft:ore_tuff",
+            "minecraft:ore_coal_upper",
+            "minecraft:ore_coal_lower",
+            "minecraft:ore_iron_upper",
+            "minecraft:ore_iron_middle",
+            "minecraft:ore_iron_small",
+            "minecraft:ore_gold",
+            "minecraft:ore_gold_lower",
+            "minecraft:ore_redstone",
+            "minecraft:ore_redstone_lower",
+            "minecraft:ore_diamond",
+            "minecraft:ore_diamond_medium",
+            "minecraft:ore_diamond_large",
+            "minecraft:ore_diamond_buried",
+            "minecraft:ore_lapis",
+            "minecraft:ore_lapis_buried",
+            "minecraft:ore_copper",
+            "minecraft:underwater_magma",
+            "minecraft:disk_sand",
+            "minecraft:disk_clay",
+            "minecraft:disk_gravel",
+            "minecraft:ore_emerald"
+          ],
+          [
+            "minecraft:ore_infested"
+          ],
+          [
+            "minecraft:spring_water",
+            "minecraft:spring_lava"
+          ],
+          [
+            "minecraft:glow_lichen"
+          ],
+          [
+            "minecraft:freeze_top_layer"
+          ]
+        ],
+        "has_precipitation": true,
+        "spawn_costs": {},
+        "spawners": {
+          "ambient": [
+            {
+              "type": "minecraft:bat",
+              "maxCount": 8,
+              "minCount": 8,
+              "weight": 10
+            }
+          ],
+          "axolotls": [],
+          "creature": [],
+          "misc": [],
+          "monster": [
+            {
+              "type": "minecraft:spider",
+              "maxCount": 4,
+              "minCount": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:zombie",
+              "maxCount": 4,
+              "minCount": 4,
+              "weight": 95
+            },
+            {
+              "type": "minecraft:zombie_villager",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 5
+            },
+            {
+              "type": "minecraft:skeleton",
+              "maxCount": 4,
+              "minCount": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:creeper",
+              "maxCount": 4,
+              "minCount": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:slime",
+              "maxCount": 4,
+              "minCount": 4,
+              "weight": 100
+            },
+            {
+              "type": "minecraft:enderman",
+              "maxCount": 4,
+              "minCount": 1,
+              "weight": 10
+            },
+            {
+              "type": "minecraft:witch",
+              "maxCount": 1,
+              "minCount": 1,
+              "weight": 5
+            }
+          ],
+          "underground_water_creature": [
+            {
+              "type": "minecraft:glow_squid",
+              "maxCount": 6,
+              "minCount": 4,
+              "weight": 10
+            }
+          ],
+          "water_ambient": [],
+          "water_creature": []
+        },
+        "temperature": 1
+      }
+    },
+    {
+      "entry": "data/minecraft/worldgen/noise_settings/overworld.json",
+      "sha256": "fec4df167ce179febe749d71f1be17812c8bf2b735d5c09a1757cc500b368c99",
+      "dirt_path_rules": [
+        {
+          "json_pointer": "/surface_rule/sequence/1/then_run/sequence/0/then_run/then_run/sequence/4/then_run/sequence/2/then_run/result_state",
+          "enclosing_rule": [
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "max_threshold": 1e+308,
+                "min_threshold": 0.9,
+                "noise": "terralith:savanna/dripstone"
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:noise_threshold",
+                      "max_threshold": 1e+308,
+                      "min_threshold": -1e+308,
+                      "noise": "terralith:savanna/dripstone"
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:dripstone_block"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "max_threshold": 0.9,
+                "min_threshold": 0.75,
+                "noise": "terralith:savanna/dripstone"
+              },
+              "then_run": {
+                "type": "minecraft:sequence",
+                "sequence": [
+                  {
+                    "type": "minecraft:condition",
+                    "if_true": {
+                      "type": "minecraft:noise_threshold",
+                      "max_threshold": 1e+308,
+                      "min_threshold": -1e+308,
+                      "noise": "terralith:savanna/dripstone"
+                    },
+                    "then_run": {
+                      "type": "minecraft:block",
+                      "result_state": {
+                        "Name": "minecraft:coarse_dirt"
+                      }
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "max_threshold": 0.0125,
+                "min_threshold": -0.0125,
+                "noise": "terralith:savanna/path"
+              },
+              "then_run": {
+                "type": "minecraft:block",
+                "result_state": {
+                  "Name": "minecraft:dirt_path"
+                }
+              }
+            },
+            {
+              "type": "minecraft:condition",
+              "if_true": {
+                "type": "minecraft:noise_threshold",
+                "max_threshold": 0.019,
+                "min_threshold": -0.019,
+                "noise": "terralith:savanna/path"
+              },
+              "then_run": {
+                "type": "minecraft:condition",
+                "if_true": {
+                  "type": "minecraft:noise_threshold",
+                  "max_threshold": 1e+308,
+                  "min_threshold": 0.1,
+                  "noise": "terralith:sparse_jungle/noise"
+                },
+                "then_run": {
+                  "type": "minecraft:block",
+                  "result_state": {
+                    "Name": "minecraft:coarse_dirt"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "conclusion": "Terralith declares natural stone_slab features and dirt_path surface rules. Candidate material flags alone do not prove human edits. Current installed jar is supporting context, not historical generation provenance."
+}

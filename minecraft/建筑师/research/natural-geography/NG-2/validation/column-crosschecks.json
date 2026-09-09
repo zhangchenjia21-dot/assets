@@ -1,0 +1,3350 @@
+[
+  {
+    "target": "SITE-002",
+    "x": -5964,
+    "z": -1404,
+    "region": "dimensions/minecraft/overworld/region/r.-12.-3.mca",
+    "chunk": [
+      -373,
+      -88
+    ],
+    "surface_y": 544,
+    "vertical_scan_y": 544,
+    "filtered_y": 544,
+    "water_top_independent": -32768,
+    "biome": "terralith:white_mesa",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5368,
+    "z": -1604,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -336,
+      -101
+    ],
+    "surface_y": 327,
+    "vertical_scan_y": 327,
+    "filtered_y": 327,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5376,
+    "z": -2028,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -336,
+      -127
+    ],
+    "surface_y": 334,
+    "vertical_scan_y": 334,
+    "filtered_y": 334,
+    "water_top_independent": -32768,
+    "biome": "minecraft:meadow",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5540,
+    "z": -1635,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -347,
+      -103
+    ],
+    "surface_y": 480,
+    "vertical_scan_y": 480,
+    "filtered_y": 480,
+    "water_top_independent": -32768,
+    "biome": "minecraft:stony_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5764,
+    "z": -1522,
+    "region": "dimensions/minecraft/overworld/region/r.-12.-3.mca",
+    "chunk": [
+      -361,
+      -96
+    ],
+    "surface_y": 580,
+    "vertical_scan_y": 580,
+    "filtered_y": 580,
+    "water_top_independent": -32768,
+    "biome": "terralith:white_mesa",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5660,
+    "z": -1384,
+    "region": "dimensions/minecraft/overworld/region/r.-12.-3.mca",
+    "chunk": [
+      -354,
+      -87
+    ],
+    "surface_y": 612,
+    "vertical_scan_y": 612,
+    "filtered_y": 612,
+    "water_top_independent": -32768,
+    "biome": "terralith:volcanic_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5590,
+    "z": -1500,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-3.mca",
+    "chunk": [
+      -350,
+      -94
+    ],
+    "surface_y": 557,
+    "vertical_scan_y": 557,
+    "filtered_y": 557,
+    "water_top_independent": -32768,
+    "biome": "minecraft:stony_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5671,
+    "z": -1588,
+    "region": "dimensions/minecraft/overworld/region/r.-12.-4.mca",
+    "chunk": [
+      -355,
+      -100
+    ],
+    "surface_y": 621,
+    "vertical_scan_y": 621,
+    "filtered_y": 621,
+    "water_top_independent": -32768,
+    "biome": "minecraft:stony_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5613,
+    "z": -1604,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -351,
+      -101
+    ],
+    "surface_y": 583,
+    "vertical_scan_y": 583,
+    "filtered_y": 583,
+    "water_top_independent": -32768,
+    "biome": "minecraft:stony_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5436,
+    "z": -1956,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -340,
+      -123
+    ],
+    "surface_y": 373,
+    "vertical_scan_y": 373,
+    "filtered_y": 373,
+    "water_top_independent": -32768,
+    "biome": "terralith:volcanic_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5714,
+    "z": -1453,
+    "region": "dimensions/minecraft/overworld/region/r.-12.-3.mca",
+    "chunk": [
+      -358,
+      -91
+    ],
+    "surface_y": 640,
+    "vertical_scan_y": 640,
+    "filtered_y": 640,
+    "water_top_independent": -32768,
+    "biome": "terralith:white_mesa",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5607,
+    "z": -1666,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -351,
+      -105
+    ],
+    "surface_y": 586,
+    "vertical_scan_y": 586,
+    "filtered_y": 586,
+    "water_top_independent": -32768,
+    "biome": "minecraft:stony_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5220,
+    "z": -1916,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -327,
+      -120
+    ],
+    "surface_y": 217,
+    "vertical_scan_y": 217,
+    "filtered_y": 217,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5220,
+    "z": -1932,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -327,
+      -121
+    ],
+    "surface_y": 218,
+    "vertical_scan_y": 218,
+    "filtered_y": 218,
+    "water_top_independent": -32768,
+    "biome": "minecraft:meadow",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5220,
+    "z": -1928,
+    "region": "dimensions/minecraft/overworld/region/r.-11.-4.mca",
+    "chunk": [
+      -327,
+      -121
+    ],
+    "surface_y": 218,
+    "vertical_scan_y": 218,
+    "filtered_y": 218,
+    "water_top_independent": -32768,
+    "biome": "minecraft:meadow",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5824,
+    "z": -1688,
+    "region": "dimensions/minecraft/overworld/region/r.-12.-4.mca",
+    "chunk": [
+      -364,
+      -106
+    ],
+    "surface_y": 704,
+    "vertical_scan_y": 704,
+    "filtered_y": 704,
+    "water_top_independent": -32768,
+    "biome": "terralith:white_mesa",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5832,
+    "z": -1692,
+    "region": "dimensions/minecraft/overworld/region/r.-12.-4.mca",
+    "chunk": [
+      -365,
+      -106
+    ],
+    "surface_y": 705,
+    "vertical_scan_y": 705,
+    "filtered_y": 705,
+    "water_top_independent": -32768,
+    "biome": "terralith:white_mesa",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-002",
+    "x": -5828,
+    "z": -1688,
+    "region": "dimensions/minecraft/overworld/region/r.-12.-4.mca",
+    "chunk": [
+      -365,
+      -106
+    ],
+    "surface_y": 705,
+    "vertical_scan_y": 705,
+    "filtered_y": 705,
+    "water_top_independent": -32768,
+    "biome": "terralith:white_mesa",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2968,
+    "z": -5512,
+    "region": "dimensions/minecraft/overworld/region/r.-6.-11.mca",
+    "chunk": [
+      -186,
+      -345
+    ],
+    "surface_y": 100,
+    "vertical_scan_y": 100,
+    "filtered_y": 99,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3296,
+    "z": -5132,
+    "region": "dimensions/minecraft/overworld/region/r.-7.-11.mca",
+    "chunk": [
+      -206,
+      -321
+    ],
+    "surface_y": 199,
+    "vertical_scan_y": 199,
+    "filtered_y": 198,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3232,
+    "z": -5352,
+    "region": "dimensions/minecraft/overworld/region/r.-7.-11.mca",
+    "chunk": [
+      -202,
+      -335
+    ],
+    "surface_y": 282,
+    "vertical_scan_y": 282,
+    "filtered_y": 281,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3064,
+    "z": -5808,
+    "region": "dimensions/minecraft/overworld/region/r.-6.-12.mca",
+    "chunk": [
+      -192,
+      -363
+    ],
+    "surface_y": 107,
+    "vertical_scan_y": 107,
+    "filtered_y": 97,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2340,
+    "z": -5180,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-11.mca",
+    "chunk": [
+      -147,
+      -324
+    ],
+    "surface_y": 66,
+    "vertical_scan_y": 66,
+    "filtered_y": 65,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2642,
+    "z": -5138,
+    "region": "dimensions/minecraft/overworld/region/r.-6.-11.mca",
+    "chunk": [
+      -166,
+      -322
+    ],
+    "surface_y": 82,
+    "vertical_scan_y": 82,
+    "filtered_y": 68,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3084,
+    "z": -5480,
+    "region": "dimensions/minecraft/overworld/region/r.-7.-11.mca",
+    "chunk": [
+      -193,
+      -343
+    ],
+    "surface_y": 119,
+    "vertical_scan_y": 119,
+    "filtered_y": 106,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3031,
+    "z": -5496,
+    "region": "dimensions/minecraft/overworld/region/r.-6.-11.mca",
+    "chunk": [
+      -190,
+      -344
+    ],
+    "surface_y": 104,
+    "vertical_scan_y": 104,
+    "filtered_y": 103,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2584,
+    "z": -5180,
+    "region": "dimensions/minecraft/overworld/region/r.-6.-11.mca",
+    "chunk": [
+      -162,
+      -324
+    ],
+    "surface_y": 81,
+    "vertical_scan_y": 81,
+    "filtered_y": 68,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2976,
+    "z": -5024,
+    "region": "dimensions/minecraft/overworld/region/r.-6.-10.mca",
+    "chunk": [
+      -186,
+      -314
+    ],
+    "surface_y": 82,
+    "vertical_scan_y": 82,
+    "filtered_y": 81,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2240,
+    "z": -5024,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-10.mca",
+    "chunk": [
+      -140,
+      -314
+    ],
+    "surface_y": 80,
+    "vertical_scan_y": 80,
+    "filtered_y": 72,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3088,
+    "z": -5228,
+    "region": "dimensions/minecraft/overworld/region/r.-7.-11.mca",
+    "chunk": [
+      -193,
+      -327
+    ],
+    "surface_y": 240,
+    "vertical_scan_y": 240,
+    "filtered_y": 239,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2532,
+    "z": -5084,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-10.mca",
+    "chunk": [
+      -159,
+      -318
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": [
+      60,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2520,
+    "z": -5244,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-11.mca",
+    "chunk": [
+      -158,
+      -328
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": [
+      56,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2736,
+    "z": -5856,
+    "region": "dimensions/minecraft/overworld/region/r.-6.-12.mca",
+    "chunk": [
+      -171,
+      -366
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": [
+      58,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2504,
+    "z": -5544,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-11.mca",
+    "chunk": [
+      -157,
+      -347
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": [
+      61,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2624,
+    "z": -5748,
+    "region": "dimensions/minecraft/overworld/region/r.-6.-12.mca",
+    "chunk": [
+      -164,
+      -360
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "terralith:siberian_taiga",
+    "water_interval": [
+      56,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2504,
+    "z": -5352,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-11.mca",
+    "chunk": [
+      -157,
+      -335
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:frozen_river",
+    "water_interval": [
+      54,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2404,
+    "z": -5144,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-11.mca",
+    "chunk": [
+      -151,
+      -322
+    ],
+    "surface_y": 79,
+    "vertical_scan_y": 79,
+    "filtered_y": 56,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2404,
+    "z": -5140,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-11.mca",
+    "chunk": [
+      -151,
+      -322
+    ],
+    "surface_y": 57,
+    "vertical_scan_y": 57,
+    "filtered_y": 56,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -2400,
+    "z": -5152,
+    "region": "dimensions/minecraft/overworld/region/r.-5.-11.mca",
+    "chunk": [
+      -150,
+      -322
+    ],
+    "surface_y": 58,
+    "vertical_scan_y": 58,
+    "filtered_y": 57,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3264,
+    "z": -5612,
+    "region": "dimensions/minecraft/overworld/region/r.-7.-11.mca",
+    "chunk": [
+      -204,
+      -351
+    ],
+    "surface_y": 315,
+    "vertical_scan_y": 315,
+    "filtered_y": 314,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3264,
+    "z": -5608,
+    "region": "dimensions/minecraft/overworld/region/r.-7.-11.mca",
+    "chunk": [
+      -204,
+      -351
+    ],
+    "surface_y": 323,
+    "vertical_scan_y": 323,
+    "filtered_y": 314,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-005",
+    "x": -3260,
+    "z": -5612,
+    "region": "dimensions/minecraft/overworld/region/r.-7.-11.mca",
+    "chunk": [
+      -204,
+      -351
+    ],
+    "surface_y": 315,
+    "vertical_scan_y": 315,
+    "filtered_y": 314,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -240,
+    "z": -3584,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-7.mca",
+    "chunk": [
+      -15,
+      -224
+    ],
+    "surface_y": 61,
+    "vertical_scan_y": 61,
+    "filtered_y": 61,
+    "water_top_independent": -32768,
+    "biome": "terralith:moonlight_valley",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -496,
+    "z": -3644,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -31,
+      -228
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:beach",
+    "water_interval": [
+      60,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -940,
+    "z": -3384,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-7.mca",
+    "chunk": [
+      -59,
+      -212
+    ],
+    "surface_y": 79,
+    "vertical_scan_y": 79,
+    "filtered_y": 67,
+    "water_top_independent": -32768,
+    "biome": "terralith:moonlight_valley",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -288,
+    "z": -2848,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-6.mca",
+    "chunk": [
+      -18,
+      -178
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      54,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -424,
+    "z": -3656,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -27,
+      -229
+    ],
+    "surface_y": 63,
+    "vertical_scan_y": 63,
+    "filtered_y": 63,
+    "water_top_independent": -32768,
+    "biome": "minecraft:beach",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -232,
+    "z": -3616,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -15,
+      -226
+    ],
+    "surface_y": 67,
+    "vertical_scan_y": 67,
+    "filtered_y": 66,
+    "water_top_independent": -32768,
+    "biome": "minecraft:plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -824,
+    "z": -3949,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -52,
+      -247
+    ],
+    "surface_y": 76,
+    "vertical_scan_y": 76,
+    "filtered_y": 67,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -216,
+    "z": -3656,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -14,
+      -229
+    ],
+    "surface_y": 67,
+    "vertical_scan_y": 67,
+    "filtered_y": 66,
+    "water_top_independent": -32768,
+    "biome": "minecraft:plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -272,
+    "z": -2960,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-6.mca",
+    "chunk": [
+      -17,
+      -185
+    ],
+    "surface_y": 66,
+    "vertical_scan_y": 66,
+    "filtered_y": 66,
+    "water_top_independent": -32768,
+    "biome": "terralith:steppe",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -360,
+    "z": -2880,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-6.mca",
+    "chunk": [
+      -23,
+      -180
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "terralith:steppe",
+    "water_interval": [
+      60,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -868,
+    "z": -3116,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-7.mca",
+    "chunk": [
+      -55,
+      -195
+    ],
+    "surface_y": 79,
+    "vertical_scan_y": 79,
+    "filtered_y": 69,
+    "water_top_independent": -32768,
+    "biome": "terralith:moonlight_valley",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -196,
+    "z": -3460,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-7.mca",
+    "chunk": [
+      -13,
+      -217
+    ],
+    "surface_y": 68,
+    "vertical_scan_y": 68,
+    "filtered_y": 67,
+    "water_top_independent": -32768,
+    "biome": "terralith:steppe",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -220,
+    "z": -3892,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -14,
+      -244
+    ],
+    "surface_y": 65,
+    "vertical_scan_y": 65,
+    "filtered_y": 65,
+    "water_top_independent": 52,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": [
+      45,
+      52
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -616,
+    "z": -3552,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-7.mca",
+    "chunk": [
+      -39,
+      -222
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      56,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -408,
+    "z": -3904,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -26,
+      -244
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": [
+      40,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -330,
+    "z": -3878,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -21,
+      -243
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": [
+      40,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -236,
+    "z": -3908,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -15,
+      -245
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": [
+      43,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -584,
+    "z": -3880,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -37,
+      -243
+    ],
+    "surface_y": 67,
+    "vertical_scan_y": 67,
+    "filtered_y": 67,
+    "water_top_independent": 55,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": [
+      55,
+      55
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -1296,
+    "z": -3336,
+    "region": "dimensions/minecraft/overworld/region/r.-3.-7.mca",
+    "chunk": [
+      -81,
+      -209
+    ],
+    "surface_y": -27,
+    "vertical_scan_y": -27,
+    "filtered_y": -27,
+    "water_top_independent": -32768,
+    "biome": "terralith:cave/deep_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -1304,
+    "z": -3336,
+    "region": "dimensions/minecraft/overworld/region/r.-3.-7.mca",
+    "chunk": [
+      -82,
+      -209
+    ],
+    "surface_y": -20,
+    "vertical_scan_y": -20,
+    "filtered_y": -20,
+    "water_top_independent": -32768,
+    "biome": "terralith:cave/deep_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -1296,
+    "z": -3340,
+    "region": "dimensions/minecraft/overworld/region/r.-3.-7.mca",
+    "chunk": [
+      -81,
+      -209
+    ],
+    "surface_y": -20,
+    "vertical_scan_y": -20,
+    "filtered_y": -20,
+    "water_top_independent": -32768,
+    "biome": "terralith:cave/deep_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -600,
+    "z": -3864,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -38,
+      -242
+    ],
+    "surface_y": 96,
+    "vertical_scan_y": 96,
+    "filtered_y": 95,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -596,
+    "z": -3868,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -38,
+      -242
+    ],
+    "surface_y": 98,
+    "vertical_scan_y": 98,
+    "filtered_y": 97,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-015",
+    "x": -592,
+    "z": -3864,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -37,
+      -242
+    ],
+    "surface_y": 103,
+    "vertical_scan_y": 103,
+    "filtered_y": 102,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4792,
+    "z": -637,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-2.mca",
+    "chunk": [
+      -300,
+      -40
+    ],
+    "surface_y": 191,
+    "vertical_scan_y": 191,
+    "filtered_y": 191,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4872,
+    "z": -1216,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-3.mca",
+    "chunk": [
+      -305,
+      -76
+    ],
+    "surface_y": 188,
+    "vertical_scan_y": 188,
+    "filtered_y": 188,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4388,
+    "z": -1084,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -275,
+      -68
+    ],
+    "surface_y": 163,
+    "vertical_scan_y": 163,
+    "filtered_y": 163,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4616,
+    "z": -1328,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-3.mca",
+    "chunk": [
+      -289,
+      -83
+    ],
+    "surface_y": 137,
+    "vertical_scan_y": 137,
+    "filtered_y": 137,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4556,
+    "z": -1340,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -285,
+      -84
+    ],
+    "surface_y": 85,
+    "vertical_scan_y": 85,
+    "filtered_y": 85,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4848,
+    "z": -1320,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-3.mca",
+    "chunk": [
+      -303,
+      -83
+    ],
+    "surface_y": 177,
+    "vertical_scan_y": 177,
+    "filtered_y": 177,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4400,
+    "z": -1296,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -275,
+      -81
+    ],
+    "surface_y": 89,
+    "vertical_scan_y": 89,
+    "filtered_y": 89,
+    "water_top_independent": -32768,
+    "biome": "terralith:arid_highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4988,
+    "z": -1236,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-3.mca",
+    "chunk": [
+      -312,
+      -78
+    ],
+    "surface_y": 200,
+    "vertical_scan_y": 200,
+    "filtered_y": 200,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4988,
+    "z": -1016,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-2.mca",
+    "chunk": [
+      -312,
+      -64
+    ],
+    "surface_y": 204,
+    "vertical_scan_y": 204,
+    "filtered_y": 204,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4496,
+    "z": -1308,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -281,
+      -82
+    ],
+    "surface_y": 107,
+    "vertical_scan_y": 107,
+    "filtered_y": 106,
+    "water_top_independent": -32768,
+    "biome": "terralith:arid_highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4520,
+    "z": -1056,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -283,
+      -66
+    ],
+    "surface_y": 173,
+    "vertical_scan_y": 173,
+    "filtered_y": 173,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -5024,
+    "z": -568,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-2.mca",
+    "chunk": [
+      -314,
+      -36
+    ],
+    "surface_y": 293,
+    "vertical_scan_y": 293,
+    "filtered_y": 293,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4544,
+    "z": -1352,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -284,
+      -85
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "terralith:arid_highlands",
+    "water_interval": [
+      58,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4408,
+    "z": -1336,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -276,
+      -84
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      54,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4488,
+    "z": -1336,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -281,
+      -84
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      55,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4420,
+    "z": -1372,
+    "region": "dimensions/minecraft/overworld/region/r.-9.-3.mca",
+    "chunk": [
+      -277,
+      -86
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "terralith:arid_highlands",
+    "water_interval": [
+      58,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4656,
+    "z": -1376,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-3.mca",
+    "chunk": [
+      -291,
+      -86
+    ],
+    "surface_y": 63,
+    "vertical_scan_y": 63,
+    "filtered_y": 62,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4652,
+    "z": -1376,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-3.mca",
+    "chunk": [
+      -291,
+      -86
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": [
+      60,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -4652,
+    "z": -1372,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-3.mca",
+    "chunk": [
+      -291,
+      -86
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": [
+      61,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -5116,
+    "z": -548,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-2.mca",
+    "chunk": [
+      -320,
+      -35
+    ],
+    "surface_y": 326,
+    "vertical_scan_y": 326,
+    "filtered_y": 326,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -5120,
+    "z": -552,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-2.mca",
+    "chunk": [
+      -320,
+      -35
+    ],
+    "surface_y": 328,
+    "vertical_scan_y": 328,
+    "filtered_y": 328,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-014",
+    "x": -5120,
+    "z": -548,
+    "region": "dimensions/minecraft/overworld/region/r.-10.-2.mca",
+    "chunk": [
+      -320,
+      -35
+    ],
+    "surface_y": 329,
+    "vertical_scan_y": 329,
+    "filtered_y": 329,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna_plateau",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 2328,
+    "z": -1712,
+    "region": "dimensions/minecraft/overworld/region/r.4.-4.mca",
+    "chunk": [
+      145,
+      -107
+    ],
+    "surface_y": 286,
+    "vertical_scan_y": 286,
+    "filtered_y": 276,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 2692,
+    "z": -1812,
+    "region": "dimensions/minecraft/overworld/region/r.5.-4.mca",
+    "chunk": [
+      168,
+      -114
+    ],
+    "surface_y": 331,
+    "vertical_scan_y": 331,
+    "filtered_y": 331,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 2232,
+    "z": -1744,
+    "region": "dimensions/minecraft/overworld/region/r.4.-4.mca",
+    "chunk": [
+      139,
+      -109
+    ],
+    "surface_y": 294,
+    "vertical_scan_y": 294,
+    "filtered_y": 283,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 2148,
+    "z": -1708,
+    "region": "dimensions/minecraft/overworld/region/r.4.-4.mca",
+    "chunk": [
+      134,
+      -107
+    ],
+    "surface_y": 274,
+    "vertical_scan_y": 274,
+    "filtered_y": 274,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3008,
+    "z": -1992,
+    "region": "dimensions/minecraft/overworld/region/r.5.-4.mca",
+    "chunk": [
+      188,
+      -125
+    ],
+    "surface_y": 359,
+    "vertical_scan_y": 359,
+    "filtered_y": 359,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 2976,
+    "z": -2476,
+    "region": "dimensions/minecraft/overworld/region/r.5.-5.mca",
+    "chunk": [
+      186,
+      -155
+    ],
+    "surface_y": 480,
+    "vertical_scan_y": 480,
+    "filtered_y": 480,
+    "water_top_independent": -32768,
+    "biome": "terralith:rocky_mountains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3440,
+    "z": -1780,
+    "region": "dimensions/minecraft/overworld/region/r.6.-4.mca",
+    "chunk": [
+      215,
+      -112
+    ],
+    "surface_y": 530,
+    "vertical_scan_y": 530,
+    "filtered_y": 529,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3224,
+    "z": -1456,
+    "region": "dimensions/minecraft/overworld/region/r.6.-3.mca",
+    "chunk": [
+      201,
+      -91
+    ],
+    "surface_y": 336,
+    "vertical_scan_y": 336,
+    "filtered_y": 335,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3236,
+    "z": -2032,
+    "region": "dimensions/minecraft/overworld/region/r.6.-4.mca",
+    "chunk": [
+      202,
+      -127
+    ],
+    "surface_y": 430,
+    "vertical_scan_y": 430,
+    "filtered_y": 429,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_slopes",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 2472,
+    "z": -1680,
+    "region": "dimensions/minecraft/overworld/region/r.4.-4.mca",
+    "chunk": [
+      154,
+      -105
+    ],
+    "surface_y": 280,
+    "vertical_scan_y": 280,
+    "filtered_y": 271,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 2184,
+    "z": -1372,
+    "region": "dimensions/minecraft/overworld/region/r.4.-3.mca",
+    "chunk": [
+      136,
+      -86
+    ],
+    "surface_y": 209,
+    "vertical_scan_y": 209,
+    "filtered_y": 203,
+    "water_top_independent": -32768,
+    "biome": "terralith:shield",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 1816,
+    "z": -1228,
+    "region": "dimensions/minecraft/overworld/region/r.3.-3.mca",
+    "chunk": [
+      113,
+      -77
+    ],
+    "surface_y": 168,
+    "vertical_scan_y": 168,
+    "filtered_y": 168,
+    "water_top_independent": -32768,
+    "biome": "terralith:shield",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3024,
+    "z": -1536,
+    "region": "dimensions/minecraft/overworld/region/r.5.-3.mca",
+    "chunk": [
+      189,
+      -96
+    ],
+    "surface_y": 303,
+    "vertical_scan_y": 303,
+    "filtered_y": 294,
+    "water_top_independent": 294,
+    "biome": "terralith:yellowstone",
+    "water_interval": [
+      294,
+      294
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3024,
+    "z": -1504,
+    "region": "dimensions/minecraft/overworld/region/r.5.-3.mca",
+    "chunk": [
+      189,
+      -94
+    ],
+    "surface_y": 294,
+    "vertical_scan_y": 294,
+    "filtered_y": 294,
+    "water_top_independent": 294,
+    "biome": "terralith:yellowstone",
+    "water_interval": [
+      293,
+      294
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 2996,
+    "z": -1532,
+    "region": "dimensions/minecraft/overworld/region/r.5.-3.mca",
+    "chunk": [
+      187,
+      -96
+    ],
+    "surface_y": 300,
+    "vertical_scan_y": 300,
+    "filtered_y": 294,
+    "water_top_independent": 294,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": [
+      294,
+      294
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3016,
+    "z": -1488,
+    "region": "dimensions/minecraft/overworld/region/r.5.-3.mca",
+    "chunk": [
+      188,
+      -93
+    ],
+    "surface_y": 292,
+    "vertical_scan_y": 292,
+    "filtered_y": 292,
+    "water_top_independent": 292,
+    "biome": "terralith:yellowstone",
+    "water_interval": [
+      292,
+      292
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 1892,
+    "z": -1120,
+    "region": "dimensions/minecraft/overworld/region/r.3.-3.mca",
+    "chunk": [
+      118,
+      -70
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": -32768,
+    "biome": "terralith:shield",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 1896,
+    "z": -1128,
+    "region": "dimensions/minecraft/overworld/region/r.3.-3.mca",
+    "chunk": [
+      118,
+      -71
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": -32768,
+    "biome": "minecraft:river",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 1896,
+    "z": -1124,
+    "region": "dimensions/minecraft/overworld/region/r.3.-3.mca",
+    "chunk": [
+      118,
+      -71
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      62,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3584,
+    "z": -2036,
+    "region": "dimensions/minecraft/overworld/region/r.7.-4.mca",
+    "chunk": [
+      224,
+      -128
+    ],
+    "surface_y": 708,
+    "vertical_scan_y": 708,
+    "filtered_y": 708,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3584,
+    "z": -2012,
+    "region": "dimensions/minecraft/overworld/region/r.7.-4.mca",
+    "chunk": [
+      224,
+      -126
+    ],
+    "surface_y": 711,
+    "vertical_scan_y": 711,
+    "filtered_y": 711,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-017",
+    "x": 3596,
+    "z": -2004,
+    "region": "dimensions/minecraft/overworld/region/r.7.-4.mca",
+    "chunk": [
+      224,
+      -126
+    ],
+    "surface_y": 711,
+    "vertical_scan_y": 711,
+    "filtered_y": 711,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_peaks",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 897,
+    "z": -1193,
+    "region": "dimensions/minecraft/overworld/region/r.1.-3.mca",
+    "chunk": [
+      56,
+      -75
+    ],
+    "surface_y": 79,
+    "vertical_scan_y": 79,
+    "filtered_y": 79,
+    "water_top_independent": -32768,
+    "biome": "terralith:highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 206,
+    "z": -1418,
+    "region": "dimensions/minecraft/overworld/region/r.0.-3.mca",
+    "chunk": [
+      12,
+      -89
+    ],
+    "surface_y": 68,
+    "vertical_scan_y": 68,
+    "filtered_y": 68,
+    "water_top_independent": -32768,
+    "biome": "terralith:steppe",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1318,
+    "z": -1103,
+    "region": "dimensions/minecraft/overworld/region/r.2.-3.mca",
+    "chunk": [
+      82,
+      -69
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      53,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1431,
+    "z": -948,
+    "region": "dimensions/minecraft/overworld/region/r.2.-2.mca",
+    "chunk": [
+      89,
+      -60
+    ],
+    "surface_y": 174,
+    "vertical_scan_y": 174,
+    "filtered_y": 173,
+    "water_top_independent": -32768,
+    "biome": "minecraft:plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 284,
+    "z": -1264,
+    "region": "dimensions/minecraft/overworld/region/r.0.-3.mca",
+    "chunk": [
+      17,
+      -79
+    ],
+    "surface_y": 67,
+    "vertical_scan_y": 67,
+    "filtered_y": 66,
+    "water_top_independent": -32768,
+    "biome": "terralith:highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 838,
+    "z": -819,
+    "region": "dimensions/minecraft/overworld/region/r.1.-2.mca",
+    "chunk": [
+      52,
+      -52
+    ],
+    "surface_y": 67,
+    "vertical_scan_y": 67,
+    "filtered_y": 67,
+    "water_top_independent": -32768,
+    "biome": "terralith:highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1483,
+    "z": -1676,
+    "region": "dimensions/minecraft/overworld/region/r.2.-4.mca",
+    "chunk": [
+      92,
+      -105
+    ],
+    "surface_y": 151,
+    "vertical_scan_y": 151,
+    "filtered_y": 141,
+    "water_top_independent": -32768,
+    "biome": "terralith:forested_highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 23,
+    "z": -1156,
+    "region": "dimensions/minecraft/overworld/region/r.0.-3.mca",
+    "chunk": [
+      1,
+      -73
+    ],
+    "surface_y": 67,
+    "vertical_scan_y": 67,
+    "filtered_y": 66,
+    "water_top_independent": -32768,
+    "biome": "terralith:highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1695,
+    "z": -1351,
+    "region": "dimensions/minecraft/overworld/region/r.3.-3.mca",
+    "chunk": [
+      105,
+      -85
+    ],
+    "surface_y": 169,
+    "vertical_scan_y": 169,
+    "filtered_y": 169,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 322,
+    "z": -1550,
+    "region": "dimensions/minecraft/overworld/region/r.0.-4.mca",
+    "chunk": [
+      20,
+      -97
+    ],
+    "surface_y": 63,
+    "vertical_scan_y": 63,
+    "filtered_y": 63,
+    "water_top_independent": -32768,
+    "biome": "terralith:steppe",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 560,
+    "z": -1355,
+    "region": "dimensions/minecraft/overworld/region/r.1.-3.mca",
+    "chunk": [
+      35,
+      -85
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "terralith:highlands",
+    "water_interval": [
+      60,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1052,
+    "z": -879,
+    "region": "dimensions/minecraft/overworld/region/r.2.-2.mca",
+    "chunk": [
+      65,
+      -55
+    ],
+    "surface_y": 84,
+    "vertical_scan_y": 84,
+    "filtered_y": 84,
+    "water_top_independent": -32768,
+    "biome": "terralith:highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1067,
+    "z": -1256,
+    "region": "dimensions/minecraft/overworld/region/r.2.-3.mca",
+    "chunk": [
+      66,
+      -79
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "terralith:highlands",
+    "water_interval": [
+      59,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1172,
+    "z": -1174,
+    "region": "dimensions/minecraft/overworld/region/r.2.-3.mca",
+    "chunk": [
+      73,
+      -74
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      51,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 76,
+    "z": -767,
+    "region": "dimensions/minecraft/overworld/region/r.0.-2.mca",
+    "chunk": [
+      4,
+      -48
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "terralith:steppe",
+    "water_interval": [
+      58,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 432,
+    "z": -1052,
+    "region": "dimensions/minecraft/overworld/region/r.0.-3.mca",
+    "chunk": [
+      27,
+      -66
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "terralith:steppe",
+    "water_interval": [
+      60,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": -42,
+    "z": -1712,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-4.mca",
+    "chunk": [
+      -3,
+      -107
+    ],
+    "surface_y": -8,
+    "vertical_scan_y": -8,
+    "filtered_y": -8,
+    "water_top_independent": -32768,
+    "biome": "minecraft:dripstone_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": -42,
+    "z": -1711,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-4.mca",
+    "chunk": [
+      -3,
+      -107
+    ],
+    "surface_y": -8,
+    "vertical_scan_y": -8,
+    "filtered_y": -8,
+    "water_top_independent": -32768,
+    "biome": "minecraft:dripstone_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": -41,
+    "z": -1713,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-4.mca",
+    "chunk": [
+      -3,
+      -108
+    ],
+    "surface_y": -8,
+    "vertical_scan_y": -8,
+    "filtered_y": -8,
+    "water_top_independent": -32768,
+    "biome": "minecraft:dripstone_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1855,
+    "z": -1476,
+    "region": "dimensions/minecraft/overworld/region/r.3.-3.mca",
+    "chunk": [
+      115,
+      -93
+    ],
+    "surface_y": 256,
+    "vertical_scan_y": 256,
+    "filtered_y": 248,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1855,
+    "z": -1475,
+    "region": "dimensions/minecraft/overworld/region/r.3.-3.mca",
+    "chunk": [
+      115,
+      -93
+    ],
+    "surface_y": 248,
+    "vertical_scan_y": 248,
+    "filtered_y": 248,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-019",
+    "x": 1851,
+    "z": -1483,
+    "region": "dimensions/minecraft/overworld/region/r.3.-3.mca",
+    "chunk": [
+      115,
+      -93
+    ],
+    "surface_y": 255,
+    "vertical_scan_y": 255,
+    "filtered_y": 249,
+    "water_top_independent": -32768,
+    "biome": "minecraft:cherry_grove",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -557,
+    "z": 2176,
+    "region": "dimensions/minecraft/overworld/region/r.-2.4.mca",
+    "chunk": [
+      -35,
+      136
+    ],
+    "surface_y": 63,
+    "vertical_scan_y": 63,
+    "filtered_y": 63,
+    "water_top_independent": -32768,
+    "biome": "minecraft:beach",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -374,
+    "z": 1591,
+    "region": "dimensions/minecraft/overworld/region/r.-1.3.mca",
+    "chunk": [
+      -24,
+      99
+    ],
+    "surface_y": 65,
+    "vertical_scan_y": 65,
+    "filtered_y": 64,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -619,
+    "z": 2170,
+    "region": "dimensions/minecraft/overworld/region/r.-2.4.mca",
+    "chunk": [
+      -39,
+      135
+    ],
+    "surface_y": 63,
+    "vertical_scan_y": 63,
+    "filtered_y": 63,
+    "water_top_independent": -32768,
+    "biome": "minecraft:beach",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 237,
+    "z": 2413,
+    "region": "dimensions/minecraft/overworld/region/r.0.4.mca",
+    "chunk": [
+      14,
+      150
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:lukewarm_ocean",
+    "water_interval": [
+      45,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 202,
+    "z": 1988,
+    "region": "dimensions/minecraft/overworld/region/r.0.3.mca",
+    "chunk": [
+      12,
+      124
+    ],
+    "surface_y": 64,
+    "vertical_scan_y": 64,
+    "filtered_y": 64,
+    "water_top_independent": -32768,
+    "biome": "terralith:arid_highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -646,
+    "z": 1618,
+    "region": "dimensions/minecraft/overworld/region/r.-2.3.mca",
+    "chunk": [
+      -41,
+      101
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:lukewarm_ocean",
+    "water_interval": [
+      42,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -134,
+    "z": 2186,
+    "region": "dimensions/minecraft/overworld/region/r.-1.4.mca",
+    "chunk": [
+      -9,
+      136
+    ],
+    "surface_y": 71,
+    "vertical_scan_y": 71,
+    "filtered_y": 71,
+    "water_top_independent": -32768,
+    "biome": "terralith:arid_highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 262,
+    "z": 1587,
+    "region": "dimensions/minecraft/overworld/region/r.0.3.mca",
+    "chunk": [
+      16,
+      99
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      56,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 220,
+    "z": 2377,
+    "region": "dimensions/minecraft/overworld/region/r.0.4.mca",
+    "chunk": [
+      13,
+      148
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:beach",
+    "water_interval": [
+      56,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 342,
+    "z": 1586,
+    "region": "dimensions/minecraft/overworld/region/r.0.3.mca",
+    "chunk": [
+      21,
+      99
+    ],
+    "surface_y": 65,
+    "vertical_scan_y": 65,
+    "filtered_y": 65,
+    "water_top_independent": -32768,
+    "biome": "terralith:hot_shrubland",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 200,
+    "z": 2120,
+    "region": "dimensions/minecraft/overworld/region/r.0.4.mca",
+    "chunk": [
+      12,
+      132
+    ],
+    "surface_y": 68,
+    "vertical_scan_y": 68,
+    "filtered_y": 68,
+    "water_top_independent": -32768,
+    "biome": "terralith:arid_highlands",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -435,
+    "z": 1612,
+    "region": "dimensions/minecraft/overworld/region/r.-1.3.mca",
+    "chunk": [
+      -28,
+      100
+    ],
+    "surface_y": 64,
+    "vertical_scan_y": 64,
+    "filtered_y": 63,
+    "water_top_independent": -32768,
+    "biome": "minecraft:savanna",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -754,
+    "z": 2112,
+    "region": "dimensions/minecraft/overworld/region/r.-2.4.mca",
+    "chunk": [
+      -48,
+      132
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:lukewarm_ocean",
+    "water_interval": [
+      43,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -477,
+    "z": 2492,
+    "region": "dimensions/minecraft/overworld/region/r.-1.4.mca",
+    "chunk": [
+      -30,
+      155
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:beach",
+    "water_interval": [
+      51,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -728,
+    "z": 1467,
+    "region": "dimensions/minecraft/overworld/region/r.-2.2.mca",
+    "chunk": [
+      -46,
+      91
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:lukewarm_ocean",
+    "water_interval": [
+      2,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 175,
+    "z": 1439,
+    "region": "dimensions/minecraft/overworld/region/r.0.2.mca",
+    "chunk": [
+      10,
+      89
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:beach",
+    "water_interval": [
+      50,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -521,
+    "z": 1713,
+    "region": "dimensions/minecraft/overworld/region/r.-2.3.mca",
+    "chunk": [
+      -33,
+      107
+    ],
+    "surface_y": 14,
+    "vertical_scan_y": 14,
+    "filtered_y": 14,
+    "water_top_independent": -32768,
+    "biome": "terralith:cave/fungal_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -521,
+    "z": 1714,
+    "region": "dimensions/minecraft/overworld/region/r.-2.3.mca",
+    "chunk": [
+      -33,
+      107
+    ],
+    "surface_y": 14,
+    "vertical_scan_y": 14,
+    "filtered_y": 14,
+    "water_top_independent": -32768,
+    "biome": "terralith:cave/fungal_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": -521,
+    "z": 1715,
+    "region": "dimensions/minecraft/overworld/region/r.-2.3.mca",
+    "chunk": [
+      -33,
+      107
+    ],
+    "surface_y": 14,
+    "vertical_scan_y": 14,
+    "filtered_y": 14,
+    "water_top_independent": -32768,
+    "biome": "terralith:cave/fungal_caves",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 415,
+    "z": 2301,
+    "region": "dimensions/minecraft/overworld/region/r.0.4.mca",
+    "chunk": [
+      25,
+      143
+    ],
+    "surface_y": 168,
+    "vertical_scan_y": 168,
+    "filtered_y": 168,
+    "water_top_independent": -32768,
+    "biome": "terralith:hot_shrubland",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 415,
+    "z": 2302,
+    "region": "dimensions/minecraft/overworld/region/r.0.4.mca",
+    "chunk": [
+      25,
+      143
+    ],
+    "surface_y": 169,
+    "vertical_scan_y": 169,
+    "filtered_y": 168,
+    "water_top_independent": -32768,
+    "biome": "terralith:hot_shrubland",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-003",
+    "x": 415,
+    "z": 2303,
+    "region": "dimensions/minecraft/overworld/region/r.0.4.mca",
+    "chunk": [
+      25,
+      143
+    ],
+    "surface_y": 168,
+    "vertical_scan_y": 168,
+    "filtered_y": 168,
+    "water_top_independent": -32768,
+    "biome": "terralith:hot_shrubland",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": 167,
+    "z": -3877,
+    "region": "dimensions/minecraft/overworld/region/r.0.-8.mca",
+    "chunk": [
+      10,
+      -243
+    ],
+    "surface_y": 66,
+    "vertical_scan_y": 66,
+    "filtered_y": 66,
+    "water_top_independent": -32768,
+    "biome": "terralith:cold_shrubland",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -100,
+    "z": -4036,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -7,
+      -253
+    ],
+    "surface_y": 64,
+    "vertical_scan_y": 64,
+    "filtered_y": 63,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_beach",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": 132,
+    "z": -4105,
+    "region": "dimensions/minecraft/overworld/region/r.0.-9.mca",
+    "chunk": [
+      8,
+      -257
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": [
+      46,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -619,
+    "z": -4037,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -39,
+      -253
+    ],
+    "surface_y": 66,
+    "vertical_scan_y": 66,
+    "filtered_y": 65,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -820,
+    "z": -4054,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -52,
+      -254
+    ],
+    "surface_y": 80,
+    "vertical_scan_y": 80,
+    "filtered_y": 79,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -317,
+    "z": -4113,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-9.mca",
+    "chunk": [
+      -20,
+      -258
+    ],
+    "surface_y": 65,
+    "vertical_scan_y": 65,
+    "filtered_y": 64,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -194,
+    "z": -4077,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -13,
+      -255
+    ],
+    "surface_y": 64,
+    "vertical_scan_y": 64,
+    "filtered_y": 63,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_beach",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -16,
+    "z": -3827,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -1,
+      -240
+    ],
+    "surface_y": 65,
+    "vertical_scan_y": 65,
+    "filtered_y": 64,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -50,
+    "z": -3700,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -4,
+      -232
+    ],
+    "surface_y": 66,
+    "vertical_scan_y": 66,
+    "filtered_y": 66,
+    "water_top_independent": -32768,
+    "biome": "minecraft:plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -136,
+    "z": -3662,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -9,
+      -229
+    ],
+    "surface_y": 66,
+    "vertical_scan_y": 66,
+    "filtered_y": 66,
+    "water_top_independent": -32768,
+    "biome": "minecraft:plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -498,
+    "z": -4271,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-9.mca",
+    "chunk": [
+      -32,
+      -267
+    ],
+    "surface_y": 82,
+    "vertical_scan_y": 82,
+    "filtered_y": 81,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -734,
+    "z": -3684,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -46,
+      -231
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:beach",
+    "water_interval": [
+      61,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": 52,
+    "z": -4477,
+    "region": "dimensions/minecraft/overworld/region/r.0.-9.mca",
+    "chunk": [
+      3,
+      -280
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:snowy_beach",
+    "water_interval": [
+      46,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -606,
+    "z": -3707,
+    "region": "dimensions/minecraft/overworld/region/r.-2.-8.mca",
+    "chunk": [
+      -38,
+      -232
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      46,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -370,
+    "z": -3709,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -24,
+      -232
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 62,
+    "biome": "minecraft:river",
+    "water_interval": [
+      50,
+      62
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -205,
+    "z": -3844,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -13,
+      -241
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": [
+      46,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -137,
+    "z": -4088,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -9,
+      -256
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:snowy_beach",
+    "water_interval": [
+      57,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -87,
+    "z": -3928,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-8.mca",
+    "chunk": [
+      -6,
+      -246
+    ],
+    "surface_y": 62,
+    "vertical_scan_y": 62,
+    "filtered_y": 62,
+    "water_top_independent": 61,
+    "biome": "minecraft:snowy_taiga",
+    "water_interval": [
+      60,
+      61
+    ],
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -504,
+    "z": -4239,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-9.mca",
+    "chunk": [
+      -32,
+      -265
+    ],
+    "surface_y": 39,
+    "vertical_scan_y": 39,
+    "filtered_y": 38,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -504,
+    "z": -4238,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-9.mca",
+    "chunk": [
+      -32,
+      -265
+    ],
+    "surface_y": 39,
+    "vertical_scan_y": 39,
+    "filtered_y": 38,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": -503,
+    "z": -4240,
+    "region": "dimensions/minecraft/overworld/region/r.-1.-9.mca",
+    "chunk": [
+      -32,
+      -265
+    ],
+    "surface_y": 39,
+    "vertical_scan_y": 39,
+    "filtered_y": 38,
+    "water_top_independent": -32768,
+    "biome": "minecraft:snowy_plains",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": 139,
+    "z": -4416,
+    "region": "dimensions/minecraft/overworld/region/r.0.-9.mca",
+    "chunk": [
+      8,
+      -276
+    ],
+    "surface_y": 109,
+    "vertical_scan_y": 109,
+    "filtered_y": 109,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": 139,
+    "z": -4415,
+    "region": "dimensions/minecraft/overworld/region/r.0.-9.mca",
+    "chunk": [
+      8,
+      -276
+    ],
+    "surface_y": 109,
+    "vertical_scan_y": 109,
+    "filtered_y": 109,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  },
+  {
+    "target": "SITE-011",
+    "x": 140,
+    "z": -4416,
+    "region": "dimensions/minecraft/overworld/region/r.0.-9.mca",
+    "chunk": [
+      8,
+      -276
+    ],
+    "surface_y": 110,
+    "vertical_scan_y": 110,
+    "filtered_y": 110,
+    "water_top_independent": -32768,
+    "biome": "minecraft:frozen_ocean",
+    "water_interval": null,
+    "water_block_interval_valid": true,
+    "pass": true
+  }
+]

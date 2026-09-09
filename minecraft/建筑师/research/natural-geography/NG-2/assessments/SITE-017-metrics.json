@@ -1,0 +1,818 @@
+{
+  "roi_bounds": [
+    1792,
+    -2624,
+    3647,
+    -1089
+  ],
+  "grid8_elevation": {
+    "min": 62.0,
+    "p10": 188.0,
+    "median": 329.0,
+    "p90": 547.0,
+    "max": 707.0,
+    "mean": 347.2201194324713
+  },
+  "grid8_slope_rise_run": {
+    "min": 0.0,
+    "p10": 0.08838834764831845,
+    "median": 0.3644344934278313,
+    "p90": 0.9395810236483068,
+    "max": 4.178161228339567,
+    "mean": 0.4587875905404991
+  },
+  "water_sample_fraction": 0.0011673850574712645,
+  "target_height": 329,
+  "surface_minus_filtered": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 1.0,
+    "p90": 10.0,
+    "max": 25.0,
+    "mean": 2.9945896192528734
+  },
+  "biomes": {
+    "minecraft:cherry_grove": 16680,
+    "terralith:rocky_mountains": 7413,
+    "minecraft:frozen_peaks": 5315,
+    "terralith:scarlet_mountains": 764,
+    "minecraft:snowy_slopes": 942,
+    "minecraft:meadow": 2466,
+    "terralith:alpine_grove": 2381,
+    "terralith:snowy_cherry_grove": 75,
+    "minecraft:snowy_plains": 1259,
+    "terralith:yellowstone": 2445,
+    "terralith:shield": 4438,
+    "terralith:emerald_peaks": 2,
+    "minecraft:snowy_taiga": 334,
+    "minecraft:river": 27,
+    "minecraft:plains": 3
+  },
+  "low_slope_land": {
+    "component": 370,
+    "columns": 1,
+    "area_blocks2": 64,
+    "bounds": [
+      2776,
+      -1880,
+      2783,
+      -1873
+    ],
+    "touches_roi_edges": [],
+    "grid_perimeter_blocks": 32,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      2776,
+      -1880
+    ],
+    "seed_distance_to_v1_point": 35.77708763999664,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 339.0,
+      "p10": 339.0,
+      "median": 339.0,
+      "p90": 339.0,
+      "max": 339.0,
+      "mean": 339.0
+    },
+    "slope": {
+      "min": 0.125,
+      "p10": 0.125,
+      "median": 0.125,
+      "p90": 0.125,
+      "max": 0.125,
+      "mean": 0.125
+    }
+  },
+  "target_elevation_band": {
+    "component": 1,
+    "columns": 3151,
+    "area_blocks2": 201664,
+    "bounds": [
+      1992,
+      -2624,
+      3583,
+      -1089
+    ],
+    "touches_roi_edges": [
+      "north",
+      "south"
+    ],
+    "grid_perimeter_blocks": 9648,
+    "contains_v1_grid_sample": true,
+    "selected_seed": [
+      2760,
+      -1848
+    ],
+    "seed_distance_to_v1_point": 0.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 317.0,
+      "p10": 319.0,
+      "median": 330.0,
+      "p90": 339.0,
+      "max": 341.0,
+      "mean": 329.69565217391306
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.1767766952966369,
+      "median": 0.4192627457812106,
+      "p90": 0.75,
+      "max": 1.3491895715576814,
+      "mean": 0.44185024843395065
+    }
+  },
+  "high_terrain_200": {
+    "component": 1,
+    "columns": 38427,
+    "area_blocks2": 2459328,
+    "bounds": [
+      1792,
+      -2624,
+      3647,
+      -1089
+    ],
+    "touches_roi_edges": [
+      "north",
+      "south",
+      "west",
+      "east"
+    ],
+    "grid_perimeter_blocks": 8384,
+    "contains_v1_grid_sample": true,
+    "selected_seed": [
+      2760,
+      -1848
+    ],
+    "seed_distance_to_v1_point": 0.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 200.0,
+      "p10": 249.60000000000036,
+      "median": 351.0,
+      "p90": 572.0,
+      "max": 707.0,
+      "mean": 374.4395867489005
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.125,
+      "median": 0.39528470752104744,
+      "p90": 0.9540210951546092,
+      "max": 2.963976425344844,
+      "mean": 0.48225535791515534
+    }
+  },
+  "samples": 156398,
+  "stage_new_sample_counts": {
+    "adaptive4": 106836,
+    "context8": 44544,
+    "profile1": 5018
+  },
+  "artificial_material_samples": 0,
+  "artificial_material_names": [],
+  "water_topology": {
+    "method": "8/4-block sample context only; no full ROI connectivity claim",
+    "flow_direction": "not inferred"
+  },
+  "material_context": {
+    "meaning": "candidate materials and block entities are observations, not human-origin attribution",
+    "block_entity_counts": {
+      "minecraft:sculk_sensor": 26848,
+      "minecraft:sculk_shrieker": 2707,
+      "minecraft:sculk_catalyst": 6810,
+      "minecraft:mob_spawner": 307,
+      "minecraft:chest": 481,
+      "minecraft:beehive": 594,
+      "waystones:waystone": 32,
+      "minecraft:potent_sulfur": 180
+    },
+    "near_surface_or_waystone_entities": [
+      {
+        "id": "minecraft:beehive",
+        "x": 1799,
+        "y": 197,
+        "z": -1708,
+        "observed_exposed_y": 197
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1807,
+        "y": 227,
+        "z": -1533,
+        "observed_exposed_y": 227
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1822,
+        "y": 200,
+        "z": -1714,
+        "observed_exposed_y": 200
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1822,
+        "y": 239,
+        "z": -1466,
+        "observed_exposed_y": 239
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1824,
+        "y": 235,
+        "z": -1447,
+        "observed_exposed_y": 235
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1844,
+        "y": 293,
+        "z": -2500,
+        "observed_exposed_y": 293
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1854,
+        "y": 211,
+        "z": -1691,
+        "observed_exposed_y": 211
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1852,
+        "y": 212,
+        "z": -1648,
+        "observed_exposed_y": 212
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1840,
+        "y": 245,
+        "z": -1484,
+        "observed_exposed_y": 245
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1856,
+        "y": 280,
+        "z": -2592,
+        "observed_exposed_y": 280
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1856,
+        "y": 234,
+        "z": -1560,
+        "observed_exposed_y": 234
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1880,
+        "y": 222,
+        "z": -1644,
+        "observed_exposed_y": 222
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1888,
+        "y": 233,
+        "z": -1712,
+        "observed_exposed_y": 234
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1888,
+        "y": 234,
+        "z": -1712,
+        "observed_exposed_y": 234
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1932,
+        "y": 316,
+        "z": -2400,
+        "observed_exposed_y": 316
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1920,
+        "y": 285,
+        "z": -1976,
+        "observed_exposed_y": 285
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1960,
+        "y": 285,
+        "z": -1936,
+        "observed_exposed_y": 285
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1968,
+        "y": 311,
+        "z": -2352,
+        "observed_exposed_y": 311
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1968,
+        "y": 299,
+        "z": -2144,
+        "observed_exposed_y": 299
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1968,
+        "y": 298,
+        "z": -2144,
+        "observed_exposed_y": 299
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1968,
+        "y": 298,
+        "z": -2008,
+        "observed_exposed_y": 298
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1976,
+        "y": 293,
+        "z": -1928,
+        "observed_exposed_y": 293
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1984,
+        "y": 296,
+        "z": -2512,
+        "observed_exposed_y": 297
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 1984,
+        "y": 297,
+        "z": -2512,
+        "observed_exposed_y": 297
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 1984,
+        "y": 272,
+        "z": -1756,
+        "observed_exposed_y": 272
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2004,
+        "y": 324,
+        "z": -2260,
+        "observed_exposed_y": 324
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2036,
+        "y": 306,
+        "z": -1936,
+        "observed_exposed_y": 306
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2072,
+        "y": 316,
+        "z": -2376,
+        "observed_exposed_y": 316
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2164,
+        "y": 292,
+        "z": -2548,
+        "observed_exposed_y": 292
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2216,
+        "y": 367,
+        "z": -2256,
+        "observed_exposed_y": 367
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2224,
+        "y": 282,
+        "z": -2560,
+        "observed_exposed_y": 282
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2224,
+        "y": 281,
+        "z": -2560,
+        "observed_exposed_y": 282
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2224,
+        "y": 270,
+        "z": -1544,
+        "observed_exposed_y": 270
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2264,
+        "y": 293,
+        "z": -1780,
+        "observed_exposed_y": 293
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2296,
+        "y": 309,
+        "z": -2424,
+        "observed_exposed_y": 309
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2300,
+        "y": 367,
+        "z": -2256,
+        "observed_exposed_y": 367
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2336,
+        "y": 267,
+        "z": -1680,
+        "observed_exposed_y": 268
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2336,
+        "y": 268,
+        "z": -1680,
+        "observed_exposed_y": 268
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2340,
+        "y": 246,
+        "z": -1592,
+        "observed_exposed_y": 246
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2372,
+        "y": 337,
+        "z": -2380,
+        "observed_exposed_y": 337
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2368,
+        "y": 300,
+        "z": -1792,
+        "observed_exposed_y": 301
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2368,
+        "y": 301,
+        "z": -1792,
+        "observed_exposed_y": 301
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2384,
+        "y": 271,
+        "z": -1680,
+        "observed_exposed_y": 272
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2384,
+        "y": 272,
+        "z": -1680,
+        "observed_exposed_y": 272
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2404,
+        "y": 261,
+        "z": -1656,
+        "observed_exposed_y": 261
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2440,
+        "y": 352,
+        "z": -2388,
+        "observed_exposed_y": 352
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2472,
+        "y": 323,
+        "z": -2612,
+        "observed_exposed_y": 323
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2492,
+        "y": 316,
+        "z": -1896,
+        "observed_exposed_y": 316
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2520,
+        "y": 350,
+        "z": -1992,
+        "observed_exposed_y": 350
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2540,
+        "y": 346,
+        "z": -1972,
+        "observed_exposed_y": 346
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2556,
+        "y": 339,
+        "z": -2476,
+        "observed_exposed_y": 339
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2576,
+        "y": 326,
+        "z": -2604,
+        "observed_exposed_y": 326
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2624,
+        "y": 172,
+        "z": -1360,
+        "observed_exposed_y": 172
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2624,
+        "y": 171,
+        "z": -1360,
+        "observed_exposed_y": 172
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2656,
+        "y": 355,
+        "z": -2064,
+        "observed_exposed_y": 355
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2656,
+        "y": 354,
+        "z": -2064,
+        "observed_exposed_y": 355
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2656,
+        "y": 327,
+        "z": -1792,
+        "observed_exposed_y": 327
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2672,
+        "y": 366,
+        "z": -2544,
+        "observed_exposed_y": 367
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2672,
+        "y": 367,
+        "z": -2544,
+        "observed_exposed_y": 367
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2672,
+        "y": 359,
+        "z": -2080,
+        "observed_exposed_y": 360
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 2672,
+        "y": 360,
+        "z": -2080,
+        "observed_exposed_y": 360
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2708,
+        "y": 347,
+        "z": -1928,
+        "observed_exposed_y": 347
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2760,
+        "y": 309,
+        "z": -1751,
+        "observed_exposed_y": 309
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2832,
+        "y": 327,
+        "z": -1784,
+        "observed_exposed_y": 327
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2944,
+        "y": 338,
+        "z": -1820,
+        "observed_exposed_y": 338
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 2976,
+        "y": 298,
+        "z": -1584,
+        "observed_exposed_y": 298
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 3000,
+        "y": 309,
+        "z": -1632,
+        "observed_exposed_y": 309
+      },
+      {
+        "id": "minecraft:potent_sulfur",
+        "x": 3028,
+        "y": 293,
+        "z": -1552,
+        "observed_exposed_y": 295
+      },
+      {
+        "id": "minecraft:potent_sulfur",
+        "x": 3032,
+        "y": 292,
+        "z": -1536,
+        "observed_exposed_y": 294
+      },
+      {
+        "id": "minecraft:potent_sulfur",
+        "x": 3028,
+        "y": 289,
+        "z": -1456,
+        "observed_exposed_y": 290
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3056,
+        "y": 255,
+        "z": -1264,
+        "observed_exposed_y": 255
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3056,
+        "y": 254,
+        "z": -1264,
+        "observed_exposed_y": 255
+      },
+      {
+        "id": "minecraft:potent_sulfur",
+        "x": 3060,
+        "y": 250,
+        "z": -1152,
+        "observed_exposed_y": 251
+      },
+      {
+        "id": "minecraft:potent_sulfur",
+        "x": 3148,
+        "y": 285,
+        "z": -1296,
+        "observed_exposed_y": 286
+      },
+      {
+        "id": "minecraft:potent_sulfur",
+        "x": 3136,
+        "y": 280,
+        "z": -1276,
+        "observed_exposed_y": 281
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3200,
+        "y": 574,
+        "z": -2480,
+        "observed_exposed_y": 575
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3200,
+        "y": 575,
+        "z": -2480,
+        "observed_exposed_y": 575
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3200,
+        "y": 437,
+        "z": -2160,
+        "observed_exposed_y": 437
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3200,
+        "y": 436,
+        "z": -2160,
+        "observed_exposed_y": 437
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3472,
+        "y": 586,
+        "z": -2016,
+        "observed_exposed_y": 586
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3472,
+        "y": 585,
+        "z": -2016,
+        "observed_exposed_y": 586
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3520,
+        "y": 393,
+        "z": -1248,
+        "observed_exposed_y": 394
+      },
+      {
+        "id": "waystones:waystone",
+        "x": 3520,
+        "y": 394,
+        "z": -1248,
+        "observed_exposed_y": 394
+      }
+    ],
+    "surface_candidate_states": []
+  },
+  "observed_extrema": {
+    "min": [
+      1892,
+      62,
+      -1120
+    ],
+    "max": [
+      3584,
+      711,
+      -2012
+    ]
+  },
+  "profiles": {
+    "east-west": {
+      "columns": 1856,
+      "min_y": 192,
+      "max_y": 633,
+      "length_blocks": 1855.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "north-south": {
+      "columns": 1536,
+      "min_y": 179,
+      "max_y": 426,
+      "length_blocks": 1535.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "northwest-southeast": {
+      "columns": 1536,
+      "min_y": 290,
+      "max_y": 396,
+      "length_blocks": 2170.817818242701,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "southwest-northeast": {
+      "columns": 1536,
+      "min_y": 102,
+      "max_y": 661,
+      "length_blocks": 2170.817818242701,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    }
+  }
+}

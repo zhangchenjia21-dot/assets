@@ -1,0 +1,485 @@
+{
+  "roi_bounds": [
+    -800,
+    1376,
+    415,
+    2655
+  ],
+  "grid8_elevation": {
+    "min": 14.0,
+    "p10": 62.0,
+    "median": 62.0,
+    "p90": 72.0,
+    "max": 162.0,
+    "mean": 66.45082236842106
+  },
+  "grid8_slope_rise_run": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 0.1875,
+    "max": 4.4655801694740624,
+    "mean": 0.08202321773960193
+  },
+  "water_sample_fraction": 0.4908717105263158,
+  "target_height": 72,
+  "surface_minus_filtered": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 1.0,
+    "max": 52.0,
+    "mean": 0.40308388157894737
+  },
+  "biomes": {
+    "minecraft:deep_lukewarm_ocean": 207,
+    "minecraft:lukewarm_ocean": 6905,
+    "minecraft:beach": 3491,
+    "minecraft:river": 1489,
+    "minecraft:savanna": 5406,
+    "terralith:hot_shrubland": 1139,
+    "terralith:arid_highlands": 5628,
+    "terralith:cave/fungal_caves": 21,
+    "terralith:gravel_beach": 34
+  },
+  "low_slope_land": {
+    "component": 1,
+    "columns": 7742,
+    "area_blocks2": 495488,
+    "bounds": [
+      -712,
+      1424,
+      263,
+      2519
+    ],
+    "touches_roi_edges": [],
+    "grid_perimeter_blocks": 15584,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      -256,
+      2056
+    ],
+    "seed_distance_to_v1_point": 8.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 58.0,
+      "p10": 63.0,
+      "median": 65.0,
+      "p90": 71.0,
+      "max": 78.0,
+      "mean": 66.07026608111599
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0625,
+      "p90": 0.08838834764831845,
+      "max": 0.125,
+      "mean": 0.04146846130131298
+    }
+  },
+  "target_elevation_band": {
+    "component": 1,
+    "columns": 8964,
+    "area_blocks2": 573696,
+    "bounds": [
+      -712,
+      1424,
+      287,
+      2519
+    ],
+    "touches_roi_edges": [],
+    "grid_perimeter_blocks": 7408,
+    "contains_v1_grid_sample": true,
+    "selected_seed": [
+      -248,
+      2056
+    ],
+    "seed_distance_to_v1_point": 0.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 60.0,
+      "p10": 63.0,
+      "median": 66.0,
+      "p90": 71.0,
+      "max": 78.0,
+      "mean": 66.22925033467202
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0625,
+      "p90": 0.13975424859373686,
+      "max": 4.4655801694740624,
+      "mean": 0.075891141272251
+    }
+  },
+  "high_terrain_200": null,
+  "samples": 1556480,
+  "stage_new_sample_counts": {
+    "adaptive4": 15564,
+    "context8": 24320,
+    "topology1": 1516596
+  },
+  "artificial_material_samples": 9960,
+  "artificial_material_names": [
+    {
+      "state": {
+        "Name": "minecraft:dirt_path"
+      },
+      "count": 9960
+    }
+  ],
+  "water_topology": {
+    "method": "1-block columns; four-neighbor real water vertical intervals must share at least one Y; no interpolation or biome connectivity",
+    "water_columns": 760839,
+    "land_columns": 795641,
+    "water_components": 63,
+    "land_components": 16,
+    "target_is_water": false,
+    "primary_water": {
+      "component": 1,
+      "columns": 759503,
+      "area_blocks2": 759503,
+      "bounds": [
+        -800,
+        1376,
+        415,
+        2655
+      ],
+      "touches_roi_edges": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "grid_perimeter_blocks": 14498,
+      "elevation": {
+        "min": 62.0,
+        "p10": 62.0,
+        "median": 62.0,
+        "p90": 62.0,
+        "max": 62.0,
+        "mean": 62.0
+      },
+      "depth": {
+        "min": 1.0,
+        "p10": 4.0,
+        "median": 18.0,
+        "p90": 38.0,
+        "max": 101.0,
+        "mean": 19.949830349583873
+      },
+      "biomes": {
+        "minecraft:deep_lukewarm_ocean": 12848,
+        "minecraft:lukewarm_ocean": 440448,
+        "minecraft:beach": 106567,
+        "minecraft:river": 96256,
+        "minecraft:savanna": 33848,
+        "terralith:hot_shrubland": 13085,
+        "terralith:arid_highlands": 54472,
+        "terralith:gravel_beach": 1979
+      }
+    },
+    "primary_land": {
+      "component": 1,
+      "columns": 575385,
+      "area_blocks2": 575385,
+      "bounds": [
+        -718,
+        1419,
+        280,
+        2518
+      ],
+      "touches_roi_edges": [],
+      "grid_perimeter_blocks": 7866
+    },
+    "largest_water_components": [
+      759503,
+      127,
+      91,
+      89,
+      79,
+      76,
+      69,
+      62,
+      56,
+      48
+    ],
+    "flow_direction": "not inferred",
+    "land_boundary_neighbor_water_components": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11,
+      12,
+      13,
+      15,
+      16,
+      17,
+      18,
+      19,
+      21,
+      22,
+      23,
+      24,
+      28,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63
+    ],
+    "outer_boundary_water_components": [
+      1
+    ],
+    "interior_water_boundary_columns": 681,
+    "land_fully_enclosed_by_one_water_component": true,
+    "land_highest": {
+      "x": -294,
+      "y": 79,
+      "z": 2129
+    }
+  },
+  "material_context": {
+    "meaning": "candidate materials and block entities are observations, not human-origin attribution",
+    "block_entity_counts": {
+      "minecraft:chest": 152,
+      "minecraft:mob_spawner": 97,
+      "waystones:waystone": 6,
+      "minecraft:beehive": 1
+    },
+    "near_surface_or_waystone_entities": [
+      {
+        "id": "waystones:waystone",
+        "x": -560,
+        "y": 64,
+        "z": 2304,
+        "observed_exposed_y": 65
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -560,
+        "y": 65,
+        "z": 2304,
+        "observed_exposed_y": 65
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -480,
+        "y": 68,
+        "z": 1920,
+        "observed_exposed_y": 68
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -480,
+        "y": 67,
+        "z": 1920,
+        "observed_exposed_y": 68
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -112,
+        "y": 68,
+        "z": 1536,
+        "observed_exposed_y": 69
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -112,
+        "y": 69,
+        "z": 1536,
+        "observed_exposed_y": 69
+      },
+      {
+        "id": "minecraft:beehive",
+        "x": 331,
+        "y": 68,
+        "z": 1651,
+        "observed_exposed_y": 68
+      }
+    ],
+    "surface_candidate_states": [
+      {
+        "state": {
+          "Name": "minecraft:acacia_leaves",
+          "Properties": {
+            "distance": "3",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 306
+      },
+      {
+        "state": {
+          "Name": "minecraft:acacia_leaves",
+          "Properties": {
+            "distance": "2",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 66
+      },
+      {
+        "state": {
+          "Name": "minecraft:acacia_leaves",
+          "Properties": {
+            "distance": "1",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 12
+      },
+      {
+        "state": {
+          "Name": "minecraft:acacia_leaves",
+          "Properties": {
+            "distance": "5",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 117
+      },
+      {
+        "state": {
+          "Name": "minecraft:acacia_leaves",
+          "Properties": {
+            "distance": "4",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 176
+      },
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "distance": "4",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 13
+      },
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "distance": "3",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 10
+      },
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "distance": "2",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 9
+      },
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "distance": "5",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:dirt_path"
+        },
+        "count": 9250
+      }
+    ]
+  },
+  "observed_extrema": {
+    "min": [
+      -521,
+      14,
+      1713
+    ],
+    "max": [
+      415,
+      168,
+      2299
+    ]
+  },
+  "profiles": {
+    "east-west": {
+      "columns": 1216,
+      "min_y": 62,
+      "max_y": 130,
+      "length_blocks": 1215.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "north-south": {
+      "columns": 1280,
+      "min_y": 62,
+      "max_y": 77,
+      "length_blocks": 1279.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "northwest-southeast": {
+      "columns": 1152,
+      "min_y": 62,
+      "max_y": 77,
+      "length_blocks": 1627.7598102914324,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "southwest-northeast": {
+      "columns": 1216,
+      "min_y": 62,
+      "max_y": 76,
+      "length_blocks": 1718.2694782833105,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    }
+  },
+  "water_sections": []
+}

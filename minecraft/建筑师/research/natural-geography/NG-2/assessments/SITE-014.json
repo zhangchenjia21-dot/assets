@@ -1,0 +1,264 @@
+{
+  "verdict": "CONFIRMED",
+  "refined_type": "elevated_tableland_bench_sector",
+  "confidence": "high for local tableland; regional extent open",
+  "observed_evidence": [
+    "包含V1点的低坡台面8格网估算193088 blocks²，高程183..200，中位191；坡度中位0.0625。",
+    "台面相对东北水面约高130格，西侧接更高山体；局部连续台面与边缘坡降并存，符合山侧台地。",
+    "目标高程±12带连片348992 blocks²，不能用其外包矩形冒充整个高原。"
+  ],
+  "limitations": [
+    "低坡台面在北/东触边，高程带在北/南/东触边；未确认完整高原闭合边界。",
+    "面积为8格采样估计；局部4格细化和逐列断面用于验证边缘，不等于整ROI逐列读取。"
+  ],
+  "target_id": "SITE-014",
+  "v1_type": "plateau_candidate",
+  "v1_source_object": "GEO-729",
+  "roi_bounds": [
+    -5120,
+    -1376,
+    -4385,
+    -545
+  ],
+  "sampling_method": {
+    "initial": "8-block actual grid",
+    "adaptive": "4-block entire chunks around slope>=0.25, water transition, or target radius96",
+    "critical": "1-block profiles",
+    "stored_columns": 26708,
+    "first_insert_stage_counts": {
+      "adaptive4": 14688,
+      "context8": 9568,
+      "profile1": 2452
+    },
+    "roi_reason": "V1台面bounds外扩约250格，包含完整局部台面与周缘高差。"
+  },
+  "resolution_levels": [
+    8,
+    4,
+    1
+  ],
+  "refined_metrics": {
+    "source": "assessments/SITE-014-metrics.json",
+    "sha256": "948229abaccbec635d4741e6045325428c92dc878fdb87bf863aa19b1e322e65",
+    "observed_extrema_xyz": {
+      "min": [
+        -4656,
+        62,
+        -1376
+      ],
+      "max": [
+        -5120,
+        329,
+        -548
+      ]
+    },
+    "grid8_elevation": {
+      "min": 62.0,
+      "p10": 164.0,
+      "median": 191.0,
+      "p90": 246.0,
+      "max": 328.0,
+      "mean": 194.33977842809364
+    },
+    "grid8_slope_rise_run": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.1767766952966369,
+      "p90": 0.8125,
+      "max": 4.899378149316503,
+      "mean": 0.3107785604093669
+    },
+    "low_slope_land": {
+      "component": 1,
+      "columns": 3017,
+      "area_blocks2": 193088,
+      "bounds": [
+        -5016,
+        -1376,
+        -4385,
+        -585
+      ],
+      "touches_roi_edges": [
+        "north",
+        "east"
+      ],
+      "grid_perimeter_blocks": 8960,
+      "contains_v1_grid_sample": true,
+      "selected_seed": [
+        -4792,
+        -952
+      ],
+      "seed_distance_to_v1_point": 0.0,
+      "area_method": "8-block sampled mask area; not exact column area",
+      "elevation": {
+        "min": 183.0,
+        "p10": 189.0,
+        "median": 191.0,
+        "p90": 194.0,
+        "max": 200.0,
+        "mean": 191.1461716937355
+      },
+      "slope": {
+        "min": 0.0,
+        "p10": 0.0,
+        "median": 0.0625,
+        "p90": 0.08838834764831845,
+        "max": 0.125,
+        "mean": 0.05587121956494756
+      }
+    },
+    "target_elevation_band": {
+      "component": 1,
+      "columns": 5453,
+      "area_blocks2": 348992,
+      "bounds": [
+        -5064,
+        -1376,
+        -4385,
+        -545
+      ],
+      "touches_roi_edges": [
+        "north",
+        "south",
+        "east"
+      ],
+      "grid_perimeter_blocks": 4032,
+      "contains_v1_grid_sample": true,
+      "selected_seed": [
+        -4792,
+        -952
+      ],
+      "seed_distance_to_v1_point": 0.0,
+      "area_method": "8-block sampled mask area; not exact column area",
+      "elevation": {
+        "min": 180.0,
+        "p10": 186.0,
+        "median": 191.0,
+        "p90": 200.0,
+        "max": 204.0,
+        "mean": 192.17751696313957
+      },
+      "slope": {
+        "min": 0.0,
+        "p10": 0.0,
+        "median": 0.08838834764831845,
+        "p90": 0.2795084971874737,
+        "max": 1.1319231422671772,
+        "mean": 0.13055413747120254
+      }
+    },
+    "high_terrain_200": {
+      "component": 2,
+      "columns": 231,
+      "area_blocks2": 14784,
+      "bounds": [
+        -4744,
+        -920,
+        -4569,
+        -785
+      ],
+      "touches_roi_edges": [],
+      "grid_perimeter_blocks": 624,
+      "contains_v1_grid_sample": false,
+      "selected_seed": [
+        -4728,
+        -888
+      ],
+      "seed_distance_to_v1_point": 90.50966799187809,
+      "area_method": "8-block sampled mask area; not exact column area",
+      "elevation": {
+        "min": 200.0,
+        "p10": 200.0,
+        "median": 203.0,
+        "p90": 206.0,
+        "max": 207.0,
+        "mean": 202.9090909090909
+      },
+      "slope": {
+        "min": 0.0,
+        "p10": 0.0625,
+        "median": 0.13975424859373686,
+        "p90": 0.2576941016011038,
+        "max": 0.3801726581436387,
+        "mean": 0.1525921276401895
+      }
+    },
+    "profiles": {
+      "east-west": {
+        "columns": 736,
+        "min_y": 160,
+        "max_y": 290,
+        "length_blocks": 735.0,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "north-south": {
+        "columns": 832,
+        "min_y": 144,
+        "max_y": 218,
+        "length_blocks": 831.0,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "northwest-southeast": {
+        "columns": 736,
+        "min_y": 191,
+        "max_y": 278,
+        "length_blocks": 1039.4469683442248,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "southwest-northeast": {
+        "columns": 736,
+        "min_y": 62,
+        "max_y": 307,
+        "length_blocks": 1039.4469683442248,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      }
+    }
+  },
+  "water_topology": {
+    "method": "8/4-block sample context only; no full ROI connectivity claim",
+    "flow_direction": "not inferred"
+  },
+  "anthropogenic_contamination": "possible",
+  "anthropogenic_evidence": {
+    "candidate_material_columns": 0,
+    "near_surface_or_waystone_entity_counts": {
+      "waystones:waystone": 6
+    },
+    "details": "assessments/SITE-014-metrics.json#/material_context",
+    "interpretation": "Observed Waystones and candidate materials have unresolved generated/player origin. No evidence here establishes landscape-scale grading; local interventions cannot be excluded. Retain all surfaces and lower origin confidence rather than infer pristine terrain.",
+    "material_origin_context": "validation/worldgen-material-context.json",
+    "limitations": "Material checks cover requested surface columns; entity inventory covers decoded chunks. Natural-material edits and unobserved small structures can be missed."
+  },
+  "provenance": {
+    "base_commit": "4b9b1f7e600708ff67e1ef2f844a9d3de0ba2242",
+    "world_snapshot": "manifest/world-before.json",
+    "v1_snapshot": "manifest/v1-before.json",
+    "v1_site_record": "../V1/survey/sites/SITE.jsonl#SITE-014",
+    "queryable_store": "raw-or-queryable/refinement.sqlite (restore archive first)",
+    "sample_trace": "target_samples(target,x,z) -> samples(x,z) -> chunks(x>>4,z>>4) -> region path -> world-before SHA256",
+    "decoded_chunks": 2392,
+    "regions": [
+      "dimensions/minecraft/overworld/region/r.-10.-2.mca",
+      "dimensions/minecraft/overworld/region/r.-10.-3.mca",
+      "dimensions/minecraft/overworld/region/r.-9.-2.mca",
+      "dimensions/minecraft/overworld/region/r.-9.-3.mca"
+    ],
+    "representative_sample": {
+      "x": -4792,
+      "z": -952,
+      "surface_y": 192,
+      "exposed_y": 192,
+      "ocean_floor_y": 192,
+      "water_y": -32768,
+      "water_bottom": -32768,
+      "surface_state": 24,
+      "exposed_state": 24,
+      "water_state": 0,
+      "biome": 6,
+      "ice_covered": 0,
+      "artificial_material": 0
+    },
+    "interpretation_authority": "human-readable model assessment; not a threshold-generated verdict, not World Canon",
+    "in_game_visual_review": "BLOCKED_BY_SAFE_ENVIRONMENT"
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "roi_bounds": [
+    -1472,
+    -3968,
+    -193,
+    -2817
+  ],
+  "grid8_elevation": {
+    "min": -27.0,
+    "p10": 62.0,
+    "median": 67.0,
+    "p90": 72.0,
+    "max": 102.0,
+    "mean": 66.62921006944444
+  },
+  "grid8_slope_rise_run": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.0625,
+    "p90": 0.13975424859373686,
+    "max": 8.097308580633443,
+    "mean": 0.07193884219369966
+  },
+  "water_sample_fraction": 0.2568142361111111,
+  "target_height": 63,
+  "surface_minus_filtered": {
+    "min": 0.0,
+    "p10": 0.0,
+    "median": 0.0,
+    "p90": 11.0,
+    "max": 32.0,
+    "mean": 2.446310763888889
+  },
+  "biomes": {
+    "minecraft:snowy_taiga": 4703,
+    "minecraft:frozen_river": 157,
+    "minecraft:snowy_beach": 324,
+    "minecraft:frozen_ocean": 685,
+    "minecraft:cold_ocean": 669,
+    "minecraft:beach": 1085,
+    "terralith:cold_shrubland": 63,
+    "minecraft:forest": 5,
+    "minecraft:plains": 1300,
+    "minecraft:river": 1723,
+    "terralith:gravel_desert": 65,
+    "terralith:moonlight_valley": 3943,
+    "terralith:steppe": 3059,
+    "terralith:alpine_highlands": 5203,
+    "terralith:cave/deep_caves": 3,
+    "terralith:forested_highlands": 53
+  },
+  "low_slope_land": {
+    "component": 1,
+    "columns": 9674,
+    "area_blocks2": 619136,
+    "bounds": [
+      -1472,
+      -3968,
+      -481,
+      -2817
+    ],
+    "touches_roi_edges": [
+      "north",
+      "south",
+      "west"
+    ],
+    "grid_perimeter_blocks": 22672,
+    "contains_v1_grid_sample": false,
+    "selected_seed": [
+      -824,
+      -3368
+    ],
+    "seed_distance_to_v1_point": 16.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 61.0,
+      "p10": 66.0,
+      "median": 68.0,
+      "p90": 73.0,
+      "max": 78.0,
+      "mean": 68.552925366963
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0625,
+      "p90": 0.08838834764831845,
+      "max": 0.125,
+      "mean": 0.046412913035309575
+    }
+  },
+  "target_elevation_band": {
+    "component": 1,
+    "columns": 11246,
+    "area_blocks2": 719744,
+    "bounds": [
+      -1472,
+      -3968,
+      -465,
+      -2817
+    ],
+    "touches_roi_edges": [
+      "north",
+      "south",
+      "west"
+    ],
+    "grid_perimeter_blocks": 7760,
+    "contains_v1_grid_sample": true,
+    "selected_seed": [
+      -824,
+      -3384
+    ],
+    "seed_distance_to_v1_point": 0.0,
+    "area_method": "8-block sampled mask area; not exact column area",
+    "elevation": {
+      "min": 51.0,
+      "p10": 65.0,
+      "median": 68.0,
+      "p90": 72.0,
+      "max": 75.0,
+      "mean": 68.27307487106526
+    },
+    "slope": {
+      "min": 0.0,
+      "p10": 0.0,
+      "median": 0.0625,
+      "p90": 0.13975424859373686,
+      "max": 8.097308580633443,
+      "mean": 0.08005431006895933
+    }
+  },
+  "high_terrain_200": null,
+  "samples": 40972,
+  "stage_new_sample_counts": {
+    "adaptive4": 13956,
+    "context8": 23040,
+    "profile1": 3976
+  },
+  "artificial_material_samples": 68,
+  "artificial_material_names": [
+    {
+      "state": {
+        "Name": "minecraft:stone_slab",
+        "Properties": {
+          "type": "bottom",
+          "waterlogged": "false"
+        }
+      },
+      "count": 68
+    }
+  ],
+  "water_topology": {
+    "method": "8/4-block sample context only; no full ROI connectivity claim",
+    "flow_direction": "not inferred"
+  },
+  "material_context": {
+    "meaning": "candidate materials and block entities are observations, not human-origin attribution",
+    "block_entity_counts": {
+      "minecraft:chest": 175,
+      "minecraft:mob_spawner": 108,
+      "waystones:waystone": 4
+    },
+    "near_surface_or_waystone_entities": [
+      {
+        "id": "waystones:waystone",
+        "x": -1296,
+        "y": 71,
+        "z": -3200,
+        "observed_exposed_y": 71
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -1296,
+        "y": 70,
+        "z": -3200,
+        "observed_exposed_y": 71
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -1280,
+        "y": 77,
+        "z": -3760,
+        "observed_exposed_y": 77
+      },
+      {
+        "id": "waystones:waystone",
+        "x": -1280,
+        "y": 76,
+        "z": -3760,
+        "observed_exposed_y": 77
+      }
+    ],
+    "surface_candidate_states": [
+      {
+        "state": {
+          "Name": "minecraft:stone_slab",
+          "Properties": {
+            "type": "bottom",
+            "waterlogged": "false"
+          }
+        },
+        "count": 63
+      },
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "distance": "4",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "distance": "3",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:oak_leaves",
+          "Properties": {
+            "distance": "2",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:spruce_leaves",
+          "Properties": {
+            "distance": "2",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 1
+      },
+      {
+        "state": {
+          "Name": "minecraft:birch_leaves",
+          "Properties": {
+            "distance": "4",
+            "persistent": "false",
+            "waterlogged": "false"
+          }
+        },
+        "count": 1
+      }
+    ]
+  },
+  "observed_extrema": {
+    "min": [
+      -1296,
+      -27,
+      -3336
+    ],
+    "max": [
+      -592,
+      102,
+      -3864
+    ]
+  },
+  "profiles": {
+    "east-west": {
+      "columns": 1280,
+      "min_y": 62,
+      "max_y": 71,
+      "length_blocks": 1279.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "north-south": {
+      "columns": 1152,
+      "min_y": 62,
+      "max_y": 69,
+      "length_blocks": 1151.0,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "northwest-southeast": {
+      "columns": 1152,
+      "min_y": 62,
+      "max_y": 77,
+      "length_blocks": 1627.7598102914324,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    },
+    "southwest-northeast": {
+      "columns": 1152,
+      "min_y": 62,
+      "max_y": 78,
+      "length_blocks": 1627.7598102914324,
+      "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+    }
+  }
+}

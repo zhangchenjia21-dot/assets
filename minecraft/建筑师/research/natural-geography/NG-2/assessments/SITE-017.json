@@ -1,0 +1,283 @@
+{
+  "verdict": "CONFIRMED",
+  "refined_type": "continuous_mountain_massif_flank",
+  "confidence": "high for spatial continuity",
+  "observed_evidence": [
+    "Y≥200的8格连通地形估算2459328 blocks²，覆盖V1点并向ROI四边延伸，不是孤立阈值碎片。",
+    "更细样本最高点(3584,711,-2012)位于东侧高山群；东西剖面从西部山麓经起伏肩部到东部高脊，南北剖面显示南侧低槽。",
+    "观测表面高程62..711，中央起伏山肩与东西向高差共同支持连续山体。"
+  ],
+  "limitations": [
+    "711是当前已采样柱最高值，不承诺整个ROI或整个山体的绝对主峰。",
+    "高地mask为操作性辅助指标，不自动等同山地语义边界；边缘仍开放。"
+  ],
+  "target_id": "SITE-017",
+  "v1_type": "mountains_candidate",
+  "v1_source_object": "GEO-534",
+  "roi_bounds": [
+    1792,
+    -2624,
+    3647,
+    -1089
+  ],
+  "sampling_method": {
+    "initial": "8-block actual grid",
+    "adaptive": "4-block entire chunks around slope>=0.25, water transition, or target radius96",
+    "critical": "1-block profiles",
+    "stored_columns": 156398,
+    "first_insert_stage_counts": {
+      "adaptive4": 106836,
+      "context8": 44544,
+      "profile1": 5018
+    },
+    "roi_reason": "从代表点向西延伸至山麓、向东延伸至更高山体，覆盖纵向山带；不承诺整个GEO闭合。"
+  },
+  "resolution_levels": [
+    8,
+    4,
+    1
+  ],
+  "refined_metrics": {
+    "source": "assessments/SITE-017-metrics.json",
+    "sha256": "ba6470b180a38904f825d580f6011c0c1692f374ba75292a7cbab69ee75e1b93",
+    "observed_extrema_xyz": {
+      "min": [
+        1892,
+        62,
+        -1120
+      ],
+      "max": [
+        3584,
+        711,
+        -2012
+      ]
+    },
+    "grid8_elevation": {
+      "min": 62.0,
+      "p10": 188.0,
+      "median": 329.0,
+      "p90": 547.0,
+      "max": 707.0,
+      "mean": 347.2201194324713
+    },
+    "grid8_slope_rise_run": {
+      "min": 0.0,
+      "p10": 0.08838834764831845,
+      "median": 0.3644344934278313,
+      "p90": 0.9395810236483068,
+      "max": 4.178161228339567,
+      "mean": 0.4587875905404991
+    },
+    "low_slope_land": {
+      "component": 370,
+      "columns": 1,
+      "area_blocks2": 64,
+      "bounds": [
+        2776,
+        -1880,
+        2783,
+        -1873
+      ],
+      "touches_roi_edges": [],
+      "grid_perimeter_blocks": 32,
+      "contains_v1_grid_sample": false,
+      "selected_seed": [
+        2776,
+        -1880
+      ],
+      "seed_distance_to_v1_point": 35.77708763999664,
+      "area_method": "8-block sampled mask area; not exact column area",
+      "elevation": {
+        "min": 339.0,
+        "p10": 339.0,
+        "median": 339.0,
+        "p90": 339.0,
+        "max": 339.0,
+        "mean": 339.0
+      },
+      "slope": {
+        "min": 0.125,
+        "p10": 0.125,
+        "median": 0.125,
+        "p90": 0.125,
+        "max": 0.125,
+        "mean": 0.125
+      }
+    },
+    "target_elevation_band": {
+      "component": 1,
+      "columns": 3151,
+      "area_blocks2": 201664,
+      "bounds": [
+        1992,
+        -2624,
+        3583,
+        -1089
+      ],
+      "touches_roi_edges": [
+        "north",
+        "south"
+      ],
+      "grid_perimeter_blocks": 9648,
+      "contains_v1_grid_sample": true,
+      "selected_seed": [
+        2760,
+        -1848
+      ],
+      "seed_distance_to_v1_point": 0.0,
+      "area_method": "8-block sampled mask area; not exact column area",
+      "elevation": {
+        "min": 317.0,
+        "p10": 319.0,
+        "median": 330.0,
+        "p90": 339.0,
+        "max": 341.0,
+        "mean": 329.69565217391306
+      },
+      "slope": {
+        "min": 0.0,
+        "p10": 0.1767766952966369,
+        "median": 0.4192627457812106,
+        "p90": 0.75,
+        "max": 1.3491895715576814,
+        "mean": 0.44185024843395065
+      }
+    },
+    "high_terrain_200": {
+      "component": 1,
+      "columns": 38427,
+      "area_blocks2": 2459328,
+      "bounds": [
+        1792,
+        -2624,
+        3647,
+        -1089
+      ],
+      "touches_roi_edges": [
+        "north",
+        "south",
+        "west",
+        "east"
+      ],
+      "grid_perimeter_blocks": 8384,
+      "contains_v1_grid_sample": true,
+      "selected_seed": [
+        2760,
+        -1848
+      ],
+      "seed_distance_to_v1_point": 0.0,
+      "area_method": "8-block sampled mask area; not exact column area",
+      "elevation": {
+        "min": 200.0,
+        "p10": 249.60000000000036,
+        "median": 351.0,
+        "p90": 572.0,
+        "max": 707.0,
+        "mean": 374.4395867489005
+      },
+      "slope": {
+        "min": 0.0,
+        "p10": 0.125,
+        "median": 0.39528470752104744,
+        "p90": 0.9540210951546092,
+        "max": 2.963976425344844,
+        "mean": 0.48225535791515534
+      }
+    },
+    "profiles": {
+      "east-west": {
+        "columns": 1856,
+        "min_y": 192,
+        "max_y": 633,
+        "length_blocks": 1855.0,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "north-south": {
+        "columns": 1536,
+        "min_y": 179,
+        "max_y": 426,
+        "length_blocks": 1535.0,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "northwest-southeast": {
+        "columns": 1536,
+        "min_y": 290,
+        "max_y": 396,
+        "length_blocks": 2170.817818242701,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      },
+      "southwest-northeast": {
+        "columns": 1536,
+        "min_y": 102,
+        "max_y": 661,
+        "length_blocks": 2170.817818242701,
+        "resolution": "1 block along axial profiles; sqrt(2) horizontal distance along diagonal profiles"
+      }
+    }
+  },
+  "water_topology": {
+    "method": "8/4-block sample context only; no full ROI connectivity claim",
+    "flow_direction": "not inferred"
+  },
+  "anthropogenic_contamination": "possible",
+  "anthropogenic_evidence": {
+    "candidate_material_columns": 0,
+    "near_surface_or_waystone_entity_counts": {
+      "minecraft:beehive": 45,
+      "waystones:waystone": 32,
+      "minecraft:potent_sulfur": 6
+    },
+    "details": "assessments/SITE-017-metrics.json#/material_context",
+    "interpretation": "Observed Waystones and candidate materials have unresolved generated/player origin. No evidence here establishes landscape-scale grading; local interventions cannot be excluded. Retain all surfaces and lower origin confidence rather than infer pristine terrain.",
+    "material_origin_context": "validation/worldgen-material-context.json",
+    "limitations": "Material checks cover requested surface columns; entity inventory covers decoded chunks. Natural-material edits and unobserved small structures can be missed."
+  },
+  "provenance": {
+    "base_commit": "4b9b1f7e600708ff67e1ef2f844a9d3de0ba2242",
+    "world_snapshot": "manifest/world-before.json",
+    "v1_snapshot": "manifest/v1-before.json",
+    "v1_site_record": "../V1/survey/sites/SITE.jsonl#SITE-017",
+    "queryable_store": "raw-or-queryable/refinement.sqlite (restore archive first)",
+    "sample_trace": "target_samples(target,x,z) -> samples(x,z) -> chunks(x>>4,z>>4) -> region path -> world-before SHA256",
+    "decoded_chunks": 11136,
+    "regions": [
+      "dimensions/minecraft/overworld/region/r.3.-3.mca",
+      "dimensions/minecraft/overworld/region/r.3.-4.mca",
+      "dimensions/minecraft/overworld/region/r.3.-5.mca",
+      "dimensions/minecraft/overworld/region/r.3.-6.mca",
+      "dimensions/minecraft/overworld/region/r.4.-3.mca",
+      "dimensions/minecraft/overworld/region/r.4.-4.mca",
+      "dimensions/minecraft/overworld/region/r.4.-5.mca",
+      "dimensions/minecraft/overworld/region/r.4.-6.mca",
+      "dimensions/minecraft/overworld/region/r.5.-3.mca",
+      "dimensions/minecraft/overworld/region/r.5.-4.mca",
+      "dimensions/minecraft/overworld/region/r.5.-5.mca",
+      "dimensions/minecraft/overworld/region/r.5.-6.mca",
+      "dimensions/minecraft/overworld/region/r.6.-3.mca",
+      "dimensions/minecraft/overworld/region/r.6.-4.mca",
+      "dimensions/minecraft/overworld/region/r.6.-5.mca",
+      "dimensions/minecraft/overworld/region/r.6.-6.mca",
+      "dimensions/minecraft/overworld/region/r.7.-3.mca",
+      "dimensions/minecraft/overworld/region/r.7.-4.mca",
+      "dimensions/minecraft/overworld/region/r.7.-5.mca",
+      "dimensions/minecraft/overworld/region/r.7.-6.mca"
+    ],
+    "representative_sample": {
+      "x": 2760,
+      "z": -1848,
+      "surface_y": 338,
+      "exposed_y": 329,
+      "ocean_floor_y": 338,
+      "water_y": -32768,
+      "water_bottom": -32768,
+      "surface_state": 304,
+      "exposed_state": 24,
+      "water_state": 0,
+      "biome": 30,
+      "ice_covered": 0,
+      "artificial_material": 0
+    },
+    "interpretation_authority": "human-readable model assessment; not a threshold-generated verdict, not World Canon",
+    "in_game_visual_review": "BLOCKED_BY_SAFE_ENVIRONMENT"
+  }
+}

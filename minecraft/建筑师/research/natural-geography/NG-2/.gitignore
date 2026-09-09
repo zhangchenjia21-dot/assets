@@ -1,0 +1,5 @@
+raw-or-queryable/*.sqlite
+raw-or-queryable/*.sqlite-*
+__pycache__/
+*.pyc
+raw-or-queryable/*-temporary.gz

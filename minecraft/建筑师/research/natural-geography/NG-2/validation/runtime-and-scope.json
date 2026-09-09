@@ -1,0 +1,248 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "Pillow": "12.3.0",
+  "nbtlib": "2.0.4",
+  "syntax_compile": "ok",
+  "layer_imports": [
+    {
+      "file": "tooling/L1_器件层/区块柱读取器.py",
+      "dependency": "L0_公理层.精查契约"
+    },
+    {
+      "file": "tooling/L2_流程层/交付整理流程.py",
+      "dependency": "L1_器件层.区块柱读取器"
+    },
+    {
+      "file": "tooling/L2_流程层/交付整理流程.py",
+      "dependency": "L1_器件层.源文件保护器"
+    },
+    {
+      "file": "tooling/L2_流程层/局部精查流程.py",
+      "dependency": "L0_公理层.精查契约"
+    },
+    {
+      "file": "tooling/L2_流程层/局部精查流程.py",
+      "dependency": "L1_器件层.源文件保护器"
+    },
+    {
+      "file": "tooling/L2_流程层/局部精查流程.py",
+      "dependency": "L1_器件层.区块柱读取器"
+    },
+    {
+      "file": "tooling/L2_流程层/局部精查流程.py",
+      "dependency": "L1_器件层.局部指标计算器"
+    },
+    {
+      "file": "tooling/L2_流程层/局部精查流程.py",
+      "dependency": "L1_器件层.局部图生成器"
+    },
+    {
+      "file": "tooling/L2_流程层/派生证据流程.py",
+      "dependency": "L1_器件层.区块柱读取器"
+    },
+    {
+      "file": "tooling/L2_流程层/派生证据流程.py",
+      "dependency": "L1_器件层.局部指标计算器"
+    },
+    {
+      "file": "tooling/L2_流程层/派生证据流程.py",
+      "dependency": "L1_器件层.源文件保护器"
+    },
+    {
+      "file": "tooling/L2_流程层/派生证据流程.py",
+      "dependency": "L1_器件层.局部图生成器"
+    },
+    {
+      "file": "tooling/L3_外交层/精查公开接口.py",
+      "dependency": "L2_流程层.局部精查流程"
+    },
+    {
+      "file": "tooling/L3_外交层/精查公开接口.py",
+      "dependency": "L2_流程层.派生证据流程"
+    },
+    {
+      "file": "tooling/L3_外交层/精查公开接口.py",
+      "dependency": "L2_流程层.交付整理流程"
+    }
+  ],
+  "upward_dependencies": 0,
+  "architecture_scope": "single tooling module; cross-layer imports descend; Bootstrap and tests are engineering periphery",
+  "unit_test_exit_code": 0,
+  "unit_test_output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.007s\n\nOK\n",
+  "db_json_metric_archive_consistency": true,
+  "v1_git_baseline_unchanged": true,
+  "image_inventory": [
+    {
+      "file": "visual/eight-target-comparison.png",
+      "size": [
+        1100,
+        1872
+      ],
+      "sha256": "ff47b21c9cbfc03beb55ca629a9a7abe86a7fa9e7a806e615e74f207184bfaa6"
+    },
+    {
+      "file": "visual/SITE-002-context.png",
+      "size": [
+        1100,
+        936
+      ],
+      "sha256": "55da3a304d5776a4a15fb89315d4ea6b9ead46b1ce6a3229fda50d0a00cee946"
+    },
+    {
+      "file": "visual/SITE-002-critical-contours.png",
+      "size": [
+        1100,
+        878
+      ],
+      "sha256": "e79aed2eef653c0c58ce37ef3f3d4fc835f690105a39766a0d77d8dd826e249f"
+    },
+    {
+      "file": "visual/SITE-002-slope-boundary.png",
+      "size": [
+        1100,
+        1029
+      ],
+      "sha256": "655c4c36e9c81d62a96ecb06b268b12febe473b84f07077ee7b436da4f2fe32c"
+    },
+    {
+      "file": "visual/SITE-003-context.png",
+      "size": [
+        1100,
+        871
+      ],
+      "sha256": "575146b00f2ad524053e7ca655fc233ab80c4c1a816c84d4fd55ed00ca0cf567"
+    },
+    {
+      "file": "visual/SITE-003-slope-boundary.png",
+      "size": [
+        1100,
+        952
+      ],
+      "sha256": "ad918a0bb74c188bba9217ca9da9ea9f6bc34030904c4050fdb216c5ddd03304"
+    },
+    {
+      "file": "visual/SITE-003-water-topology.png",
+      "size": [
+        1216,
+        1385
+      ],
+      "sha256": "2335404a04ca4e2aeface24e66ea1d0ff8e807df3d2637aa8cf812f4d7733e4b"
+    },
+    {
+      "file": "visual/SITE-005-context.png",
+      "size": [
+        1100,
+        680
+      ],
+      "sha256": "a91e46a77cd64b3ad0a49f9512142444646f7643b40e11c27e1a25e786d7940f"
+    },
+    {
+      "file": "visual/SITE-005-slope-boundary.png",
+      "size": [
+        1100,
+        670
+      ],
+      "sha256": "979b6fefb190f3f8a741b8d7a7bcb3828f819162b2670d6577e0cca4c731ed9b"
+    },
+    {
+      "file": "visual/SITE-011-context.png",
+      "size": [
+        1100,
+        750
+      ],
+      "sha256": "b14ea091f274c42e5cab22708dd0a2f7641e45988f9718b794b2b4bb051bb660"
+    },
+    {
+      "file": "visual/SITE-011-slope-boundary.png",
+      "size": [
+        1100,
+        810
+      ],
+      "sha256": "dfaa6662b6c82cd6063957c3f98ed25a6570a6f378b62a57dac6de198cfc07ec"
+    },
+    {
+      "file": "visual/SITE-011-water-topology.png",
+      "size": [
+        1050,
+        1001
+      ],
+      "sha256": "4c43c3271d1907fd45f78e44e26e50409c69d0b3a0bf4f8ce1ed412589b049f0"
+    },
+    {
+      "file": "visual/SITE-014-context.png",
+      "size": [
+        1100,
+        924
+      ],
+      "sha256": "fb6d6b0999234032c1c8d435b3475e5cfed8ea38a14f9c0c216e5b784c832dc0"
+    },
+    {
+      "file": "visual/SITE-014-slope-boundary.png",
+      "size": [
+        1100,
+        1014
+      ],
+      "sha256": "e485fbadfeff005e097b6aa06f1337c1c48c25ecc3b9b4e53ade409189502ae4"
+    },
+    {
+      "file": "visual/SITE-015-context.png",
+      "size": [
+        1100,
+        767
+      ],
+      "sha256": "dbb8978d2e107ce1f9ab96de6ec65f17b274bf479c662b402309707e83ed66e6"
+    },
+    {
+      "file": "visual/SITE-015-slope-boundary.png",
+      "size": [
+        1100,
+        830
+      ],
+      "sha256": "12cf8321ed2c66c50a49223f792ba90e056684dae2ea9cdc2ff5b3c6830493a7"
+    },
+    {
+      "file": "visual/SITE-017-context.png",
+      "size": [
+        1100,
+        718
+      ],
+      "sha256": "800988ee589114832ec5d95108d87c89122a65e734d8f5e9066faaa460f25402"
+    },
+    {
+      "file": "visual/SITE-017-slope-boundary.png",
+      "size": [
+        1100,
+        772
+      ],
+      "sha256": "b3c65d59aefa315897449055f156239b0debf3c75e59f23949e9ba37e93fc81f"
+    },
+    {
+      "file": "visual/SITE-019-context.png",
+      "size": [
+        1100,
+        680
+      ],
+      "sha256": "036e68428ec187748a64ed961876045508dbd9e9c97d06c1d7f6bbd2d48f34b3"
+    },
+    {
+      "file": "visual/SITE-019-slope-boundary.png",
+      "size": [
+        1100,
+        498
+      ],
+      "sha256": "610bf0d3cbb78a6cca450bd72e963c30a29b77d553977d2ca9289ce1c8d1cb6a"
+    },
+    {
+      "file": "visual/SITE-019-water-topology.png",
+      "size": [
+        2112,
+        1129
+      ],
+      "sha256": "bf012ec4a516f83a3fad22ead39cd63327666f3f107b0bbba5bac46cbd3b4dc8"
+    }
+  ],
+  "in_game_visual_review": "BLOCKED_BY_SAFE_ENVIRONMENT",
+  "world_writes": 0,
+  "errors": []
+}
