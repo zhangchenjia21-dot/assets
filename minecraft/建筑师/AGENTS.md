@@ -10,6 +10,7 @@ assets/AGENTS.md
 → minecraft/建筑师/AGENTS.md
 → current/README.md
 → current/项目状态.md
+→ 若存在 Active Task，读取其 tasks/<ID>/TASK.md
 → 与当前问题直接相关的 current / decision / architecture / research / world / build
 ```
 
@@ -22,12 +23,15 @@ assets/AGENTS.md
 - 世界构建方法与 Canon Promotion 原则：`current/世界构建原则.md`
 - 建筑与聚落设计 / 施工原则：`current/建造原则.md`
 - 高层阶段顺序：`current/开发路线.md`
+- 已授权 executable Task Packet：`tasks/`
 - Owner 正式裁定：`decisions/`
 - 地理事实层、空间 ID、证据层级契约：`architecture/`
 - 客观调查 / 参考 / validation：`research/`
 - Owner 明确批准后的世界设定：`world/`
 - site-specific 设计、蓝图、world-write 与验收记录：`builds/`
 - superseded / historical：`99_归档/`
+
+`tasks/` 只拥有**当前已授权任务的执行范围与验收**，不得覆盖 current 长期原则、World Canon 或 Architecture Authority。
 
 ## 3. 自然地理 Authority
 
@@ -86,7 +90,18 @@ Research / terrain hypothesis / GPT 建议即使保存，也只能进入 `resear
 
 无明确 world-write 授权时，`world writes = 0`。
 
-## 6. 任务成果归档
+## 6. Task Packet 与完成回写
+
+当 `current/项目状态.md` 指向 Active Task 时：
+
+1. 读取对应 `tasks/<ID>/TASK.md`；
+2. 严格执行该任务的 scope / acceptance / forbidden scope；
+3. 产物写入其 canonical 目录，而不是把所有东西塞进 task 文件夹；
+4. 在 `tasks/<ID>/COMPLETION.md` 写真实完成报告；
+5. Builder 可以把 current 状态机械更新为 `implementation completed / awaiting independent review`，但不得自行宣布 Stage PASS 或授权下一阶段；
+6. push 后交 GPT 独立审核。
+
+## 7. 任务成果归档
 
 Owner 已授权本项目后续已完成、已验证任务默认 push 到 `zhangchenjia21-dot/assets`。
 
@@ -95,13 +110,16 @@ Owner 已授权本项目后续已完成、已验证任务默认 push 到 `zhangc
 - 研究证据进入 `research/`；
 - current 长期事实只更新唯一 Owner 文件，不创建 `FINAL_v2` / `最新版2`；
 - 正式决定进入 `decisions/`；
+- executable task 进入 `tasks/`；
 - Canon 进入 `world/`；
 - 建造记录进入 `builds/`；
 - 失效内容进入 `99_归档/`；
 - 不把任务产物写到仓库根。
 
-## 7. 冲突处理
+## 8. 冲突处理
 
-用户当前明确指令 > Owner-approved current / world / decisions > 可验证世界 / 结构化事实 > architecture > research > discussion / archive > Agent 推测。
+用户当前明确指令 > Owner-approved current / world / decisions > 当前已授权 Task scope > 可验证世界 / 结构化事实 > architecture > research > discussion / archive > Agent 推测。
+
+Task 不能用来静默推翻更高层的 current / decision / world；若执行时发现长期原则不成立，应停止并把冲突交回 Owner / GPT。
 
 如果世界实际状态与既有 Canon / build record 冲突，不得静默拼接；先判断是世界后来被修改、记录过期，还是 Canon 需要重新裁定。
