@@ -10,11 +10,17 @@
 Project placement / governance = PASS
 Natural Geography Survey V1 = ACCEPTED BASELINE
 Survey Artifact Status = PARTIAL
-Local high-resolution / safe visual review = NEXT, NOT AUTHORIZED
+NG-2 Representative Local Refinement = AUTHORIZED / DISPATCH READY
+Safe in-game visual review = CONDITIONAL
+NG-3 = NOT AUTHORIZED
 World Canon = NOT STARTED
 Architecture Bible = NOT STARTED
 Build planning = HOLD
 ```
+
+当前 Active Task：
+
+`tasks/NG-002/TASK.md`
 
 V1 基础事实：Minecraft 26.2 / DataVersion 4903；主世界完整生成范围约 X=-6224～3807、Z=-6544～3487；393,129 个 `full` 区块形成连续矩形。V1 使用 64 格粗网格，24,964 个采样单元、124,820 根采样柱。高级地貌识别仍是候选，不是世界 Canon。
 
@@ -24,8 +30,8 @@ V1 基础事实：Minecraft 26.2 / DataVersion 4903；主世界完整生成范�
 2. 读本目录 `AGENTS.md`；
 3. 读 `current/README.md`；
 4. 读 `current/项目状态.md`；
-5. 按任务再读取 `current/世界构建原则.md`、`current/建造原则.md`、`current/开发路线.md`；
-6. 自然地理问题读取 `research/natural-geography/` 与 `architecture/地理事实层与空间ID契约.md`；
+5. 若有 Active Task，读取对应 `tasks/<ID>/TASK.md`；
+6. 按任务再读取相关 `current/`、`decisions/`、`architecture/`、`research/`；
 7. 只有 Owner-approved 世界设定才进入 `world/`；
 8. 具体落地项目进入 `builds/`。
 
@@ -34,6 +40,7 @@ V1 基础事实：Minecraft 26.2 / DataVersion 4903；主世界完整生成范�
 | 路径 | 角色 | Authority |
 |---|---|---|
 | `current/` | 当前目标、状态、原则与高层路线 | **当前项目入口** |
+| `tasks/` | 已授权 executable Task Packet / Completion | Active execution scope |
 | `decisions/` | Owner 明确裁定 | Decision Authority |
 | `architecture/` | 数据契约、空间事实层、未来工具/建造系统协议 | Architecture Authority |
 | `research/` | 自然地理调查、历史/现实参考、技术验证 | Evidence；不自动成为 Canon |
