@@ -1,94 +1,95 @@
-# CIV-001｜南部大岛林地长生种文明
+# CIV-001｜First Civilization Pilot
 
-状态：**OWNER-APPROVED PILOT ANCHOR / CIVILIZATION DESIGN ACTIVE**
+状态：**DESIGN RESET / REGION-FIRST RECONNAISSANCE REQUIRED**
 
-批准决策：`../../../decisions/D-006_CIV-001南部大岛林地长生种文明试点批准.md`
+当前裁定：`../../../decisions/D-007_文明设定必须经过区域实地考察.md`
 
-## 1. 已批准锚点
+历史决策：`../../../decisions/D-006_CIV-001南部大岛林地长生种文明试点批准.md`
 
-`CIV-001` 是本项目第一个文明设计 Pilot。
+## 1. 当前状态
 
-当前正式批准：
+`CIV-001` 仍保留为本项目第一个文明设计 Pilot 的工作 ID，但**不再绑定南部大岛的林地长生种文明**。
 
-- 核心试点区域：Current Natural Atlas 中的南部大岛；
-- Atlas 主锚点：`NGEO-009`；
-- 相关地貌：`NFEAT-003`；
-- 相关外围水体证据：`NHYD-019`；
-- 主要智慧种：林地长生种；
-- 未来将优先从该文明形成第一套 Architecture Grammar，并承担第一次 Canon Build 的文明来源。
+`D-006` 曾批准：
 
-## 2. 当前自然地理事实
+- 南部大岛 `NGEO-009` 作为 CIV-001 核心区域；
+- 林地长生种作为主要智慧种。
 
-`NGEO-009` 是 NG-2 逐列水陆拓扑验证后被 NG-3 收敛的南部低岛。
+Owner 随后进入真实 Minecraft 存档进行实地考察，发现区域自然条件与此前基于宏观 Atlas 形成的“圣林 / 自然型文明”想象不匹配。
 
-已接受证据支持：
+因此 `D-007` 已撤销上述文明空间指定。
+
+## 2. 南部大岛当前角色
+
+南部大岛现在仅作为：
+
+> **REGIONAL RECONNAISSANCE TARGET / HUMAN-GEOGRAPHY HYPOTHESIS PENDING**
+
+Atlas 主锚点：
+
+- `NGEO-009`
+- `NFEAT-003`
+- `NHYD-019`
+
+已接受宏观事实仍然有效：
 
 - 表层陆体被同一外围真实水体分量包围；
 - 岛内存在与外围水体分离的内部池塘；
 - 真实岛体陆柱面积约 575,385 blocks²；
-- 已验证岛体范围约 999 × 1100 blocks；
-- 在对应 NG-2 ROI 内不触边，因此“表层岛体”身份较可靠。
+- 已验证岛体范围约 999 × 1100 blocks。
 
-但仍不得从此自动推出：
+但这些事实不再用于直接推导任何种族 / 文明。
 
-- 整岛政治统一；
-- 具体森林覆盖；
-- 可航行港口；
-- 矿产 / 农业资源；
-- 人口容量；
-- 聚落位置；
-- 建筑位置。
+## 3. Owner 实地考察证据
 
-具体建设仍必须按需 local observation / refinement。
+见：
 
-## 3. 已继承的全局 Canon
+`../../../research/human-geography/southern-island/Owner实地考察_2026-09-09.md`
 
-本文明必须遵守 `../../global/Fantasy-Foundation.md`：
+当前 Owner 观察：
 
-- 世界为古老中魔多文明世界；
-- 魔法真实但有约束，不能无代价替代传统社会基础；
-- 神祇 / 神圣存在真实，但不直接持续管理凡人社会；
-- 世界主体技术约中世纪盛期～晚期；
-- 幻想蒸汽工业存在，但不是本文明当前默认核心路线；
-- 历史允许形成多时代遗迹与建筑叠加。
+- 整体更偏温带 / 枯树环境；
+- 多山、平原较少；
+- 总体西低东高；
+- 平原主要集中在西侧两个岛屿 / 岛片；
+- 可以初步辨认出三个潜在部族区域。
 
-## 4. 当前只确定到这里
+其中“三个潜在部族区域”仍是 hypothesis，需要结构化区域精查后才能进入 Canon。
 
-以下全部保持 **TBD**，必须在后续与 Owner 的 CIV-001 设计讨论中逐步确定：
+## 4. 当前禁止继续推导的内容
 
-1. 正式文明名 / 族名；
-2. 林地长生种的寿命、生理与人口特点；
-3. 社会气质与社会组织；
-4. 与自然的具体关系；
-5. 魔法实践方式与限制；
-6. 神祇 / 宗教；
-7. 经济与生产方式；
-8. 资源与材料；
-9. 技术路线；
-10. 聚落形态；
-11. 建筑语言；
-12. 历史与对外关系。
+在 Regional Profile 完成前，不继续冻结：
 
-## 5. 当前目标
+- 正式文明 / 族名；
+- 林地长生种落位；
+- 社会制度；
+- 宗教；
+- 魔法传统；
+- 经济；
+- 技术路线；
+- 聚落形态；
+- 建筑语言；
+- 部族边界；
+- 具体 Build site。
 
-下一步不是写完整文明百科，而是只收敛足够支撑第一套建筑语言的内容：
+## 5. 下一步
+
+先完成南部大岛 Regional Reconnaissance，至少结构化：
 
 ```text
-社会气质
-+ 自然 / 魔法关系
-+ 主要生活与生产方式
-+ 材料与技术倾向
-+ 聚落组织
-+ 建筑空间特征
+biome
++ elevation / relief / slope
++ flatland / gentle-slope distribution
++ water / shoreline / internal ponds
++ internal natural subregions
++ accessibility constraints
++ Owner three-tribe hypothesis cross-check
 ```
 
-完成后再决定是否进入 `AB-001`。
+然后再从自然条件提出文明 / 部族候选。
 
-## 6. 权限边界
+## 6. 仍继承的全局 Canon
 
-当前没有授权：
+`../../global/Fantasy-Foundation.md` 继续有效。
 
-- Architecture Bible 定稿；
-- 具体建筑选址；
-- Minecraft world write；
-- 把整座岛一次性规划成完整国家 / 城市网络。
+林地长生种仍作为全局智慧种族槽位存在，但其最适合的空间区域重新保持 TBD；Owner 当前认为热带雨林生物群系可能更适合作为候选，但尚未完成区域级考察，因此不写入空间 Canon。
