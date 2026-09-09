@@ -13,18 +13,22 @@ NG-3 Current Natural Atlas = ACCEPTED @ 57d392d
 WB-001 Fantasy Foundation = OWNER APPROVED / CANON
 D-006 Southern Island Woodland Long-lived CIV-001 anchor = SUPERSEDED
 D-007 Region-first Civilization Rule = ACTIVE
-WB-002 First Civilization Pilot = PAUSED
-WB-002R Southern Island Regional Reconnaissance = NEXT
+WB-002 First Civilization Pilot = PAUSED / DESIGN RESET
+WB-002R Southern Island Regional Reconnaissance = AUTHORIZED / DISPATCH READY
 CIV-001 species / region assignment = TBD
 Architecture Bible = HOLD
 Build planning = HOLD
 ```
 
+当前 Active Task：
+
+`tasks/WB-002R/TASK.md`
+
 ## 核心方法
 
 > **先读世界，再写世界。**
 
-现在进一步明确为：
+当前正式流程：
 
 ```text
 Current Natural Atlas
@@ -78,15 +82,31 @@ Natural Atlas 不是精确施工边界、水文导航图、World Canon 或 build
 
 当前 species / region assignment 均为 TBD。
 
-## Southern Island Reconnaissance
+## WB-002R｜Southern Island Regional Reconnaissance
+
+Authorization：
+
+`decisions/D-008_WB-002R南部大岛区域精查授权.md`
+
+Task：
+
+`tasks/WB-002R/TASK.md`
 
 Owner 实地证据：
 
 `research/human-geography/southern-island/Owner实地考察_2026-09-09.md`
 
-Owner 观察到该区域整体偏温带 / 枯树、多山少平原、西低东高，西侧两个岛屿 / 岛片拥有主要平原，并可初步辨认三个潜在部族区域。
+本轮让 Codex 只读结构化：
 
-这些信息目前用于指导区域精查，不直接构成文明 Canon。
+- biome；
+- elevation / slope / relief；
+- low-relief / gentle-slope；
+- vegetation structure；
+- land / water topology；
+- internal natural zones；
+- Owner 五项实地观察的独立核验。
+
+不强制得出“三个区域”；不创建文明 / 部族 / 政治事实；`world writes = 0`。
 
 ## AI Start here
 
@@ -95,11 +115,12 @@ Owner 观察到该区域整体偏温带 / 枯树、多山少平原、西低东�
 3. 读 `current/项目状态.md`；
 4. 读 `current/世界构建原则.md`；
 5. 读 `current/开发路线.md`；
-6. 按阶段读取相关 `decisions/`、`world/`、`architecture/`、`research/`；
-7. 自然地理优先使用 Current Natural Atlas，并保留 lineage / uncertainty；
-8. 文明空间分配必须经过 Regional Reconnaissance；
-9. 只有 Owner-approved 世界设定才能写入 `world/`；
-10. 无明确 world-write 授权不得修改 `建筑师` 存档。
+6. 若有 Active Task，读取对应 `tasks/<ID>/TASK.md`；
+7. 按阶段读取相关 `decisions/`、`world/`、`architecture/`、`research/`；
+8. 自然地理优先使用 Current Natural Atlas，并保留 lineage / uncertainty；
+9. 文明空间分配必须经过 Regional Reconnaissance；
+10. 只有 Owner-approved 世界设定才能写入 `world/`；
+11. 无明确 world-write 授权不得修改 `建筑师` 存档。
 
 ## Repository map
 
@@ -116,6 +137,6 @@ Owner 观察到该区域整体偏温带 / 枯树、多山少平原、西低东�
 
 ## Next Action
 
-> **WB-002R｜Southern Island Regional Reconnaissance**
+> **执行 WB-002R。**
 
-先把真实区域条件结构化，再讨论第一文明是谁。
+Codex 完成后交 GPT 独立审核；Regional Profile 被接受后，才进入 `WB-003｜Civilization Hypotheses from Region`。
