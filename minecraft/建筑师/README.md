@@ -2,24 +2,25 @@
 
 本目录是存档 **`建筑师`** 的长期项目工作区与事实入口。
 
-项目不是“随机让 AI 在地图上造漂亮建筑”，而是先理解已经存在的世界地形，再建立奇幻世界 Canon、建筑语言和聚落逻辑，最后让每次建造成为同一个世界历史的一部分。
+项目不是“随机让 AI 在地图上造漂亮建筑”，而是先理解已经存在的世界地形，再建立够建造使用的奇幻世界 Canon、文明建筑语言和聚落逻辑，最后让每次建造成为同一个世界的一部分。
 
 ## Current Stage
 
 ```text
 Project placement / governance = PASS
-Natural Geography Survey V1 = ACCEPTED COARSE BASELINE / ARTIFACT PARTIAL
-NG-2 Representative Local Refinement = PASS_WITH_NOTES / EVIDENCE ACCEPTED
-NG-3 Natural Atlas Consolidation = PASS_WITH_NOTES
+NG-1 Coarse Survey = ACCEPTED BASELINE / ARTIFACT PARTIAL
+NG-2 Local Refinement = PASS_WITH_NOTES / EVIDENCE ACCEPTED
+NG-3 Natural Atlas = PASS_WITH_NOTES
 Current Natural Atlas planning baseline = ACCEPTED @ 57d392d
 Safe in-game visual review = BLOCKED_BY_SAFE_ENVIRONMENT
-WB-001 Global / Non-spatial Fantasy Canon = READY FOR OWNER AUTHORIZATION / NOT AUTHORIZED
-World Canon = NOT STARTED / NOT AUTHORIZED
+WB-001 Fantasy Foundation = OWNER APPROVED / CANON ESTABLISHED
+WB-002 First Civilization Pilot = ACTIVE DESIGN
+CIV-001 Southern Island Woodland Long-lived Civilization = OWNER-APPROVED PILOT ANCHOR
 Architecture Bible = NOT STARTED / NOT AUTHORIZED
 Build planning = HOLD
 ```
 
-Natural Geography 主线已经达到当前可用停点。下一候选阶段不是继续全世界高精扫描，而是进入 **WB-001｜Global / Non-spatial Fantasy Canon**。
+Natural Geography 主线已经达到当前可用停点。项目现已进入 **CIV-001 第一个文明设计**。
 
 ## Current Natural Atlas
 
@@ -31,38 +32,35 @@ Accepted snapshot：
 
 `research/natural-geography/NG-3/raw-or-queryable/atlas.sqlite`
 
-当前对象：
+当前对象：35 `NGEO` / 20 `NHYD` / 4 `NFEAT` / 8 `NSITE`。
 
-- 35 `NGEO`
-- 20 `NHYD`
-- 4 `NFEAT`
-- 8 `NSITE`
-
-查询入口：
-
-```text
-coordinate
-object
-neighbors
-search
-context
-```
-
-以后宏观自然地理查询默认优先使用 Current Natural Atlas，再按 lineage / uncertainty 回溯 NG-2、V1 或原 Minecraft 世界。
-
-注意：NG-3 交付 artifact 内部对象仍保存 `status=PROPOSED`，这是 pre-review 历史状态。独立审核已经把**整个 57d392d snapshot**接受为 Current Natural Atlas planning baseline；这不改变对象自身 `SUPPORTED / PROVISIONAL` 证据等级，也不代表 World Canon。
-
-## Current Geography Limits
-
-- 多数 NGEO / coarse NHYD boundary 仍是尺度化近似，不是精确施工边界；
-- 全球水系 connectivity / flow direction / watershed 仍未建立；
-- 65 个 Atlas object 仍需要按需 local refinement；
-- safe in-game visual review 暂时不可用；
-- Atlas freshness 只代表最后 gate / seal 时点，terrain region 变化后需要 refresh。
-
-因此标准原则仍然是：
+原则：
 
 > **宏观用 Atlas，落点再精查。**
+
+Natural Atlas 是规划底图，不是精确施工边界、水文导航图、World Canon 或 build authorization。
+
+## Current World Canon
+
+全局基础：
+
+`world/global/Fantasy-Foundation.md`
+
+第一文明：
+
+`world/civilizations/CIV-001/README.md`
+
+当前已批准：
+
+- 古老中魔多文明世界；
+- 魔法真实但有约束；
+- 神祇 / 神圣存在真实但不直接持续统治凡人社会；
+- 主体技术约中世纪盛期～晚期；
+- 存在局部幻想蒸汽工业；
+- 人类 / 林地长生种 / 山地地下种 / 第四蒸汽关联种族槽位；
+- CIV-001 位于南部大岛 `NGEO-009`，主要智慧种为林地长生种。
+
+其余文明细节继续采用 Just-in-time Worldbuilding，不提前写完整百科。
 
 ## AI Start here
 
@@ -70,11 +68,11 @@ context
 2. 读本目录 `AGENTS.md`；
 3. 读 `current/README.md`；
 4. 读 `current/项目状态.md`；
-5. 若有 Active Task，读取对应 `tasks/<ID>/TASK.md`；
-6. 自然地理优先读取 `architecture/地理事实层与空间ID契约.md` 与 Current Natural Atlas；
-7. 按任务再读取相关 `decisions/`、`research/`、`world/`、`builds/`；
-8. 只有 Owner-approved 世界设定才进入 `world/`；
-9. 具体落地项目进入 `builds/`。
+5. 按任务读取 `current/开发路线.md`、相关 `decisions/`、`world/`、`architecture/`、`research/`；
+6. 自然地理优先使用 Current Natural Atlas，并保留 lineage / uncertainty；
+7. 只有 Owner-approved 世界设定才能写入 `world/`；
+8. 具体落地项目进入 `builds/`；
+9. 无明确 world-write 授权不得修改 `建筑师` 存档。
 
 ## Repository map
 
@@ -83,41 +81,27 @@ context
 | `current/` | 当前目标、状态、原则与高层路线 | **当前项目入口** |
 | `tasks/` | 已授权 executable Task Packet / Completion | Active execution scope |
 | `decisions/` | Owner 明确裁定 | Decision Authority |
-| `architecture/` | 数据契约、空间事实层、Atlas / 未来建造系统协议 | Architecture Authority |
-| `research/` | 自然地理调查、校准、Atlas、历史/现实参考、技术验证 | Evidence / accepted planning baseline；不自动成为 World Canon |
-| `discussion/` | Owner 明确要求保存的未批准草案 | 非 Authority |
-| `world/` | Owner 批准后的世界 Canon / World Bible | World Canon Authority |
-| `builds/` | 已规划 / 已实施建筑与聚落的 site-specific 记录 | Build Record |
+| `architecture/` | 数据契约、Atlas / 建筑规则与未来系统协议 | Architecture Authority |
+| `research/` | 自然地理、参考资料、校准与技术验证 | Evidence / planning baseline；不自动成为 Canon |
+| `world/` | Owner 批准后的世界 / 文明 Canon | World Canon Authority |
+| `builds/` | 已规划 / 已实施建筑与聚落记录 | Build Record |
 | `99_归档/` | superseded / historical | 历史证据 |
 
-## 核心边界
+## 当前核心边界
 
 > **先读世界，再写世界。**
 
-Minecraft 存档是自然地理原始事实源。Survey、refinement 和 Consolidated Atlas 必须保留 provenance / freshness；不能自动生成国家、历史或文明。
+> **只写够 Minecraft 建造使用的设定。**
 
-> **结构化事实层优先，Markdown / 地图是阅读视图。**
+> **Natural Atlas 不等于 World Canon；World Canon 不等于 world-write authorization。**
 
-> **Natural Atlas 不等于 World Canon；Canon 必须经过 Owner 明确批准。**
+## Next Action
 
-> **NSITE / terrain potential 不等于 build authorization。**
+继续设计 `CIV-001`，只收敛足够进入第一套 Architecture Grammar 的内容：
 
-## Next Candidate Stage
-
-`WB-001｜Global / Non-spatial Fantasy Canon`
-
-先定义不绑定具体地图位置的：
-
-- 世界气质；
-- 宇宙观；
-- 魔法规则；
-- 神祇 / 宗教基线；
-- 智慧种族；
-- 技术与物质文化；
-- 历史深度与灾变结构；
-- 怪物 / 超自然生态；
-- 历史知识可靠性。
-
-随后再使用 Current Natural Atlas 推演 Human Geography hypotheses。
-
-**WB-001 当前尚未授权。**
+- 社会气质；
+- 必要的种族生理 / 寿命；
+- 自然 / 魔法关系；
+- 生产与生活方式；
+- 材料与技术倾向；
+- 聚落与建筑空间特征。
