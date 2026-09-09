@@ -1,0 +1,112 @@
+{
+ "minecraft_mcp_calls": 0,
+ "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\苏州园林贰",
+ "generator": "FlatLevelSource",
+ "before": [
+  "minecraft:lantern[hanging=false,waterlogged=false]",
+  "minecraft:air",
+  "minecraft:stone_slab[type=bottom,waterlogged=false]",
+  "minecraft:stone",
+  "minecraft:lantern[hanging=false,waterlogged=false]",
+  "minecraft:air",
+  "minecraft:air",
+  "minecraft:air"
+ ],
+ "changed_blocks": 5,
+ "apply_seconds": 0.0727606,
+ "readback": [
+  {
+   "position": [
+    -92,
+    64,
+    10,
+    "minecraft:air"
+   ],
+   "actual": "minecraft:air",
+   "default_entity_valid": true
+  },
+  {
+   "position": [
+    -94,
+    64,
+    10,
+    "minecraft:lantern[hanging=false,waterlogged=false]"
+   ],
+   "actual": "minecraft:lantern[hanging=false,waterlogged=false]",
+   "default_entity_valid": true
+  },
+  {
+   "position": [
+    -92,
+    63,
+    13,
+    "minecraft:stone_slab[type=bottom,waterlogged=false]"
+   ],
+   "actual": "minecraft:stone_slab[type=bottom,waterlogged=false]",
+   "default_entity_valid": true
+  },
+  {
+   "position": [
+    -109,
+    64,
+    48,
+    "minecraft:air"
+   ],
+   "actual": "minecraft:air",
+   "default_entity_valid": true
+  },
+  {
+   "position": [
+    -109,
+    64,
+    49,
+    "minecraft:air"
+   ],
+   "actual": "minecraft:air",
+   "default_entity_valid": true
+  },
+  {
+   "position": [
+    -111,
+    64,
+    47,
+    "minecraft:lantern[hanging=false,waterlogged=false]"
+   ],
+   "actual": "minecraft:lantern[hanging=false,waterlogged=false]",
+   "default_entity_valid": true
+  },
+  {
+   "position": [
+    -109,
+    64,
+    50,
+    "minecraft:air"
+   ],
+   "actual": "minecraft:air",
+   "default_entity_valid": true
+  },
+  {
+   "position": [
+    -109,
+    64,
+    60,
+    "minecraft:air"
+   ],
+   "actual": "minecraft:air",
+   "default_entity_valid": true
+  }
+ ],
+ "mismatches": 0,
+ "block_entities_checked": 0,
+ "save_completed": true,
+ "status": "PASS",
+ "shutdown_verified": true,
+ "wall_seconds": 15.792,
+ "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-09T08-41-57-919Z-c1d2a288-3bb7-4d6d-a218-f09b2e9a458b",
+ "backup": {
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\苏州园林贰",
+  "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-09T08-41-57-919Z-c1d2a288-3bb7-4d6d-a218-f09b2e9a458b\\backup",
+  "files": 33,
+  "sha256_verified": true
+ }
+}
