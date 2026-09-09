@@ -1,0 +1,756 @@
+{
+  "OLS_Y_per_100_X": 5.764491613444566,
+  "R_squared": 0.4133870308028512,
+  "by_scope": {
+    "all_study_land": {
+      "area_blocks2": 2256681,
+      "biomes": {
+        "minecraft:beach": 125292,
+        "minecraft:flower_forest": 387,
+        "minecraft:lukewarm_ocean": 30,
+        "minecraft:plains": 76236,
+        "minecraft:savanna": 311679,
+        "minecraft:savanna_plateau": 102703,
+        "minecraft:stony_shore": 266203,
+        "minecraft:sulfur_caves": 700,
+        "minecraft:sunflower_plains": 96647,
+        "terralith:alpine_highlands": 29904,
+        "terralith:arid_highlands": 304955,
+        "terralith:basalt_cliffs": 90280,
+        "terralith:cave/fungal_caves": 1971,
+        "terralith:cave/infested_caves": 1991,
+        "terralith:cave/thermal_caves": 2252,
+        "terralith:granite_cliffs": 66208,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 779030
+      },
+      "bounds": [
+        -718,
+        1419,
+        2091,
+        3214
+      ],
+      "elevation": {
+        "max": 300.0,
+        "mean": 131.98350719485828,
+        "median": 128.0,
+        "min": 14.0,
+        "p10": 64.0,
+        "p25": 67.0,
+        "p75": 181.0,
+        "p90": 232.0
+      },
+      "flat_share": 0.21695888785344494,
+      "gentle_share": 0.0977067649348756,
+      "relief32": {
+        "max": 110.0,
+        "mean": 22.66483787473728,
+        "median": 16.0,
+        "min": 0.0,
+        "p10": 2.0,
+        "p25": 5.0,
+        "p75": 34.0,
+        "p90": 55.0
+      },
+      "shoreline_columns": 23881,
+      "slope8": {
+        "max": 6.550286293029785,
+        "mean": 0.5633421540260315,
+        "median": 0.3535533845424652,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0883883461356163,
+        "p75": 0.7905694246292114,
+        "p90": 1.3764196634292603
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0002269278227693704,
+          "occupied_fraction": 0.0002269278227693704
+        },
+        "leaf": {
+          "blocks_per_sample": 0.10211752024621669,
+          "occupied_fraction": 0.06665295644404101
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.1845490518671905,
+          "occupied_fraction": 0.17612435644687763
+        },
+        "sample_columns": 141014,
+        "trunk": {
+          "blocks_per_sample": 0.011495312522160921,
+          "occupied_fraction": 0.005488816713234147
+        }
+      }
+    },
+    "east": {
+      "area_blocks2": 1674373,
+      "biomes": {
+        "minecraft:beach": 12598,
+        "minecraft:plains": 76236,
+        "minecraft:savanna_plateau": 102703,
+        "minecraft:stony_shore": 266194,
+        "minecraft:sulfur_caves": 700,
+        "minecraft:sunflower_plains": 96647,
+        "terralith:alpine_highlands": 29904,
+        "terralith:arid_highlands": 155708,
+        "terralith:basalt_cliffs": 83857,
+        "terralith:cave/fungal_caves": 461,
+        "terralith:cave/infested_caves": 1991,
+        "terralith:cave/thermal_caves": 2252,
+        "terralith:granite_cliffs": 66162,
+        "terralith:hot_shrubland": 778960
+      },
+      "bounds": [
+        -349,
+        1453,
+        2091,
+        3214
+      ],
+      "elevation": {
+        "max": 300.0,
+        "mean": 154.89641316480856,
+        "median": 149.0,
+        "min": 29.0,
+        "p10": 70.0,
+        "p25": 107.0,
+        "p75": 202.0,
+        "p90": 242.0
+      },
+      "flat_share": 0.059946618823882136,
+      "gentle_share": 0.0784556368264419,
+      "relief32": {
+        "max": 110.0,
+        "mean": 29.10355159812061,
+        "median": 24.0,
+        "min": 0.0,
+        "p10": 6.0,
+        "p25": 13.0,
+        "p75": 41.0,
+        "p90": 62.0
+      },
+      "shoreline_columns": 11765,
+      "slope8": {
+        "max": 6.550286293029785,
+        "mean": 0.7278620004653931,
+        "median": 0.5340002179145813,
+        "min": 0.0,
+        "p10": 0.0883883461356163,
+        "p25": 0.2576940953731537,
+        "p75": 0.9702609181404114,
+        "p90": 1.5637495517730713
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.00016256119951040392,
+          "occupied_fraction": 0.00016256119951040392
+        },
+        "leaf": {
+          "blocks_per_sample": 0.08056341799265605,
+          "occupied_fraction": 0.05234470624235006
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.13565253977968175,
+          "occupied_fraction": 0.12753404222766218
+        },
+        "sample_columns": 104576,
+        "trunk": {
+          "blocks_per_sample": 0.010231793145654835,
+          "occupied_fraction": 0.004637775397796817
+        }
+      }
+    },
+    "west": {
+      "area_blocks2": 575363,
+      "biomes": {
+        "minecraft:beach": 112694,
+        "minecraft:savanna": 311664,
+        "terralith:arid_highlands": 149229,
+        "terralith:cave/fungal_caves": 1509,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 54
+      },
+      "bounds": [
+        -718,
+        1419,
+        280,
+        2518
+      ],
+      "elevation": {
+        "max": 79.0,
+        "mean": 66.14358066125212,
+        "median": 66.0,
+        "min": 14.0,
+        "p10": 63.0,
+        "p25": 64.0,
+        "p75": 67.0,
+        "p90": 71.0
+      },
+      "flat_share": 0.6764842369078303,
+      "gentle_share": 0.15489525742878843,
+      "relief32": {
+        "max": 52.0,
+        "mean": 3.922377698948316,
+        "median": 2.0,
+        "min": 0.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 5.0,
+        "p90": 8.0
+      },
+      "shoreline_columns": 5675,
+      "slope8": {
+        "max": 4.507805824279785,
+        "mean": 0.07338068634271622,
+        "median": 0.0625,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0883883461356163,
+        "p90": 0.1397542506456375
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.00041668981610089447,
+          "occupied_fraction": 0.00041668981610089447
+        },
+        "leaf": {
+          "blocks_per_sample": 0.16578698816600923,
+          "occupied_fraction": 0.10889493860770043
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.3287682649036058,
+          "occupied_fraction": 0.31935107505972554
+        },
+        "sample_columns": 35998,
+        "trunk": {
+          "blocks_per_sample": 0.015306405911439525,
+          "occupied_fraction": 0.008028223790210568
+        }
+      }
+    },
+    "whole_group": {
+      "area_blocks2": 2256681,
+      "biomes": {
+        "minecraft:beach": 125292,
+        "minecraft:flower_forest": 387,
+        "minecraft:lukewarm_ocean": 30,
+        "minecraft:plains": 76236,
+        "minecraft:savanna": 311679,
+        "minecraft:savanna_plateau": 102703,
+        "minecraft:stony_shore": 266203,
+        "minecraft:sulfur_caves": 700,
+        "minecraft:sunflower_plains": 96647,
+        "terralith:alpine_highlands": 29904,
+        "terralith:arid_highlands": 304955,
+        "terralith:basalt_cliffs": 90280,
+        "terralith:cave/fungal_caves": 1971,
+        "terralith:cave/infested_caves": 1991,
+        "terralith:cave/thermal_caves": 2252,
+        "terralith:granite_cliffs": 66208,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 779030
+      },
+      "bounds": [
+        -718,
+        1419,
+        2091,
+        3214
+      ],
+      "elevation": {
+        "max": 300.0,
+        "mean": 131.98350719485828,
+        "median": 128.0,
+        "min": 14.0,
+        "p10": 64.0,
+        "p25": 67.0,
+        "p75": 181.0,
+        "p90": 232.0
+      },
+      "flat_share": 0.21695888785344494,
+      "gentle_share": 0.0977067649348756,
+      "relief32": {
+        "max": 110.0,
+        "mean": 22.66483787473728,
+        "median": 16.0,
+        "min": 0.0,
+        "p10": 2.0,
+        "p25": 5.0,
+        "p75": 34.0,
+        "p90": 55.0
+      },
+      "shoreline_columns": 23881,
+      "slope8": {
+        "max": 6.550286293029785,
+        "mean": 0.5633421540260315,
+        "median": 0.3535533845424652,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0883883461356163,
+        "p75": 0.7905694246292114,
+        "p90": 1.3764196634292603
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0002269278227693704,
+          "occupied_fraction": 0.0002269278227693704
+        },
+        "leaf": {
+          "blocks_per_sample": 0.10211752024621669,
+          "occupied_fraction": 0.06665295644404101
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.1845490518671905,
+          "occupied_fraction": 0.17612435644687763
+        },
+        "sample_columns": 141014,
+        "trunk": {
+          "blocks_per_sample": 0.011495312522160921,
+          "occupied_fraction": 0.005488816713234147
+        }
+      }
+    }
+  },
+  "longitude_bands": [
+    {
+      "columns": 15873,
+      "elevation": {
+        "max": 64.0,
+        "mean": 63.01102501102501,
+        "median": 63.0,
+        "min": 62.0,
+        "p10": 63.0,
+        "p25": 63.0,
+        "p75": 63.0,
+        "p90": 64.0
+      },
+      "flat_share": 0.8419328419328419,
+      "x_bounds": [
+        -768,
+        -641
+      ]
+    },
+    {
+      "columns": 79868,
+      "elevation": {
+        "max": 67.0,
+        "mean": 63.59297841438374,
+        "median": 63.0,
+        "min": 14.0,
+        "p10": 63.0,
+        "p25": 63.0,
+        "p75": 64.0,
+        "p90": 65.0
+      },
+      "flat_share": 0.8014849501677769,
+      "x_bounds": [
+        -640,
+        -513
+      ]
+    },
+    {
+      "columns": 112716,
+      "elevation": {
+        "max": 68.0,
+        "mean": 64.85934561198056,
+        "median": 65.0,
+        "min": 18.0,
+        "p10": 63.0,
+        "p25": 64.0,
+        "p75": 66.0,
+        "p90": 66.0
+      },
+      "flat_share": 0.7944479931864155,
+      "x_bounds": [
+        -512,
+        -385
+      ]
+    },
+    {
+      "columns": 103719,
+      "elevation": {
+        "max": 79.0,
+        "mean": 67.01566733192568,
+        "median": 66.0,
+        "min": 58.0,
+        "p10": 63.0,
+        "p25": 64.0,
+        "p75": 69.0,
+        "p90": 73.0
+      },
+      "flat_share": 0.5773194882326286,
+      "x_bounds": [
+        -384,
+        -257
+      ]
+    },
+    {
+      "columns": 107732,
+      "elevation": {
+        "max": 77.0,
+        "mean": 68.63392492481343,
+        "median": 67.0,
+        "min": 33.0,
+        "p10": 63.0,
+        "p25": 65.0,
+        "p75": 73.0,
+        "p90": 75.0
+      },
+      "flat_share": 0.6129747892919467,
+      "x_bounds": [
+        -256,
+        -129
+      ]
+    },
+    {
+      "columns": 106233,
+      "elevation": {
+        "max": 76.0,
+        "mean": 67.9098773450811,
+        "median": 67.0,
+        "min": 42.0,
+        "p10": 63.0,
+        "p25": 65.0,
+        "p75": 71.0,
+        "p90": 73.0
+      },
+      "flat_share": 0.5822578671410955,
+      "x_bounds": [
+        -128,
+        -1
+      ]
+    },
+    {
+      "columns": 89250,
+      "elevation": {
+        "max": 75.0,
+        "mean": 66.86649859943978,
+        "median": 66.0,
+        "min": 56.0,
+        "p10": 63.0,
+        "p25": 64.0,
+        "p75": 70.0,
+        "p90": 71.0
+      },
+      "flat_share": 0.610890756302521,
+      "x_bounds": [
+        0,
+        127
+      ]
+    },
+    {
+      "columns": 67195,
+      "elevation": {
+        "max": 73.0,
+        "mean": 66.54313564997396,
+        "median": 67.0,
+        "min": 53.0,
+        "p10": 63.0,
+        "p25": 64.0,
+        "p75": 69.0,
+        "p90": 70.0
+      },
+      "flat_share": 0.5087283280005953,
+      "x_bounds": [
+        128,
+        255
+      ]
+    },
+    {
+      "columns": 83576,
+      "elevation": {
+        "max": 147.0,
+        "mean": 90.46805302957787,
+        "median": 87.0,
+        "min": 62.0,
+        "p10": 64.0,
+        "p25": 67.0,
+        "p75": 110.0,
+        "p90": 125.0
+      },
+      "flat_share": 0.11697137934335215,
+      "x_bounds": [
+        256,
+        383
+      ]
+    },
+    {
+      "columns": 117672,
+      "elevation": {
+        "max": 182.0,
+        "mean": 126.57624583588279,
+        "median": 136.0,
+        "min": 29.0,
+        "p10": 65.0,
+        "p25": 106.0,
+        "p75": 150.0,
+        "p90": 165.0
+      },
+      "flat_share": 0.10166394724318445,
+      "x_bounds": [
+        384,
+        511
+      ]
+    },
+    {
+      "columns": 111321,
+      "elevation": {
+        "max": 206.0,
+        "mean": 142.264837721544,
+        "median": 153.0,
+        "min": 62.0,
+        "p10": 74.0,
+        "p25": 107.0,
+        "p75": 180.0,
+        "p90": 190.0
+      },
+      "flat_share": 0.05055649877381626,
+      "x_bounds": [
+        512,
+        639
+      ]
+    },
+    {
+      "columns": 117726,
+      "elevation": {
+        "max": 259.0,
+        "mean": 157.50217454088306,
+        "median": 155.0,
+        "min": 62.0,
+        "p10": 86.0,
+        "p25": 118.0,
+        "p75": 205.0,
+        "p90": 226.0
+      },
+      "flat_share": 0.01072830130982111,
+      "x_bounds": [
+        640,
+        767
+      ]
+    },
+    {
+      "columns": 111103,
+      "elevation": {
+        "max": 267.0,
+        "mean": 173.63350224566392,
+        "median": 154.0,
+        "min": 62.0,
+        "p10": 100.0,
+        "p25": 135.0,
+        "p75": 234.0,
+        "p90": 257.0
+      },
+      "flat_share": 0.05028667092697767,
+      "x_bounds": [
+        768,
+        895
+      ]
+    },
+    {
+      "columns": 139609,
+      "elevation": {
+        "max": 280.0,
+        "mean": 158.30851162890644,
+        "median": 149.0,
+        "min": 62.0,
+        "p10": 82.0,
+        "p25": 133.0,
+        "p75": 203.0,
+        "p90": 227.0
+      },
+      "flat_share": 0.011374624845103109,
+      "x_bounds": [
+        896,
+        1023
+      ]
+    },
+    {
+      "columns": 177504,
+      "elevation": {
+        "max": 299.0,
+        "mean": 171.2610138363079,
+        "median": 156.0,
+        "min": 62.0,
+        "p10": 90.0,
+        "p25": 135.0,
+        "p75": 222.0,
+        "p90": 255.0
+      },
+      "flat_share": 0.004090048674959438,
+      "x_bounds": [
+        1024,
+        1151
+      ]
+    },
+    {
+      "columns": 168649,
+      "elevation": {
+        "max": 300.0,
+        "mean": 198.59999762821008,
+        "median": 220.0,
+        "min": 62.0,
+        "p10": 104.0,
+        "p25": 148.0,
+        "p75": 249.0,
+        "p90": 261.0
+      },
+      "flat_share": 0.01965620904956448,
+      "x_bounds": [
+        1152,
+        1279
+      ]
+    },
+    {
+      "columns": 151524,
+      "elevation": {
+        "max": 267.0,
+        "mean": 177.79201974604683,
+        "median": 187.0,
+        "min": 62.0,
+        "p10": 94.0,
+        "p25": 143.0,
+        "p75": 217.0,
+        "p90": 253.0
+      },
+      "flat_share": 0.0061442411763153034,
+      "x_bounds": [
+        1280,
+        1407
+      ]
+    },
+    {
+      "columns": 124241,
+      "elevation": {
+        "max": 262.0,
+        "mean": 168.47550325576904,
+        "median": 183.0,
+        "min": 62.0,
+        "p10": 73.0,
+        "p25": 113.0,
+        "p75": 219.0,
+        "p90": 245.0
+      },
+      "flat_share": 0.003726628085736593,
+      "x_bounds": [
+        1408,
+        1535
+      ]
+    },
+    {
+      "columns": 92343,
+      "elevation": {
+        "max": 235.0,
+        "mean": 144.09547014933455,
+        "median": 150.0,
+        "min": 62.0,
+        "p10": 80.0,
+        "p25": 107.0,
+        "p75": 177.0,
+        "p90": 198.0
+      },
+      "flat_share": 0.014976771384945258,
+      "x_bounds": [
+        1536,
+        1663
+      ]
+    },
+    {
+      "columns": 55607,
+      "elevation": {
+        "max": 271.0,
+        "mean": 184.1436869458881,
+        "median": 185.0,
+        "min": 62.0,
+        "p10": 101.0,
+        "p25": 146.0,
+        "p75": 235.0,
+        "p90": 259.0
+      },
+      "flat_share": 0.02789217184886795,
+      "x_bounds": [
+        1664,
+        1791
+      ]
+    },
+    {
+      "columns": 62511,
+      "elevation": {
+        "max": 268.0,
+        "mean": 172.8140327302395,
+        "median": 171.0,
+        "min": 62.0,
+        "p10": 96.0,
+        "p25": 145.0,
+        "p75": 211.0,
+        "p90": 242.0
+      },
+      "flat_share": 0.015453280222680808,
+      "x_bounds": [
+        1792,
+        1919
+      ]
+    },
+    {
+      "columns": 58053,
+      "elevation": {
+        "max": 191.0,
+        "mean": 135.59623103026544,
+        "median": 144.0,
+        "min": 61.0,
+        "p10": 88.0,
+        "p25": 130.0,
+        "p75": 149.0,
+        "p90": 161.0
+      },
+      "flat_share": 0.01836253079082907,
+      "x_bounds": [
+        1920,
+        2047
+      ]
+    },
+    {
+      "columns": 2656,
+      "elevation": {
+        "max": 131.0,
+        "mean": 92.00677710843374,
+        "median": 92.0,
+        "min": 61.0,
+        "p10": 66.0,
+        "p25": 75.0,
+        "p75": 106.0,
+        "p90": 119.0
+      },
+      "flat_share": 0.0,
+      "x_bounds": [
+        2048,
+        2175
+      ]
+    }
+  ],
+  "pearson_x_elevation": 0.6429518106381311,
+  "thresholds": {
+    "flat": "dry, relief32<=4, slope8<=0.125, step1<=1",
+    "gentle": "dry excluding flat, relief32<=8, slope8<=0.25, step1<=2",
+    "high_elevation_proxy": "Y>=100, operational only; not mountain identity",
+    "low_elevation_proxy": "Y<=65",
+    "relief": "17/33/65 square, land-only min/max",
+    "ridge_position_proxy": "relief64>=8 and upper20% local land heights",
+    "slope": "central endpoints16 apart, all four endpoints dry"
+  },
+  "whole_Y_ge100_share": 0.5745415501792234,
+  "whole_relief32_ge16_share": 0.5151024890093017,
+  "whole_relief64": {
+    "max": 189.0,
+    "mean": 41.074545759901376,
+    "median": 36.0,
+    "min": 1.0,
+    "p10": 4.0,
+    "p25": 9.0,
+    "p75": 67.0,
+    "p90": 86.0
+  }
+}

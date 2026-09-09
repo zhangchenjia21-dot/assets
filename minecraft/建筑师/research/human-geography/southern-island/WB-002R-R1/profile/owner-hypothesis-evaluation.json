@@ -1,0 +1,1214 @@
+{
+  "predecessor_local_evaluation": {
+    "hypotheses": [
+      {
+        "derived_metric_refs": [
+          "biome-profile.json#/main_island",
+          "vegetation-profile.json#/main_island",
+          "surface-materials.json#/vegetation_palette_sampled_ROI"
+        ],
+        "id": "H-01",
+        "interpretation": "Open/sparse-canopy and non-rainforest impression is supported. Temperate climate and dominant dead-tree structure are not established by these observations; dead_bush is not a dead tree. Keep those parts as Owner visual interpretation.",
+        "machine_observation": "Native savanna, arid_highlands and beach dominate; sampled acacia/oak leaves and logs plus grasses are present. No jungle biome observed on target island.",
+        "owner_observation": "温带 / 枯树环境为主，而非高密热带雨林",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "derived_metric_refs": [
+          "terrain-profile.json",
+          "west-east-comparison.json#/flat_threshold_sensitivity",
+          "west-east-comparison.json#/eastern_context"
+        ],
+        "id": "H-02",
+        "interpretation": "Not supported for NGEO-009 itself under published multi-scale terrain definitions. Surrounding eastern high terrain may explain a wider visual impression, but is not silently incorporated into this island. Flat morphology is not buildable land.",
+        "machine_observation": "Specified island is a low coastal component with local rises and cave openings; separate eastern ROI-edge land is considerably higher.",
+        "owner_observation": "多山少平原",
+        "verdict": "NOT_SUPPORTED"
+      },
+      {
+        "derived_metric_refs": [
+          "terrain-profile.json#/longitude_bands",
+          "terrain-profile.json#/pearson_x_elevation",
+          "terrain-profile.json#/OLS_Y_per_100_X",
+          "west-east-comparison.json#/halves"
+        ],
+        "id": "H-03",
+        "interpretation": "A modest positive longitudinal trend is supported; it is not monotonic or a strong east-west mountain division. No p-value is used because adjacent columns are spatially dependent.",
+        "machine_observation": "East half has a somewhat higher median/upper quantile, but local rises and depressions occur on both sides.",
+        "owner_observation": "总体西低东高",
+        "terrain_trend_verdict": "PARTIAL",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "derived_metric_refs": [
+          "low-relief-components.jsonl",
+          "west-east-comparison.json#/halves",
+          "topology-witnesses.json"
+        ],
+        "id": "H-04",
+        "interpretation": "Westward concentration relative to higher eastern context has support; the exact two independent islands wording does not. Explicit map-based candidate referents are audited; correspondence to Owner's unsupplied viewpoints remains uncertain.",
+        "machine_observation": "Western half is flatter, but low-relief land is also extensive eastward within NGEO-009. Its north and south lobes are connected; the central apparent island connects to the separate eastern landbody.",
+        "owner_observation": "低起伏平地主要集中在西侧两个岛屿 / 岛片",
+        "verdict": "PARTIALLY_SUPPORTED"
+      },
+      {
+        "derived_metric_refs": [
+          "zoning-alternatives.json",
+          "zoning-decision.json",
+          "natural-zones.jsonl"
+        ],
+        "id": "H-05",
+        "interpretation": "Retain one SIRZ reference unit with continuous/internal variation. Three-zone interpretation is not established inside the specified island. A wider eastern landscape has not been fully surveyed; no tribe, species or political assignment follows.",
+        "machine_observation": "Numerical alternatives k=2..5 divide mixed shoreline, biome/vegetation and relief attributes into fragmented thematic classes; no robust three discrete internal regions are established.",
+        "natural_substrate_support": "WEAK",
+        "owner_observation": "可自然分成三个潜在部族区域",
+        "verdict": "NOT_SUPPORTED"
+      }
+    ],
+    "not_canon": true,
+    "scope": "Current NGEO-009 component at (-248,2056), plus explicitly censored neighboring ROI context; Owner's exact viewpoints not supplied",
+    "status": "RESEARCH_INTERPRETATION"
+  },
+  "status": "RESEARCH_ONLY / NOT_WORLD_CANON",
+  "whole_scope_evaluation": [
+    {
+      "derived_evidence": [
+        "biome-profile.json",
+        "vegetation-profile.json"
+      ],
+      "id": "H-01",
+      "interpretation": "稀疏叶冠和非雨林环境有支持；hot_shrubland、savanna、arid_highlands 等不支持把整区直接称作温带。log 与少量干地植被不证明枯树占优，枯树仍为 Owner 视觉解释。",
+      "machine_observation": {
+        "biomes": {
+          "minecraft:beach": 125292,
+          "minecraft:flower_forest": 387,
+          "minecraft:lukewarm_ocean": 30,
+          "minecraft:plains": 76236,
+          "minecraft:savanna": 311679,
+          "minecraft:savanna_plateau": 102703,
+          "minecraft:stony_shore": 266203,
+          "minecraft:sulfur_caves": 700,
+          "minecraft:sunflower_plains": 96647,
+          "terralith:alpine_highlands": 29904,
+          "terralith:arid_highlands": 304955,
+          "terralith:basalt_cliffs": 90280,
+          "terralith:cave/fungal_caves": 1971,
+          "terralith:cave/infested_caves": 1991,
+          "terralith:cave/thermal_caves": 2252,
+          "terralith:granite_cliffs": 66208,
+          "terralith:gravel_beach": 213,
+          "terralith:hot_shrubland": 779030
+        },
+        "vegetation": {
+          "dry_ground_vegetation": {
+            "blocks_per_sample": 0.0002269278227693704,
+            "occupied_fraction": 0.0002269278227693704
+          },
+          "leaf": {
+            "blocks_per_sample": 0.10211752024621669,
+            "occupied_fraction": 0.06665295644404101
+          },
+          "other_vegetation": {
+            "blocks_per_sample": 0.1845490518671905,
+            "occupied_fraction": 0.17612435644687763
+          },
+          "sample_columns": 141014,
+          "trunk": {
+            "blocks_per_sample": 0.011495312522160921,
+            "occupied_fraction": 0.005488816713234147
+          }
+        }
+      },
+      "owner_observation": "温带 / 枯树环境为主，非高密热带雨林",
+      "scope": {
+        "bounds": [
+          -800,
+          1376,
+          2463,
+          3487
+        ],
+        "population": "all dry land in complete study rectangle, including satellite components",
+        "scope_status": "CLOSED_WITHIN_STUDY"
+      },
+      "verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "derived_evidence": [
+        "terrain-profile.json",
+        "low-relief-components.jsonl"
+      ],
+      "id": "H-02",
+      "interpretation": "完整范围由高起伏东部主体占主导，平地只占约五分之一；东岛平地约6%。支持整体印象，但山地不等于某个 biome，平地是操作性形态而非土地用途。旧低岛局部 NOT_SUPPORTED 不适用于全域。",
+      "machine_observation": {
+        "east_area_share": 0.7419626433687349,
+        "east_elevation": {
+          "max": 300.0,
+          "mean": 154.89641316480856,
+          "median": 149.0,
+          "min": 29.0,
+          "p10": 70.0,
+          "p25": 107.0,
+          "p75": 202.0,
+          "p90": 242.0
+        },
+        "east_flat_share": 0.059946618823882136,
+        "east_relief32": {
+          "max": 110.0,
+          "mean": 29.10355159812061,
+          "median": 24.0,
+          "min": 0.0,
+          "p10": 6.0,
+          "p25": 13.0,
+          "p75": 41.0,
+          "p90": 62.0
+        },
+        "whole_flat_share": 0.21695888785344494,
+        "whole_gentle_share": 0.0977067649348756
+      },
+      "owner_observation": "多山少平原",
+      "scope": {
+        "bounds": [
+          -800,
+          1376,
+          2463,
+          3487
+        ],
+        "population": "all dry land in complete study rectangle, including satellite components",
+        "scope_status": "CLOSED_WITHIN_STUDY"
+      },
+      "verdict": "SUPPORTED"
+    },
+    {
+      "derived_evidence": [
+        "terrain-profile.json"
+      ],
+      "id": "H-03",
+      "interpretation": "完整范围显著正相关，西岛与东岛中位高程相差83格；经度带仍有东岸下降、局部低地与高峰，不能解释为每一步都升高或因果推断。",
+      "machine_observation": {
+        "OLS_Y_per_100_X": 5.764491613444566,
+        "east_elevation": {
+          "max": 300.0,
+          "mean": 154.89641316480856,
+          "median": 149.0,
+          "min": 29.0,
+          "p10": 70.0,
+          "p25": 107.0,
+          "p75": 202.0,
+          "p90": 242.0
+        },
+        "longitude_bands": [
+          {
+            "columns": 15873,
+            "elevation": {
+              "max": 64.0,
+              "mean": 63.01102501102501,
+              "median": 63.0,
+              "min": 62.0,
+              "p10": 63.0,
+              "p25": 63.0,
+              "p75": 63.0,
+              "p90": 64.0
+            },
+            "flat_share": 0.8419328419328419,
+            "x_bounds": [
+              -768,
+              -641
+            ]
+          },
+          {
+            "columns": 79868,
+            "elevation": {
+              "max": 67.0,
+              "mean": 63.59297841438374,
+              "median": 63.0,
+              "min": 14.0,
+              "p10": 63.0,
+              "p25": 63.0,
+              "p75": 64.0,
+              "p90": 65.0
+            },
+            "flat_share": 0.8014849501677769,
+            "x_bounds": [
+              -640,
+              -513
+            ]
+          },
+          {
+            "columns": 112716,
+            "elevation": {
+              "max": 68.0,
+              "mean": 64.85934561198056,
+              "median": 65.0,
+              "min": 18.0,
+              "p10": 63.0,
+              "p25": 64.0,
+              "p75": 66.0,
+              "p90": 66.0
+            },
+            "flat_share": 0.7944479931864155,
+            "x_bounds": [
+              -512,
+              -385
+            ]
+          },
+          {
+            "columns": 103719,
+            "elevation": {
+              "max": 79.0,
+              "mean": 67.01566733192568,
+              "median": 66.0,
+              "min": 58.0,
+              "p10": 63.0,
+              "p25": 64.0,
+              "p75": 69.0,
+              "p90": 73.0
+            },
+            "flat_share": 0.5773194882326286,
+            "x_bounds": [
+              -384,
+              -257
+            ]
+          },
+          {
+            "columns": 107732,
+            "elevation": {
+              "max": 77.0,
+              "mean": 68.63392492481343,
+              "median": 67.0,
+              "min": 33.0,
+              "p10": 63.0,
+              "p25": 65.0,
+              "p75": 73.0,
+              "p90": 75.0
+            },
+            "flat_share": 0.6129747892919467,
+            "x_bounds": [
+              -256,
+              -129
+            ]
+          },
+          {
+            "columns": 106233,
+            "elevation": {
+              "max": 76.0,
+              "mean": 67.9098773450811,
+              "median": 67.0,
+              "min": 42.0,
+              "p10": 63.0,
+              "p25": 65.0,
+              "p75": 71.0,
+              "p90": 73.0
+            },
+            "flat_share": 0.5822578671410955,
+            "x_bounds": [
+              -128,
+              -1
+            ]
+          },
+          {
+            "columns": 89250,
+            "elevation": {
+              "max": 75.0,
+              "mean": 66.86649859943978,
+              "median": 66.0,
+              "min": 56.0,
+              "p10": 63.0,
+              "p25": 64.0,
+              "p75": 70.0,
+              "p90": 71.0
+            },
+            "flat_share": 0.610890756302521,
+            "x_bounds": [
+              0,
+              127
+            ]
+          },
+          {
+            "columns": 67195,
+            "elevation": {
+              "max": 73.0,
+              "mean": 66.54313564997396,
+              "median": 67.0,
+              "min": 53.0,
+              "p10": 63.0,
+              "p25": 64.0,
+              "p75": 69.0,
+              "p90": 70.0
+            },
+            "flat_share": 0.5087283280005953,
+            "x_bounds": [
+              128,
+              255
+            ]
+          },
+          {
+            "columns": 83576,
+            "elevation": {
+              "max": 147.0,
+              "mean": 90.46805302957787,
+              "median": 87.0,
+              "min": 62.0,
+              "p10": 64.0,
+              "p25": 67.0,
+              "p75": 110.0,
+              "p90": 125.0
+            },
+            "flat_share": 0.11697137934335215,
+            "x_bounds": [
+              256,
+              383
+            ]
+          },
+          {
+            "columns": 117672,
+            "elevation": {
+              "max": 182.0,
+              "mean": 126.57624583588279,
+              "median": 136.0,
+              "min": 29.0,
+              "p10": 65.0,
+              "p25": 106.0,
+              "p75": 150.0,
+              "p90": 165.0
+            },
+            "flat_share": 0.10166394724318445,
+            "x_bounds": [
+              384,
+              511
+            ]
+          },
+          {
+            "columns": 111321,
+            "elevation": {
+              "max": 206.0,
+              "mean": 142.264837721544,
+              "median": 153.0,
+              "min": 62.0,
+              "p10": 74.0,
+              "p25": 107.0,
+              "p75": 180.0,
+              "p90": 190.0
+            },
+            "flat_share": 0.05055649877381626,
+            "x_bounds": [
+              512,
+              639
+            ]
+          },
+          {
+            "columns": 117726,
+            "elevation": {
+              "max": 259.0,
+              "mean": 157.50217454088306,
+              "median": 155.0,
+              "min": 62.0,
+              "p10": 86.0,
+              "p25": 118.0,
+              "p75": 205.0,
+              "p90": 226.0
+            },
+            "flat_share": 0.01072830130982111,
+            "x_bounds": [
+              640,
+              767
+            ]
+          },
+          {
+            "columns": 111103,
+            "elevation": {
+              "max": 267.0,
+              "mean": 173.63350224566392,
+              "median": 154.0,
+              "min": 62.0,
+              "p10": 100.0,
+              "p25": 135.0,
+              "p75": 234.0,
+              "p90": 257.0
+            },
+            "flat_share": 0.05028667092697767,
+            "x_bounds": [
+              768,
+              895
+            ]
+          },
+          {
+            "columns": 139609,
+            "elevation": {
+              "max": 280.0,
+              "mean": 158.30851162890644,
+              "median": 149.0,
+              "min": 62.0,
+              "p10": 82.0,
+              "p25": 133.0,
+              "p75": 203.0,
+              "p90": 227.0
+            },
+            "flat_share": 0.011374624845103109,
+            "x_bounds": [
+              896,
+              1023
+            ]
+          },
+          {
+            "columns": 177504,
+            "elevation": {
+              "max": 299.0,
+              "mean": 171.2610138363079,
+              "median": 156.0,
+              "min": 62.0,
+              "p10": 90.0,
+              "p25": 135.0,
+              "p75": 222.0,
+              "p90": 255.0
+            },
+            "flat_share": 0.004090048674959438,
+            "x_bounds": [
+              1024,
+              1151
+            ]
+          },
+          {
+            "columns": 168649,
+            "elevation": {
+              "max": 300.0,
+              "mean": 198.59999762821008,
+              "median": 220.0,
+              "min": 62.0,
+              "p10": 104.0,
+              "p25": 148.0,
+              "p75": 249.0,
+              "p90": 261.0
+            },
+            "flat_share": 0.01965620904956448,
+            "x_bounds": [
+              1152,
+              1279
+            ]
+          },
+          {
+            "columns": 151524,
+            "elevation": {
+              "max": 267.0,
+              "mean": 177.79201974604683,
+              "median": 187.0,
+              "min": 62.0,
+              "p10": 94.0,
+              "p25": 143.0,
+              "p75": 217.0,
+              "p90": 253.0
+            },
+            "flat_share": 0.0061442411763153034,
+            "x_bounds": [
+              1280,
+              1407
+            ]
+          },
+          {
+            "columns": 124241,
+            "elevation": {
+              "max": 262.0,
+              "mean": 168.47550325576904,
+              "median": 183.0,
+              "min": 62.0,
+              "p10": 73.0,
+              "p25": 113.0,
+              "p75": 219.0,
+              "p90": 245.0
+            },
+            "flat_share": 0.003726628085736593,
+            "x_bounds": [
+              1408,
+              1535
+            ]
+          },
+          {
+            "columns": 92343,
+            "elevation": {
+              "max": 235.0,
+              "mean": 144.09547014933455,
+              "median": 150.0,
+              "min": 62.0,
+              "p10": 80.0,
+              "p25": 107.0,
+              "p75": 177.0,
+              "p90": 198.0
+            },
+            "flat_share": 0.014976771384945258,
+            "x_bounds": [
+              1536,
+              1663
+            ]
+          },
+          {
+            "columns": 55607,
+            "elevation": {
+              "max": 271.0,
+              "mean": 184.1436869458881,
+              "median": 185.0,
+              "min": 62.0,
+              "p10": 101.0,
+              "p25": 146.0,
+              "p75": 235.0,
+              "p90": 259.0
+            },
+            "flat_share": 0.02789217184886795,
+            "x_bounds": [
+              1664,
+              1791
+            ]
+          },
+          {
+            "columns": 62511,
+            "elevation": {
+              "max": 268.0,
+              "mean": 172.8140327302395,
+              "median": 171.0,
+              "min": 62.0,
+              "p10": 96.0,
+              "p25": 145.0,
+              "p75": 211.0,
+              "p90": 242.0
+            },
+            "flat_share": 0.015453280222680808,
+            "x_bounds": [
+              1792,
+              1919
+            ]
+          },
+          {
+            "columns": 58053,
+            "elevation": {
+              "max": 191.0,
+              "mean": 135.59623103026544,
+              "median": 144.0,
+              "min": 61.0,
+              "p10": 88.0,
+              "p25": 130.0,
+              "p75": 149.0,
+              "p90": 161.0
+            },
+            "flat_share": 0.01836253079082907,
+            "x_bounds": [
+              1920,
+              2047
+            ]
+          },
+          {
+            "columns": 2656,
+            "elevation": {
+              "max": 131.0,
+              "mean": 92.00677710843374,
+              "median": 92.0,
+              "min": 61.0,
+              "p10": 66.0,
+              "p25": 75.0,
+              "p75": 106.0,
+              "p90": 119.0
+            },
+            "flat_share": 0.0,
+            "x_bounds": [
+              2048,
+              2175
+            ]
+          }
+        ],
+        "pearson": 0.6429518106381311,
+        "west_elevation": {
+          "max": 79.0,
+          "mean": 66.14358066125212,
+          "median": 66.0,
+          "min": 14.0,
+          "p10": 63.0,
+          "p25": 64.0,
+          "p75": 67.0,
+          "p90": 71.0
+        }
+      },
+      "owner_observation": "总体西低东高",
+      "scope": {
+        "bounds": [
+          -800,
+          1376,
+          2463,
+          3487
+        ],
+        "population": "all dry land in complete study rectangle, including satellite components",
+        "scope_status": "CLOSED_WITHIN_STUDY"
+      },
+      "verdict": "SUPPORTED"
+    },
+    {
+      "derived_evidence": [
+        "land-components.json",
+        "low-relief-components.jsonl",
+        "water-topology.json",
+        "../../WB-002R/profile/topology-witnesses.json"
+      ],
+      "id": "H-04",
+      "interpretation": "平地主要集中在西部有强支持。西侧 C 形两翼属于同一岛；中部看似另岛的低地通过陆颈连接东部主岛，是其西伸部分。不能将 Owner 两个空间印象直接转成两个独立低岛，原视点仍未精确定位。",
+      "machine_observation": {
+        "east_component": 2,
+        "east_flat_share": 0.059946618823882136,
+        "west_component": 1,
+        "west_flat_share": 0.6764842369078303,
+        "west_share_of_all_flat_columns": 0.7949722941052721
+      },
+      "owner_observation": "平原主要集中在西侧两个岛屿 / 岛片",
+      "scope": {
+        "bounds": [
+          -800,
+          1376,
+          2463,
+          3487
+        ],
+        "population": "all dry land in complete study rectangle, including satellite components",
+        "scope_status": "CLOSED_WITHIN_STUDY"
+      },
+      "verdict": "PARTIALLY_SUPPORTED"
+    },
+    {
+      "derived_evidence": [
+        "zoning-alternatives.json",
+        "zoning-decision.json",
+        "natural-zones.jsonl"
+      ],
+      "id": "H-05",
+      "interpretation": "完整范围存在强烈自然差异，三种景观层次可作为讨论假说；k3 主要增加坡麓/岸缘过渡带，并未证明恰好三个稳定且紧凑的自然区。保留两大水陆边界明确的研究参考单元和内部连续梯度。未创建部族或政治实体。",
+      "machine_observation": {
+        "alternatives": {
+          "algorithm": "kmeans++ seeds 2,17,83; minimum SSE; standardized_sse uses fixed physical feature scales, no geographic coordinates",
+          "alternatives": [
+            {
+              "area_shares": [
+                0.4138684200381002,
+                0.5861315799618998
+              ],
+              "k": 2,
+              "mean_features_by_elevation_order": [
+                [
+                  72.91192573196858,
+                  8.525766650626185,
+                  0.14472072286025542,
+                  0.08055420801790716,
+                  0.006419002854375386,
+                  0.6063258917545163,
+                  0.0011603217646952227,
+                  0.14236617629786014,
+                  0.0001999709253250557,
+                  0.0007629593738041586,
+                  0.30015111816076195,
+                  0.08725690589158662,
+                  0.29948272339906085,
+                  0.0006820684302382489,
+                  0.09710582779660255,
+                  0.03106482530655181,
+                  0.016849393908616596,
+                  0.0004485863957685023,
+                  0.001801237800523685,
+                  3.145884082560582e-06,
+                  0.0,
+                  0.0009769499325557405,
+                  0.018497595920730827,
+                  0.00119019281123542
+                ],
+                [
+                  171.54279709591134,
+                  33.98330514040183,
+                  0.914574966636402,
+                  0.04993917155743675,
+                  0.0045376385173863205,
+                  0.04603028229078337,
+                  0.0,
+                  0.0,
+                  0.0016582149830211624,
+                  0.0009246097990786303,
+                  0.0005366243586302613,
+                  0.5208782892064779,
+                  0.010431015447400632,
+                  0.0,
+                  0.1488827981886728,
+                  0.06061992991779482,
+                  0.03944109082367581,
+                  0.0018478938304741022,
+                  0.07520511314318777,
+                  0.000571665449688587,
+                  0.022318016813144822,
+                  0.05657103611583933,
+                  0.06011370192291319,
+                  0.0
+                ]
+              ],
+              "semantics": "numerical alternatives only; model must judge continuity and transitions",
+              "spatial_components": [
+                1824,
+                496
+              ],
+              "standardized_sse": 54398.889706931084
+            },
+            {
+              "area_shares": [
+                0.4005696861895855,
+                0.17797641757962246,
+                0.42145389623079205
+              ],
+              "k": 3,
+              "mean_features_by_elevation_order": [
+                [
+                  72.11432472691162,
+                  7.279642153795945,
+                  0.13109111959994318,
+                  0.08367259877935154,
+                  0.0066791784983195115,
+                  0.6214125901472071,
+                  0.0012101568355225001,
+                  0.14848071167510188,
+                  1.1637288977159881e-05,
+                  0.0006339288370573634,
+                  0.3119255061104758,
+                  0.08966165865816948,
+                  0.31449293861804944,
+                  0.0007113628290543405,
+                  0.07299086738058391,
+                  0.0278949556115034,
+                  0.013069862727761202,
+                  0.0,
+                  0.0016303376365441908,
+                  3.280997773296178e-06,
+                  0.0,
+                  0.0006620324395895398,
+                  0.01537945152960602,
+                  0.0012413108242303873
+                ],
+                [
+                  112.00709639266707,
+                  58.21097902468581,
+                  1.69509178854741,
+                  0.009946258977897061,
+                  0.0013305736250739208,
+                  2.3100236546422237e-06,
+                  0.0,
+                  0.0,
+                  0.005502265717577365,
+                  0.0032426505984989723,
+                  0.004321466986064553,
+                  0.2867262182330898,
+                  0.02136771087974354,
+                  0.0,
+                  0.33981800531286166,
+                  0.1273593513302345,
+                  0.06564817629437932,
+                  0.006834055444899425,
+                  0.030861065754846137,
+                  0.0017694245793436216,
+                  0.0022545830869308103,
+                  0.020161326451982868,
+                  0.08413369932954749,
+                  0.0
+                ],
+                [
+                  194.90783100107643,
+                  23.12384302419537,
+                  0.5383266652122228,
+                  0.06618339612486544,
+                  0.005802610333692142,
+                  0.0767071446199498,
+                  0.0,
+                  0.0,
+                  4.520149354144241e-05,
+                  2.1023950484391817e-06,
+                  0.0,
+                  0.6046372527583423,
+                  0.0026406081808396124,
+                  0.0,
+                  0.08572515810010764,
+                  0.03230960710441335,
+                  0.030560414424111948,
+                  0.0,
+                  0.09215217976318622,
+                  0.0,
+                  0.030409041980624326,
+                  0.07089276103336921,
+                  0.0506256727664155,
+                  0.0
+                ]
+              ],
+              "semantics": "numerical alternatives only; model must judge continuity and transitions",
+              "spatial_components": [
+                1705,
+                615,
+                26
+              ],
+              "standardized_sse": 34861.99255012075
+            },
+            {
+              "area_shares": [
+                0.3444456704337033,
+                0.11185674891577498,
+                0.2793802048229236,
+                0.2643173758275981
+              ],
+              "k": 4,
+              "mean_features_by_elevation_order": [
+                [
+                  68.4777520947703,
+                  4.419247711360623,
+                  0.07943406277004526,
+                  0.09022284017950011,
+                  0.007159413750716843,
+                  0.7061856419713811,
+                  0.0014084113647745249,
+                  0.17278757775998566,
+                  0.0,
+                  0.00035065634373506507,
+                  0.36037678809968116,
+                  0.05017859606729223,
+                  0.33349178178373395,
+                  0.0008279021887982905,
+                  0.036766801091198724,
+                  0.02261081679309772,
+                  0.009218609474375654,
+                  0.0,
+                  0.0002902340364056631,
+                  0.0,
+                  0.0,
+                  0.0002430713207945222,
+                  0.01000408450536686,
+                  0.001444669170759896
+                ],
+                [
+                  114.30295801526718,
+                  65.89306732309093,
+                  2.139348717875608,
+                  0.007035888464800679,
+                  0.0010734732824427481,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.007871574161386225,
+                  0.0044535736530320145,
+                  0.0026800495162889195,
+                  0.2526159186854638,
+                  0.006185738169556217,
+                  0.0,
+                  0.37243898032440975,
+                  0.16385426803081696,
+                  0.07778741331713881,
+                  0.008936763617158948,
+                  0.030054933328199196,
+                  0.0028326311638376053,
+                  0.0022662213740458014,
+                  0.02185620518158686,
+                  0.04616572947707883,
+                  0.0
+                ],
+                [
+                  127.72630970724191,
+                  28.959843514743937,
+                  0.596808372014482,
+                  0.03771378691929539,
+                  0.0033705701078582434,
+                  0.05371274293441195,
+                  0.0,
+                  2.4075500770416025e-05,
+                  0.0004891237894031428,
+                  0.0008334488534993107,
+                  0.005266095446981653,
+                  0.39098463928582305,
+                  0.058561304120166184,
+                  0.0,
+                  0.2579461472790527,
+                  0.0761990502640042,
+                  0.06309405109169566,
+                  0.0008438595864955122,
+                  0.02561671497052853,
+                  1.4143052002731499e-05,
+                  0.011074730354391372,
+                  0.038646146696994156,
+                  0.07040646970819127,
+                  0.0
+                ],
+                [
+                  221.36888412017169,
+                  23.242343414699572,
+                  0.5702076612791854,
+                  0.07821888412017168,
+                  0.006893776824034335,
+                  0.08779003487124463,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.7036212446351932,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.1296942060085837,
+                  0.0,
+                  0.036775751072961375,
+                  0.0755901287553648,
+                  0.054318669527897,
+                  0.0
+                ]
+              ],
+              "semantics": "numerical alternatives only; model must judge continuity and transitions",
+              "spatial_components": [
+                1355,
+                537,
+                586,
+                2
+              ],
+              "standardized_sse": 28357.683966738354
+            },
+            {
+              "area_shares": [
+                0.33731085607580336,
+                0.16652996147882665,
+                0.06227730015895024,
+                0.213693029719309,
+                0.22018885256711074
+              ],
+              "k": 5,
+              "mean_features_by_elevation_order": [
+                [
+                  66.19131455399061,
+                  4.730339562901866,
+                  0.08437186980048471,
+                  0.09212534417199912,
+                  0.007307432802591254,
+                  0.6844531453529782,
+                  0.0014303144757877436,
+                  0.17543803011364742,
+                  0.0,
+                  0.00020595741070042844,
+                  0.3661680699421938,
+                  0.05577309921141255,
+                  0.34324458824926735,
+                  0.0008407774282367616,
+                  0.012699764510869507,
+                  0.02398562014162275,
+                  0.006174780184587737,
+                  0.0,
+                  0.0004047828638497652,
+                  0.0,
+                  0.0,
+                  0.0007824726134585289,
+                  0.011384606704130832,
+                  0.0014671361502347417
+                ],
+                [
+                  110.44128669581511,
+                  45.29196267384949,
+                  1.0117993308818765,
+                  0.019885322360337975,
+                  0.0021861336664584633,
+                  0.00039770065584009996,
+                  0.0,
+                  0.00011711430356027483,
+                  0.0011031790190936949,
+                  0.0026884810891219303,
+                  0.008209519069559258,
+                  0.3507688698137322,
+                  0.06832750343282412,
+                  0.0,
+                  0.2532769187287959,
+                  0.0956479455918935,
+                  0.048981937265692964,
+                  0.0014781016468097125,
+                  0.031036832255743173,
+                  0.00010588873391573451,
+                  0.00655840099937539,
+                  0.020651155527795128,
+                  0.11104815252208705,
+                  0.0
+                ],
+                [
+                  110.48419301164725,
+                  72.69024086310996,
+                  2.622648687608627,
+                  0.00414355703457201,
+                  0.0005199667221297837,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.012679156354166917,
+                  0.005049139248548337,
+                  0.004491375862014622,
+                  0.16192421118632688,
+                  0.0012320567415888771,
+                  0.0,
+                  0.462749278627613,
+                  0.17955522457119877,
+                  0.08216346214603673,
+                  0.015291093212616602,
+                  0.030047576955074876,
+                  0.004718444192515491,
+                  0.0017678868552412645,
+                  0.02126506327837443,
+                  0.017066030768683214,
+                  0.0
+                ],
+                [
+                  154.281050955414,
+                  17.743926542177288,
+                  0.38367337549714303,
+                  0.05865180467091295,
+                  0.005141985138004246,
+                  0.18374552118244875,
+                  0.0,
+                  0.0,
+                  7.049495753715499e-05,
+                  2.0733811040339702e-06,
+                  0.0,
+                  0.4716008990180467,
+                  0.01741640127388535,
+                  0.0,
+                  0.24432308253715498,
+                  0.05573248407643312,
+                  0.0681395966029724,
+                  0.0,
+                  0.027733545647558387,
+                  0.0,
+                  0.017648619957537155,
+                  0.05072319532908705,
+                  0.04660960721868365,
+                  0.0
+                ],
+                [
+                  229.10613086038126,
+                  24.69631270929933,
+                  0.6122486194742518,
+                  0.07264296754250386,
+                  0.006343379701184956,
+                  0.05598555834621329,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.6982869654817104,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.0,
+                  0.14415893869139618,
+                  0.0,
+                  0.03709428129829984,
+                  0.08043534260690366,
+                  0.04002447192168985,
+                  0.0
+                ]
+              ],
+              "semantics": "numerical alternatives only; model must judge continuity and transitions",
+              "spatial_components": [
+                1348,
+                758,
+                415,
+                25,
+                6
+              ],
+              "standardized_sse": 24443.277927470786
+            }
+          ],
+          "features": [
+            "elevation",
+            "relief32",
+            "slope8",
+            "leaf_occupancy",
+            "trunk_occupancy",
+            "flat_plus_gentle_share",
+            "biome_1",
+            "biome_2",
+            "biome_3",
+            "biome_5",
+            "biome_6",
+            "biome_7",
+            "biome_8",
+            "biome_9",
+            "biome_10",
+            "biome_11",
+            "biome_14",
+            "biome_15",
+            "biome_16",
+            "biome_17",
+            "biome_18",
+            "biome_19",
+            "biome_20",
+            "biome_22"
+          ],
+          "fixed_feature_scales": [
+            32.0,
+            16.0,
+            0.5,
+            0.25,
+            0.05,
+            0.5,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        },
+        "decision": {
+          "authority": "Interpretive decision by model after offline biome, elevation and k2..5 map inspection; not an algorithmic semantic verdict",
+          "candidate_comparison": {
+            "k2": "Broad lowland versus elevated terrain. Lowland includes the west island and east island westward peninsula, therefore attributes do not equal island identity.",
+            "k3": "Adds mostly an intermediate coastal/slope fringe, not a third compact island or uniquely bounded regional unit.",
+            "k4": "Further separates mountain interior and intermediate slopes; boundaries follow continuous height/relief changes.",
+            "k5": "Further divides higher cores and surrounding slopes. Additional classes explain gradation rather than establishing five discrete regions."
+          },
+          "conclusion": "Two topologically bounded research reference units with strong west-low/east-high contrast; internal east landform gradients remain continuous. No unique three-way natural partition established.",
+          "satellites": "All 6945 satellite dry columns remain in full-scope statistics, topology, terrain and numerical candidates; they are not silently assigned a major-island identity or omitted from queries.",
+          "status": "NOT_WORLD_CANON",
+          "units": [
+            {
+              "boundary_confidence": "HIGH for observed surface-water separation; no internal regional boundary claimed",
+              "label": "西部 C 形低岛研究参考单元",
+              "mask": "west",
+              "predecessor_relation": "same actual dry membership as WB-002R SIRZ-001, retained as local predecessor; freshwater/terrain recomputed in enlarged context",
+              "transition_limitations": "Northern and southern wings are connected through western land; one unit does not imply homogeneous biome or terrain."
+            },
+            {
+              "boundary_confidence": "HIGH for closed surface-water outline; LOW for any unchosen internal sharp subdivision",
+              "label": "东部山地主岛及西伸低地研究参考单元",
+              "mask": "east",
+              "predecessor_relation": "completes predecessor east-boundary component; predecessor truncated component is not an independent smaller island",
+              "transition_limitations": "Includes westward low peninsula, slopes, high cores and shores. These have substantial internal variation; no single uniform mountain habitat or political boundary is inferred."
+            }
+          ]
+        }
+      },
+      "owner_observation": "可自然分成三个潜在部族区域",
+      "scope": {
+        "bounds": [
+          -800,
+          1376,
+          2463,
+          3487
+        ],
+        "population": "all dry land in complete study rectangle, including satellite components",
+        "scope_status": "CLOSED_WITHIN_STUDY"
+      },
+      "verdict": "INSUFFICIENT"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "after": {
+    "profile/biome-profile.json": "a1216963a64495a4ceb66d3b210aef2259d03ed714a08d2b9483cbe43873d3fa",
+    "profile/internal-water.json": "4afc7fdbe01b13ef0dcc1310809a30eeaede598c5fa5b323a1322a3b286b3ae9",
+    "profile/land-components.json": "e19bc5486efd5d80c534fd13f2e2dc45a1a43c54e323440585bba3ce85aad032",
+    "profile/low-relief-components.jsonl": "0664535afb2b5d0324a0a40dc38431c1ce18fe16cfccdcc4165578dd29bad243",
+    "profile/natural-zones.jsonl": "79dad0dfc86f6f3caa52a5733610c745621ef63cc0b3b6565492527dc70229e5",
+    "profile/owner-hypothesis-evaluation.json": "c4430b005b59ad66bdbaf5ea8b930bdd74a35d1926638e43ffa17c6191b1ded6",
+    "profile/regional-summary.json": "f39aa47b37b538c2e41830d1dbee026cd1b6ce2a89a9c98babbd7b2c455f5880",
+    "profile/scope-completion.json": "ee2952caa2242e344e503494aa7304720434a27c921cf934ef64b4b2f31eefdc",
+    "profile/terrain-profile.json": "24d45b1383f9f120ddd678291b82ab55a8ff2dc5fc3f2f79719dac05c9ca8831",
+    "profile/vegetation-profile.json": "1247dbcec9124f34d265a5fde035d51f2e8169fe81ffd4f0aa9466f5618e2aa2",
+    "profile/water-topology.json": "06e5ac03b5f65f92c79c7979c2a259aff61cd8407d189c207c3d081a2d7aaaaf",
+    "profile/zoning-alternatives.json": "40f95c851b549e5f9ac95aceb93d100f15a26b004ecc63f116858feefe4aa710",
+    "profile/zoning-decision.json": "5071266854f591c4196e9142b810cf8995ae1b0e9cf63e488fa1cbd48d29d31b",
+    "raw-or-queryable/regional-profile.sqlite": "677378f98cff9e6acaeb32700a141382bceb15621acf5a4487ac3b17821293b6"
+  },
+  "before": {
+    "profile/biome-profile.json": "a1216963a64495a4ceb66d3b210aef2259d03ed714a08d2b9483cbe43873d3fa",
+    "profile/internal-water.json": "4afc7fdbe01b13ef0dcc1310809a30eeaede598c5fa5b323a1322a3b286b3ae9",
+    "profile/land-components.json": "e19bc5486efd5d80c534fd13f2e2dc45a1a43c54e323440585bba3ce85aad032",
+    "profile/low-relief-components.jsonl": "0664535afb2b5d0324a0a40dc38431c1ce18fe16cfccdcc4165578dd29bad243",
+    "profile/natural-zones.jsonl": "79dad0dfc86f6f3caa52a5733610c745621ef63cc0b3b6565492527dc70229e5",
+    "profile/owner-hypothesis-evaluation.json": "c4430b005b59ad66bdbaf5ea8b930bdd74a35d1926638e43ffa17c6191b1ded6",
+    "profile/regional-summary.json": "f39aa47b37b538c2e41830d1dbee026cd1b6ce2a89a9c98babbd7b2c455f5880",
+    "profile/scope-completion.json": "ee2952caa2242e344e503494aa7304720434a27c921cf934ef64b4b2f31eefdc",
+    "profile/terrain-profile.json": "24d45b1383f9f120ddd678291b82ab55a8ff2dc5fc3f2f79719dac05c9ca8831",
+    "profile/vegetation-profile.json": "1247dbcec9124f34d265a5fde035d51f2e8169fe81ffd4f0aa9466f5618e2aa2",
+    "profile/water-topology.json": "06e5ac03b5f65f92c79c7979c2a259aff61cd8407d189c207c3d081a2d7aaaaf",
+    "profile/zoning-alternatives.json": "40f95c851b549e5f9ac95aceb93d100f15a26b004ecc63f116858feefe4aa710",
+    "profile/zoning-decision.json": "5071266854f591c4196e9142b810cf8995ae1b0e9cf63e488fa1cbd48d29d31b",
+    "raw-or-queryable/regional-profile.sqlite": "677378f98cff9e6acaeb32700a141382bceb15621acf5a4487ac3b17821293b6"
+  },
+  "byte_identical": true,
+  "fixed_input_observed_sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7",
+  "status": "PASS"
+}

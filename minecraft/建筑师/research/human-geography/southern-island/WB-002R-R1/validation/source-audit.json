@@ -1,0 +1,15 @@
+{
+  "DataVersion": 4903,
+  "LevelName": "建筑师",
+  "checked_at": "2026-09-09T11:07:14.708890+00:00",
+  "immutable": {
+    "NG-2": true,
+    "NG-3": true,
+    "V1": true,
+    "WB-002R": true
+  },
+  "inventory_hash_size_mtime_equal": true,
+  "protection": "GENERIC_READ / FILE_SHARE_READ on all existing world and historical evidence files; whole inventory SHA256 / size / mtime comparison",
+  "world_unchanged_since_start": true,
+  "world_writes": 0
+}

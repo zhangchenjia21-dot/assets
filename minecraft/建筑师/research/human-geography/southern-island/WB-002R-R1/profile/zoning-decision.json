@@ -1,0 +1,28 @@
+{
+  "authority": "Interpretive decision by model after offline biome, elevation and k2..5 map inspection; not an algorithmic semantic verdict",
+  "status": "NOT_WORLD_CANON",
+  "conclusion": "Two topologically bounded research reference units with strong west-low/east-high contrast; internal east landform gradients remain continuous. No unique three-way natural partition established.",
+  "candidate_comparison": {
+    "k2": "Broad lowland versus elevated terrain. Lowland includes the west island and east island westward peninsula, therefore attributes do not equal island identity.",
+    "k3": "Adds mostly an intermediate coastal/slope fringe, not a third compact island or uniquely bounded regional unit.",
+    "k4": "Further separates mountain interior and intermediate slopes; boundaries follow continuous height/relief changes.",
+    "k5": "Further divides higher cores and surrounding slopes. Additional classes explain gradation rather than establishing five discrete regions."
+  },
+  "satellites": "All 6945 satellite dry columns remain in full-scope statistics, topology, terrain and numerical candidates; they are not silently assigned a major-island identity or omitted from queries.",
+  "units": [
+    {
+      "mask": "west",
+      "label": "西部 C 形低岛研究参考单元",
+      "boundary_confidence": "HIGH for observed surface-water separation; no internal regional boundary claimed",
+      "predecessor_relation": "same actual dry membership as WB-002R SIRZ-001, retained as local predecessor; freshwater/terrain recomputed in enlarged context",
+      "transition_limitations": "Northern and southern wings are connected through western land; one unit does not imply homogeneous biome or terrain."
+    },
+    {
+      "mask": "east",
+      "label": "东部山地主岛及西伸低地研究参考单元",
+      "boundary_confidence": "HIGH for closed surface-water outline; LOW for any unchosen internal sharp subdivision",
+      "predecessor_relation": "completes predecessor east-boundary component; predecessor truncated component is not an independent smaller island",
+      "transition_limitations": "Includes westward low peninsula, slopes, high cores and shores. These have substantial internal variation; no single uniform mountain habitat or political boundary is inferred."
+    }
+  ]
+}

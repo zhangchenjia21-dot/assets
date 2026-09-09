@@ -1,0 +1,118 @@
+[
+  {
+    "boundary_contacts": {
+      "east": true,
+      "north": false,
+      "south": false,
+      "west": false
+    },
+    "bounds": [
+      -800,
+      1376,
+      415,
+      2655
+    ],
+    "columns": 1556480,
+    "decoded_chunks_cumulative": 0,
+    "east_target_area": 220216,
+    "east_target_bounds": [
+      -349,
+      1462,
+      415,
+      2390
+    ]
+  },
+  {
+    "boundary_contacts": {
+      "east": true,
+      "north": false,
+      "south": false,
+      "west": false
+    },
+    "bounds": [
+      -800,
+      1376,
+      927,
+      2655
+    ],
+    "columns": 2211840,
+    "decoded_chunks_cumulative": 2560,
+    "east_target_area": 674069,
+    "east_target_bounds": [
+      -349,
+      1453,
+      927,
+      2465
+    ]
+  },
+  {
+    "boundary_contacts": {
+      "east": true,
+      "north": false,
+      "south": true,
+      "west": false
+    },
+    "bounds": [
+      -800,
+      1376,
+      1439,
+      2655
+    ],
+    "columns": 2867200,
+    "decoded_chunks_cumulative": 5120,
+    "east_target_area": 1080549,
+    "east_target_bounds": [
+      -349,
+      1453,
+      1439,
+      2655
+    ]
+  },
+  {
+    "boundary_contacts": {
+      "east": true,
+      "north": false,
+      "south": true,
+      "west": false
+    },
+    "bounds": [
+      -800,
+      1376,
+      1951,
+      3167
+    ],
+    "columns": 4931584,
+    "decoded_chunks_cumulative": 13184,
+    "east_target_area": 1618527,
+    "east_target_bounds": [
+      -349,
+      1453,
+      1951,
+      3167
+    ]
+  },
+  {
+    "boundary_contacts": {
+      "east": false,
+      "north": false,
+      "south": false,
+      "west": false
+    },
+    "bounds": [
+      -800,
+      1376,
+      2463,
+      3487
+    ],
+    "columns": 6893568,
+    "east_target_area": 1674373,
+    "east_target_bounds": [
+      -349,
+      1453,
+      2091,
+      3214
+    ],
+    "new_chunks": 238,
+    "reason": "Read available rows before missing chunk row; keep complete 1-block rectangle"
+  }
+]

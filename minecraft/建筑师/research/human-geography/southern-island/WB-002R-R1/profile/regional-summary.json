@@ -1,0 +1,332 @@
+{
+  "bounds": [
+    -800,
+    1376,
+    2463,
+    3487
+  ],
+  "columns": 6893568,
+  "east_component": 2,
+  "resolution": {
+    "biome": "native 4x4x4 cells queried at filtered surface per column",
+    "terrain": 1,
+    "vegetation": 4
+  },
+  "scope_status": "CLOSED_WITHIN_STUDY",
+  "statistics": {
+    "all_study_land": {
+      "area_blocks2": 2256681,
+      "biomes": {
+        "minecraft:beach": 125292,
+        "minecraft:flower_forest": 387,
+        "minecraft:lukewarm_ocean": 30,
+        "minecraft:plains": 76236,
+        "minecraft:savanna": 311679,
+        "minecraft:savanna_plateau": 102703,
+        "minecraft:stony_shore": 266203,
+        "minecraft:sulfur_caves": 700,
+        "minecraft:sunflower_plains": 96647,
+        "terralith:alpine_highlands": 29904,
+        "terralith:arid_highlands": 304955,
+        "terralith:basalt_cliffs": 90280,
+        "terralith:cave/fungal_caves": 1971,
+        "terralith:cave/infested_caves": 1991,
+        "terralith:cave/thermal_caves": 2252,
+        "terralith:granite_cliffs": 66208,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 779030
+      },
+      "bounds": [
+        -718,
+        1419,
+        2091,
+        3214
+      ],
+      "elevation": {
+        "max": 300.0,
+        "mean": 131.98350719485828,
+        "median": 128.0,
+        "min": 14.0,
+        "p10": 64.0,
+        "p25": 67.0,
+        "p75": 181.0,
+        "p90": 232.0
+      },
+      "flat_share": 0.21695888785344494,
+      "gentle_share": 0.0977067649348756,
+      "relief32": {
+        "max": 110.0,
+        "mean": 22.66483787473728,
+        "median": 16.0,
+        "min": 0.0,
+        "p10": 2.0,
+        "p25": 5.0,
+        "p75": 34.0,
+        "p90": 55.0
+      },
+      "shoreline_columns": 23881,
+      "slope8": {
+        "max": 6.550286293029785,
+        "mean": 0.5633421540260315,
+        "median": 0.3535533845424652,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0883883461356163,
+        "p75": 0.7905694246292114,
+        "p90": 1.3764196634292603
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0002269278227693704,
+          "occupied_fraction": 0.0002269278227693704
+        },
+        "leaf": {
+          "blocks_per_sample": 0.10211752024621669,
+          "occupied_fraction": 0.06665295644404101
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.1845490518671905,
+          "occupied_fraction": 0.17612435644687763
+        },
+        "sample_columns": 141014,
+        "trunk": {
+          "blocks_per_sample": 0.011495312522160921,
+          "occupied_fraction": 0.005488816713234147
+        }
+      }
+    },
+    "east": {
+      "area_blocks2": 1674373,
+      "biomes": {
+        "minecraft:beach": 12598,
+        "minecraft:plains": 76236,
+        "minecraft:savanna_plateau": 102703,
+        "minecraft:stony_shore": 266194,
+        "minecraft:sulfur_caves": 700,
+        "minecraft:sunflower_plains": 96647,
+        "terralith:alpine_highlands": 29904,
+        "terralith:arid_highlands": 155708,
+        "terralith:basalt_cliffs": 83857,
+        "terralith:cave/fungal_caves": 461,
+        "terralith:cave/infested_caves": 1991,
+        "terralith:cave/thermal_caves": 2252,
+        "terralith:granite_cliffs": 66162,
+        "terralith:hot_shrubland": 778960
+      },
+      "bounds": [
+        -349,
+        1453,
+        2091,
+        3214
+      ],
+      "elevation": {
+        "max": 300.0,
+        "mean": 154.89641316480856,
+        "median": 149.0,
+        "min": 29.0,
+        "p10": 70.0,
+        "p25": 107.0,
+        "p75": 202.0,
+        "p90": 242.0
+      },
+      "flat_share": 0.059946618823882136,
+      "gentle_share": 0.0784556368264419,
+      "relief32": {
+        "max": 110.0,
+        "mean": 29.10355159812061,
+        "median": 24.0,
+        "min": 0.0,
+        "p10": 6.0,
+        "p25": 13.0,
+        "p75": 41.0,
+        "p90": 62.0
+      },
+      "shoreline_columns": 11765,
+      "slope8": {
+        "max": 6.550286293029785,
+        "mean": 0.7278620004653931,
+        "median": 0.5340002179145813,
+        "min": 0.0,
+        "p10": 0.0883883461356163,
+        "p25": 0.2576940953731537,
+        "p75": 0.9702609181404114,
+        "p90": 1.5637495517730713
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.00016256119951040392,
+          "occupied_fraction": 0.00016256119951040392
+        },
+        "leaf": {
+          "blocks_per_sample": 0.08056341799265605,
+          "occupied_fraction": 0.05234470624235006
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.13565253977968175,
+          "occupied_fraction": 0.12753404222766218
+        },
+        "sample_columns": 104576,
+        "trunk": {
+          "blocks_per_sample": 0.010231793145654835,
+          "occupied_fraction": 0.004637775397796817
+        }
+      }
+    },
+    "west": {
+      "area_blocks2": 575363,
+      "biomes": {
+        "minecraft:beach": 112694,
+        "minecraft:savanna": 311664,
+        "terralith:arid_highlands": 149229,
+        "terralith:cave/fungal_caves": 1509,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 54
+      },
+      "bounds": [
+        -718,
+        1419,
+        280,
+        2518
+      ],
+      "elevation": {
+        "max": 79.0,
+        "mean": 66.14358066125212,
+        "median": 66.0,
+        "min": 14.0,
+        "p10": 63.0,
+        "p25": 64.0,
+        "p75": 67.0,
+        "p90": 71.0
+      },
+      "flat_share": 0.6764842369078303,
+      "gentle_share": 0.15489525742878843,
+      "relief32": {
+        "max": 52.0,
+        "mean": 3.922377698948316,
+        "median": 2.0,
+        "min": 0.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 5.0,
+        "p90": 8.0
+      },
+      "shoreline_columns": 5675,
+      "slope8": {
+        "max": 4.507805824279785,
+        "mean": 0.07338068634271622,
+        "median": 0.0625,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0883883461356163,
+        "p90": 0.1397542506456375
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.00041668981610089447,
+          "occupied_fraction": 0.00041668981610089447
+        },
+        "leaf": {
+          "blocks_per_sample": 0.16578698816600923,
+          "occupied_fraction": 0.10889493860770043
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.3287682649036058,
+          "occupied_fraction": 0.31935107505972554
+        },
+        "sample_columns": 35998,
+        "trunk": {
+          "blocks_per_sample": 0.015306405911439525,
+          "occupied_fraction": 0.008028223790210568
+        }
+      }
+    },
+    "whole_group": {
+      "area_blocks2": 2256681,
+      "biomes": {
+        "minecraft:beach": 125292,
+        "minecraft:flower_forest": 387,
+        "minecraft:lukewarm_ocean": 30,
+        "minecraft:plains": 76236,
+        "minecraft:savanna": 311679,
+        "minecraft:savanna_plateau": 102703,
+        "minecraft:stony_shore": 266203,
+        "minecraft:sulfur_caves": 700,
+        "minecraft:sunflower_plains": 96647,
+        "terralith:alpine_highlands": 29904,
+        "terralith:arid_highlands": 304955,
+        "terralith:basalt_cliffs": 90280,
+        "terralith:cave/fungal_caves": 1971,
+        "terralith:cave/infested_caves": 1991,
+        "terralith:cave/thermal_caves": 2252,
+        "terralith:granite_cliffs": 66208,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 779030
+      },
+      "bounds": [
+        -718,
+        1419,
+        2091,
+        3214
+      ],
+      "elevation": {
+        "max": 300.0,
+        "mean": 131.98350719485828,
+        "median": 128.0,
+        "min": 14.0,
+        "p10": 64.0,
+        "p25": 67.0,
+        "p75": 181.0,
+        "p90": 232.0
+      },
+      "flat_share": 0.21695888785344494,
+      "gentle_share": 0.0977067649348756,
+      "relief32": {
+        "max": 110.0,
+        "mean": 22.66483787473728,
+        "median": 16.0,
+        "min": 0.0,
+        "p10": 2.0,
+        "p25": 5.0,
+        "p75": 34.0,
+        "p90": 55.0
+      },
+      "shoreline_columns": 23881,
+      "slope8": {
+        "max": 6.550286293029785,
+        "mean": 0.5633421540260315,
+        "median": 0.3535533845424652,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0883883461356163,
+        "p75": 0.7905694246292114,
+        "p90": 1.3764196634292603
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0002269278227693704,
+          "occupied_fraction": 0.0002269278227693704
+        },
+        "leaf": {
+          "blocks_per_sample": 0.10211752024621669,
+          "occupied_fraction": 0.06665295644404101
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.1845490518671905,
+          "occupied_fraction": 0.17612435644687763
+        },
+        "sample_columns": 141014,
+        "trunk": {
+          "blocks_per_sample": 0.011495312522160921,
+          "occupied_fraction": 0.005488816713234147
+        }
+      }
+    }
+  },
+  "west_component": 1,
+  "whole_group_definition": "all dry land in complete study rectangle, including both major anchor components and every small satellite; water separately indexed"
+}

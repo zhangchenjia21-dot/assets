@@ -1,0 +1,18 @@
+{
+  "layers": [
+    {
+      "bijection": "PASS",
+      "columns": 2256681,
+      "components": 2102,
+      "layer": "land_component"
+    },
+    {
+      "bijection": "PASS",
+      "columns": 4636887,
+      "components": 739,
+      "layer": "water_component"
+    }
+  ],
+  "method": "Independent union-find over every dry/wet column; water edge requires vertical interval overlap; compares bijection to BFS labels",
+  "status": "PASS"
+}

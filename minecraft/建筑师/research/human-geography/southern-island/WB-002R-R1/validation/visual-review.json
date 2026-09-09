@@ -1,0 +1,14 @@
+{
+  "reviewer": "implementing model, offline visual self-check; not independent GPT acceptance",
+  "status": "PASS-CANDIDATE",
+  "north_up_east_right": true,
+  "aspect_ratio_preserved": true,
+  "east_outline_closed_inside_map": true,
+  "west_C_shape_and_east_low_peninsula_distinguished": true,
+  "elevation_scale_covers_Y300": true,
+  "biome_legend_has_distinct_entries": true,
+  "flat_and_gentle_not_buildability": true,
+  "zoning_k2_to_k5_inspected": true,
+  "natural_reference_units_do_not_hide_internal_gradients": true,
+  "notes": "West lowland vs broad eastern mountain contrast agrees across elevation, relief, slope and flatland maps. k3 creates mainly an intermediate fringe, and k4/k5 subdivide mountain height/relief bands. Small satellite components may be below display pixels but remain in exact query geometry. No Minecraft launch was used."
+}

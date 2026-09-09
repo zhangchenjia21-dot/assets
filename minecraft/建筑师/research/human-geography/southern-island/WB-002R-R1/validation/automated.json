@@ -1,0 +1,20 @@
+{
+  "architecture_downward_imports": true,
+  "columns": 6893568,
+  "error_cases": 2,
+  "geometry_layers": {
+    "flat_component": 493,
+    "gentle_component": 1674,
+    "land_component": 2102,
+    "water_component": 739,
+    "zones": 2
+  },
+  "hypotheses_bound_to_full_scope": true,
+  "independent_land_window_checks": 31,
+  "old_observation_tables_preserved": true,
+  "profile_exports_equal": true,
+  "scope_hard_gate": true,
+  "source_provenance": "complete",
+  "status": "PASS",
+  "stdlib_query_cases": 7
+}

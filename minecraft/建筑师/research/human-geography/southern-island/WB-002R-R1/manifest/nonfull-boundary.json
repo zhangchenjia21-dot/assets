@@ -1,0 +1,16 @@
+{
+  "DataVersion": 4903,
+  "block_z": 3488,
+  "chunk": [
+    -50,
+    218
+  ],
+  "failed_proposed_bounds": [
+    -800,
+    1376,
+    2463,
+    3487
+  ],
+  "policy": "Only minecraft:full chunks accepted; no generation or world writes",
+  "status": "minecraft:initialize_light"
+}
