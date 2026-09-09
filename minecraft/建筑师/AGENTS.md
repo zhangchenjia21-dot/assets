@@ -116,6 +116,30 @@ Owner 已授权本项目后续已完成、已验证任务默认 push 到 `zhangc
 - 失效内容进入 `99_归档/`；
 - 不把任务产物写到仓库根。
 
+### 7.1 大型扫描任务的 GitHub 交付
+
+受 `decisions/D-010_大型扫描证据GitHub轻量化.md` 与 `architecture/大型扫描数据交付与审核契约.md` 约束。
+
+默认：
+
+```text
+Minecraft world
+→ Local Raw Cache（完整高分辨率数据，默认不进 Git）
+→ Lightweight Review Bundle
+→ GitHub
+```
+
+扫描精度不能为了省 Git 体积而下降；应减少的是**远程重复数据**，不是本地观测精度。
+
+规则：
+
+- 完整 per-column SQLite / dense NPZ / 大型中间数组默认 `LOCAL_ONLY`；
+- GitHub 保存 scope、source fingerprint、聚合 profile、关键 geometry、分层 witness、validation、rebuild tooling、适度地图和 raw-cache manifest；
+- revision 优先 lineage + delta，不复制 predecessor raw archive；
+- 单次扫描 GitHub delivery 目标 `<=15 MiB`；超过 25 MiB 默认不得 push，除非 Task / GPT / Owner 明确授权例外；
+- 不得因为 gzip 后低于 GitHub 单文件硬上限，就默认把完整 raw database 塞入 Git history；
+- 需要远程冷备时走单独 archive / LFS / Release / object storage 决策，不默认占用 main Git history。
+
 ## 8. 冲突处理
 
 用户当前明确指令 > Owner-approved current / world / decisions > 当前已授权 Task scope > 可验证世界 / 结构化事实 > architecture > research > discussion / archive > Agent 推测。
