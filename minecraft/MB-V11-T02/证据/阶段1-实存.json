@@ -1,0 +1,24 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V11-T02-山地修道院",
+  "size": [
+    240,
+    104,
+    220
+  ],
+  "y0": 63,
+  "palette": [
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:stone",
+    "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:spruce_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:oak_log[axis=y]",
+    "minecraft:cobblestone",
+    "minecraft:gravel",
+    "minecraft:andesite"
+  ],
+  "sha256": "4c91be46c91e89d60d4d5a416a7b35a3424dab9e60179040058a8eb6aba4497e",
+  "read_at": "2026-09-09T10:32:24.222Z",
+  "source": "RegionReader: existing saved chunks only"
+}

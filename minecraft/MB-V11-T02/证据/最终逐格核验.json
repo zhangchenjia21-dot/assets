@@ -1,0 +1,12 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V11-T02-山地修道院",
+  "compared_voxels": 5491200,
+  "different_voxels": 0,
+  "different_actual_states": {},
+  "difference_examples": [],
+  "main_route_center_samples": 165,
+  "main_route_blocked_center_samples": [],
+  "main_route_max_height_step": 1,
+  "note": "主路净空按两整格；斜向采样结合连通性图，不替代真人客户端行走。",
+  "skill_sha256": "c258953d72a3bd8f39b07b5fee61baa5f3292d543a7d5d87e5f7c27979724a11"
+}

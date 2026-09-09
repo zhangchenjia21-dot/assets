@@ -1,0 +1,34 @@
+{
+  "教堂": {
+    "floor_y": 96,
+    "air_cells_immediately_below_floor": 0
+  },
+  "钟塔": {
+    "floor_y": 96,
+    "air_cells_immediately_below_floor": 0
+  },
+  "东厢": {
+    "floor_y": 94,
+    "air_cells_immediately_below_floor": 0
+  },
+  "西厢": {
+    "floor_y": 94,
+    "air_cells_immediately_below_floor": 0
+  },
+  "食堂": {
+    "floor_y": 90,
+    "air_cells_immediately_below_floor": 0
+  },
+  "客舍": {
+    "floor_y": 82,
+    "air_cells_immediately_below_floor": 0
+  },
+  "服务房": {
+    "floor_y": 86,
+    "air_cells_immediately_below_floor": 0
+  },
+  "门楼": {
+    "floor_y": 76,
+    "air_cells_immediately_below_floor": 0
+  }
+}

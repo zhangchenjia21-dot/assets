@@ -1,0 +1,22 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V11-T02-山地修道院",
+  "generator": "FlatLevelSource",
+  "before": [],
+  "changed_blocks": 799,
+  "apply_seconds": 0.3403261,
+  "readback": [],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 19.008,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-09T10-54-11-476Z-8afdc3e2-ac0e-43dd-ac3e-9d89c49b2d98",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V11-T02-山地修道院",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-09T10-54-11-476Z-8afdc3e2-ac0e-43dd-ac3e-9d89c49b2d98\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

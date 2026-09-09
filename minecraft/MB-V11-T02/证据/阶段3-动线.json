@@ -1,0 +1,110 @@
+{
+  "method": "两格净空、可承重地面、相邻高差至多一格；允许跳步，未模拟游戏客户端物理",
+  "reachable_cells": 52736,
+  "destinations": {
+    "山脚": {
+      "xyz": [
+        25,
+        65,
+        194
+      ],
+      "reachable": true
+    },
+    "门楼": {
+      "xyz": [
+        67,
+        77,
+        153
+      ],
+      "reachable": true
+    },
+    "客舍": {
+      "xyz": [
+        88,
+        83,
+        137
+      ],
+      "reachable": true
+    },
+    "服务房": {
+      "xyz": [
+        82,
+        87,
+        117
+      ],
+      "reachable": true
+    },
+    "教堂内殿": {
+      "xyz": [
+        130,
+        97,
+        81
+      ],
+      "reachable": true
+    },
+    "回廊": {
+      "xyz": [
+        122,
+        95,
+        108
+      ],
+      "reachable": true
+    },
+    "庭心井": {
+      "xyz": [
+        136,
+        95,
+        105
+      ],
+      "reachable": true
+    },
+    "东厢": {
+      "xyz": [
+        160,
+        95,
+        107
+      ],
+      "reachable": true
+    },
+    "西厢": {
+      "xyz": [
+        113,
+        95,
+        108
+      ],
+      "reachable": true
+    },
+    "食堂": {
+      "xyz": [
+        127,
+        91,
+        129
+      ],
+      "reachable": true
+    },
+    "上种植台地": {
+      "xyz": [
+        130,
+        83,
+        151
+      ],
+      "reachable": true
+    },
+    "下种植台地": {
+      "xyz": [
+        142,
+        79,
+        165
+      ],
+      "reachable": true
+    },
+    "泉台": {
+      "xyz": [
+        173,
+        95,
+        115
+      ],
+      "reachable": false
+    }
+  }
+}
