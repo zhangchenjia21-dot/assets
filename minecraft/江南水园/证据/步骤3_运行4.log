@@ -1,0 +1,8 @@
+Error: ENOENT: no such file or directory, open 'D:\Games\Minecraft\.minecraft\versions\26.2-Fabric 0.19.5\saves\江南水园\level.dat'
+    at Object.openSync (node:fs:560:18)
+    at Object.readFileSync (node:fs:444:35)
+    at execute (file:///D:/Games/Minecraft/AI%E5%B7%A5%E7%A8%8B/AI-Offline/L2_%E6%B5%81%E7%A8%8B%E5%B1%82/%E7%A6%BB%E7%BA%BF%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.mjs:59:44)
+    at file:///D:/Games/Minecraft/AI%E5%B7%A5%E7%A8%8B/AI-Offline/Bootstrap/%E4%B8%96%E7%95%8C%E5%91%BD%E4%BB%A4.mjs:3:38
+    at ModuleJob.run (node:internal/modules/esm/module_job:377:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:691:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
