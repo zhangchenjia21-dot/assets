@@ -1,0 +1,19 @@
+{
+  "status": "RESEARCH_CANDIDATE",
+  "membership_source": "main_island",
+  "labels": ["connected low-island gradient"],
+  "discrete_zone_count": 0,
+  "research_reference_units": 1,
+  "decision_authority": "Model interpretation of biome, elevation, relief, low-relief, vegetation and topology maps; not a kmeans semantic verdict",
+  "interpretation": "The specified NGEO-009 is one low connected island with a coastal/savanna matrix and a modest southern arid-highland rise. Attribute contrasts and cave/shore exceptions exist, but the 2..5 numerical alternatives do not establish 2..5 robust discrete spatial regions. Retain one SIRZ reference unit with continuous/internal thematic variation, not a claim of uniformity.",
+  "alternatives_review": {
+    "2": "Separates fragmented shoreline and relief exceptions from most of the low island; not two independent island lobes.",
+    "3": "Mixes coastal fringe with southern higher attributes; fragmented classes do not establish three discrete geographic zones.",
+    "4": "Recognizes coastal, savanna-like and southern arid-highland contexts plus tiny cave/high-step exceptions; useful thematic decomposition, not four coherent regions.",
+    "5": "Adds more shoreline/vegetation fragments and cave exceptions rather than a robust fifth macro region."
+  },
+  "boundary_confidence": "SUPPORTED current island surface outline; INSUFFICIENT evidence for discrete internal zone boundaries",
+  "transition_limitations": "Kmeans attributes at 16-block tiles do not imply exact environmental boundaries. Biome, relief and vegetation transitions overlap. SIRZ-001 is an observation/reference unit, not a political or future REG ID.",
+  "scope_caveat": "Owner has not supplied precise coordinates for the two western pieces. The central apparent island is a peninsula connected to the separate eastern ROI-edge landbody. The eastern landbody extends beyond this bounded study; do not transfer NGEO-009 results to that larger area.",
+  "ROI_extension": "0; minimum ROI includes the complete target island and the visible central-lobe/eastern-neck connection. Larger eastern landbody is explicitly censored, not silently redefined as the target."
+}

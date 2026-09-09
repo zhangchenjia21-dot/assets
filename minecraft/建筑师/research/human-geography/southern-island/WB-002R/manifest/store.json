@@ -1,0 +1,26 @@
+{
+  "compression": "gzip lossless mtime=0",
+  "files": [
+    {
+      "name": "observed.sqlite",
+      "uncompressed_size": 56565760,
+      "sha256": "0c12084e8f992b42efe5ee830b73d3b596cc688429e5b9a2e3ce0f360fa17dbf",
+      "archive": "observed.sqlite.gz",
+      "archive_size": 8758374,
+      "archive_sha256": "d3f10b9480816e13931473a290801edfe8c2da660087f55bc85756904d5d20c9",
+      "roundtrip": "PASS",
+      "integrity_check": "ok"
+    },
+    {
+      "name": "regional-profile.sqlite",
+      "uncompressed_size": 118710272,
+      "sha256": "1cb9bdf678e7a0f9b569c72ee9c4e930ed115669e3eb2c4f95d9a11296339530",
+      "archive": "regional-profile.sqlite.gz",
+      "archive_size": 17790755,
+      "archive_sha256": "0fd70f880182c7cfa3dd354886b47f54390c3258a4c166afa8efa31aa5f1bd14",
+      "roundtrip": "PASS",
+      "integrity_check": "ok"
+    }
+  ],
+  "first_epoch": "raw-or-queryable/first-epoch/store.json"
+}

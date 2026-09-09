@@ -1,0 +1,748 @@
+{
+  "current_baseline": "current-source-before.json",
+  "initial_baseline_retained": "source-before.json",
+  "reason": "Owner confirmed save exited; protected refresh after detected external write",
+  "world_changed_between_epochs": {
+    "data/minecraft/random_sequences.dat": {
+      "after": {
+        "mtime_ns": 1788945697556070200,
+        "sha256": "74ad08a2fb95f4c6431f02802c63882500daa5c965deb86f3e94bb223c121a4b",
+        "size": 1182
+      },
+      "before": {
+        "mtime_ns": 1788943676374085900,
+        "sha256": "1d8227aee1be8fbbbe8e5bef0cb657e5ac8ca726a091a6c3a58dfff577780210",
+        "size": 1182
+      }
+    },
+    "data/minecraft/weather.dat": {
+      "after": {
+        "mtime_ns": 1788945697556070200,
+        "sha256": "45ad8be3de02ddc7f61283654986133d8affb356f82fe12ebdcc52b6978491ba",
+        "size": 111
+      },
+      "before": {
+        "mtime_ns": 1788943676378078600,
+        "sha256": "fb1f6e0854583fe5f71182ab53b03a39f130580f67a8b508a8dc652edeb413f4",
+        "size": 111
+      }
+    },
+    "data/minecraft/world_clocks.dat": {
+      "after": {
+        "mtime_ns": 1788945697558885200,
+        "sha256": "90faa888f9d9711cc077540ceb4d3749967bbde42c0a558c17430e1f80de3a9a",
+        "size": 105
+      },
+      "before": {
+        "mtime_ns": 1788943676375576400,
+        "sha256": "09555534993e14badafb6270f99deebca9c6d01e7cb71cbc262da492e39193b1",
+        "size": 105
+      }
+    },
+    "data/minecraft/world_gen_settings.dat": {
+      "after": {
+        "mtime_ns": 1788945644282725700,
+        "sha256": "64a03fc6109064e4da0b85af4dc6889a933f9aa395cca29c759f216a264af688",
+        "size": 247
+      },
+      "before": {
+        "mtime_ns": 1788943384469544800,
+        "sha256": "64a03fc6109064e4da0b85af4dc6889a933f9aa395cca29c759f216a264af688",
+        "size": 247
+      }
+    },
+    "data/waystones/waystones.dat": {
+      "after": {
+        "mtime_ns": 1788945673492814400,
+        "sha256": "245f6dde32b52485873fb1b58fd265add3203f6ec88b5c54aa994dea8dbde014",
+        "size": 7131
+      },
+      "before": {
+        "mtime_ns": 1788943669358350600,
+        "sha256": "245f6dde32b52485873fb1b58fd265add3203f6ec88b5c54aa994dea8dbde014",
+        "size": 7131
+      }
+    },
+    "dimensions/minecraft/overworld/data/minecraft/chunk_tickets.dat": {
+      "after": {
+        "mtime_ns": 1788945699640082500,
+        "sha256": "ad7ee7a34585829ffa382ff0068787a641e1235de52f8703c925410e6d07dfbf",
+        "size": 49
+      },
+      "before": {
+        "mtime_ns": 1788943677023687600,
+        "sha256": "ad7ee7a34585829ffa382ff0068787a641e1235de52f8703c925410e6d07dfbf",
+        "size": 49
+      }
+    },
+    "dimensions/minecraft/overworld/data/minecraft/raids.dat": {
+      "after": {
+        "mtime_ns": 1788945697517277100,
+        "sha256": "a89d0f55ad35af201b4fa56929a2f51da09a5e8240b79b612f5b8defbd672c9c",
+        "size": 74
+      },
+      "before": {
+        "mtime_ns": 1788943676350156000,
+        "sha256": "ef936658069d28f9f816aaf9a5f5f4a263d20e124c6aba809650165be21ae50b",
+        "size": 74
+      }
+    },
+    "dimensions/minecraft/overworld/data/minecraft/world_border.dat": {
+      "after": {
+        "mtime_ns": 1788945644106859100,
+        "sha256": "ae52ac41434eefb052c0d38a6e4224c3dddc46fa2d0975df3958e8d267c0a61e",
+        "size": 171
+      },
+      "before": {
+        "mtime_ns": 1788943384432375600,
+        "sha256": "ae52ac41434eefb052c0d38a6e4224c3dddc46fa2d0975df3958e8d267c0a61e",
+        "size": 171
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.-1.3.mca": {
+      "after": {
+        "mtime_ns": 1788945700101607500,
+        "sha256": "fbf6e9029ea6bb9d023bfb52fda53ebdd0f71507372317655719db928efc8993",
+        "size": 520192
+      },
+      "before": {
+        "mtime_ns": 1788943677894708900,
+        "sha256": "6cae7b0d06c71d5d0d7af96b35349f128170d6e0c746af8177c3c573f6202f3d",
+        "size": 475136
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.-1.4.mca": {
+      "after": {
+        "mtime_ns": 1788945700103767000,
+        "sha256": "3dbcf9667e9e434df938de335e09fdf0556e445243b5a7db7e6f49a3a27266ae",
+        "size": 548864
+      },
+      "before": {
+        "mtime_ns": 1788943677897345500,
+        "sha256": "43beb9e52fd4563c1ebd70c6ad01959e97f5ed1f8daa9a85951a2560b6a6a405",
+        "size": 274432
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.-2.3.mca": {
+      "after": {
+        "mtime_ns": 1788945699794629100,
+        "sha256": "d7f57795afe647c5b0e202fbe8665086a1cfe9a56eee85e50a7abf50bf87e0ce",
+        "size": 172032
+      },
+      "before": {
+        "mtime_ns": 1788943677902387700,
+        "sha256": "88a8a53f7359ddcae376bdba20151335b9899ec87cd41bb723114622e471d3b9",
+        "size": 172032
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.-2.4.mca": {
+      "after": {
+        "mtime_ns": 1788945699791694400,
+        "sha256": "9594bee8ea8d274f37e761a1dedc2eaebd613b843c6ea49700d331bc7d57c966",
+        "size": 53248
+      },
+      "before": {
+        "mtime_ns": 1788943677907441700,
+        "sha256": "376400e75822e06225c0d390823d2ab27db7d4f6a184d4a8a88e32ed20a52ace",
+        "size": 53248
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.0.3.mca": {
+      "after": {
+        "mtime_ns": 1788945699794629100,
+        "sha256": "7dae5a067ddac9f9ce256bd9c7a74ef3544bf425711545d6eb3970282189f512",
+        "size": 565248
+      },
+      "before": {
+        "mtime_ns": 1788943677886046800,
+        "sha256": "ea4d2ebb48e668f6ba3fd943942ae231e380380040f80b4c19fde5ca430d8e08",
+        "size": 565248
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.0.4.mca": {
+      "after": {
+        "mtime_ns": 1788945700110870400,
+        "sha256": "d43bd4ba66cbaf40a85a950734c2a19453d5ab6322227be1002c8484fed3718d",
+        "size": 212992
+      },
+      "before": {
+        "mtime_ns": 1788943677888373000,
+        "sha256": "0d01b86071a07faae3e83e5e76aca998416aaccb551ed90eb759ca1633a975a7",
+        "size": 204800
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.2.4.mca": {
+      "after": {
+        "mtime_ns": 1788945669200840700,
+        "sha256": "99d802883a3aa16ef8bc84b1876308fe59af04bedfaae43653048f22c9334584",
+        "size": 344064
+      },
+      "before": {
+        "mtime_ns": 1788943677849655600,
+        "sha256": "6baf88733427fd6dc3090563d2f04e987dac7bc30ef3879ea8bc84c79bdcfd1a",
+        "size": 344064
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.2.5.mca": {
+      "after": {
+        "mtime_ns": 1788945669200840700,
+        "sha256": "22bb6c33bb9e0cf5886f55e2b16fbafe03b1febec8f09713fa7ccad7fd11482e",
+        "size": 503808
+      },
+      "before": {
+        "mtime_ns": 1788943677853756100,
+        "sha256": "e219a12fd3fdb016473a245b3d59d7c157acfe8d1220f89917886f4398e49229",
+        "size": 503808
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.2.6.mca": {
+      "after": {
+        "mtime_ns": 1788945669123193600,
+        "sha256": "f8fb008bd39b5e13f7ffa75400855724542f486d33d62d0606c02fc27f4d87fe",
+        "size": 24576
+      },
+      "before": {
+        "mtime_ns": 1788943677851244000,
+        "sha256": "754a384a990cf464d8432ddc8d3c3c2bee5f21107cc9f4ba1a16ed4125f55c77",
+        "size": 24576
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.3.5.mca": {
+      "after": {
+        "mtime_ns": 1788945669202337500,
+        "sha256": "f5421598305e84883b5f18857dfad1494232f3b7e72c019c2748d0c4b726308a",
+        "size": 159744
+      },
+      "before": {
+        "mtime_ns": 1788943677856201500,
+        "sha256": "efbef1e3f8048925dc4136bf28a430421384b389146f315757ad8560ef443a00",
+        "size": 159744
+      }
+    },
+    "dimensions/minecraft/overworld/entities/r.3.6.mca": {
+      "after": {
+        "mtime_ns": 1788945669200840700,
+        "sha256": "0f8504caa6890a5636d0131cfb6fb8c0f42e5d00a8a53198d83d39f3d633ed67",
+        "size": 16384
+      },
+      "before": {
+        "mtime_ns": 1788943677859631800,
+        "sha256": "a14d057ffa2b894c86e7127c3b5a827c5c323a99f7d8cafb6df9a37d4881b009",
+        "size": 16384
+      }
+    },
+    "dimensions/minecraft/overworld/poi/r.-1.3.mca": {
+      "after": {
+        "mtime_ns": 1788945670167576900,
+        "sha256": "4f1b133b0c48691fe12c5217f0e0489c374a466528cc0203f2e0391b0b80808a",
+        "size": 20480
+      },
+      "before": {
+        "mtime_ns": 1788943407958745500,
+        "sha256": "63ecdbeead22bd0c5a7904082445df2bf8e80db17ecf965923400824f48e1e3b",
+        "size": 20480
+      }
+    },
+    "dimensions/minecraft/overworld/poi/r.-2.4.mca": {
+      "after": {
+        "mtime_ns": 1788945699926940600,
+        "sha256": "726098f3464c81b968b2e8f9534f0fdbba51836793fa94dd0243889c86b1baea",
+        "size": 16384
+      },
+      "before": {
+        "mtime_ns": 1788923424657222300,
+        "sha256": "e6c07a08491ea9710040478b8c6ebd3b929eba27b9a60494d612ec662b2d19a9",
+        "size": 12288
+      }
+    },
+    "dimensions/minecraft/overworld/poi/r.2.5.mca": {
+      "after": {
+        "mtime_ns": 1788945647550158700,
+        "sha256": "462ede43fc56c8cf64bd4a5fbe2e0a015badfeb3d9e111fff581f3db3e1ff4c6",
+        "size": 20480
+      },
+      "before": {
+        "mtime_ns": 1788943592834393900,
+        "sha256": "298bc95dc0ed5fb390312429d048cec1e6d7e546c6962915befdc400a69cf9ce",
+        "size": 20480
+      }
+    },
+    "dimensions/minecraft/overworld/poi/r.3.5.mca": {
+      "after": {
+        "mtime_ns": 1788945647427177800,
+        "sha256": "37f11266d0cdacc34bd5eaed996ca5ed6d85c9d92665e48f20ba35e579e2872b",
+        "size": 20480
+      },
+      "before": {
+        "mtime_ns": 1788943656834029400,
+        "sha256": "d819ab80ba2a5dcd8b651e6d640344c569c3a17308a132e2b6c74a63b3194d62",
+        "size": 20480
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.-1.3.mca": {
+      "after": {
+        "mtime_ns": 1788945697696821100,
+        "sha256": "3402384525a98218efcc77627da588e740f385d4d34b13226e7d296f407117bb",
+        "size": 9752576
+      },
+      "before": {
+        "mtime_ns": 1788943677693958300,
+        "sha256": "f3e68cd847ecb4c00a60d561784d8b438019aca61c9b7a5577511b90d6098d77",
+        "size": 9752576
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.-1.4.mca": {
+      "after": {
+        "mtime_ns": 1788945697620341800,
+        "sha256": "18bbcfb7141e72e4adca1173a029ca3e6355ad9da9b1288739cdc59c8dbaaa80",
+        "size": 9256960
+      },
+      "before": {
+        "mtime_ns": 1788943677691182700,
+        "sha256": "346fe335fd10faff7ba9b5fe59b8fc8793ea7d03e4f4de67b1aea8f7c5a33e24",
+        "size": 9256960
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.-2.3.mca": {
+      "after": {
+        "mtime_ns": 1788945697700071500,
+        "sha256": "322a2ecf8d2baecea5ad46c9674a07855ddae72c3a7279a2433df4dacaa7421d",
+        "size": 8978432
+      },
+      "before": {
+        "mtime_ns": 1788943677725417600,
+        "sha256": "30d6549601a493e0f4d1ddfaaf8da09101da9f38eecbd9fd1b9f540d305c5505",
+        "size": 8978432
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.-2.4.mca": {
+      "after": {
+        "mtime_ns": 1788945675261417700,
+        "sha256": "f0228bc75c4a37f8f51802bf6ce424a17d35b0c78721a860a327f590498fab51",
+        "size": 7643136
+      },
+      "before": {
+        "mtime_ns": 1788943677697967200,
+        "sha256": "d6760b4a229593b45d52e5586e3f098475a4320132a31b070bf7a08ceb5eeda4",
+        "size": 7643136
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.0.3.mca": {
+      "after": {
+        "mtime_ns": 1788945699455849800,
+        "sha256": "36cfc2593e3e647c774ce919155f8395ccb1dce98611a9dd8fa4aa043ff6a579",
+        "size": 10039296
+      },
+      "before": {
+        "mtime_ns": 1788943677670497800,
+        "sha256": "078bb94d3fbee32e88dc44e59257b67746a93dfb1baa1c953c9d3f04cf298af5",
+        "size": 10039296
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.0.4.mca": {
+      "after": {
+        "mtime_ns": 1788945699997444200,
+        "sha256": "bda1ec2d3bee52686d1bc86e7509ee0f89711d90278fd009ea7ab3b15169c83e",
+        "size": 9945088
+      },
+      "before": {
+        "mtime_ns": 1788943677663345300,
+        "sha256": "98ce9926df3cfaa1242b2d0b671f1f0017ff3a9c632480d5150f2a4a9c94f665",
+        "size": 9920512
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.2.4.mca": {
+      "after": {
+        "mtime_ns": 1788945653391094900,
+        "sha256": "5b019e8c8aa258ee9f79f9de82857e2b066107a8ea4a178ab27be283b4c56e88",
+        "size": 12591104
+      },
+      "before": {
+        "mtime_ns": 1788943677632344000,
+        "sha256": "bc6b165af990895403a55e048a4bfc55621f4eb247369be13f1f7573a45ab139",
+        "size": 12591104
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.2.5.mca": {
+      "after": {
+        "mtime_ns": 1788945658388405000,
+        "sha256": "2a25bcb2ce891635531ea50f20ffc0d0b12938023dd55d5cffc61ec94a86a5c8",
+        "size": 13021184
+      },
+      "before": {
+        "mtime_ns": 1788943677619393300,
+        "sha256": "48a80d8cc01181b99b487f3e4c70510508cfbec05b189775919d825cefdb9d27",
+        "size": 13021184
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.2.6.mca": {
+      "after": {
+        "mtime_ns": 1788945700047675800,
+        "sha256": "ccff71ab044f00683b1a4c0f9d47d34b6256db1b3abbdfd3dbcc05d6e7b9a4fc",
+        "size": 7106560
+      },
+      "before": {
+        "mtime_ns": 1788943677596943800,
+        "sha256": "8883e20f2165a8b8572a093aaecd39d30dfde224063ae7e524de435855fb0ccf",
+        "size": 7094272
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.3.4.mca": {
+      "after": {
+        "mtime_ns": 1788945653394092000,
+        "sha256": "8c808c93c93eef88ea79c3d5fd9c1282b0b673817570dc500379d22f820662cf",
+        "size": 7213056
+      },
+      "before": {
+        "mtime_ns": 1788943677594943000,
+        "sha256": "ca16ac6c4be2dceb1bd37373079ba561742cfbd9ab1c69fd02398cf7ba54aed3",
+        "size": 7213056
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.3.5.mca": {
+      "after": {
+        "mtime_ns": 1788945669358276500,
+        "sha256": "62b223a0ccabb2f17b86cea071996d2790335198420a9721e48467b3d9510ead",
+        "size": 10547200
+      },
+      "before": {
+        "mtime_ns": 1788943677613662100,
+        "sha256": "28ea5c595bef10266d6b5a4b178d28acea05c21839d22639f7d924976178f7fd",
+        "size": 10547200
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.3.6.mca": {
+      "after": {
+        "mtime_ns": 1788945700042069500,
+        "sha256": "3d0f4f336dd9c89c9b3a4f18d155726d4fad1772bce739cb95f5e3405450976a",
+        "size": 6782976
+      },
+      "before": {
+        "mtime_ns": 1788943677616552700,
+        "sha256": "05babd6351204118fa432e3f171daec9bbc89fe4b822092107958d6d2bd06b67",
+        "size": 6758400
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.4.4.mca": {
+      "after": {
+        "mtime_ns": 1788945700065872600,
+        "sha256": "32724f51391242166e928bf2e60500d950747064bdd5abd62eca80aebfa02c27",
+        "size": 6053888
+      },
+      "before": {
+        "mtime_ns": 1788943677608291800,
+        "sha256": "9dd45038a8ae862776e87ae04a807fb6c716457f5b038b67166a309ae4388b9e",
+        "size": 6041600
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.4.5.mca": {
+      "after": {
+        "mtime_ns": 1788945653355476300,
+        "sha256": "bbcc5e241af11e6a5d13846d314751c23cde029044feb0602e66b68d03869b75",
+        "size": 6905856
+      },
+      "before": {
+        "mtime_ns": 1788943677605900500,
+        "sha256": "2d9cdc706ebf759038d2c242796bf18fddd434a4486a5266c58b78a4bae9ddae",
+        "size": 6905856
+      }
+    },
+    "dimensions/minecraft/overworld/region/r.4.6.mca": {
+      "after": {
+        "mtime_ns": 1788945700038069700,
+        "sha256": "a72b815a1400383d49af1b7a7604d11acbe8ca073614aab6d3707af72b14d64a",
+        "size": 5775360
+      },
+      "before": {
+        "mtime_ns": 1788943677591374300,
+        "sha256": "3fb1e5590e70f6667a4a1b7b14a30b5e441de7d09848cd4616f6c7601b433b5b",
+        "size": 5763072
+      }
+    },
+    "dimensions/minecraft/the_end/data/minecraft/chunk_tickets.dat": {
+      "after": {
+        "mtime_ns": 1788945699836574400,
+        "sha256": "ad7ee7a34585829ffa382ff0068787a641e1235de52f8703c925410e6d07dfbf",
+        "size": 49
+      },
+      "before": {
+        "mtime_ns": 1788943677340761800,
+        "sha256": "ad7ee7a34585829ffa382ff0068787a641e1235de52f8703c925410e6d07dfbf",
+        "size": 49
+      }
+    },
+    "dimensions/minecraft/the_end/data/minecraft/raids.dat": {
+      "after": {
+        "mtime_ns": 1788945697544764400,
+        "sha256": "a89d0f55ad35af201b4fa56929a2f51da09a5e8240b79b612f5b8defbd672c9c",
+        "size": 74
+      },
+      "before": {
+        "mtime_ns": 1788943676365622200,
+        "sha256": "ef936658069d28f9f816aaf9a5f5f4a263d20e124c6aba809650165be21ae50b",
+        "size": 74
+      }
+    },
+    "dimensions/minecraft/the_end/data/minecraft/world_border.dat": {
+      "after": {
+        "mtime_ns": 1788945644125895300,
+        "sha256": "ae52ac41434eefb052c0d38a6e4224c3dddc46fa2d0975df3958e8d267c0a61e",
+        "size": 171
+      },
+      "before": {
+        "mtime_ns": 1788943384443899900,
+        "sha256": "ae52ac41434eefb052c0d38a6e4224c3dddc46fa2d0975df3958e8d267c0a61e",
+        "size": 171
+      }
+    },
+    "dimensions/minecraft/the_nether/data/minecraft/chunk_tickets.dat": {
+      "after": {
+        "mtime_ns": 1788945699843884900,
+        "sha256": "ad7ee7a34585829ffa382ff0068787a641e1235de52f8703c925410e6d07dfbf",
+        "size": 49
+      },
+      "before": {
+        "mtime_ns": 1788943677349413900,
+        "sha256": "ad7ee7a34585829ffa382ff0068787a641e1235de52f8703c925410e6d07dfbf",
+        "size": 49
+      }
+    },
+    "dimensions/minecraft/the_nether/data/minecraft/raids.dat": {
+      "after": {
+        "mtime_ns": 1788945697547236200,
+        "sha256": "a89d0f55ad35af201b4fa56929a2f51da09a5e8240b79b612f5b8defbd672c9c",
+        "size": 74
+      },
+      "before": {
+        "mtime_ns": 1788943676368548400,
+        "sha256": "ef936658069d28f9f816aaf9a5f5f4a263d20e124c6aba809650165be21ae50b",
+        "size": 74
+      }
+    },
+    "dimensions/minecraft/the_nether/data/minecraft/world_border.dat": {
+      "after": {
+        "mtime_ns": 1788945644164469500,
+        "sha256": "ae52ac41434eefb052c0d38a6e4224c3dddc46fa2d0975df3958e8d267c0a61e",
+        "size": 171
+      },
+      "before": {
+        "mtime_ns": 1788943384450623900,
+        "sha256": "ae52ac41434eefb052c0d38a6e4224c3dddc46fa2d0975df3958e8d267c0a61e",
+        "size": 171
+      }
+    },
+    "level.dat": {
+      "after": {
+        "mtime_ns": 1788945699851694200,
+        "sha256": "48b0c42286956447a5a29683b3fbc459f831f0e10da3795d08dcbe459d87c117",
+        "size": 519
+      },
+      "before": {
+        "mtime_ns": 1788943677355345600,
+        "sha256": "0ceec03ac34187961afb6749b7ddd3e8d6c0d52e62763d87521b73f88e53b2a9",
+        "size": 521
+      }
+    },
+    "level.dat_old": {
+      "after": {
+        "mtime_ns": 1788945697544764400,
+        "sha256": "9cf153f3a48f5263374ed598f5a78d122670e59261b93b6b316d41c9a66e6931",
+        "size": 519
+      },
+      "before": {
+        "mtime_ns": 1788943676364614400,
+        "sha256": "018c5e5fd5bdc5066efd8866df72f5feda302056fa90f95351149369faec6c40",
+        "size": 520
+      }
+    },
+    "players/advancements/f94c30b0-9c18-4c2b-bf58-c1bdc3c78813.json": {
+      "after": {
+        "mtime_ns": 1788945699352052400,
+        "sha256": "d5c551a433a40a4d3d5d700af3e4359d00b5518224980f85f39248a571776e26",
+        "size": 794
+      },
+      "before": {
+        "mtime_ns": 1788943676734940600,
+        "sha256": "d5c551a433a40a4d3d5d700af3e4359d00b5518224980f85f39248a571776e26",
+        "size": 794
+      }
+    },
+    "players/data/f94c30b0-9c18-4c2b-bf58-c1bdc3c78813.dat": {
+      "after": {
+        "mtime_ns": 1788945699348050300,
+        "sha256": "d18829407ddc92bafee28764578b1281902c8f54610591bb147940f4b1a943c6",
+        "size": 1070
+      },
+      "before": {
+        "mtime_ns": 1788943676731817700,
+        "sha256": "2395be51c55d12f261073154f08da19ebd755b3e022343286edc7803e240493f",
+        "size": 1066
+      }
+    },
+    "players/data/f94c30b0-9c18-4c2b-bf58-c1bdc3c78813.dat_old": {
+      "after": {
+        "mtime_ns": 1788945697496972300,
+        "sha256": "d18829407ddc92bafee28764578b1281902c8f54610591bb147940f4b1a943c6",
+        "size": 1070
+      },
+      "before": {
+        "mtime_ns": 1788943676337594100,
+        "sha256": "2395be51c55d12f261073154f08da19ebd755b3e022343286edc7803e240493f",
+        "size": 1066
+      }
+    },
+    "players/stats/f94c30b0-9c18-4c2b-bf58-c1bdc3c78813.json": {
+      "after": {
+        "mtime_ns": 1788945699351055200,
+        "sha256": "3fea1997cb607fe3cb290bd57af1920617fe64b530d3ae14b988ddb1a119d227",
+        "size": 407
+      },
+      "before": {
+        "mtime_ns": 1788943676733932000,
+        "sha256": "ecc274f8d06e0b81aeebdf474255168d7319e1facd9240989fbd68bf0087672a",
+        "size": 407
+      }
+    },
+    "session.lock": {
+      "after": {
+        "mtime_ns": 1788945640004529600,
+        "sha256": "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc",
+        "size": 3
+      },
+      "before": {
+        "mtime_ns": 1788943378355702800,
+        "sha256": "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc",
+        "size": 3
+      }
+    },
+    "voxy/config.json": {
+      "after": {
+        "mtime_ns": 1788945645825580000,
+        "sha256": "437c1c6b67283dba6bdf52898c502b15e8de008f7dfe9d44053213965c706c9f",
+        "size": 296
+      },
+      "before": {
+        "mtime_ns": 1788943385750603600,
+        "sha256": "437c1c6b67283dba6bdf52898c502b15e8de008f7dfe9d44053213965c706c9f",
+        "size": 296
+      }
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/001162.log": {
+      "after": null,
+      "before": {
+        "mtime_ns": 1788943654738387500,
+        "sha256": "a39e7d85007b60810b779e4f09f2460ddfe9fa0213602d1cb246534c257d4d0b",
+        "size": 57962342
+      }
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/001164.log": {
+      "after": null,
+      "before": {
+        "mtime_ns": 1788943676076061200,
+        "sha256": "e52edc1e629bd976be8f772ce5a42bf59129b9badd8791a07f90516ac0c3e5e6",
+        "size": 7049154
+      }
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/001178.sst": {
+      "after": {
+        "mtime_ns": 1788945646058059100,
+        "sha256": "3999e15566cfb0fafbf685e156a256f02998feb10118a11cb9e2f84908479cc3",
+        "size": 3983917
+      },
+      "before": null
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/001179.sst": {
+      "after": {
+        "mtime_ns": 1788945646082731600,
+        "sha256": "ef2086a65f31f9db26bd42b551e5606a5c120c72f0dbbe42ed6f45ddf7c8bc29",
+        "size": 2267
+      },
+      "before": null
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/001180.log": {
+      "after": {
+        "mtime_ns": 1788945695351234400,
+        "sha256": "cdcd7d1c7161170d53dd893cb981c7f3ad2a3b7fc528986d7904c570468b8ff0",
+        "size": 23949646
+      },
+      "before": null
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/CURRENT": {
+      "after": {
+        "mtime_ns": 1788945646105588300,
+        "sha256": "ee856853167c6e0679646b3c651ab02c2b7f8a46c33ef7ac7f5ac5bef3c78604",
+        "size": 16
+      },
+      "before": {
+        "mtime_ns": 1788943386308717200,
+        "sha256": "ceccbf27bdb269f6e512f008c33b67ee2a6e601fecfef39c53e72a3515974acd",
+        "size": 16
+      }
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/LOCK": {
+      "after": {
+        "mtime_ns": 1788945645840915500,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      },
+      "before": {
+        "mtime_ns": 1788943386108118000,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size": 0
+      }
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/LOG": {
+      "after": {
+        "mtime_ns": 1788945645830189600,
+        "sha256": "10d2b3721ee7baecce8137721cb2c68e9b26c4e1eaba06bd079c489f24f3bec9",
+        "size": 54224
+      },
+      "before": {
+        "mtime_ns": 1788943386098043600,
+        "sha256": "0d48072527a91f3be7eccc00523c127111af762d4a4681e1ea8a86636be37f2d",
+        "size": 97410
+      }
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/LOG.old.1788945645830154": {
+      "after": {
+        "mtime_ns": 1788943386098043600,
+        "sha256": "0d48072527a91f3be7eccc00523c127111af762d4a4681e1ea8a86636be37f2d",
+        "size": 97410
+      },
+      "before": null
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/MANIFEST-001155": {
+      "after": null,
+      "before": {
+        "mtime_ns": 1788943656216625800,
+        "sha256": "589d7b2d754a6b289a4cb60e5bab95fcc59b57974ad6366cfb39ba4d85e23fc3",
+        "size": 6142
+      }
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/MANIFEST-001181": {
+      "after": {
+        "mtime_ns": 1788945646102289000,
+        "sha256": "2a969b8b645abf45a2edf040c905925eecb987252269f7cfb9b0c39f2a1a022a",
+        "size": 4974
+      },
+      "before": null
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/OPTIONS-001131": {
+      "after": null,
+      "before": {
+        "mtime_ns": 1788923438813407600,
+        "sha256": "ea77a0176f523ea7b55bff03d2702fc51c4ef27b40c44f42df9b9b8a660bb3e8",
+        "size": 16873
+      }
+    },
+    "voxy/ded624f4cf65e810721ba8ba82a23863/storage/OPTIONS-001183": {
+      "after": {
+        "mtime_ns": 1788945646112159500,
+        "sha256": "ea77a0176f523ea7b55bff03d2702fc51c4ef27b40c44f42df9b9b8a660bb3e8",
+        "size": 16873
+      },
+      "before": null
+    }
+  },
+  "world_writes_by_task": 0
+}

@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-09-09T10:04:00.426512+00:00",
+  "external_gap_record": "manifest/epoch-transition.json",
+  "immutable": {
+    "NG-2": true,
+    "NG-3": true,
+    "V1": true
+  },
+  "inventory_hash_size_mtime_equal_current_epoch": true,
+  "phase": "final seal",
+  "protection": "GENERIC_READ / FILE_SHARE_READ for all existing world/evidence files + complete inventory before/after",
+  "world_unchanged_since_current_epoch": true,
+  "world_unchanged_since_start": false,
+  "world_writes": 0
+}

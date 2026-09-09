@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "method": "Full derive + relations + build from frozen observed.sqlite; all profile JSON/JSONL and final SQLite byte-identical",
+  "before": {
+    "raw-or-queryable/regional-profile.sqlite": "1cb9bdf678e7a0f9b569c72ee9c4e930ed115669e3eb2c4f95d9a11296339530",
+    "profile/biome-profile.json": "d44eb6d23c5bc56856f62093e3e0449f0cab152a5aa44173057be6f0b240f748",
+    "profile/current-vs-NG2.json": "8171bd22bc7aee6281967c7c1fdc57b02ac2fe671435869de7a3245b6a8d1190",
+    "profile/owner-hypothesis-evaluation.json": "cfe15ed9aee842017c2f6e48a0fbc3787bf73303545b2cfdb92a74925fe67823",
+    "profile/regional-summary.json": "9fd057c1f4f6565c4da7fd010e336137bd6762ef980421bb9a4182607be5bc59",
+    "profile/surface-materials.json": "7733ec03abd891e996f738333faedf1594318648803cdbf6d476678327056022",
+    "profile/terrain-position-proxies.json": "ad23f776b4a4f78a43e9894761e9bdd7694d728e8b23af6d67973aa971f609d0",
+    "profile/terrain-profile.json": "4a9402df2713f1c52e4121d35a03bb90addf8024f779341eb693b993e018e70c",
+    "profile/topology-witnesses.json": "e388c954d57f1d821b5f3671440f489b48d11580ac910d9beffeef07dfc7d05e",
+    "profile/vegetation-profile.json": "a5aa7627dee413f03b3ca6aac0bfa2b5a56299f197cfad6e52a072d1e4bbf50e",
+    "profile/water-topology.json": "b05e6c7be13e2f6cc5d2852803f420656932a9b7935872fdab9007cde6701eed",
+    "profile/west-east-comparison.json": "44af8c355fc6da349dd0fb55bbcf31fea536e9ef3991996d35899c4abe6d6bb4",
+    "profile/zoning-alternatives.json": "b348b2b399d27005792064cc34d38cf4e0a6e8810850bf2f10a3bcd5985c293d",
+    "profile/zoning-decision.json": "93e6b29819020c55d05f8618e4f8a9fed5ae5bac358c2cf467a751f3b9b6d03f",
+    "profile/low-relief-components.jsonl": "7f1c0f7d1521f24cf19e29305237da9295db89342ea324233e6b1baa1d34e7d3",
+    "profile/natural-zones.jsonl": "98c8fbc9bcc4df86e6c90a334067c096a9821e298a3ba5498ed2d77e2e488955"
+  },
+  "after": {
+    "raw-or-queryable/regional-profile.sqlite": "1cb9bdf678e7a0f9b569c72ee9c4e930ed115669e3eb2c4f95d9a11296339530",
+    "profile/biome-profile.json": "d44eb6d23c5bc56856f62093e3e0449f0cab152a5aa44173057be6f0b240f748",
+    "profile/current-vs-NG2.json": "8171bd22bc7aee6281967c7c1fdc57b02ac2fe671435869de7a3245b6a8d1190",
+    "profile/owner-hypothesis-evaluation.json": "cfe15ed9aee842017c2f6e48a0fbc3787bf73303545b2cfdb92a74925fe67823",
+    "profile/regional-summary.json": "9fd057c1f4f6565c4da7fd010e336137bd6762ef980421bb9a4182607be5bc59",
+    "profile/surface-materials.json": "7733ec03abd891e996f738333faedf1594318648803cdbf6d476678327056022",
+    "profile/terrain-position-proxies.json": "ad23f776b4a4f78a43e9894761e9bdd7694d728e8b23af6d67973aa971f609d0",
+    "profile/terrain-profile.json": "4a9402df2713f1c52e4121d35a03bb90addf8024f779341eb693b993e018e70c",
+    "profile/topology-witnesses.json": "e388c954d57f1d821b5f3671440f489b48d11580ac910d9beffeef07dfc7d05e",
+    "profile/vegetation-profile.json": "a5aa7627dee413f03b3ca6aac0bfa2b5a56299f197cfad6e52a072d1e4bbf50e",
+    "profile/water-topology.json": "b05e6c7be13e2f6cc5d2852803f420656932a9b7935872fdab9007cde6701eed",
+    "profile/west-east-comparison.json": "44af8c355fc6da349dd0fb55bbcf31fea536e9ef3991996d35899c4abe6d6bb4",
+    "profile/zoning-alternatives.json": "b348b2b399d27005792064cc34d38cf4e0a6e8810850bf2f10a3bcd5985c293d",
+    "profile/zoning-decision.json": "93e6b29819020c55d05f8618e4f8a9fed5ae5bac358c2cf467a751f3b9b6d03f",
+    "profile/low-relief-components.jsonl": "7f1c0f7d1521f24cf19e29305237da9295db89342ea324233e6b1baa1d34e7d3",
+    "profile/natural-zones.jsonl": "98c8fbc9bcc4df86e6c90a334067c096a9821e298a3ba5498ed2d77e2e488955"
+  }
+}

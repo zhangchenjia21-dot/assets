@@ -1,0 +1,13 @@
+{
+  "status": "RESOLVED_BY_OWNER_CONFIRMED_PROTECTED_REFRESH",
+  "detected_by": "independent scalar raw-column check after initial protected extraction",
+  "region": "dimensions/minecraft/overworld/region/r.-1.4.mca",
+  "initial_sha256": "346fe335fd10faff7ba9b5fe59b8fc8793ea7d03e4f4de67b1aea8f7c5a33e24",
+  "later_sha256": "18bbcfb7141e72e4adca1173a029ca3e6355ad9da9b1288739cdc59c8dbaaa80",
+  "later_mtime_utc": "2026-09-09T09:21:37.6203418Z",
+  "point": [-190,2215],
+  "difference": "minecraft:oak_leaves at Y73: initial snapshot distance=3, later scalar current-world read distance=2; surface and filtered Y and biome at this point agree",
+  "attribution": "Source changed between protected read windows. This task issued only read operations to world. Exact external actor not determined.",
+  "resolution": "Owner confirmed world exited. First snapshot retained in raw-or-queryable/first-epoch; new current-source-before.json, complete re-read and 311 independent raw-column checks PASS. Final seal separately recorded.",
+  "world_writes_by_task": 0
+}

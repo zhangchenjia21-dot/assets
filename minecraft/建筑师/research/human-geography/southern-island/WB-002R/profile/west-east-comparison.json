@@ -1,0 +1,238 @@
+{
+  "context_scope": "eastern component touches ROI; not surveyed as a complete island",
+  "eastern_context": {
+    "area_blocks2": 220216,
+    "biomes": {
+      "minecraft:beach": 3191,
+      "terralith:arid_highlands": 155708,
+      "terralith:cave/fungal_caves": 4,
+      "terralith:hot_shrubland": 61313
+    },
+    "bounds": [
+      -349,
+      1462,
+      415,
+      2390
+    ],
+    "elevation": {
+      "max": 168.0,
+      "mean": 83.49871943909616,
+      "median": 71.0,
+      "min": 58.0,
+      "p10": 64.0,
+      "p25": 67.0,
+      "p75": 96.0,
+      "p90": 130.0
+    },
+    "flat_share": 0.30574072728593743,
+    "gentle_share": 0.17423347985614124,
+    "relief32": {
+      "max": 67.0,
+      "mean": 13.270593417372035,
+      "median": 6.0,
+      "min": 0.0,
+      "p10": 2.0,
+      "p25": 3.0,
+      "p75": 21.0,
+      "p90": 32.0
+    },
+    "shoreline_columns": 2679,
+    "slope8": {
+      "max": 3.549867868423462,
+      "mean": 0.3422122001647949,
+      "median": 0.1397542506456375,
+      "min": 0.0,
+      "p10": 0.0,
+      "p25": 0.0625,
+      "p75": 0.5340002179145813,
+      "p90": 0.8385254740715027
+    },
+    "touches_roi": true,
+    "vegetation": {
+      "dry_ground_vegetation": {
+        "blocks_per_sample": 0.001243144424131627,
+        "occupied_fraction": 0.001243144424131627
+      },
+      "leaf": {
+        "blocks_per_sample": 0.1106398537477148,
+        "occupied_fraction": 0.08343692870201097
+      },
+      "other_vegetation": {
+        "blocks_per_sample": 0.26691042047531993,
+        "occupied_fraction": 0.25747714808043876
+      },
+      "sample_columns": 13675,
+      "trunk": {
+        "blocks_per_sample": 0.01089579524680073,
+        "occupied_fraction": 0.007605118829981719
+      }
+    }
+  },
+  "flat_threshold_sensitivity": [
+    {
+      "main_island_share": 0.541273943579966,
+      "max_step1": 1,
+      "relief32_max": 2,
+      "slope8_max": 0.125
+    },
+    {
+      "main_island_share": 0.6764842369078303,
+      "max_step1": 1,
+      "relief32_max": 4,
+      "slope8_max": 0.125
+    },
+    {
+      "main_island_share": 0.7776986007094652,
+      "max_step1": 1,
+      "relief32_max": 6,
+      "slope8_max": 0.1875
+    },
+    {
+      "main_island_share": 0.8295980102995848,
+      "max_step1": 1,
+      "relief32_max": 8,
+      "slope8_max": 0.25
+    }
+  ],
+  "halves": {
+    "east": {
+      "area_blocks2": 254801,
+      "biomes": {
+        "minecraft:beach": 27017,
+        "minecraft:savanna": 112080,
+        "terralith:arid_highlands": 114374,
+        "terralith:cave/fungal_caves": 1063,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 54
+      },
+      "bounds": [
+        -218,
+        1419,
+        280,
+        2452
+      ],
+      "elevation": {
+        "max": 77.0,
+        "mean": 67.28811503879498,
+        "median": 67.0,
+        "min": 33.0,
+        "p10": 63.0,
+        "p25": 65.0,
+        "p75": 70.0,
+        "p90": 73.0
+      },
+      "flat_share": 0.5839145058300399,
+      "gentle_share": 0.1970675154336129,
+      "relief32": {
+        "max": 44.0,
+        "mean": 4.73126086632313,
+        "median": 3.0,
+        "min": 0.0,
+        "p10": 1.0,
+        "p25": 2.0,
+        "p75": 6.0,
+        "p90": 9.0
+      },
+      "shoreline_columns": 2864,
+      "slope8": {
+        "max": 3.491619348526001,
+        "mean": 0.0941542312502861,
+        "median": 0.0625,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0883883461356163,
+        "p90": 0.1767766922712326
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0006277463904582549,
+          "occupied_fraction": 0.0006277463904582549
+        },
+        "leaf": {
+          "blocks_per_sample": 0.16704331450094162,
+          "occupied_fraction": 0.11186440677966102
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.3489642184557439,
+          "occupied_fraction": 0.3394224733207784
+        },
+        "sample_columns": 15930,
+        "trunk": {
+          "blocks_per_sample": 0.013182674199623353,
+          "occupied_fraction": 0.007532956685499058
+        }
+      }
+    },
+    "west": {
+      "area_blocks2": 320562,
+      "biomes": {
+        "minecraft:beach": 85677,
+        "minecraft:savanna": 199584,
+        "terralith:arid_highlands": 34855,
+        "terralith:cave/fungal_caves": 446
+      },
+      "bounds": [
+        -718,
+        1464,
+        -219,
+        2518
+      ],
+      "elevation": {
+        "max": 79.0,
+        "mean": 65.23383931969478,
+        "median": 65.0,
+        "min": 14.0,
+        "p10": 63.0,
+        "p25": 63.0,
+        "p75": 66.0,
+        "p90": 68.0
+      },
+      "flat_share": 0.7500639501874833,
+      "gentle_share": 0.12137433632183478,
+      "relief32": {
+        "max": 52.0,
+        "mean": 3.27943112408832,
+        "median": 2.0,
+        "min": 0.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 4.0,
+        "p90": 6.0
+      },
+      "shoreline_columns": 2811,
+      "slope8": {
+        "max": 4.507805824279785,
+        "mean": 0.057136211544275284,
+        "median": 0.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0625,
+        "p90": 0.125
+      },
+      "touches_roi": false,
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0002491528802072952,
+          "occupied_fraction": 0.0002491528802072952
+        },
+        "leaf": {
+          "blocks_per_sample": 0.16478971496910505,
+          "occupied_fraction": 0.10653777157663942
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.3127366952361969,
+          "occupied_fraction": 0.30341837751644407
+        },
+        "sample_columns": 20068,
+        "trunk": {
+          "blocks_per_sample": 0.016992226430137532,
+          "occupied_fraction": 0.008421367351006577
+        }
+      }
+    }
+  },
+  "split_X": -219.0
+}

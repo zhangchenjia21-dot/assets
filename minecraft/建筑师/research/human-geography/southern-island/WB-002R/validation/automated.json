@@ -1,0 +1,16 @@
+{
+  "assertions": 28911,
+  "checks_summary": [
+    "full column/component/zone reconstruction",
+    "all JSON exports equal SQLite",
+    "query CLI deterministic with python -S",
+    "source provenance",
+    "100 direct-window random samples",
+    "bbox gaps and actual land paths",
+    "syntax and downward dependencies"
+  ],
+  "flat_components_with_bbox_gaps": 94,
+  "independent_raw_column_report": "raw-column-crosscheck.json (separate required validation)",
+  "status": "PASS",
+  "world_writes": 0
+}

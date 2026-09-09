@@ -1,0 +1,11 @@
+{
+  "status": "SUPERSEDED_BY_PROTECTED_REFRESH",
+  "archive": "observed.sqlite.gz",
+  "sha256": "f679656004ec33b96a7294555f318aa40e250d81440d1adacfa9bbd484d5a00d",
+  "source_baseline": "../../manifest/source-before.json",
+  "reason": "External source changes after first read; Owner confirmed world exited before second read",
+  "archive_sha256": "6511aa90b01f97954632fc1215b8b961bdf5dbfc87bcbb6e85ed35771bdab37a",
+  "archive_size": 8759675,
+  "roundtrip": "PASS",
+  "integrity_check": "ok"
+}

@@ -1,0 +1,4841 @@
+{
+  "ROI_boundary": "components touching ROI are censored, not confirmed independent islands/lakes",
+  "flow_direction": "unknown",
+  "land": [
+    {
+      "area_blocks2": 575363,
+      "biomes": {
+        "minecraft:beach": 112694,
+        "minecraft:savanna": 311664,
+        "terralith:arid_highlands": 149229,
+        "terralith:cave/fungal_caves": 1509,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 54
+      },
+      "bounds": [
+        -718,
+        1419,
+        280,
+        2518
+      ],
+      "elevation": {
+        "max": 79.0,
+        "mean": 66.14358066125212,
+        "median": 66.0,
+        "min": 14.0,
+        "p10": 63.0,
+        "p25": 64.0,
+        "p75": 67.0,
+        "p90": 71.0
+      },
+      "flat_share": 0.6764842369078303,
+      "gentle_share": 0.15489525742878843,
+      "id": 1,
+      "main_island_columns": 575363,
+      "relief32": {
+        "max": 52.0,
+        "mean": 3.922377698948316,
+        "median": 2.0,
+        "min": 0.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 5.0,
+        "p90": 8.0
+      },
+      "shoreline_columns": 5675,
+      "slope8": {
+        "max": 4.507805824279785,
+        "mean": 0.07338068634271622,
+        "median": 0.0625,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0883883461356163,
+        "p90": 0.1397542506456375
+      },
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.00041668981610089447,
+          "occupied_fraction": 0.00041668981610089447
+        },
+        "leaf": {
+          "blocks_per_sample": 0.16578698816600923,
+          "occupied_fraction": 0.10889493860770043
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.3287682649036058,
+          "occupied_fraction": 0.31935107505972554
+        },
+        "sample_columns": 35998,
+        "trunk": {
+          "blocks_per_sample": 0.015306405911439525,
+          "occupied_fraction": 0.008028223790210568
+        }
+      }
+    },
+    {
+      "area_blocks2": 220216,
+      "biomes": {
+        "minecraft:beach": 3191,
+        "terralith:arid_highlands": 155708,
+        "terralith:cave/fungal_caves": 4,
+        "terralith:hot_shrubland": 61313
+      },
+      "bounds": [
+        -349,
+        1462,
+        415,
+        2390
+      ],
+      "elevation": {
+        "max": 168.0,
+        "mean": 83.49871943909616,
+        "median": 71.0,
+        "min": 58.0,
+        "p10": 64.0,
+        "p25": 67.0,
+        "p75": 96.0,
+        "p90": 130.0
+      },
+      "flat_share": 0.30574072728593743,
+      "gentle_share": 0.17423347985614124,
+      "id": 2,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 67.0,
+        "mean": 13.270593417372035,
+        "median": 6.0,
+        "min": 0.0,
+        "p10": 2.0,
+        "p25": 3.0,
+        "p75": 21.0,
+        "p90": 32.0
+      },
+      "shoreline_columns": 2679,
+      "slope8": {
+        "max": 3.549867868423462,
+        "mean": 0.3422122001647949,
+        "median": 0.1397542506456375,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0625,
+        "p75": 0.5340002179145813,
+        "p90": 0.8385254740715027
+      },
+      "touches_roi": true,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.001243144424131627,
+          "occupied_fraction": 0.001243144424131627
+        },
+        "leaf": {
+          "blocks_per_sample": 0.1106398537477148,
+          "occupied_fraction": 0.08343692870201097
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.26691042047531993,
+          "occupied_fraction": 0.25747714808043876
+        },
+        "sample_columns": 13675,
+        "trunk": {
+          "blocks_per_sample": 0.01089579524680073,
+          "occupied_fraction": 0.007605118829981719
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -190,
+        1599,
+        -190,
+        1599
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 3,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 4.0,
+        "mean": 4.0,
+        "median": 4.0,
+        "min": 4.0,
+        "p10": 4.0,
+        "p25": 4.0,
+        "p75": 4.0,
+        "p90": 4.0
+      },
+      "shoreline_columns": 1,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 3,
+      "biomes": {
+        "minecraft:savanna": 3
+      },
+      "bounds": [
+        -192,
+        1600,
+        -191,
+        1601
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 4,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 4.0,
+        "mean": 4.0,
+        "median": 4.0,
+        "min": 4.0,
+        "p10": 4.0,
+        "p25": 4.0,
+        "p75": 4.0,
+        "p90": 4.0
+      },
+      "shoreline_columns": 3,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 1.0,
+          "occupied_fraction": 1.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 1.0,
+          "occupied_fraction": 1.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 7,
+      "biomes": {
+        "terralith:hot_shrubland": 7
+      },
+      "bounds": [
+        272,
+        1611,
+        276,
+        1612
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 5,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 0.0,
+        "mean": 0.0,
+        "median": 0.0,
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p75": 0.0,
+        "p90": 0.0
+      },
+      "shoreline_columns": 7,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.5,
+          "occupied_fraction": 0.5
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -583,
+        1646,
+        -583,
+        1646
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 6,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p90": 1.0
+      },
+      "shoreline_columns": 1,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -584,
+        1647,
+        -584,
+        1647
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 7,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p90": 1.0
+      },
+      "shoreline_columns": 1,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 2,
+      "biomes": {
+        "minecraft:savanna": 2
+      },
+      "bounds": [
+        -585,
+        1648,
+        -585,
+        1649
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 8,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p90": 1.0
+      },
+      "shoreline_columns": 2,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 5,
+      "biomes": {
+        "minecraft:savanna": 5
+      },
+      "bounds": [
+        -587,
+        1650,
+        -586,
+        1653
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 9,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p90": 1.0
+      },
+      "shoreline_columns": 5,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -588,
+        1654,
+        -588,
+        1654
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 10,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 1.0,
+        "mean": 1.0,
+        "median": 1.0,
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p75": 1.0,
+        "p90": 1.0
+      },
+      "shoreline_columns": 1,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -549,
+        1655,
+        -549,
+        1655
+      ],
+      "elevation": {
+        "max": 63.0,
+        "mean": 63.0,
+        "median": 63.0,
+        "min": 63.0,
+        "p10": 63.0,
+        "p25": 63.0,
+        "p75": 63.0,
+        "p90": 63.0
+      },
+      "flat_share": 1.0,
+      "gentle_share": 0.0,
+      "id": 11,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 3.0,
+        "mean": 3.0,
+        "median": 3.0,
+        "min": 3.0,
+        "p10": 3.0,
+        "p25": 3.0,
+        "p75": 3.0,
+        "p90": 3.0
+      },
+      "shoreline_columns": 1,
+      "slope8": {
+        "max": 0.0883883461356163,
+        "mean": 0.0883883461356163,
+        "median": 0.0883883461356163,
+        "min": 0.0883883461356163,
+        "p10": 0.0883883461356163,
+        "p25": 0.0883883461356163,
+        "p75": 0.0883883461356163,
+        "p90": 0.0883883461356163
+      },
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "terralith:cave/fungal_caves": 1
+      },
+      "bounds": [
+        -511,
+        1721,
+        -511,
+        1721
+      ],
+      "elevation": {
+        "max": 18.0,
+        "mean": 18.0,
+        "median": 18.0,
+        "min": 18.0,
+        "p10": 18.0,
+        "p25": 18.0,
+        "p75": 18.0,
+        "p90": 18.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 12,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 52.0,
+        "mean": 52.0,
+        "median": 52.0,
+        "min": 52.0,
+        "p10": 52.0,
+        "p25": 52.0,
+        "p75": 52.0,
+        "p90": 52.0
+      },
+      "shoreline_columns": 1,
+      "slope8": {
+        "max": 2.3782873153686523,
+        "mean": 2.3782873153686523,
+        "median": 2.3782873153686523,
+        "min": 2.3782873153686523,
+        "p10": 2.3782873153686523,
+        "p25": 2.3782873153686523,
+        "p75": 2.3782873153686523,
+        "p90": 2.3782873153686523
+      },
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "terralith:arid_highlands": 1
+      },
+      "bounds": [
+        -403,
+        1817,
+        -403,
+        1817
+      ],
+      "elevation": {
+        "max": 64.0,
+        "mean": 64.0,
+        "median": 64.0,
+        "min": 64.0,
+        "p10": 64.0,
+        "p25": 64.0,
+        "p75": 64.0,
+        "p90": 64.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 13,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 5.0,
+        "mean": 5.0,
+        "median": 5.0,
+        "min": 5.0,
+        "p10": 5.0,
+        "p25": 5.0,
+        "p75": 5.0,
+        "p90": 5.0
+      },
+      "shoreline_columns": 1,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 3,
+      "biomes": {
+        "terralith:arid_highlands": 3
+      },
+      "bounds": [
+        31,
+        1850,
+        32,
+        1851
+      ],
+      "elevation": {
+        "max": 63.0,
+        "mean": 62.333333333333336,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.5,
+        "p90": 62.8
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 14,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 6.0,
+        "mean": 6.0,
+        "median": 6.0,
+        "min": 6.0,
+        "p10": 6.0,
+        "p25": 6.0,
+        "p75": 6.0,
+        "p90": 6.0
+      },
+      "shoreline_columns": 3,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "terralith:arid_highlands": 1
+      },
+      "bounds": [
+        -340,
+        1886,
+        -340,
+        1886
+      ],
+      "elevation": {
+        "max": 64.0,
+        "mean": 64.0,
+        "median": 64.0,
+        "min": 64.0,
+        "p10": 64.0,
+        "p25": 64.0,
+        "p75": 64.0,
+        "p90": 64.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 15,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 5.0,
+        "mean": 5.0,
+        "median": 5.0,
+        "min": 5.0,
+        "p10": 5.0,
+        "p25": 5.0,
+        "p75": 5.0,
+        "p90": 5.0
+      },
+      "shoreline_columns": 1,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 3,
+      "biomes": {
+        "terralith:arid_highlands": 3
+      },
+      "bounds": [
+        80,
+        1908,
+        81,
+        1909
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 16,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 4.0,
+        "mean": 4.0,
+        "median": 4.0,
+        "min": 4.0,
+        "p10": 4.0,
+        "p25": 4.0,
+        "p75": 4.0,
+        "p90": 4.0
+      },
+      "shoreline_columns": 3,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 10,
+      "biomes": {
+        "terralith:arid_highlands": 10
+      },
+      "bounds": [
+        -197,
+        1980,
+        -191,
+        1981
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 17,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": 6.0,
+        "mean": 5.9,
+        "median": 6.0,
+        "min": 5.0,
+        "p10": 5.9,
+        "p25": 6.0,
+        "p75": 6.0,
+        "p90": 6.0
+      },
+      "shoreline_columns": 10,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    }
+  ],
+  "main_island_id": 1,
+  "method": "4-neighbor dry land; water neighbors require actual vertical water intervals overlapping",
+  "navigability": "unknown",
+  "water": [
+    {
+      "area_blocks2": 759503,
+      "biomes": {
+        "minecraft:beach": 106567,
+        "minecraft:deep_lukewarm_ocean": 12848,
+        "minecraft:lukewarm_ocean": 440448,
+        "minecraft:river": 96256,
+        "minecraft:savanna": 33848,
+        "terralith:arid_highlands": 54472,
+        "terralith:gravel_beach": 1979,
+        "terralith:hot_shrubland": 13085
+      },
+      "bounds": [
+        -800,
+        1376,
+        415,
+        2655
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 1,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": true,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0005683133722031615,
+          "occupied_fraction": 0.00048411879854343387
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 47509,
+        "trunk": {
+          "blocks_per_sample": 2.1048643414931908e-05,
+          "occupied_fraction": 2.1048643414931908e-05
+        }
+      }
+    },
+    {
+      "area_blocks2": 69,
+      "biomes": {
+        "minecraft:beach": 69
+      },
+      "bounds": [
+        -4,
+        1442,
+        7,
+        1453
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 2,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 5,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 89,
+      "biomes": {
+        "minecraft:beach": 89
+      },
+      "bounds": [
+        25,
+        1447,
+        38,
+        1457
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 3,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 6,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 25,
+      "biomes": {
+        "minecraft:beach": 25
+      },
+      "bounds": [
+        40,
+        1453,
+        49,
+        1460
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 4,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 8,
+      "biomes": {
+        "minecraft:beach": 8
+      },
+      "bounds": [
+        61,
+        1465,
+        62,
+        1468
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 5,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 38,
+      "biomes": {
+        "minecraft:beach": 38
+      },
+      "bounds": [
+        62,
+        1472,
+        69,
+        1478
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 6,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 20,
+      "biomes": {
+        "minecraft:beach": 20
+      },
+      "bounds": [
+        394,
+        1490,
+        398,
+        1494
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 7,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 16,
+      "biomes": {
+        "minecraft:beach": 16
+      },
+      "bounds": [
+        386,
+        1500,
+        391,
+        1502
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 8,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 2,
+      "biomes": {
+        "minecraft:savanna": 2
+      },
+      "bounds": [
+        -113,
+        1550,
+        -112,
+        1550
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 9,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 21,
+      "biomes": {
+        "minecraft:savanna": 21
+      },
+      "bounds": [
+        -101,
+        1557,
+        -98,
+        1564
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 10,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 3,
+      "biomes": {
+        "minecraft:savanna": 3
+      },
+      "bounds": [
+        -96,
+        1563,
+        -95,
+        1564
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 11,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 3,
+      "biomes": {
+        "minecraft:savanna": 3
+      },
+      "bounds": [
+        -94,
+        1565,
+        -93,
+        1566
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 12,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 13,
+      "biomes": {
+        "minecraft:savanna": 13
+      },
+      "bounds": [
+        -188,
+        1584,
+        -184,
+        1589
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 13,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "terralith:hot_shrubland": 1
+      },
+      "bounds": [
+        361,
+        1586,
+        361,
+        1586
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 14,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -189,
+        1590,
+        -189,
+        1590
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 15,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 24,
+      "biomes": {
+        "minecraft:savanna": 24
+      },
+      "bounds": [
+        -526,
+        1592,
+        -519,
+        1600
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 16,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 3,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -191,
+        1592,
+        -191,
+        1592
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 17,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -518,
+        1600,
+        -518,
+        1600
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 18,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:savanna": 1
+      },
+      "bounds": [
+        -198,
+        1604,
+        -198,
+        1604
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 19,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 3,
+      "biomes": {
+        "terralith:hot_shrubland": 3
+      },
+      "bounds": [
+        351,
+        1623,
+        353,
+        1623
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 20,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 76,
+      "biomes": {
+        "minecraft:savanna": 76
+      },
+      "bounds": [
+        -549,
+        1641,
+        -537,
+        1647
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 21,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 3,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 11,
+      "biomes": {
+        "minecraft:savanna": 11
+      },
+      "bounds": [
+        -550,
+        1654,
+        -548,
+        1658
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 22,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 8,
+      "biomes": {
+        "minecraft:savanna": 8
+      },
+      "bounds": [
+        -273,
+        1666,
+        -270,
+        1668
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 23,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 4,
+      "biomes": {
+        "minecraft:beach": 4
+      },
+      "bounds": [
+        -568,
+        1669,
+        -567,
+        1670
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 24,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 21,
+      "biomes": {
+        "terralith:cave/fungal_caves": 21
+      },
+      "bounds": [
+        -513,
+        1717,
+        -508,
+        1722
+      ],
+      "elevation": {
+        "max": 20.0,
+        "mean": 18.095238095238095,
+        "median": 18.0,
+        "min": 18.0,
+        "p10": 18.0,
+        "p25": 18.0,
+        "p75": 18.0,
+        "p90": 18.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 25,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 22,
+      "biomes": {
+        "terralith:arid_highlands": 22
+      },
+      "bounds": [
+        118,
+        1723,
+        122,
+        1728
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 26,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 79,
+      "biomes": {
+        "terralith:arid_highlands": 79
+      },
+      "bounds": [
+        106,
+        1728,
+        115,
+        1738
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 27,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 5,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 3,
+      "biomes": {
+        "terralith:arid_highlands": 3
+      },
+      "bounds": [
+        223,
+        1769,
+        223,
+        1771
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 28,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 29,
+      "biomes": {
+        "terralith:arid_highlands": 29
+      },
+      "bounds": [
+        -399,
+        1780,
+        -393,
+        1786
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 29,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "terralith:arid_highlands": 1
+      },
+      "bounds": [
+        34,
+        1849,
+        34,
+        1849
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 30,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "terralith:arid_highlands": 1
+      },
+      "bounds": [
+        32,
+        1850,
+        32,
+        1850
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 31,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "terralith:arid_highlands": 1
+      },
+      "bounds": [
+        -325,
+        1871,
+        -325,
+        1871
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 32,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 3,
+      "biomes": {
+        "terralith:arid_highlands": 3
+      },
+      "bounds": [
+        -324,
+        1872,
+        -323,
+        1873
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 33,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 4,
+      "biomes": {
+        "terralith:arid_highlands": 4
+      },
+      "bounds": [
+        162,
+        1906,
+        163,
+        1907
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 34,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 13,
+      "biomes": {
+        "minecraft:savanna": 13
+      },
+      "bounds": [
+        -393,
+        1929,
+        -390,
+        1932
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 35,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 29,
+      "biomes": {
+        "minecraft:savanna": 29
+      },
+      "bounds": [
+        -378,
+        1951,
+        -374,
+        1958
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 36,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 6,
+      "biomes": {
+        "terralith:arid_highlands": 6
+      },
+      "bounds": [
+        50,
+        1963,
+        51,
+        1965
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 37,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 23,
+      "biomes": {
+        "minecraft:savanna": 23
+      },
+      "bounds": [
+        -379,
+        1974,
+        -370,
+        1977
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 38,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 18,
+      "biomes": {
+        "terralith:arid_highlands": 18
+      },
+      "bounds": [
+        39,
+        1979,
+        42,
+        1983
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 39,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 32,
+      "biomes": {
+        "terralith:arid_highlands": 32
+      },
+      "bounds": [
+        -46,
+        2017,
+        -41,
+        2023
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 40,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 7,
+      "biomes": {
+        "minecraft:beach": 7
+      },
+      "bounds": [
+        -578,
+        2105,
+        -576,
+        2107
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 41,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 26,
+      "biomes": {
+        "minecraft:beach": 26
+      },
+      "bounds": [
+        -593,
+        2119,
+        -587,
+        2123
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 42,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "terralith:cave/fungal_caves": 1
+      },
+      "bounds": [
+        -201,
+        2236,
+        -201,
+        2236
+      ],
+      "elevation": {
+        "max": 55.0,
+        "mean": 55.0,
+        "median": 55.0,
+        "min": 55.0,
+        "p10": 55.0,
+        "p25": 55.0,
+        "p75": 55.0,
+        "p90": 55.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 43,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 8,
+      "biomes": {
+        "terralith:cave/fungal_caves": 8
+      },
+      "bounds": [
+        -204,
+        2237,
+        -202,
+        2239
+      ],
+      "elevation": {
+        "max": 55.0,
+        "mean": 55.0,
+        "median": 55.0,
+        "min": 55.0,
+        "p10": 55.0,
+        "p25": 55.0,
+        "p75": 55.0,
+        "p90": 55.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 44,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 14,
+      "biomes": {
+        "terralith:cave/fungal_caves": 14
+      },
+      "bounds": [
+        -204,
+        2242,
+        -203,
+        2248
+      ],
+      "elevation": {
+        "max": 55.0,
+        "mean": 55.0,
+        "median": 55.0,
+        "min": 55.0,
+        "p10": 55.0,
+        "p25": 55.0,
+        "p75": 55.0,
+        "p90": 55.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 45,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 4,
+      "biomes": {
+        "terralith:cave/fungal_caves": 4
+      },
+      "bounds": [
+        -356,
+        2277,
+        -355,
+        2278
+      ],
+      "elevation": {
+        "max": 55.0,
+        "mean": 55.0,
+        "median": 55.0,
+        "min": 55.0,
+        "p10": 55.0,
+        "p25": 55.0,
+        "p75": 55.0,
+        "p90": 55.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 46,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 5,
+      "biomes": {
+        "minecraft:beach": 5
+      },
+      "bounds": [
+        238,
+        2338,
+        240,
+        2340
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 47,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 5,
+      "biomes": {
+        "minecraft:beach": 5
+      },
+      "bounds": [
+        227,
+        2340,
+        228,
+        2342
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 48,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 5,
+      "biomes": {
+        "minecraft:beach": 5
+      },
+      "bounds": [
+        224,
+        2343,
+        225,
+        2345
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 49,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 127,
+      "biomes": {
+        "minecraft:beach": 127
+      },
+      "bounds": [
+        -517,
+        2344,
+        -498,
+        2364
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 50,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 10,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 1,
+      "biomes": {
+        "minecraft:beach": 1
+      },
+      "bounds": [
+        -506,
+        2347,
+        -506,
+        2347
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 51,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 38,
+      "biomes": {
+        "minecraft:beach": 38
+      },
+      "bounds": [
+        -505,
+        2348,
+        -499,
+        2357
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 52,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 3,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 8,
+      "biomes": {
+        "minecraft:beach": 8
+      },
+      "bounds": [
+        234,
+        2350,
+        236,
+        2352
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 53,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 56,
+      "biomes": {
+        "minecraft:beach": 56
+      },
+      "bounds": [
+        -462,
+        2404,
+        -451,
+        2419
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 54,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 4,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 20,
+      "biomes": {
+        "minecraft:beach": 20
+      },
+      "bounds": [
+        -66,
+        2418,
+        -63,
+        2424
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 55,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 46,
+      "biomes": {
+        "minecraft:beach": 46
+      },
+      "bounds": [
+        -64,
+        2427,
+        -54,
+        2433
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 56,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 4,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 4,
+      "biomes": {
+        "minecraft:beach": 4
+      },
+      "bounds": [
+        -75,
+        2430,
+        -72,
+        2430
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 57,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    },
+    {
+      "area_blocks2": 19,
+      "biomes": {
+        "minecraft:beach": 19
+      },
+      "bounds": [
+        -318,
+        2431,
+        -315,
+        2437
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 58,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 2,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 20,
+      "biomes": {
+        "minecraft:beach": 20
+      },
+      "bounds": [
+        -87,
+        2431,
+        -83,
+        2436
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 59,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 48,
+      "biomes": {
+        "minecraft:beach": 48
+      },
+      "bounds": [
+        -440,
+        2444,
+        -427,
+        2451
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 60,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 3,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 91,
+      "biomes": {
+        "minecraft:beach": 91
+      },
+      "bounds": [
+        -423,
+        2449,
+        -414,
+        2460
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 61,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 5,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 62,
+      "biomes": {
+        "minecraft:beach": 62
+      },
+      "bounds": [
+        -404,
+        2470,
+        -384,
+        2478
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 62,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 4,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 14,
+      "biomes": {
+        "minecraft:beach": 14
+      },
+      "bounds": [
+        -378,
+        2474,
+        -372,
+        2477
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 63,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "leaf": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "other_vegetation": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        },
+        "sample_columns": 1,
+        "trunk": {
+          "blocks_per_sample": 0.0,
+          "occupied_fraction": 0.0
+        }
+      }
+    },
+    {
+      "area_blocks2": 5,
+      "biomes": {
+        "minecraft:beach": 5
+      },
+      "bounds": [
+        -408,
+        2478,
+        -406,
+        2479
+      ],
+      "elevation": {
+        "max": 62.0,
+        "mean": 62.0,
+        "median": 62.0,
+        "min": 62.0,
+        "p10": 62.0,
+        "p25": 62.0,
+        "p75": 62.0,
+        "p90": 62.0
+      },
+      "flat_share": 0.0,
+      "gentle_share": 0.0,
+      "id": 64,
+      "main_island_columns": 0,
+      "relief32": {
+        "max": -1.0,
+        "mean": -1.0,
+        "median": -1.0,
+        "min": -1.0,
+        "p10": -1.0,
+        "p25": -1.0,
+        "p75": -1.0,
+        "p90": -1.0
+      },
+      "shoreline_columns": 0,
+      "slope8": null,
+      "touches_roi": false,
+      "uncertainty": "Operational current surface mask; ROI edges censored, vegetation filtering and local thresholds do not establish pristine origin, build suitability or navigability.",
+      "vegetation": {
+        "dry_ground_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "leaf": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "other_vegetation": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        },
+        "sample_columns": 0,
+        "trunk": {
+          "blocks_per_sample": null,
+          "occupied_fraction": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "definitions": {
+    "local_highland_proxy": "dry land Y>=72; local raised-ground proxy, not mountain classification",
+    "local_lowland_proxy": "dry land Y<=65; low-elevation proxy only",
+    "ridge_position_proxy": "dry land, relief64>=8 and height in upper20% of local 65x65 land-only min/max range; can include scarps, no verified ridge axis"
+  },
+  "main_island_counts": {
+    "local_highland_proxy": 56875,
+    "local_lowland_proxy": 287320,
+    "ridge_position_proxy": 104557
+  },
+  "uncertainty": "Fixed operational thresholds; no land use, ridge-route or regional boundary inference"
+}

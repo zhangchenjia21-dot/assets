@@ -1,0 +1,9 @@
+{
+  "column_differences": {
+    "height": 28,
+    "surface": 281,
+    "water_bottom": 63,
+    "water_top": 21
+  },
+  "note": "Region SHA may differ due to non-surface chunk data; compares actual surface fields, not biome numeric IDs"
+}

@@ -1,0 +1,22 @@
+{
+  "main_island": {
+    "minecraft:beach": 112694,
+    "minecraft:savanna": 311664,
+    "terralith:arid_highlands": 149229,
+    "terralith:cave/fungal_caves": 1509,
+    "terralith:gravel_beach": 213,
+    "terralith:hot_shrubland": 54
+  },
+  "resolution": "1-block column lookup of native 4x4x4 biome cells at filtered surface Y; raw-top biome retained separately",
+  "roi": {
+    "minecraft:beach": 223328,
+    "minecraft:deep_lukewarm_ocean": 12848,
+    "minecraft:lukewarm_ocean": 440448,
+    "minecraft:river": 96256,
+    "minecraft:savanna": 345757,
+    "terralith:arid_highlands": 359626,
+    "terralith:cave/fungal_caves": 1562,
+    "terralith:gravel_beach": 2192,
+    "terralith:hot_shrubland": 74463
+  }
+}

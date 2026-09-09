@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-09-09T09:16:09.306749+00:00",
+  "immutable": {
+    "NG-2": true,
+    "NG-3": true,
+    "V1": true
+  },
+  "inventory_hash_size_mtime_equal": true,
+  "phase": "extraction",
+  "protection": "GENERIC_READ / FILE_SHARE_READ for all existing world/evidence files + complete inventory before/after",
+  "world_unchanged_since_start": true,
+  "world_writes": 0
+}

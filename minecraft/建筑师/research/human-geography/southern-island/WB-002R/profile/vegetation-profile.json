@@ -1,0 +1,25 @@
+{
+  "dead_tree": "Owner visual interpretation pending block/biome evidence; logs alone cannot distinguish live/dead tree",
+  "main_island": {
+    "dry_ground_vegetation": {
+      "blocks_per_sample": 0.00041668981610089447,
+      "occupied_fraction": 0.00041668981610089447
+    },
+    "leaf": {
+      "blocks_per_sample": 0.16578698816600923,
+      "occupied_fraction": 0.10889493860770043
+    },
+    "other_vegetation": {
+      "blocks_per_sample": 0.3287682649036058,
+      "occupied_fraction": 0.31935107505972554
+    },
+    "sample_columns": 35998,
+    "trunk": {
+      "blocks_per_sample": 0.015306405911439525,
+      "occupied_fraction": 0.008028223790210568
+    }
+  },
+  "resolution": 4,
+  "semantics": "occupied sample fraction and blocks per sampled column, not tree counts or species ecology",
+  "vertical_scope": "all blocks strictly above filtered ground to raw WORLD_SURFACE at 4-block sample X/Z"
+}

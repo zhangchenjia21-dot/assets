@@ -1,0 +1,49 @@
+{
+  "status": "RESEARCH_INTERPRETATION",
+  "scope": "Current NGEO-009 component at (-248,2056), plus explicitly censored neighboring ROI context; Owner's exact viewpoints not supplied",
+  "not_canon": true,
+  "hypotheses": [
+    {
+      "id": "H-01",
+      "owner_observation": "温带 / 枯树环境为主，而非高密热带雨林",
+      "verdict": "PARTIALLY_SUPPORTED",
+      "machine_observation": "Native savanna, arid_highlands and beach dominate; sampled acacia/oak leaves and logs plus grasses are present. No jungle biome observed on target island.",
+      "derived_metric_refs": ["biome-profile.json#/main_island", "vegetation-profile.json#/main_island", "surface-materials.json#/vegetation_palette_sampled_ROI"],
+      "interpretation": "Open/sparse-canopy and non-rainforest impression is supported. Temperate climate and dominant dead-tree structure are not established by these observations; dead_bush is not a dead tree. Keep those parts as Owner visual interpretation."
+    },
+    {
+      "id": "H-02",
+      "owner_observation": "多山少平原",
+      "verdict": "NOT_SUPPORTED",
+      "machine_observation": "Specified island is a low coastal component with local rises and cave openings; separate eastern ROI-edge land is considerably higher.",
+      "derived_metric_refs": ["terrain-profile.json", "west-east-comparison.json#/flat_threshold_sensitivity", "west-east-comparison.json#/eastern_context"],
+      "interpretation": "Not supported for NGEO-009 itself under published multi-scale terrain definitions. Surrounding eastern high terrain may explain a wider visual impression, but is not silently incorporated into this island. Flat morphology is not buildable land."
+    },
+    {
+      "id": "H-03",
+      "owner_observation": "总体西低东高",
+      "verdict": "PARTIALLY_SUPPORTED",
+      "terrain_trend_verdict": "PARTIAL",
+      "machine_observation": "East half has a somewhat higher median/upper quantile, but local rises and depressions occur on both sides.",
+      "derived_metric_refs": ["terrain-profile.json#/longitude_bands", "terrain-profile.json#/pearson_x_elevation", "terrain-profile.json#/OLS_Y_per_100_X", "west-east-comparison.json#/halves"],
+      "interpretation": "A modest positive longitudinal trend is supported; it is not monotonic or a strong east-west mountain division. No p-value is used because adjacent columns are spatially dependent."
+    },
+    {
+      "id": "H-04",
+      "owner_observation": "低起伏平地主要集中在西侧两个岛屿 / 岛片",
+      "verdict": "PARTIALLY_SUPPORTED",
+      "machine_observation": "Western half is flatter, but low-relief land is also extensive eastward within NGEO-009. Its north and south lobes are connected; the central apparent island connects to the separate eastern landbody.",
+      "derived_metric_refs": ["low-relief-components.jsonl", "west-east-comparison.json#/halves", "topology-witnesses.json"],
+      "interpretation": "Westward concentration relative to higher eastern context has support; the exact two independent islands wording does not. Explicit map-based candidate referents are audited; correspondence to Owner's unsupplied viewpoints remains uncertain."
+    },
+    {
+      "id": "H-05",
+      "owner_observation": "可自然分成三个潜在部族区域",
+      "verdict": "NOT_SUPPORTED",
+      "natural_substrate_support": "WEAK",
+      "machine_observation": "Numerical alternatives k=2..5 divide mixed shoreline, biome/vegetation and relief attributes into fragmented thematic classes; no robust three discrete internal regions are established.",
+      "derived_metric_refs": ["zoning-alternatives.json", "zoning-decision.json", "natural-zones.jsonl"],
+      "interpretation": "Retain one SIRZ reference unit with continuous/internal variation. Three-zone interpretation is not established inside the specified island. A wider eastern landscape has not been fully surveyed; no tribe, species or political assignment follows."
+    }
+  ]
+}

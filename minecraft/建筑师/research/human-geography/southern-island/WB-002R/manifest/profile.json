@@ -1,0 +1,12 @@
+{
+  "base": "77c6086b369176dcacb635946377a817b452de64",
+  "columns": 1556480,
+  "discrete_internal_zones": 0,
+  "observed_sha256": "0c12084e8f992b42efe5ee830b73d3b596cc688429e5b9a2e3ce0f360fa17dbf",
+  "research_units": 1,
+  "schema": "southern-island-profile/1.0",
+  "source_chunks": 6080,
+  "source_resolution": 1,
+  "vegetation_sampling": 4,
+  "world_writes": 0
+}

@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+raw-or-queryable/observed.sqlite
+raw-or-queryable/regional-profile.sqlite
+raw-or-queryable/*-building.sqlite
