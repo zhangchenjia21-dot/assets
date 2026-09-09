@@ -5,5 +5,7 @@
 *.jsonl text eol=lf
 *.png binary
 *.gz binary
-# 调查证据按原始字节保存，避免行尾转换使已记录的 SHA256 失效。
-World-Survey/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+
+# 已验收调查证据保留原始字节，避免行尾转换使记录的 SHA256 失效。
+minecraft/建筑师/research/natural-geography/V1/survey/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+minecraft/建筑师/research/natural-geography/V1/packaging/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

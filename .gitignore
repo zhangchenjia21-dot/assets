@@ -1,6 +1,6 @@
 __pycache__/
 *.pyc
-World-Survey/*/raw/*.sqlite
-World-Survey/*/raw/*.sqlite-journal
-World-Survey/*/raw/*.sqlite-wal
-World-Survey/*/raw/*.sqlite-shm
+minecraft/**/raw/*.sqlite
+minecraft/**/raw/*.sqlite-journal
+minecraft/**/raw/*.sqlite-wal
+minecraft/**/raw/*.sqlite-shm

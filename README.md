@@ -1,37 +1,31 @@
-# Minecraft AI Build 成果
+# assets
 
-本仓库保存 Minecraft AI Build 任务的成果与复现材料。后续任务完成并验证后默认推送到这里。
+本仓库用于保存可被 GPT / Codex 长期读取的项目资产、结构化事实、研究证据与可复现材料。
 
-## 自然地理初步探查 V1 · 建筑师
+仓库根只保留跨项目约定；具体项目必须归入稳定的领域 / 项目路径，避免把任务产物散落在根目录。
 
-**状态：PARTIAL。结构化事实层完成，高级地貌仍需局部精查。**
+## 当前项目
 
-- Minecraft 26.2 / DataVersion 4903，主世界。
-- 完整生成范围：X=-6224～3807，Z=-6544～3487；393,129 个完整区块，单一连续矩形、无内部缺口。
-- 64 格采样网格：24,964 个采样区块、124,820 根柱。
-- 图谱：1,264 GEO / 412 HYD / 1,343 FEAT / 20 SITE。这些是算法分区与候选，不等于已确认的地貌数量。
-- world writes = 0；全存档 1,524 个文件前后指纹一致。
+### Minecraft｜建筑师
 
-[任务说明与查询方法](World-Survey/建筑师/README.md) · [短报告](World-Survey/建筑师/reports/summary.md) · [Survey Manifest](World-Survey/建筑师/manifest/survey.json) · [SQLite 无损归档](World-Survey/建筑师/raw/geography.sqlite.gz)
+路径：[`minecraft/建筑师/`](minecraft/建筑师/)
 
-![候选地点总览](World-Survey/建筑师/visual/SITE-overview-map.png)
+目标：以 Minecraft 存档 **`建筑师`** 为现实地理基础，逐步完成自然地理理解、奇幻世界设定、建筑语言与聚落规划，并最终把设计持续落地到同一存档中。
 
-## 恢复数据库
+当前状态：
 
-数据库原始大小超过 GitHub 单文件限制，因此以 gzip 无损保存。`发布归档.json` 记录源数据库及压缩文件 SHA256，归档时已逐字节流式验证解压内容。
+- Natural Geography Survey V1 已形成可查询事实层；
+- 独立审核结论：`PASS_WITH_NOTES`；
+- Survey Artifact 本身保持 `PARTIAL`，高级地貌仍是待复核候选；
+- 世界 Canon 尚未开始；
+- 下一阶段尚未授权。
 
-在仓库根目录执行：
+进入该项目时先读：
 
-```python
-from pathlib import Path
-import gzip, hashlib, json
-p = Path('World-Survey/建筑师/raw')
-record = json.loads(Path('发布归档.json').read_text(encoding='utf-8'))
-data = gzip.decompress((p / 'geography.sqlite.gz').read_bytes())
-assert hashlib.sha256(data).hexdigest() == record['database']['sha256']
-target = p / 'geography.sqlite'
-with target.open('xb') as f:
-    f.write(data)
-```
+1. `AGENTS.md`
+2. `minecraft/建筑师/README.md`
+3. `minecraft/建筑师/AGENTS.md`
+4. `minecraft/建筑师/current/README.md`
+5. `minecraft/建筑师/current/项目状态.md`
 
-恢复文件被 Git 忽略。使用 Python SQLite 标准库即可查询；如需重新生成地图，安装 `requirements.txt` 中的依赖，然后执行任务目录中的 `scripts/Bootstrap/调查命令.py views`。原调查脚本使用 Windows Arial 字体；源存档不随仓库上传，`scan` 仍需明确传入本地实际存档路径。`manifest/toolchain.json` 记录原运行环境与脚本哈希。
+> GitHub 保存长期项目事实与证据；聊天 Prompt 只传递本轮增量。
