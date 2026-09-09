@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "before": {
+    "raw-or-queryable/atlas.sqlite": "5b72d29ac110aab9f5894b3380ed006b70e904dcf73dd174f1ae39310a5291fd",
+    "atlas/id-registry.json": "e27c97c4a5d0d4864b5c2867da4ae2fae345322396e7c612617845b346c0690c",
+    "atlas/objects.jsonl": "41b9018a2cbc323c26b393882d710f759abd3b5129bb130e4603c048c0450062",
+    "atlas/relations.jsonl": "bf999e5d4a7d0547f6dbf10f5c5ef8337b7e8da66a7925f3bc273e92dedd059e"
+  },
+  "after": {
+    "raw-or-queryable/atlas.sqlite": "5b72d29ac110aab9f5894b3380ed006b70e904dcf73dd174f1ae39310a5291fd",
+    "atlas/id-registry.json": "e27c97c4a5d0d4864b5c2867da4ae2fae345322396e7c612617845b346c0690c",
+    "atlas/objects.jsonl": "41b9018a2cbc323c26b393882d710f759abd3b5129bb130e4603c048c0450062",
+    "atlas/relations.jsonl": "bf999e5d4a7d0547f6dbf10f5c5ef8337b7e8da66a7925f3bc273e92dedd059e"
+  },
+  "identity_before": "e27c97c4a5d0d4864b5c2867da4ae2fae345322396e7c612617845b346c0690c",
+  "method": "Two full builds; SQLite, ledger, object and relation JSONL byte-identical",
+  "initial_issue_resolved": "Identity registry rows now inserted in canonical ID order, independent of first-build versus loaded-ledger order."
+}

@@ -1,0 +1,6 @@
+{
+  "retained_in_git": false,
+  "source": "../V1/survey/raw/geography.sqlite.gz",
+  "source_sha256": "fd98df47de4067dbed9785723681a3f82f81ec3649696bbcd99b258f43f99923",
+  "uncompressed_sha256": "e14d7cfb6f2103e9e8321ad702e478589e7e93de601aaea987f713ee8c38c202"
+}

@@ -1,0 +1,31 @@
+{
+  "V1_NG2_immutable": true,
+  "checked_at": "2026-09-09T07:31:35.291115+00:00",
+  "comparison": {
+    "NG-2": {
+      "added": [],
+      "changed": [],
+      "deleted": []
+    },
+    "V1": {
+      "added": [],
+      "changed": [],
+      "deleted": []
+    }
+  },
+  "execution_base": "166515fe12ac7f5edd2dd04bccefa49f4e8b0951",
+  "freshness_scope": "Overworld region inventory and SHA256; player/time metadata excluded from freshness verdict",
+  "geography_snapshot_status": "CURRENT_MATCH",
+  "identity": {
+    "DataVersion": 4903,
+    "LevelName": "建筑师"
+  },
+  "in_game_visual_review": "BLOCKED_BY_SAFE_ENVIRONMENT",
+  "protection": "all existing world and accepted evidence files held GENERIC_READ/FILE_SHARE_READ; complete inventory compared",
+  "region_count": 552,
+  "schema_version": "natural-atlas/1.0",
+  "world_inventory_before_after_equal": true,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\建筑师",
+  "world_unchanged_since_start": true,
+  "world_writes": 0
+}

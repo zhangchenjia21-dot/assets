@@ -1,0 +1,27 @@
+{
+  "counts": {
+    "NFEAT": 4,
+    "NGEO": 35,
+    "NHYD": 20,
+    "NSITE": 8
+  },
+  "evidence_status_counts": {
+    "PROVISIONAL": 49,
+    "SUPPORTED": 18
+  },
+  "execution_base": "166515fe12ac7f5edd2dd04bccefa49f4e8b0951",
+  "geometry_runs": 13565,
+  "integrity_check": "ok",
+  "raw_ng2_columns_copied": 0,
+  "schema_version": "natural-atlas/1.0",
+  "source_cache_not_published": true,
+  "targeted_refinement": {
+    "count": 0,
+    "reason": "Existing data support an honest macro Atlas with explicit unresolved global water topology. No uncertain coarse lake/island/pass is promoted; additional world reads would not change the two-massif/central-lowland skeleton required in this proposal."
+  },
+  "uncertainty_objects": 65,
+  "unresolved_cells": {
+    "land": 248,
+    "water": 676
+  }
+}

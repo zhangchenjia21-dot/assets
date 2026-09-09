@@ -1,0 +1,2587 @@
+[
+  {
+    "bounds": [
+      -5184,
+      -6592,
+      2239,
+      383
+    ],
+    "candidate": "NGEO-C001",
+    "cells": 4980,
+    "edge_censored": true,
+    "max_elevation": 181.0,
+    "mean_elevation": 69.69646586345382,
+    "mean_relief": 24.51248995983936,
+    "mean_slope": 0.08172439759036143,
+    "member_hash": "de29fda6a30ba280f5546ad7d6258b0553883cc03e8cf5b81108ca11af6376f4",
+    "min_elevation": 47.0,
+    "numeric_band_counts": {
+      "0": 4733,
+      "1": 241,
+      "2": 6
+    },
+    "numeric_component": 1,
+    "representative": [
+      -1016,
+      -3960
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 28,
+      "hills_candidate": 1411,
+      "mountains_candidate": 15,
+      "plains_candidate": 3512,
+      "valley_candidate": 14
+    },
+    "top_biomes": [
+      [
+        "minecraft:snowy_taiga",
+        903
+      ],
+      [
+        "terralith:steppe",
+        613
+      ],
+      [
+        "terralith:alpine_highlands",
+        328
+      ],
+      [
+        "terralith:wintry_lowlands",
+        296
+      ],
+      [
+        "terralith:siberian_taiga",
+        293
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -5248,
+      -5056,
+      -4417,
+      -3521
+    ],
+    "candidate": "NGEO-C002",
+    "cells": 113,
+    "edge_censored": false,
+    "max_elevation": 79.2,
+    "mean_elevation": 67.62300884955752,
+    "mean_relief": 32.584070796460175,
+    "mean_slope": 0.05641592920353983,
+    "member_hash": "da06367837a10b5cce722c6a24f7dae319513d512f22d6b7a26b0d740e4beb15",
+    "min_elevation": 58.8,
+    "numeric_band_counts": {
+      "0": 113
+    },
+    "numeric_component": 44,
+    "representative": [
+      -4920,
+      -4280
+    ],
+    "terrain_counts": {
+      "hills_candidate": 47,
+      "plains_candidate": 66
+    },
+    "top_biomes": [
+      [
+        "terralith:highlands",
+        77
+      ],
+      [
+        "minecraft:plains",
+        20
+      ],
+      [
+        "minecraft:beach",
+        7
+      ],
+      [
+        "minecraft:forest",
+        7
+      ],
+      [
+        "terralith:forested_highlands",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -3584,
+      -4096,
+      -2561,
+      -3265
+    ],
+    "candidate": "NGEO-C003",
+    "cells": 71,
+    "edge_censored": false,
+    "max_elevation": 69.0,
+    "mean_elevation": 64.87323943661971,
+    "mean_relief": 7.566197183098592,
+    "mean_slope": 0.03824823943661972,
+    "member_hash": "8580674e2d24862f228815db3e18bc15febf95895253efa2a616b2d8982ab063",
+    "min_elevation": 62.4,
+    "numeric_band_counts": {
+      "0": 71
+    },
+    "numeric_component": 52,
+    "representative": [
+      -3128,
+      -3640
+    ],
+    "terrain_counts": {
+      "plains_candidate": 71
+    },
+    "top_biomes": [
+      [
+        "minecraft:forest",
+        52
+      ],
+      [
+        "terralith:alpine_highlands",
+        16
+      ],
+      [
+        "minecraft:beach",
+        3
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -4800,
+      -3648,
+      -4161,
+      -2625
+    ],
+    "candidate": "NGEO-C004",
+    "cells": 77,
+    "edge_censored": false,
+    "max_elevation": 72.2,
+    "mean_elevation": 67.9038961038961,
+    "mean_relief": 18.72467532467532,
+    "mean_slope": 0.06895292207792207,
+    "member_hash": "06d29a7aac9c19621cb3233cb52860c70b2de38c5ebab697185fb3820b5925c5",
+    "min_elevation": 58.4,
+    "numeric_band_counts": {
+      "0": 77
+    },
+    "numeric_component": 55,
+    "representative": [
+      -4472,
+      -3128
+    ],
+    "terrain_counts": {
+      "hills_candidate": 15,
+      "plains_candidate": 62
+    },
+    "top_biomes": [
+      [
+        "terralith:temperate_highlands",
+        60
+      ],
+      [
+        "terralith:highlands",
+        9
+      ],
+      [
+        "minecraft:old_growth_birch_forest",
+        5
+      ],
+      [
+        "minecraft:forest",
+        2
+      ],
+      [
+        "minecraft:old_growth_pine_taiga",
+        1
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -4736,
+      -2496,
+      -3009,
+      -1217
+    ],
+    "candidate": "NGEO-C005",
+    "cells": 218,
+    "edge_censored": false,
+    "max_elevation": 90.0,
+    "mean_elevation": 70.30183486238532,
+    "mean_relief": 33.91009174311927,
+    "mean_slope": 0.07590309633027523,
+    "member_hash": "0aa0b98bb4ebb542cd1841856d8025df9ef78c8d5bc19a8fab5ec706f6c0a063",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "0": 214,
+      "1": 4
+    },
+    "numeric_component": 64,
+    "representative": [
+      -3832,
+      -1784
+    ],
+    "terrain_counts": {
+      "hills_candidate": 92,
+      "plains_candidate": 126
+    },
+    "top_biomes": [
+      [
+        "terralith:arid_highlands",
+        65
+      ],
+      [
+        "terralith:highlands",
+        59
+      ],
+      [
+        "minecraft:forest",
+        34
+      ],
+      [
+        "minecraft:old_growth_birch_forest",
+        29
+      ],
+      [
+        "minecraft:beach",
+        21
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      192,
+      -1920,
+      1023,
+      -1345
+    ],
+    "candidate": "NGEO-C006",
+    "cells": 88,
+    "edge_censored": false,
+    "max_elevation": 77.8,
+    "mean_elevation": 67.73181818181818,
+    "mean_relief": 27.561363636363634,
+    "mean_slope": 0.05333806818181816,
+    "member_hash": "f9e645d6eeeadad1616ff5e1edacc0b3f1661a3b83f176aa1e0e84b2c6ae9b38",
+    "min_elevation": 64.4,
+    "numeric_band_counts": {
+      "0": 88
+    },
+    "numeric_component": 69,
+    "representative": [
+      648,
+      -1656
+    ],
+    "terrain_counts": {
+      "hills_candidate": 34,
+      "plains_candidate": 54
+    },
+    "top_biomes": [
+      [
+        "terralith:steppe",
+        81
+      ],
+      [
+        "terralith:highlands",
+        7
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -3200,
+      -1152,
+      -2561,
+      -257
+    ],
+    "candidate": "NGEO-C007",
+    "cells": 64,
+    "edge_censored": false,
+    "max_elevation": 85.0,
+    "mean_elevation": 71.05937499999999,
+    "mean_relief": 33.91562499999999,
+    "mean_slope": 0.06923828125,
+    "member_hash": "907a31fe1f6510400e6856150ca778aed340e07dc8d9573603c21330d531daf7",
+    "min_elevation": 62.8,
+    "numeric_band_counts": {
+      "0": 64
+    },
+    "numeric_component": 72,
+    "representative": [
+      -2936,
+      -696
+    ],
+    "terrain_counts": {
+      "hills_candidate": 35,
+      "plains_candidate": 29
+    },
+    "top_biomes": [
+      [
+        "terralith:arid_highlands",
+        40
+      ],
+      [
+        "minecraft:savanna",
+        10
+      ],
+      [
+        "minecraft:plains",
+        9
+      ],
+      [
+        "minecraft:beach",
+        4
+      ],
+      [
+        "terralith:highlands",
+        1
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      192,
+      -1024,
+      1087,
+      -193
+    ],
+    "candidate": "NGEO-C008",
+    "cells": 73,
+    "edge_censored": false,
+    "max_elevation": 78.0,
+    "mean_elevation": 66.98630136986301,
+    "mean_relief": 43.441095890410956,
+    "mean_slope": 0.046875,
+    "member_hash": "136c9e79dc96bc5d40f673806e80f97c811696e3c70cf4b794d2a1bd57c416c7",
+    "min_elevation": 64.4,
+    "numeric_band_counts": {
+      "0": 73
+    },
+    "numeric_component": 73,
+    "representative": [
+      712,
+      -760
+    ],
+    "terrain_counts": {
+      "hills_candidate": 40,
+      "plains_candidate": 33
+    },
+    "top_biomes": [
+      [
+        "terralith:highlands",
+        43
+      ],
+      [
+        "terralith:steppe",
+        30
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -704,
+      1472,
+      319,
+      2559
+    ],
+    "candidate": "NGEO-C009",
+    "cells": 140,
+    "edge_censored": false,
+    "max_elevation": 76.6,
+    "mean_elevation": 66.04285714285714,
+    "mean_relief": 17.668571428571425,
+    "mean_slope": 0.052745535714285724,
+    "member_hash": "90e894740ffcece763ce3626fdd4bd928e1bd7d2a241a1129b9060994695f62b",
+    "min_elevation": 57.0,
+    "numeric_band_counts": {
+      "0": 136,
+      "1": 4
+    },
+    "numeric_component": 90,
+    "representative": [
+      -248,
+      2056
+    ],
+    "terrain_counts": {
+      "hills_candidate": 26,
+      "plains_candidate": 113,
+      "valley_candidate": 1
+    },
+    "top_biomes": [
+      [
+        "minecraft:savanna",
+        76
+      ],
+      [
+        "minecraft:beach",
+        32
+      ],
+      [
+        "terralith:arid_highlands",
+        32
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -3584,
+      2688,
+      -2945,
+      3519
+    ],
+    "candidate": "NGEO-C010",
+    "cells": 70,
+    "edge_censored": true,
+    "max_elevation": 92.6,
+    "mean_elevation": 72.22857142857144,
+    "mean_relief": 36.48,
+    "mean_slope": 0.09089285714285715,
+    "member_hash": "cff5f99b6e1500711f91d18c6e6d745321dd408bc7626693ab03cfd96cae7bee",
+    "min_elevation": 62.2,
+    "numeric_band_counts": {
+      "0": 70
+    },
+    "numeric_component": 94,
+    "representative": [
+      -3192,
+      3080
+    ],
+    "terrain_counts": {
+      "hills_candidate": 48,
+      "plains_candidate": 22
+    },
+    "top_biomes": [
+      [
+        "minecraft:desert",
+        68
+      ],
+      [
+        "terralith:desert_oasis",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -6080,
+      2752,
+      -3457,
+      3519
+    ],
+    "candidate": "NGEO-C011",
+    "cells": 346,
+    "edge_censored": true,
+    "max_elevation": 110.4,
+    "mean_elevation": 77.5936416184971,
+    "mean_relief": 30.745664739884393,
+    "mean_slope": 0.10598807803468208,
+    "member_hash": "0573daaf292d24ae3eaaf57a3d5500a98ca92ca9ef182f6e8ff05b10190c4671",
+    "min_elevation": 62.4,
+    "numeric_band_counts": {
+      "0": 301,
+      "1": 45
+    },
+    "numeric_component": 95,
+    "representative": [
+      -4664,
+      3208
+    ],
+    "terrain_counts": {
+      "hills_candidate": 203,
+      "plains_candidate": 143
+    },
+    "top_biomes": [
+      [
+        "minecraft:desert",
+        134
+      ],
+      [
+        "terralith:lush_desert",
+        114
+      ],
+      [
+        "terralith:desert_oasis",
+        97
+      ],
+      [
+        "terralith:bryce_canyon",
+        1
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -3328,
+      -6592,
+      -1665,
+      -5697
+    ],
+    "candidate": "NGEO-C012",
+    "cells": 235,
+    "edge_censored": true,
+    "max_elevation": 234.0,
+    "mean_elevation": 115.36170212765957,
+    "mean_relief": 118.88340425531915,
+    "mean_slope": 0.4407579787234043,
+    "member_hash": "3de36ca81a0867bb82fa43f20ca4fabcec880ea30ca0df9aef3f104e3f0acefc",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "1": 184,
+      "2": 51
+    },
+    "numeric_component": 103,
+    "representative": [
+      -2360,
+      -6264
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 32,
+      "hills_candidate": 98,
+      "mountains_candidate": 59,
+      "valley_candidate": 46
+    },
+    "top_biomes": [
+      [
+        "minecraft:snowy_taiga",
+        75
+      ],
+      [
+        "terralith:siberian_taiga",
+        58
+      ],
+      [
+        "terralith:wintry_forest",
+        39
+      ],
+      [
+        "terralith:wintry_lowlands",
+        32
+      ],
+      [
+        "minecraft:snowy_plains",
+        20
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      3008,
+      -6400,
+      3839,
+      -5313
+    ],
+    "candidate": "NGEO-C013",
+    "cells": 158,
+    "edge_censored": true,
+    "max_elevation": 417.2,
+    "mean_elevation": 121.19746835443036,
+    "mean_relief": 199.5354430379747,
+    "mean_slope": 0.6641020569620253,
+    "member_hash": "8b62358c42522879ce32240bed465163596cc945479bc607c49413c166be18c6",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "0": 31,
+      "1": 83,
+      "2": 36,
+      "3": 8
+    },
+    "numeric_component": 108,
+    "representative": [
+      3464,
+      -5880
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 7,
+      "hills_candidate": 53,
+      "mountains_candidate": 41,
+      "plains_candidate": 2,
+      "valley_candidate": 55
+    },
+    "top_biomes": [
+      [
+        "terralith:frozen_cliffs",
+        55
+      ],
+      [
+        "minecraft:frozen_ocean",
+        49
+      ],
+      [
+        "terralith:wintry_forest",
+        43
+      ],
+      [
+        "minecraft:grove",
+        10
+      ],
+      [
+        "minecraft:stony_shore",
+        1
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      1280,
+      -6144,
+      3583,
+      -3841
+    ],
+    "candidate": "NGEO-C014",
+    "cells": 297,
+    "edge_censored": false,
+    "max_elevation": 174.4,
+    "mean_elevation": 90.36767676767676,
+    "mean_relief": 118.48552188552188,
+    "mean_slope": 0.4873316498316498,
+    "member_hash": "c03f85b35f2632154a4c50e80ea083a8ff153d5168b914103b4f736303f00782",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "0": 30,
+      "1": 267
+    },
+    "numeric_component": 109,
+    "representative": [
+      2248,
+      -4984
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 49,
+      "hills_candidate": 139,
+      "mountains_candidate": 16,
+      "plains_candidate": 4,
+      "plateau_candidate": 1,
+      "valley_candidate": 87,
+      "wetlands_candidate": 1
+    },
+    "top_biomes": [
+      [
+        "minecraft:snowy_taiga",
+        74
+      ],
+      [
+        "minecraft:frozen_ocean",
+        50
+      ],
+      [
+        "minecraft:snowy_plains",
+        47
+      ],
+      [
+        "terralith:wintry_forest",
+        27
+      ],
+      [
+        "terralith:moonlight_valley",
+        18
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -3776,
+      -5952,
+      -1985,
+      -3969
+    ],
+    "candidate": "NGEO-C015",
+    "cells": 319,
+    "edge_censored": false,
+    "max_elevation": 220.4,
+    "mean_elevation": 96.89467084639497,
+    "mean_relief": 142.0420062695925,
+    "mean_slope": 0.48651057993730407,
+    "member_hash": "ae5695c07300d6795601cc6eae8e51ebd79c2907fe00ebf5eb40097947a06859",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "1": 298,
+      "2": 21
+    },
+    "numeric_component": 112,
+    "representative": [
+      -2872,
+      -4792
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 23,
+      "hills_candidate": 142,
+      "mountains_candidate": 39,
+      "plateau_candidate": 2,
+      "valley_candidate": 113
+    },
+    "top_biomes": [
+      [
+        "minecraft:snowy_taiga",
+        82
+      ],
+      [
+        "minecraft:snowy_plains",
+        73
+      ],
+      [
+        "terralith:yellowstone",
+        70
+      ],
+      [
+        "terralith:alpine_highlands",
+        44
+      ],
+      [
+        "terralith:gravel_desert",
+        34
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -5824,
+      -5888,
+      -4865,
+      -3649
+    ],
+    "candidate": "NGEO-C016",
+    "cells": 104,
+    "edge_censored": false,
+    "max_elevation": 162.2,
+    "mean_elevation": 91.15384615384616,
+    "mean_relief": 135.2423076923077,
+    "mean_slope": 0.5822716346153846,
+    "member_hash": "f35932facdf342d13b1915a8cadc3a388eaf06ae78bc971b277d3b72e81ff116",
+    "min_elevation": 62.8,
+    "numeric_band_counts": {
+      "1": 104
+    },
+    "numeric_component": 113,
+    "representative": [
+      -5304,
+      -4664
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 12,
+      "hills_candidate": 45,
+      "mountains_candidate": 6,
+      "valley_candidate": 41
+    },
+    "top_biomes": [
+      [
+        "terralith:highlands",
+        52
+      ],
+      [
+        "minecraft:plains",
+        35
+      ],
+      [
+        "terralith:steppe",
+        7
+      ],
+      [
+        "minecraft:forest",
+        7
+      ],
+      [
+        "terralith:shield",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      768,
+      -3520,
+      1663,
+      -2817
+    ],
+    "candidate": "NGEO-C017",
+    "cells": 72,
+    "edge_censored": false,
+    "max_elevation": 168.6,
+    "mean_elevation": 103.16111111111111,
+    "mean_relief": 100.36944444444445,
+    "mean_slope": 0.5345052083333334,
+    "member_hash": "60168daa8735c27cab6cc7a32bdda4ae501c283efd8a924934a40e0db9e7379e",
+    "min_elevation": 66.2,
+    "numeric_band_counts": {
+      "1": 72
+    },
+    "numeric_component": 131,
+    "representative": [
+      1224,
+      -3192
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 11,
+      "hills_candidate": 40,
+      "mountains_candidate": 7,
+      "valley_candidate": 14
+    },
+    "top_biomes": [
+      [
+        "terralith:steppe",
+        27
+      ],
+      [
+        "terralith:moonlight_valley",
+        21
+      ],
+      [
+        "terralith:forested_highlands",
+        13
+      ],
+      [
+        "terralith:shield",
+        11
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -5184,
+      -3008,
+      -3777,
+      -1601
+    ],
+    "candidate": "NGEO-C018",
+    "cells": 257,
+    "edge_censored": false,
+    "max_elevation": 177.0,
+    "mean_elevation": 89.72684824902723,
+    "mean_relief": 98.54941634241247,
+    "mean_slope": 0.40077821011673154,
+    "member_hash": "65d024f5dec6fa49973d11e9c9768156ba0982ca6ef5e2f2429fa03f7694a933",
+    "min_elevation": 62.6,
+    "numeric_band_counts": {
+      "0": 50,
+      "1": 199,
+      "2": 8
+    },
+    "numeric_component": 132,
+    "representative": [
+      -4536,
+      -2296
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 26,
+      "hills_candidate": 148,
+      "mountains_candidate": 24,
+      "plains_candidate": 4,
+      "valley_candidate": 55
+    },
+    "top_biomes": [
+      [
+        "terralith:highlands",
+        134
+      ],
+      [
+        "minecraft:forest",
+        96
+      ],
+      [
+        "minecraft:plains",
+        9
+      ],
+      [
+        "terralith:arid_highlands",
+        8
+      ],
+      [
+        "minecraft:savanna",
+        5
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      192,
+      -2880,
+      1663,
+      -1153
+    ],
+    "candidate": "NGEO-C019",
+    "cells": 267,
+    "edge_censored": false,
+    "max_elevation": 163.4,
+    "mean_elevation": 105.48539325842697,
+    "mean_relief": 94.32808988764044,
+    "mean_slope": 0.40867275280898874,
+    "member_hash": "835f1257c9c4b976023d97832ebd912e5afe7f16ab46a255dae6e4cc3b56f3d6",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "0": 12,
+      "1": 255
+    },
+    "numeric_component": 133,
+    "representative": [
+      1032,
+      -2104
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 60,
+      "hills_candidate": 175,
+      "mountains_candidate": 14,
+      "valley_candidate": 18
+    },
+    "top_biomes": [
+      [
+        "terralith:steppe",
+        189
+      ],
+      [
+        "terralith:forested_highlands",
+        31
+      ],
+      [
+        "minecraft:cherry_grove",
+        15
+      ],
+      [
+        "terralith:shield",
+        12
+      ],
+      [
+        "terralith:moonlight_valley",
+        7
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -2496,
+      -1856,
+      -1793,
+      -1153
+    ],
+    "candidate": "NGEO-C020",
+    "cells": 95,
+    "edge_censored": false,
+    "max_elevation": 188.2,
+    "mean_elevation": 89.43578947368421,
+    "mean_relief": 124.32210526315794,
+    "mean_slope": 0.5046710526315789,
+    "member_hash": "87795b4b45b38518a603926136dc2daee5ed3b96e5fb6ae0a3a1c9d6a124af13",
+    "min_elevation": 62.4,
+    "numeric_band_counts": {
+      "0": 5,
+      "1": 90
+    },
+    "numeric_component": 137,
+    "representative": [
+      -2168,
+      -1464
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 6,
+      "hills_candidate": 61,
+      "mountains_candidate": 11,
+      "valley_candidate": 17
+    },
+    "top_biomes": [
+      [
+        "minecraft:forest",
+        41
+      ],
+      [
+        "terralith:highlands",
+        33
+      ],
+      [
+        "minecraft:plains",
+        21
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -4672,
+      -1536,
+      -3009,
+      -193
+    ],
+    "candidate": "NGEO-C021",
+    "cells": 141,
+    "edge_censored": false,
+    "max_elevation": 156.8,
+    "mean_elevation": 101.50070921985815,
+    "mean_relief": 106.62978723404255,
+    "mean_slope": 0.3800088652482269,
+    "member_hash": "238c11592ba14c68d8d46aad0ad952461ab41d2e3c836caea7e7a5f31fd6fc48",
+    "min_elevation": 65.2,
+    "numeric_band_counts": {
+      "1": 141
+    },
+    "numeric_component": 141,
+    "representative": [
+      -3768,
+      -1144
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 33,
+      "hills_candidate": 90,
+      "mountains_candidate": 4,
+      "valley_candidate": 14
+    },
+    "top_biomes": [
+      [
+        "terralith:arid_highlands",
+        109
+      ],
+      [
+        "terralith:highlands",
+        10
+      ],
+      [
+        "minecraft:savanna",
+        10
+      ],
+      [
+        "minecraft:savanna_plateau",
+        7
+      ],
+      [
+        "minecraft:plains",
+        5
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      960,
+      -1280,
+      2111,
+      -129
+    ],
+    "candidate": "NGEO-C022",
+    "cells": 209,
+    "edge_censored": false,
+    "max_elevation": 175.0,
+    "mean_elevation": 100.49473684210527,
+    "mean_relief": 112.67081339712917,
+    "mean_slope": 0.4965460526315789,
+    "member_hash": "8fc8d9b45d852efd41a90c7d228353c24b804558efc8be3a2cb51a6764731363",
+    "min_elevation": 63.8,
+    "numeric_band_counts": {
+      "0": 6,
+      "1": 203
+    },
+    "numeric_component": 143,
+    "representative": [
+      1544,
+      -632
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 34,
+      "hills_candidate": 124,
+      "mountains_candidate": 13,
+      "valley_candidate": 38
+    },
+    "top_biomes": [
+      [
+        "terralith:highlands",
+        75
+      ],
+      [
+        "terralith:shield",
+        68
+      ],
+      [
+        "minecraft:plains",
+        49
+      ],
+      [
+        "terralith:moonlight_valley",
+        11
+      ],
+      [
+        "terralith:yellowstone",
+        3
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      0,
+      -768,
+      831,
+      383
+    ],
+    "candidate": "NGEO-C023",
+    "cells": 138,
+    "edge_censored": false,
+    "max_elevation": 202.0,
+    "mean_elevation": 86.8376811594203,
+    "mean_relief": 110.99855072463768,
+    "mean_slope": 0.6501132246376812,
+    "member_hash": "c5260ee1b3f07b9f84c7d4843a94bc743c384739aebf96cacf859324d69e636c",
+    "min_elevation": 63.2,
+    "numeric_band_counts": {
+      "0": 2,
+      "1": 136
+    },
+    "numeric_component": 146,
+    "representative": [
+      392,
+      -248
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 8,
+      "hills_candidate": 106,
+      "mountains_candidate": 8,
+      "valley_candidate": 16
+    },
+    "top_biomes": [
+      [
+        "terralith:alpine_highlands",
+        48
+      ],
+      [
+        "terralith:steppe",
+        46
+      ],
+      [
+        "minecraft:cherry_grove",
+        15
+      ],
+      [
+        "terralith:arid_highlands",
+        12
+      ],
+      [
+        "terralith:hot_shrubland",
+        5
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -5504,
+      768,
+      -3521,
+      1663
+    ],
+    "candidate": "NGEO-C024",
+    "cells": 125,
+    "edge_censored": false,
+    "max_elevation": 163.6,
+    "mean_elevation": 83.60959999999999,
+    "mean_relief": 136.37280000000004,
+    "mean_slope": 0.4779750000000001,
+    "member_hash": "0fec3ccb758f26250513f92467b773338e749a82a3be61760fc2c1dda6c24b9f",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "0": 28,
+      "1": 97
+    },
+    "numeric_component": 159,
+    "representative": [
+      -4600,
+      1224
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 7,
+      "hills_candidate": 50,
+      "mountains_candidate": 9,
+      "plains_candidate": 7,
+      "valley_candidate": 52
+    },
+    "top_biomes": [
+      [
+        "minecraft:desert",
+        97
+      ],
+      [
+        "terralith:arid_highlands",
+        9
+      ],
+      [
+        "minecraft:badlands",
+        9
+      ],
+      [
+        "minecraft:savanna",
+        6
+      ],
+      [
+        "minecraft:savanna_plateau",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -320,
+      1472,
+      1215,
+      2431
+    ],
+    "candidate": "NGEO-C025",
+    "cells": 116,
+    "edge_censored": false,
+    "max_elevation": 160.0,
+    "mean_elevation": 102.14137931034483,
+    "mean_relief": 92.6396551724138,
+    "mean_slope": 0.5136584051724138,
+    "member_hash": "314722e4d8bff45b2c1c4e1b048f34f2a1476c5e8c162bff0314b416116d2fe4",
+    "min_elevation": 61.6,
+    "numeric_band_counts": {
+      "0": 23,
+      "1": 92,
+      "2": 1
+    },
+    "numeric_component": 164,
+    "representative": [
+      456,
+      1800
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 41,
+      "hills_candidate": 36,
+      "mountains_candidate": 5,
+      "plains_candidate": 18,
+      "valley_candidate": 16
+    },
+    "top_biomes": [
+      [
+        "terralith:hot_shrubland",
+        44
+      ],
+      [
+        "terralith:arid_highlands",
+        36
+      ],
+      [
+        "minecraft:stony_shore",
+        31
+      ],
+      [
+        "minecraft:beach",
+        3
+      ],
+      [
+        "terralith:basalt_cliffs",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      1536,
+      -6592,
+      3071,
+      -5377
+    ],
+    "candidate": "NGEO-C026",
+    "cells": 371,
+    "edge_censored": true,
+    "max_elevation": 293.4,
+    "mean_elevation": 209.46684636118601,
+    "mean_relief": 130.15741239892182,
+    "mean_slope": 0.414563679245283,
+    "member_hash": "1525c8172ae07a42408716cd6cd286368f65ec8b2048289734e689406fa1d79f",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "0": 3,
+      "1": 16,
+      "2": 327,
+      "3": 25
+    },
+    "numeric_component": 185,
+    "representative": [
+      2312,
+      -6008
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 47,
+      "hills_candidate": 4,
+      "mountains_candidate": 255,
+      "plateau_candidate": 40,
+      "valley_candidate": 20,
+      "wetlands_candidate": 5
+    },
+    "top_biomes": [
+      [
+        "minecraft:snowy_taiga",
+        183
+      ],
+      [
+        "terralith:wintry_forest",
+        145
+      ],
+      [
+        "minecraft:snowy_plains",
+        13
+      ],
+      [
+        "minecraft:frozen_ocean",
+        8
+      ],
+      [
+        "minecraft:stony_shore",
+        8
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -6272,
+      -6016,
+      -2369,
+      831
+    ],
+    "candidate": "NGEO-C027",
+    "cells": 903,
+    "edge_censored": true,
+    "max_elevation": 298.4,
+    "mean_elevation": 180.0733111849391,
+    "mean_relief": 179.88748615725362,
+    "mean_slope": 0.47780315614617935,
+    "member_hash": "0484687a0904f72b9013e79630d46cd35bdd8b35254337cd21dea73b092c4628",
+    "min_elevation": 62.4,
+    "numeric_band_counts": {
+      "0": 78,
+      "1": 71,
+      "2": 754
+    },
+    "numeric_component": 187,
+    "representative": [
+      -4728,
+      -1528
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 52,
+      "hills_candidate": 83,
+      "mountains_candidate": 678,
+      "plains_candidate": 28,
+      "plateau_candidate": 21,
+      "valley_candidate": 41
+    },
+    "top_biomes": [
+      [
+        "minecraft:savanna_plateau",
+        346
+      ],
+      [
+        "minecraft:forest",
+        144
+      ],
+      [
+        "minecraft:savanna",
+        84
+      ],
+      [
+        "minecraft:plains",
+        76
+      ],
+      [
+        "minecraft:meadow",
+        45
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -3648,
+      -5760,
+      -3009,
+      -5057
+    ],
+    "candidate": "NGEO-C028",
+    "cells": 85,
+    "edge_censored": false,
+    "max_elevation": 310.6,
+    "mean_elevation": 225.60705882352943,
+    "mean_relief": 226.93176470588236,
+    "mean_slope": 1.1396323529411765,
+    "member_hash": "e26a2ede76f7ae296fd59721ab1a7fb5dc4c9976d0f47cb876df89903d356131",
+    "min_elevation": 101.4,
+    "numeric_band_counts": {
+      "2": 85
+    },
+    "numeric_component": 188,
+    "representative": [
+      -3320,
+      -5368
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 4,
+      "mountains_candidate": 69,
+      "valley_candidate": 12
+    },
+    "top_biomes": [
+      [
+        "minecraft:snowy_taiga",
+        58
+      ],
+      [
+        "minecraft:snowy_plains",
+        27
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      448,
+      -5120,
+      3839,
+      1087
+    ],
+    "candidate": "NGEO-C029",
+    "cells": 1260,
+    "edge_censored": true,
+    "max_elevation": 303.0,
+    "mean_elevation": 193.93222222222224,
+    "mean_relief": 165.38666666666668,
+    "mean_slope": 0.49571676587301594,
+    "member_hash": "5c89a6b02df5f2704bc8312e39a905ae361a291c048f57942f7459b2fe558595",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "0": 22,
+      "1": 87,
+      "2": 1151
+    },
+    "numeric_component": 189,
+    "representative": [
+      2056,
+      -1720
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 81,
+      "hills_candidate": 73,
+      "mountains_candidate": 1016,
+      "plains_candidate": 4,
+      "plateau_candidate": 15,
+      "valley_candidate": 71
+    },
+    "top_biomes": [
+      [
+        "minecraft:cherry_grove",
+        258
+      ],
+      [
+        "terralith:yellowstone",
+        214
+      ],
+      [
+        "minecraft:meadow",
+        169
+      ],
+      [
+        "terralith:shield",
+        132
+      ],
+      [
+        "minecraft:plains",
+        116
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -6272,
+      -320,
+      -3457,
+      1535
+    ],
+    "candidate": "NGEO-C030",
+    "cells": 350,
+    "edge_censored": true,
+    "max_elevation": 306.4,
+    "mean_elevation": 161.12914285714285,
+    "mean_relief": 220.76971428571431,
+    "mean_slope": 0.5602232142857143,
+    "member_hash": "d3443a315cd3dd139c33de8bb2008c49fef8800d6e3e65265e508b390747ff1b",
+    "min_elevation": 63.0,
+    "numeric_band_counts": {
+      "0": 54,
+      "1": 65,
+      "2": 231
+    },
+    "numeric_component": 194,
+    "representative": [
+      -5304,
+      648
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 19,
+      "hills_candidate": 73,
+      "mountains_candidate": 213,
+      "plains_candidate": 27,
+      "valley_candidate": 18
+    },
+    "top_biomes": [
+      [
+        "minecraft:badlands",
+        116
+      ],
+      [
+        "terralith:arid_highlands",
+        63
+      ],
+      [
+        "minecraft:savanna_plateau",
+        56
+      ],
+      [
+        "minecraft:eroded_badlands",
+        49
+      ],
+      [
+        "terralith:ancient_sands",
+        34
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      3072,
+      192,
+      3839,
+      3135
+    ],
+    "candidate": "NGEO-C031",
+    "cells": 241,
+    "edge_censored": true,
+    "max_elevation": 283.8,
+    "mean_elevation": 173.66721991701246,
+    "mean_relief": 164.08796680497923,
+    "mean_slope": 0.6623443983402489,
+    "member_hash": "a258c5f9dc6bcf6af4d975768e45adab6080923ece27b41742d263112f9989ee",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "0": 5,
+      "1": 70,
+      "2": 166
+    },
+    "numeric_component": 195,
+    "representative": [
+      3592,
+      1480
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 38,
+      "hills_candidate": 36,
+      "mountains_candidate": 140,
+      "plains_candidate": 3,
+      "plateau_candidate": 1,
+      "valley_candidate": 23
+    },
+    "top_biomes": [
+      [
+        "minecraft:taiga",
+        105
+      ],
+      [
+        "minecraft:plains",
+        41
+      ],
+      [
+        "terralith:yellowstone",
+        35
+      ],
+      [
+        "terralith:white_cliffs",
+        29
+      ],
+      [
+        "minecraft:stony_shore",
+        16
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      448,
+      1856,
+      2111,
+      3263
+    ],
+    "candidate": "NGEO-C032",
+    "cells": 297,
+    "edge_censored": false,
+    "max_elevation": 298.4,
+    "mean_elevation": 174.53939393939393,
+    "mean_relief": 194.4087542087542,
+    "mean_slope": 0.7930450336700338,
+    "member_hash": "363eebbc48678a044509198c8b68246bc8e2a880b634b105c70fb664959902be",
+    "min_elevation": 62.4,
+    "numeric_band_counts": {
+      "1": 52,
+      "2": 245
+    },
+    "numeric_component": 199,
+    "representative": [
+      1288,
+      2504
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 38,
+      "hills_candidate": 23,
+      "mountains_candidate": 194,
+      "plateau_candidate": 1,
+      "valley_candidate": 41
+    },
+    "top_biomes": [
+      [
+        "terralith:hot_shrubland",
+        142
+      ],
+      [
+        "minecraft:stony_shore",
+        41
+      ],
+      [
+        "minecraft:sunflower_plains",
+        26
+      ],
+      [
+        "minecraft:savanna_plateau",
+        26
+      ],
+      [
+        "terralith:basalt_cliffs",
+        19
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -3072,
+      2752,
+      -1793,
+      3519
+    ],
+    "candidate": "NGEO-C033",
+    "cells": 159,
+    "edge_censored": true,
+    "max_elevation": 351.6,
+    "mean_elevation": 158.01257861635222,
+    "mean_relief": 172.40000000000003,
+    "mean_slope": 0.6456564465408806,
+    "member_hash": "2666421bcbec39c69630f46a070621864acb3ca37822c9ee2e890ef35dbd9e5b",
+    "min_elevation": 63.2,
+    "numeric_band_counts": {
+      "1": 50,
+      "2": 106,
+      "3": 3
+    },
+    "numeric_component": 201,
+    "representative": [
+      -2552,
+      3208
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 26,
+      "hills_candidate": 30,
+      "mountains_candidate": 84,
+      "valley_candidate": 19
+    },
+    "top_biomes": [
+      [
+        "minecraft:desert",
+        71
+      ],
+      [
+        "minecraft:badlands",
+        38
+      ],
+      [
+        "terralith:granite_cliffs",
+        29
+      ],
+      [
+        "minecraft:eroded_badlands",
+        10
+      ],
+      [
+        "minecraft:savanna",
+        6
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -6272,
+      -5760,
+      -3521,
+      1215
+    ],
+    "candidate": "NGEO-C034",
+    "cells": 1655,
+    "edge_censored": true,
+    "max_elevation": 689.4,
+    "mean_elevation": 468.53486404833836,
+    "mean_relief": 294.53111782477345,
+    "mean_slope": 0.8115351208459215,
+    "member_hash": "0b39130a7f34607fdeb5edf775cc27520b3a8d552cb5ec4bfc422bfd66a3f3c7",
+    "min_elevation": 197.8,
+    "numeric_band_counts": {
+      "3": 1655
+    },
+    "numeric_component": 205,
+    "representative": [
+      -5368,
+      -1592
+    ],
+    "terrain_counts": {
+      "mountains_candidate": 1655
+    },
+    "top_biomes": [
+      [
+        "terralith:painted_mountains",
+        207
+      ],
+      [
+        "minecraft:badlands",
+        204
+      ],
+      [
+        "terralith:rocky_mountains",
+        178
+      ],
+      [
+        "minecraft:frozen_peaks",
+        174
+      ],
+      [
+        "terralith:volcanic_peaks",
+        157
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      1792,
+      -4864,
+      3839,
+      1023
+    ],
+    "candidate": "NGEO-C035",
+    "cells": 1911,
+    "edge_censored": true,
+    "max_elevation": 694.0,
+    "mean_elevation": 423.0027210884354,
+    "mean_relief": 218.12904238618523,
+    "mean_slope": 0.6060701203558346,
+    "member_hash": "bcd9a11d972967d9dcfbd1eaf2f4ee140a28143e2bd4d78c5a4ce0da4a2f8838",
+    "min_elevation": 88.8,
+    "numeric_band_counts": {
+      "2": 5,
+      "3": 1906
+    },
+    "numeric_component": 206,
+    "representative": [
+      3080,
+      -1912
+    ],
+    "terrain_counts": {
+      "highlands_candidate": 24,
+      "mountains_candidate": 1876,
+      "plateau_candidate": 7,
+      "valley_candidate": 4
+    },
+    "top_biomes": [
+      [
+        "minecraft:frozen_peaks",
+        291
+      ],
+      [
+        "terralith:scarlet_mountains",
+        247
+      ],
+      [
+        "minecraft:cherry_grove",
+        241
+      ],
+      [
+        "terralith:rocky_mountains",
+        237
+      ],
+      [
+        "terralith:yellowstone",
+        234
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -6272,
+      -6592,
+      3839,
+      3519
+    ],
+    "candidate": "NHYD-C001",
+    "cells": 7473,
+    "edge_censored": true,
+    "max_elevation": 134.6,
+    "mean_elevation": 62.05502475578751,
+    "mean_relief": 23.135340559346982,
+    "mean_slope": 0.04484602903786966,
+    "member_hash": "b3f703f2398642fdb9065c94fabf5dc5112e132da37fc3e0e99522c13847dd07",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 7473
+    },
+    "numeric_component": 1,
+    "representative": [
+      -1848,
+      584
+    ],
+    "terrain_counts": {
+      "water": 7473
+    },
+    "top_biomes": [
+      [
+        "minecraft:ocean",
+        1248
+      ],
+      [
+        "minecraft:warm_ocean",
+        1239
+      ],
+      [
+        "minecraft:lukewarm_ocean",
+        1171
+      ],
+      [
+        "minecraft:deep_lukewarm_ocean",
+        948
+      ],
+      [
+        "minecraft:deep_ocean",
+        675
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      3456,
+      -6592,
+      3839,
+      -6209
+    ],
+    "candidate": "NHYD-C002",
+    "cells": 16,
+    "edge_censored": true,
+    "max_elevation": 64.8,
+    "mean_elevation": 62.35,
+    "mean_relief": 97.375,
+    "mean_slope": 0.08144531249999998,
+    "member_hash": "8ee2de8babe60b13d5d2d11633504e9bf69357d67b281c296914c83ed56e6586",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 16
+    },
+    "numeric_component": 10,
+    "representative": [
+      3592,
+      -6392
+    ],
+    "terrain_counts": {
+      "water": 16
+    },
+    "top_biomes": [
+      [
+        "minecraft:frozen_ocean",
+        16
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      192,
+      -6400,
+      511,
+      -6017
+    ],
+    "candidate": "NHYD-C003",
+    "cells": 19,
+    "edge_censored": false,
+    "max_elevation": 66.8,
+    "mean_elevation": 62.61052631578947,
+    "mean_relief": 12.221052631578948,
+    "mean_slope": 0.05756578947368421,
+    "member_hash": "ce291703c81935c71f3503dd7ccc22a658eae8d01babc1ab957b0c736c111ecc",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 19
+    },
+    "numeric_component": 22,
+    "representative": [
+      328,
+      -6264
+    ],
+    "terrain_counts": {
+      "water": 19
+    },
+    "top_biomes": [
+      [
+        "minecraft:frozen_ocean",
+        14
+      ],
+      [
+        "minecraft:deep_frozen_ocean",
+        5
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      384,
+      -5952,
+      1023,
+      -5505
+    ],
+    "candidate": "NHYD-C004",
+    "cells": 38,
+    "edge_censored": false,
+    "max_elevation": 64.6,
+    "mean_elevation": 62.18421052631579,
+    "mean_relief": 13.357894736842104,
+    "mean_slope": 0.036348684210526304,
+    "member_hash": "d41d24ae0364f95258185500f5f633e3afe8e6f58e1dd71d275e0a25db1cba0c",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 38
+    },
+    "numeric_component": 51,
+    "representative": [
+      712,
+      -5752
+    ],
+    "terrain_counts": {
+      "water": 38
+    },
+    "top_biomes": [
+      [
+        "minecraft:frozen_ocean",
+        23
+      ],
+      [
+        "minecraft:deep_frozen_ocean",
+        15
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      2816,
+      -5888,
+      3071,
+      -5313
+    ],
+    "candidate": "NHYD-C005",
+    "cells": 16,
+    "edge_censored": false,
+    "max_elevation": 66.6,
+    "mean_elevation": 62.2875,
+    "mean_relief": 103.95,
+    "mean_slope": 0.38300781250000004,
+    "member_hash": "c1cab866e5efbd08bb09b66ad7583c9c24bf7df119aade040460b2ea4902c66f",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 16
+    },
+    "numeric_component": 54,
+    "representative": [
+      2952,
+      -5560
+    ],
+    "terrain_counts": {
+      "water": 16
+    },
+    "top_biomes": [
+      [
+        "minecraft:stony_shore",
+        16
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      960,
+      -5440,
+      1471,
+      -5121
+    ],
+    "candidate": "NHYD-C006",
+    "cells": 18,
+    "edge_censored": false,
+    "max_elevation": 65.0,
+    "mean_elevation": 62.411111111111104,
+    "mean_relief": 23.23333333333333,
+    "mean_slope": 0.07517361111111111,
+    "member_hash": "c670c847c32d57cf8cefebc3f57454db8a6b5b32baabf894e0a752710007ab4d",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 18
+    },
+    "numeric_component": 74,
+    "representative": [
+      1224,
+      -5304
+    ],
+    "terrain_counts": {
+      "water": 18
+    },
+    "top_biomes": [
+      [
+        "minecraft:frozen_ocean",
+        18
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      192,
+      -4352,
+      703,
+      -4033
+    ],
+    "candidate": "NHYD-C007",
+    "cells": 23,
+    "edge_censored": false,
+    "max_elevation": 66.8,
+    "mean_elevation": 62.356521739130436,
+    "mean_relief": 12.669565217391304,
+    "mean_slope": 0.06847826086956521,
+    "member_hash": "695d35c16c5a65045cc6fcb9c542d38f235c45562cc46e0c71542f89a071dc9f",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 23
+    },
+    "numeric_component": 136,
+    "representative": [
+      456,
+      -4152
+    ],
+    "terrain_counts": {
+      "water": 23
+    },
+    "top_biomes": [
+      [
+        "minecraft:frozen_ocean",
+        22
+      ],
+      [
+        "terralith:cold_shrubland",
+        1
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -1024,
+      -3968,
+      -257,
+      -3265
+    ],
+    "candidate": "NHYD-C008",
+    "cells": 50,
+    "edge_censored": false,
+    "max_elevation": 62.2,
+    "mean_elevation": 62.004,
+    "mean_relief": 7.9079999999999995,
+    "mean_slope": 0.0264375,
+    "member_hash": "c36e9b373f1a06afa784477bb66610fc1ffa65ce7634b786e8bfbe95a5a70463",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 50
+    },
+    "numeric_component": 144,
+    "representative": [
+      -632,
+      -3640
+    ],
+    "terrain_counts": {
+      "water": 50
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        13
+      ],
+      [
+        "minecraft:beach",
+        13
+      ],
+      [
+        "minecraft:cold_ocean",
+        11
+      ],
+      [
+        "minecraft:plains",
+        4
+      ],
+      [
+        "minecraft:frozen_ocean",
+        3
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      704,
+      -3712,
+      1215,
+      -3329
+    ],
+    "candidate": "NHYD-C009",
+    "cells": 18,
+    "edge_censored": false,
+    "max_elevation": 65.0,
+    "mean_elevation": 62.35555555555556,
+    "mean_relief": 91.8111111111111,
+    "mean_slope": 0.5555555555555556,
+    "member_hash": "88224cc8213a7028f6c9c68ec59653bff2ed41a8414e1e7a0cd3b78f48aa5125",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 18
+    },
+    "numeric_component": 156,
+    "representative": [
+      1032,
+      -3448
+    ],
+    "terrain_counts": {
+      "water": 18
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        7
+      ],
+      [
+        "terralith:shield",
+        7
+      ],
+      [
+        "terralith:steppe",
+        2
+      ],
+      [
+        "terralith:moonlight_valley",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -2048,
+      -3392,
+      -1153,
+      -2753
+    ],
+    "candidate": "NHYD-C010",
+    "cells": 44,
+    "edge_censored": false,
+    "max_elevation": 66.0,
+    "mean_elevation": 62.13636363636363,
+    "mean_relief": 18.540909090909096,
+    "mean_slope": 0.06349431818181818,
+    "member_hash": "02a1f0844617b5f82c75e1c333ad7226edf9687f8329773c392f8bc2cfd190a8",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 44
+    },
+    "numeric_component": 165,
+    "representative": [
+      -1656,
+      -3064
+    ],
+    "terrain_counts": {
+      "water": 44
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        18
+      ],
+      [
+        "terralith:yellowstone",
+        14
+      ],
+      [
+        "terralith:alpine_highlands",
+        8
+      ],
+      [
+        "minecraft:forest",
+        2
+      ],
+      [
+        "terralith:forested_highlands",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -5056,
+      -3136,
+      -4545,
+      -2753
+    ],
+    "candidate": "NHYD-C011",
+    "cells": 29,
+    "edge_censored": false,
+    "max_elevation": 62.2,
+    "mean_elevation": 62.01379310344828,
+    "mean_relief": 64.99310344827587,
+    "mean_slope": 0.17693965517241378,
+    "member_hash": "bb2e7a87e6d36964367313e2750b612a71798dfd422926096ad9f1c849d7fd83",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 29
+    },
+    "numeric_component": 174,
+    "representative": [
+      -4792,
+      -3000
+    ],
+    "terrain_counts": {
+      "water": 29
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        13
+      ],
+      [
+        "terralith:highlands",
+        10
+      ],
+      [
+        "minecraft:forest",
+        3
+      ],
+      [
+        "terralith:temperate_highlands",
+        3
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -704,
+      -3136,
+      511,
+      -1345
+    ],
+    "candidate": "NHYD-C012",
+    "cells": 101,
+    "edge_censored": false,
+    "max_elevation": 63.8,
+    "mean_elevation": 62.05346534653465,
+    "mean_relief": 24.748514851485147,
+    "mean_slope": 0.07546410891089109,
+    "member_hash": "293a792ab39e889dfef997fdc33ad3874930a2ff97df674b3e706b6e9b3e9b21",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 101
+    },
+    "numeric_component": 176,
+    "representative": [
+      -184,
+      -2232
+    ],
+    "terrain_counts": {
+      "water": 101
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        53
+      ],
+      [
+        "terralith:moonlight_valley",
+        26
+      ],
+      [
+        "terralith:steppe",
+        20
+      ],
+      [
+        "terralith:highlands",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -4608,
+      -2688,
+      -4161,
+      -2305
+    ],
+    "candidate": "NHYD-C013",
+    "cells": 20,
+    "edge_censored": false,
+    "max_elevation": 62.6,
+    "mean_elevation": 62.04,
+    "mean_relief": 71.16999999999999,
+    "mean_slope": 0.045781249999999996,
+    "member_hash": "e95f6d4e7c02727288eaed0dc48e7171a24179d538880ee7f0c07aee81f343fd",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 20
+    },
+    "numeric_component": 192,
+    "representative": [
+      -4408,
+      -2488
+    ],
+    "terrain_counts": {
+      "water": 20
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        12
+      ],
+      [
+        "minecraft:forest",
+        6
+      ],
+      [
+        "minecraft:old_growth_pine_taiga",
+        2
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -1600,
+      -1792,
+      -833,
+      -1409
+    ],
+    "candidate": "NHYD-C014",
+    "cells": 23,
+    "edge_censored": false,
+    "max_elevation": 62.0,
+    "mean_elevation": 62.0,
+    "mean_relief": 6.3304347826086955,
+    "mean_slope": 0.06589673913043477,
+    "member_hash": "928aa31c8d59f0fa35f8ebce4187672a3e1e3cbec829fb5e0a15bbfae7fb3b2e",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 23
+    },
+    "numeric_component": 211,
+    "representative": [
+      -1272,
+      -1720
+    ],
+    "terrain_counts": {
+      "water": 23
+    },
+    "top_biomes": [
+      [
+        "terralith:highlands",
+        9
+      ],
+      [
+        "minecraft:river",
+        9
+      ],
+      [
+        "minecraft:plains",
+        5
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      512,
+      -1472,
+      1599,
+      -961
+    ],
+    "candidate": "NHYD-C015",
+    "cells": 54,
+    "edge_censored": false,
+    "max_elevation": 65.6,
+    "mean_elevation": 62.088888888888896,
+    "mean_relief": 66.48148148148147,
+    "mean_slope": 0.3103009259259259,
+    "member_hash": "d428889ff078d6d69e6f1d2682aa13aa5d1aa178d66675116e85b610ec506e08",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 54
+    },
+    "numeric_component": 221,
+    "representative": [
+      1096,
+      -1208
+    ],
+    "terrain_counts": {
+      "water": 54
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        30
+      ],
+      [
+        "terralith:highlands",
+        12
+      ],
+      [
+        "minecraft:plains",
+        7
+      ],
+      [
+        "terralith:steppe",
+        4
+      ],
+      [
+        "terralith:moonlight_valley",
+        1
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -896,
+      -1088,
+      127,
+      -321
+    ],
+    "candidate": "NHYD-C016",
+    "cells": 48,
+    "edge_censored": false,
+    "max_elevation": 62.6,
+    "mean_elevation": 62.05833333333334,
+    "mean_relief": 39.487500000000004,
+    "mean_slope": 0.07135416666666666,
+    "member_hash": "15d34db8f2f5a29acbf5a0531d2168bbfd48a850e9169fe12ff3eba5dae5bcef",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 48
+    },
+    "numeric_component": 228,
+    "representative": [
+      -440,
+      -632
+    ],
+    "terrain_counts": {
+      "water": 48
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        21
+      ],
+      [
+        "terralith:steppe",
+        14
+      ],
+      [
+        "terralith:arid_highlands",
+        10
+      ],
+      [
+        "terralith:alpine_highlands",
+        2
+      ],
+      [
+        "terralith:shrubland",
+        1
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      -960,
+      -192,
+      -129,
+      -1
+    ],
+    "candidate": "NHYD-C017",
+    "cells": 20,
+    "edge_censored": false,
+    "max_elevation": 62.4,
+    "mean_elevation": 62.029999999999994,
+    "mean_relief": 32.86,
+    "mean_slope": 0.08234375000000002,
+    "member_hash": "f66c4661c7d5d29e3fc9819c7306c7d16e342ea6784fa342bdd60c0825a37208",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 20
+    },
+    "numeric_component": 252,
+    "representative": [
+      -568,
+      -120
+    ],
+    "terrain_counts": {
+      "water": 20
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        9
+      ],
+      [
+        "terralith:hot_shrubland",
+        6
+      ],
+      [
+        "terralith:arid_highlands",
+        5
+      ]
+    ]
+  },
+  {
+    "bounds": [
+      1216,
+      -192,
+      1791,
+      127
+    ],
+    "candidate": "NHYD-C018",
+    "cells": 25,
+    "edge_censored": false,
+    "max_elevation": 63.6,
+    "mean_elevation": 62.06399999999999,
+    "mean_relief": 119.83200000000001,
+    "mean_slope": 0.36912500000000004,
+    "member_hash": "22efac42bf0f8eb0f911995c21e86d34b2f2a6eef0a01e7393b6fdf7b712a033",
+    "min_elevation": 62.0,
+    "numeric_band_counts": {
+      "-1": 25
+    },
+    "numeric_component": 254,
+    "representative": [
+      1480,
+      -56
+    ],
+    "terrain_counts": {
+      "water": 25
+    },
+    "top_biomes": [
+      [
+        "minecraft:river",
+        14
+      ],
+      [
+        "terralith:highlands",
+        4
+      ],
+      [
+        "minecraft:plains",
+        4
+      ],
+      [
+        "terralith:moonlight_valley",
+        1
+      ],
+      [
+        "terralith:shield",
+        1
+      ]
+    ]
+  }
+]

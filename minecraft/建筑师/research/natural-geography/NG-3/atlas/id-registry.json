@@ -1,0 +1,337 @@
+{
+  "NFEAT-001": {
+    "geometry_signature": "f7324e664ad0da9e798ad6c227c38c1f336935a6a8b461aa740448fcf64ce8dc",
+    "stable_key": "feature:NG2:SITE-002",
+    "state": "PROPOSED"
+  },
+  "NFEAT-002": {
+    "geometry_signature": "fda246edb6d0d29db3b5e256ea4ac88a5454e7cb8511885b3cfeaa7b1075eeaf",
+    "stable_key": "feature:NG2:SITE-014",
+    "state": "PROPOSED"
+  },
+  "NFEAT-003": {
+    "geometry_signature": "e2a072a44ed7e3e3e1255ab069c32175e42e80353b16cbd61479292b111cd01c",
+    "stable_key": "feature:NG2:SITE-003",
+    "state": "PROPOSED"
+  },
+  "NFEAT-004": {
+    "geometry_signature": "0c27dc9aa5959a57c0a7abc0a2df7efc753e47516ab5d434f1dc49b60fce3ef9",
+    "stable_key": "feature:NG2:SITE-011",
+    "state": "PROPOSED"
+  },
+  "NGEO-001": {
+    "geometry_signature": "c724220e412c699316105eccf61851ba6bfb2ac71933007b20234c000c79c674",
+    "stable_key": "region:NGEO-C001",
+    "state": "PROPOSED"
+  },
+  "NGEO-002": {
+    "geometry_signature": "fcc96cdb726d01ce77bdb2243a7d69778f3bc1069426f3f5edb770f437ae41dc",
+    "stable_key": "region:NGEO-C002",
+    "state": "PROPOSED"
+  },
+  "NGEO-003": {
+    "geometry_signature": "de38cb633713ac0294d999bd528b0d61e7eee8a4c99f327fd0417e5420fa2fa5",
+    "stable_key": "region:NGEO-C003",
+    "state": "PROPOSED"
+  },
+  "NGEO-004": {
+    "geometry_signature": "2b5404b143b701a6ef094683003b281098eba24c1647ae9ea27da0f6281fcca3",
+    "stable_key": "region:NGEO-C004",
+    "state": "PROPOSED"
+  },
+  "NGEO-005": {
+    "geometry_signature": "3678c543a445449810954c586fa1b9d9be55d2cbc84473ad4bfeea7b7d03a8c1",
+    "stable_key": "region:NGEO-C005",
+    "state": "PROPOSED"
+  },
+  "NGEO-006": {
+    "geometry_signature": "cc2761449ca8a49613a04d310df2c5a4c774972efbfce846f6fd5495be3782ff",
+    "stable_key": "region:NGEO-C006",
+    "state": "PROPOSED"
+  },
+  "NGEO-007": {
+    "geometry_signature": "44f3422aeeba3a4933bd87ddb6cc0195bb1c4f0e9e02c393f5832eb8b209b342",
+    "stable_key": "region:NGEO-C007",
+    "state": "PROPOSED"
+  },
+  "NGEO-008": {
+    "geometry_signature": "8b9f6108e2d00370c74901422d2e599cf075e1f5aa7eea6cd517e61cbc064ff9",
+    "stable_key": "region:NGEO-C008",
+    "state": "PROPOSED"
+  },
+  "NGEO-009": {
+    "geometry_signature": "e2a072a44ed7e3e3e1255ab069c32175e42e80353b16cbd61479292b111cd01c",
+    "stable_key": "region:NGEO-C009",
+    "state": "PROPOSED"
+  },
+  "NGEO-010": {
+    "geometry_signature": "37491f402ea337e0856e23d8d94a3b43cccdaca04ea8349da53561c8835b2321",
+    "stable_key": "region:NGEO-C010",
+    "state": "PROPOSED"
+  },
+  "NGEO-011": {
+    "geometry_signature": "91b40a0a0991823f15f936e7174a30b0565323c54a8442e6916c8eef5bf6804f",
+    "stable_key": "region:NGEO-C011",
+    "state": "PROPOSED"
+  },
+  "NGEO-012": {
+    "geometry_signature": "e742d65871f04655d27a0cc6129d2823451247fbe4deed5046d85bceaadf8287",
+    "stable_key": "region:NGEO-C012",
+    "state": "PROPOSED"
+  },
+  "NGEO-013": {
+    "geometry_signature": "b11481a36f5873855c29b17af39e8e6dfb926d57eaa323ee6c0736b8ebad9b36",
+    "stable_key": "region:NGEO-C013",
+    "state": "PROPOSED"
+  },
+  "NGEO-014": {
+    "geometry_signature": "739ca83e17fc5301ff6482d24f9c7dfa87b7ddfac064ec38ad8b592602bcddd5",
+    "stable_key": "region:NGEO-C014",
+    "state": "PROPOSED"
+  },
+  "NGEO-015": {
+    "geometry_signature": "518fe23d74aa34dd7a7f9f5710b86d30013c1359c7e2d9d162dfa63708e7e084",
+    "stable_key": "region:NGEO-C015",
+    "state": "PROPOSED"
+  },
+  "NGEO-016": {
+    "geometry_signature": "8766be2323bcf8d0b1a3ee1b394cbfad0288615fb960e31d8e3ddf1030d75d51",
+    "stable_key": "region:NGEO-C016",
+    "state": "PROPOSED"
+  },
+  "NGEO-017": {
+    "geometry_signature": "589d5969eb0023558516e726fe420fe11960cef1342920985de1b7dec819e266",
+    "stable_key": "region:NGEO-C017",
+    "state": "PROPOSED"
+  },
+  "NGEO-018": {
+    "geometry_signature": "24c4078676fd303c8ec9294fd8757cc341942d553905bcf28b7d9fc7166673ae",
+    "stable_key": "region:NGEO-C018",
+    "state": "PROPOSED"
+  },
+  "NGEO-019": {
+    "geometry_signature": "302d5fb07c1746fc077d17899d64754d50b163a14dce94ed3776dd346c527fd8",
+    "stable_key": "region:NGEO-C019",
+    "state": "PROPOSED"
+  },
+  "NGEO-020": {
+    "geometry_signature": "62c60fe2f4a61ba06b66baa1f4d2dabc9591a79bb3913fa08c1e30633da97f11",
+    "stable_key": "region:NGEO-C020",
+    "state": "PROPOSED"
+  },
+  "NGEO-021": {
+    "geometry_signature": "7e2adf59917434265401b475a7d425d34f47ceab145be4ed902f661bae576114",
+    "stable_key": "region:NGEO-C021",
+    "state": "PROPOSED"
+  },
+  "NGEO-022": {
+    "geometry_signature": "63882684ac25faaefeb051dba618fd6a19855d095ac526f7efe38abf6a414999",
+    "stable_key": "region:NGEO-C022",
+    "state": "PROPOSED"
+  },
+  "NGEO-023": {
+    "geometry_signature": "a9848eb74091765b960238f64a6b6688117e179e813856f6d20f96141a1f0177",
+    "stable_key": "region:NGEO-C023",
+    "state": "PROPOSED"
+  },
+  "NGEO-024": {
+    "geometry_signature": "3f0bf521465661703f150cf79fd8f3cf2c1ebd1696330d597a94ec01675b707f",
+    "stable_key": "region:NGEO-C024",
+    "state": "PROPOSED"
+  },
+  "NGEO-025": {
+    "geometry_signature": "3e0e13db65a20b63ed5b1c944f5bb6b9a37c7e667c40827ad986d3f61e84cdbd",
+    "stable_key": "region:NGEO-C025",
+    "state": "PROPOSED"
+  },
+  "NGEO-026": {
+    "geometry_signature": "88bade0e9f5319948c968a1959c85197729f913dba78c8acefbbd85b1c504224",
+    "stable_key": "region:NGEO-C026",
+    "state": "PROPOSED"
+  },
+  "NGEO-027": {
+    "geometry_signature": "d4015af1b39e040eae6e6bf23e3058e3535f3d1c5dcca61b1e6a682a9138b300",
+    "stable_key": "region:NGEO-C027",
+    "state": "PROPOSED"
+  },
+  "NGEO-028": {
+    "geometry_signature": "381ceac23fb394f9b907b11ce113b8acad3e3b057629260a1584afd368b395e7",
+    "stable_key": "region:NGEO-C028",
+    "state": "PROPOSED"
+  },
+  "NGEO-029": {
+    "geometry_signature": "eae6ae319b6bd20ec6ab7169eef28cc1488d8ee21234f5bd0bbe374b8fc23c33",
+    "stable_key": "region:NGEO-C029",
+    "state": "PROPOSED"
+  },
+  "NGEO-030": {
+    "geometry_signature": "8e28bf2bc414b470e2e31c90ac1fb96cc9377075bd597e3e9222cef3a816096c",
+    "stable_key": "region:NGEO-C030",
+    "state": "PROPOSED"
+  },
+  "NGEO-031": {
+    "geometry_signature": "b124ab438cb5346045eaf07ae6ba98ecd3df4f336a3071df72a4da89ffeaf81d",
+    "stable_key": "region:NGEO-C031",
+    "state": "PROPOSED"
+  },
+  "NGEO-032": {
+    "geometry_signature": "cd831e69a5c9c779ca56d21e0fa1580c05c397516698613815b162008f07db0d",
+    "stable_key": "region:NGEO-C032",
+    "state": "PROPOSED"
+  },
+  "NGEO-033": {
+    "geometry_signature": "5e7b4e5f4727c5cb8b8a8faba3248e53e670da014e3c7d0de31cbc42bc20dd21",
+    "stable_key": "region:NGEO-C033",
+    "state": "PROPOSED"
+  },
+  "NGEO-034": {
+    "geometry_signature": "8ee33b134b1aac292c88688f732a73da5ef5784c70ebd2ba631f56466be42c43",
+    "stable_key": "region:NGEO-C034",
+    "state": "PROPOSED"
+  },
+  "NGEO-035": {
+    "geometry_signature": "d4eea6dd4657743d64483c7e6253475aac03886c732f6d23c7a1200ee8a3cee5",
+    "stable_key": "region:NGEO-C035",
+    "state": "PROPOSED"
+  },
+  "NHYD-001": {
+    "geometry_signature": "91b24c4ca0b538274564e79bf612d30db3d36e8ce8591fd621796d8f5685abcd",
+    "stable_key": "water:NHYD-C001",
+    "state": "PROPOSED"
+  },
+  "NHYD-002": {
+    "geometry_signature": "9d219cd336fc9a6f900d16b92c043695a48b6fdadbdb0142ef73c9c3595b02c1",
+    "stable_key": "water:NHYD-C002",
+    "state": "PROPOSED"
+  },
+  "NHYD-003": {
+    "geometry_signature": "0980b4ec0b4a593adfdcf59b648892060a6bb0d73845c02427893d58aa334b34",
+    "stable_key": "water:NHYD-C003",
+    "state": "PROPOSED"
+  },
+  "NHYD-004": {
+    "geometry_signature": "2a0c978c10feea46bae81981ce5b4cdeee20a0b8def28d487efc937340b6ee16",
+    "stable_key": "water:NHYD-C004",
+    "state": "PROPOSED"
+  },
+  "NHYD-005": {
+    "geometry_signature": "afc5411d5d3b4c70330499b2f120bf96f2de303b817044af95611018f966043e",
+    "stable_key": "water:NHYD-C005",
+    "state": "PROPOSED"
+  },
+  "NHYD-006": {
+    "geometry_signature": "669550dc50ddf9fadcc33235dcfad837b76b82fa8f7e4d1ad79792a695c75e43",
+    "stable_key": "water:NHYD-C006",
+    "state": "PROPOSED"
+  },
+  "NHYD-007": {
+    "geometry_signature": "74a9ef537e12e689cef77c4323de6d4f8d633e5931a3e95b1381f0a8ccd1a1cf",
+    "stable_key": "water:NHYD-C007",
+    "state": "PROPOSED"
+  },
+  "NHYD-008": {
+    "geometry_signature": "3942c6e3414828bd4fd4999011aeb7f70e3483de069690173fad8ef0c347e8ee",
+    "stable_key": "water:NHYD-C008",
+    "state": "PROPOSED"
+  },
+  "NHYD-009": {
+    "geometry_signature": "74dddeab91678022e0cf8beb11626e6d5e835ac725e1a7dfd82cdf6aabf33fa6",
+    "stable_key": "water:NHYD-C009",
+    "state": "PROPOSED"
+  },
+  "NHYD-010": {
+    "geometry_signature": "28f0aaf7d1f4d49e8995fdbb6efe435142ef8aac494a431529f03df8701728b5",
+    "stable_key": "water:NHYD-C010",
+    "state": "PROPOSED"
+  },
+  "NHYD-011": {
+    "geometry_signature": "e5d34fd1782a99e13783b515c74d18a87774843ca80d1b71c660e3b0795eb5e5",
+    "stable_key": "water:NHYD-C011",
+    "state": "PROPOSED"
+  },
+  "NHYD-012": {
+    "geometry_signature": "951e87d64c4d33c7331d87a2a31a341ebece3ecc4c0b3c99f9c4eb128b5c78e2",
+    "stable_key": "water:NHYD-C012",
+    "state": "PROPOSED"
+  },
+  "NHYD-013": {
+    "geometry_signature": "decd7918715b66244c6a7d722d91afec5c98e390b407951e7cffc18cd62497b7",
+    "stable_key": "water:NHYD-C013",
+    "state": "PROPOSED"
+  },
+  "NHYD-014": {
+    "geometry_signature": "497f84984be060b39554c414e68b95bead6a6e384ab0fcf4f94cbaca0ac94f74",
+    "stable_key": "water:NHYD-C014",
+    "state": "PROPOSED"
+  },
+  "NHYD-015": {
+    "geometry_signature": "0e75646f57737babda7a6b6c2a9764dee51bbb3c5bacb26238b47a795a747f55",
+    "stable_key": "water:NG2:SITE-019",
+    "state": "PROPOSED"
+  },
+  "NHYD-016": {
+    "geometry_signature": "7effc562dd92815eafe19bd0daf6c58149b907dc70926d6c42813d307033f2ef",
+    "stable_key": "water:NHYD-C016",
+    "state": "PROPOSED"
+  },
+  "NHYD-017": {
+    "geometry_signature": "4c62cebe529d1fe5b6dc954caff9ced5ba797d8d27372a678ca2b6b4d7b69f7c",
+    "stable_key": "water:NHYD-C017",
+    "state": "PROPOSED"
+  },
+  "NHYD-018": {
+    "geometry_signature": "bc97ea4235d0f19c8cbbbf5eb2781c0c841a9dde7671d052bc5e1880fe419d13",
+    "stable_key": "water:NHYD-C018",
+    "state": "PROPOSED"
+  },
+  "NHYD-019": {
+    "geometry_signature": "7a5b5c293eae24263a5a3aee7d50b3293ca0a5d1e17f2bd311db8d594a84d4d7",
+    "stable_key": "water:NG2:SITE-003",
+    "state": "PROPOSED"
+  },
+  "NHYD-020": {
+    "geometry_signature": "3f92b7df3a4347750576c9af67c0898672ce7bace4c68cb4b618834f609b26e6",
+    "stable_key": "water:NG2:SITE-011",
+    "state": "PROPOSED"
+  },
+  "NSITE-001": {
+    "geometry_signature": "c055c26b500c1c95e16e77bd0848973492a12f432e044f51bcbcbdb36543e2cc",
+    "stable_key": "site:NG2:SITE-002",
+    "state": "PROPOSED"
+  },
+  "NSITE-002": {
+    "geometry_signature": "5ef7247d9d22da3b9b49f813d3aea8c5cf1c0914a03724b89a8de874b7a1e932",
+    "stable_key": "site:NG2:SITE-005",
+    "state": "PROPOSED"
+  },
+  "NSITE-003": {
+    "geometry_signature": "cab6385026ec2dcee2533dc47a40184325ec00fea6a2f90a39c45f483af464da",
+    "stable_key": "site:NG2:SITE-015",
+    "state": "PROPOSED"
+  },
+  "NSITE-004": {
+    "geometry_signature": "48812ab31bb6a68f74b87db33ad9b0148be47fa85dd48529fee12dd26afa845b",
+    "stable_key": "site:NG2:SITE-014",
+    "state": "PROPOSED"
+  },
+  "NSITE-005": {
+    "geometry_signature": "2d58222c0d5337141835c67bb7d7a516b53b7f0e488504567e365564205560fb",
+    "stable_key": "site:NG2:SITE-017",
+    "state": "PROPOSED"
+  },
+  "NSITE-006": {
+    "geometry_signature": "4966eee9a5b11ebdac61958a1c41c0ceac7a95f810ae5eb4d9909250bd0a5a20",
+    "stable_key": "site:NG2:SITE-019",
+    "state": "PROPOSED"
+  },
+  "NSITE-007": {
+    "geometry_signature": "97335c7981aeaa1d419f98f45b6355941d51809c214531264c911ba733d35048",
+    "stable_key": "site:NG2:SITE-003",
+    "state": "PROPOSED"
+  },
+  "NSITE-008": {
+    "geometry_signature": "0c27dc9aa5959a57c0a7abc0a2df7efc753e47516ab5d434f1dc49b60fce3ef9",
+    "stable_key": "site:NG2:SITE-011",
+    "state": "PROPOSED"
+  }
+}

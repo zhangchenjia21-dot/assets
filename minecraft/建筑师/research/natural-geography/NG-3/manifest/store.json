@@ -1,0 +1,6 @@
+{
+  "compression": "none; directly queryable, no archive round-trip required",
+  "path": "raw-or-queryable/atlas.sqlite",
+  "sha256": "5b72d29ac110aab9f5894b3380ed006b70e904dcf73dd174f1ae39310a5291fd",
+  "size": 5664768
+}

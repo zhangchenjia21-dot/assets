@@ -1,0 +1,761 @@
+{
+  "NG-2": {
+    ".gitignore": {
+      "mtime_ns": 1788931806051198700,
+      "sha256": "ecbc852945468f53196bfbcf4d3d1292f654ef1480abd23589ebab92ecd1abc6",
+      "size": 105
+    },
+    "README.md": {
+      "mtime_ns": 1788932706923446300,
+      "sha256": "7bbd86cb001f7a69a3888e7dfe164e9528ff381dfecffcc948d1e7f6f3097fc0",
+      "size": 8324
+    },
+    "assessments/SITE-002-metrics.json": {
+      "mtime_ns": 1788931849148103800,
+      "sha256": "c8a1b3e637d3f609be0f0cdcc0f45535fa111e524b46a084d4c26e761d6d102d",
+      "size": 132224
+    },
+    "assessments/SITE-002.json": {
+      "mtime_ns": 1788932338326439200,
+      "sha256": "3c71e110db977bd3a51216c82b91c65f22322174e5fb307dc2fd4a043d4cd33b",
+      "size": 12730
+    },
+    "assessments/SITE-003-metrics.json": {
+      "mtime_ns": 1788931915793408900,
+      "sha256": "c4f6da2ba3c8484ac614646c6c5307f03ec4bff56290a4dcd7c59cf7243a8231",
+      "size": 10162
+    },
+    "assessments/SITE-003.json": {
+      "mtime_ns": 1788932337927598200,
+      "sha256": "1b19df0a4eb23b68f89efe7914ef719f66a3bea29db9c9cf37430d31e3bfed41",
+      "size": 10128
+    },
+    "assessments/SITE-005-metrics.json": {
+      "mtime_ns": 1788931849820667300,
+      "sha256": "828ef2d6242390fada7814c2d270325ecd3a608e1e95891d3eb0bbefa2bdf2bc",
+      "size": 5449
+    },
+    "assessments/SITE-005.json": {
+      "mtime_ns": 1788932338348466700,
+      "sha256": "d4f828f95955d706bdeb2cbb5f397128d41bff390cbb126b498cec92eb305645",
+      "size": 9316
+    },
+    "assessments/SITE-011-metrics.json": {
+      "mtime_ns": 1788931931226356500,
+      "sha256": "73f8c471b314b1b134768619d9d4cf9b01aa9e9f19983a082079d6b67bb814bb",
+      "size": 11131
+    },
+    "assessments/SITE-011.json": {
+      "mtime_ns": 1788932338275903900,
+      "sha256": "01db8623a6258a925deef35db585a439dea642bba72886ca2ff53f3029b0d885",
+      "size": 14515
+    },
+    "assessments/SITE-014-metrics.json": {
+      "mtime_ns": 1788931851162610000,
+      "sha256": "948229abaccbec635d4741e6045325428c92dc878fdb87bf863aa19b1e322e65",
+      "size": 5943
+    },
+    "assessments/SITE-014.json": {
+      "mtime_ns": 1788932337277863700,
+      "sha256": "38f94d381776e1112627180b9cbc7ef13934163fc6beb6fefc6dc5d3831d3f67",
+      "size": 8032
+    },
+    "assessments/SITE-015-metrics.json": {
+      "mtime_ns": 1788931850658541100,
+      "sha256": "2fe8794fc9af2e97543f9a3923639c15100594680bac9da051823778d22fffe6",
+      "size": 6834
+    },
+    "assessments/SITE-015.json": {
+      "mtime_ns": 1788932337258736700,
+      "sha256": "fc972e2f573d51f84a3e1870461a42dcc6ca5414e9efd5a44c16a6f1fe678fd0",
+      "size": 7582
+    },
+    "assessments/SITE-017-metrics.json": {
+      "mtime_ns": 1788931854331060200,
+      "sha256": "ba6470b180a38904f825d580f6011c0c1692f374ba75292a7cbab69ee75e1b93",
+      "size": 17525
+    },
+    "assessments/SITE-017.json": {
+      "mtime_ns": 1788932337351640800,
+      "sha256": "2521bdff5264f918c2a614f325cfb3b6884f11d0176b3e33aec3f3270277582f",
+      "size": 9076
+    },
+    "assessments/SITE-019-metrics.json": {
+      "mtime_ns": 1788931889693803200,
+      "sha256": "5c3e805e5273d6d6da4fa11a5ca993d13d47f98eaf9303eec2b73ee24517610e",
+      "size": 31218
+    },
+    "assessments/SITE-019.json": {
+      "mtime_ns": 1788932339130097300,
+      "sha256": "a2e1c98d5dc9017597b9db868db121e00767d1c3440cf0e1d4f7c861496d97f0",
+      "size": 13269
+    },
+    "assessments/interpretations.json": {
+      "mtime_ns": 1788932110313420200,
+      "sha256": "a355b19d7169324708f787e54d77139c12f938c59fd73c9a79ccb5b83c18a9d0",
+      "size": 7140
+    },
+    "manifest/SITE-002-adaptive-patches.json": {
+      "mtime_ns": 1788931420596372100,
+      "sha256": "743b59fefc1a0d338b5e72ba612c6a4ec2f25ac41708ee69d2895852e0e0a729",
+      "size": 117828
+    },
+    "manifest/SITE-003-adaptive-patches.json": {
+      "mtime_ns": 1788930949165394200,
+      "sha256": "126020d6e9e1a272679fa35467daca2f6fd20340216cf4f3b41121d06814dce2",
+      "size": 43213
+    },
+    "manifest/SITE-005-adaptive-patches.json": {
+      "mtime_ns": 1788931530009733900,
+      "sha256": "1627c4357cbd959649c8cac308ec68f6682786e90ba18984798d303516c273b9",
+      "size": 55993
+    },
+    "manifest/SITE-011-adaptive-patches.json": {
+      "mtime_ns": 1788931075862898200,
+      "sha256": "4f47557ea3a7ac06625c081e178faaf55f792fc7c9736fc0146b931862dddb99",
+      "size": 34938
+    },
+    "manifest/SITE-014-adaptive-patches.json": {
+      "mtime_ns": 1788930177586974400,
+      "sha256": "bfd8677104a99e28340338684e63d9b4fd260dafa6932efeee07ce1199c6bb72",
+      "size": 43069
+    },
+    "manifest/SITE-015-adaptive-patches.json": {
+      "mtime_ns": 1788930130676080700,
+      "sha256": "ed5eadd51b1d1562f7378b4f2ba29e00423d677d69c20a3c99a2a8b347a9d008",
+      "size": 40934
+    },
+    "manifest/SITE-017-adaptive-patches.json": {
+      "mtime_ns": 1788930567397951700,
+      "sha256": "b64ddddad48427c63afa5cef78a6965c9b61cab89f6a894e0c5f8d50e1e01a7a",
+      "size": 309257
+    },
+    "manifest/SITE-019-adaptive-patches.json": {
+      "mtime_ns": 1788931741894237900,
+      "sha256": "3f0e90a693f62947c72066986b185783f3d8cf30bab0c09b2eea60aaaabc8255",
+      "size": 121172
+    },
+    "manifest/archive.json": {
+      "mtime_ns": 1788932469332499700,
+      "sha256": "3682b09b4ea579d338e0ca6ffc8d1e224969675b50adbb37a8898dcfe27e9c08",
+      "size": 806
+    },
+    "manifest/roi-plan.json": {
+      "mtime_ns": 1788931344302247500,
+      "sha256": "2d9574aa942a7006c5d77997a2788c1187729020ef9309fdcb3d432ced623d34",
+      "size": 1907
+    },
+    "manifest/survey.json": {
+      "mtime_ns": 1788932368933384300,
+      "sha256": "8448176f40b6d080b511f21705e150079771d42085cf648c8a4945e884775f25",
+      "size": 7029
+    },
+    "manifest/v1-after.json": {
+      "mtime_ns": 1788931787921590200,
+      "sha256": "b4d12cffe2752de71a2eb5b774c4713c7775d61270f3e16c45ed37f1f9ba9408",
+      "size": 8612
+    },
+    "manifest/v1-before.json": {
+      "mtime_ns": 1788931351202730000,
+      "sha256": "b4d12cffe2752de71a2eb5b774c4713c7775d61270f3e16c45ed37f1f9ba9408",
+      "size": 8612
+    },
+    "manifest/world-after.json": {
+      "mtime_ns": 1788931787920588700,
+      "sha256": "af6d18880cf2975f77e5cdf7258ecd9843cf798366cd2b16d2f0926bb31f6854",
+      "size": 302143
+    },
+    "manifest/world-before.json": {
+      "mtime_ns": 1788931351148488600,
+      "sha256": "af6d18880cf2975f77e5cdf7258ecd9843cf798366cd2b16d2f0926bb31f6854",
+      "size": 302143
+    },
+    "profiles/SITE-002.json": {
+      "mtime_ns": 1788931807280639800,
+      "sha256": "4e1ebd22fb90a1c7dee9b525a6bd1ecbee322eaa724d281bcea938bdd694e522",
+      "size": 507451
+    },
+    "profiles/SITE-003.json": {
+      "mtime_ns": 1788931807579117800,
+      "sha256": "8c722d8b4c2d97fba772926987a05fea41bbaf12a6ca7aa6a5bca48233c09a04",
+      "size": 672871
+    },
+    "profiles/SITE-005.json": {
+      "mtime_ns": 1788931807317752500,
+      "sha256": "f2427f43be4b3f0edf6136d4c49648a6ffef7072541e456c7a198a061db3a057",
+      "size": 522164
+    },
+    "profiles/SITE-011.json": {
+      "mtime_ns": 1788931807620069200,
+      "sha256": "48718a2e8460c21381b08afb7287c8393dd4c523abe3cc2719ac149e4052e638",
+      "size": 516022
+    },
+    "profiles/SITE-014.json": {
+      "mtime_ns": 1788931807394594600,
+      "sha256": "622ae4e8d2bdd34fa9157f18478c67c0fee20943bbb345758b6f2b2552e29f3a",
+      "size": 430178
+    },
+    "profiles/SITE-015.json": {
+      "mtime_ns": 1788931807362970600,
+      "sha256": "c9cfb76e136d20c62d815fc56224cd148a2ab189cf512a3c8a0b2583ca75a920",
+      "size": 663431
+    },
+    "profiles/SITE-017.json": {
+      "mtime_ns": 1788931807471897000,
+      "sha256": "ed6b23c2221f5684cb8c33dc61a2e0d6e93b907e8a17ec11e47641bd856f3dec",
+      "size": 913577
+    },
+    "profiles/SITE-019.json": {
+      "mtime_ns": 1788931807526448400,
+      "sha256": "d39b20f6746a5dea23a3f6c5e58ddd47d7c2b09db55985f5ccc124c149b498ec",
+      "size": 712846
+    },
+    "raw-or-queryable/SCHEMA.md": {
+      "mtime_ns": 1788931751974313000,
+      "sha256": "d1bfa8cfebeedbf75802bcbaa75cf054e2a3de79b669a3b2ae4bf429745c5139",
+      "size": 3971
+    },
+    "raw-or-queryable/SITE-002-critical1.npz": {
+      "mtime_ns": 1788931423233488700,
+      "sha256": "03bab5880ab706f5dbda3a2667cbd776a405f8aef6af903c687c2391b5bb5ea7",
+      "size": 84650
+    },
+    "raw-or-queryable/SITE-002-grid8.npz": {
+      "mtime_ns": 1788931848600004600,
+      "sha256": "d938ae651041e0b3fb1cf208237780b98d06e89799ff554ef0d7536ffb2f70d5",
+      "size": 55838
+    },
+    "raw-or-queryable/SITE-003-grid8.npz": {
+      "mtime_ns": 1788931894130043100,
+      "sha256": "aae97db7d0ca4c3f62a25f84091c3dcd0c7a2aeb5397ca9c357444e95ef47274",
+      "size": 36675
+    },
+    "raw-or-queryable/SITE-003-topology1.npz": {
+      "mtime_ns": 1788931910885281900,
+      "sha256": "09bf63b4f55d39670a58ee984fab24f7e745bd4e7eeda7ac359e3cac03783c52",
+      "size": 561980
+    },
+    "raw-or-queryable/SITE-005-grid8.npz": {
+      "mtime_ns": 1788931849644655700,
+      "sha256": "92d1a0ae0d746c76d2fb40980f9b9979151171e18fbfdc1534ffa0f0525b35ea",
+      "size": 48268
+    },
+    "raw-or-queryable/SITE-011-grid8.npz": {
+      "mtime_ns": 1788931918426456900,
+      "sha256": "37c3338803d8daf492c3fdf3da12635816156f8bd36ecb23276fc6cd59888a1d",
+      "size": 26103
+    },
+    "raw-or-queryable/SITE-011-topology1.npz": {
+      "mtime_ns": 1788931928468858700,
+      "sha256": "177e16560e93359c3c4ca0ce374fd8a4372e1dfa454ed6762cf13c1bd58fac5c",
+      "size": 454564
+    },
+    "raw-or-queryable/SITE-014-grid8.npz": {
+      "mtime_ns": 1788931851015678000,
+      "sha256": "e96f9d3446bd7b0bbcfde9c58d40ef3d6ddd86b3af4c6c49773c7fefb2ce9eb1",
+      "size": 26608
+    },
+    "raw-or-queryable/SITE-015-grid8.npz": {
+      "mtime_ns": 1788931850457257000,
+      "sha256": "1c4d5faada5c296bbeaf94752efeffffd366755d6e6432a527f655f73deb1807",
+      "size": 40023
+    },
+    "raw-or-queryable/SITE-017-grid8.npz": {
+      "mtime_ns": 1788931853176721900,
+      "sha256": "ac997392ed7df3b06bbe677229a901ab2c5ccc9a3e6e5a33950632df71ebd78a",
+      "size": 139960
+    },
+    "raw-or-queryable/SITE-019-grid8.npz": {
+      "mtime_ns": 1788931860514133400,
+      "sha256": "9d24148be3ef43e797a54ee3c85a3214d4620231259e9a2612656369baebb3ae",
+      "size": 74166
+    },
+    "raw-or-queryable/SITE-019-topology1.npz": {
+      "mtime_ns": 1788931883150678200,
+      "sha256": "d2781815a94a04e3717367e567d3af5296050b32f58e428d28c68d95fff1e145",
+      "size": 1268492
+    },
+    "raw-or-queryable/refinement.sqlite": {
+      "mtime_ns": 1788932427466235200,
+      "sha256": "4b4067e74c98060c12eaeafeda257c1b061181451cc9e4b545f2d39278df7756",
+      "size": 663031808
+    },
+    "raw-or-queryable/refinement.sqlite.gz.part001": {
+      "mtime_ns": 1788932468179503200,
+      "sha256": "d8d39121a5ee3f896430cd22f00dc6514db5f22df3b68e2ee860e564111b347f",
+      "size": 67108864
+    },
+    "raw-or-queryable/refinement.sqlite.gz.part002": {
+      "mtime_ns": 1788932468320594000,
+      "sha256": "5af3a5442444ee2ae32f06531a2ac1b2c0d6476b78b09849c846c982d74d00e3",
+      "size": 67108864
+    },
+    "raw-or-queryable/refinement.sqlite.gz.part003": {
+      "mtime_ns": 1788932468426458400,
+      "sha256": "4f53b4b6a68760b06757fdc17985bce22e39e984ab8d036841b6cf6feb62bf74",
+      "size": 26692900
+    },
+    "tooling/Bootstrap/交付检查.py": {
+      "mtime_ns": 1788932782100312300,
+      "sha256": "874b9bf7d2a4dab82d30968bdfc88c208e724033259b1799b3ff5e1d1dbb5f6f",
+      "size": 3739
+    },
+    "tooling/Bootstrap/归档命令.py": {
+      "mtime_ns": 1788931803026851200,
+      "sha256": "8f960d57edbd04f3cfd5171f0c390f516192324f75cfa5444761f8681b19d3e0",
+      "size": 2635
+    },
+    "tooling/Bootstrap/材料来源取证.py": {
+      "mtime_ns": 1788931680389325700,
+      "sha256": "8f541efa95d7739f7968bd3e628513efa5d387940c22a7c5d30c6c86e290f34b",
+      "size": 2017
+    },
+    "tooling/Bootstrap/精查命令.py": {
+      "mtime_ns": 1788932335011428500,
+      "sha256": "6085646c9493f887433cce4e367837545f4770fa67e81bef4d645b441460886a",
+      "size": 1007
+    },
+    "tooling/L0_公理层/精查契约.py": {
+      "mtime_ns": 1788929657770588200,
+      "sha256": "9f23523ee0564704644329d85159c7fe0e60b9d781f4f28a30292ed012b9b99f",
+      "size": 2848
+    },
+    "tooling/L1_器件层/区块柱读取器.py": {
+      "mtime_ns": 1788930751849050000,
+      "sha256": "ecc4766384c146f632653f10672b9952f0f3e9b22dde3ab156e090ca8f0345c9",
+      "size": 8040
+    },
+    "tooling/L1_器件层/局部图生成器.py": {
+      "mtime_ns": 1788932422192211600,
+      "sha256": "9d555e82c1f1c25bee02b5a44aeb1baad75d18aa9f3c39f384668570fcfbcaea",
+      "size": 8686
+    },
+    "tooling/L1_器件层/局部指标计算器.py": {
+      "mtime_ns": 1788931571332118900,
+      "sha256": "cd84b576d207309af8883abef3f11d2dce1c5de715e022c2a3f76ff09fbf00fa",
+      "size": 12116
+    },
+    "tooling/L1_器件层/源文件保护器.py": {
+      "mtime_ns": 1788929461164344700,
+      "sha256": "afde31520653b2dcc37655b6a98930670e344047bb5eea094fb79652b07c48ad",
+      "size": 1624
+    },
+    "tooling/L2_流程层/交付整理流程.py": {
+      "mtime_ns": 1788932328986023600,
+      "sha256": "b1553bd8c470458443852c251f2e9d0add3a3c5b2f8dbc363f967ee9ab73f799",
+      "size": 9746
+    },
+    "tooling/L2_流程层/局部精查流程.py": {
+      "mtime_ns": 1788932425215562800,
+      "sha256": "26de87949c0f687e6c40a4418a1ea7c6f4784d95e1087ad25cfceb3f3db257fe",
+      "size": 13179
+    },
+    "tooling/L2_流程层/派生证据流程.py": {
+      "mtime_ns": 1788931466111555300,
+      "sha256": "a0e4cb47a73650732dfff66c8fa5a6cb64d76230035e746d7693be0e2fa3453b",
+      "size": 4424
+    },
+    "tooling/L3_外交层/精查公开接口.py": {
+      "mtime_ns": 1788932332002718300,
+      "sha256": "f520ee54091b35910025b794146927d4d430d32f3304be552e45570881d04da6",
+      "size": 1297
+    },
+    "tooling/requirements.txt": {
+      "mtime_ns": 1788932713941869600,
+      "sha256": "e82a5200913f0b9a9d539d76d28656936d7fd751b7e41d52e9565ca7aeef668d",
+      "size": 42
+    },
+    "tooling/测试/精查解码拓扑测试.py": {
+      "mtime_ns": 1788931574443350100,
+      "sha256": "c445b09cf2e9e920861558592932ea6d78a350831eaa95466124f8de7a201761",
+      "size": 1993
+    },
+    "validation/archive-roundtrip.json": {
+      "mtime_ns": 1788932494379234100,
+      "sha256": "f7244ed62b6b5db8793c78cdf809d35be007ec7f7acb08908601e88af693b26d",
+      "size": 173
+    },
+    "validation/column-crosschecks.json": {
+      "mtime_ns": 1788931982931752800,
+      "sha256": "59c3e78c8e36fb584a1b43daf6a06d21fba7131b39b8a725bcfeee73c591cc0d",
+      "size": 73461
+    },
+    "validation/database.json": {
+      "mtime_ns": 1788931807238837000,
+      "sha256": "2f253192aaec6d9693d30e6675430ad4d3bbd185f99d4e35833e626d178194dd",
+      "size": 100
+    },
+    "validation/delivery-checks.json": {
+      "mtime_ns": 1788932368923384900,
+      "sha256": "76ca80fcb6274f9d0d14550aa92402e411eb165a54c1a18029ce35fb44359d99",
+      "size": 2076
+    },
+    "validation/final-read-audit.json": {
+      "mtime_ns": 1788931990528233300,
+      "sha256": "a4408cafdc686b3fcdae13f72db7e731e8aaae2423c77bffeaf6bd2761e0f7b6",
+      "size": 145
+    },
+    "validation/runtime-and-scope.json": {
+      "mtime_ns": 1788932785647053200,
+      "sha256": "ec19599c91e424448dd0e0435450b285203af9391aaa8b2686d7d0bd92bf5f66",
+      "size": 6694
+    },
+    "validation/world-write-audit.json": {
+      "mtime_ns": 1788931787922589700,
+      "sha256": "2044a3a7fb2a10b320eb0dca0dffc0d0338938765e46a4a0be84682576b3e24f",
+      "size": 378
+    },
+    "validation/worldgen-material-context.json": {
+      "mtime_ns": 1788931682559896600,
+      "sha256": "ea30b81242f556a4476fe07f984d93c3a87d2c73ecd4c135bb24ea6528a9c8dd",
+      "size": 16875
+    },
+    "visual/SITE-002-context.png": {
+      "mtime_ns": 1788932427592138400,
+      "sha256": "55da3a304d5776a4a15fb89315d4ea6b9ead46b1ce6a3229fda50d0a00cee946",
+      "size": 85473
+    },
+    "visual/SITE-002-critical-contours.png": {
+      "mtime_ns": 1788932429202169800,
+      "sha256": "e79aed2eef653c0c58ce37ef3f3d4fc835f690105a39766a0d77d8dd826e249f",
+      "size": 103120
+    },
+    "visual/SITE-002-slope-boundary.png": {
+      "mtime_ns": 1788932428818739400,
+      "sha256": "655c4c36e9c81d62a96ecb06b268b12febe473b84f07077ee7b436da4f2fe32c",
+      "size": 40458
+    },
+    "visual/SITE-003-context.png": {
+      "mtime_ns": 1788932428380839100,
+      "sha256": "575146b00f2ad524053e7ca655fc233ab80c4c1a816c84d4fd55ed00ca0cf567",
+      "size": 66336
+    },
+    "visual/SITE-003-slope-boundary.png": {
+      "mtime_ns": 1788932429094056600,
+      "sha256": "ad918a0bb74c188bba9217ca9da9ea9f6bc34030904c4050fdb216c5ddd03304",
+      "size": 46250
+    },
+    "visual/SITE-003-water-topology.png": {
+      "mtime_ns": 1788932428480690300,
+      "sha256": "2335404a04ca4e2aeface24e66ea1d0ff8e807df3d2637aa8cf812f4d7733e4b",
+      "size": 38357
+    },
+    "visual/SITE-005-context.png": {
+      "mtime_ns": 1788932427703129600,
+      "sha256": "a91e46a77cd64b3ad0a49f9512142444646f7643b40e11c27e1a25e786d7940f",
+      "size": 74776
+    },
+    "visual/SITE-005-slope-boundary.png": {
+      "mtime_ns": 1788932428862908200,
+      "sha256": "979b6fefb190f3f8a741b8d7a7bcb3828f819162b2670d6577e0cca4c731ed9b",
+      "size": 54366
+    },
+    "visual/SITE-011-context.png": {
+      "mtime_ns": 1788932428590954700,
+      "sha256": "b14ea091f274c42e5cab22708dd0a2f7641e45988f9718b794b2b4bb051bb660",
+      "size": 60980
+    },
+    "visual/SITE-011-slope-boundary.png": {
+      "mtime_ns": 1788932429139564300,
+      "sha256": "dfaa6662b6c82cd6063957c3f98ed25a6570a6f378b62a57dac6de198cfc07ec",
+      "size": 41358
+    },
+    "visual/SITE-011-water-topology.png": {
+      "mtime_ns": 1788932428679446300,
+      "sha256": "4c43c3271d1907fd45f78e44e26e50409c69d0b3a0bf4f8ce1ed412589b049f0",
+      "size": 45695
+    },
+    "visual/SITE-014-context.png": {
+      "mtime_ns": 1788932427913188100,
+      "sha256": "fb6d6b0999234032c1c8d435b3475e5cfed8ea38a14f9c0c216e5b784c832dc0",
+      "size": 70020
+    },
+    "visual/SITE-014-slope-boundary.png": {
+      "mtime_ns": 1788932428955735300,
+      "sha256": "e485fbadfeff005e097b6aa06f1337c1c48c25ecc3b9b4e53ade409189502ae4",
+      "size": 45346
+    },
+    "visual/SITE-015-context.png": {
+      "mtime_ns": 1788932427807946500,
+      "sha256": "dbb8978d2e107ce1f9ab96de6ec65f17b274bf479c662b402309707e83ed66e6",
+      "size": 69631
+    },
+    "visual/SITE-015-slope-boundary.png": {
+      "mtime_ns": 1788932428908544900,
+      "sha256": "12cf8321ed2c66c50a49223f792ba90e056684dae2ea9cdc2ff5b3c6830493a7",
+      "size": 52318
+    },
+    "visual/SITE-017-context.png": {
+      "mtime_ns": 1788932428040999000,
+      "sha256": "800988ee589114832ec5d95108d87c89122a65e734d8f5e9066faaa460f25402",
+      "size": 106843
+    },
+    "visual/SITE-017-slope-boundary.png": {
+      "mtime_ns": 1788932429002181000,
+      "sha256": "b3c65d59aefa315897449055f156239b0debf3c75e59f23949e9ba37e93fc81f",
+      "size": 104474
+    },
+    "visual/SITE-019-context.png": {
+      "mtime_ns": 1788932428160050200,
+      "sha256": "036e68428ec187748a64ed961876045508dbd9e9c97d06c1d7f6bbd2d48f34b3",
+      "size": 88292
+    },
+    "visual/SITE-019-slope-boundary.png": {
+      "mtime_ns": 1788932429045716700,
+      "sha256": "610bf0d3cbb78a6cca450bd72e963c30a29b77d553977d2ca9289ce1c8d1cb6a",
+      "size": 64831
+    },
+    "visual/SITE-019-water-topology.png": {
+      "mtime_ns": 1788932428273878700,
+      "sha256": "bf012ec4a516f83a3fad22ead39cd63327666f3f107b0bbba5bac46cbd3b4dc8",
+      "size": 44795
+    },
+    "visual/eight-target-comparison.png": {
+      "mtime_ns": 1788932428768110000,
+      "sha256": "ff47b21c9cbfc03beb55ca629a9a7abe86a7fa9e7a806e615e74f207184bfaa6",
+      "size": 653777
+    },
+    "独立审核.md": {
+      "mtime_ns": 1788935512753656900,
+      "sha256": "50374ed4612af57e483c3bd7d0bc98b314b06e83da9bc24999f9bf31b3f4e6a8",
+      "size": 8103
+    }
+  },
+  "V1": {
+    "README.md": {
+      "mtime_ns": 1788929122231609500,
+      "sha256": "01ad47a11e276fdbb73b30ac4dcddabdde7de7434a952c5d5575febd60c97922",
+      "size": 1177
+    },
+    "packaging/requirements.txt": {
+      "mtime_ns": 1788929122231609500,
+      "sha256": "6b026dce9bba3526133a9a8fc73eb9bf3ed1a11d1b207085763730f558d27b53",
+      "size": 42
+    },
+    "packaging/发布归档.json": {
+      "mtime_ns": 1788929122231609500,
+      "sha256": "76965b831b597119dbfe900d3e96e285ceecb60aebf2a4996f277e19e75ebe22",
+      "size": 7295
+    },
+    "packaging/调查成果归档.py": {
+      "mtime_ns": 1788929122233040000,
+      "sha256": "438578fb212263289ef3af78256e8bcbaeef350fc4d09e77e158bb0eb4bae309",
+      "size": 2765
+    },
+    "survey/README.md": {
+      "mtime_ns": 1788929122233040000,
+      "sha256": "b9905bc40f53e5caceea3b24f1ba8ecff3bfb68b43d4be93d9691f6141cd8d3f",
+      "size": 5922
+    },
+    "survey/atlas/FEAT.jsonl": {
+      "mtime_ns": 1788929122236046200,
+      "sha256": "c94266aca45407089b62c343076d8fbb711b9a6774ef27364fa5a362fc87cd3d",
+      "size": 1065791
+    },
+    "survey/atlas/GEO.jsonl": {
+      "mtime_ns": 1788929122239047600,
+      "sha256": "abc17fecc99f3ed868a682d46d754ab6dcc96c3c14fd5423c41db1e6ef53cc58",
+      "size": 1004132
+    },
+    "survey/atlas/HYD.jsonl": {
+      "mtime_ns": 1788929122240047500,
+      "sha256": "79669d2d9e9025c75bc3d6143655fc7556d15c1066093a960b613285384cba2b",
+      "size": 348929
+    },
+    "survey/atlas/adjacency.jsonl": {
+      "mtime_ns": 1788929122241045600,
+      "sha256": "0eb739303a4fe794b5463a35768c24944c69faafc847b16f89c1159132b2f12f",
+      "size": 156629
+    },
+    "survey/atlas/detector-assessment.json": {
+      "mtime_ns": 1788929122242046700,
+      "sha256": "10bc23e70a9f47d654a531bb089ba303cb92edfffc1ad218327d39ae040718b7",
+      "size": 52072
+    },
+    "survey/manifest/coverage.json": {
+      "mtime_ns": 1788929122242046700,
+      "sha256": "88e68904029f8b2513e1c13e3704c841698b6f5f240162f46febafe7822b53df",
+      "size": 2949
+    },
+    "survey/manifest/schema.json": {
+      "mtime_ns": 1788929122242046700,
+      "sha256": "e458bc42eb14f6b135975d4c80ae29d4fc03b1221ca62a83965b7a969fabd31b",
+      "size": 3848
+    },
+    "survey/manifest/source-after.json": {
+      "mtime_ns": 1788929122244633600,
+      "sha256": "b2317e91513e021b3d439402791dec3f00877e949acfca7364579f9e56c9d5af",
+      "size": 309763
+    },
+    "survey/manifest/source-before.json": {
+      "mtime_ns": 1788929122245640600,
+      "sha256": "b2317e91513e021b3d439402791dec3f00877e949acfca7364579f9e56c9d5af",
+      "size": 309763
+    },
+    "survey/manifest/survey.json": {
+      "mtime_ns": 1788929122246640400,
+      "sha256": "7f99fa9583c7a3719b981f61074a6b6f4bb578f21b82aae61ae94c5c2cb8827c",
+      "size": 5824
+    },
+    "survey/manifest/toolchain.json": {
+      "mtime_ns": 1788929122246640400,
+      "sha256": "2cc914db96e2dcf2c6a7c365e5f04a3af7da291ade77aadab8ba168c24622e49",
+      "size": 1726
+    },
+    "survey/manifest/write-audit.json": {
+      "mtime_ns": 1788929122246640400,
+      "sha256": "0542eb90384e239a50763ed7117bb009f4942f6cc3c71af0b257eb0875c2bced",
+      "size": 315
+    },
+    "survey/raw/geography.sqlite.gz": {
+      "mtime_ns": 1788929122348219800,
+      "sha256": "fd98df47de4067dbed9785723681a3f82f81ec3649696bbcd99b258f43f99923",
+      "size": 20611191
+    },
+    "survey/reports/database-validation.json": {
+      "mtime_ns": 1788929122352323500,
+      "sha256": "d26decd4cbf11400ead9e327c254b26f22cb8b580e7072060bcc219ea5a4672c",
+      "size": 98
+    },
+    "survey/reports/delivery-validation.json": {
+      "mtime_ns": 1788929122353322600,
+      "sha256": "a6c8df323ba7dc64f7f15c40c56d4c6a3b112bbc557c2c516bdb633bc994ed9c",
+      "size": 17405
+    },
+    "survey/reports/incremental-baseline.json": {
+      "mtime_ns": 1788929122353322600,
+      "sha256": "6965b268c913e61998b191a5f1ee69648e1e60a1b1dec4f07fa591a849652093",
+      "size": 282
+    },
+    "survey/reports/incremental-validation.json": {
+      "mtime_ns": 1788929122354323100,
+      "sha256": "fd851d84d306fcd022bd021a857dbc6676a145bc467d20b56c5a78daadaa2820",
+      "size": 737
+    },
+    "survey/reports/map-legends.json": {
+      "mtime_ns": 1788929122354323100,
+      "sha256": "18a5a17f7b08cad0e1cc25972127592d8102b5dc8ca0256a4a278e871da03916",
+      "size": 7191
+    },
+    "survey/reports/sample-validation.json": {
+      "mtime_ns": 1788929122355322200,
+      "sha256": "d14c07ab83f0ef829f136af45b6264a074df80bd9206afedf06b6de0be72cdbe",
+      "size": 14427
+    },
+    "survey/reports/summary.md": {
+      "mtime_ns": 1788929122355322200,
+      "sha256": "10c5cc28bf111d98e8fa8c22893712ea7abe6e69aa1c959016f44cf9b601901b",
+      "size": 4208
+    },
+    "survey/reports/visual-review.json": {
+      "mtime_ns": 1788929122355322200,
+      "sha256": "b1bb4051e10b9f0439172f6a4006a5eaed3e82e239b2dd8b19797cc357c23c5b",
+      "size": 1538
+    },
+    "survey/scripts/Bootstrap/调查命令.py": {
+      "mtime_ns": 1788929122356322600,
+      "sha256": "ee3fd47385125a118f1d41893e93eac31762336acfc85b57b110820f0f61a40a",
+      "size": 731
+    },
+    "survey/scripts/L0_公理层/地理契约.py": {
+      "mtime_ns": 1788929122357322300,
+      "sha256": "c573a87a1420c073a9f03bc1f20cb2e50e47985e760330e4d2e1179eb556e57a",
+      "size": 951
+    },
+    "survey/scripts/L1_器件层/区块状态读取器.py": {
+      "mtime_ns": 1788929122357322300,
+      "sha256": "ce785cee673787a30767dbe91439d7a3adbb9a2faa65da38c3343717cb71e8ec",
+      "size": 2494
+    },
+    "survey/scripts/L1_器件层/地图生成器.py": {
+      "mtime_ns": 1788929122358322500,
+      "sha256": "8c877269225022964bdaf177b5397577e88ae39d921a8498c3ab9910d27ebd99",
+      "size": 10645
+    },
+    "survey/scripts/L1_器件层/地理存储器.py": {
+      "mtime_ns": 1788929122358322500,
+      "sha256": "c68411feff3f889ab911f7feafcbde14557bc47b97e40685f486d7db0aff4530",
+      "size": 1842
+    },
+    "survey/scripts/L1_器件层/地貌推导器.py": {
+      "mtime_ns": 1788929122359323200,
+      "sha256": "60ecf6dff4f69ad38a686cbda7f9e725dc20e4e18dde93134c0d3226b8a5ef2d",
+      "size": 11479
+    },
+    "survey/scripts/L1_器件层/存档读取器.py": {
+      "mtime_ns": 1788929122359323200,
+      "sha256": "068a16a65e062a0501a5c650d6deb5a354e987cf4592d72d4037ec29f42b62f9",
+      "size": 6177
+    },
+    "survey/scripts/L2_流程层/自然调查流程.py": {
+      "mtime_ns": 1788929122360323600,
+      "sha256": "bcf76057dfdbe72985fa1195ea5786e77c24290aec4e3939b978a8113ef8ef54",
+      "size": 13516
+    },
+    "survey/scripts/L3_外交层/自然调查接口.py": {
+      "mtime_ns": 1788929122360323600,
+      "sha256": "8dbbd7670b4a560c63b6a1b5d966970b2a14a20045c7f4f8bd6c1a4bf68f4f0b",
+      "size": 683
+    },
+    "survey/scripts/测试/增量复用测试.py": {
+      "mtime_ns": 1788929122361323900,
+      "sha256": "1601bc366b524be810c79276fc0a41940e0e9d416d822dacc6489508abe7598e",
+      "size": 1685
+    },
+    "survey/scripts/测试/存档解码测试.py": {
+      "mtime_ns": 1788929122361323900,
+      "sha256": "d77d072385583f2776c9459c2561a3c70b4dc10c69e275a3e38cc4b09ad59aac",
+      "size": 914
+    },
+    "survey/scripts/测试/调查交付验证.py": {
+      "mtime_ns": 1788929122361323900,
+      "sha256": "dd89eba908b917f505ea6b7095e3f0dc490b2826e3b665cbce8b002f3688eec5",
+      "size": 5905
+    },
+    "survey/sites/SITE.jsonl": {
+      "mtime_ns": 1788929122362323400,
+      "sha256": "367d3cb723af79ba229d205a80919b71fa9feb8380d55298c005c124ae3a2cfb",
+      "size": 19773
+    },
+    "survey/visual/GEO-labeled-map.png": {
+      "mtime_ns": 1788929122363323000,
+      "sha256": "dcf3f1e130bc778160f558fd456ffbfdaacf5b4be231fb4a57f0ac4739b3e70a",
+      "size": 85745
+    },
+    "survey/visual/SITE-overview-map.png": {
+      "mtime_ns": 1788929122364322600,
+      "sha256": "7af781c634590b215e5d2e131952d81cb8131d20597e5c73c8db8f7c86b0a477",
+      "size": 59711
+    },
+    "survey/visual/biome-overview.png": {
+      "mtime_ns": 1788929122365324200,
+      "sha256": "e53c1120ba4a61b4c09f4c0327ececbdefc53461440cdad613a8416ad5a65b48",
+      "size": 34184
+    },
+    "survey/visual/generated-chunk-coverage.png": {
+      "mtime_ns": 1788929122365324200,
+      "sha256": "bd148f41c0c7faab3208a24d4590e643dfb33a4bcef28a0b6c14976552c60743",
+      "size": 14228
+    },
+    "survey/visual/heightmap.png": {
+      "mtime_ns": 1788929122366323100,
+      "sha256": "81e7160f791442759f7b79cfde360e8134fd9753424540a492499f076800ac5e",
+      "size": 52184
+    },
+    "survey/visual/terrain-region-map.png": {
+      "mtime_ns": 1788929122367324800,
+      "sha256": "6bfe0d7bcac3250172cefb153332da844842ba5f88c4b93de94cc9ae39a1ee93",
+      "size": 33344
+    },
+    "survey/visual/water-map.png": {
+      "mtime_ns": 1788929122368322900,
+      "sha256": "fc22b953551f7c3d78b577cf87f3a8756e19f3da015c9a56de012d7f78bd03a8",
+      "size": 24410
+    },
+    "独立审核.md": {
+      "mtime_ns": 1788929122368322900,
+      "sha256": "1532a6fb60d25cb615edacf8ec5ef79560eeea79536b5416036328fdd0ef40f0",
+      "size": 2989
+    }
+  }
+}
