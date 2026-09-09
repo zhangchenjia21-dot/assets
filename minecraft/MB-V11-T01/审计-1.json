@@ -1,0 +1,137 @@
+{
+  "status": "PASS",
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V11-T01-苏州园林",
+  "level_name": "MB-V11-T01-苏州园林",
+  "generation": {
+    "data": {
+      "bonus_chest": 0,
+      "seed": "1101",
+      "generate_structures": 0,
+      "dimensions": {
+        "minecraft:overworld": {
+          "generator": {
+            "settings": {
+              "features": 0,
+              "biome": "minecraft:plains",
+              "layers": [
+                {
+                  "block": "minecraft:bedrock",
+                  "height": 1
+                },
+                {
+                  "block": "minecraft:dirt",
+                  "height": 126
+                },
+                {
+                  "block": "minecraft:grass_block",
+                  "height": 1
+                }
+              ],
+              "structure_overrides": [],
+              "lakes": 0
+            },
+            "type": "minecraft:flat"
+          },
+          "type": "minecraft:overworld"
+        },
+        "minecraft:the_nether": {
+          "generator": {
+            "settings": "minecraft:nether",
+            "biome_source": {
+              "preset": "minecraft:nether",
+              "type": "minecraft:multi_noise"
+            },
+            "type": "minecraft:noise"
+          },
+          "type": "minecraft:the_nether"
+        },
+        "minecraft:the_end": {
+          "generator": {
+            "settings": "minecraft:end",
+            "biome_source": {
+              "type": "minecraft:the_end"
+            },
+            "type": "minecraft:noise"
+          },
+          "type": "minecraft:the_end"
+        }
+      }
+    },
+    "DataVersion": 4903
+  },
+  "stage": 1,
+  "expected_blocks": 117525,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "readback_blocks": 238432,
+  "reachability": {
+    "method": "4-neighbor, two air blocks, max 1 block step; conservative block approximation; jumping required where full steps remain",
+    "reachable_nodes": 22981,
+    "targets": [
+      {
+        "name": "听荷厅",
+        "position": [
+          105,
+          65,
+          117
+        ],
+        "reachable": true
+      },
+      {
+        "name": "入园门厅",
+        "position": [
+          38,
+          64,
+          139
+        ],
+        "reachable": true
+      },
+      {
+        "name": "山顶小亭",
+        "position": [
+          57,
+          77,
+          47
+        ],
+        "reachable": true
+      },
+      {
+        "name": "水心亭",
+        "position": [
+          114,
+          66,
+          64
+        ],
+        "reachable": false
+      },
+      {
+        "name": "东岸水榭",
+        "position": [
+          152,
+          65,
+          89
+        ],
+        "reachable": true
+      },
+      {
+        "name": "西院书斋",
+        "position": [
+          30,
+          65,
+          105
+        ],
+        "reachable": true
+      },
+      {
+        "name": "竹院小轩",
+        "position": [
+          159,
+          68,
+          34
+        ],
+        "reachable": true
+      }
+    ],
+    "routes": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V11-T01-苏州园林",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air"
+  ],
+  "changed_blocks": 117525,
+  "apply_seconds": 4.6354691,
+  "readback": [
+    {
+      "position": [
+        105,
+        64,
+        117,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 23.543,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-09T08-14-42-968Z-0202b102-f59d-41ca-977a-a4418faf9f22",
+  "backup": null
+}

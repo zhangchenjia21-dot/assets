@@ -1,0 +1,216 @@
+{
+  "status": "PASS",
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V11-T01-苏州园林",
+  "level_name": "MB-V11-T01-苏州园林",
+  "generation": {
+    "data": {
+      "bonus_chest": 0,
+      "seed": "1101",
+      "generate_structures": 0,
+      "dimensions": {
+        "minecraft:overworld": {
+          "generator": {
+            "settings": {
+              "features": 0,
+              "biome": "minecraft:plains",
+              "layers": [
+                {
+                  "block": "minecraft:bedrock",
+                  "height": 1
+                },
+                {
+                  "block": "minecraft:dirt",
+                  "height": 126
+                },
+                {
+                  "block": "minecraft:grass_block",
+                  "height": 1
+                }
+              ],
+              "structure_overrides": [],
+              "lakes": 0
+            },
+            "type": "minecraft:flat"
+          },
+          "type": "minecraft:overworld"
+        },
+        "minecraft:the_nether": {
+          "generator": {
+            "settings": "minecraft:nether",
+            "biome_source": {
+              "preset": "minecraft:nether",
+              "type": "minecraft:multi_noise"
+            },
+            "type": "minecraft:noise"
+          },
+          "type": "minecraft:the_nether"
+        },
+        "minecraft:the_end": {
+          "generator": {
+            "settings": "minecraft:end",
+            "biome_source": {
+              "type": "minecraft:the_end"
+            },
+            "type": "minecraft:noise"
+          },
+          "type": "minecraft:the_end"
+        }
+      }
+    },
+    "DataVersion": 4903
+  },
+  "stage": 2,
+  "expected_blocks": 133411,
+  "mismatches": 0,
+  "mismatch_examples": [],
+  "readback_blocks": 247645,
+  "reachability": {
+    "method": "4-neighbor, two air blocks, max 1 block step; conservative block approximation; jumping required where full steps remain",
+    "reachable_nodes": 23220,
+    "targets": [
+      {
+        "name": "听荷厅",
+        "position": [
+          105,
+          65,
+          117
+        ],
+        "reachable": true
+      },
+      {
+        "name": "入园门厅",
+        "position": [
+          38,
+          64,
+          139
+        ],
+        "reachable": true
+      },
+      {
+        "name": "山顶小亭",
+        "position": [
+          57,
+          77,
+          47
+        ],
+        "reachable": true
+      },
+      {
+        "name": "水心亭",
+        "position": [
+          114,
+          66,
+          64
+        ],
+        "reachable": true
+      },
+      {
+        "name": "东岸水榭",
+        "position": [
+          152,
+          65,
+          89
+        ],
+        "reachable": true
+      },
+      {
+        "name": "西院书斋",
+        "position": [
+          30,
+          65,
+          105
+        ],
+        "reachable": true
+      },
+      {
+        "name": "竹院小轩",
+        "position": [
+          159,
+          68,
+          34
+        ],
+        "reachable": true
+      }
+    ],
+    "routes": [
+      {
+        "name": "入园藏露",
+        "blocked_cells": 0,
+        "examples": []
+      },
+      {
+        "name": "西岸环路",
+        "blocked_cells": 2,
+        "examples": [
+          [
+            48,
+            64,
+            87
+          ],
+          [
+            146,
+            64,
+            51
+          ]
+        ]
+      },
+      {
+        "name": "东岸环路",
+        "blocked_cells": 4,
+        "examples": [
+          [
+            146,
+            64,
+            51
+          ],
+          [
+            155,
+            64,
+            63
+          ],
+          [
+            159,
+            64,
+            70
+          ],
+          [
+            159,
+            64,
+            77
+          ]
+        ]
+      },
+      {
+        "name": "西院游廊",
+        "blocked_cells": 0,
+        "examples": []
+      },
+      {
+        "name": "登山回望",
+        "blocked_cells": 0,
+        "examples": []
+      },
+      {
+        "name": "山后下行",
+        "blocked_cells": 0,
+        "examples": []
+      },
+      {
+        "name": "曲桥入岛",
+        "blocked_cells": 1,
+        "examples": [
+          [
+            146,
+            64,
+            51
+          ]
+        ]
+      },
+      {
+        "name": "竹院支路",
+        "blocked_cells": 0,
+        "examples": []
+      }
+    ]
+  }
+}

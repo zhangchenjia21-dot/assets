@@ -1,0 +1,35 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V11-T01-苏州园林",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:grass_block[snowy=false]"
+  ],
+  "changed_blocks": 20189,
+  "apply_seconds": 0.6783189,
+  "readback": [
+    {
+      "position": [
+        38,
+        63,
+        149,
+        "minecraft:smooth_stone"
+      ],
+      "actual": "minecraft:smooth_stone",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 16.401,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-09T08-17-10-613Z-c8930e92-db16-482f-8e2d-6166fbce7e15",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V11-T01-苏州园林",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-09T08-17-10-613Z-c8930e92-db16-482f-8e2d-6166fbce7e15\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}
