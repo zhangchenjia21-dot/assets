@@ -6,6 +6,19 @@
 
 ## 当前项目
 
+### Tavern Assets｜SillyTavern 资产库
+
+路径：[`tavern-assets/`](tavern-assets/)
+
+定位：个人使用的 SillyTavern 资产创作与维护项目。当前目录由原 `zhangchenjia21-dot/sillytavern-assets` 仓库迁移而来，并保留原项目的目录结构、项目级 `README.md`、`AGENTS.md` 与资产内容。
+
+进入该项目时先读：
+
+1. `AGENTS.md`
+2. `tavern-assets/README.md`
+3. `tavern-assets/AGENTS.md`
+4. 目标工作区最近的局部 `AGENTS.md`
+
 ### Minecraft｜建筑师
 
 路径：[`minecraft/建筑师/`](minecraft/建筑师/)
