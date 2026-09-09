@@ -1,0 +1,41 @@
+name: Migrate tavern assets once
+
+on:
+  push:
+    paths:
+      - '.github/workflows/migrate-tavern-assets.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout assets repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Copy sillytavern-assets into tavern-assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf tavern-assets /tmp/sillytavern-assets
+          git clone --depth 1 --branch main https://github.com/zhangchenjia21-dot/sillytavern-assets.git /tmp/sillytavern-assets
+          rm -rf /tmp/sillytavern-assets/.git
+          mkdir -p tavern-assets
+          cp -a /tmp/sillytavern-assets/. tavern-assets/
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add tavern-assets
+
+          if git diff --cached --quiet; then
+            echo "No migration changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Migrate sillytavern-assets into tavern-assets"
+          git pull --rebase origin main
+          git push origin HEAD:main
