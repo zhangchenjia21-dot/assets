@@ -11,10 +11,11 @@ NG-1 Coarse Survey = ACCEPTED
 NG-2 Local Refinement = PASS_WITH_NOTES
 NG-3 Current Natural Atlas = ACCEPTED @ 57d392d
 WB-001 Fantasy Foundation = OWNER APPROVED / CANON
-D-006 Southern Island Woodland Long-lived CIV-001 anchor = SUPERSEDED
 D-007 Region-first Civilization Rule = ACTIVE
 WB-002 First Civilization Pilot = PAUSED / DESIGN RESET
-WB-002R Southern Island Regional Reconnaissance = AUTHORIZED / DISPATCH READY
+WB-002R Western low-island evidence = ACCEPTED PARTIAL
+WB-002R whole southern island-group profile = INCOMPLETE
+WB-002R-R1 Scope Completion = AUTHORIZED / DISPATCH READY
 CIV-001 species / region assignment = TBD
 Architecture Bible = HOLD
 Build planning = HOLD
@@ -22,13 +23,11 @@ Build planning = HOLD
 
 当前 Active Task：
 
-`tasks/WB-002R/TASK.md`
+`tasks/WB-002R-R1/TASK.md`
 
 ## 核心方法
 
 > **先读世界，再写世界。**
-
-当前正式流程：
 
 ```text
 Current Natural Atlas
@@ -44,25 +43,43 @@ Current Natural Atlas
 
 Atlas 负责宏观筛选，不直接决定文明。
 
+## WB-002R Scope Correction
+
+WB-002R implementation：`362b77e42e84ae7eee666b041a62f86a28c3559f`
+
+Independent Review：
+
+`research/human-geography/southern-island/WB-002R/独立审核.md`
+
+其 1-block survey 对 `NGEO-009` 西侧低海拔岛体本身有效，但实现明确承认：东侧还有更高主要陆体，触碰 ROI 东边界且完整范围被截断。
+
+因此现有调查只能作为 **western low-island partial evidence**，不能代表 Owner 真人考察中的整个南部岛屿群。
+
+### R1
+
+Decision：
+
+`decisions/D-009_WB-002R-R1南部岛屿群范围补全授权.md`
+
+Task：
+
+`tasks/WB-002R-R1/TASK.md`
+
+R1 将复用可用西部数据，并自适应向东补齐更大山地陆体。只要主要山地陆体仍触碰 study boundary，就不能宣告 scope complete。
+
 ## Current Natural Atlas
 
-Accepted snapshot：
+Accepted snapshot：`57d392dcb6f3052fc72be039748529c4df3e6cf9`
 
-`57d392dcb6f3052fc72be039748529c4df3e6cf9`
+主查询层：`research/natural-geography/NG-3/raw-or-queryable/atlas.sqlite`
 
-主查询层：
-
-`research/natural-geography/NG-3/raw-or-queryable/atlas.sqlite`
-
-当前对象：35 `NGEO` / 20 `NHYD` / 4 `NFEAT` / 8 `NSITE`。
+35 NGEO / 20 NHYD / 4 NFEAT / 8 NSITE。
 
 Natural Atlas 不是精确施工边界、水文导航图、World Canon 或 build authorization。
 
 ## Current World Canon
 
-全局基础：
-
-`world/global/Fantasy-Foundation.md`
+全局基础：`world/global/Fantasy-Foundation.md`
 
 已批准：
 
@@ -74,39 +91,7 @@ Natural Atlas 不是精确施工边界、水文导航图、World Canon 或 build
 - 人类 / 林地长生种 / 山地地下种 / 第四蒸汽关联种族槽位；
 - Just-in-time Worldbuilding。
 
-### CIV-001
-
-`world/civilizations/CIV-001/README.md`
-
-`CIV-001` 保留为首个文明 Pilot 工作 ID，但原先“南部大岛 = 林地长生种文明”的指定已经被 `D-007` 撤销。
-
-当前 species / region assignment 均为 TBD。
-
-## WB-002R｜Southern Island Regional Reconnaissance
-
-Authorization：
-
-`decisions/D-008_WB-002R南部大岛区域精查授权.md`
-
-Task：
-
-`tasks/WB-002R/TASK.md`
-
-Owner 实地证据：
-
-`research/human-geography/southern-island/Owner实地考察_2026-09-09.md`
-
-本轮让 Codex 只读结构化：
-
-- biome；
-- elevation / slope / relief；
-- low-relief / gentle-slope；
-- vegetation structure；
-- land / water topology；
-- internal natural zones；
-- Owner 五项实地观察的独立核验。
-
-不强制得出“三个区域”；不创建文明 / 部族 / 政治事实；`world writes = 0`。
+`CIV-001` 仍只是首个文明 Pilot 工作 ID，species / region assignment = TBD。
 
 ## AI Start here
 
@@ -116,27 +101,25 @@ Owner 实地证据：
 4. 读 `current/世界构建原则.md`；
 5. 读 `current/开发路线.md`；
 6. 若有 Active Task，读取对应 `tasks/<ID>/TASK.md`；
-7. 按阶段读取相关 `decisions/`、`world/`、`architecture/`、`research/`；
-8. 自然地理优先使用 Current Natural Atlas，并保留 lineage / uncertainty；
-9. 文明空间分配必须经过 Regional Reconnaissance；
-10. 只有 Owner-approved 世界设定才能写入 `world/`；
-11. 无明确 world-write 授权不得修改 `建筑师` 存档。
+7. 文明空间分配必须经过完整 Regional Reconnaissance；
+8. 只有 Owner-approved 世界设定才能写入 `world/`；
+9. 无明确 world-write 授权不得修改 `建筑师` 存档。
 
 ## Repository map
 
 | 路径 | 角色 | Authority |
 |---|---|---|
-| `current/` | 当前目标、状态、原则与高层路线 | **当前项目入口** |
+| `current/` | 当前目标、状态、原则与路线 | 当前项目入口 |
 | `tasks/` | 已授权 executable Task Packet / Completion | Active execution scope |
-| `decisions/` | Owner 明确裁定 | Decision Authority |
-| `architecture/` | 数据契约、Atlas / 建筑规则与未来系统协议 | Architecture Authority |
-| `research/` | 自然地理、区域考察、参考资料、校准与技术验证 | Evidence / planning baseline |
+| `decisions/` | Owner / governance 决策 | Decision Authority |
+| `architecture/` | 数据契约、Atlas / 建筑规则 | Architecture Authority |
+| `research/` | 自然地理、区域考察、参考资料与验证 | Evidence / planning baseline |
 | `world/` | Owner 批准后的世界 / 文明 Canon | World Canon Authority |
-| `builds/` | 已规划 / 已实施建筑与聚落记录 | Build Record |
+| `builds/` | 已规划 / 已实施建筑记录 | Build Record |
 | `99_归档/` | superseded / historical | 历史证据 |
 
 ## Next Action
 
-> **执行 WB-002R。**
+> **执行 WB-002R-R1。**
 
-Codex 完成后交 GPT 独立审核；Regional Profile 被接受后，才进入 `WB-003｜Civilization Hypotheses from Region`。
+R1 完成并独立审核通过后，才进入 `WB-003｜Civilization Hypotheses from Region`。
