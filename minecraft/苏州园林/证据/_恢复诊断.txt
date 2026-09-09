@@ -1,0 +1,17 @@
+node:internal/modules/esm/resolve:274
+    throw new ERR_MODULE_NOT_FOUND(
+          ^
+
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module 'D:\Games\Minecraft\AI工程\苏州园林\AI-Offline\L2_流程层\离线执行流程.mjs' imported from D:\Games\Minecraft\AI工程\苏州园林\scripts\_恢复存档.mjs
+    at finalizeResolution (node:internal/modules/esm/resolve:274:11)
+    at moduleResolve (node:internal/modules/esm/resolve:864:10)
+    at defaultResolve (node:internal/modules/esm/resolve:990:11)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:757:20)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:734:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:317:38)
+    at #link (node:internal/modules/esm/module_job:208:49) {
+  code: 'ERR_MODULE_NOT_FOUND',
+  url: 'file:///D:/Games/Minecraft/AI%E5%B7%A5%E7%A8%8B/%E8%8B%8F%E5%B7%9E%E5%9B%AD%E6%9E%97/AI-Offline/L2_%E6%B5%81%E7%A8%8B%E5%B1%82/%E7%A6%BB%E7%BA%BF%E6%89%A7%E8%A1%8C%E6%B5%81%E7%A8%8B.mjs'
+}
+
+Node.js v24.11.0
