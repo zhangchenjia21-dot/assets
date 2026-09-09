@@ -1,0 +1,477 @@
+{
+  "terrain": {
+    "water": [
+      40,
+      105,
+      181
+    ],
+    "plains_candidate": [
+      151,
+      190,
+      99
+    ],
+    "hills_candidate": [
+      124,
+      149,
+      79
+    ],
+    "highlands_candidate": [
+      171,
+      154,
+      113
+    ],
+    "mountains_candidate": [
+      139,
+      126,
+      119
+    ],
+    "plateau_candidate": [
+      222,
+      180,
+      109
+    ],
+    "valley_candidate": [
+      207,
+      219,
+      134
+    ],
+    "wetlands_candidate": [
+      63,
+      129,
+      121
+    ]
+  },
+  "biomes": {
+    "terralith:arid_highlands": [
+      100,
+      192,
+      125
+    ],
+    "minecraft:river": [
+      98,
+      69,
+      215
+    ],
+    "minecraft:savanna_plateau": [
+      141,
+      82,
+      128
+    ],
+    "terralith:alpine_highlands": [
+      127,
+      69,
+      220
+    ],
+    "terralith:shrubland": [
+      119,
+      142,
+      191
+    ],
+    "terralith:savanna_badlands": [
+      121,
+      94,
+      189
+    ],
+    "terralith:hot_shrubland": [
+      84,
+      116,
+      168
+    ],
+    "terralith:steppe": [
+      138,
+      187,
+      115
+    ],
+    "minecraft:snowy_taiga": [
+      123,
+      214,
+      149
+    ],
+    "minecraft:frozen_river": [
+      100,
+      103,
+      116
+    ],
+    "minecraft:snowy_plains": [
+      132,
+      168,
+      88
+    ],
+    "terralith:wintry_lowlands": [
+      156,
+      126,
+      127
+    ],
+    "terralith:wintry_forest": [
+      107,
+      146,
+      120
+    ],
+    "terralith:highlands": [
+      105,
+      197,
+      68
+    ],
+    "terralith:moonlight_valley": [
+      94,
+      102,
+      114
+    ],
+    "terralith:shield": [
+      68,
+      89,
+      68
+    ],
+    "minecraft:plains": [
+      145,
+      196,
+      113
+    ],
+    "minecraft:snowy_beach": [
+      176,
+      208,
+      93
+    ],
+    "minecraft:frozen_ocean": [
+      177,
+      190,
+      103
+    ],
+    "minecraft:cold_ocean": [
+      212,
+      107,
+      132
+    ],
+    "minecraft:beach": [
+      183,
+      110,
+      82
+    ],
+    "minecraft:forest": [
+      132,
+      150,
+      196
+    ],
+    "minecraft:savanna": [
+      159,
+      72,
+      143
+    ],
+    "terralith:gravel_beach": [
+      70,
+      126,
+      67
+    ],
+    "minecraft:lukewarm_ocean": [
+      194,
+      102,
+      100
+    ],
+    "minecraft:deep_lukewarm_ocean": [
+      131,
+      103,
+      218
+    ],
+    "minecraft:stony_peaks": [
+      184,
+      83,
+      72
+    ],
+    "minecraft:eroded_badlands": [
+      92,
+      211,
+      168
+    ],
+    "terralith:painted_mountains": [
+      76,
+      173,
+      127
+    ],
+    "terralith:volcanic_peaks": [
+      117,
+      102,
+      109
+    ],
+    "minecraft:badlands": [
+      134,
+      72,
+      129
+    ],
+    "minecraft:deep_cold_ocean": [
+      172,
+      134,
+      140
+    ],
+    "minecraft:ice_spikes": [
+      127,
+      110,
+      114
+    ],
+    "terralith:gravel_desert": [
+      139,
+      216,
+      103
+    ],
+    "terralith:cold_shrubland": [
+      104,
+      78,
+      195
+    ],
+    "minecraft:meadow": [
+      87,
+      109,
+      92
+    ],
+    "terralith:temperate_highlands": [
+      165,
+      197,
+      209
+    ],
+    "minecraft:ocean": [
+      119,
+      87,
+      128
+    ],
+    "minecraft:desert": [
+      160,
+      126,
+      91
+    ],
+    "minecraft:warm_ocean": [
+      77,
+      199,
+      211
+    ],
+    "terralith:deep_warm_ocean": [
+      108,
+      74,
+      193
+    ],
+    "terralith:desert_oasis": [
+      124,
+      83,
+      118
+    ],
+    "terralith:warm_river": [
+      201,
+      186,
+      212
+    ],
+    "terralith:lush_desert": [
+      200,
+      125,
+      100
+    ],
+    "terralith:bryce_canyon": [
+      75,
+      128,
+      206
+    ],
+    "terralith:white_mesa": [
+      222,
+      80,
+      205
+    ],
+    "minecraft:jagged_peaks": [
+      191,
+      67,
+      159
+    ],
+    "terralith:rocky_mountains": [
+      87,
+      69,
+      122
+    ],
+    "minecraft:cherry_grove": [
+      147,
+      143,
+      125
+    ],
+    "terralith:snowy_shield": [
+      146,
+      162,
+      94
+    ],
+    "minecraft:snowy_slopes": [
+      151,
+      195,
+      177
+    ],
+    "terralith:birch_taiga": [
+      72,
+      77,
+      143
+    ],
+    "minecraft:stony_shore": [
+      156,
+      91,
+      92
+    ],
+    "terralith:white_cliffs": [
+      197,
+      86,
+      82
+    ],
+    "minecraft:frozen_peaks": [
+      117,
+      136,
+      186
+    ],
+    "terralith:ancient_sands": [
+      158,
+      204,
+      120
+    ],
+    "terralith:siberian_taiga": [
+      91,
+      127,
+      183
+    ],
+    "minecraft:sunflower_plains": [
+      89,
+      126,
+      103
+    ],
+    "terralith:forested_highlands": [
+      144,
+      126,
+      83
+    ],
+    "terralith:granite_cliffs": [
+      168,
+      65,
+      100
+    ],
+    "minecraft:deep_ocean": [
+      85,
+      180,
+      115
+    ],
+    "terralith:yellowstone": [
+      198,
+      149,
+      182
+    ],
+    "minecraft:taiga": [
+      193,
+      176,
+      114
+    ],
+    "terralith:ashen_savanna": [
+      124,
+      88,
+      198
+    ],
+    "terralith:skylands_spring": [
+      132,
+      80,
+      163
+    ],
+    "minecraft:old_growth_birch_forest": [
+      197,
+      93,
+      216
+    ],
+    "terralith:snowy_badlands": [
+      212,
+      208,
+      186
+    ],
+    "minecraft:birch_forest": [
+      148,
+      187,
+      85
+    ],
+    "minecraft:wooded_badlands": [
+      98,
+      65,
+      136
+    ],
+    "terralith:savanna_slopes": [
+      224,
+      112,
+      151
+    ],
+    "minecraft:old_growth_pine_taiga": [
+      84,
+      120,
+      76
+    ],
+    "minecraft:deep_frozen_ocean": [
+      78,
+      154,
+      161
+    ],
+    "minecraft:flower_forest": [
+      109,
+      131,
+      128
+    ],
+    "terralith:basalt_cliffs": [
+      98,
+      160,
+      133
+    ],
+    "terralith:ice_marsh": [
+      122,
+      74,
+      87
+    ],
+    "terralith:snowy_cherry_grove": [
+      132,
+      162,
+      197
+    ],
+    "terralith:cave/thermal_caves": [
+      112,
+      72,
+      118
+    ],
+    "minecraft:grove": [
+      83,
+      66,
+      72
+    ],
+    "terralith:frozen_cliffs": [
+      137,
+      100,
+      150
+    ],
+    "terralith:skylands_autumn": [
+      91,
+      207,
+      92
+    ],
+    "terralith:alpine_grove": [
+      120,
+      181,
+      153
+    ],
+    "terralith:scarlet_mountains": [
+      108,
+      128,
+      100
+    ],
+    "terralith:emerald_peaks": [
+      187,
+      174,
+      141
+    ],
+    "terralith:cave/infested_caves": [
+      156,
+      136,
+      123
+    ],
+    "terralith:siberian_grove": [
+      144,
+      177,
+      151
+    ]
+  },
+  "geo_label_limit": 35,
+  "water": "blue intensity represents fraction of 5 sampled columns, not water depth",
+  "height_range": [
+    47.0,
+    694.0
+  ]
+}

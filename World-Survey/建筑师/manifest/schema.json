@@ -1,0 +1,47 @@
+{
+  "schema_version": "natural-geography-survey/1.0",
+  "database": "../raw/geography.sqlite",
+  "dimension": "minecraft:overworld",
+  "coordinate_system": {"units": "blocks", "north": "-Z", "cell_size": 64, "bounds": "inclusive", "negative_coordinate_rounding": "floor"},
+  "field_provenance": {
+    "samples.observed.x,z": "observed: chunk position and column offset",
+    "samples.observed.surface_y": "observed: decoded WORLD_SURFACE minus one plus minimum Y",
+    "samples.observed.ocean_floor_y": "observed: decoded OCEAN_FLOOR; Minecraft motion-blocking semantics, not bare geological floor",
+    "samples.observed.motion_no_leaves_y": "observed: decoded MOTION_BLOCKING_NO_LEAVES",
+    "samples.observed.surface_block": "observed: block palette at WORLD_SURFACE",
+    "samples.observed.biome": "observed: biome palette at WORLD_SURFACE height, 4x4x4 cell",
+    "samples.observed.exposed_y": "derived: descending column with explicit vegetation-name exclusion",
+    "samples.observed.exposed_block": "observed block at derived exposed_y",
+    "samples.observed.water": "observed water/kelp/seagrass/bubble_column name at derived exposed_y; does not include ice or arbitrary waterlogged blocks",
+    "samples.observed.water_y": "observed Y of water-like exposed block; null when absent",
+    "cells.elevation": "derived: mean exposed_y of five columns in one sampled chunk per 64x64 cell",
+    "cells.slope": "derived: maximum absolute elevation difference to four neighbor cells divided by 64, rise/run, not angle",
+    "cells.relief": "derived: max minus min mean elevation within 7x7 cells",
+    "cells.roughness": "derived: population standard deviation of five exposed_y values within sampled chunk",
+    "cells.biome": "derived: dominant biome among five sampled columns",
+    "cells.water": "derived: water presence fraction among five sampled columns",
+    "cells.terrain,geo_id": "derived: ordered thresholds then 4-neighbor connected components",
+    "objects.details.estimated_area_blocks2": "derived: 4096 times member count; extrapolated, including boundary cell overhang",
+    "objects.confidence": "uncalibrated heuristic; not a probability",
+    "objects.SITE": "interpretive: natural-space potential only, no Canon"
+  },
+  "terrain_rules_in_order": [
+    "water: sampled water fraction >=0.6",
+    "wetlands_candidate: dominant biome identifier contains swamp or marsh; biome-context-only candidate",
+    "mountains_candidate: mean exposed Y>=150 and 7x7 relief>=65",
+    "plateau_candidate: mean exposed Y>=120, slope<0.12, within-chunk roughness<3",
+    "valley_candidate: local relative elevation<=-18 and relief>=45",
+    "highlands_candidate: mean exposed Y>=120",
+    "plains_candidate: slope<=0.12, relief<=30, roughness<=3",
+    "hills_candidate: residual terrestrial class; may include forest and mixed terrain"
+  ],
+  "spatial_relationships": {
+    "geo_at_coordinate": "first verify chunk existence, then cells by floor(x/64),floor(z/64); membership is a derived cell assignment",
+    "adjacency": "undirected GEO pairs and shared 64-grid edge count",
+    "feature_associations": "join active objects through overlapping members; do not join by bounding-box containment",
+    "identity": "family prefix and monotonic integer, same-type previous member Jaccard>=0.35 preserves ID; retired IDs remain inactive"
+  },
+  "generation_scope": "all region location tables and all chunk Status/DataVersion; block and biome palettes decoded only for selected full chunks",
+  "incremental_policy": "region SHA256 and algorithm version gate sample reuse; all derived data regenerated",
+  "unsupported_or_uncertain": ["true watershed boundaries", "water flow direction", "verified confluence", "verified harbor", "waterfall", "sub-grid channel continuity", "semantic mountain-chain grouping", "artificial-structure removal"]
+}

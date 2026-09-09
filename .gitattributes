@@ -1,0 +1,9 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.png binary
+*.gz binary
+# 调查证据按原始字节保存，避免行尾转换使已记录的 SHA256 失效。
+World-Survey/** -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

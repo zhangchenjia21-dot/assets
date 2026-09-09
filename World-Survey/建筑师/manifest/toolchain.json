@@ -1,0 +1,21 @@
+{
+  "schema": "natural-geography-survey/1.0",
+  "algorithm": "coarse64-v1.1-full-boundary",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "nbtlib": "2.0.4",
+  "nbtlib_path": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\参考入库\\第三方\\nbtlib\\__init__.py",
+  "scripts_sha256": {
+    "scripts/Bootstrap/调查命令.py": "ee3fd47385125a118f1d41893e93eac31762336acfc85b57b110820f0f61a40a",
+    "scripts/L0_公理层/地理契约.py": "c573a87a1420c073a9f03bc1f20cb2e50e47985e760330e4d2e1179eb556e57a",
+    "scripts/L1_器件层/区块状态读取器.py": "ce785cee673787a30767dbe91439d7a3adbb9a2faa65da38c3343717cb71e8ec",
+    "scripts/L1_器件层/地图生成器.py": "8c877269225022964bdaf177b5397577e88ae39d921a8498c3ab9910d27ebd99",
+    "scripts/L1_器件层/地理存储器.py": "c68411feff3f889ab911f7feafcbde14557bc47b97e40685f486d7db0aff4530",
+    "scripts/L1_器件层/地貌推导器.py": "60ecf6dff4f69ad38a686cbda7f9e725dc20e4e18dde93134c0d3226b8a5ef2d",
+    "scripts/L1_器件层/存档读取器.py": "068a16a65e062a0501a5c650d6deb5a354e987cf4592d72d4037ec29f42b62f9",
+    "scripts/L2_流程层/自然调查流程.py": "bcf76057dfdbe72985fa1195ea5786e77c24290aec4e3939b978a8113ef8ef54",
+    "scripts/L3_外交层/自然调查接口.py": "8dbbd7670b4a560c63b6a1b5d966970b2a14a20045c7f4f8bd6c1a4bf68f4f0b",
+    "scripts/测试/增量复用测试.py": "1601bc366b524be810c79276fc0a41940e0e9d416d822dacc6489508abe7598e",
+    "scripts/测试/存档解码测试.py": "d77d072385583f2776c9459c2561a3c70b4dc10c69e275a3e38cc4b09ad59aac",
+    "scripts/测试/调查交付验证.py": "dd89eba908b917f505ea6b7095e3f0dc490b2826e3b665cbce8b002f3688eec5"
+  }
+}

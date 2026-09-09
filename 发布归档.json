@@ -1,0 +1,180 @@
+{
+  "source_directory": "D:\\Games\\Minecraft\\AI工程\\World-Survey\\建筑师",
+  "database": {
+    "path": "World-Survey/建筑师/raw/geography.sqlite",
+    "bytes": 192139264,
+    "sha256": "e14d7cfb6f2103e9e8321ad702e478589e7e93de601aaea987f713ee8c38c202"
+  },
+  "archive": {
+    "path": "World-Survey/建筑师/raw/geography.sqlite.gz",
+    "bytes": 20611191,
+    "sha256": "fd98df47de4067dbed9785723681a3f82f81ec3649696bbcd99b258f43f99923"
+  },
+  "decompressed_sha256_matches": true,
+  "copied_files": [
+    {
+      "path": "World-Survey/建筑师/atlas/adjacency.jsonl",
+      "sha256": "0eb739303a4fe794b5463a35768c24944c69faafc847b16f89c1159132b2f12f"
+    },
+    {
+      "path": "World-Survey/建筑师/atlas/detector-assessment.json",
+      "sha256": "10bc23e70a9f47d654a531bb089ba303cb92edfffc1ad218327d39ae040718b7"
+    },
+    {
+      "path": "World-Survey/建筑师/atlas/FEAT.jsonl",
+      "sha256": "c94266aca45407089b62c343076d8fbb711b9a6774ef27364fa5a362fc87cd3d"
+    },
+    {
+      "path": "World-Survey/建筑师/atlas/GEO.jsonl",
+      "sha256": "abc17fecc99f3ed868a682d46d754ab6dcc96c3c14fd5423c41db1e6ef53cc58"
+    },
+    {
+      "path": "World-Survey/建筑师/atlas/HYD.jsonl",
+      "sha256": "79669d2d9e9025c75bc3d6143655fc7556d15c1066093a960b613285384cba2b"
+    },
+    {
+      "path": "World-Survey/建筑师/manifest/coverage.json",
+      "sha256": "88e68904029f8b2513e1c13e3704c841698b6f5f240162f46febafe7822b53df"
+    },
+    {
+      "path": "World-Survey/建筑师/manifest/schema.json",
+      "sha256": "e458bc42eb14f6b135975d4c80ae29d4fc03b1221ca62a83965b7a969fabd31b"
+    },
+    {
+      "path": "World-Survey/建筑师/manifest/source-after.json",
+      "sha256": "b2317e91513e021b3d439402791dec3f00877e949acfca7364579f9e56c9d5af"
+    },
+    {
+      "path": "World-Survey/建筑师/manifest/source-before.json",
+      "sha256": "b2317e91513e021b3d439402791dec3f00877e949acfca7364579f9e56c9d5af"
+    },
+    {
+      "path": "World-Survey/建筑师/manifest/survey.json",
+      "sha256": "7f99fa9583c7a3719b981f61074a6b6f4bb578f21b82aae61ae94c5c2cb8827c"
+    },
+    {
+      "path": "World-Survey/建筑师/manifest/toolchain.json",
+      "sha256": "2cc914db96e2dcf2c6a7c365e5f04a3af7da291ade77aadab8ba168c24622e49"
+    },
+    {
+      "path": "World-Survey/建筑师/manifest/write-audit.json",
+      "sha256": "0542eb90384e239a50763ed7117bb009f4942f6cc3c71af0b257eb0875c2bced"
+    },
+    {
+      "path": "World-Survey/建筑师/README.md",
+      "sha256": "b9905bc40f53e5caceea3b24f1ba8ecff3bfb68b43d4be93d9691f6141cd8d3f"
+    },
+    {
+      "path": "World-Survey/建筑师/reports/database-validation.json",
+      "sha256": "d26decd4cbf11400ead9e327c254b26f22cb8b580e7072060bcc219ea5a4672c"
+    },
+    {
+      "path": "World-Survey/建筑师/reports/delivery-validation.json",
+      "sha256": "a6c8df323ba7dc64f7f15c40c56d4c6a3b112bbc557c2c516bdb633bc994ed9c"
+    },
+    {
+      "path": "World-Survey/建筑师/reports/incremental-baseline.json",
+      "sha256": "6965b268c913e61998b191a5f1ee69648e1e60a1b1dec4f07fa591a849652093"
+    },
+    {
+      "path": "World-Survey/建筑师/reports/incremental-validation.json",
+      "sha256": "fd851d84d306fcd022bd021a857dbc6676a145bc467d20b56c5a78daadaa2820"
+    },
+    {
+      "path": "World-Survey/建筑师/reports/map-legends.json",
+      "sha256": "18a5a17f7b08cad0e1cc25972127592d8102b5dc8ca0256a4a278e871da03916"
+    },
+    {
+      "path": "World-Survey/建筑师/reports/sample-validation.json",
+      "sha256": "d14c07ab83f0ef829f136af45b6264a074df80bd9206afedf06b6de0be72cdbe"
+    },
+    {
+      "path": "World-Survey/建筑师/reports/summary.md",
+      "sha256": "10c5cc28bf111d98e8fa8c22893712ea7abe6e69aa1c959016f44cf9b601901b"
+    },
+    {
+      "path": "World-Survey/建筑师/reports/visual-review.json",
+      "sha256": "b1bb4051e10b9f0439172f6a4006a5eaed3e82e239b2dd8b19797cc357c23c5b"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/Bootstrap/调查命令.py",
+      "sha256": "ee3fd47385125a118f1d41893e93eac31762336acfc85b57b110820f0f61a40a"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/L0_公理层/地理契约.py",
+      "sha256": "c573a87a1420c073a9f03bc1f20cb2e50e47985e760330e4d2e1179eb556e57a"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/L1_器件层/区块状态读取器.py",
+      "sha256": "ce785cee673787a30767dbe91439d7a3adbb9a2faa65da38c3343717cb71e8ec"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/L1_器件层/地图生成器.py",
+      "sha256": "8c877269225022964bdaf177b5397577e88ae39d921a8498c3ab9910d27ebd99"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/L1_器件层/地理存储器.py",
+      "sha256": "c68411feff3f889ab911f7feafcbde14557bc47b97e40685f486d7db0aff4530"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/L1_器件层/地貌推导器.py",
+      "sha256": "60ecf6dff4f69ad38a686cbda7f9e725dc20e4e18dde93134c0d3226b8a5ef2d"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/L1_器件层/存档读取器.py",
+      "sha256": "068a16a65e062a0501a5c650d6deb5a354e987cf4592d72d4037ec29f42b62f9"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/L2_流程层/自然调查流程.py",
+      "sha256": "bcf76057dfdbe72985fa1195ea5786e77c24290aec4e3939b978a8113ef8ef54"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/L3_外交层/自然调查接口.py",
+      "sha256": "8dbbd7670b4a560c63b6a1b5d966970b2a14a20045c7f4f8bd6c1a4bf68f4f0b"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/测试/增量复用测试.py",
+      "sha256": "1601bc366b524be810c79276fc0a41940e0e9d416d822dacc6489508abe7598e"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/测试/存档解码测试.py",
+      "sha256": "d77d072385583f2776c9459c2561a3c70b4dc10c69e275a3e38cc4b09ad59aac"
+    },
+    {
+      "path": "World-Survey/建筑师/scripts/测试/调查交付验证.py",
+      "sha256": "dd89eba908b917f505ea6b7095e3f0dc490b2826e3b665cbce8b002f3688eec5"
+    },
+    {
+      "path": "World-Survey/建筑师/sites/SITE.jsonl",
+      "sha256": "367d3cb723af79ba229d205a80919b71fa9feb8380d55298c005c124ae3a2cfb"
+    },
+    {
+      "path": "World-Survey/建筑师/visual/biome-overview.png",
+      "sha256": "e53c1120ba4a61b4c09f4c0327ececbdefc53461440cdad613a8416ad5a65b48"
+    },
+    {
+      "path": "World-Survey/建筑师/visual/generated-chunk-coverage.png",
+      "sha256": "bd148f41c0c7faab3208a24d4590e643dfb33a4bcef28a0b6c14976552c60743"
+    },
+    {
+      "path": "World-Survey/建筑师/visual/GEO-labeled-map.png",
+      "sha256": "dcf3f1e130bc778160f558fd456ffbfdaacf5b4be231fb4a57f0ac4739b3e70a"
+    },
+    {
+      "path": "World-Survey/建筑师/visual/heightmap.png",
+      "sha256": "81e7160f791442759f7b79cfde360e8134fd9753424540a492499f076800ac5e"
+    },
+    {
+      "path": "World-Survey/建筑师/visual/SITE-overview-map.png",
+      "sha256": "7af781c634590b215e5d2e131952d81cb8131d20597e5c73c8db8f7c86b0a477"
+    },
+    {
+      "path": "World-Survey/建筑师/visual/terrain-region-map.png",
+      "sha256": "6bfe0d7bcac3250172cefb153332da844842ba5f88c4b93de94cc9ae39a1ee93"
+    },
+    {
+      "path": "World-Survey/建筑师/visual/water-map.png",
+      "sha256": "fc22b953551f7c3d78b577cf87f3a8756e19f3da015c9a56de012d7f78bd03a8"
+    }
+  ]
+}

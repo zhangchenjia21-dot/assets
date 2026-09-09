@@ -1,0 +1,9 @@
+{
+  "world_writes_by_tool": 0,
+  "source_inventory_and_sha256_equal": true,
+  "files": 1524,
+  "total_bytes": 6658996007,
+  "guard": "CreateFileW GENERIC_READ FILE_SHARE_READ; held for every original source file throughout scan; denies source writes/deletes",
+  "new_or_deleted_files": [],
+  "changed": []
+}

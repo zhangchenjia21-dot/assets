@@ -1,0 +1,849 @@
+{
+  "schema_version": "natural-geography-survey/1.0",
+  "integrity_check": "ok",
+  "counts": {
+    "chunks": 421201,
+    "chunk_status": 421201,
+    "samples": 124820,
+    "cells": 24964,
+    "adjacency": 2684
+  },
+  "object_counts": {
+    "FEAT": 1343,
+    "GEO": 1264,
+    "HYD": 412,
+    "SITE": 20
+  },
+  "terrain_distribution": [
+    {
+      "type": "water",
+      "cells": 8711,
+      "mean_elevation": 62.288256227758005,
+      "max_elevation": 299.4
+    },
+    {
+      "type": "mountains_candidate",
+      "cells": 6506,
+      "mean_elevation": 337.3181371042115,
+      "max_elevation": 694.0
+    },
+    {
+      "type": "plains_candidate",
+      "cells": 4445,
+      "mean_elevation": 67.73174353205849,
+      "max_elevation": 105.4
+    },
+    {
+      "type": "hills_candidate",
+      "cells": 3650,
+      "mean_elevation": 77.96021917808218,
+      "max_elevation": 119.8
+    },
+    {
+      "type": "valley_candidate",
+      "cells": 847,
+      "mean_elevation": 80.70885478158205,
+      "max_elevation": 203.4
+    },
+    {
+      "type": "highlands_candidate",
+      "cells": 711,
+      "mean_elevation": 149.54036568213783,
+      "max_elevation": 326.2
+    },
+    {
+      "type": "plateau_candidate",
+      "cells": 88,
+      "mean_elevation": 230.8068181818182,
+      "max_elevation": 302.2
+    },
+    {
+      "type": "wetlands_candidate",
+      "cells": 6,
+      "mean_elevation": 86.43333333333334,
+      "max_elevation": 116.0
+    }
+  ],
+  "biome_top20": [
+    {
+      "biome": "minecraft:snowy_taiga",
+      "cells": 1409
+    },
+    {
+      "biome": "minecraft:ocean",
+      "cells": 1248
+    },
+    {
+      "biome": "minecraft:warm_ocean",
+      "cells": 1239
+    },
+    {
+      "biome": "minecraft:lukewarm_ocean",
+      "cells": 1171
+    },
+    {
+      "biome": "terralith:steppe",
+      "cells": 1122
+    },
+    {
+      "biome": "minecraft:deep_lukewarm_ocean",
+      "cells": 948
+    },
+    {
+      "biome": "minecraft:frozen_ocean",
+      "cells": 859
+    },
+    {
+      "biome": "terralith:highlands",
+      "cells": 806
+    },
+    {
+      "biome": "minecraft:forest",
+      "cells": 732
+    },
+    {
+      "biome": "minecraft:plains",
+      "cells": 710
+    },
+    {
+      "biome": "minecraft:deep_ocean",
+      "cells": 679
+    },
+    {
+      "biome": "minecraft:cold_ocean",
+      "cells": 622
+    },
+    {
+      "biome": "terralith:deep_warm_ocean",
+      "cells": 620
+    },
+    {
+      "biome": "terralith:yellowstone",
+      "cells": 617
+    },
+    {
+      "biome": "terralith:arid_highlands",
+      "cells": 595
+    },
+    {
+      "biome": "minecraft:cherry_grove",
+      "cells": 569
+    },
+    {
+      "biome": "minecraft:savanna_plateau",
+      "cells": 567
+    },
+    {
+      "biome": "minecraft:snowy_plains",
+      "cells": 526
+    },
+    {
+      "biome": "minecraft:desert",
+      "cells": 524
+    },
+    {
+      "biome": "terralith:alpine_highlands",
+      "cells": 516
+    }
+  ],
+  "status_parser_crosschecks": [
+    {
+      "cx": 225,
+      "cz": -379,
+      "status": "minecraft:full",
+      "pass": true
+    },
+    {
+      "cx": -358,
+      "cz": -136,
+      "status": "minecraft:full",
+      "pass": true
+    },
+    {
+      "cx": 142,
+      "cz": -289,
+      "status": "minecraft:full",
+      "pass": true
+    },
+    {
+      "cx": -7,
+      "cz": -246,
+      "status": "minecraft:full",
+      "pass": true
+    },
+    {
+      "cx": -246,
+      "cz": 112,
+      "status": "minecraft:full",
+      "pass": true
+    },
+    {
+      "cx": 72,
+      "cz": 210,
+      "status": "minecraft:full",
+      "pass": true
+    },
+    {
+      "cx": -283,
+      "cz": -162,
+      "status": "minecraft:full",
+      "pass": true
+    },
+    {
+      "cx": -142,
+      "cz": -216,
+      "status": "minecraft:full",
+      "pass": true
+    },
+    {
+      "cx": -340,
+      "cz": 222,
+      "status": "minecraft:structure_starts",
+      "pass": true
+    },
+    {
+      "cx": -185,
+      "cz": -420,
+      "status": "minecraft:structure_starts",
+      "pass": true
+    },
+    {
+      "cx": -286,
+      "cz": -419,
+      "status": "minecraft:structure_starts",
+      "pass": true
+    },
+    {
+      "cx": -396,
+      "cz": -109,
+      "status": "minecraft:structure_starts",
+      "pass": true
+    },
+    {
+      "cx": -398,
+      "cz": -97,
+      "status": "minecraft:structure_starts",
+      "pass": true
+    },
+    {
+      "cx": 124,
+      "cz": -417,
+      "status": "minecraft:structure_starts",
+      "pass": true
+    },
+    {
+      "cx": 244,
+      "cz": 123,
+      "status": "minecraft:structure_starts",
+      "pass": true
+    },
+    {
+      "cx": 247,
+      "cz": -257,
+      "status": "minecraft:structure_starts",
+      "pass": true
+    },
+    {
+      "cx": 240,
+      "cz": -330,
+      "status": "minecraft:biomes",
+      "pass": true
+    },
+    {
+      "cx": -392,
+      "cz": 64,
+      "status": "minecraft:biomes",
+      "pass": true
+    },
+    {
+      "cx": -392,
+      "cz": -236,
+      "status": "minecraft:biomes",
+      "pass": true
+    },
+    {
+      "cx": -280,
+      "cz": -412,
+      "status": "minecraft:biomes",
+      "pass": true
+    },
+    {
+      "cx": 240,
+      "cz": -23,
+      "status": "minecraft:biomes",
+      "pass": true
+    },
+    {
+      "cx": -253,
+      "cz": 220,
+      "status": "minecraft:biomes",
+      "pass": true
+    },
+    {
+      "cx": 17,
+      "cz": 220,
+      "status": "minecraft:biomes",
+      "pass": true
+    },
+    {
+      "cx": -392,
+      "cz": 51,
+      "status": "minecraft:biomes",
+      "pass": true
+    },
+    {
+      "cx": 239,
+      "cz": -125,
+      "status": "minecraft:carvers",
+      "pass": true
+    },
+    {
+      "cx": -380,
+      "cz": -411,
+      "status": "minecraft:carvers",
+      "pass": true
+    },
+    {
+      "cx": 239,
+      "cz": 153,
+      "status": "minecraft:carvers",
+      "pass": true
+    },
+    {
+      "cx": 166,
+      "cz": 219,
+      "status": "minecraft:carvers",
+      "pass": true
+    },
+    {
+      "cx": 239,
+      "cz": -381,
+      "status": "minecraft:carvers",
+      "pass": true
+    },
+    {
+      "cx": 239,
+      "cz": -271,
+      "status": "minecraft:carvers",
+      "pass": true
+    },
+    {
+      "cx": 239,
+      "cz": -293,
+      "status": "minecraft:carvers",
+      "pass": true
+    },
+    {
+      "cx": 239,
+      "cz": 133,
+      "status": "minecraft:carvers",
+      "pass": true
+    },
+    {
+      "cx": -9,
+      "cz": -410,
+      "status": "minecraft:initialize_light",
+      "pass": true
+    },
+    {
+      "cx": 103,
+      "cz": 218,
+      "status": "minecraft:initialize_light",
+      "pass": true
+    },
+    {
+      "cx": -136,
+      "cz": -410,
+      "status": "minecraft:initialize_light",
+      "pass": true
+    },
+    {
+      "cx": 238,
+      "cz": -356,
+      "status": "minecraft:initialize_light",
+      "pass": true
+    },
+    {
+      "cx": -252,
+      "cz": -410,
+      "status": "minecraft:initialize_light",
+      "pass": true
+    },
+    {
+      "cx": -390,
+      "cz": -160,
+      "status": "minecraft:initialize_light",
+      "pass": true
+    },
+    {
+      "cx": -390,
+      "cz": -212,
+      "status": "minecraft:initialize_light",
+      "pass": true
+    },
+    {
+      "cx": -390,
+      "cz": -343,
+      "status": "minecraft:initialize_light",
+      "pass": true
+    }
+  ],
+  "coordinate_queries": [
+    {
+      "site": "SITE-001",
+      "point": {
+        "x": -6072,
+        "y": 645,
+        "z": -4024,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-535",
+        "mountains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-535",
+        "FEAT-476",
+        "FEAT-656",
+        "SITE-001"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-002",
+      "point": {
+        "x": -5688,
+        "y": 614,
+        "z": -1592,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-535",
+        "mountains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-535",
+        "FEAT-657",
+        "SITE-002"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-003",
+      "point": {
+        "x": -248,
+        "y": 72,
+        "z": 2056,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-288",
+        "hills_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-288",
+        "FEAT-618",
+        "SITE-003"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-004",
+      "point": {
+        "x": -3192,
+        "y": 67,
+        "z": -3704,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-573",
+        "plains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-573",
+        "FEAT-619",
+        "SITE-004"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-005",
+      "point": {
+        "x": -3000,
+        "y": 101,
+        "z": -5496,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-750",
+        "valley_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-750",
+        "FEAT-001",
+        "SITE-005"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-006",
+      "point": {
+        "x": -3256,
+        "y": 62,
+        "z": -4920,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-750",
+        "valley_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-750",
+        "FEAT-002",
+        "SITE-006"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-007",
+      "point": {
+        "x": -5368,
+        "y": 72,
+        "z": -4856,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-754",
+        "valley_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-754",
+        "FEAT-476",
+        "FEAT-666",
+        "SITE-007"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-008",
+      "point": {
+        "x": -4984,
+        "y": 87,
+        "z": -2040,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-757",
+        "valley_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-757",
+        "FEAT-476",
+        "FEAT-667",
+        "SITE-008"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-009",
+      "point": {
+        "x": 3208,
+        "y": 417,
+        "z": -376,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-534",
+        "mountains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-534",
+        "FEAT-477",
+        "SITE-009"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-010",
+      "point": {
+        "x": 3208,
+        "y": 569,
+        "z": -4472,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-534",
+        "mountains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-534",
+        "FEAT-478",
+        "SITE-010"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-011",
+      "point": {
+        "x": -312,
+        "y": 62,
+        "z": -4024,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-1081",
+        "water"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-1081",
+        "HYD-111",
+        "HYD-142",
+        "SITE-011"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-012",
+      "point": {
+        "x": 72,
+        "y": 62,
+        "z": -6264,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-1083",
+        "water"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-1083",
+        "HYD-113",
+        "HYD-145",
+        "SITE-012"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-021",
+      "point": {
+        "x": 2440,
+        "y": 276,
+        "z": -6456,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-728",
+        "plateau_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-728",
+        "SITE-021"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-014",
+      "point": {
+        "x": -4792,
+        "y": 192,
+        "z": -952,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-729",
+        "plateau_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-729",
+        "SITE-014"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-015",
+      "point": {
+        "x": -824,
+        "y": 63,
+        "z": -3384,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-566",
+        "plains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-566",
+        "SITE-015"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-016",
+      "point": {
+        "x": -4280,
+        "y": 67,
+        "z": -6008,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-567",
+        "plains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-567",
+        "SITE-016"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-017",
+      "point": {
+        "x": 2760,
+        "y": 329,
+        "z": -1848,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-534",
+        "mountains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-534",
+        "SITE-017"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-022",
+      "point": {
+        "x": 1160,
+        "y": 243,
+        "z": 2504,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-537",
+        "mountains_candidate"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-537",
+        "SITE-022"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-019",
+      "point": {
+        "x": 1096,
+        "y": 62,
+        "z": -1208,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-973",
+        "water"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-973",
+        "HYD-003",
+        "FEAT-634",
+        "SITE-019"
+      ],
+      "pass": true
+    },
+    {
+      "site": "SITE-020",
+      "point": {
+        "x": -1656,
+        "y": 62,
+        "z": -3128,
+        "y_semantics": "sampled vegetation-filtered exposed surface, not cell mean"
+      },
+      "geo": [
+        "GEO-976",
+        "water"
+      ],
+      "chunk_status": [
+        "minecraft:full"
+      ],
+      "members": [
+        "GEO-976",
+        "HYD-006",
+        "FEAT-635",
+        "SITE-020"
+      ],
+      "pass": true
+    }
+  ],
+  "unassigned_cells": 0,
+  "overlapping_geo_assignments": 0,
+  "world_audit": {
+    "world_writes_by_tool": 0,
+    "source_inventory_and_sha256_equal": true,
+    "files": 1524,
+    "total_bytes": 6658996007,
+    "guard": "CreateFileW GENERIC_READ FILE_SHARE_READ; held for every original source file throughout scan; denies source writes/deletes",
+    "new_or_deleted_files": [],
+    "changed": []
+  },
+  "architecture_upward_imports": [],
+  "derivative_regeneration_byte_identical": true,
+  "derived_file_count": 14,
+  "pass": true
+}

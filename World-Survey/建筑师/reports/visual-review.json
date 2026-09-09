@@ -1,0 +1,18 @@
+{
+  "review_type": "offline derived-map visual consistency review",
+  "in_game_visual_review_performed": false,
+  "reviewed_maps": ["generated-chunk-coverage.png", "heightmap.png", "biome-overview.png", "water-map.png", "terrain-region-map.png", "GEO-labeled-map.png", "SITE-overview-map.png"],
+  "findings": [
+    "Coverage shows one full rectangular interior and separate partially generated perimeter bands; no interior header or full-status gaps.",
+    "The broad east and west mountain classifications correspond to elevated bands in the independently decoded height samples; no obvious world-scale inversion of mountain and lowland classes was seen.",
+    "The central-to-southern water pattern is consistent between observed water samples and terrain class maps.",
+    "Fine GEO fragmentation is visible and retained, not presented as named coherent geographic provinces.",
+    "GEO labels show only the largest 35 components for legibility; all memberships remain queryable in SQLite.",
+    "Map coordinate extents describe the 64-block grid footprint. Edge cells may overhang exact full chunk bounds; use manifest full_block_bounds for the completed-world boundary."
+  ],
+  "limits": [
+    "These maps share underlying samples, so agreement does not independently validate semantic landform labels.",
+    "Valleys, mountain passes, bays, islands and peninsulas require local higher-resolution investigation or safe scene observation.",
+    "Biome colors are categorical; the full color lookup is reports/map-legends.json."
+  ]
+}
