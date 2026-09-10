@@ -1,10 +1,11 @@
 # CIV-001｜南部岛屿群人类三域联盟
 
-状态：**OWNER-APPROVED CIVILIZATION FOUNDATION / ECONOMIC SUBSTRATE PENDING**
+状态：**OWNER-APPROVED CIVILIZATION FOUNDATION / PRODUCTION-EXCHANGE DESIGN ACTIVE**
 
 当前裁定：
 
 - `../../../decisions/D-011_CIV-001人类三域联盟与三席议会方向批准.md`
+- `../../../decisions/D-013_可见世界约束与隐性设定可创作原则.md`
 - `../../../decisions/D-007_文明设定必须经过区域实地考察.md`
 
 历史决策：
@@ -53,15 +54,13 @@ Accepted implementation：`5c6bffe8efbb0a5b0f53d8dfe036e012294b9c96`
 
 ## 3. 三域骨架
 
-当前工作性分区：
-
 ### 西域
 
 空间基础：西部 C 形低岛。
 
-当前仅可稳定推导：地形低平、连续平缓空间明显多于东部，较容易承载较密集的聚落与大型公共空间。
+已知现实基础：地形低平、连续平缓空间明显多于东部，较容易承载较密集的聚落、大型公共空间以及未来由建设形成的农田 / 手工业景观。
 
-不得在资源调查前自动写成“农业核心”“最富地区”或“主要港口”。
+WB-003R 的 low-relief soil-form proxy 支持西域拥有最多低平生产空间，但这不是现成农业产量统计。
 
 ### 中域
 
@@ -69,15 +68,32 @@ Accepted implementation：`5c6bffe8efbb0a5b0f53d8dfe036e012294b9c96`
 
 当前定位：连接西部低平世界与东部高山世界的 Human Geography 过渡带。
 
-具体交通节点、贸易功能和聚落规模仍需 evidence。
+WB-003R 支持该区域在低平空间、水岸接近和山地过渡上具有中间性质；未来可以发展跨岛接驳、交换、混合聚落等功能，但具体港口 / 道路 / 城市位置需后续设计与现场确认。
 
 ### 东域
 
 空间基础：东部山地核心。
 
-当前可稳定推导：高起伏、平地稀少、空间破碎度高，因此长期直接中央治理成本更高，更容易保留地方共同体。
+已知现实基础：高起伏、平地稀少、石质表层接触明显、空间破碎度高，因此长期直接中央治理成本更高，更容易保留地方共同体，并自然形成山地聚落与石构文化。
 
-不得在资源调查前自动推导矿业、木材或特定生计。
+#### Canon-authored resource｜富矿山地
+
+Owner 已批准：
+
+> **东域是矿产总体丰富的山地区域。**
+
+这是依据 D-013 主动创作的 `CANON_AUTHORED_RESOURCE`，不是 WB-003R 144 柱样本证明出的储量结论。
+
+当前只冻结“富矿山地”方向。以下仍 TBD：
+
+- 具体优势矿种；
+- 矿脉分布；
+- 储量数字；
+- 主要矿城 / 矿井；
+- 是否存在特殊幻想矿物；
+- 矿业制度与对外贸易结构。
+
+未来如果矿井、采石场、地下城等进入玩家视野，再通过局部 Build / terrain task 把必要部分真实表现出来；不要求预先改写整座山岛地下方块分布。
 
 ## 4. 政治骨架
 
@@ -110,20 +126,21 @@ Owner 已批准：
 
 “中心岛”当前是 Owner 空间称呼，尚未与机器 component / 坐标精确对齐；因此只是规划锚点，不是 Build site authorization。
 
-## 6. 当前待补事实
+## 6. 当前经济 / 交换设计入口
 
-为了让“三域彼此依赖”的经济与交通逻辑真正扎根于 Minecraft 世界，下一步只调查会影响文明设计的最小事实：
+WB-003R 已接受为 Human Geography evidence：
 
-```text
-agricultural / lowland substrate proxies
-+ construction materials
-+ key mineral presence / distribution
-+ inland water / shoreline accessibility proxies
-+ inter-island crossing distance
-+ terrain-based movement cost
-```
+`../../../research/human-geography/southern-island/WB-003R/`
 
-未调查内容继续写 hypothesis，不提前写资源经济。
+当前允许使用：
+
+- 西域显著更多的低平生产空间；
+- 中域作为低地 / 坡麓、水岸与山地之间的过渡条件；
+- 东域石质表层环境与山地通行约束；
+- 两大岛最短水面几何间距约 24.5 blocks；
+- 东域“富矿山地”作为 Owner-approved Canon-authored resource。
+
+下一步由 GPT + Owner 收敛三域各自的主要生产、交换与相互依赖关系。
 
 ## 7. 仍继承的全局 Canon
 
