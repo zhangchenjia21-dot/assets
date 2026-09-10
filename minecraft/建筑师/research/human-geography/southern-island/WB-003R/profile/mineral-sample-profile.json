@@ -1,0 +1,546 @@
+{
+  "domains": {
+    "E": {
+      "absolute_depth_bands": [
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "copper": 1,
+            "diamond": 5,
+            "gold": 3,
+            "iron": 3,
+            "lapis": 1,
+            "redstone": 4
+          },
+          "non_air_non_fluid_blocks": 2708,
+          "ore_blocks": {
+            "copper": 1,
+            "diamond": 6,
+            "gold": 5,
+            "iron": 3,
+            "lapis": 1,
+            "redstone": 6
+          },
+          "sampled_blocks": 2880,
+          "y_inclusive": [
+            -60,
+            -1
+          ]
+        },
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 6,
+            "copper": 11,
+            "diamond": 1,
+            "iron": 3,
+            "lapis": 2
+          },
+          "non_air_non_fluid_blocks": 2604,
+          "ore_blocks": {
+            "coal": 13,
+            "copper": 19,
+            "diamond": 1,
+            "iron": 5,
+            "lapis": 3
+          },
+          "sampled_blocks": 2880,
+          "y_inclusive": [
+            0,
+            59
+          ]
+        },
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 16,
+            "copper": 9,
+            "iron": 2
+          },
+          "non_air_non_fluid_blocks": 2482,
+          "ore_blocks": {
+            "coal": 37,
+            "copper": 12,
+            "iron": 3
+          },
+          "sampled_blocks": 2880,
+          "y_inclusive": [
+            60,
+            119
+          ]
+        },
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 9,
+            "iron": 18
+          },
+          "non_air_non_fluid_blocks": 2223,
+          "ore_blocks": {
+            "coal": 16,
+            "iron": 29
+          },
+          "sampled_blocks": 2395,
+          "y_inclusive": [
+            120,
+            179
+          ]
+        },
+        {
+          "columns_intersecting": 30,
+          "columns_with_ore": {
+            "coal": 2,
+            "iron": 11
+          },
+          "non_air_non_fluid_blocks": 1163,
+          "ore_blocks": {
+            "coal": 3,
+            "iron": 19
+          },
+          "sampled_blocks": 1177,
+          "y_inclusive": [
+            180,
+            239
+          ]
+        },
+        {
+          "columns_intersecting": 8,
+          "columns_with_ore": {
+            "iron": 1
+          },
+          "non_air_non_fluid_blocks": 147,
+          "ore_blocks": {
+            "iron": 2
+          },
+          "sampled_blocks": 162,
+          "y_inclusive": [
+            240,
+            300
+          ]
+        }
+      ],
+      "columns": 48
+    },
+    "M": {
+      "absolute_depth_bands": [
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 8,
+            "iron": 3,
+            "lapis": 1,
+            "redstone": 4
+          },
+          "non_air_non_fluid_blocks": 2633,
+          "ore_blocks": {
+            "coal": 17,
+            "iron": 6,
+            "lapis": 2,
+            "redstone": 4
+          },
+          "sampled_blocks": 2880,
+          "y_inclusive": [
+            -60,
+            -1
+          ]
+        },
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 16,
+            "copper": 7,
+            "gold": 1,
+            "iron": 4
+          },
+          "non_air_non_fluid_blocks": 2625,
+          "ore_blocks": {
+            "coal": 42,
+            "copper": 16,
+            "gold": 1,
+            "iron": 6
+          },
+          "sampled_blocks": 2880,
+          "y_inclusive": [
+            0,
+            59
+          ]
+        },
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 7,
+            "copper": 2
+          },
+          "non_air_non_fluid_blocks": 895,
+          "ore_blocks": {
+            "coal": 14,
+            "copper": 4
+          },
+          "sampled_blocks": 944,
+          "y_inclusive": [
+            60,
+            119
+          ]
+        },
+        {
+          "columns_intersecting": 0,
+          "columns_with_ore": {},
+          "non_air_non_fluid_blocks": 0,
+          "ore_blocks": {},
+          "sampled_blocks": 0,
+          "y_inclusive": [
+            120,
+            179
+          ]
+        },
+        {
+          "columns_intersecting": 0,
+          "columns_with_ore": {},
+          "non_air_non_fluid_blocks": 0,
+          "ore_blocks": {},
+          "sampled_blocks": 0,
+          "y_inclusive": [
+            180,
+            239
+          ]
+        },
+        {
+          "columns_intersecting": 0,
+          "columns_with_ore": {},
+          "non_air_non_fluid_blocks": 0,
+          "ore_blocks": {},
+          "sampled_blocks": 0,
+          "y_inclusive": [
+            240,
+            300
+          ]
+        }
+      ],
+      "columns": 48
+    },
+    "W": {
+      "absolute_depth_bands": [
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 19,
+            "diamond": 3,
+            "gold": 2,
+            "iron": 3,
+            "lapis": 2,
+            "redstone": 5
+          },
+          "non_air_non_fluid_blocks": 2612,
+          "ore_blocks": {
+            "coal": 43,
+            "diamond": 3,
+            "gold": 2,
+            "iron": 3,
+            "lapis": 2,
+            "redstone": 8
+          },
+          "sampled_blocks": 2880,
+          "y_inclusive": [
+            -60,
+            -1
+          ]
+        },
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 25,
+            "copper": 7,
+            "iron": 6,
+            "lapis": 1
+          },
+          "non_air_non_fluid_blocks": 2644,
+          "ore_blocks": {
+            "coal": 72,
+            "copper": 13,
+            "iron": 10,
+            "lapis": 1
+          },
+          "sampled_blocks": 2880,
+          "y_inclusive": [
+            0,
+            59
+          ]
+        },
+        {
+          "columns_intersecting": 48,
+          "columns_with_ore": {
+            "coal": 3,
+            "copper": 1
+          },
+          "non_air_non_fluid_blocks": 336,
+          "ore_blocks": {
+            "coal": 4,
+            "copper": 2
+          },
+          "sampled_blocks": 338,
+          "y_inclusive": [
+            60,
+            119
+          ]
+        },
+        {
+          "columns_intersecting": 0,
+          "columns_with_ore": {},
+          "non_air_non_fluid_blocks": 0,
+          "ore_blocks": {},
+          "sampled_blocks": 0,
+          "y_inclusive": [
+            120,
+            179
+          ]
+        },
+        {
+          "columns_intersecting": 0,
+          "columns_with_ore": {},
+          "non_air_non_fluid_blocks": 0,
+          "ore_blocks": {},
+          "sampled_blocks": 0,
+          "y_inclusive": [
+            180,
+            239
+          ]
+        },
+        {
+          "columns_intersecting": 0,
+          "columns_with_ore": {},
+          "non_air_non_fluid_blocks": 0,
+          "ore_blocks": {},
+          "sampled_blocks": 0,
+          "y_inclusive": [
+            240,
+            300
+          ]
+        }
+      ],
+      "columns": 48
+    }
+  },
+  "limitations": "absence only within sampled columns/depth; unequal vertical coverage; compare common Y bands, never infer regional density or reserves",
+  "positive_witnesses": [
+    {
+      "block": "minecraft:deepslate_coal_ore",
+      "domain": "W",
+      "ore": "coal",
+      "region": "dimensions/minecraft/overworld/region/r.-1.3.mca",
+      "region_sha256": "3402384525a98218efcc77627da588e740f385d4d34b13226e7d296f407117bb",
+      "sample_id": "S-002",
+      "x": -32,
+      "y": 2,
+      "z": 1568
+    },
+    {
+      "block": "minecraft:lapis_ore",
+      "domain": "W",
+      "ore": "lapis",
+      "region": "dimensions/minecraft/overworld/region/r.-1.3.mca",
+      "region_sha256": "3402384525a98218efcc77627da588e740f385d4d34b13226e7d296f407117bb",
+      "sample_id": "S-002",
+      "x": -32,
+      "y": 56,
+      "z": 1568
+    },
+    {
+      "block": "minecraft:copper_ore",
+      "domain": "W",
+      "ore": "copper",
+      "region": "dimensions/minecraft/overworld/region/r.-2.3.mca",
+      "region_sha256": "322a2ecf8d2baecea5ad46c9674a07855ddae72c3a7279a2433df4dacaa7421d",
+      "sample_id": "S-003",
+      "x": -544,
+      "y": 44,
+      "z": 1632
+    },
+    {
+      "block": "minecraft:iron_ore",
+      "domain": "W",
+      "ore": "iron",
+      "region": "dimensions/minecraft/overworld/region/r.-2.3.mca",
+      "region_sha256": "322a2ecf8d2baecea5ad46c9674a07855ddae72c3a7279a2433df4dacaa7421d",
+      "sample_id": "S-005",
+      "x": -672,
+      "y": 17,
+      "z": 1760
+    },
+    {
+      "block": "minecraft:deepslate_redstone_ore",
+      "domain": "W",
+      "ore": "redstone",
+      "region": "dimensions/minecraft/overworld/region/r.-2.4.mca",
+      "region_sha256": "f0228bc75c4a37f8f51802bf6ce424a17d35b0c78721a860a327f590498fab51",
+      "sample_id": "S-010",
+      "x": -608,
+      "y": -58,
+      "z": 2208
+    },
+    {
+      "block": "minecraft:deepslate_diamond_ore",
+      "domain": "W",
+      "ore": "diamond",
+      "region": "dimensions/minecraft/overworld/region/r.-1.4.mca",
+      "region_sha256": "18bbcfb7141e72e4adca1173a029ca3e6355ad9da9b1288739cdc59c8dbaaa80",
+      "sample_id": "S-016",
+      "x": -352,
+      "y": -38,
+      "z": 2464
+    },
+    {
+      "block": "minecraft:deepslate_gold_ore",
+      "domain": "W",
+      "ore": "gold",
+      "region": "dimensions/minecraft/overworld/region/r.-1.3.mca",
+      "region_sha256": "3402384525a98218efcc77627da588e740f385d4d34b13226e7d296f407117bb",
+      "sample_id": "S-033",
+      "x": -416,
+      "y": -8,
+      "z": 1760
+    },
+    {
+      "block": "minecraft:deepslate_coal_ore",
+      "domain": "M",
+      "ore": "coal",
+      "region": "dimensions/minecraft/overworld/region/r.0.3.mca",
+      "region_sha256": "36cfc2593e3e647c774ce919155f8395ccb1dce98611a9dd8fa4aa043ff6a579",
+      "sample_id": "S-052",
+      "x": 288,
+      "y": -5,
+      "z": 1632
+    },
+    {
+      "block": "minecraft:deepslate_redstone_ore",
+      "domain": "M",
+      "ore": "redstone",
+      "region": "dimensions/minecraft/overworld/region/r.0.3.mca",
+      "region_sha256": "36cfc2593e3e647c774ce919155f8395ccb1dce98611a9dd8fa4aa043ff6a579",
+      "sample_id": "S-053",
+      "x": 352,
+      "y": -45,
+      "z": 1632
+    },
+    {
+      "block": "minecraft:iron_ore",
+      "domain": "M",
+      "ore": "iron",
+      "region": "dimensions/minecraft/overworld/region/r.-1.3.mca",
+      "region_sha256": "3402384525a98218efcc77627da588e740f385d4d34b13226e7d296f407117bb",
+      "sample_id": "S-054",
+      "x": -96,
+      "y": 17,
+      "z": 1696
+    },
+    {
+      "block": "minecraft:copper_ore",
+      "domain": "M",
+      "ore": "copper",
+      "region": "dimensions/minecraft/overworld/region/r.0.3.mca",
+      "region_sha256": "36cfc2593e3e647c774ce919155f8395ccb1dce98611a9dd8fa4aa043ff6a579",
+      "sample_id": "S-061",
+      "x": 32,
+      "y": 55,
+      "z": 1824
+    },
+    {
+      "block": "minecraft:deepslate_lapis_ore",
+      "domain": "M",
+      "ore": "lapis",
+      "region": "dimensions/minecraft/overworld/region/r.-1.3.mca",
+      "region_sha256": "3402384525a98218efcc77627da588e740f385d4d34b13226e7d296f407117bb",
+      "sample_id": "S-075",
+      "x": -224,
+      "y": -14,
+      "z": 1888
+    },
+    {
+      "block": "minecraft:deepslate_gold_ore",
+      "domain": "M",
+      "ore": "gold",
+      "region": "dimensions/minecraft/overworld/region/r.1.3.mca",
+      "region_sha256": "1c338d3d27a6d8ab1d24cfc711c9ea0bc81dd144b4aa1a2ac38c719ee90603e7",
+      "sample_id": "S-083",
+      "x": 544,
+      "y": 6,
+      "z": 1632
+    },
+    {
+      "block": "minecraft:coal_ore",
+      "domain": "E",
+      "ore": "coal",
+      "region": "dimensions/minecraft/overworld/region/r.1.3.mca",
+      "region_sha256": "1c338d3d27a6d8ab1d24cfc711c9ea0bc81dd144b4aa1a2ac38c719ee90603e7",
+      "sample_id": "S-097",
+      "x": 992,
+      "y": 37,
+      "z": 1632
+    },
+    {
+      "block": "minecraft:iron_ore",
+      "domain": "E",
+      "ore": "iron",
+      "region": "dimensions/minecraft/overworld/region/r.1.3.mca",
+      "region_sha256": "1c338d3d27a6d8ab1d24cfc711c9ea0bc81dd144b4aa1a2ac38c719ee90603e7",
+      "sample_id": "S-098",
+      "x": 928,
+      "y": 128,
+      "z": 1696
+    },
+    {
+      "block": "minecraft:deepslate_redstone_ore",
+      "domain": "E",
+      "ore": "redstone",
+      "region": "dimensions/minecraft/overworld/region/r.1.3.mca",
+      "region_sha256": "1c338d3d27a6d8ab1d24cfc711c9ea0bc81dd144b4aa1a2ac38c719ee90603e7",
+      "sample_id": "S-098",
+      "x": 928,
+      "y": -39,
+      "z": 1696
+    },
+    {
+      "block": "minecraft:copper_ore",
+      "domain": "E",
+      "ore": "copper",
+      "region": "dimensions/minecraft/overworld/region/r.1.3.mca",
+      "region_sha256": "1c338d3d27a6d8ab1d24cfc711c9ea0bc81dd144b4aa1a2ac38c719ee90603e7",
+      "sample_id": "S-099",
+      "x": 800,
+      "y": 27,
+      "z": 1888
+    },
+    {
+      "block": "minecraft:deepslate_gold_ore",
+      "domain": "E",
+      "ore": "gold",
+      "region": "dimensions/minecraft/overworld/region/r.1.3.mca",
+      "region_sha256": "1c338d3d27a6d8ab1d24cfc711c9ea0bc81dd144b4aa1a2ac38c719ee90603e7",
+      "sample_id": "S-099",
+      "x": 800,
+      "y": -25,
+      "z": 1888
+    },
+    {
+      "block": "minecraft:deepslate_diamond_ore",
+      "domain": "E",
+      "ore": "diamond",
+      "region": "dimensions/minecraft/overworld/region/r.1.4.mca",
+      "region_sha256": "be64bf4fdb589b8e768dc7ca7359cf7798554fb25676d9bfd561ea7bd988a3e9",
+      "sample_id": "S-103",
+      "x": 736,
+      "y": 3,
+      "z": 2336
+    },
+    {
+      "block": "minecraft:lapis_ore",
+      "domain": "E",
+      "ore": "lapis",
+      "region": "dimensions/minecraft/overworld/region/r.3.4.mca",
+      "region_sha256": "8c808c93c93eef88ea79c3d5fd9c1282b0b673817570dc500379d22f820662cf",
+      "sample_id": "S-106",
+      "x": 2016,
+      "y": 43,
+      "z": 2528
+    }
+  ]
+}

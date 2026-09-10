@@ -1,0 +1,27 @@
+{
+  "critical_override": "X-02 rejected as clear straight crossing; exact geometry overrides finite sampling",
+  "entry_order": [
+    "manifest/lineage.json",
+    "manifest/source-fingerprint.json",
+    "review/key-metrics.json",
+    "review/sampling-design.json",
+    "review/stratified-witnesses.jsonl",
+    "profile/substrate-summary.json",
+    "profile/material-profile.json",
+    "profile/mineral-sample-profile.json",
+    "profile/water-access-profile.json",
+    "profile/crossing-profile.json",
+    "profile/movement-corridors.json",
+    "validation/geometry-sampling.json",
+    "validation/aggregate-witness-check.json",
+    "validation/rebuild.json",
+    "validation/source-audit.json",
+    "profile/human-geography-hypotheses.json",
+    "reports/经济与通达性前置画像.md",
+    "visual/substrate-access.png",
+    "manifest/raw-cache.json",
+    "review/limitations.json"
+  ],
+  "status": "IMPLEMENTATION COMPLETED / AWAITING INDEPENDENT REVIEW",
+  "task": "WB-003R"
+}

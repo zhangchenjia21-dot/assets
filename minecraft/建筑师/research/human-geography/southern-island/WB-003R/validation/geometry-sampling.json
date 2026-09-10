@@ -1,0 +1,108 @@
+{
+  "corridor_edges": [
+    {
+      "all_edges_dry_cardinal": true,
+      "edges": 1096,
+      "id": "C-01",
+      "max_step": 1,
+      "recomputed_cost": 3062.5766965150833,
+      "variant": "baseline"
+    },
+    {
+      "all_edges_dry_cardinal": true,
+      "edges": 1100,
+      "id": "C-01",
+      "max_step": 1,
+      "recomputed_cost": 5247.290508985519,
+      "variant": "sensitivity"
+    },
+    {
+      "all_edges_dry_cardinal": true,
+      "edges": 1725,
+      "id": "C-02",
+      "max_step": 1,
+      "recomputed_cost": 5478.198129296303,
+      "variant": "baseline"
+    },
+    {
+      "all_edges_dry_cardinal": true,
+      "edges": 2169,
+      "id": "C-02",
+      "max_step": 1,
+      "recomputed_cost": 9346.716828346252,
+      "variant": "sensitivity"
+    },
+    {
+      "all_edges_dry_cardinal": true,
+      "edges": 2506,
+      "id": "C-03",
+      "max_step": 1,
+      "recomputed_cost": 7409.587080359459,
+      "variant": "baseline"
+    },
+    {
+      "all_edges_dry_cardinal": true,
+      "edges": 2978,
+      "id": "C-03",
+      "max_step": 1,
+      "recomputed_cost": 11964.375874996185,
+      "variant": "sensitivity"
+    }
+  ],
+  "crossing_exact_supercover": [
+    {
+      "closed_cell_supercover_water_only": true,
+      "dry_cells": [],
+      "id": "X-00",
+      "water_cells": 32,
+      "water_depth_min_max": [
+        1,
+        11
+      ]
+    },
+    {
+      "closed_cell_supercover_water_only": true,
+      "dry_cells": [],
+      "id": "X-01",
+      "water_cells": 71,
+      "water_depth_min_max": [
+        1,
+        10
+      ]
+    },
+    {
+      "closed_cell_supercover_water_only": false,
+      "dry_cells": [
+        [
+          -170,
+          1981
+        ]
+      ],
+      "id": "X-02",
+      "water_cells": 37,
+      "water_depth_min_max": [
+        1,
+        11
+      ]
+    },
+    {
+      "closed_cell_supercover_water_only": true,
+      "dry_cells": [],
+      "id": "X-03",
+      "water_cells": 86,
+      "water_depth_min_max": [
+        1,
+        10
+      ]
+    }
+  ],
+  "distance_brute_force_cells": 143,
+  "east_boundary_guard": true,
+  "global_gap_independent_bounded_pair_check": {
+    "evaluated_pairs": 51,
+    "gap": 24.515301344262525
+  },
+  "limitations": "edge and deterministic rebuild checks do not independently prove global least-cost optimality; Dijkstra nonnegative graph algorithm provides that within chosen cost model",
+  "sample_design_exact_match": 144,
+  "status": "PASS"
+}

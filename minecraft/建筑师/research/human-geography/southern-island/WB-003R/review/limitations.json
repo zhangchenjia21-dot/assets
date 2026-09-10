@@ -1,0 +1,17 @@
+{
+  "limitations": [
+    "Research masks are not exact human-region boundaries; 547618 land columns explicitly unassigned.",
+    "Soil/flat/biome/water geometry do not measure yields, fertility, population or buildability.",
+    "Vegetation sparse block observations are not tree counts or sustainable timber inventory.",
+    "Existing surface may include natural, generated structure or artificial blocks; no pristine-natural claim.",
+    "144 lattice columns with unequal domain sampling density and vertical extent cannot estimate regional ore reserves or absences.",
+    "Native biome resolution is 4x4x4; cache repeats per-column lookup.",
+    "Inland water means surface enclosure only; no water quality or replenishment proof.",
+    "X-02 sampled water-only result is rejected by exact closed-cell intersection; all discrepancy evidence retained.",
+    "Water gap and landing proxies are not harbors, navigation guarantees or trade routes.",
+    "Cost corridors lack headroom, collision, hazards and actor movement validation; C-02/C-03 sensitive to weights.",
+    "No source-world rescan, Canon, Architecture or Build changes.",
+    "Owner council-center referent remains OWNER_REFERENT / COORDINATE_TBD.",
+    "Full raw is LOCAL_ONLY; if missing report MISSING_LOCAL_CACHE; changed world cannot recreate old snapshot."
+  ]
+}

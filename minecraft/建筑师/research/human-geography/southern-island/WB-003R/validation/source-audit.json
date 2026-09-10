@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-09-10T01:34:21.984898+00:00",
+  "full_inventory_hash_size_mtime_equal": true,
+  "immutable": {
+    "NG-2": true,
+    "NG-3": true,
+    "R1": true,
+    "V1": true,
+    "WB-002R": true,
+    "canon": true
+  },
+  "world_unchanged_since_start": true,
+  "world_writes": 0
+}

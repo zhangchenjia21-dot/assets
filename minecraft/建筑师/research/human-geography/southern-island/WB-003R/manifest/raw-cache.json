@@ -1,0 +1,80 @@
+{
+  "files": [
+    {
+      "bytes": 710929,
+      "cache_id": "WB003R-MINERAL-COLUMNS",
+      "generated_at": "2026-09-10T01:16:42.654832+00:00",
+      "generated_at_basis": "existing file mtime; source audit time is separate",
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\WB-003R\\mineral-columns.json",
+      "rebuild_command": "same unchanged world epoch: init then sample in a new empty cache; never overwrite retained cache",
+      "remote_policy": "not included in this new bundle; predecessor historical archives remain unchanged",
+      "retention": "PRESERVE_LOCAL",
+      "schema": "economic-access-substrate/1.0; list of columns, blocks indexed Y+60",
+      "sha256": "bdaa6bba529239d7b71ad900ccc5b92b4bab151cc2f22e3f5f611e550eddbc1f",
+      "source_epoch": "2026-09-10T01:13:37.389200+00:00",
+      "source_world_fingerprint": "7b6e19b4a0d07c7a4b8e469e8a13b754c77674fcc206dba593d03eaf70e1f304",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "bytes": 387272,
+      "cache_id": "WB003R-SOURCE-BEFORE",
+      "generated_at": "2026-09-10T01:13:37.387806+00:00",
+      "generated_at_basis": "existing file mtime; source audit time is separate",
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\WB-003R\\source-before.json",
+      "rebuild_command": "historical initial inventory cannot be recreated after world changes; preserve original",
+      "remote_policy": "not included in this new bundle; predecessor historical archives remain unchanged",
+      "retention": "PRESERVE_LOCAL",
+      "schema": "root -> relative file -> sha256,size,mtime_ns",
+      "sha256": "7b6e19b4a0d07c7a4b8e469e8a13b754c77674fcc206dba593d03eaf70e1f304",
+      "source_epoch": "2026-09-10T01:13:37.389200+00:00",
+      "source_world_fingerprint": "7b6e19b4a0d07c7a4b8e469e8a13b754c77674fcc206dba593d03eaf70e1f304",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "bytes": 244928512,
+      "cache_id": "R1-OBSERVED",
+      "generated_at": "2026-09-09T10:42:18.410467+00:00",
+      "generated_at_basis": "existing file mtime; source audit time is separate",
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\research\\human-geography\\southern-island\\WB-002R-R1\\raw-or-queryable\\observed.sqlite",
+      "rebuild_command": "restore verified predecessor archive per R1 README",
+      "remote_policy": "not included in this new bundle; predecessor historical archives remain unchanged",
+      "retention": "PRESERVE_LOCAL",
+      "schema": "R1 observed SQLite",
+      "sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7",
+      "source_epoch": "2026-09-10T01:13:37.389200+00:00",
+      "source_world_fingerprint": "7b6e19b4a0d07c7a4b8e469e8a13b754c77674fcc206dba593d03eaf70e1f304",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "bytes": 525959168,
+      "cache_id": "R1-PROFILE",
+      "generated_at": "2026-09-09T11:05:43.741503+00:00",
+      "generated_at_basis": "existing file mtime; source audit time is separate",
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\research\\human-geography\\southern-island\\WB-002R-R1\\raw-or-queryable\\regional-profile.sqlite",
+      "rebuild_command": "restore verified predecessor archive per R1 README",
+      "remote_policy": "not included in this new bundle; predecessor historical archives remain unchanged",
+      "retention": "PRESERVE_LOCAL",
+      "schema": "R1 regional profile SQLite",
+      "sha256": "677378f98cff9e6acaeb32700a141382bceb15621acf5a4487ac3b17821293b6",
+      "source_epoch": "2026-09-10T01:13:37.389200+00:00",
+      "source_world_fingerprint": "7b6e19b4a0d07c7a4b8e469e8a13b754c77674fcc206dba593d03eaf70e1f304",
+      "status": "LOCAL_ONLY"
+    },
+    {
+      "bytes": 5083529,
+      "cache_id": "R1-DERIVED",
+      "generated_at": "2026-09-09T11:04:41.528125+00:00",
+      "generated_at_basis": "existing file mtime; source audit time is separate",
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\research\\human-geography\\southern-island\\WB-002R-R1\\raw-or-queryable\\derived.npz",
+      "rebuild_command": "reuse predecessor artifact and source hashes; no new full-world scan",
+      "remote_policy": "not included in this new bundle; predecessor historical archives remain unchanged",
+      "retention": "PRESERVE_LOCAL",
+      "schema": "R1 terrain/topology arrays",
+      "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff",
+      "source_epoch": "2026-09-10T01:13:37.389200+00:00",
+      "source_world_fingerprint": "7b6e19b4a0d07c7a4b8e469e8a13b754c77674fcc206dba593d03eaf70e1f304",
+      "status": "LOCAL_ONLY"
+    }
+  ],
+  "schema": "raw-cache-manifest/1"
+}

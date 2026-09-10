@@ -1,0 +1,959 @@
+{
+  "candidates": [
+    {
+      "east": {
+        "adjacent_water": [
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -169,
+            "z": 1981
+          },
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -170,
+            "z": 1982
+          }
+        ],
+        "relief16": 5,
+        "step1": 0,
+        "straight_inland_approach": {
+          "length_blocks": 16,
+          "max_step": 2,
+          "path": [
+            [
+              -170,
+              1981,
+              62
+            ],
+            [
+              -170,
+              1980,
+              62
+            ],
+            [
+              -170,
+              1979,
+              63
+            ],
+            [
+              -170,
+              1978,
+              64
+            ],
+            [
+              -170,
+              1977,
+              65
+            ],
+            [
+              -170,
+              1976,
+              67
+            ],
+            [
+              -170,
+              1975,
+              67
+            ],
+            [
+              -170,
+              1974,
+              67
+            ],
+            [
+              -170,
+              1973,
+              67
+            ],
+            [
+              -170,
+              1972,
+              67
+            ],
+            [
+              -170,
+              1971,
+              67
+            ],
+            [
+              -170,
+              1970,
+              67
+            ],
+            [
+              -170,
+              1969,
+              67
+            ],
+            [
+              -170,
+              1968,
+              67
+            ],
+            [
+              -170,
+              1967,
+              68
+            ],
+            [
+              -170,
+              1966,
+              68
+            ],
+            [
+              -170,
+              1965,
+              68
+            ]
+          ]
+        },
+        "surface_y": 62,
+        "x": -170,
+        "z": 1981
+      },
+      "edge_to_edge_gap_blocks": 24.515301344262525,
+      "exact_closed_cell_water_only": true,
+      "id": "X-00",
+      "interpretation": "surface geometric crossing proxy, not route/navigation authorization; exact check overrides sampled check",
+      "intersected_dry_cells": [],
+      "sampled_straight_segment_water_only": true,
+      "segment_sample_step_max": 0.125,
+      "selection": "global minimum",
+      "shore_center_distance": 25.709920264364882,
+      "status": "WATER_GAP_PROXY",
+      "west": {
+        "adjacent_water": [
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -165,
+            "z": 2006
+          },
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -164,
+            "z": 2005
+          }
+        ],
+        "relief16": 5,
+        "step1": 1,
+        "straight_inland_approach": {
+          "length_blocks": 16,
+          "max_step": 1,
+          "path": [
+            [
+              -164,
+              2006,
+              62
+            ],
+            [
+              -164,
+              2007,
+              63
+            ],
+            [
+              -164,
+              2008,
+              64
+            ],
+            [
+              -164,
+              2009,
+              65
+            ],
+            [
+              -164,
+              2010,
+              65
+            ],
+            [
+              -164,
+              2011,
+              66
+            ],
+            [
+              -164,
+              2012,
+              67
+            ],
+            [
+              -164,
+              2013,
+              67
+            ],
+            [
+              -164,
+              2014,
+              67
+            ],
+            [
+              -164,
+              2015,
+              67
+            ],
+            [
+              -164,
+              2016,
+              67
+            ],
+            [
+              -164,
+              2017,
+              68
+            ],
+            [
+              -164,
+              2018,
+              68
+            ],
+            [
+              -164,
+              2019,
+              68
+            ],
+            [
+              -164,
+              2020,
+              68
+            ],
+            [
+              -164,
+              2021,
+              68
+            ],
+            [
+              -164,
+              2022,
+              68
+            ]
+          ]
+        },
+        "surface_y": 62,
+        "x": -164,
+        "z": 2006
+      }
+    },
+    {
+      "east": {
+        "adjacent_water": [
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -254,
+            "z": 1748
+          },
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -253,
+            "z": 1747
+          }
+        ],
+        "relief16": 5,
+        "step1": 0,
+        "straight_inland_approach": {
+          "length_blocks": 16,
+          "max_step": 1,
+          "path": [
+            [
+              -253,
+              1748,
+              62
+            ],
+            [
+              -253,
+              1749,
+              62
+            ],
+            [
+              -253,
+              1750,
+              62
+            ],
+            [
+              -253,
+              1751,
+              62
+            ],
+            [
+              -253,
+              1752,
+              62
+            ],
+            [
+              -253,
+              1753,
+              63
+            ],
+            [
+              -253,
+              1754,
+              64
+            ],
+            [
+              -253,
+              1755,
+              65
+            ],
+            [
+              -253,
+              1756,
+              66
+            ],
+            [
+              -253,
+              1757,
+              66
+            ],
+            [
+              -253,
+              1758,
+              66
+            ],
+            [
+              -253,
+              1759,
+              67
+            ],
+            [
+              -253,
+              1760,
+              67
+            ],
+            [
+              -253,
+              1761,
+              67
+            ],
+            [
+              -253,
+              1762,
+              68
+            ],
+            [
+              -253,
+              1763,
+              68
+            ],
+            [
+              -253,
+              1764,
+              68
+            ]
+          ]
+        },
+        "surface_y": 62,
+        "x": -253,
+        "z": 1748
+      },
+      "edge_to_edge_gap_blocks": 50.53711507397311,
+      "exact_closed_cell_water_only": true,
+      "id": "X-01",
+      "interpretation": "surface geometric crossing proxy, not route/navigation authorization; exact check overrides sampled check",
+      "intersected_dry_cells": [],
+      "sampled_straight_segment_water_only": true,
+      "segment_sample_step_max": 0.125,
+      "selection": "low-approach shores in Z[1400,1750)",
+      "shore_center_distance": 51.884487084291386,
+      "status": "WATER_GAP_PROXY",
+      "west": {
+        "adjacent_water": [
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -298,
+            "z": 1724
+          },
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -299,
+            "z": 1725
+          },
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -299,
+            "z": 1723
+          }
+        ],
+        "relief16": 3,
+        "step1": 0,
+        "straight_inland_approach": {
+          "length_blocks": 16,
+          "max_step": 1,
+          "path": [
+            [
+              -299,
+              1724,
+              62
+            ],
+            [
+              -300,
+              1724,
+              62
+            ],
+            [
+              -301,
+              1724,
+              62
+            ],
+            [
+              -302,
+              1724,
+              63
+            ],
+            [
+              -303,
+              1724,
+              63
+            ],
+            [
+              -304,
+              1724,
+              63
+            ],
+            [
+              -305,
+              1724,
+              64
+            ],
+            [
+              -306,
+              1724,
+              65
+            ],
+            [
+              -307,
+              1724,
+              65
+            ],
+            [
+              -308,
+              1724,
+              66
+            ],
+            [
+              -309,
+              1724,
+              66
+            ],
+            [
+              -310,
+              1724,
+              66
+            ],
+            [
+              -311,
+              1724,
+              67
+            ],
+            [
+              -312,
+              1724,
+              67
+            ],
+            [
+              -313,
+              1724,
+              66
+            ],
+            [
+              -314,
+              1724,
+              66
+            ],
+            [
+              -315,
+              1724,
+              66
+            ]
+          ]
+        },
+        "surface_y": 62,
+        "x": -299,
+        "z": 1724
+      }
+    },
+    {
+      "east": {
+        "adjacent_water": [
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -171,
+            "z": 1982
+          }
+        ],
+        "relief16": 5,
+        "step1": 1,
+        "straight_inland_approach": {
+          "length_blocks": 16,
+          "max_step": 1,
+          "path": [
+            [
+              -171,
+              1981,
+              62
+            ],
+            [
+              -171,
+              1980,
+              63
+            ],
+            [
+              -171,
+              1979,
+              64
+            ],
+            [
+              -171,
+              1978,
+              65
+            ],
+            [
+              -171,
+              1977,
+              65
+            ],
+            [
+              -171,
+              1976,
+              66
+            ],
+            [
+              -171,
+              1975,
+              67
+            ],
+            [
+              -171,
+              1974,
+              67
+            ],
+            [
+              -171,
+              1973,
+              67
+            ],
+            [
+              -171,
+              1972,
+              67
+            ],
+            [
+              -171,
+              1971,
+              67
+            ],
+            [
+              -171,
+              1970,
+              67
+            ],
+            [
+              -171,
+              1969,
+              67
+            ],
+            [
+              -171,
+              1968,
+              67
+            ],
+            [
+              -171,
+              1967,
+              67
+            ],
+            [
+              -171,
+              1966,
+              67
+            ],
+            [
+              -171,
+              1965,
+              68
+            ]
+          ]
+        },
+        "surface_y": 62,
+        "x": -171,
+        "z": 1981
+      },
+      "edge_to_edge_gap_blocks": 24.73863375370596,
+      "exact_closed_cell_water_only": false,
+      "id": "X-02",
+      "interpretation": "surface geometric crossing proxy, not route/navigation authorization; exact check overrides sampled check",
+      "intersected_dry_cells": [
+        [
+          -170,
+          1981
+        ]
+      ],
+      "sampled_straight_segment_water_only": true,
+      "segment_sample_step_max": 0.125,
+      "selection": "low-approach shores in Z[1750,2100)",
+      "shore_center_distance": 25.96150997149434,
+      "status": "REJECTED_AS_CLEAR_STRAIGHT_CROSSING",
+      "west": {
+        "adjacent_water": [
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -165,
+            "z": 2006
+          },
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": -164,
+            "z": 2005
+          }
+        ],
+        "relief16": 5,
+        "step1": 1,
+        "straight_inland_approach": {
+          "length_blocks": 16,
+          "max_step": 1,
+          "path": [
+            [
+              -164,
+              2006,
+              62
+            ],
+            [
+              -164,
+              2007,
+              63
+            ],
+            [
+              -164,
+              2008,
+              64
+            ],
+            [
+              -164,
+              2009,
+              65
+            ],
+            [
+              -164,
+              2010,
+              65
+            ],
+            [
+              -164,
+              2011,
+              66
+            ],
+            [
+              -164,
+              2012,
+              67
+            ],
+            [
+              -164,
+              2013,
+              67
+            ],
+            [
+              -164,
+              2014,
+              67
+            ],
+            [
+              -164,
+              2015,
+              67
+            ],
+            [
+              -164,
+              2016,
+              67
+            ],
+            [
+              -164,
+              2017,
+              68
+            ],
+            [
+              -164,
+              2018,
+              68
+            ],
+            [
+              -164,
+              2019,
+              68
+            ],
+            [
+              -164,
+              2020,
+              68
+            ],
+            [
+              -164,
+              2021,
+              68
+            ],
+            [
+              -164,
+              2022,
+              68
+            ]
+          ]
+        },
+        "surface_y": 62,
+        "x": -164,
+        "z": 2006
+      }
+    },
+    {
+      "east": {
+        "adjacent_water": [
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": 325,
+            "z": 2326
+          },
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": 326,
+            "z": 2325
+          }
+        ],
+        "relief16": 8,
+        "step1": 0,
+        "straight_inland_approach": {
+          "length_blocks": 13,
+          "max_step": 1,
+          "path": [
+            [
+              326,
+              2326,
+              62
+            ],
+            [
+              326,
+              2327,
+              62
+            ],
+            [
+              326,
+              2328,
+              62
+            ],
+            [
+              326,
+              2329,
+              62
+            ],
+            [
+              326,
+              2330,
+              63
+            ],
+            [
+              326,
+              2331,
+              63
+            ],
+            [
+              326,
+              2332,
+              64
+            ],
+            [
+              326,
+              2333,
+              63
+            ],
+            [
+              326,
+              2334,
+              63
+            ],
+            [
+              326,
+              2335,
+              63
+            ],
+            [
+              326,
+              2336,
+              63
+            ],
+            [
+              326,
+              2337,
+              63
+            ],
+            [
+              326,
+              2338,
+              62
+            ],
+            [
+              326,
+              2339,
+              62
+            ]
+          ]
+        },
+        "surface_y": 62,
+        "x": 326,
+        "z": 2326
+      },
+      "edge_to_edge_gap_blocks": 56.43580423808985,
+      "exact_closed_cell_water_only": true,
+      "id": "X-03",
+      "interpretation": "surface geometric crossing proxy, not route/navigation authorization; exact check overrides sampled check",
+      "intersected_dry_cells": [],
+      "sampled_straight_segment_water_only": true,
+      "segment_sample_step_max": 0.125,
+      "selection": "low-approach shores in Z[2100,2550)",
+      "shore_center_distance": 57.8013840664737,
+      "status": "WATER_GAP_PROXY",
+      "west": {
+        "adjacent_water": [
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": 277,
+            "z": 2297
+          },
+          {
+            "bottom_y": 62,
+            "depth_blocks": 1,
+            "top_y": 62,
+            "x": 276,
+            "z": 2298
+          }
+        ],
+        "relief16": 1,
+        "step1": 0,
+        "straight_inland_approach": {
+          "length_blocks": 16,
+          "max_step": 1,
+          "path": [
+            [
+              276,
+              2297,
+              62
+            ],
+            [
+              276,
+              2296,
+              62
+            ],
+            [
+              276,
+              2295,
+              62
+            ],
+            [
+              276,
+              2294,
+              62
+            ],
+            [
+              276,
+              2293,
+              62
+            ],
+            [
+              276,
+              2292,
+              62
+            ],
+            [
+              276,
+              2291,
+              62
+            ],
+            [
+              276,
+              2290,
+              62
+            ],
+            [
+              276,
+              2289,
+              62
+            ],
+            [
+              276,
+              2288,
+              63
+            ],
+            [
+              276,
+              2287,
+              63
+            ],
+            [
+              276,
+              2286,
+              63
+            ],
+            [
+              276,
+              2285,
+              63
+            ],
+            [
+              276,
+              2284,
+              63
+            ],
+            [
+              276,
+              2283,
+              63
+            ],
+            [
+              276,
+              2282,
+              63
+            ],
+            [
+              276,
+              2281,
+              63
+            ]
+          ]
+        },
+        "surface_y": 62,
+        "x": 276,
+        "z": 2297
+      }
+    }
+  ],
+  "method": "exhaustive nearest unit-square shoreline distance; global plus three predeclared latitude bands with 8-block <=1 step inward approach and relief16<=8",
+  "minimum_search_sizes": [
+    5675,
+    11765
+  ]
+}

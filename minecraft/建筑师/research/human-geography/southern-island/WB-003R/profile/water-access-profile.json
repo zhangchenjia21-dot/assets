@@ -1,0 +1,23 @@
+{
+  "domains": {
+    "E": {
+      "land_within_16_of_internal_water": 3825,
+      "land_within_64_of_internal_water": 76730,
+      "landing_proxy_shore_columns": 7,
+      "shore_columns": 68
+    },
+    "M": {
+      "land_within_16_of_internal_water": 9197,
+      "land_within_64_of_internal_water": 63239,
+      "landing_proxy_shore_columns": 2672,
+      "shore_columns": 3758
+    },
+    "W": {
+      "land_within_16_of_internal_water": 24306,
+      "land_within_64_of_internal_water": 149103,
+      "landing_proxy_shore_columns": 5370,
+      "shore_columns": 5675
+    }
+  },
+  "method": "WATER_ACCESS_PROXY: geometric Manhattan distance to R1 enclosed surface water; LANDING_ACCESS_PROXY: 8 dry inward cardinal steps <=1 with relief16<=8; no freshwater, navigation or port claim"
+}

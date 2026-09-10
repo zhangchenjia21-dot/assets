@@ -1,0 +1,56 @@
+{
+  "block_positions": 25176,
+  "corridors": [
+    {
+      "id": "C-01",
+      "length_blocks": 1096,
+      "maximum_single_step": 1
+    },
+    {
+      "id": "C-02",
+      "length_blocks": 1725,
+      "maximum_single_step": 1
+    },
+    {
+      "id": "C-03",
+      "length_blocks": 2506,
+      "maximum_single_step": 1
+    }
+  ],
+  "crossings": [
+    {
+      "edge_to_edge_gap_blocks": 24.515301344262525,
+      "id": "X-00",
+      "status": "WATER_GAP_PROXY"
+    },
+    {
+      "edge_to_edge_gap_blocks": 50.53711507397311,
+      "id": "X-01",
+      "status": "WATER_GAP_PROXY"
+    },
+    {
+      "edge_to_edge_gap_blocks": 24.73863375370596,
+      "id": "X-02",
+      "status": "REJECTED_AS_CLEAR_STRAIGHT_CROSSING"
+    },
+    {
+      "edge_to_edge_gap_blocks": 56.43580423808985,
+      "id": "X-03",
+      "status": "WATER_GAP_PROXY"
+    }
+  ],
+  "domain_columns": {
+    "E": 882985,
+    "M": 250715,
+    "W": 575363
+  },
+  "sample_columns": 144,
+  "soil_lowrelief_fraction": {
+    "E": 0.03519312332599082,
+    "M": 0.3186287218554933,
+    "W": 0.6036328370089838
+  },
+  "unassigned_land_columns": 547618,
+  "whole_region_rescan": false,
+  "world_writes": 0
+}

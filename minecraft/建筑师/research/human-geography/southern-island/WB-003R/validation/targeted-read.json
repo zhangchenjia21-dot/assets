@@ -1,0 +1,9 @@
+{
+  "chunks": 144,
+  "sample_columns": 144,
+  "scalar_vector_comparisons": 25176,
+  "source_unchanged": true,
+  "status": "PASS",
+  "whole_region_rescan": false,
+  "world_writes": 0
+}

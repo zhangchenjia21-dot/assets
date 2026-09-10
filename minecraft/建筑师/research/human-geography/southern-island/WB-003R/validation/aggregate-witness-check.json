@@ -1,0 +1,10 @@
+{
+  "independent_segment_algorithms_agree": true,
+  "independent_sql_material_domains": 3,
+  "known_sampled_vs_exact_discrepancy": "X-02 retained and rejected, not hidden",
+  "material_count_conservation": true,
+  "positive_mineral_witnesses": 20,
+  "raw_sample_blocks": 25176,
+  "status": "PASS",
+  "stratified_top16_witnesses": 18
+}

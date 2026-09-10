@@ -1,0 +1,13 @@
+{
+  "authority": "Research only; manually interpreted from referenced facts; no Canon promotion",
+  "owner_center_island": "OWNER_REFERENT / COORDINATE_TBD",
+  "hypotheses": [
+    {"id":"HG-01","status":"SUPPORTED_BY_CURRENT_EVIDENCE","claim":"W研究样区低平土壤形态空间多于M，M多于E。","evidence":["substrate-summary.json"],"limit":"研究掩膜有高程选择偏差；非肥力、农业产量、完整领土或建设许可。"},
+    {"id":"HG-02","status":"SUPPORTED_BY_CURRENT_EVIDENCE","claim":"E样区表层石质palette与W沙质接触存在差异；三类样区均有木本样本和近表层stone。","evidence":["material-profile.json"],"limit":"非材料总储量、采伐能力或自然来源保证。"},
+    {"id":"HG-03","status":"NOT_SUPPORTED","claim":"本次矿物样本足以确认东域富矿或三域矿物垄断分工。","evidence":["mineral-sample-profile.json"],"limit":"144柱稀疏且垂向长度不等，样本未见不代表岛域缺失。"},
+    {"id":"HG-04","status":"SUPPORTED_BY_CURRENT_EVIDENCE","claim":"两岛最短岸方格水面几何间距约24.5153格；X-01/X-03另有低坡岸对proxy。","evidence":["crossing-profile.json","../validation/geometry-sampling.json"],"limit":"X-02拒绝为清晰直线跨越；其余亦不代表港口或航行能力。"},
+    {"id":"HG-05","status":"SUPPORTED_BY_CURRENT_EVIDENCE","claim":"指定东岛干陆代价图中3组端点有低单步路径，后两条权重敏感。","evidence":["movement-corridors.json"],"limit":"并非独立交通干线，未验证净空与真实行动可行性。"},
+    {"id":"HG-06","status":"PLAUSIBLE_BUT_UNVERIFIED","claim":"M的低地/坡麓与跨岛接近条件可能支持衔接交换活动；低平空间与石质材料差异可能产生互补需求。","evidence":["substrate-summary.json","material-profile.json","crossing-profile.json","movement-corridors.json"],"limit":"仍缺技术、生产、需求、劳力、季节和实测运输信息；非必然相互依赖或正式贸易路线。"},
+    {"id":"HG-07","status":"NOT_SUPPORTED","claim":"现有证据足以给Owner中心岛确定机器坐标或三席议会建筑选址。","evidence":[],"limit":"OWNER_REFERENT / COORDINATE_TBD；本轮不规划建筑。"}
+  ]
+}

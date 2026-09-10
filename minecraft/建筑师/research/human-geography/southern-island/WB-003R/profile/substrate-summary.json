@@ -1,0 +1,185 @@
+{
+  "bounds": [
+    -800,
+    1376,
+    2463,
+    3487
+  ],
+  "domains": {
+    "E": {
+      "columns": 882985,
+      "elevation": {
+        "max": 300.0,
+        "median": 199.0,
+        "min": 140.0,
+        "p10": 145.0,
+        "p90": 256.0
+      },
+      "flat_columns": 12630,
+      "gentle_columns": 57691,
+      "proxy_inland_water_manhattan_distance": {
+        "max": 479.0,
+        "median": 256.0,
+        "min": 27.0,
+        "p10": 121.0,
+        "p90": 358.0
+      },
+      "proxy_shore_manhattan_distance": {
+        "max": 381.0,
+        "median": 238.0,
+        "min": 26.0,
+        "p10": 103.0,
+        "p90": 355.0
+      },
+      "soil_lowrelief_columns": 31075,
+      "soil_lowrelief_fraction": 0.03519312332599082,
+      "surface_biomes": {
+        "minecraft:plains": 72385,
+        "minecraft:savanna_plateau": 93005,
+        "minecraft:stony_shore": 90467,
+        "minecraft:sunflower_plains": 53668,
+        "terralith:alpine_highlands": 29807,
+        "terralith:basalt_cliffs": 40686,
+        "terralith:cave/infested_caves": 60,
+        "terralith:granite_cliffs": 36466,
+        "terralith:hot_shrubland": 466441
+      }
+    },
+    "M": {
+      "columns": 250715,
+      "elevation": {
+        "max": 120.0,
+        "median": 70.0,
+        "min": 29.0,
+        "p10": 63.0,
+        "p90": 108.0
+      },
+      "flat_columns": 73376,
+      "gentle_columns": 41029,
+      "proxy_inland_water_manhattan_distance": {
+        "max": 238.0,
+        "median": 106.0,
+        "min": 1.0,
+        "p10": 33.0,
+        "p90": 187.0
+      },
+      "proxy_shore_manhattan_distance": {
+        "max": 143.0,
+        "median": 47.0,
+        "min": 0.0,
+        "p10": 16.0,
+        "p90": 103.0
+      },
+      "soil_lowrelief_columns": 79885,
+      "soil_lowrelief_fraction": 0.3186287218554933,
+      "surface_biomes": {
+        "minecraft:beach": 12598,
+        "minecraft:stony_shore": 1290,
+        "terralith:arid_highlands": 152704,
+        "terralith:basalt_cliffs": 843,
+        "terralith:cave/fungal_caves": 49,
+        "terralith:cave/infested_caves": 281,
+        "terralith:hot_shrubland": 82950
+      }
+    },
+    "W": {
+      "columns": 575363,
+      "elevation": {
+        "max": 79.0,
+        "median": 66.0,
+        "min": 14.0,
+        "p10": 63.0,
+        "p90": 71.0
+      },
+      "flat_columns": 389224,
+      "gentle_columns": 89121,
+      "proxy_inland_water_manhattan_distance": {
+        "max": 271.0,
+        "median": 108.0,
+        "min": 1.0,
+        "p10": 47.0,
+        "p90": 189.0
+      },
+      "proxy_shore_manhattan_distance": {
+        "max": 218.0,
+        "median": 80.0,
+        "min": 0.0,
+        "p10": 28.0,
+        "p90": 142.0
+      },
+      "soil_lowrelief_columns": 347308,
+      "soil_lowrelief_fraction": 0.6036328370089838,
+      "surface_biomes": {
+        "minecraft:beach": 112694,
+        "minecraft:savanna": 311719,
+        "terralith:arid_highlands": 149233,
+        "terralith:cave/fungal_caves": 1450,
+        "terralith:gravel_beach": 213,
+        "terralith:hot_shrubland": 54
+      }
+    }
+  },
+  "interpretation": "research masks, not political boundaries; soil-name AND R1 FLAT/GENTLE is morphology/material proxy, not fertility or yield; distances are geometric Manhattan, not paths",
+  "mask_definitions": {
+    "E": "R1 east AND x>=640 AND exposed_y>=140",
+    "M": "R1 east AND x<640 AND exposed_y<=120",
+    "W": "R1 west"
+  },
+  "middle_mask_sensitivity": [
+    {
+      "columns": 182227,
+      "soil_lowrelief_fraction": 0.4381129031372958,
+      "x_lt": 480,
+      "y_le": 100
+    },
+    {
+      "columns": 204865,
+      "soil_lowrelief_fraction": 0.38970053449832814,
+      "x_lt": 480,
+      "y_le": 120
+    },
+    {
+      "columns": 242714,
+      "soil_lowrelief_fraction": 0.34413342452433726,
+      "x_lt": 480,
+      "y_le": 140
+    },
+    {
+      "columns": 211615,
+      "soil_lowrelief_fraction": 0.3775015948774898,
+      "x_lt": 640,
+      "y_le": 100
+    },
+    {
+      "columns": 250715,
+      "soil_lowrelief_fraction": 0.3186287218554933,
+      "x_lt": 640,
+      "y_le": 120
+    },
+    {
+      "columns": 303706,
+      "soil_lowrelief_fraction": 0.2751838949510382,
+      "x_lt": 640,
+      "y_le": 140
+    },
+    {
+      "columns": 231156,
+      "soil_lowrelief_fraction": 0.34689992905224176,
+      "x_lt": 800,
+      "y_le": 100
+    },
+    {
+      "columns": 281805,
+      "soil_lowrelief_fraction": 0.28455137417717924,
+      "x_lt": 800,
+      "y_le": 120
+    },
+    {
+      "columns": 364572,
+      "soil_lowrelief_fraction": 0.23031938821412506,
+      "x_lt": 800,
+      "y_le": 140
+    }
+  ],
+  "unassigned_land_columns": 547618
+}

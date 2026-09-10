@@ -1,0 +1,43 @@
+{
+  "human_hypotheses": "manually authored, not regenerated or program-judged",
+  "method": "fresh Python derive from immutable local inputs; compare byte SHA256 before/after",
+  "regenerated_artifacts": [
+    {
+      "byte_identical": true,
+      "path": "profile/crossing-profile.json",
+      "sha256": "2da9fb77637fc43c3e012cc549e17db37c33b6a5f8f119f764d96a12555250b7"
+    },
+    {
+      "byte_identical": true,
+      "path": "profile/material-profile.json",
+      "sha256": "9718dd5e2784cd24f5badeed1186ac7fa889f00d64fd9580e2a7b75289d7fa56"
+    },
+    {
+      "byte_identical": true,
+      "path": "profile/mineral-sample-profile.json",
+      "sha256": "28e97f33f76c16d9c71cd8751d32c6fa6cf677df52a3e18809b5c775f2521db1"
+    },
+    {
+      "byte_identical": true,
+      "path": "profile/movement-corridors.json",
+      "sha256": "4f7e1168bc14eb3a1104a96211cea22dd7dfc8ac4e4016caa332aa6a2e211b08"
+    },
+    {
+      "byte_identical": true,
+      "path": "profile/substrate-summary.json",
+      "sha256": "096785090174cb423346c3ed1308416b084a66ae562453597334bd2184b0f29f"
+    },
+    {
+      "byte_identical": true,
+      "path": "profile/water-access-profile.json",
+      "sha256": "e9ba2e709824db806c20ebec3dbf055ae10365cc9ae668750693eb4eb637fd61"
+    },
+    {
+      "byte_identical": true,
+      "path": "visual/substrate-access.png",
+      "sha256": "55a7e0664b0131263d9fcbfb2b5094b4e59fef81f15c34531ad169c4966223d1"
+    }
+  ],
+  "sample_design": "independent sorting/stratification recreation in geometry-sampling.json",
+  "status": "PASS"
+}

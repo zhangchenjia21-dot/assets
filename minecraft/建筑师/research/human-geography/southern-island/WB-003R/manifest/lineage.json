@@ -1,0 +1,17 @@
+{
+  "canon_promotion": false,
+  "execution_base": "27720bc20502337e64991c700f17e63328b09844",
+  "new_block_positions": 25176,
+  "new_world_column_reads": 144,
+  "predecessor": "WB-002R-R1 accepted @5c6bffe",
+  "raw_hashes": {
+    "R1-DERIVED": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff",
+    "R1-OBSERVED": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7",
+    "R1-PROFILE": "677378f98cff9e6acaeb32700a141382bceb15621acf5a4487ac3b17821293b6",
+    "WB003R-MINERAL-COLUMNS": "bdaa6bba529239d7b71ad900ccc5b92b4bab151cc2f22e3f5f611e550eddbc1f",
+    "WB003R-SOURCE-BEFORE": "7b6e19b4a0d07c7a4b8e469e8a13b754c77674fcc206dba593d03eaf70e1f304"
+  },
+  "reuse": "observed, derived and profile caches; original source region hashes current match",
+  "whole_region_rescan": false,
+  "world_writes": 0
+}

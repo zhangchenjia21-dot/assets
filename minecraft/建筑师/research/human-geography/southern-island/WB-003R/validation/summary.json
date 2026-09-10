@@ -1,0 +1,21 @@
+{
+  "architecture": "L3->L2->L1->L0; Bootstrap/tests peripheral; predecessor data contract only",
+  "checks": [
+    "geometry-sampling.json",
+    "aggregate-witness-check.json",
+    "targeted-read.json",
+    "source-audit.json",
+    "rebuild.json",
+    "payload.json"
+  ],
+  "engineering_checks": "PASS",
+  "independent_review": "PENDING",
+  "known_discrepancies": [
+    "X-02 rejected by exact geometry despite sampled water-only; retained"
+  ],
+  "scope": "Research only; no whole-region rescan or raw upload",
+  "source_freshness": "CURRENT_MATCH",
+  "targeted_provenance": "144 chunk columns, 25176 scalar/vector name matches; region SHA256 bound",
+  "world_and_predecessors_unchanged": true,
+  "world_writes": 0
+}

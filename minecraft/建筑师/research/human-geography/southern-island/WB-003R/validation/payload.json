@@ -1,0 +1,10 @@
+{
+  "file_count": 40,
+  "full_raw_newly_uploaded": false,
+  "hard_no_push_bytes": 26214400,
+  "includes": "all research files including this audit; no compression discount",
+  "research_payload_bytes": 1317706,
+  "research_payload_mib": 1.256662,
+  "status": "PASS",
+  "target_bytes": 15728640
+}
