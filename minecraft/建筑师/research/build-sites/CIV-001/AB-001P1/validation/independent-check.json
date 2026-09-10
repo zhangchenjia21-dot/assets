@@ -1,0 +1,23 @@
+{
+  "X00_endpoints_membership": "west in B; east in A",
+  "checks": [
+    {
+      "candidate": "A",
+      "elevation_material_flags_match": true,
+      "flat_square_members": 6241,
+      "parent_membership": true,
+      "raw_sql_columns_checked": 105785
+    },
+    {
+      "candidate": "B",
+      "elevation_material_flags_match": true,
+      "flat_square_members": 12996,
+      "parent_membership": true,
+      "raw_sql_columns_checked": 211226
+    }
+  ],
+  "key_coordinate_witnesses": 70,
+  "limits": "independent SQLite aggregation checks candidate derivation; predecessor topology itself is reused accepted evidence, not independently rescanned",
+  "no_new_world_block_read": true,
+  "status": "PASS"
+}

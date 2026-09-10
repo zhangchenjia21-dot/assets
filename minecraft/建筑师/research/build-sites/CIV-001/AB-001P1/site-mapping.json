@@ -1,0 +1,16 @@
+{
+  "task": "AB-001P1",
+  "verdict": "OWNER_SELECTION_REQUIRED",
+  "owner_referent": "西部平岛的中心岛",
+  "selected_site": null,
+  "coordinate_status": "OWNER_REFERENT / COORDINATE_TBD",
+  "decision_authority": "Owner confirmation; no program score or automatic selection",
+  "reason": "湾内最显眼的中心陆体A与东岛相连；B符合西部低岛归属却不是独立中心小岛。现有Owner语句没有标注点、轮廓或与两种解释足以唯一消歧的描述。",
+  "candidate_ids": ["A", "B"],
+  "candidate_definition": "Two bounded landform/sector readings. Neither is promoted to an independent island, political boundary or chosen building site.",
+  "candidate_strength": "A visually stronger; B weaker alternative for literal west-island location. These are not equally weighted recommendations.",
+  "owner_confirmation_prompt": "图中金色A（湾内、连接东岛的西伸低地）还是蓝色B（西部C形低岛内侧中部）更接近你所称中心岛？若均不是，请指明图中目标位置。",
+  "stop_rule": "No architecture design until Owner mapping confirmation and GPT Site Gate acceptance; world-write requires separate authorization.",
+  "design_readiness": "NOT_READY",
+  "world_writes": 0
+}

@@ -1,0 +1,15 @@
+{
+  "cache_context_bounds": [
+    -800,
+    1376,
+    1200,
+    2655
+  ],
+  "candidate_geometry_rle_roundtrip": true,
+  "candidates_are_parent_subsets_not_islands": true,
+  "flat_square_all_members_verified": true,
+  "limitations": "no in-game rendering, tree collision, underground structures or complete viewshed; no unique Owner mapping",
+  "new_world_block_reads": 0,
+  "parent_membership_exact": true,
+  "status": "PASS"
+}

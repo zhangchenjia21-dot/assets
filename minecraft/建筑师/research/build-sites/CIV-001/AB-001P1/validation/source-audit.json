@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-10T08:36:59.081017+00:00",
+  "method": "full relative filename, SHA256, size and mtime_ns comparison to task start",
+  "new_world_block_reads": 0,
+  "source_epoch": "12671f64c678752681c55909f1f3b5b82452b50255757b84f88a2e6b8a64d0a8",
+  "status": "PASS",
+  "unchanged": {
+    "Canon": true,
+    "Grammar": true,
+    "NG-2": true,
+    "NG-3": true,
+    "V1": true,
+    "WB-002R": true,
+    "WB-002R-R1": true,
+    "WB-003R": true,
+    "world": true
+  },
+  "world_writes": 0
+}

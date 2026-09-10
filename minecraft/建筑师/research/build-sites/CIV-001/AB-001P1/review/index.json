@@ -1,0 +1,20 @@
+{
+  "read_order": [
+    "site-mapping.json",
+    "visual/site-candidates.png",
+    "reports/中心岛SiteGate.md",
+    "site-candidates.json",
+    "review/key-witnesses.json",
+    "review/surface-witnesses.json",
+    "validation/freshness.json",
+    "validation/lineage.json",
+    "validation/geometry-check.json",
+    "validation/independent-check.json",
+    "validation/rebuild.json",
+    "validation/source-audit.json",
+    "validation/payload.json"
+  ],
+  "scope_stop": "no selected site, no architecture plan, no world write",
+  "status": "AWAITING INDEPENDENT REVIEW / OWNER MAPPING CONFIRMATION",
+  "verdict": "OWNER_SELECTION_REQUIRED"
+}

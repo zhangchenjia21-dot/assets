@@ -1,0 +1,35 @@
+{
+  "artifacts": {
+    "geometry/A-flat-patch-runs.json": {
+      "byte_identical": true,
+      "sha256": "257c5179f5aa9474146fee51dedb4af8aa77ebab84dc9919f2dd8a002ac6f29b"
+    },
+    "geometry/A-land-runs.json": {
+      "byte_identical": true,
+      "sha256": "f2c1bfbae79384a7f45539cafde88ef4035a52c819c19dd273ad9ec8091cdfe2"
+    },
+    "geometry/B-flat-patch-runs.json": {
+      "byte_identical": true,
+      "sha256": "5255764f1be09887a41e4b6a649061f2dcab15a458b99ec61506395fd98e18a4"
+    },
+    "geometry/B-land-runs.json": {
+      "byte_identical": true,
+      "sha256": "1072b2327495115c2ffe39251c5dffcab5451a289f14bc0f176edd0d2ad91077"
+    },
+    "review/surface-witnesses.json": {
+      "byte_identical": true,
+      "sha256": "eebb5134067881220260349bbc7d0815249db8659a0399fc55fa42b6d5406d40"
+    },
+    "site-candidates.json": {
+      "byte_identical": true,
+      "sha256": "fceda37a5c8b4ac16bb0b4d38aec97ac1a8385d6f4b734040f10799229abcc1e"
+    },
+    "visual/site-candidates.png": {
+      "byte_identical": true,
+      "sha256": "3e10cf7df965f2926fccf97980e41dd757d62562d4a5dada03a4a2d34b0c014a"
+    }
+  },
+  "interpretation": "manual mapping verdict excluded from automatic regeneration",
+  "method": "fresh process candidate compilation from same readonly R1 cache; SHA256 before/after",
+  "status": "PASS"
+}

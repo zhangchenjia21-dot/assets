@@ -1,0 +1,827 @@
+{
+  "candidate_coordinates_are": "observed comparison areas; not selected site coordinates",
+  "candidate_selection": "human-authored two semantic readings, not program ranking; nearby tiny disconnected cells do not establish a council island",
+  "candidates": [
+    {
+      "actual_bounds": [
+        -349,
+        1664,
+        240,
+        1982
+      ],
+      "design_readiness": "NOT_READY",
+      "existing_surface": {
+        "artificial_material_flag_columns": 0,
+        "leaf_occupied_fraction": 0.08227657004830918,
+        "limitations": "sparse R1 4-block vegetation grid; flag/name is not structure attribution or underground protection survey",
+        "named_path_structure_signals": {},
+        "surface_palette": {
+          "minecraft:brown_terracotta": 33,
+          "minecraft:clay": 1,
+          "minecraft:coal_ore": 1,
+          "minecraft:coarse_dirt": 13226,
+          "minecraft:copper_ore": 9,
+          "minecraft:dandelion": 94,
+          "minecraft:dirt": 657,
+          "minecraft:firefly_bush": 6,
+          "minecraft:granite": 7,
+          "minecraft:grass_block": 59655,
+          "minecraft:gravel": 21,
+          "minecraft:lava": 57,
+          "minecraft:moss_block": 10713,
+          "minecraft:packed_mud": 15501,
+          "minecraft:podzol": 102,
+          "minecraft:poppy": 158,
+          "minecraft:pumpkin": 33,
+          "minecraft:rooted_dirt": 4415,
+          "minecraft:sand": 66,
+          "minecraft:stone": 1030
+        },
+        "trunk_occupied_fraction": 0.00785024154589372,
+        "vegetation_sample_columns": 6624
+      },
+      "geometry": "geometry/A-land-runs.json",
+      "id": "A",
+      "is_independent_island": false,
+      "label": "湾内东岛西伸低地",
+      "land_columns": 105785,
+      "mapping_confidence": "MEDIUM: visual match plausible; Owner identity unconfirmed",
+      "meaning": "C形低岛怀抱内视觉居中的西伸陆体",
+      "parent": 2,
+      "parent_continuations": [
+        {
+          "direction": "N",
+          "edge_count": 14,
+          "inside": [
+            234,
+            1664
+          ],
+          "outside": [
+            234,
+            1663
+          ]
+        },
+        {
+          "direction": "E",
+          "edge_count": 176,
+          "inside": [
+            240,
+            1752
+          ],
+          "outside": [
+            241,
+            1752
+          ]
+        }
+      ],
+      "readiness_reason": "Owner referent unconfirmed; candidate context supports comparison only, no Plan/Section/Sequence design start",
+      "shore_water": {
+        "directional_contacts": {
+          "E": {
+            "adjacent_water_depth": {
+              "max": 10.0,
+              "median": 1.0,
+              "min": 1.0,
+              "p90": 1.0
+            },
+            "eight_step_inward_low_step_contacts": 343,
+            "land_minus_water_top": {
+              "max": 4.0,
+              "median": 0.0,
+              "min": 0.0,
+              "p90": 0.0
+            },
+            "shore_edge_contacts": 414
+          },
+          "N": {
+            "adjacent_water_depth": {
+              "max": 10.0,
+              "median": 1.0,
+              "min": 1.0,
+              "p90": 1.0
+            },
+            "eight_step_inward_low_step_contacts": 579,
+            "land_minus_water_top": {
+              "max": 4.0,
+              "median": 0.0,
+              "min": 0.0,
+              "p90": 0.0
+            },
+            "shore_edge_contacts": 640
+          },
+          "S": {
+            "adjacent_water_depth": {
+              "max": 10.0,
+              "median": 1.0,
+              "min": 1.0,
+              "p90": 2.0
+            },
+            "eight_step_inward_low_step_contacts": 528,
+            "land_minus_water_top": {
+              "max": 4.0,
+              "median": 0.0,
+              "min": 0.0,
+              "p90": 0.0
+            },
+            "shore_edge_contacts": 654
+          },
+          "W": {
+            "adjacent_water_depth": {
+              "max": 10.0,
+              "median": 1.0,
+              "min": 1.0,
+              "p90": 1.0
+            },
+            "eight_step_inward_low_step_contacts": 504,
+            "land_minus_water_top": {
+              "max": 4.0,
+              "median": 0.0,
+              "min": 0.0,
+              "p90": 0.0
+            },
+            "shore_edge_contacts": 590
+          }
+        },
+        "interpretation": "WATER_ACCESS_PROXY / LANDING_ACCESS_PROXY only; counts are shore edges not unique columns; depth from R1 contiguous surface water interval",
+        "water_component_contacts": {
+          "1": 2208,
+          "31": 22,
+          "32": 42,
+          "34": 8,
+          "37": 4,
+          "38": 2,
+          "49": 4,
+          "51": 8
+        },
+        "witnesses": [
+          {
+            "direction": "N",
+            "land": [
+              161,
+              1699,
+              62
+            ],
+            "water": [
+              161,
+              1698,
+              62
+            ]
+          },
+          {
+            "direction": "E",
+            "land": [
+              54,
+              1832,
+              62
+            ],
+            "water": [
+              55,
+              1832,
+              62
+            ]
+          },
+          {
+            "direction": "S",
+            "land": [
+              -20,
+              1906,
+              62
+            ],
+            "water": [
+              -20,
+              1907,
+              62
+            ]
+          },
+          {
+            "direction": "W",
+            "land": [
+              -324,
+              1792,
+              62
+            ],
+            "water": [
+              -325,
+              1792,
+              62
+            ]
+          }
+        ]
+      },
+      "terrain": {
+        "elevation": {
+          "max": 75.0,
+          "median": 68.0,
+          "min": 58.0,
+          "p90": 73.0
+        },
+        "flat_columns": 52819,
+        "gentle_columns": 30795,
+        "largest_all_flat_square": {
+          "bounds": [
+            -209,
+            1828,
+            -131,
+            1906
+          ],
+          "interpretation": "largest axis-aligned all-FLAT square in comparison window; terrain diagnostic, not footprint or clear-space approval",
+          "side_blocks": 79
+        },
+        "largest_connected_flat_patch": {
+          "bounds": [
+            -290,
+            1685,
+            240,
+            1937
+          ],
+          "columns": 51129,
+          "geometry": "geometry/A-flat-patch-runs.json"
+        },
+        "relief32": {
+          "max": 12.0,
+          "median": 4.0,
+          "min": 0.0,
+          "p90": 8.0
+        },
+        "slope8": {
+          "max": 0.664384126663208,
+          "median": 0.0883883461356163,
+          "min": 0.0,
+          "p90": 0.19764235615730286
+        }
+      },
+      "views": {
+        "method": "8 rays, 4-block spacing, max1200 blocks or local context boundary; ground/water only, ignores canopy, weather and render distance",
+        "observer_xzy_eye": [
+          -92,
+          1817,
+          74
+        ],
+        "rays": [
+          {
+            "direction": "N",
+            "horizon_distance": 296,
+            "horizon_sample_xzy": [
+              -92,
+              1521,
+              67
+            ],
+            "maximum_elevation_angle_degrees": -1.3547152510306297,
+            "sampled_to_blocks": 440
+          },
+          {
+            "direction": "NE",
+            "horizon_distance": 624,
+            "horizon_sample_xzy": [
+              349,
+              1376,
+              62
+            ],
+            "maximum_elevation_angle_degrees": -1.1017061152063747,
+            "sampled_to_blocks": 624
+          },
+          {
+            "direction": "E",
+            "horizon_distance": 504,
+            "horizon_sample_xzy": [
+              412,
+              1817,
+              157
+            ],
+            "maximum_elevation_angle_degrees": 9.351677132473522,
+            "sampled_to_blocks": 1200
+          },
+          {
+            "direction": "SE",
+            "horizon_distance": 700,
+            "horizon_sample_xzy": [
+              403,
+              2312,
+              157
+            ],
+            "maximum_elevation_angle_degrees": 6.7620706383586695,
+            "sampled_to_blocks": 1184
+          },
+          {
+            "direction": "S",
+            "horizon_distance": 296,
+            "horizon_sample_xzy": [
+              -92,
+              2113,
+              76
+            ],
+            "maximum_elevation_angle_degrees": 0.3871277541509513,
+            "sampled_to_blocks": 836
+          },
+          {
+            "direction": "SW",
+            "horizon_distance": 32,
+            "horizon_sample_xzy": [
+              -115,
+              1840,
+              74
+            ],
+            "maximum_elevation_angle_degrees": 0.0,
+            "sampled_to_blocks": 1000
+          },
+          {
+            "direction": "W",
+            "horizon_distance": 68,
+            "horizon_sample_xzy": [
+              -160,
+              1817,
+              74
+            ],
+            "maximum_elevation_angle_degrees": 0.0,
+            "sampled_to_blocks": 708
+          },
+          {
+            "direction": "NW",
+            "horizon_distance": 624,
+            "horizon_sample_xzy": [
+              -533,
+              1376,
+              62
+            ],
+            "maximum_elevation_angle_degrees": -1.1017061152063747,
+            "sampled_to_blocks": 624
+          }
+        ]
+      },
+      "why_not": "它连接东部山地主岛，不是独立岛，也不属于西部C形低岛陆连通分量。",
+      "why_possible": "在低岛内湾正中显眼，远景容易称为中心岛。",
+      "window": [
+        -380,
+        1664,
+        240,
+        2000
+      ]
+    },
+    {
+      "actual_bounds": [
+        -480,
+        2000,
+        128,
+        2352
+      ],
+      "design_readiness": "NOT_READY",
+      "existing_surface": {
+        "artificial_material_flag_columns": 3566,
+        "leaf_occupied_fraction": 0.12518718179095537,
+        "limitations": "sparse R1 4-block vegetation grid; flag/name is not structure attribution or underground protection survey",
+        "named_path_structure_signals": {
+          "minecraft:dirt_path": 3566
+        },
+        "surface_palette": {
+          "minecraft:bush": 1,
+          "minecraft:coal_ore": 16,
+          "minecraft:coarse_dirt": 15373,
+          "minecraft:copper_ore": 11,
+          "minecraft:dandelion": 151,
+          "minecraft:diorite": 26,
+          "minecraft:dirt": 1070,
+          "minecraft:dirt_path": 3566,
+          "minecraft:dripstone_block": 215,
+          "minecraft:fire": 1,
+          "minecraft:glow_lichen": 110,
+          "minecraft:grass_block": 157714,
+          "minecraft:gravel": 14,
+          "minecraft:iron_ore": 10,
+          "minecraft:lava": 299,
+          "minecraft:moss_block": 10687,
+          "minecraft:packed_mud": 15088,
+          "minecraft:pointed_dripstone": 3,
+          "minecraft:poppy": 297,
+          "minecraft:pumpkin": 26,
+          "minecraft:rooted_dirt": 4610,
+          "minecraft:sand": 93,
+          "minecraft:stone": 1845
+        },
+        "trunk_occupied_fraction": 0.009883198562443846,
+        "vegetation_sample_columns": 13356
+      },
+      "geometry": "geometry/B-land-runs.json",
+      "id": "B",
+      "is_independent_island": false,
+      "label": "西部C形低岛内侧中部",
+      "land_columns": 211226,
+      "mapping_confidence": "LOW: alternate literal-west reading, not equally strong",
+      "meaning": "将中心岛理解为西部低岛本体及其内侧中央低地",
+      "parent": 1,
+      "parent_continuations": [
+        {
+          "direction": "N",
+          "edge_count": 320,
+          "inside": [
+            -31,
+            2000
+          ],
+          "outside": [
+            -31,
+            1999
+          ]
+        },
+        {
+          "direction": "E",
+          "edge_count": 353,
+          "inside": [
+            128,
+            2176
+          ],
+          "outside": [
+            129,
+            2176
+          ]
+        },
+        {
+          "direction": "S",
+          "edge_count": 609,
+          "inside": [
+            -176,
+            2352
+          ],
+          "outside": [
+            -176,
+            2353
+          ]
+        },
+        {
+          "direction": "W",
+          "edge_count": 353,
+          "inside": [
+            -480,
+            2176
+          ],
+          "outside": [
+            -481,
+            2176
+          ]
+        }
+      ],
+      "readiness_reason": "Owner referent unconfirmed; candidate context supports comparison only, no Plan/Section/Sequence design start",
+      "shore_water": {
+        "directional_contacts": {
+          "E": {
+            "adjacent_water_depth": {
+              "max": 10.0,
+              "median": 1.0,
+              "min": 1.0,
+              "p90": 2.0
+            },
+            "eight_step_inward_low_step_contacts": 74,
+            "land_minus_water_top": {
+              "max": 13.0,
+              "median": 0.0,
+              "min": 0.0,
+              "p90": 6.0
+            },
+            "shore_edge_contacts": 118
+          },
+          "N": {
+            "adjacent_water_depth": {
+              "max": 10.0,
+              "median": 1.0,
+              "min": 1.0,
+              "p90": 2.0
+            },
+            "eight_step_inward_low_step_contacts": 181,
+            "land_minus_water_top": {
+              "max": 12.0,
+              "median": 0.0,
+              "min": 0.0,
+              "p90": 1.0
+            },
+            "shore_edge_contacts": 309
+          },
+          "S": {
+            "adjacent_water_depth": {
+              "max": 6.0,
+              "median": 1.0,
+              "min": 1.0,
+              "p90": 3.1000000000000014
+            },
+            "eight_step_inward_low_step_contacts": 4,
+            "land_minus_water_top": {
+              "max": 12.0,
+              "median": 2.0,
+              "min": 0.0,
+              "p90": 6.100000000000001
+            },
+            "shore_edge_contacts": 20
+          },
+          "W": {
+            "adjacent_water_depth": {
+              "max": 10.0,
+              "median": 1.0,
+              "min": 1.0,
+              "p90": 2.299999999999997
+            },
+            "eight_step_inward_low_step_contacts": 59,
+            "land_minus_water_top": {
+              "max": 13.0,
+              "median": 0.0,
+              "min": 0.0,
+              "p90": 5.299999999999997
+            },
+            "shore_edge_contacts": 118
+          }
+        },
+        "interpretation": "WATER_ACCESS_PROXY / LANDING_ACCESS_PROXY only; counts are shore edges not unique columns; depth from R1 contiguous surface water interval",
+        "water_component_contacts": {
+          "1": 495,
+          "187": 26,
+          "205": 4,
+          "206": 14,
+          "207": 18,
+          "209": 8
+        },
+        "witnesses": [
+          {
+            "direction": "N",
+            "land": [
+              -72,
+              2013,
+              62
+            ],
+            "water": [
+              -72,
+              2012,
+              62
+            ]
+          },
+          {
+            "direction": "E",
+            "land": [
+              -100,
+              2015,
+              62
+            ],
+            "water": [
+              -99,
+              2015,
+              62
+            ]
+          },
+          {
+            "direction": "S",
+            "land": [
+              -41,
+              2017,
+              65
+            ],
+            "water": [
+              -41,
+              2018,
+              62
+            ]
+          },
+          {
+            "direction": "W",
+            "land": [
+              -74,
+              2015,
+              62
+            ],
+            "water": [
+              -75,
+              2015,
+              62
+            ]
+          }
+        ]
+      },
+      "terrain": {
+        "elevation": {
+          "max": 79.0,
+          "median": 68.0,
+          "min": 33.0,
+          "p90": 75.0
+        },
+        "flat_columns": 146556,
+        "gentle_columns": 41415,
+        "largest_all_flat_square": {
+          "bounds": [
+            -182,
+            2236,
+            -69,
+            2349
+          ],
+          "interpretation": "largest axis-aligned all-FLAT square in comparison window; terrain diagnostic, not footprint or clear-space approval",
+          "side_blocks": 114
+        },
+        "largest_connected_flat_patch": {
+          "bounds": [
+            -480,
+            2000,
+            128,
+            2352
+          ],
+          "columns": 145286,
+          "geometry": "geometry/B-flat-patch-runs.json"
+        },
+        "relief32": {
+          "max": 44.0,
+          "median": 2.0,
+          "min": 0.0,
+          "p90": 8.0
+        },
+        "slope8": {
+          "max": 3.491619348526001,
+          "median": 0.0625,
+          "min": 0.0,
+          "p90": 0.1397542506456375
+        }
+      },
+      "views": {
+        "method": "8 rays, 4-block spacing, max1200 blocks or local context boundary; ground/water only, ignores canopy, weather and render distance",
+        "observer_xzy_eye": [
+          -176,
+          2179,
+          77
+        ],
+        "rays": [
+          {
+            "direction": "N",
+            "horizon_distance": 24,
+            "horizon_sample_xzy": [
+              -176,
+              2155,
+              77
+            ],
+            "maximum_elevation_angle_degrees": 0.0,
+            "sampled_to_blocks": 800
+          },
+          {
+            "direction": "NE",
+            "horizon_distance": 904,
+            "horizon_sample_xzy": [
+              463,
+              1540,
+              66
+            ],
+            "maximum_elevation_angle_degrees": -0.6971487516828284,
+            "sampled_to_blocks": 1136
+          },
+          {
+            "direction": "E",
+            "horizon_distance": 936,
+            "horizon_sample_xzy": [
+              760,
+              2179,
+              254
+            ],
+            "maximum_elevation_angle_degrees": 10.708331203824782,
+            "sampled_to_blocks": 1200
+          },
+          {
+            "direction": "SE",
+            "horizon_distance": 672,
+            "horizon_sample_xzy": [
+              299,
+              2654,
+              62
+            ],
+            "maximum_elevation_angle_degrees": -1.2787113070498,
+            "sampled_to_blocks": 672
+          },
+          {
+            "direction": "S",
+            "horizon_distance": 476,
+            "horizon_sample_xzy": [
+              -176,
+              2655,
+              62
+            ],
+            "maximum_elevation_angle_degrees": -1.8049419660734731,
+            "sampled_to_blocks": 476
+          },
+          {
+            "direction": "SW",
+            "horizon_distance": 672,
+            "horizon_sample_xzy": [
+              -651,
+              2654,
+              62
+            ],
+            "maximum_elevation_angle_degrees": -1.2787113070498,
+            "sampled_to_blocks": 672
+          },
+          {
+            "direction": "W",
+            "horizon_distance": 124,
+            "horizon_sample_xzy": [
+              -300,
+              2179,
+              76
+            ],
+            "maximum_elevation_angle_degrees": -0.46205272143076487,
+            "sampled_to_blocks": 624
+          },
+          {
+            "direction": "NW",
+            "horizon_distance": 24,
+            "horizon_sample_xzy": [
+              -193,
+              2162,
+              77
+            ],
+            "maximum_elevation_angle_degrees": 0.0,
+            "sampled_to_blocks": 880
+          }
+        ]
+      },
+      "why_not": "是C形岛本体的连续局部，不存在独立中心小岛；中心含义较弱。",
+      "why_possible": "确实属于西部平岛，面对内湾与A，保留西域空间语义。",
+      "window": [
+        -480,
+        2000,
+        128,
+        2352
+      ]
+    }
+  ],
+  "nearby_small_components": [
+    {
+      "area": 1,
+      "bounds": [
+        -190,
+        1599,
+        -190,
+        1599
+      ],
+      "id": 3
+    },
+    {
+      "area": 3,
+      "bounds": [
+        -192,
+        1600,
+        -191,
+        1601
+      ],
+      "id": 4
+    },
+    {
+      "area": 7,
+      "bounds": [
+        272,
+        1611,
+        276,
+        1612
+      ],
+      "id": 5
+    },
+    {
+      "area": 1,
+      "bounds": [
+        -403,
+        1817,
+        -403,
+        1817
+      ],
+      "id": 13
+    },
+    {
+      "area": 3,
+      "bounds": [
+        31,
+        1850,
+        32,
+        1851
+      ],
+      "id": 17
+    },
+    {
+      "area": 1,
+      "bounds": [
+        -340,
+        1886,
+        -340,
+        1886
+      ],
+      "id": 128
+    },
+    {
+      "area": 3,
+      "bounds": [
+        80,
+        1908,
+        81,
+        1909
+      ],
+      "id": 192
+    },
+    {
+      "area": 10,
+      "bounds": [
+        -197,
+        1980,
+        -191,
+        1981
+      ],
+      "id": 353
+    }
+  ],
+  "schema": "site-candidates/1",
+  "verdict": "OWNER_SELECTION_REQUIRED"
+}

@@ -1,0 +1,9 @@
+{
+  "bytes": 636971,
+  "files": 27,
+  "hard_limit_bytes": 26214400,
+  "includes": "all research files, including this file; no raw cache",
+  "mib": 0.607463,
+  "status": "PASS",
+  "target_bytes": 15728640
+}

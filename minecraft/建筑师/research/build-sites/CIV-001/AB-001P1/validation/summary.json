@@ -1,0 +1,19 @@
+{
+  "broad_rescan": false,
+  "design_readiness": "NOT_READY",
+  "engineering_checks": "PASS",
+  "immutable_roots": "world, V1, NG-2, NG-3, WB-002R, R1, WB-003R, World Canon, architecture including Grammar",
+  "independent_review": "PENDING",
+  "limitations": "sparse vegetation; no in-game sightline, hidden structures, collision or buildability guarantee; neither candidate is an independent island",
+  "site_mapping": "OWNER_SELECTION_REQUIRED",
+  "validation": [
+    "source-audit.json",
+    "freshness.json",
+    "geometry-check.json",
+    "independent-check.json",
+    "rebuild.json",
+    "payload.json"
+  ],
+  "world_block_reads": 0,
+  "world_writes": 0
+}
