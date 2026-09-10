@@ -1,0 +1,145 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V13-T04-山脊城堡",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:gravel",
+    "minecraft:gravel",
+    "minecraft:stone_bricks",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt"
+  ],
+  "changed_blocks": 1018,
+  "apply_seconds": 0.1272932,
+  "readback": [
+    {
+      "position": [
+        120,
+        111,
+        84,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        106,
+        111,
+        105,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        108,
+        111,
+        133,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        109,
+        108,
+        161,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        111,
+        79,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        111,
+        109,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        108,
+        149,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        108,
+        160,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        138,
+        120,
+        173,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        162,
+        111,
+        112,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        108,
+        168,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 13.538,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T08-44-11-420Z-b75f7ccf-dffa-41d8-9e51-01109c6cb78b",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V13-T04-山脊城堡",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T08-44-11-420Z-b75f7ccf-dffa-41d8-9e51-01109c6cb78b\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

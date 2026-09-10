@@ -1,0 +1,43 @@
+{
+  "comparison": "saved stage02a to saved stage03; exact properties normalized",
+  "previous_structure_changed": 0,
+  "examples": [],
+  "envelopes_including_roof_headroom": [
+    {
+      "name": "外门楼",
+      "solid_changed": 0,
+      "volume_changed": 0
+    },
+    {
+      "name": "内门",
+      "solid_changed": 0,
+      "volume_changed": 0
+    },
+    {
+      "name": "主塔",
+      "solid_changed": 0,
+      "volume_changed": 1
+    },
+    {
+      "name": "厅堂",
+      "solid_changed": 0,
+      "volume_changed": 1
+    },
+    {
+      "name": "礼拜堂",
+      "solid_changed": 0,
+      "volume_changed": 0
+    },
+    {
+      "name": "马厩",
+      "solid_changed": 0,
+      "volume_changed": 36
+    },
+    {
+      "name": "厨房",
+      "solid_changed": 0,
+      "volume_changed": 1
+    }
+  ],
+  "note": "torch/hay additions are intended; counts do not substitute visual inspection of intentional openings"
+}

@@ -1,0 +1,28 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V13-T04-山脊城堡",
+  "size": [
+    256,
+    128,
+    256
+  ],
+  "y0": 56,
+  "palette": [
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:oak_log[axis=y]",
+    "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:birch_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:andesite",
+    "minecraft:gravel",
+    "minecraft:coarse_dirt",
+    "minecraft:cobblestone",
+    "minecraft:spruce_planks",
+    "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+  ],
+  "sha256": "ef3d0fa8174073600f50665010f57113dfd7565ca733c79eec86cdfc7ecca901",
+  "source": "saved chunk readback",
+  "time": "2026-09-10T08:38:43.357Z"
+}

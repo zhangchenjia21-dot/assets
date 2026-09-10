@@ -1,0 +1,52 @@
+[
+  {
+    "file": "阶段01.npy.gz",
+    "uncompressed_sha256": "d4c25644af6064c8f57899ff1efb144125dc2e563384749391ccb9a216850f14",
+    "uncompressed_bytes": 8388736
+  },
+  {
+    "file": "阶段02.npy.gz",
+    "uncompressed_sha256": "edc1e6c6af677900125ca75874c4f154a9a572d4b425db76fd1a8d1e38fc1b69",
+    "uncompressed_bytes": 8388736
+  },
+  {
+    "file": "阶段02a.npy.gz",
+    "uncompressed_sha256": "15af3b8aa6d331d7eefcf6f0b841b40b202c199206b60308c265f46b23cbcd73",
+    "uncompressed_bytes": 8388736
+  },
+  {
+    "file": "阶段03.npy.gz",
+    "uncompressed_sha256": "895dcdc1a55bd126b75417bb841a458efbbc9643412d887e4d9a6e7c73356719",
+    "uncompressed_bytes": 8388736
+  },
+  {
+    "file": "阶段03a.npy.gz",
+    "uncompressed_sha256": "22a9be9e5c05fe61e7021550b338d672f2c5eab7bb007da52b34f58adb93eed2",
+    "uncompressed_bytes": 8388736
+  },
+  {
+    "file": "证据/01.bin.gz",
+    "uncompressed_sha256": "ef3d0fa8174073600f50665010f57113dfd7565ca733c79eec86cdfc7ecca901",
+    "uncompressed_bytes": 8388608
+  },
+  {
+    "file": "证据/02.bin.gz",
+    "uncompressed_sha256": "59e215a42b642e05abd2497c533f5c4164756c1a9c8704d5e804cfc2e145d8bc",
+    "uncompressed_bytes": 8388608
+  },
+  {
+    "file": "证据/02a.bin.gz",
+    "uncompressed_sha256": "8ee3c5b347f56945b8a52fbff9e46f135c70fb532256cd3ba55aee97350e26be",
+    "uncompressed_bytes": 8388608
+  },
+  {
+    "file": "证据/03.bin.gz",
+    "uncompressed_sha256": "194d5c2e2b3a77b015857b4f7b798bab6e597ad81bb4ad988b22b8730dc21b68",
+    "uncompressed_bytes": 8388608
+  },
+  {
+    "file": "证据/03a.bin.gz",
+    "uncompressed_sha256": "96225d9205669279002447fd34759af49cf2f7caf746dd38b2f2f30bd27b90cb",
+    "uncompressed_bytes": 8388608
+  }
+]

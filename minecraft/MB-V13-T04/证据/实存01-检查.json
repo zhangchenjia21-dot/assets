@@ -1,0 +1,136 @@
+{
+  "source": "saved chunks",
+  "method": "two-block clearance, adjacent one-block step/jump; six-neighbour heavy geometry; not client physics",
+  "destinations": {
+    "主塔入口": {
+      "xyz": [
+        124,
+        112,
+        105
+      ],
+      "reachable": true
+    },
+    "主塔层119": {
+      "xyz": [
+        127,
+        120,
+        101
+      ],
+      "reachable": false
+    },
+    "主塔层127": {
+      "xyz": [
+        127,
+        128,
+        101
+      ],
+      "reachable": false
+    },
+    "主塔层135": {
+      "xyz": [
+        127,
+        136,
+        101
+      ],
+      "reachable": false
+    },
+    "主塔层143": {
+      "xyz": [
+        127,
+        144,
+        101
+      ],
+      "reachable": false
+    },
+    "厅堂": {
+      "xyz": [
+        148,
+        112,
+        121
+      ],
+      "reachable": true
+    },
+    "礼拜堂": {
+      "xyz": [
+        141,
+        112,
+        95
+      ],
+      "reachable": true
+    },
+    "马厩": {
+      "xyz": [
+        119,
+        109,
+        158
+      ],
+      "reachable": true
+    },
+    "厨房": {
+      "xyz": [
+        151,
+        109,
+        156
+      ],
+      "reachable": true
+    },
+    "外院": {
+      "xyz": [
+        136,
+        109,
+        164
+      ],
+      "reachable": true
+    },
+    "内院": {
+      "xyz": [
+        137,
+        112,
+        128
+      ],
+      "reachable": true
+    },
+    "内墙步道": {
+      "xyz": [
+        107,
+        124,
+        123
+      ],
+      "reachable": false
+    },
+    "外墙步道": {
+      "xyz": [
+        164,
+        118,
+        154
+      ],
+      "reachable": false
+    },
+    "外门通道": {
+      "xyz": [
+        134,
+        109,
+        176
+      ],
+      "reachable": true
+    },
+    "内门通道": {
+      "xyz": [
+        133,
+        112,
+        140
+      ],
+      "reachable": true
+    }
+  },
+  "routes": {
+    "登山接近": [],
+    "外院至内门": [],
+    "壕桥": []
+  },
+  "orphan_count": 0,
+  "orphan_states": {},
+  "orphan_examples": [],
+  "micro_previous_solid_changes": [],
+  "different_cells": 0
+}

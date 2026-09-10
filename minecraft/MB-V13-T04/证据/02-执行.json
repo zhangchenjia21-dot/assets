@@ -1,0 +1,277 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V13-T04-山脊城堡",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:stone",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:gravel",
+    "minecraft:coarse_dirt",
+    "minecraft:gravel",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone",
+    "minecraft:gravel",
+    "minecraft:gravel",
+    "minecraft:gravel",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "changed_blocks": 34270,
+  "apply_seconds": 0.386223,
+  "readback": [
+    {
+      "position": [
+        105,
+        102,
+        94,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        101,
+        108,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        102,
+        128,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        106,
+        160,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        120,
+        94,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        120,
+        108,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        120,
+        128,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        120,
+        160,
+        "minecraft:cobbled_deepslate_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:cobbled_deepslate_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        111,
+        75,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        111,
+        96,
+        "minecraft:spruce_planks"
+      ],
+      "actual": "minecraft:spruce_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        111,
+        138,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        108,
+        173,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        120,
+        75,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        127,
+        96,
+        "minecraft:spruce_planks"
+      ],
+      "actual": "minecraft:spruce_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        120,
+        138,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        120,
+        173,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        111,
+        83,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        111,
+        104,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        111,
+        128,
+        "minecraft:spruce_planks"
+      ],
+      "actual": "minecraft:spruce_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        108,
+        160,
+        "minecraft:spruce_planks"
+      ],
+      "actual": "minecraft:spruce_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        120,
+        83,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        125,
+        103,
+        "minecraft:cobbled_deepslate_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:cobbled_deepslate_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        121,
+        128,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 13.946,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T08-40-56-794Z-d3090491-9e9a-4fb2-8706-4e43a9e7d073",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V13-T04-山脊城堡",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T08-40-56-794Z-d3090491-9e9a-4fb2-8706-4e43a9e7d073\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

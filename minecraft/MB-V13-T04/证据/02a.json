@@ -1,0 +1,39 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V13-T04-山脊城堡",
+  "size": [
+    256,
+    128,
+    256
+  ],
+  "y0": 56,
+  "palette": [
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:oak_log[axis=y]",
+    "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:birch_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:andesite",
+    "minecraft:stone_bricks",
+    "minecraft:cobblestone",
+    "minecraft:gravel",
+    "minecraft:cobbled_deepslate_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:white_terracotta",
+    "minecraft:spruce_planks",
+    "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:polished_andesite",
+    "minecraft:cobbled_deepslate_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:spruce_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:coarse_dirt",
+    "minecraft:spruce_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:water[level=0]",
+    "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+  ],
+  "sha256": "8ee3c5b347f56945b8a52fbff9e46f135c70fb532256cd3ba55aee97350e26be",
+  "source": "saved chunk readback",
+  "time": "2026-09-10T08:44:53.313Z"
+}
