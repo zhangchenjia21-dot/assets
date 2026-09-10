@@ -1,0 +1,35 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:short_grass"
+  ],
+  "changed_blocks": 19,
+  "apply_seconds": 0.0753218,
+  "readback": [
+    {
+      "position": [
+        123,
+        69,
+        82,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 14.508,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-56-16-056Z-9364d99c-4e39-4eeb-a634-b631a6787ec9",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-56-16-056Z-9364d99c-4e39-4eeb-a634-b631a6787ec9\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

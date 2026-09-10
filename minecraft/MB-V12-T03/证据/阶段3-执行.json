@@ -1,0 +1,376 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "changed_blocks": 24867,
+  "apply_seconds": 0.9251486,
+  "readback": [
+    {
+      "position": [
+        30,
+        87,
+        191,
+        "minecraft:farmland[moisture=7]"
+      ],
+      "actual": "minecraft:farmland[moisture=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        87,
+        201,
+        "minecraft:farmland[moisture=7]"
+      ],
+      "actual": "minecraft:farmland[moisture=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        83,
+        224,
+        "minecraft:farmland[moisture=7]"
+      ],
+      "actual": "minecraft:farmland[moisture=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        91,
+        4,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        95,
+        51,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        95,
+        64,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        94,
+        96,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        95,
+        138,
+        "minecraft:fern"
+      ],
+      "actual": "minecraft:fern",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        93,
+        160,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        4,
+        89,
+        192,
+        "minecraft:farmland[moisture=7]"
+      ],
+      "actual": "minecraft:farmland[moisture=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        43,
+        87,
+        18,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        45,
+        87,
+        32,
+        "minecraft:farmland[moisture=7]"
+      ],
+      "actual": "minecraft:farmland[moisture=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        48,
+        83,
+        79,
+        "minecraft:sandstone"
+      ],
+      "actual": "minecraft:sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        55,
+        83,
+        117,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        53,
+        78,
+        158,
+        "minecraft:torch"
+      ],
+      "actual": "minecraft:torch",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        87,
+        188,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        86,
+        192,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        79,
+        237,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        91,
+        18,
+        "minecraft:farmland[moisture=7]"
+      ],
+      "actual": "minecraft:farmland[moisture=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        95,
+        51,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        95,
+        64,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        95,
+        96,
+        "minecraft:fern"
+      ],
+      "actual": "minecraft:fern",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        94,
+        150,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        93,
+        160,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        79,
+        19,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        79,
+        32,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        68,
+        83,
+        79,
+        "minecraft:sandstone"
+      ],
+      "actual": "minecraft:sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        79,
+        105,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        75,
+        130,
+        "minecraft:torch"
+      ],
+      "actual": "minecraft:torch",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        76,
+        174,
+        "minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        71,
+        70,
+        209,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        74,
+        70,
+        227,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 15.246,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-45-24-580Z-25625a7c-f651-49f8-8fbd-8fa74628297f",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-45-24-580Z-25625a7c-f651-49f8-8fbd-8fa74628297f\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

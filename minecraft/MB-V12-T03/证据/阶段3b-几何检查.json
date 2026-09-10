@@ -1,0 +1,273 @@
+{
+  "method": "两格净空、实体支承、一格台阶或跳步；不模拟客户端物理。重型几何采用六邻域从底层传播，含树冠、石体、墙及桥。",
+  "reachable_cells": 62574,
+  "destinations": {
+    "长屋A": {
+      "xyz": [
+        74,
+        73,
+        156
+      ],
+      "reachable": true
+    },
+    "农舍B": {
+      "xyz": [
+        101,
+        70,
+        171
+      ],
+      "reachable": true
+    },
+    "长屋C": {
+      "xyz": [
+        64,
+        75,
+        131
+      ],
+      "reachable": true
+    },
+    "农舍D": {
+      "xyz": [
+        96,
+        71,
+        118
+      ],
+      "reachable": true
+    },
+    "厅屋E": {
+      "xyz": [
+        92,
+        76,
+        88
+      ],
+      "reachable": true
+    },
+    "农舍F": {
+      "xyz": [
+        109,
+        73,
+        71
+      ],
+      "reachable": true
+    },
+    "佃户G": {
+      "xyz": [
+        53,
+        78,
+        159
+      ],
+      "reachable": true
+    },
+    "东岸H": {
+      "xyz": [
+        180,
+        71,
+        158
+      ],
+      "reachable": true
+    },
+    "东岸I": {
+      "xyz": [
+        180,
+        73,
+        119
+      ],
+      "reachable": true
+    },
+    "佃户J": {
+      "xyz": [
+        68,
+        78,
+        107
+      ],
+      "reachable": true
+    },
+    "教堂": {
+      "xyz": [
+        58,
+        83,
+        90
+      ],
+      "reachable": true
+    },
+    "庄园": {
+      "xyz": [
+        86,
+        82,
+        55
+      ],
+      "reachable": true
+    },
+    "谷仓": {
+      "xyz": [
+        110,
+        78,
+        48
+      ],
+      "reachable": true
+    },
+    "水磨": {
+      "xyz": [
+        171,
+        68,
+        94
+      ],
+      "reachable": true
+    },
+    "铁匠棚": {
+      "xyz": [
+        115,
+        69,
+        153
+      ],
+      "reachable": true
+    },
+    "桥中": {
+      "xyz": [
+        144,
+        69,
+        143
+      ],
+      "reachable": true
+    },
+    "庄园上层": {
+      "xyz": [
+        77,
+        88,
+        43
+      ],
+      "reachable": true
+    },
+    "磨坊上层": {
+      "xyz": [
+        170,
+        73,
+        89
+      ],
+      "reachable": true
+    }
+  },
+  "routes": {
+    "村道": {
+      "samples": 148,
+      "blocked": []
+    },
+    "教区道": {
+      "samples": 38,
+      "blocked": []
+    },
+    "北庄道（绕宅修订）": {
+      "samples": 83,
+      "blocked": []
+    },
+    "桥西道": {
+      "samples": 27,
+      "blocked": []
+    },
+    "东岸道": {
+      "samples": 66,
+      "blocked": []
+    },
+    "磨坊道": {
+      "samples": 40,
+      "blocked": []
+    },
+    "宅前A": {
+      "samples": 5,
+      "blocked": []
+    },
+    "宅前B": {
+      "samples": 23,
+      "blocked": []
+    },
+    "宅前C": {
+      "samples": 15,
+      "blocked": []
+    },
+    "宅前D": {
+      "samples": 30,
+      "blocked": []
+    },
+    "宅前E": {
+      "samples": 9,
+      "blocked": []
+    },
+    "宅前F": {
+      "samples": 7,
+      "blocked": []
+    },
+    "宅前G": {
+      "samples": 22,
+      "blocked": []
+    },
+    "宅前H": {
+      "samples": 23,
+      "blocked": []
+    },
+    "宅前I": {
+      "samples": 5,
+      "blocked": []
+    },
+    "宅前J": {
+      "samples": 8,
+      "blocked": []
+    },
+    "宅前forge": {
+      "samples": 18,
+      "blocked": []
+    }
+  },
+  "floor_contact": {
+    "长屋A": {
+      "air_below_declared_floor": 0
+    },
+    "农舍B": {
+      "air_below_declared_floor": 0
+    },
+    "长屋C": {
+      "air_below_declared_floor": 0
+    },
+    "农舍D": {
+      "air_below_declared_floor": 0
+    },
+    "厅屋E": {
+      "air_below_declared_floor": 0
+    },
+    "农舍F": {
+      "air_below_declared_floor": 0
+    },
+    "佃户G": {
+      "air_below_declared_floor": 0
+    },
+    "东岸H": {
+      "air_below_declared_floor": 0
+    },
+    "东岸I": {
+      "air_below_declared_floor": 11
+    },
+    "佃户J": {
+      "air_below_declared_floor": 0
+    },
+    "教堂": {
+      "air_below_declared_floor": 0
+    },
+    "庄园": {
+      "air_below_declared_floor": 0
+    },
+    "谷仓": {
+      "air_below_declared_floor": 0
+    },
+    "水磨": {
+      "air_below_declared_floor": 0
+    },
+    "铁匠": {
+      "air_below_declared_floor": 0
+    }
+  },
+  "integrity": {
+    "iterations": 76,
+    "unconnected_voxels": 0,
+    "states": {},
+    "examples": []
+  }
+}

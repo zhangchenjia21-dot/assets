@@ -1,0 +1,145 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "changed_blocks": 23,
+  "apply_seconds": 0.3612965,
+  "readback": [
+    {
+      "position": [
+        21,
+        104,
+        60,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        17,
+        102,
+        91,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        19,
+        103,
+        154,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        15,
+        98,
+        192,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        123,
+        69,
+        176,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        159,
+        67,
+        28,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        130,
+        68,
+        111,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        154,
+        73,
+        205,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        217,
+        96,
+        109,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        217,
+        99,
+        146,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        198,
+        84,
+        209,
+        "minecraft:oak_log[axis=y]"
+      ],
+      "actual": "minecraft:oak_log[axis=y]",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 17.075,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-30-40-798Z-1f8da339-d140-42c3-8a99-cc78ccbc2585",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-30-40-798Z-1f8da339-d140-42c3-8a99-cc78ccbc2585\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

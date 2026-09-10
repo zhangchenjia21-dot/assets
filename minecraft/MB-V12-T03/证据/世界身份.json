@@ -1,0 +1,62 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V12-T03-河谷村落",
+  "name": "MB-V12-T03-河谷村落",
+  "game_type": 1,
+  "generation": {
+    "data": {
+      "bonus_chest": 0,
+      "seed": "2026091003",
+      "generate_structures": 0,
+      "dimensions": {
+        "minecraft:overworld": {
+          "generator": {
+            "settings": {
+              "features": 0,
+              "biome": "minecraft:plains",
+              "layers": [
+                {
+                  "block": "minecraft:bedrock",
+                  "height": 1
+                },
+                {
+                  "block": "minecraft:dirt",
+                  "height": 126
+                },
+                {
+                  "block": "minecraft:grass_block",
+                  "height": 1
+                }
+              ],
+              "structure_overrides": [],
+              "lakes": 0
+            },
+            "type": "minecraft:flat"
+          },
+          "type": "minecraft:overworld"
+        },
+        "minecraft:the_nether": {
+          "generator": {
+            "settings": "minecraft:nether",
+            "biome_source": {
+              "preset": "minecraft:nether",
+              "type": "minecraft:multi_noise"
+            },
+            "type": "minecraft:noise"
+          },
+          "type": "minecraft:the_nether"
+        },
+        "minecraft:the_end": {
+          "generator": {
+            "settings": "minecraft:end",
+            "biome_source": {
+              "type": "minecraft:the_end"
+            },
+            "type": "minecraft:noise"
+          },
+          "type": "minecraft:the_end"
+        }
+      }
+    },
+    "DataVersion": 4903
+  }
+}

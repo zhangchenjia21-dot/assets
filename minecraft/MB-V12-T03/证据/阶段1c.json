@@ -1,0 +1,41 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V12-T03-河谷村落",
+  "size": [
+    256,
+    80,
+    256
+  ],
+  "y0": 56,
+  "palette": [
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:oak_log[axis=y]",
+    "minecraft:cobblestone",
+    "minecraft:coarse_dirt",
+    "minecraft:dark_oak_leaves[distance=4,persistent=true,waterlogged=false]",
+    "minecraft:dark_oak_leaves[distance=3,persistent=true,waterlogged=false]",
+    "minecraft:dark_oak_leaves[distance=2,persistent=true,waterlogged=false]",
+    "minecraft:dark_oak_leaves[distance=6,persistent=true,waterlogged=false]",
+    "minecraft:dark_oak_leaves[distance=5,persistent=true,waterlogged=false]",
+    "minecraft:dark_oak_wood[axis=z]",
+    "minecraft:dark_oak_wood[axis=y]",
+    "minecraft:stripped_dark_oak_wood[axis=y]",
+    "minecraft:dark_oak_log[axis=x]",
+    "minecraft:dark_oak_log[axis=y]",
+    "minecraft:stripped_dark_oak_log[axis=y]",
+    "minecraft:stripped_dark_oak_wood[axis=z]",
+    "minecraft:dark_oak_log[axis=z]",
+    "minecraft:dark_oak_wood[axis=x]",
+    "minecraft:gravel",
+    "minecraft:mud",
+    "minecraft:water[level=0]",
+    "minecraft:calcite"
+  ],
+  "sha256": "2d87b19c114c35abe966159cb0004cf5a8b31074128c8a06a23989cca41c928f",
+  "source": "saved chunks / RegionReader",
+  "time": "2026-09-10T01:31:34.940Z"
+}

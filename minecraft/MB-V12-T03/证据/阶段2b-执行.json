@@ -1,0 +1,68 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:stone",
+    "minecraft:air"
+  ],
+  "changed_blocks": 2775,
+  "apply_seconds": 0.1314721,
+  "readback": [
+    {
+      "position": [
+        75,
+        82,
+        42,
+        "minecraft:oak_planks"
+      ],
+      "actual": "minecraft:oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        113,
+        67,
+        55,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        112,
+        67,
+        87,
+        "minecraft:dirt"
+      ],
+      "actual": "minecraft:dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        179,
+        72,
+        87,
+        "minecraft:oak_planks"
+      ],
+      "actual": "minecraft:oak_planks",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 14.025,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-40-19-232Z-5398500e-5f19-458b-8e01-b0c1c226c0e5",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-40-19-232Z-5398500e-5f19-458b-8e01-b0c1c226c0e5\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

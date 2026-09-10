@@ -1,0 +1,376 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:dirt",
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone",
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:cobblestone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:dirt"
+  ],
+  "changed_blocks": 78824,
+  "apply_seconds": 0.6472662,
+  "readback": [
+    {
+      "position": [
+        30,
+        81,
+        213,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        46,
+        56,
+        84,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        56,
+        79,
+        96,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        82,
+        155,
+        "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        87,
+        160,
+        "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        80,
+        211,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        46,
+        88,
+        84,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        88,
+        161,
+        "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        73,
+        56,
+        39,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        56,
+        83,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        76,
+        108,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        56,
+        128,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        75,
+        160,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        71,
+        192,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        72,
+        93,
+        38,
+        "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        91,
+        82,
+        "minecraft:cobbled_deepslate_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:cobbled_deepslate_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        88,
+        161,
+        "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        56,
+        46,
+        "minecraft:cobblestone"
+      ],
+      "actual": "minecraft:cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        69,
+        64,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        79,
+        96,
+        "minecraft:oak_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:oak_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        68,
+        136,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        98,
+        74,
+        167,
+        "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:bamboo_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        88,
+        45,
+        "minecraft:spruce_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:spruce_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        88,
+        88,
+        "minecraft:spruce_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:spruce_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        159,
+        66,
+        91,
+        "minecraft:stripped_oak_log[axis=x]"
+      ],
+      "actual": "minecraft:stripped_oak_log[axis=x]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        68,
+        141,
+        "minecraft:oak_planks"
+      ],
+      "actual": "minecraft:oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        64,
+        87,
+        "minecraft:spruce_planks"
+      ],
+      "actual": "minecraft:spruce_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        162,
+        77,
+        96,
+        "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        68,
+        141,
+        "minecraft:oak_planks"
+      ],
+      "actual": "minecraft:oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        172,
+        81,
+        160,
+        "minecraft:spruce_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:spruce_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        192,
+        71,
+        119,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        192,
+        71,
+        128,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 15.573,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-32-52-247Z-57b93ee6-f95c-4225-aeda-0729ca187280",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-32-52-247Z-57b93ee6-f95c-4225-aeda-0729ca187280\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:cobblestone"
+  ],
+  "changed_blocks": 268,
+  "apply_seconds": 0.0980104,
+  "readback": [
+    {
+      "position": [
+        58,
+        81,
+        79,
+        "minecraft:sandstone"
+      ],
+      "actual": "minecraft:sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        68,
+        77,
+        79,
+        "minecraft:sandstone"
+      ],
+      "actual": "minecraft:sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        70,
+        137,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 14.413,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-51-00-445Z-934e90e5-3bea-4aa4-8e50-590e29c49d5c",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V12-T03-河谷村落",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T01-51-00-445Z-934e90e5-3bea-4aa4-8e50-590e29c49d5c\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}
