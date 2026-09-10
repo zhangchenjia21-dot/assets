@@ -8,6 +8,7 @@
 - `../../../decisions/D-013_可见世界约束与隐性设定可创作原则.md`
 - `../../../decisions/D-014_CIV-001最小文明Canon收敛与AB-001进入.md`
 - `../../../decisions/D-018_CouncilCenterland联盟公地与中域交割.md`
+- `../../../decisions/D-020_AB-001P1R联盟公地精确边界接受.md`
 - `../../../decisions/D-007_文明设定必须经过区域实地考察.md`
 
 Architecture Grammar：
@@ -69,30 +70,17 @@ Current planning evidence：
 
 空间基础：西部 C 形低岛。
 
-Canon 方向：
+Canon 方向：主要低平生产空间、农牧景观、人口集中、市场、常见手工业与联盟级公共功能。
 
-- 主要低平生产空间；
-- 农牧景观；
-- 人口集中；
-- 市场；
-- 常见手工业；
-- 联盟级公共功能。
-
-农田、牧场、果园、粮仓、磨坊等属于未来可通过建设真实形成的 `IMPLEMENTED_VISIBLE_RESOURCE`，不要求天然存档已经存在。
+农田、牧场、果园、粮仓、磨坊等属于未来可通过建设真实形成的 `IMPLEMENTED_VISIBLE_RESOURCE`。
 
 ### 中域｜跨岛与山地过渡枢纽
 
-空间基础：东部主岛西侧低地 / 坡麓。
+空间基础：东部主岛西侧低地 / 坡麓，以及 Alliance Commons 东侧 connector。
 
-Canon 方向：
+Canon 方向：接驳、仓储、商贸、加工、低地与山地产品 / 人员转换。
 
-- 接驳；
-- 仓储；
-- 商贸；
-- 加工；
-- 低地与山地产品 / 人员转换。
-
-它不是自动成立的“天然港口”。具体渡点、码头、道路和城镇位置仍需要 Site observation。
+它不是自动成立的天然港口。具体渡点、码头、道路和城镇位置仍需要 Site observation。
 
 ### 东域｜富矿山地、冶金与石工核心
 
@@ -139,34 +127,35 @@ AB-001P1 已确认 Candidate A：
 
 > **湾内中心低地 / Council Centerland**
 
-A 的自然事实：不是独立岛，而是东部山地主岛向西伸入 C 形海湾的连续低地；A actual land 约 105,785 blocks²。
+A 不是自然独立岛，而是东部山地主岛向西伸入 C 形海湾的连续低地；A actual land：**105,785 blocks²**。
 
-Owner 已明确政治土地划分：
+Owner 土地规则：
 
 > **A 除最东侧与右侧主岛相连的陆颈 / 连接带之外，其余主体陆地全部属于联盟公地。**
 
-因此：
+AB-001P1R 已完成精确边界拟合并通过 GPT 独立审核。
 
-- 切掉东侧连接带后，A 剩余主体本身就是玩家视觉上的近似椭圆 / 卵形“中心岛”；
-- **整个剩余主体 = Alliance Commons / 联盟公用土地**；
-- 不在 A 主体内部再画一个更小的椭圆公地区；
-- 东侧连接带归 **中域**，并继续向东接入中域的低地 / 坡麓；
-- 西域不在 A 上建立额外主权飞地，而通过三席议会与共同建筑参与联盟公地。
-
-政治空间关系：
+### Alliance Commons｜正式规划边界
 
 ```text
-西域（湾对岸）
-      ↕
-Alliance Commons
-= A 主体 − 东侧连接带
-      ↔
-中域（东侧连接带 + 东岛西部低地 / 坡麓）
-      →
-东域（山地核心）
+Commons = A ∩ (X <= 88)
+Middle-Domain connector = A ∩ (X >= 89)
 ```
 
-联盟公地精确边界与面积仍需 Architecture Planning 只读拟合“东侧连接带切口”；不需要 broad rescan，不需要 world write。
+- 政治边界平面：`X=89`；
+- 接口：`Z=1726..1774`；
+- Alliance Commons：**92,124 blocks²**；
+- connector：**13,661 blocks²**；
+- 两侧各自连续，完整覆盖 A、无重叠 / 遗漏。
+
+因此：
+
+- 去掉东侧 connector 后，A 剩余整个视觉椭圆 / 卵形主体就是联盟共同领土；
+- 不在 Commons 内再缩小第二层行政公地；
+- connector 归中域并继续连接东岛西部低地 / 坡麓；
+- 西域不在 A 上建立额外主权飞地，而通过联盟制度共同拥有 Commons。
+
+X=89 是政治 / 地籍规划线，不要求在 Minecraft 中物理挖断或筑墙。
 
 当前容量入口：
 
@@ -198,6 +187,8 @@ CIV-001 当前已经足以服务 Minecraft 建筑，不再为了完整设定集�
 
 > **CIV-001 Minimal World Canon = COMPLETE**
 
+> **Alliance Commons exact planning land = 92,124 blocks²**
+
 > **AB-001 Architecture Grammar = ACTIVE DESIGN BASELINE**
 
-Build 仍需 Site observation + 单目标 Task + 明确 world-write 授权。
+Build 仍需单目标设计 + 明确 world-write 授权。
