@@ -1,0 +1,349 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt"
+  ],
+  "changed_blocks": 946502,
+  "apply_seconds": 9.9080363,
+  "readback": [
+    {
+      "position": [
+        0,
+        56,
+        0,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        32,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        64,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        96,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        128,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        160,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        192,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        224,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        27,
+        88,
+        41,
+        "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        27,
+        88,
+        95,
+        "minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        22,
+        88,
+        100,
+        "minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        29,
+        88,
+        128,
+        "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        0,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        32,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        64,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        96,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        128,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        160,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        192,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        224,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        88,
+        28,
+        "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        88,
+        36,
+        "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        88,
+        75,
+        "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        88,
+        96,
+        "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        88,
+        128,
+        "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        88,
+        179,
+        "minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        88,
+        198,
+        "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        56,
+        0,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        56,
+        32,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        56,
+        64,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 29.082,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-02-48-589Z-b97794e0-bbbe-4d7a-a46b-209c9cbbfc8a",
+  "backup": null
+}

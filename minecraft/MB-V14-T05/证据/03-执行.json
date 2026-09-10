@@ -1,0 +1,354 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "changed_blocks": 36985,
+  "apply_seconds": 5.2793325,
+  "readback": [
+    {
+      "position": [
+        8,
+        65,
+        8,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        8,
+        65,
+        32,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        8,
+        65,
+        67,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        8,
+        66,
+        97,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        8,
+        65,
+        154,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        8,
+        65,
+        161,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        8,
+        65,
+        192,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        8,
+        65,
+        236,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        65,
+        9,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        66,
+        32,
+        "minecraft:fern"
+      ],
+      "actual": "minecraft:fern",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        68,
+        65,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        70,
+        96,
+        "minecraft:fern"
+      ],
+      "actual": "minecraft:fern",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        67,
+        128,
+        "minecraft:podzol[snowy=false]"
+      ],
+      "actual": "minecraft:podzol[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        66,
+        164,
+        "minecraft:fern"
+      ],
+      "actual": "minecraft:fern",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        65,
+        193,
+        "minecraft:fern"
+      ],
+      "actual": "minecraft:fern",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        65,
+        225,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        66,
+        9,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        68,
+        32,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        72,
+        65,
+        "minecraft:fern"
+      ],
+      "actual": "minecraft:fern",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        74,
+        96,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        72,
+        131,
+        "minecraft:fern"
+      ],
+      "actual": "minecraft:fern",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        68,
+        161,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        64,
+        192,
+        "minecraft:podzol[snowy=false]"
+      ],
+      "actual": "minecraft:podzol[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        64,
+        224,
+        "minecraft:podzol[snowy=false]"
+      ],
+      "actual": "minecraft:podzol[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        69,
+        25,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        70,
+        32,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        72,
+        64,
+        "minecraft:moss_block"
+      ],
+      "actual": "minecraft:moss_block",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        72,
+        101,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        68,
+        134,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        65,
+        162,
+        "minecraft:short_grass"
+      ],
+      "actual": "minecraft:short_grass",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 21.976,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-16-25-858Z-aa924b88-3d13-41a8-ad42-256b2a535714",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-16-25-858Z-aa924b88-3d13-41a8-ad42-256b2a535714\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

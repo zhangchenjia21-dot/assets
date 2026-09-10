@@ -1,0 +1,26 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V14-T05-森林圣所",
+  "size": [
+    256,
+    96,
+    256
+  ],
+  "y0": 56,
+  "palette": [
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:dark_oak_log[axis=y]",
+    "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:andesite",
+    "minecraft:water[level=0]",
+    "minecraft:mud",
+    "minecraft:moss_block"
+  ],
+  "sha256": "9cf3f1dcb2f2e31addaf3dd04fc6aa5e064dfae81429eca7f353ed92599c4e94",
+  "source": "saved chunks / read-only",
+  "time": "2026-09-10T10:11:43.476Z"
+}

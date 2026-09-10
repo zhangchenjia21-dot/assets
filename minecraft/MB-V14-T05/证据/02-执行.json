@@ -1,0 +1,233 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]"
+  ],
+  "changed_blocks": 9755,
+  "apply_seconds": 0.8722381,
+  "readback": [
+    {
+      "position": [
+        89,
+        72,
+        95,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        78,
+        73,
+        100,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        78,
+        71,
+        128,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        65,
+        211,
+        "minecraft:dark_oak_log[axis=y]"
+      ],
+      "actual": "minecraft:dark_oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        64,
+        231,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        72,
+        93,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        70,
+        104,
+        "minecraft:mossy_cobblestone"
+      ],
+      "actual": "minecraft:mossy_cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        68,
+        128,
+        "minecraft:mossy_cobblestone"
+      ],
+      "actual": "minecraft:mossy_cobblestone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        63,
+        189,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        64,
+        202,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        66,
+        95,
+        "minecraft:dark_oak_log[axis=y]"
+      ],
+      "actual": "minecraft:dark_oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        66,
+        96,
+        "minecraft:dark_oak_log[axis=y]"
+      ],
+      "actual": "minecraft:dark_oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        75,
+        128,
+        "minecraft:oak_planks"
+      ],
+      "actual": "minecraft:oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        63,
+        181,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        64,
+        212,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        65,
+        125,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        74,
+        131,
+        "minecraft:dark_oak_log[axis=y]"
+      ],
+      "actual": "minecraft:dark_oak_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        65,
+        175,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        64,
+        207,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 16.89,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-12-34-686Z-ef7623e7-b07f-48f5-8ece-c3dccd016c3e",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-12-34-686Z-ef7623e7-b07f-48f5-8ece-c3dccd016c3e\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

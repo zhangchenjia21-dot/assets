@@ -1,0 +1,35 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:water[level=0]"
+  ],
+  "changed_blocks": 2,
+  "apply_seconds": 0.0574231,
+  "readback": [
+    {
+      "position": [
+        107,
+        64,
+        174,
+        "minecraft:mud"
+      ],
+      "actual": "minecraft:mud",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 15.319,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-18-37-381Z-2bf9c368-428f-42e3-a416-1155f36b0482",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-18-37-381Z-2bf9c368-428f-42e3-a416-1155f36b0482\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

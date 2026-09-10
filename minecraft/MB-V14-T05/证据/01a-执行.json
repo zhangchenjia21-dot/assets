@@ -1,0 +1,112 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:andesite",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:andesite",
+    "minecraft:water[level=0]",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "changed_blocks": 399,
+  "apply_seconds": 0.1773315,
+  "readback": [
+    {
+      "position": [
+        98,
+        63,
+        129,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        107,
+        63,
+        174,
+        "minecraft:mud"
+      ],
+      "actual": "minecraft:mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        119,
+        64,
+        211,
+        "minecraft:water[level=0]"
+      ],
+      "actual": "minecraft:water[level=0]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        154,
+        71,
+        65,
+        "minecraft:water[level=0]"
+      ],
+      "actual": "minecraft:water[level=0]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        150,
+        63,
+        127,
+        "minecraft:mud"
+      ],
+      "actual": "minecraft:mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        144,
+        63,
+        136,
+        "minecraft:mud"
+      ],
+      "actual": "minecraft:mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        69,
+        83,
+        "minecraft:water[level=0]"
+      ],
+      "actual": "minecraft:water[level=0]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        66,
+        104,
+        "minecraft:water[level=0]"
+      ],
+      "actual": "minecraft:water[level=0]",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 15.567,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-08-59-712Z-5a7f498d-58bc-473d-9fdf-5ce91f82ef32",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V14-T05-森林圣所",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-10T10-08-59-712Z-5a7f498d-58bc-473d-9fdf-5ce91f82ef32\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

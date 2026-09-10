@@ -1,0 +1,240 @@
+{
+  "01a→02": {
+    "changed_cells": 9755,
+    "state_transitions": {
+      "minecraft:air -> minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]": 253,
+      "minecraft:air -> minecraft:bookshelf": 54,
+      "minecraft:air -> minecraft:coarse_dirt": 147,
+      "minecraft:air -> minecraft:dark_oak_leaves[distance=1,persistent=true,waterlogged=false]": 312,
+      "minecraft:air -> minecraft:dark_oak_log[axis=y]": 2489,
+      "minecraft:air -> minecraft:dark_oak_log[axis=z]": 1182,
+      "minecraft:air -> minecraft:dirt": 229,
+      "minecraft:air -> minecraft:moss_block": 312,
+      "minecraft:air -> minecraft:mossy_cobblestone": 543,
+      "minecraft:air -> minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]": 106,
+      "minecraft:air -> minecraft:oak_planks": 1236,
+      "minecraft:air -> minecraft:oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": 57,
+      "minecraft:air -> minecraft:stripped_oak_log[axis=x]": 418,
+      "minecraft:andesite -> minecraft:dark_oak_log[axis=y]": 27,
+      "minecraft:dirt -> minecraft:coarse_dirt": 36,
+      "minecraft:dirt -> minecraft:dark_oak_log[axis=y]": 10,
+      "minecraft:dirt -> minecraft:dark_oak_log[axis=z]": 34,
+      "minecraft:dirt -> minecraft:mossy_cobblestone": 61,
+      "minecraft:dirt -> minecraft:oak_planks": 85,
+      "minecraft:dirt -> minecraft:stripped_oak_log[axis=x]": 21,
+      "minecraft:grass_block[snowy=false] -> minecraft:air": 29,
+      "minecraft:grass_block[snowy=false] -> minecraft:coarse_dirt": 1016,
+      "minecraft:grass_block[snowy=false] -> minecraft:dark_oak_log[axis=y]": 93,
+      "minecraft:grass_block[snowy=false] -> minecraft:dark_oak_log[axis=z]": 23,
+      "minecraft:grass_block[snowy=false] -> minecraft:mossy_cobblestone": 638,
+      "minecraft:grass_block[snowy=false] -> minecraft:oak_planks": 134,
+      "minecraft:grass_block[snowy=false] -> minecraft:oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": 3,
+      "minecraft:grass_block[snowy=false] -> minecraft:stripped_oak_log[axis=x]": 27,
+      "minecraft:mud -> minecraft:dark_oak_log[axis=y]": 5,
+      "minecraft:mud -> minecraft:dirt": 3,
+      "minecraft:stone -> minecraft:mossy_cobblestone": 32,
+      "minecraft:water[level=0] -> minecraft:dark_oak_log[axis=y]": 134,
+      "minecraft:water[level=0] -> minecraft:dirt": 6
+    }
+  },
+  "02→03": {
+    "changed_cells": 36985,
+    "state_transitions": {
+      "minecraft:air -> minecraft:allium": 104,
+      "minecraft:air -> minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]": 480,
+      "minecraft:air -> minecraft:blue_orchid": 23,
+      "minecraft:air -> minecraft:dark_oak_log[axis=y]": 16,
+      "minecraft:air -> minecraft:fern": 9262,
+      "minecraft:air -> minecraft:lily_of_the_valley": 63,
+      "minecraft:air -> minecraft:short_grass": 14245,
+      "minecraft:air -> minecraft:shroomlight": 3,
+      "minecraft:dark_oak_log[axis=y] -> minecraft:shroomlight": 2,
+      "minecraft:grass_block[snowy=false] -> minecraft:moss_block": 3669,
+      "minecraft:grass_block[snowy=false] -> minecraft:podzol[snowy=false]": 8990,
+      "minecraft:mud -> minecraft:short_grass": 19,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true]": 10,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]": 12,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=false,south=true,waterlogged=false,west=true]": 6,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]": 12,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=true]": 7,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]": 11,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=true]": 1,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false]": 13,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true]": 20,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false]": 6,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=true]": 1,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=true,south=false,waterlogged=false,west=false]": 5,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=true,south=false,waterlogged=false,west=true]": 1,
+      "minecraft:water[level=0] -> minecraft:short_grass": 4
+    }
+  },
+  "03→03a": {
+    "changed_cells": 2,
+    "state_transitions": {
+      "minecraft:water[level=0] -> minecraft:mud": 2
+    }
+  },
+  "03a→03b": {
+    "changed_cells": 23,
+    "state_transitions": {
+      "minecraft:short_grass -> minecraft:mud": 19,
+      "minecraft:short_grass -> minecraft:water[level=0]": 4
+    }
+  },
+  "02→03b": {
+    "changed_cells": 36964,
+    "state_transitions": {
+      "minecraft:air -> minecraft:allium": 104,
+      "minecraft:air -> minecraft:azalea_leaves[distance=1,persistent=true,waterlogged=false]": 480,
+      "minecraft:air -> minecraft:blue_orchid": 23,
+      "minecraft:air -> minecraft:dark_oak_log[axis=y]": 16,
+      "minecraft:air -> minecraft:fern": 9262,
+      "minecraft:air -> minecraft:lily_of_the_valley": 63,
+      "minecraft:air -> minecraft:short_grass": 14245,
+      "minecraft:air -> minecraft:shroomlight": 3,
+      "minecraft:dark_oak_log[axis=y] -> minecraft:shroomlight": 2,
+      "minecraft:grass_block[snowy=false] -> minecraft:moss_block": 3669,
+      "minecraft:grass_block[snowy=false] -> minecraft:podzol[snowy=false]": 8990,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=true]": 10,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=false,south=true,waterlogged=false,west=false]": 12,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=false,south=true,waterlogged=false,west=true]": 6,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=false]": 12,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=true,south=false,waterlogged=false,west=true]": 7,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]": 11,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=true]": 1,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=false]": 13,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true]": 20,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=false]": 6,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=false,south=true,waterlogged=false,west=true]": 1,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=true,south=false,waterlogged=false,west=false]": 5,
+      "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false] -> minecraft:oak_fence[east=true,north=true,south=false,waterlogged=false,west=true]": 1,
+      "minecraft:water[level=0] -> minecraft:mud": 2
+    }
+  },
+  "architecture_envelopes": {
+    "种子室": {
+      "bounds": [
+        84,
+        69,
+        103,
+        105,
+        83,
+        132
+      ],
+      "changed_cells": 12,
+      "changes": [
+        [
+          84,
+          70,
+          132,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          71,
+          124,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          71,
+          125,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          71,
+          126,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          71,
+          128,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          71,
+          129,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          71,
+          130,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          71,
+          131,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          72,
+          119,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          72,
+          121,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          84,
+          72,
+          122,
+          "minecraft:air",
+          "minecraft:short_grass"
+        ],
+        [
+          100,
+          74,
+          107,
+          "minecraft:air",
+          "minecraft:shroomlight"
+        ]
+      ]
+    },
+    "议庭": {
+      "bounds": [
+        155,
+        67,
+        130,
+        183,
+        85,
+        156
+      ],
+      "changed_cells": 2,
+      "changes": [
+        [
+          158,
+          73,
+          133,
+          "minecraft:dark_oak_log[axis=y]",
+          "minecraft:shroomlight"
+        ],
+        [
+          178,
+          73,
+          151,
+          "minecraft:dark_oak_log[axis=y]",
+          "minecraft:shroomlight"
+        ]
+      ]
+    }
+  }
+}

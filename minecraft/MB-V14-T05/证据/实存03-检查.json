@@ -1,0 +1,114 @@
+{
+  "source": "saved chunks",
+  "method": "two-block clearance / one-block step or jump; six-neighbour heavy geometry, not client physics",
+  "targets": {
+    "西根廊": {
+      "xyz": [
+        121,
+        76,
+        113
+      ],
+      "reachable": true
+    },
+    "东根廊": {
+      "xyz": [
+        155,
+        76,
+        112
+      ],
+      "reachable": true
+    },
+    "北根廊": {
+      "xyz": [
+        137,
+        76,
+        94
+      ],
+      "reachable": true
+    },
+    "南根廊": {
+      "xyz": [
+        137,
+        76,
+        130
+      ],
+      "reachable": true
+    },
+    "听水台": {
+      "xyz": [
+        122,
+        68,
+        151
+      ],
+      "reachable": true
+    },
+    "种子室": {
+      "xyz": [
+        94,
+        71,
+        127
+      ],
+      "reachable": true
+    },
+    "叶棚议庭": {
+      "xyz": [
+        169,
+        69,
+        147
+      ],
+      "reachable": true
+    },
+    "幼林圃": {
+      "xyz": [
+        165,
+        66,
+        173
+      ],
+      "reachable": true
+    },
+    "入口": {
+      "xyz": [
+        92,
+        65,
+        214
+      ],
+      "reachable": true
+    },
+    "泉池西岸": {
+      "xyz": [
+        105,
+        64,
+        158
+      ],
+      "reachable": true
+    }
+  },
+  "blocked_routes": {
+    "入林径": [],
+    "西岸巡林": [],
+    "种子室支径": [],
+    "北根径": [],
+    "东岸径": [],
+    "归林径": []
+  },
+  "orphans": 0,
+  "orphan_states": {},
+  "orphan_examples": [],
+  "micro_solid_changes": [
+    [
+      158,
+      73,
+      133,
+      "minecraft:dark_oak_log[axis=y]",
+      "minecraft:shroomlight"
+    ],
+    [
+      178,
+      73,
+      151,
+      "minecraft:dark_oak_log[axis=y]",
+      "minecraft:shroomlight"
+    ]
+  ],
+  "different_cells": 0
+}
