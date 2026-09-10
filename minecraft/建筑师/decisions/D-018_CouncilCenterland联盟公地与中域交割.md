@@ -1,127 +1,114 @@
 # D-018｜Council Centerland 联盟公地与中域交割
 
-状态：**OWNER APPROVED / ACTIVE DECISION（OWNER CLARIFIED）**
+状态：**OWNER APPROVED / ACTIVE DECISION / EXACT BOUNDARY ACCEPTED BY D-020**
 
 日期：2026-09-10
 
-## 1. 背景
+## 1. Owner 土地规则
 
-AB-001P1 已确认 Candidate A 为三席议会政治中心的视觉 / 空间锚点。A 是东部山地主岛向西伸入 C 形海湾的低地陆体，实际干陆约 105,785 blocks²，不是独立岛。
+Candidate A 是东部山地主岛向西伸入 C 形海湾的低地陆体，原 A 实际干陆：**105,785 blocks²**。
 
-Owner 对政治土地分配作出进一步澄清：此前把 A 内再切出一个较小椭圆公地的理解是错误的。
-
-## 2. Owner 澄清后的正式决策
-
-正确含义是：
+Owner 明确：
 
 > **Candidate A 除了最东侧与右侧主岛连接的陆颈 / 连接带之外，其余主体陆地全部属于联盟公用土地。**
 
-也就是说：
+不得：
 
-- 不在 A 内部再人为套一个更小的 55k–65k 椭圆；
-- A 去掉东侧连接带后，剩余主体本身在玩家视觉上已经近似一个椭圆 / 卵形中心陆体；
-- **这个剩余主体整体就是 Alliance Commons / 联盟公地**；
-- 只有与右侧东部主岛连续相接的连接部分划归 **中域**；
-- 联盟公地之外不再额外把 A 的其它边缘主体切给中域。
+- 在 A 内部再套一个更小的椭圆公地；
+- 为达到某个面积百分比反向裁地；
+- 为追求数学椭圆裁掉主体自然海岸。
 
-因此政治边界的本质不是“在 A 里画一个椭圆”，而是：
+去掉东侧连接带后，剩余主体本身在玩家视觉上就是近似椭圆 / 卵形“中心岛”。
 
-> **找到 A 主体与东部主岛之间合理的陆颈切口；切口以西的 A 主体全部为联盟公地，切口以东的连接带及后续低地归中域。**
+## 2. AB-001P1R 精确边界
 
-## 3. 政治空间关系
+P1R implementation：
+
+`723f9217c75b2e53a83d895904dfafb58e7a6c8a`
+
+Independent Review：
+
+`../research/build-sites/CIV-001/AB-001P1R/独立审核.md`
+
+Acceptance：
+
+`D-020_AB-001P1R联盟公地精确边界接受.md`
+
+当前接受的规划切口：
+
+```text
+Alliance Commons = A ∩ (X <= 88)
+Middle-Domain connector = A ∩ (X >= 89)
+```
+
+政治边界平面：`X=89`。
+
+实际共享陆地接口：`Z=1726..1774`，48 条单位边。
+
+## 3. 精确面积
+
+- Alliance Commons：**92,124 blocks²**；
+- East connector：**13,661 blocks²**；
+- Candidate A：**105,785 blocks²**。
+
+验证：
+
+```text
+Commons ∪ connector = A
+Commons ∩ connector = empty
+Commons connected components = 1
+connector connected components = 1
+```
+
+因此 Alliance Commons 约占 A 的绝大多数，符合 Owner“连接带之外整个主体都是公地”的原意。
+
+## 4. 政治空间关系
 
 ```text
 西域（湾对岸 C 形低岛）
         ↕ 水面联系
 联盟公地｜Alliance Commons
-= A 主体（去除东侧连接带）
-≈ 玩家视觉上的椭圆 / 卵形“中心岛”
-        ↔
-中域｜东侧连接带 / 陆颈 + 东岛西部低地 / 坡麓
+= 92,124 格 A 主体
+≈ 玩家视觉上的椭圆 / 卵形中心陆体
+        ↔ X=89 政治接口
+中域｜13,661 格东侧连接带 + 东岛西部低地 / 坡麓
         →
 东域｜东部山地核心
 ```
 
-联盟公地仍不是自然地理意义的独立岛，而是通过政治边界把视觉上的“中心岛主体”与东向连接带分开。
+西域不在 Commons 之外另建立 A 内主权飞地；三域通过联盟制度共同拥有 Commons。
 
-## 4. 面积规则
+## 5. 边界性质
 
-A 总干陆约：
+X=89 是 Minecraft 栅格上的政治 / 地籍规划约定，不代表：
 
-> **105,785 blocks²**
+- 自然界存在一条无限精确的断界；
+- 必须筑墙；
+- 必须挖沟或开水道；
+- 必须把边界做成明显人工直线。
 
-联盟公地面积现在**不预设固定目标值**。
+未来进入可见建筑 / 景观设计时，可通过道路、界石、低墙、树列、院落边缘或其它前现代方式 Just-in-time 表达，也可以在部分地段保持边界不可见。
 
-正确计算方式：
+## 6. Program / Capacity
 
-```text
-Alliance Commons area
-= A actual land geometry
-− Middle-Domain east connector geometry
-```
+旧的 22k–32k / 55k–65k Commons 等面积假设全部失效。
 
-因此此前写入的：
+当前唯一有效总面积：
 
-- `55,000–65,000 blocks²` 联盟公地目标；
-- `52%–61% of A`；
-- 人为拟定的 340–370 × 210–230 椭圆；
+> **Alliance Commons = 92,124 blocks²**
 
-全部撤回。
+最新容量规划入口：
 
-在精确识别东侧连接带之前，不再凭视觉预估 Alliance Commons 的绝对面积或占 A 百分比。
+`../architecture/civilizations/CIV-001/Council-Centerland-Program-Capacity.md`
 
-## 5. 东侧连接带如何确定
+建筑密度、大厅尺度和其它功能均必须从该真实面积重新推导。
 
-连接带必须根据现有 A / parent-landmass geometry 做**轻量边界拟合**，不需要 broad rescan。
+## 7. 小批次施工
 
-应优先寻找：
+即使 Commons 总面积达到 92,124 格，仍继续：
 
-- A 主体向东明显收束的位置；
-- 地形 / 岸线形成的自然陆颈；
-- 能把视觉椭圆主体与向主岛延伸部分清楚区分的最小合理切口；
-- 切割后 A 西侧主体应保持一个连续、整体可读的中心陆体。
+> **一个 world-write Task = 一个主要建筑 / 一个主要空间目标 + 必需最小接口。**
 
-不得为了得到完美数学椭圆而切掉 A 主体的自然边缘。
-
-## 6. 空间性质
-
-联盟公地的“椭圆 / 卵形”首先是**现有地貌在切掉东侧连接带后的视觉形态**，不是要求以后：
-
-- 修成数学椭圆；
-- 建椭圆围墙；
-- 做放射状道路；
-- 建现代行政园区。
-
-真实边界可沿自然岸线与陆颈切口保持不规则。
-
-## 7. 建筑容量影响
-
-因为联盟公地现在等于“A 主体减去连接带”，其面积很可能显著大于此前 55k–65k 的错误规划量级。
-
-因此：
-
-- 成熟期建筑总 footprint 不再沿用此前 14k–20k 固定预算；
-- 三席议事大厅也不再沿用 3k–5k 的固定搜索范围；
-- 必须在连接带精确切分、得到真实 Alliance Commons 面积后重新做 Program / Capacity 计算。
-
-唯一继续有效的是：
-
-> **小批次施工限制一次任务承担的目标数量，不限制建筑必须小。**
-
-## 8. Canon / Planning 边界
-
-Owner-approved Canon：
-
-- A 除东侧连接主岛部分外，主体整体为联盟公用土地；
-- 东侧连接带归中域；
-- 去掉连接带后的公地主体视觉上近似椭圆 / 卵形；
-- 不在 A 主体内再人为缩小一圈联盟公地。
-
-仍待 Architecture Planning 精确确定：
-
-- 东侧连接带具体 geometry / cut line；
-- Alliance Commons 精确面积；
-- 成熟期 Program / building density；
-- 三席议事大厅最终尺度与位置。
+总体政治中心可以预先做容量与关系规划，但不得一次性交给 Codex 全部施工。
 
 `world writes = 0`。
