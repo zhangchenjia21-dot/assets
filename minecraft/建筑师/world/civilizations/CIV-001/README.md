@@ -1,95 +1,132 @@
-# CIV-001｜First Civilization Pilot
+# CIV-001｜南部岛屿群人类三域联盟
 
-状态：**DESIGN RESET / REGION-FIRST RECONNAISSANCE REQUIRED**
+状态：**OWNER-APPROVED CIVILIZATION FOUNDATION / ECONOMIC SUBSTRATE PENDING**
 
-当前裁定：`../../../decisions/D-007_文明设定必须经过区域实地考察.md`
+当前裁定：
 
-历史决策：`../../../decisions/D-006_CIV-001南部大岛林地长生种文明试点批准.md`
+- `../../../decisions/D-011_CIV-001人类三域联盟与三席议会方向批准.md`
+- `../../../decisions/D-007_文明设定必须经过区域实地考察.md`
 
-## 1. 当前状态
+历史决策：
 
-`CIV-001` 仍保留为本项目第一个文明设计 Pilot 的工作 ID，但**不再绑定南部大岛的林地长生种文明**。
+- `../../../decisions/D-006_CIV-001南部大岛林地长生种文明试点批准.md`（已被 D-007 supersede）
 
-`D-006` 曾批准：
+## 1. 当前文明身份
 
-- 南部大岛 `NGEO-009` 作为 CIV-001 核心区域；
-- 林地长生种作为主要智慧种。
+`CIV-001` 是本项目第一个文明 Pilot。
 
-Owner 随后进入真实 Minecraft 存档进行实地考察，发现区域自然条件与此前基于宏观 Atlas 形成的“圣林 / 自然型文明”想象不匹配。
+当前已批准：
 
-因此 `D-007` 已撤销上述文明空间指定。
+- 主要智慧种：**人类**；
+- 核心空间：南部岛屿群 whole-scope Regional Profile 所覆盖的两大主体岛及相关过渡空间；
+- 文明骨架：**三域联盟**；
+- 政体方向：前现代、松散联盟 / 邦联式共同体；
+- 核心共同治理机构方向：**三席议会**。
 
-## 2. 南部大岛当前角色
+正式文明名、三域正式地名均保持 TBD。
 
-南部大岛现在仅作为：
+## 2. 自然事实基础
 
-> **REGIONAL RECONNAISSANCE TARGET / HUMAN-GEOGRAPHY HYPOTHESIS PENDING**
+Current Human Geography planning evidence：
 
-Atlas 主锚点：
+`../../../research/human-geography/southern-island/WB-002R-R1/`
 
-- `NGEO-009`
-- `NFEAT-003`
-- `NHYD-019`
+Accepted implementation：`5c6bffe8efbb0a5b0f53d8dfe036e012294b9c96`
 
-已接受宏观事实仍然有效：
+### 西部 C 形低岛
 
-- 表层陆体被同一外围真实水体分量包围；
-- 岛内存在与外围水体分离的内部池塘；
-- 真实岛体陆柱面积约 575,385 blocks²；
-- 已验证岛体范围约 999 × 1100 blocks。
+- area：575,363 blocks²；
+- median Y：66；
+- max Y：79；
+- LOW_RELIEF_FLAT：67.65%。
 
-但这些事实不再用于直接推导任何种族 / 文明。
+### 东部山地主岛
 
-## 3. Owner 实地考察证据
+- area：1,674,373 blocks²；
+- median Y：149；
+- max Y：300；
+- LOW_RELIEF_FLAT：5.99%；
+- 与西岛表层不连通；
+- 西部存在较低的伸出地带 / 坡麓过渡，内部向山地核心呈连续梯度。
 
-见：
+自然地理没有证明唯一、稳定、恰好三分的硬边界，因此三域属于 Human Geography / cultural-political interpretation，不等同于 Research SIRZ。
 
-`../../../research/human-geography/southern-island/Owner实地考察_2026-09-09.md`
+## 3. 三域骨架
 
-当前 Owner 观察：
+当前工作性分区：
 
-- 整体更偏温带 / 枯树环境；
-- 多山、平原较少；
-- 总体西低东高；
-- 平原主要集中在西侧两个岛屿 / 岛片；
-- 可以初步辨认出三个潜在部族区域。
+### 西域
 
-其中“三个潜在部族区域”仍是 hypothesis，需要结构化区域精查后才能进入 Canon。
+空间基础：西部 C 形低岛。
 
-## 4. 当前禁止继续推导的内容
+当前仅可稳定推导：地形低平、连续平缓空间明显多于东部，较容易承载较密集的聚落与大型公共空间。
 
-在 Regional Profile 完成前，不继续冻结：
+不得在资源调查前自动写成“农业核心”“最富地区”或“主要港口”。
 
-- 正式文明 / 族名；
-- 林地长生种落位；
-- 社会制度；
-- 宗教；
-- 魔法传统；
-- 经济；
-- 技术路线；
-- 聚落形态；
-- 建筑语言；
-- 部族边界；
-- 具体 Build site。
+### 中域
 
-## 5. 下一步
+空间基础：东部主岛西侧较低伸出地带 / 坡麓过渡。
 
-先完成南部大岛 Regional Reconnaissance，至少结构化：
+当前定位：连接西部低平世界与东部高山世界的 Human Geography 过渡带。
+
+具体交通节点、贸易功能和聚落规模仍需 evidence。
+
+### 东域
+
+空间基础：东部山地核心。
+
+当前可稳定推导：高起伏、平地稀少、空间破碎度高，因此长期直接中央治理成本更高，更容易保留地方共同体。
+
+不得在资源调查前自动推导矿业、木材或特定生计。
+
+## 4. 政治骨架
+
+CIV-001 采用松散联盟 / 邦联式结构作为当前高层 Canon。
+
+核心机制：
+
+- 三域共享大文化与共同政治秩序；
+- 联盟层负责部分跨域事务；
+- 地方共同体保留较强自治；
+- 地形差异和东部山地高统治成本，是反对简单中央集权的重要结构性原因。
+
+具体历史、税制、军制、司法、继承和地方单位保持 TBD。
+
+## 5. 三席议会
+
+“三席议会”是 CIV-001 的核心共同治理机构方向。
+
+当前只冻结：
+
+- 它承担三域共同政治协商；
+- 会产生独立的联盟级公共建筑与仪式空间；
+- 三席具体代表谁、如何产生、权力是否对称全部 TBD。
+
+### 建筑空间锚点
+
+Owner 已批准：
+
+> 三席议会相关建筑优先安排在 **西部平岛的中心岛**。
+
+“中心岛”当前是 Owner 空间称呼，尚未与机器 component / 坐标精确对齐；因此只是规划锚点，不是 Build site authorization。
+
+## 6. 当前待补事实
+
+为了让“三域彼此依赖”的经济与交通逻辑真正扎根于 Minecraft 世界，下一步只调查会影响文明设计的最小事实：
 
 ```text
-biome
-+ elevation / relief / slope
-+ flatland / gentle-slope distribution
-+ water / shoreline / internal ponds
-+ internal natural subregions
-+ accessibility constraints
-+ Owner three-tribe hypothesis cross-check
+agricultural / lowland substrate proxies
++ construction materials
++ key mineral presence / distribution
++ inland water / shoreline accessibility proxies
++ inter-island crossing distance
++ terrain-based movement cost
 ```
 
-然后再从自然条件提出文明 / 部族候选。
+未调查内容继续写 hypothesis，不提前写资源经济。
 
-## 6. 仍继承的全局 Canon
+## 7. 仍继承的全局 Canon
 
 `../../global/Fantasy-Foundation.md` 继续有效。
 
-林地长生种仍作为全局智慧种族槽位存在，但其最适合的空间区域重新保持 TBD；Owner 当前认为热带雨林生物群系可能更适合作为候选，但尚未完成区域级考察，因此不写入空间 Canon。
+Architecture Bible / Build 仍未授权；无单独授权时 `world writes = 0`。
