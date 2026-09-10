@@ -1,0 +1,185 @@
+{
+  "changed_regions": [],
+  "checked_at": "2026-09-10T09:57:05.399227+00:00",
+  "method": "whole-file hash comparison; no broad NBT/world block scan",
+  "relevant_regions": {
+    "dimensions/minecraft/overworld/region/r.-1.2.mca": {
+      "mtime_ns": 1788943677721177700,
+      "sha256": "44d0dc420e31526927b3035d2d56a308a8a84de8a36218e547090c56b14ae4cf",
+      "size": 6336512
+    },
+    "dimensions/minecraft/overworld/region/r.-1.3.mca": {
+      "mtime_ns": 1788945697696821100,
+      "sha256": "3402384525a98218efcc77627da588e740f385d4d34b13226e7d296f407117bb",
+      "size": 9752576
+    },
+    "dimensions/minecraft/overworld/region/r.-1.4.mca": {
+      "mtime_ns": 1788945697620341800,
+      "sha256": "18bbcfb7141e72e4adca1173a029ca3e6355ad9da9b1288739cdc59c8dbaaa80",
+      "size": 9256960
+    },
+    "dimensions/minecraft/overworld/region/r.-1.5.mca": {
+      "mtime_ns": 1788923425236009800,
+      "sha256": "2a25d40b7ed92a9fcc89a2a228d167c8eacac55f576cceb820e0971439bf7d19",
+      "size": 6778880
+    },
+    "dimensions/minecraft/overworld/region/r.-1.6.mca": {
+      "mtime_ns": 1788923425232485300,
+      "sha256": "5258d5daff2a27ab53fbf9271f65595bfc2a729ed7257697984df2922ce3b1d8",
+      "size": 5931008
+    },
+    "dimensions/minecraft/overworld/region/r.-2.2.mca": {
+      "mtime_ns": 1788943677728426400,
+      "sha256": "01f7a11f710779e95459dfeb5bd62d99591d7d3a4d8b00a94ba71eca535b6898",
+      "size": 5668864
+    },
+    "dimensions/minecraft/overworld/region/r.-2.3.mca": {
+      "mtime_ns": 1788945697700071500,
+      "sha256": "322a2ecf8d2baecea5ad46c9674a07855ddae72c3a7279a2433df4dacaa7421d",
+      "size": 8978432
+    },
+    "dimensions/minecraft/overworld/region/r.-2.4.mca": {
+      "mtime_ns": 1788945675261417700,
+      "sha256": "f0228bc75c4a37f8f51802bf6ce424a17d35b0c78721a860a327f590498fab51",
+      "size": 7643136
+    },
+    "dimensions/minecraft/overworld/region/r.-2.5.mca": {
+      "mtime_ns": 1788923425243557000,
+      "sha256": "ac32c2d399507bc31ad50c99b547e59fbc27e147f3a5e708dd55205ddd1c7255",
+      "size": 5570560
+    },
+    "dimensions/minecraft/overworld/region/r.-2.6.mca": {
+      "mtime_ns": 1788923425241545600,
+      "sha256": "33cee7a01f049ab3e1980079eb5ac5016e2bc375c3d800f51286492afc16d994",
+      "size": 5521408
+    },
+    "dimensions/minecraft/overworld/region/r.0.2.mca": {
+      "mtime_ns": 1788943677668498400,
+      "sha256": "1028fe50ff989b970b7389a42f124b34c635ffa538d4f8d8388ec352e94ec98d",
+      "size": 6406144
+    },
+    "dimensions/minecraft/overworld/region/r.0.3.mca": {
+      "mtime_ns": 1788945699455849800,
+      "sha256": "36cfc2593e3e647c774ce919155f8395ccb1dce98611a9dd8fa4aa043ff6a579",
+      "size": 10039296
+    },
+    "dimensions/minecraft/overworld/region/r.0.4.mca": {
+      "mtime_ns": 1788945699997444200,
+      "sha256": "bda1ec2d3bee52686d1bc86e7509ee0f89711d90278fd009ea7ab3b15169c83e",
+      "size": 9945088
+    },
+    "dimensions/minecraft/overworld/region/r.0.5.mca": {
+      "mtime_ns": 1788923425226078800,
+      "sha256": "95e1fa54be419623c8b1c56e77648cc953928e0faa98f634fbccea7f507c13ab",
+      "size": 6975488
+    },
+    "dimensions/minecraft/overworld/region/r.0.6.mca": {
+      "mtime_ns": 1788923425223783600,
+      "sha256": "94267953b4df11a2ce38c4b92fe512adbda8595ac9c0493ae189a8b92fd75332",
+      "size": 5898240
+    },
+    "dimensions/minecraft/overworld/region/r.1.2.mca": {
+      "mtime_ns": 1788943677665468300,
+      "sha256": "937da7f34382f6a42f004aa656edd9a287cc068d7036bc21b3372acd48d9eb1f",
+      "size": 6860800
+    },
+    "dimensions/minecraft/overworld/region/r.1.3.mca": {
+      "mtime_ns": 1788943677656491400,
+      "sha256": "1c338d3d27a6d8ab1d24cfc711c9ea0bc81dd144b4aa1a2ac38c719ee90603e7",
+      "size": 10924032
+    },
+    "dimensions/minecraft/overworld/region/r.1.4.mca": {
+      "mtime_ns": 1788943677646911000,
+      "sha256": "be64bf4fdb589b8e768dc7ca7359cf7798554fb25676d9bfd561ea7bd988a3e9",
+      "size": 13766656
+    },
+    "dimensions/minecraft/overworld/region/r.1.5.mca": {
+      "mtime_ns": 1788943677638476200,
+      "sha256": "38dbe717da2231ff7543e025a3bb00420e25177ba5b1d2c9cdf860831b549458",
+      "size": 8171520
+    },
+    "dimensions/minecraft/overworld/region/r.1.6.mca": {
+      "mtime_ns": 1788943677635470700,
+      "sha256": "afb21770b0f547097d17a87115eba514d366c4721f6d3ed1be21f5e2f9582618",
+      "size": 6098944
+    },
+    "dimensions/minecraft/overworld/region/r.2.2.mca": {
+      "mtime_ns": 1788943677654489200,
+      "sha256": "a09f95b3b0bc22d6f656906e871afe6de0ab90cadb297c71fae886b65a35de13",
+      "size": 6668288
+    },
+    "dimensions/minecraft/overworld/region/r.2.3.mca": {
+      "mtime_ns": 1788943677644908600,
+      "sha256": "b155b82121572ecfdb465365acf2028740b8e28f1c3849f9b0aae0a3e36213b7",
+      "size": 8470528
+    },
+    "dimensions/minecraft/overworld/region/r.2.4.mca": {
+      "mtime_ns": 1788945653391094900,
+      "sha256": "5b019e8c8aa258ee9f79f9de82857e2b066107a8ea4a178ab27be283b4c56e88",
+      "size": 12591104
+    },
+    "dimensions/minecraft/overworld/region/r.2.5.mca": {
+      "mtime_ns": 1788945658388405000,
+      "sha256": "2a25bcb2ce891635531ea50f20ffc0d0b12938023dd55d5cffc61ec94a86a5c8",
+      "size": 13021184
+    },
+    "dimensions/minecraft/overworld/region/r.2.6.mca": {
+      "mtime_ns": 1788945700047675800,
+      "sha256": "ccff71ab044f00683b1a4c0f9d47d34b6256db1b3abbdfd3dbcc05d6e7b9a4fc",
+      "size": 7106560
+    },
+    "dimensions/minecraft/overworld/region/r.3.2.mca": {
+      "mtime_ns": 1788922216139616100,
+      "sha256": "7a590d97a40ffde24a4ee6982e5ea6584e86b3648a1f153bc9a6eeb2c57746e3",
+      "size": 6115328
+    },
+    "dimensions/minecraft/overworld/region/r.3.3.mca": {
+      "mtime_ns": 1788943677621420000,
+      "sha256": "ee337f617462dc02195c3f38c62c869aa00fe411bbcdfb5aa540376ee01c2e50",
+      "size": 5656576
+    },
+    "dimensions/minecraft/overworld/region/r.3.4.mca": {
+      "mtime_ns": 1788945653394092000,
+      "sha256": "8c808c93c93eef88ea79c3d5fd9c1282b0b673817570dc500379d22f820662cf",
+      "size": 7213056
+    },
+    "dimensions/minecraft/overworld/region/r.3.5.mca": {
+      "mtime_ns": 1788945669358276500,
+      "sha256": "62b223a0ccabb2f17b86cea071996d2790335198420a9721e48467b3d9510ead",
+      "size": 10547200
+    },
+    "dimensions/minecraft/overworld/region/r.3.6.mca": {
+      "mtime_ns": 1788945700042069500,
+      "sha256": "3d0f4f336dd9c89c9b3a4f18d155726d4fad1772bce739cb95f5e3405450976a",
+      "size": 6782976
+    },
+    "dimensions/minecraft/overworld/region/r.4.2.mca": {
+      "mtime_ns": 1788922787663093000,
+      "sha256": "b3eeec43e482bd2ca02e1c55e3d32a66bc7a5c15a6bce3bed278bc665ee0eadb",
+      "size": 8286208
+    },
+    "dimensions/minecraft/overworld/region/r.4.3.mca": {
+      "mtime_ns": 1788922774259582000,
+      "sha256": "7caf02b6127e1ffbdadc19475544d6d90d2267c65a492862eb639a6340f2b600",
+      "size": 5578752
+    },
+    "dimensions/minecraft/overworld/region/r.4.4.mca": {
+      "mtime_ns": 1788945700065872600,
+      "sha256": "32724f51391242166e928bf2e60500d950747064bdd5abd62eca80aebfa02c27",
+      "size": 6053888
+    },
+    "dimensions/minecraft/overworld/region/r.4.5.mca": {
+      "mtime_ns": 1788945653355476300,
+      "sha256": "bbcc5e241af11e6a5d13846d314751c23cde029044feb0602e66b68d03869b75",
+      "size": 6905856
+    },
+    "dimensions/minecraft/overworld/region/r.4.6.mca": {
+      "mtime_ns": 1788945700038069700,
+      "sha256": "a72b815a1400383d49af1b7a7604d11acbe8ca073614aab6d3707af72b14d64a",
+      "size": 5775360
+    }
+  },
+  "source_epoch": "d6b985896e00154e542bf0b1d543a1819e3910391f0ed5e6e6071f86ba439f22",
+  "status": "CURRENT_MATCH",
+  "world_writes": 0
+}

@@ -1,0 +1,9 @@
+{
+  "bytes": 292551,
+  "files": 24,
+  "hard_limit_bytes": 26214400,
+  "mib": 0.278998,
+  "scope": "all new research files, including this audit; raw local only",
+  "status": "PASS",
+  "target_bytes": 15728640
+}

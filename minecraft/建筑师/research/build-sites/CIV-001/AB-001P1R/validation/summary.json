@@ -1,0 +1,27 @@
+{
+  "A_area": 105785,
+  "P2": "HOLD",
+  "broad_rescan": false,
+  "checks": [
+    "freshness.json",
+    "source-audit.json",
+    "geometry.json",
+    "independent.json",
+    "rebuild.json",
+    "lineage.json",
+    "payload.json"
+  ],
+  "commons_area": 92124,
+  "commons_components": 1,
+  "connector_area": 13661,
+  "connector_components": 1,
+  "engineering_checks": "PASS",
+  "exact_outline_and_RLE": true,
+  "independent_review": "PENDING",
+  "new_world_block_reads": 0,
+  "parent_continuation_excluding_commons": true,
+  "partition_complete_disjoint": true,
+  "preferred_cut_plane_x": 89,
+  "source_and_predecessors_immutable": true,
+  "world_writes": 0
+}

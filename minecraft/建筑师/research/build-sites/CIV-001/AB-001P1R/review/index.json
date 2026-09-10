@@ -1,0 +1,14 @@
+{
+  "entry": [
+    "commons-boundary.json",
+    "reports/联盟公地边界拟合.md",
+    "visual/commons-connector-boundary.png",
+    "commons-geometry.json",
+    "connector-geometry.json",
+    "review/cross-sections.json",
+    "review/parent-continuation.json",
+    "validation/summary.json"
+  ],
+  "status": "AWAITING INDEPENDENT REVIEW",
+  "stop": "GPT acceptance then Program/Capacity recalculation; no P2 or Build"
+}

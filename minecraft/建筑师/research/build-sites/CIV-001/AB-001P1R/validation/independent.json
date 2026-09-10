@@ -1,0 +1,12 @@
+{
+  "A_area": 105785,
+  "commons_area": 92124,
+  "connector_area": 13661,
+  "each_component_connected": true,
+  "no_world_block_reads": true,
+  "outline_exact_edge_symmetric_difference": true,
+  "parent_connection_without_commons": true,
+  "shared_cut_unit_edges": 48,
+  "status": "PASS",
+  "union_disjoint_complete": true
+}

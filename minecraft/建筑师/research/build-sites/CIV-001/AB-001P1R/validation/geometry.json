@@ -1,0 +1,14 @@
+{
+  "commons_components": 1,
+  "connector_components": 1,
+  "connector_parent_contacts": 190,
+  "duplicate_A_land": 0,
+  "intersection_empty": true,
+  "new_world_block_reads": 0,
+  "omitted_A_land": 0,
+  "parent_component": 2,
+  "rle_roundtrip": true,
+  "source_A_area": 105785,
+  "status": "PASS",
+  "union_equals_A": true
+}

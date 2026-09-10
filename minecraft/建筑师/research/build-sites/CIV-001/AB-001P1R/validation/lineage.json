@@ -1,0 +1,43 @@
+{
+  "broad_rescan": false,
+  "execution_base": "d83d155559bd82d5cc902149abb690a84bc2bba9",
+  "inputs": [
+    {
+      "bytes": 27559,
+      "path": "research/build-sites/CIV-001/AB-001P1/geometry/A-land-runs.json",
+      "sha256": "f2c1bfbae79384a7f45539cafde88ef4035a52c819c19dd273ad9ec8091cdfe2"
+    },
+    {
+      "bytes": 21159,
+      "path": "research/build-sites/CIV-001/AB-001P1/site-candidates.json",
+      "sha256": "fceda37a5c8b4ac16bb0b4d38aec97ac1a8385d6f4b734040f10799229abcc1e"
+    },
+    {
+      "bytes": 5083529,
+      "path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/derived.npz",
+      "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff"
+    },
+    {
+      "bytes": 244928512,
+      "path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/observed.sqlite",
+      "sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7"
+    }
+  ],
+  "new_world_block_reads": 0,
+  "raw_cache": {
+    "bytes": 401405,
+    "cache_id": "AB001P1R-SOURCE-BEFORE",
+    "generated_at": "2026-09-10T09:57:05.399227+00:00",
+    "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\AB-001P1R\\source-before.json",
+    "rebuild_command": "historical initial inventory cannot be recreated after source changes; preserve local file; init only for new task epoch",
+    "retention": "PRESERVE_LOCAL",
+    "schema": "root -> relative file -> sha256,size,mtime_ns",
+    "sha256": "d6b985896e00154e542bf0b1d543a1819e3910391f0ed5e6e6071f86ba439f22",
+    "source_epoch": "2026-09-10T09:57:05.399227+00:00",
+    "source_world_fingerprint": "d6b985896e00154e542bf0b1d543a1819e3910391f0ed5e6e6071f86ba439f22",
+    "status": "LOCAL_ONLY"
+  },
+  "source_A_implementation": "3008f3663a4873dea8bb983c81abc221cfb6b095",
+  "source_epoch": "d6b985896e00154e542bf0b1d543a1819e3910391f0ed5e6e6071f86ba439f22",
+  "world_writes": 0
+}

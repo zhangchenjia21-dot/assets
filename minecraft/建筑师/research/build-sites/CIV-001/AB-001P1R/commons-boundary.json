@@ -1,0 +1,524 @@
+{
+  "broad_rescan": false,
+  "commons": {
+    "area_blocks2": 92124,
+    "bounds": [
+      -349,
+      1685,
+      88,
+      1982
+    ],
+    "connected_components": [
+      92124
+    ],
+    "elevation_min_median_max": [
+      58.0,
+      69.0,
+      75.0
+    ],
+    "geometry": "commons-geometry.json",
+    "relief32_median_p90": [
+      4.0,
+      8.0
+    ],
+    "slope8_median_p90": [
+      0.0883883461356163,
+      0.19764235615730286
+    ],
+    "unknown_slope_columns": 8729
+  },
+  "connector": {
+    "area_blocks2": 13661,
+    "bounds": [
+      89,
+      1664,
+      240,
+      1841
+    ],
+    "connected_components": [
+      13661
+    ],
+    "elevation_min_median_max": [
+      60.0,
+      64.0,
+      68.0
+    ],
+    "geometry": "connector-geometry.json",
+    "relief32_median_p90": [
+      3.0,
+      5.0
+    ],
+    "slope8_median_p90": [
+      0.0625,
+      0.19764235615730286
+    ],
+    "unknown_slope_columns": 2958
+  },
+  "method": "Human-selected shoreline neck: outer-span minimum at column88 after marked narrowing; full X cross-sections and connectedness checked; not ellipse fitting or program political scoring",
+  "new_world_block_reads": 0,
+  "owner_rule": "All A except east connector; no inner ellipse or area target",
+  "parent_east_continuation": {
+    "contacts_count": 190,
+    "parent_component": 2,
+    "witnesses": [
+      [
+        [
+          227,
+          1664
+        ],
+        [
+          227,
+          1663
+        ]
+      ],
+      [
+        [
+          240,
+          1673
+        ],
+        [
+          241,
+          1673
+        ]
+      ],
+      [
+        [
+          240,
+          1696
+        ],
+        [
+          241,
+          1696
+        ]
+      ],
+      [
+        [
+          240,
+          1719
+        ],
+        [
+          241,
+          1719
+        ]
+      ],
+      [
+        [
+          240,
+          1742
+        ],
+        [
+          241,
+          1742
+        ]
+      ],
+      [
+        [
+          240,
+          1765
+        ],
+        [
+          241,
+          1765
+        ]
+      ],
+      [
+        [
+          240,
+          1788
+        ],
+        [
+          241,
+          1788
+        ]
+      ],
+      [
+        [
+          240,
+          1811
+        ],
+        [
+          241,
+          1811
+        ]
+      ],
+      [
+        [
+          240,
+          1834
+        ],
+        [
+          241,
+          1834
+        ]
+      ]
+    ]
+  },
+  "selected_cut": {
+    "column_partition": "Commons x<=88; connector x>=89; intersect both with A actual geometry",
+    "interface_unit_segments": [
+      [
+        89,
+        1726,
+        89,
+        1727
+      ],
+      [
+        89,
+        1727,
+        89,
+        1728
+      ],
+      [
+        89,
+        1728,
+        89,
+        1729
+      ],
+      [
+        89,
+        1729,
+        89,
+        1730
+      ],
+      [
+        89,
+        1730,
+        89,
+        1731
+      ],
+      [
+        89,
+        1731,
+        89,
+        1732
+      ],
+      [
+        89,
+        1732,
+        89,
+        1733
+      ],
+      [
+        89,
+        1733,
+        89,
+        1734
+      ],
+      [
+        89,
+        1734,
+        89,
+        1735
+      ],
+      [
+        89,
+        1735,
+        89,
+        1736
+      ],
+      [
+        89,
+        1736,
+        89,
+        1737
+      ],
+      [
+        89,
+        1737,
+        89,
+        1738
+      ],
+      [
+        89,
+        1738,
+        89,
+        1739
+      ],
+      [
+        89,
+        1739,
+        89,
+        1740
+      ],
+      [
+        89,
+        1740,
+        89,
+        1741
+      ],
+      [
+        89,
+        1741,
+        89,
+        1742
+      ],
+      [
+        89,
+        1742,
+        89,
+        1743
+      ],
+      [
+        89,
+        1743,
+        89,
+        1744
+      ],
+      [
+        89,
+        1744,
+        89,
+        1745
+      ],
+      [
+        89,
+        1745,
+        89,
+        1746
+      ],
+      [
+        89,
+        1746,
+        89,
+        1747
+      ],
+      [
+        89,
+        1747,
+        89,
+        1748
+      ],
+      [
+        89,
+        1748,
+        89,
+        1749
+      ],
+      [
+        89,
+        1749,
+        89,
+        1750
+      ],
+      [
+        89,
+        1750,
+        89,
+        1751
+      ],
+      [
+        89,
+        1751,
+        89,
+        1752
+      ],
+      [
+        89,
+        1752,
+        89,
+        1753
+      ],
+      [
+        89,
+        1753,
+        89,
+        1754
+      ],
+      [
+        89,
+        1754,
+        89,
+        1755
+      ],
+      [
+        89,
+        1755,
+        89,
+        1756
+      ],
+      [
+        89,
+        1756,
+        89,
+        1757
+      ],
+      [
+        89,
+        1757,
+        89,
+        1758
+      ],
+      [
+        89,
+        1758,
+        89,
+        1759
+      ],
+      [
+        89,
+        1759,
+        89,
+        1760
+      ],
+      [
+        89,
+        1760,
+        89,
+        1761
+      ],
+      [
+        89,
+        1761,
+        89,
+        1762
+      ],
+      [
+        89,
+        1762,
+        89,
+        1763
+      ],
+      [
+        89,
+        1763,
+        89,
+        1764
+      ],
+      [
+        89,
+        1764,
+        89,
+        1765
+      ],
+      [
+        89,
+        1765,
+        89,
+        1766
+      ],
+      [
+        89,
+        1766,
+        89,
+        1767
+      ],
+      [
+        89,
+        1767,
+        89,
+        1768
+      ],
+      [
+        89,
+        1768,
+        89,
+        1769
+      ],
+      [
+        89,
+        1769,
+        89,
+        1770
+      ],
+      [
+        89,
+        1770,
+        89,
+        1771
+      ],
+      [
+        89,
+        1771,
+        89,
+        1772
+      ],
+      [
+        89,
+        1772,
+        89,
+        1773
+      ],
+      [
+        89,
+        1773,
+        89,
+        1774
+      ]
+    ],
+    "land_interface_edges": 48,
+    "plane_x": 89,
+    "shore_to_shore_z_interval": [
+      1726,
+      1774
+    ]
+  },
+  "sensitivity": [
+    {
+      "commons_area": 92026,
+      "commons_component_sizes": [
+        92026
+      ],
+      "connector_area": 13759,
+      "connector_component_sizes": [
+        13759
+      ],
+      "plane_x": 87
+    },
+    {
+      "commons_area": 92076,
+      "commons_component_sizes": [
+        92076
+      ],
+      "connector_area": 13709,
+      "connector_component_sizes": [
+        13709
+      ],
+      "plane_x": 88
+    },
+    {
+      "commons_area": 92124,
+      "commons_component_sizes": [
+        92124
+      ],
+      "connector_area": 13661,
+      "connector_component_sizes": [
+        13661
+      ],
+      "plane_x": 89
+    },
+    {
+      "commons_area": 92173,
+      "commons_component_sizes": [
+        92173
+      ],
+      "connector_area": 13612,
+      "connector_component_sizes": [
+        13612
+      ],
+      "plane_x": 90
+    },
+    {
+      "commons_area": 93174,
+      "commons_component_sizes": [
+        93174
+      ],
+      "connector_area": 12611,
+      "connector_component_sizes": [
+        12611
+      ],
+      "plane_x": 110
+    }
+  ],
+  "source_A": {
+    "area_blocks2": 105785,
+    "path": "../AB-001P1/geometry/A-land-runs.json",
+    "sha256": "f2c1bfbae79384a7f45539cafde88ef4035a52c819c19dd273ad9ec8091cdfe2"
+  },
+  "status": "PREFERRED_BOUNDARY_FIT / AWAITING INDEPENDENT REVIEW",
+  "uncertainty": {
+    "downstream_diagnostic": "Columns109/110 have39 dry cells but50-block outer span; internal nonland lowers dry count, not a second equally narrow external shoreline neck. Plane110 shown as diagnostic, not alternate selected boundary.",
+    "pixel_scale": "Plane88 and89 both have48 adjacent land edges; choose89 to keep the complete narrowest coast-to-coast column in Commons. +/-1 block sensitivity retained.",
+    "scope": "Only original A actual land partitioned; mainland beyond A, internal water rights, construction and future capacity not assigned."
+  },
+  "world_writes": 0
+}
