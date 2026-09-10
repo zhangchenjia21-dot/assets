@@ -1,6 +1,6 @@
 # AB-001P2｜Three-seat Council Hall Bounded Architecture Design
 
-状态：**AUTHORIZED / DISPATCH READY**
+状态：**HOLD / AWAITING OWNER CAPACITY BASELINE CONFIRMATION**
 
 ## 0. 任务定位
 
@@ -8,34 +8,58 @@
 
 已选 Site：AB-001P1 Candidate **A**，工作称呼：`湾内中心低地 / Council Centerland`。
 
-本轮只设计：
+本轮最终仍只设计：
 
 > **三席议事大厅（Three-seat Council Hall）**
 
-不设计整个联盟政治中心，不施工。
+但在 Owner 接受 Council Centerland 总体容量 / Program baseline 前，**不得开始设计执行**。
 
 `world writes = 0`。
 
 ---
 
-## 1. 必读
+## 1. 当前暂停原因
 
-至少读取：
+D-016 曾为防止施工膨胀预设 `<=45×45` 主体 footprint 与 `<=64×64` intervention envelope。
+
+Owner 指出该数字没有先经过：
+
+- Site A 总面积；
+- 整个政治中心未来建筑 Program；
+- 开放空间 / 岸线 / 景观 / 扩建预留；
+- 三席议事大厅自身制度功能；
+- 真实前现代公共建筑尺度；
+
+的完整推导。
+
+因此固定数值已由 `D-017_政治中心先总体容量后单体尺度.md` 撤回。
+
+当前规划入口：
+
+`../../architecture/civilizations/CIV-001/Council-Centerland-Program-Capacity.md`
+
+其状态为 `GPT PLANNING BASELINE / AWAITING OWNER CONFIRMATION`。
+
+---
+
+## 2. 恢复执行后的必读
 
 1. `minecraft/建筑师/AGENTS.md`
 2. `minecraft/建筑师/current/项目状态.md`
 3. `minecraft/建筑师/current/建造原则.md`
 4. `minecraft/建筑师/decisions/D-016_AB-001P1_A场地确认与小批次施工原则.md`
-5. `minecraft/建筑师/world/civilizations/CIV-001/README.md`
-6. `minecraft/建筑师/architecture/civilizations/CIV-001/Architecture-Grammar.md`
-7. `minecraft/建筑师/research/build-sites/CIV-001/AB-001P1/README.md`
-8. `minecraft/建筑师/research/build-sites/CIV-001/AB-001P1/reports/中心岛SiteGate.md`
-9. `Vibe-Coding/skill/codex/minecraft-builder/SKILL.md` 当前版本
-10. 本 Task Packet
+5. `minecraft/建筑师/decisions/D-017_政治中心先总体容量后单体尺度.md`
+6. `minecraft/建筑师/world/civilizations/CIV-001/README.md`
+7. `minecraft/建筑师/architecture/civilizations/CIV-001/Architecture-Grammar.md`
+8. `minecraft/建筑师/architecture/civilizations/CIV-001/Council-Centerland-Program-Capacity.md`
+9. `minecraft/建筑师/research/build-sites/CIV-001/AB-001P1/README.md`
+10. `minecraft/建筑师/research/build-sites/CIV-001/AB-001P1/reports/中心岛SiteGate.md`
+11. `Vibe-Coding/skill/codex/minecraft-builder/SKILL.md` 当前版本
+12. 本 Task Packet
 
 ---
 
-## 2. 设计目标
+## 3. 设计目标
 
 设计一座能够真实表达“三域联盟 / 三席议会”政治结构的前现代公共建筑。
 
@@ -54,9 +78,9 @@
 
 ---
 
-## 3. Scope Guard
+## 4. Scope Guard｜单目标，而非固定小尺寸
 
-Owner 明确要求 Codex 不要一次承担过多建筑或过大范围。
+Owner 明确要求 Codex 不要一次承担过多建筑或过大施工范围。
 
 ### 本轮只允许一个主要建筑
 
@@ -78,28 +102,39 @@ Owner 明确要求 Codex 不要一次承担过多建筑或过大范围。
 - 大型园林；
 - 第二座主要建筑。
 
-### 尺度
+### 尺度方法
 
-- 主体 footprint 目标 `<=45×45 blocks`；
-- 建筑不要求方形；
-- 单方向如确有空间逻辑可适度延长，但超过约 52 blocks 必须在设计报告中说明必要性；
-- 未来第一批总 site intervention envelope 目标 `<=64×64 blocks`；
-- 不得因为 Site A 有约 79×79 FLAT 诊断区就把它全部占满。
+不得再套 `45×45` / `64×64` 固定框。
+
+建筑最终尺寸必须根据：
+
+```text
+accepted Council Centerland capacity plan
++ three-seat functional program
++ real reference scale
++ site terrain
++ Minecraft readability
+→ final dimensions
+```
+
+推导。
+
+当前 Capacity Plan 提出的 **1,800–3,200 blocks² footprint / 长轴约50–75 / 短轴约26–42** 只是待 Owner 接受的设计搜索区间；Owner 未确认前不得视为冻结要求。
+
+“小批次施工”仍意味着未来 world-write 一次只做这座建筑及最小接口，而不是要求建筑本身必须小。
 
 ---
 
-## 4. 先研究，再设计
+## 5. 先研究，再设计
 
-本建筑是幻想公共建筑，但其制度与技术基准属于前现代人类社会。
-
-设计前做**有限、针对性的真实参考研究**，优先研究 3–5 个与以下机制相关的真实案例：
+恢复执行后，先做有限、针对性的真实参考研究，优先研究 3–5 个与以下机制相关的真实案例：
 
 - 中世纪 / 前现代 council hall / town hall / guild hall / assembly hall；
 - 多方协商而非王座式权力空间；
 - 大跨木屋架 / 石木公共大厅；
 - 公共仪式、宣誓、议事与旁听的空间关系。
 
-研究重点是：
+研究重点：
 
 - 平面与权力关系；
 - 入口与公共 / 半公共层级；
@@ -111,11 +146,9 @@ Owner 明确要求 Codex 不要一次承担过多建筑或过大范围。
 
 不得直接复制某一现实建筑外观。
 
-把参考机制记录到设计成果中，并说明哪些被采用、哪些因 CIV-001 / Minecraft 条件被修改。
-
 ---
 
-## 5. 必须完成 Plan / Section / Sequence
+## 6. 必须完成 Plan / Section / Sequence
 
 ### Plan
 
@@ -127,7 +160,8 @@ Owner 明确要求 Codex 不要一次承担过多建筑或过大范围。
 - 公众、代表、工作人员的基本动线；
 - 议事空间与前厅 / 等候 / 记录等最低限度辅助空间；
 - 不得出现一个席位天然成为王座端头；
-- 不得机械做成三个完全一样的方盒子。
+- 不得机械做成三个完全一样的方盒子；
+- 建筑如何占据整个 Council Centerland 长期 Program 中恰当的一部分，而不压死未来建筑。
 
 ### Section
 
@@ -155,7 +189,7 @@ Owner 明确要求 Codex 不要一次承担过多建筑或过大范围。
 
 ---
 
-## 6. Architectural Character
+## 7. Architectural Character
 
 必须遵守 AB-001 Grammar。
 
@@ -170,8 +204,6 @@ Owner 明确要求 Codex 不要一次承担过多建筑或过大范围。
 - 不靠大量奇幻尖塔 / 发光方块制造“Fantasy”；
 - 魔法只作为少量工艺或仪式性细节，不替代结构逻辑。
 
-### 三席政治空间硬约束
-
 禁止：
 
 - 单一王座轴；
@@ -179,39 +211,32 @@ Owner 明确要求 Codex 不要一次承担过多建筑或过大范围。
 - 三个完全镜像复制席区；
 - 为了“三”而把建筑机械切成三等份。
 
-应该体现：
-
-> 平等存在不等于形状完全相同；共同议事不等于消除三域差异。
-
 ---
 
-## 7. Architect → Critic → Revision
+## 8. Architect → Critic → Revision
 
-由于这是第一座 Canon 建筑，必须进行一次内部设计审查：
+恢复后必须：
 
 1. `Architect`：形成完整单方案；
-2. `Critic`：从功能、制度表达、体量、地形适应、Minecraft 可读性、施工范围、玩家动线检查问题；
+2. `Critic`：检查功能、制度表达、体量、地形适应、Minecraft 可读性、施工范围、玩家动线、未来 precinct 容量占用；
 3. `Revision`：只保留最终修订方案。
 
-不要生成三套方案让 Owner 选。默认只交一个经过修订的方案。
+不要生成三套方案让 Owner 选。
 
 ---
 
-## 8. Preview
+## 9. Preview
 
-本轮允许使用现有本地 Blueprint / 3D Preview 能力制作**单方案预览**，但：
+恢复后允许单方案 Blueprint / 3D Preview，但：
 
-- Preview 不得写真实 `建筑师` world；
-- 若使用蓝图，只作为设计 artifact；
+- 不得写真实 `建筑师` world；
 - 不向正式资产库自动入库；
 - 不生成整个政治中心；
 - Preview 必须与最终 Plan / Section / Sequence 一致。
 
-如果当前 Preview 环境无法可靠表达，不得为满足形式而制造低质量假预览；可只交设计图 / blueprint spec 并说明限制。
-
 ---
 
-## 9. Deliverables
+## 10. Deliverables
 
 写入：
 
@@ -229,57 +254,21 @@ preview/              # 若实际生成
 validation/
 ```
 
-`DESIGN.json` 至少机器可读记录：
-
-- site anchor = A；
-- footprint / intervention envelope；
-- orientation；
-- major spaces；
-- entrances；
-- seat relationships；
-- floor / roof / height ranges；
-- material families；
-- Plan / Section / Sequence summary；
-- future interfaces；
-- prohibited adjacent works；
-- `world_write_authorized=false`。
-
-可以调整文件结构，但不得只交散文。
-
----
-
-## 10. Design Acceptance
-
-完成方案必须能够回答：
-
-- 为什么它属于 CIV-001，而不是通用中世纪大厅？
-- 为什么它表达三席议会而不是王权？
-- 为什么建筑放在 A Site，而不是随便一块平地？
-- 三席怎样既平衡又不机械对称？
-- 玩家怎样进入、看见并理解核心空间？
-- 建筑怎样面对湾水与东部高地？
-- 未来如何添加其它政治中心建筑而不要求本轮先建？
-- 第一施工批次怎样保持 bounded？
-
-必须检查：
-
-- 门 / 楼梯 / 楼层可达；
-- 不出现结构互穿；
-- 不无理由占满 Site；
-- 不把大广场或道路网偷偷算进大厅；
-- 不把 Preview 成功等同设计成功。
+`DESIGN.json` 至少记录：site anchor A、footprint、orientation、major spaces、entrances、seat relationships、floor / roof / height ranges、material families、Plan / Section / Sequence、future interfaces、precinct capacity relation、`world_write_authorized=false`。
 
 ---
 
 ## 11. Strict Prohibitions
 
-本轮不得：
+在 HOLD 期间不得执行设计。
+
+恢复后仍不得：
 
 - 修改真实 Minecraft world；
 - 清树 / 平地 / 填水；
 - 施工大厅；
 - 施工道路 / 桥 / 码头 / 广场；
-- 设计整个政治中心；
+- 详细设计整个政治中心；
 - 修改 CIV-001 Canon；
 - 修改 AB-001 Grammar；
 - 自动授权下一步 world write。
@@ -288,7 +277,9 @@ validation/
 
 ---
 
-## 12. Completion / Stop
+## 12. Resume / Completion
+
+只有 Owner / GPT 将 Capacity Plan 标记为 accepted 后，才把本任务恢复为 `AUTHORIZED / DISPATCH READY`。
 
 完成后：
 
@@ -298,4 +289,4 @@ validation/
 - 核对远端 HEAD；
 - 停止交 GPT + Owner 做设计审核。
 
-P2 通过后也不会自动施工。GPT + Owner 决定是否授权一个**小范围、单建筑、可分阶段**的 world-write Task。
+P2 通过后也不会自动施工。
