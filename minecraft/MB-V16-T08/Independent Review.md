@@ -236,3 +236,76 @@ Meso 后才发现宿舍上层未接通，说明 Plan / Section 中虽然写了�
 ## Owner feedback status
 
 本文件在 Owner 尚未提供具体 T08 问题清单前完成，作为独立审核基线。后续 Owner 实机反馈应追加对照，不回写本次独立判断本身。
+
+## Owner 实机反馈追加（不改写独立基线）
+
+Owner 后续在 Minecraft 客户端提供两处破洞 / 门洞现场证据，进一步暴露了“语义接口”层缺陷。
+
+### T08-O01｜教堂—回廊侧门存在一格断地与柱位冲突
+
+Owner 在约 `(52,20,79)` 的北侧回廊附近观察到：疑似侧门洞外脚下出现一整排空格，前方又有柱子，作为通行接口明显不自然。
+
+生成逻辑可以直接解释这一现象：主教堂主体 `shell(34,38,94,36,29)` 的地坪只覆盖到 `z=74`；北侧回廊地坪从 `z=76` 开始；而预留的教堂—回廊连接洞口被直接 carve 为 `x=45..48, y=18..21, z=73..77`。因此 `z=75` 恰好处于“主堂地坪结束”和“回廊地坪开始”之间，没有任何系统负责补成连续 threshold / landing，形成一格断地。
+
+同时，回廊庭院侧柱列独立按固定节奏生成，北侧在 `z=81`、`x=41,48,55,...` 设柱；门洞范围到 `x=48`，因此柱位又可能与门洞轴线产生视觉 / 通行冲突。
+
+这不是随机方块事故，而是一个更底层的问题：
+
+> **两个系统在坐标上“相接”不等于建筑接口已经被设计。**
+
+当前 QA 只证明“从起点仍可绕到目标”，并不会逐一验证每个意图门洞本身是否具有连续地坪、门槛、落脚、净空和无障碍对景。
+
+**Classification:** `SKILL_GAP + QA_DESIGN + MODEL_EXECUTION_FAILURE`  
+**Severity:** Critical
+
+**Required direction:** 新增 `Portal / Threshold Contract`：每一个意图中的可通行 opening 必须显式声明 from-space / to-space，并验证 direct crossing，包括 floor continuity、允许高差 / 台阶、headroom、landing、门后首段净空、柱 / 扶壁 / 栏杆冲突。不得用“整栋建筑总体可达”替代门洞本身验收。
+
+### T08-O02｜回廊“尖拱列”在实机中读成莫名矩形破洞
+
+Owner 在约 `(77,19,84)` 的东侧回廊看到一个很像墙体随机挖洞的矩形开口，无法从建筑语言上判断它究竟是门、窗还是有意回廊开口。
+
+从坐标和生成脚本看，该位置属于回廊东侧。代码注释将这一系统称为“回廊庭院侧尖拱列与立柱”，但实际几何只按固定节奏布置直柱、水平梁和少量角部方块：并没有调用本轮已经存在的 `pointed_open()` 尖拱几何逻辑。因此代码语义说“尖拱列”，Minecraft 实存却只形成矩形框 / 缺口。
+
+这属于另一类深层失败：
+
+> **semantic label ≠ generated geometry**。
+
+即使这个洞不是“意外被挖掉”，它仍然在建筑表达上失败，因为一个 intended arcade 没有被生成成玩家能够识别的 arcade bay，而只是留下一块匿名负空间。
+
+**Classification:** `MODEL_EXECUTION_FAILURE + ARCHITECTURAL_GRAMMAR_GAP`  
+**Severity:** Major
+
+**Required direction:** 对 arcade / colonnade / portal / window 等 opening family，不只登记“有洞”，还要验证该 opening 的 architectural grammar：支承、拱 / 梁、重复跨间、开口底标高、边界和与相邻空间的关系是否让其身份可读。
+
+### T08-O03｜Binary reachability 对 opening failure 产生 false negative
+
+当前 `建筑核验.py` 从一个 seed 做四向体素遍历，只检查 14 个目标坐标是否最终 reachable。它没有维护“哪些门洞 / 回廊开口是设计中的必须连接”，也不强制路径必须通过特定 opening。因此即使某个门前缺地、迎面有柱、或者某个开口本身不成立，只要玩家能从别处绕到最终 target，测试仍会给出 `reachable=true`。
+
+**Required direction:** 可达性 QA 应分为至少两层：
+
+- `Global Reachability`：目标空间总体能否抵达；
+- `Local Interface Validity`：每个设计声明的 portal / stair / arcade / bridge / threshold 是否按预定接口直接成立。
+
+T08 证明，前者不能替代后者。
+
+## 新的上位结论：需要 Architecture Kernel，而不只是更多 checklist
+
+Owner 提出的“是否应给 Codex 规定建筑底层逻辑”与本轮证据完全一致。当前 Builder 已积累大量结果检查规则，但仍缺一个在生成之前约束建筑如何产生的 **Architectural Generative Kernel**。
+
+后续 v1.7 更值得定义如下最小底层链条，而不是继续增加风格名词：
+
+> **Program / Use → Space Graph → Structural & Section System → Massing / Envelope → Typed Openings & Circulation → Roof / Junctions → Facade / Material → Detail**
+
+其中应加入一个强原则：
+
+> **No anonymous voids.**
+
+建筑 envelope 中每一个有尺度的开口 / carve 都必须有明确身份，例如：door / portal、window、arcade、stair void、service opening、intentional ruin、其它题材明确的 void；必须知道它连接或分隔哪些空间。未登记且无法解释的 opening 视为 defect。
+
+同时加入另一条接口原则：
+
+> **Coordinate overlap is not architectural connection.**
+
+两个系统只有在显式解决 floor / threshold / headroom / wall cut / roof junction / support / drainage 等接口后，才算真正连接。
+
+这两条比继续写“多做尖拱、多做扶壁、多做凹凸”更接近本轮失败的根因。
