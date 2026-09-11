@@ -1,0 +1,4798 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "changed_blocks": 46435,
+  "apply_seconds": 0.496629,
+  "readback": [
+    {
+      "position": [
+        86,
+        16,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        17,
+        23,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        18,
+        27,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        21,
+        29,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        25,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        16,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        107,
+        16,
+        29,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        17,
+        27,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        18,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        110,
+        19,
+        27,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        21,
+        23,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        22,
+        28,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        24,
+        26,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        25,
+        30,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        114,
+        27,
+        26,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        24,
+        16,
+        49,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        25,
+        16,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        26,
+        17,
+        62,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        25,
+        20,
+        52,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        28,
+        23,
+        50,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        31,
+        25,
+        62,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        28,
+        27,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        16,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        57,
+        16,
+        41,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        16,
+        45,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        41,
+        16,
+        49,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        58,
+        16,
+        52,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        43,
+        16,
+        56,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        60,
+        16,
+        59,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        45,
+        16,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        38,
+        17,
+        41,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        61,
+        17,
+        44,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        54,
+        17,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        39,
+        17,
+        52,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        56,
+        17,
+        55,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        41,
+        17,
+        59,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        58,
+        17,
+        62,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        18,
+        47,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        19,
+        50,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        20,
+        52,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        21,
+        61,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        22,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        38,
+        24,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        45,
+        25,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        25,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        26,
+        59,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        27,
+        54,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        16,
+        32,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        16,
+        39,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        70,
+        16,
+        43,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        16,
+        46,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        72,
+        16,
+        50,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        16,
+        53,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        74,
+        16,
+        57,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        91,
+        16,
+        60,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        88,
+        17,
+        33,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        65,
+        17,
+        40,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        82,
+        17,
+        43,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        67,
+        17,
+        47,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        84,
+        17,
+        50,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        69,
+        17,
+        54,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        17,
+        57,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        71,
+        17,
+        61,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        76,
+        18,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        79,
+        19,
+        39,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        20,
+        57,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        71,
+        22,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        74,
+        23,
+        39,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        24,
+        52,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        26,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        69,
+        27,
+        39,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        16,
+        32,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        16,
+        37,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        126,
+        16,
+        40,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        111,
+        16,
+        44,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        16,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        113,
+        16,
+        51,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        98,
+        16,
+        55,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        16,
+        58,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        16,
+        62,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        17,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        98,
+        17,
+        39,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        17,
+        42,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        17,
+        46,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        117,
+        17,
+        49,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        17,
+        53,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        119,
+        17,
+        56,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        17,
+        60,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        121,
+        17,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        116,
+        18,
+        49,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        18,
+        55,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        114,
+        18,
+        61,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        109,
+        19,
+        39,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        116,
+        20,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        21,
+        37,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        117,
+        22,
+        33,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        22,
+        60,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        23,
+        52,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        24,
+        44,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        120,
+        25,
+        39,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        26,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        110,
+        27,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        16,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        20,
+        47,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        24,
+        56,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        16,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        57,
+        16,
+        67,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        16,
+        71,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        44,
+        16,
+        76,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        41,
+        16,
+        80,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        16,
+        92,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        17,
+        67,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        57,
+        17,
+        70,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        17,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        47,
+        17,
+        79,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        37,
+        17,
+        88,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        61,
+        18,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        54,
+        20,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        22,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        49,
+        23,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        45,
+        23,
+        78,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        23,
+        83,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        52,
+        24,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        48,
+        24,
+        78,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        39,
+        24,
+        83,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        55,
+        25,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        60,
+        26,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        16,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        16,
+        67,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        16,
+        71,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        83,
+        16,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        76,
+        16,
+        79,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        16,
+        84,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        90,
+        16,
+        91,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        17,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        72,
+        17,
+        68,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        17,
+        71,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        17,
+        76,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        73,
+        17,
+        80,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        17,
+        86,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        92,
+        17,
+        92,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        77,
+        18,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        82,
+        19,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        20,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        20,
+        94,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        92,
+        21,
+        91,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        22,
+        88,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        23,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        77,
+        23,
+        81,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        23,
+        91,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        65,
+        24,
+        76,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        24,
+        82,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        84,
+        24,
+        92,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        25,
+        82,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        67,
+        26,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        26,
+        93,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        27,
+        87,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        16,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        113,
+        16,
+        67,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        98,
+        16,
+        71,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        16,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        112,
+        16,
+        80,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        16,
+        85,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        16,
+        95,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        125,
+        17,
+        66,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        110,
+        17,
+        70,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        17,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        114,
+        17,
+        79,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        117,
+        17,
+        84,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        98,
+        17,
+        90,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        18,
+        77,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        108,
+        18,
+        90,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        114,
+        19,
+        77,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        19,
+        95,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        109,
+        20,
+        78,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        106,
+        20,
+        95,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        21,
+        79,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        22,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        22,
+        81,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        23,
+        68,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        23,
+        83,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        24,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        24,
+        85,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        25,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        25,
+        87,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        125,
+        26,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        97,
+        26,
+        89,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        110,
+        27,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        107,
+        27,
+        89,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        16,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        26,
+        67,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        16,
+        96,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        52,
+        16,
+        112,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        49,
+        16,
+        116,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        38,
+        17,
+        107,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        63,
+        17,
+        114,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        39,
+        23,
+        97,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        62,
+        23,
+        112,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        59,
+        23,
+        116,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        24,
+        109,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        44,
+        24,
+        115,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        74,
+        16,
+        96,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        77,
+        16,
+        101,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        16,
+        106,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        84,
+        16,
+        111,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        73,
+        16,
+        115,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        16,
+        119,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        17,
+        96,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        84,
+        17,
+        101,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        17,
+        106,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        91,
+        17,
+        111,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        17,
+        115,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        17,
+        120,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        18,
+        98,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        18,
+        126,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        19,
+        125,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        20,
+        124,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        21,
+        120,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        22,
+        109,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        23,
+        97,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        23,
+        107,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        73,
+        23,
+        115,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        78,
+        24,
+        96,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        24,
+        106,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        24,
+        114,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        24,
+        126,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        25,
+        118,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        26,
+        99,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        90,
+        26,
+        106,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        26,
+        113,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        26,
+        121,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        27,
+        102,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        27,
+        125,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        16,
+        96,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        109,
+        16,
+        101,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        16,
+        107,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        17,
+        98,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        108,
+        17,
+        104,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        101,
+        18,
+        96,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        114,
+        19,
+        105,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        101,
+        20,
+        109,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        112,
+        22,
+        96,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        101,
+        23,
+        108,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        112,
+        24,
+        109,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        26,
+        100,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        112,
+        27,
+        108,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        28,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        91,
+        31,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        34,
+        23,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        91,
+        37,
+        23,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        40,
+        24,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        43,
+        26,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        28,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        30,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        32,
+        23,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        34,
+        30,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        37,
+        28,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        41,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        23,
+        28,
+        48,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        25,
+        32,
+        52,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        28,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        29,
+        37,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        29,
+        51,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        30,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        31,
+        46,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        49,
+        32,
+        44,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        33,
+        46,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        34,
+        47,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        35,
+        51,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        56,
+        37,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        49,
+        39,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        42,
+        41,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        43,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        28,
+        32,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        29,
+        37,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        82,
+        30,
+        39,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        31,
+        41,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        65,
+        32,
+        44,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        68,
+        33,
+        46,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        71,
+        34,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        36,
+        40,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        38,
+        32,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        39,
+        50,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        75,
+        41,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        43,
+        44,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        28,
+        32,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        28,
+        61,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        29,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        30,
+        40,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        118,
+        31,
+        41,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        111,
+        32,
+        35,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        32,
+        58,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        118,
+        33,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        113,
+        34,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        35,
+        50,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        37,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        118,
+        38,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        39,
+        60,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        41,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        42,
+        53,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        28,
+        38,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        32,
+        47,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        38,
+        57,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        23,
+        28,
+        64,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        28,
+        64,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        49,
+        29,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        30,
+        71,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        48,
+        31,
+        70,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        32,
+        69,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        55,
+        33,
+        67,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        47,
+        36,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        40,
+        40,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        63,
+        43,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        28,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        88,
+        28,
+        91,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        29,
+        75,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        30,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        30,
+        91,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        31,
+        74,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        32,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        88,
+        32,
+        91,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        33,
+        75,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        34,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        34,
+        93,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        35,
+        92,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        36,
+        95,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        71,
+        38,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        39,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        40,
+        70,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        41,
+        79,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        42,
+        87,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        91,
+        43,
+        90,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        28,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        28,
+        86,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        109,
+        29,
+        74,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        114,
+        29,
+        89,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        126,
+        30,
+        73,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        31,
+        66,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        31,
+        87,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        32,
+        78,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        119,
+        33,
+        66,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        33,
+        90,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        34,
+        85,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        35,
+        90,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        125,
+        37,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        38,
+        83,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        40,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        41,
+        73,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        42,
+        89,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        28,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        28,
+        96,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        28,
+        124,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        29,
+        115,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        30,
+        107,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        31,
+        98,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        31,
+        125,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        32,
+        117,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        33,
+        108,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        34,
+        100,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        34,
+        125,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        36,
+        102,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        37,
+        119,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        91,
+        39,
+        101,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        90,
+        40,
+        122,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        42,
+        111,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        28,
+        96,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        108,
+        30,
+        108,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        33,
+        99,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        35,
+        103,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        44,
+        21,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        92,
+        50,
+        22,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        44,
+        21,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        50,
+        26,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        44,
+        47,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        53,
+        46,
+        49,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        49,
+        47,
+        62,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        60,
+        49,
+        52,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        37,
+        51,
+        54,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        53,
+        52,
+        57,
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        44,
+        32,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        44,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        46,
+        35,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        88,
+        47,
+        33,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        47,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        48,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        91,
+        49,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        50,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        51,
+        63,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        52,
+        62,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        54,
+        42,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        88,
+        56,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        58,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        44,
+        32,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        45,
+        32,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        46,
+        40,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        47,
+        39,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        101,
+        48,
+        38,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        49,
+        37,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        50,
+        36,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        98,
+        51,
+        35,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        97,
+        52,
+        34,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        53,
+        33,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        54,
+        54,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        56,
+        60,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        59,
+        48,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        44,
+        47,
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        129,
+        53,
+        56,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        44,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        44,
+        64,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        45,
+        68,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        90,
+        47,
+        90,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        91,
+        50,
+        79,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        53,
+        75,
+        "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        44,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        45,
+        70,
+        "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        48,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        97,
+        50,
+        90,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        97,
+        54,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        44,
+        64,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        60,
+        47,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        60,
+        58,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        61,
+        54,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        62,
+        52,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        63,
+        52,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        64,
+        57,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        67,
+        58,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        60,
+        47,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        101,
+        60,
+        59,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        97,
+        61,
+        57,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        98,
+        62,
+        57,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        63,
+        61,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        97,
+        66,
+        56,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        60,
+        64,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        60,
+        64,
+        "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 20.645,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T13-46-29-986Z-96b8c869-41fa-4999-b6a5-8025aac6f95a",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T13-46-29-986Z-96b8c869-41fa-4999-b6a5-8025aac6f95a\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

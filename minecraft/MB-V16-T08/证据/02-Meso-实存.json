@@ -1,0 +1,32 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V16-T08-哥特教堂",
+  "shape_yzx": [
+    84,
+    144,
+    160
+  ],
+  "origin": [
+    0,
+    12,
+    0
+  ],
+  "palette": [
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:polished_andesite",
+    "minecraft:smooth_sandstone",
+    "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:light_gray_stained_glass",
+    "minecraft:dark_oak_planks",
+    "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+    "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+  ],
+  "sha256": "a0477357ce9168f994e4590e706683b09440800a88b71ac9d8b5a57a59b45576",
+  "source": "RegionReader after save and shutdown"
+}

@@ -1,0 +1,104 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V16-T08-哥特教堂",
+  "name": "MB-V16-T08-哥特教堂",
+  "version": {
+    "Snapshot": 0,
+    "Series": "main",
+    "Id": 4903,
+    "Name": "26.2"
+  },
+  "generation": {
+    "bonus_chest": 0,
+    "seed": "1608",
+    "generate_structures": 0,
+    "dimensions": {
+      "minecraft:overworld": {
+        "generator": {
+          "settings": {
+            "features": 0,
+            "biome": "minecraft:plains",
+            "layers": [
+              {
+                "block": "minecraft:bedrock",
+                "height": 1
+              },
+              {
+                "block": "minecraft:stone",
+                "height": 73
+              },
+              {
+                "block": "minecraft:dirt",
+                "height": 5
+              },
+              {
+                "block": "minecraft:grass_block",
+                "height": 1
+              }
+            ],
+            "structure_overrides": [],
+            "lakes": 0
+          },
+          "type": "minecraft:flat"
+        },
+        "type": "minecraft:overworld"
+      },
+      "minecraft:the_nether": {
+        "generator": {
+          "settings": "minecraft:nether",
+          "biome_source": {
+            "preset": "minecraft:nether",
+            "type": "minecraft:multi_noise"
+          },
+          "type": "minecraft:noise"
+        },
+        "type": "minecraft:the_nether"
+      },
+      "minecraft:the_end": {
+        "generator": {
+          "settings": "minecraft:end",
+          "biome_source": {
+            "type": "minecraft:the_end"
+          },
+          "type": "minecraft:noise"
+        },
+        "type": "minecraft:the_end"
+      }
+    }
+  },
+  "result": {
+    "minecraft_mcp_calls": 0,
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+    "generator": "FlatLevelSource",
+    "before": [
+      "minecraft:grass_block[snowy=false]"
+    ],
+    "changed_blocks": 0,
+    "apply_seconds": 0.0000197,
+    "readback": [
+      {
+        "position": [
+          0,
+          15,
+          0,
+          "minecraft:grass_block[snowy=false]"
+        ],
+        "actual": "minecraft:grass_block[snowy=false]",
+        "default_entity_valid": true
+      }
+    ],
+    "mismatches": 0,
+    "block_entities_checked": 0,
+    "save_completed": true,
+    "status": "PASS",
+    "shutdown_verified": true,
+    "wall_seconds": 17.406,
+    "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T13-40-35-239Z-4a640b8f-d54f-403a-a791-19259b9ba160",
+    "backup": null
+  },
+  "lock": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+    "lock": "AVAILABLE",
+    "registered_profile": true,
+    "minecraft_mcp_calls": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+  "generator": "FlatLevelSource",
+  "before": [],
+  "changed_blocks": 0,
+  "apply_seconds": 0.000011,
+  "readback": [],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 17.454,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T14-03-02-193Z-1f2fae9c-e9fd-487f-b4c1-d2bbd5da06aa",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T14-03-02-193Z-1f2fae9c-e9fd-487f-b4c1-d2bbd5da06aa\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

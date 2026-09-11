@@ -1,0 +1,288 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:smooth_sandstone",
+    "minecraft:stone_bricks"
+  ],
+  "changed_blocks": 1768,
+  "apply_seconds": 0.1900931,
+  "readback": [
+    {
+      "position": [
+        105,
+        18,
+        51,
+        "minecraft:dark_oak_planks"
+      ],
+      "actual": "minecraft:dark_oak_planks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        28,
+        37,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        53,
+        29,
+        40,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        42,
+        31,
+        44,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        62,
+        33,
+        47,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        28,
+        37,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        67,
+        30,
+        42,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        70,
+        33,
+        47,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        28,
+        37,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        126,
+        30,
+        41,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        124,
+        32,
+        46,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        28,
+        37,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        28,
+        74,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        53,
+        29,
+        73,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        42,
+        31,
+        69,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        62,
+        33,
+        65,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        28,
+        74,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        30,
+        71,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        65,
+        33,
+        65,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        28,
+        74,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        126,
+        30,
+        70,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        124,
+        32,
+        67,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        28,
+        74,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        28,
+        96,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 16.659,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T14-01-56-191Z-9cb3f322-8e55-40de-9b05-93ee56b58921",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T14-01-56-191Z-9cb3f322-8e55-40de-9b05-93ee56b58921\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V16-T08-哥特教堂",
+  "shape_yzx": [
+    84,
+    144,
+    160
+  ],
+  "origin": [
+    0,
+    12,
+    0
+  ],
+  "palette": [
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:gravel",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:polished_andesite",
+    "minecraft:smooth_sandstone",
+    "minecraft:andesite",
+    "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+    "minecraft:short_grass",
+    "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:torch",
+    "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+    "minecraft:light_gray_stained_glass",
+    "minecraft:dark_oak_planks",
+    "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+    "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tile_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tile_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+  ],
+  "sha256": "4804b01759784276e3c8f341e037d105a63ab23ee6de4b7f6e9bc7a79318bc15",
+  "source": "RegionReader after save and shutdown"
+}

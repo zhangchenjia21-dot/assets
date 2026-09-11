@@ -1,0 +1,129 @@
+{
+  "stage": "04-Repair",
+  "start_xyz": [
+    10,
+    16,
+    56
+  ],
+  "routes": {
+    "前室": {
+      "xyz": [
+        28,
+        18,
+        56
+      ],
+      "reachable": true
+    },
+    "中殿": {
+      "xyz": [
+        45,
+        18,
+        56
+      ],
+      "reachable": true
+    },
+    "北侧廊": {
+      "xyz": [
+        57,
+        18,
+        43
+      ],
+      "reachable": true
+    },
+    "十字交叉": {
+      "xyz": [
+        95,
+        18,
+        56
+      ],
+      "reachable": true
+    },
+    "北耳堂": {
+      "xyz": [
+        95,
+        18,
+        29
+      ],
+      "reachable": true
+    },
+    "南耳堂": {
+      "xyz": [
+        95,
+        18,
+        82
+      ],
+      "reachable": true
+    },
+    "唱诗席": {
+      "xyz": [
+        112,
+        19,
+        56
+      ],
+      "reachable": true
+    },
+    "圣坛前": {
+      "xyz": [
+        120,
+        19,
+        56
+      ],
+      "reachable": true
+    },
+    "回廊": {
+      "xyz": [
+        55,
+        18,
+        79
+      ],
+      "reachable": true
+    },
+    "参事堂": {
+      "xyz": [
+        103,
+        18,
+        102
+      ],
+      "reachable": true
+    },
+    "宿舍楼下": {
+      "xyz": [
+        87,
+        18,
+        108
+      ],
+      "reachable": true
+    },
+    "宿舍楼上": {
+      "xyz": [
+        85,
+        27,
+        106
+      ],
+      "reachable": true
+    },
+    "北附属礼拜堂": {
+      "xyz": [
+        111,
+        18,
+        32
+      ],
+      "reachable": true
+    },
+    "南附属礼拜堂": {
+      "xyz": [
+        111,
+        18,
+        83
+      ],
+      "reachable": true
+    }
+  },
+  "method": "Cardinal voxel traversal with two-cell headroom and <=1 cell rise; not client walking",
+  "unrooted_solid_cells": 0,
+  "unrooted_examples_xyz": [],
+  "unrooted_states": [],
+  "full_volume_compared": 1935360,
+  "blueprint_difference": 0,
+  "interpretation": "Combine these checks with massing, sections, internal perspectives, openings, roof and stair review. No regression verdict."
+}

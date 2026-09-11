@@ -1,0 +1,272 @@
+{
+  "minecraft:air": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:air",
+      "90/none": "minecraft:air",
+      "180/none": "minecraft:air",
+      "270/none": "minecraft:air",
+      "0/x": "minecraft:air",
+      "90/x": "minecraft:air",
+      "180/x": "minecraft:air",
+      "270/x": "minecraft:air",
+      "0/z": "minecraft:air",
+      "90/z": "minecraft:air",
+      "180/z": "minecraft:air",
+      "270/z": "minecraft:air"
+    }
+  },
+  "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "90/none": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "180/none": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "270/none": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "0/x": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "90/x": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "180/x": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "270/x": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "0/z": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "90/z": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "180/z": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "270/z": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    }
+  },
+  "minecraft:gravel": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:gravel",
+      "90/none": "minecraft:gravel",
+      "180/none": "minecraft:gravel",
+      "270/none": "minecraft:gravel",
+      "0/x": "minecraft:gravel",
+      "90/x": "minecraft:gravel",
+      "180/x": "minecraft:gravel",
+      "270/x": "minecraft:gravel",
+      "0/z": "minecraft:gravel",
+      "90/z": "minecraft:gravel",
+      "180/z": "minecraft:gravel",
+      "270/z": "minecraft:gravel"
+    }
+  },
+  "minecraft:smooth_sandstone": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:smooth_sandstone",
+      "90/none": "minecraft:smooth_sandstone",
+      "180/none": "minecraft:smooth_sandstone",
+      "270/none": "minecraft:smooth_sandstone",
+      "0/x": "minecraft:smooth_sandstone",
+      "90/x": "minecraft:smooth_sandstone",
+      "180/x": "minecraft:smooth_sandstone",
+      "270/x": "minecraft:smooth_sandstone",
+      "0/z": "minecraft:smooth_sandstone",
+      "90/z": "minecraft:smooth_sandstone",
+      "180/z": "minecraft:smooth_sandstone",
+      "270/z": "minecraft:smooth_sandstone"
+    }
+  },
+  "minecraft:polished_andesite": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:polished_andesite",
+      "90/none": "minecraft:polished_andesite",
+      "180/none": "minecraft:polished_andesite",
+      "270/none": "minecraft:polished_andesite",
+      "0/x": "minecraft:polished_andesite",
+      "90/x": "minecraft:polished_andesite",
+      "180/x": "minecraft:polished_andesite",
+      "270/x": "minecraft:polished_andesite",
+      "0/z": "minecraft:polished_andesite",
+      "90/z": "minecraft:polished_andesite",
+      "180/z": "minecraft:polished_andesite",
+      "270/z": "minecraft:polished_andesite"
+    }
+  },
+  "minecraft:dark_oak_slab[type=bottom,waterlogged=false]": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "90/none": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "180/none": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "270/none": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "0/x": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "90/x": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "180/x": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "270/x": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "0/z": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "90/z": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "180/z": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]",
+      "270/z": "minecraft:dark_oak_slab[type=bottom,waterlogged=false]"
+    }
+  },
+  "minecraft:andesite": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:andesite",
+      "90/none": "minecraft:andesite",
+      "180/none": "minecraft:andesite",
+      "270/none": "minecraft:andesite",
+      "0/x": "minecraft:andesite",
+      "90/x": "minecraft:andesite",
+      "180/x": "minecraft:andesite",
+      "270/x": "minecraft:andesite",
+      "0/z": "minecraft:andesite",
+      "90/z": "minecraft:andesite",
+      "180/z": "minecraft:andesite",
+      "270/z": "minecraft:andesite"
+    }
+  },
+  "minecraft:torch": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:torch",
+      "90/none": "minecraft:torch",
+      "180/none": "minecraft:torch",
+      "270/none": "minecraft:torch",
+      "0/x": "minecraft:torch",
+      "90/x": "minecraft:torch",
+      "180/x": "minecraft:torch",
+      "270/x": "minecraft:torch",
+      "0/z": "minecraft:torch",
+      "90/z": "minecraft:torch",
+      "180/z": "minecraft:torch",
+      "270/z": "minecraft:torch"
+    }
+  },
+  "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "90/none": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "180/none": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "270/none": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "0/x": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "90/x": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "180/x": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "270/x": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "0/z": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "90/z": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "180/z": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "270/z": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]"
+    }
+  },
+  "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "90/none": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "180/none": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "270/none": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "0/x": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "90/x": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "180/x": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "270/x": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "0/z": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "90/z": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "180/z": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "270/z": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    }
+  },
+  "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "90/none": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "180/none": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "270/none": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "0/x": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "90/x": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "180/x": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "270/x": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "0/z": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "90/z": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "180/z": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "270/z": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+    }
+  },
+  "minecraft:dirt": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:dirt",
+      "90/none": "minecraft:dirt",
+      "180/none": "minecraft:dirt",
+      "270/none": "minecraft:dirt",
+      "0/x": "minecraft:dirt",
+      "90/x": "minecraft:dirt",
+      "180/x": "minecraft:dirt",
+      "270/x": "minecraft:dirt",
+      "0/z": "minecraft:dirt",
+      "90/z": "minecraft:dirt",
+      "180/z": "minecraft:dirt",
+      "270/z": "minecraft:dirt"
+    }
+  },
+  "minecraft:grass_block[snowy=false]": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:grass_block[snowy=false]",
+      "90/none": "minecraft:grass_block[snowy=false]",
+      "180/none": "minecraft:grass_block[snowy=false]",
+      "270/none": "minecraft:grass_block[snowy=false]",
+      "0/x": "minecraft:grass_block[snowy=false]",
+      "90/x": "minecraft:grass_block[snowy=false]",
+      "180/x": "minecraft:grass_block[snowy=false]",
+      "270/x": "minecraft:grass_block[snowy=false]",
+      "0/z": "minecraft:grass_block[snowy=false]",
+      "90/z": "minecraft:grass_block[snowy=false]",
+      "180/z": "minecraft:grass_block[snowy=false]",
+      "270/z": "minecraft:grass_block[snowy=false]"
+    }
+  },
+  "minecraft:short_grass": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:short_grass",
+      "90/none": "minecraft:short_grass",
+      "180/none": "minecraft:short_grass",
+      "270/none": "minecraft:short_grass",
+      "0/x": "minecraft:short_grass",
+      "90/x": "minecraft:short_grass",
+      "180/x": "minecraft:short_grass",
+      "270/x": "minecraft:short_grass",
+      "0/z": "minecraft:short_grass",
+      "90/z": "minecraft:short_grass",
+      "180/z": "minecraft:short_grass",
+      "270/z": "minecraft:short_grass"
+    }
+  },
+  "minecraft:stone_bricks": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:stone_bricks",
+      "90/none": "minecraft:stone_bricks",
+      "180/none": "minecraft:stone_bricks",
+      "270/none": "minecraft:stone_bricks",
+      "0/x": "minecraft:stone_bricks",
+      "90/x": "minecraft:stone_bricks",
+      "180/x": "minecraft:stone_bricks",
+      "270/x": "minecraft:stone_bricks",
+      "0/z": "minecraft:stone_bricks",
+      "90/z": "minecraft:stone_bricks",
+      "180/z": "minecraft:stone_bricks",
+      "270/z": "minecraft:stone_bricks"
+    }
+  }
+}

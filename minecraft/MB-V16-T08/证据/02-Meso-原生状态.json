@@ -1,0 +1,128 @@
+{
+  "minecraft:light_gray_stained_glass": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:light_gray_stained_glass",
+      "90/none": "minecraft:light_gray_stained_glass",
+      "180/none": "minecraft:light_gray_stained_glass",
+      "270/none": "minecraft:light_gray_stained_glass",
+      "0/x": "minecraft:light_gray_stained_glass",
+      "90/x": "minecraft:light_gray_stained_glass",
+      "180/x": "minecraft:light_gray_stained_glass",
+      "270/x": "minecraft:light_gray_stained_glass",
+      "0/z": "minecraft:light_gray_stained_glass",
+      "90/z": "minecraft:light_gray_stained_glass",
+      "180/z": "minecraft:light_gray_stained_glass",
+      "270/z": "minecraft:light_gray_stained_glass"
+    }
+  },
+  "minecraft:air": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:air",
+      "90/none": "minecraft:air",
+      "180/none": "minecraft:air",
+      "270/none": "minecraft:air",
+      "0/x": "minecraft:air",
+      "90/x": "minecraft:air",
+      "180/x": "minecraft:air",
+      "270/x": "minecraft:air",
+      "0/z": "minecraft:air",
+      "90/z": "minecraft:air",
+      "180/z": "minecraft:air",
+      "270/z": "minecraft:air"
+    }
+  },
+  "minecraft:smooth_sandstone": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:smooth_sandstone",
+      "90/none": "minecraft:smooth_sandstone",
+      "180/none": "minecraft:smooth_sandstone",
+      "270/none": "minecraft:smooth_sandstone",
+      "0/x": "minecraft:smooth_sandstone",
+      "90/x": "minecraft:smooth_sandstone",
+      "180/x": "minecraft:smooth_sandstone",
+      "270/x": "minecraft:smooth_sandstone",
+      "0/z": "minecraft:smooth_sandstone",
+      "90/z": "minecraft:smooth_sandstone",
+      "180/z": "minecraft:smooth_sandstone",
+      "270/z": "minecraft:smooth_sandstone"
+    }
+  },
+  "minecraft:stone_bricks": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:stone_bricks",
+      "90/none": "minecraft:stone_bricks",
+      "180/none": "minecraft:stone_bricks",
+      "270/none": "minecraft:stone_bricks",
+      "0/x": "minecraft:stone_bricks",
+      "90/x": "minecraft:stone_bricks",
+      "180/x": "minecraft:stone_bricks",
+      "270/x": "minecraft:stone_bricks",
+      "0/z": "minecraft:stone_bricks",
+      "90/z": "minecraft:stone_bricks",
+      "180/z": "minecraft:stone_bricks",
+      "270/z": "minecraft:stone_bricks"
+    }
+  },
+  "minecraft:polished_andesite": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:polished_andesite",
+      "90/none": "minecraft:polished_andesite",
+      "180/none": "minecraft:polished_andesite",
+      "270/none": "minecraft:polished_andesite",
+      "0/x": "minecraft:polished_andesite",
+      "90/x": "minecraft:polished_andesite",
+      "180/x": "minecraft:polished_andesite",
+      "270/x": "minecraft:polished_andesite",
+      "0/z": "minecraft:polished_andesite",
+      "90/z": "minecraft:polished_andesite",
+      "180/z": "minecraft:polished_andesite",
+      "270/z": "minecraft:polished_andesite"
+    }
+  },
+  "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "90/none": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "180/none": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "270/none": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "0/x": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "90/x": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "180/x": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "270/x": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "0/z": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "90/z": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "180/z": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "270/z": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    }
+  },
+  "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "90/none": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "180/none": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "270/none": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "0/x": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "90/x": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+      "180/x": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "270/x": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "0/z": "minecraft:stone_brick_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+      "90/z": "minecraft:stone_brick_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+      "180/z": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "270/z": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    }
+  }
+}

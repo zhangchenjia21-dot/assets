@@ -1,0 +1,74 @@
+{
+  "minecraft:dark_oak_planks": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:dark_oak_planks",
+      "90/none": "minecraft:dark_oak_planks",
+      "180/none": "minecraft:dark_oak_planks",
+      "270/none": "minecraft:dark_oak_planks",
+      "0/x": "minecraft:dark_oak_planks",
+      "90/x": "minecraft:dark_oak_planks",
+      "180/x": "minecraft:dark_oak_planks",
+      "270/x": "minecraft:dark_oak_planks",
+      "0/z": "minecraft:dark_oak_planks",
+      "90/z": "minecraft:dark_oak_planks",
+      "180/z": "minecraft:dark_oak_planks",
+      "270/z": "minecraft:dark_oak_planks"
+    }
+  },
+  "minecraft:deepslate_tiles": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:deepslate_tiles",
+      "90/none": "minecraft:deepslate_tiles",
+      "180/none": "minecraft:deepslate_tiles",
+      "270/none": "minecraft:deepslate_tiles",
+      "0/x": "minecraft:deepslate_tiles",
+      "90/x": "minecraft:deepslate_tiles",
+      "180/x": "minecraft:deepslate_tiles",
+      "270/x": "minecraft:deepslate_tiles",
+      "0/z": "minecraft:deepslate_tiles",
+      "90/z": "minecraft:deepslate_tiles",
+      "180/z": "minecraft:deepslate_tiles",
+      "270/z": "minecraft:deepslate_tiles"
+    }
+  },
+  "minecraft:stone_bricks": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:stone_bricks",
+      "90/none": "minecraft:stone_bricks",
+      "180/none": "minecraft:stone_bricks",
+      "270/none": "minecraft:stone_bricks",
+      "0/x": "minecraft:stone_bricks",
+      "90/x": "minecraft:stone_bricks",
+      "180/x": "minecraft:stone_bricks",
+      "270/x": "minecraft:stone_bricks",
+      "0/z": "minecraft:stone_bricks",
+      "90/z": "minecraft:stone_bricks",
+      "180/z": "minecraft:stone_bricks",
+      "270/z": "minecraft:stone_bricks"
+    }
+  },
+  "minecraft:light_gray_stained_glass": {
+    "valid": true,
+    "block_entity": false,
+    "variants": {
+      "0/none": "minecraft:light_gray_stained_glass",
+      "90/none": "minecraft:light_gray_stained_glass",
+      "180/none": "minecraft:light_gray_stained_glass",
+      "270/none": "minecraft:light_gray_stained_glass",
+      "0/x": "minecraft:light_gray_stained_glass",
+      "90/x": "minecraft:light_gray_stained_glass",
+      "180/x": "minecraft:light_gray_stained_glass",
+      "270/x": "minecraft:light_gray_stained_glass",
+      "0/z": "minecraft:light_gray_stained_glass",
+      "90/z": "minecraft:light_gray_stained_glass",
+      "180/z": "minecraft:light_gray_stained_glass",
+      "270/z": "minecraft:light_gray_stained_glass"
+    }
+  }
+}

@@ -1,0 +1,1355 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:smooth_sandstone",
+    "minecraft:smooth_sandstone",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:dark_oak_planks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:smooth_sandstone",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:smooth_sandstone",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:stone_bricks"
+  ],
+  "changed_blocks": 12021,
+  "apply_seconds": 0.3567954,
+  "readback": [
+    {
+      "position": [
+        89,
+        27,
+        22,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        18,
+        30,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        22,
+        18,
+        51,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        16,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        47,
+        18,
+        63,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        37,
+        20,
+        63,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        39,
+        22,
+        38,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        46,
+        23,
+        47,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        25,
+        35,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        60,
+        26,
+        39,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        65,
+        16,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        19,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        20,
+        59,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        82,
+        22,
+        38,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        23,
+        63,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        71,
+        25,
+        39,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        27,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        125,
+        16,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        113,
+        19,
+        48,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        111,
+        21,
+        38,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        22,
+        61,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        111,
+        24,
+        39,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        103,
+        25,
+        63,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        27,
+        49,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        25,
+        50,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        18,
+        64,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        37,
+        20,
+        76,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        40,
+        21,
+        90,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        23,
+        65,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        57,
+        24,
+        76,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        51,
+        26,
+        74,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        16,
+        76,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        20,
+        78,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        75,
+        22,
+        78,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        65,
+        24,
+        77,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        71,
+        27,
+        73,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        16,
+        76,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        114,
+        20,
+        65,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        126,
+        22,
+        78,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        111,
+        25,
+        73,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        40,
+        18,
+        97,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        74,
+        18,
+        97,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        19,
+        124,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        21,
+        122,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        88,
+        22,
+        123,
+        "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        24,
+        121,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        26,
+        119,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        28,
+        22,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        38,
+        22,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        42,
+        31,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        28,
+        22,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        101,
+        39,
+        26,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        24,
+        28,
+        56,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        28,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        37,
+        29,
+        63,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        37,
+        34,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        46,
+        36,
+        63,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        38,
+        53,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        38,
+        39,
+        61,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        43,
+        40,
+        58,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        48,
+        41,
+        52,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        43,
+        41,
+        60,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        44,
+        42,
+        55,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        43,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        65,
+        28,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        29,
+        61,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        32,
+        63,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        67,
+        36,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        77,
+        38,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        39,
+        50,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        74,
+        40,
+        49,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        92,
+        41,
+        32,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        83,
+        41,
+        53,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        42,
+        35,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        77,
+        42,
+        54,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        82,
+        42,
+        63,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        43,
+        58,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        28,
+        34,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        29,
+        50,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        31,
+        52,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        115,
+        34,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        36,
+        49,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        114,
+        38,
+        46,
+        "minecraft:stone_bricks"
+      ],
+      "actual": "minecraft:stone_bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        121,
+        39,
+        48,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        40,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        106,
+        40,
+        62,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        112,
+        41,
+        53,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        117,
+        41,
+        63,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        118,
+        42,
+        52,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        42,
+        59,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        108,
+        43,
+        56,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        28,
+        50,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        36,
+        59,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        28,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        47,
+        30,
+        65,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        50,
+        36,
+        64,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        54,
+        40,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        28,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        67,
+        30,
+        65,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        34,
+        90,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        87,
+        37,
+        88,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        70,
+        40,
+        64,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        41,
+        73,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        42,
+        78,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        94,
+        43,
+        83,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        28,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        30,
+        77,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        104,
+        35,
+        88,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        38,
+        78,
+        "minecraft:polished_andesite"
+      ],
+      "actual": "minecraft:polished_andesite",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        40,
+        78,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        42,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        100,
+        42,
+        90,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        80,
+        28,
+        96,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        29,
+        125,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        31,
+        118,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        44,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        55,
+        48,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        44,
+        48,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        44,
+        56,
+        "minecraft:light_gray_stained_glass"
+      ],
+      "actual": "minecraft:light_gray_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        93,
+        44,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        44,
+        64,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 17.153,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T13-53-24-176Z-4ca84293-85c6-42c3-a223-2faa49b1c348",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V16-T08-哥特教堂",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T13-53-24-176Z-4ca84293-85c6-42c3-a223-2faa49b1c348\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}
