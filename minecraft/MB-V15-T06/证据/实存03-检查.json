@@ -1,0 +1,31 @@
+{
+  "source": "saved chunks",
+  "targets": {
+    "前庭": true,
+    "通厅": true,
+    "宫殿上层": true,
+    "观园平台": true,
+    "花坛十字路": true,
+    "圆池西侧": true,
+    "西水园": true,
+    "东绿剧场": true,
+    "橘园厅": true,
+    "园丁房": true,
+    "镜渠终端": true
+  },
+  "orphan_count": 0,
+  "orphan_examples": [],
+  "water": {
+    "cells": 2072,
+    "open_sides": [],
+    "unsupported_bed": [],
+    "levels": [
+      61,
+      63,
+      67
+    ],
+    "fluid_update_stability": "unverified: current official executor has no fluid-update interface"
+  },
+  "method": "two-block clearance; one-block steps/jumps; approximate shape collision; six-neighbour structural connection",
+  "different_cells": 0
+}

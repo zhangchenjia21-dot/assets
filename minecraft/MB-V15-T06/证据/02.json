@@ -1,0 +1,33 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V15-T06-规则宫苑",
+  "size": [
+    224,
+    64,
+    320
+  ],
+  "y0": 56,
+  "palette": [
+    "minecraft:stone",
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:chiseled_sandstone",
+    "minecraft:gravel",
+    "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]",
+    "minecraft:smooth_stone",
+    "minecraft:oak_log[axis=y]",
+    "minecraft:deepslate_tiles",
+    "minecraft:smooth_sandstone",
+    "minecraft:light_blue_stained_glass",
+    "minecraft:quartz_block",
+    "minecraft:water[level=0]",
+    "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+    "minecraft:oak_planks",
+    "minecraft:smooth_sandstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:smooth_sandstone_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:gold_block"
+  ],
+  "source": "saved chunks; read only",
+  "time": "2026-09-11T00:46:20.032Z",
+  "sha256": "4dce88eb6d81dcbbbf645dec70134e57ff7488e2599a609cc3d80e9ad67fa83e"
+}

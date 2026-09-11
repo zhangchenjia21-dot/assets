@@ -1,0 +1,35 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]"
+  ],
+  "changed_blocks": 1384,
+  "apply_seconds": 0.9036259,
+  "readback": [
+    {
+      "position": [
+        66,
+        65,
+        110,
+        "minecraft:moss_carpet"
+      ],
+      "actual": "minecraft:moss_carpet",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 16.334,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T00-59-53-960Z-a8ceec39-236c-442c-a68d-68c5e3469d5d",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T00-59-53-960Z-a8ceec39-236c-442c-a68d-68c5e3469d5d\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

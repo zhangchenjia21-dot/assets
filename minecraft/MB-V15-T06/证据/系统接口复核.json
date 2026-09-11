@@ -1,0 +1,149 @@
+{
+  "01→02": {
+    "changes": 16943,
+    "transitions": {
+      "minecraft:air → minecraft:chiseled_sandstone": 196,
+      "minecraft:air → minecraft:deepslate_tiles": 2985,
+      "minecraft:air → minecraft:gold_block": 1,
+      "minecraft:air → minecraft:light_blue_stained_glass": 176,
+      "minecraft:air → minecraft:quartz_block": 674,
+      "minecraft:air → minecraft:smooth_sandstone": 2171,
+      "minecraft:air → minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]": 294,
+      "minecraft:air → minecraft:smooth_sandstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 36,
+      "minecraft:chiseled_sandstone → minecraft:smooth_sandstone": 40,
+      "minecraft:chiseled_sandstone → minecraft:smooth_stone": 407,
+      "minecraft:deepslate_tiles → minecraft:chiseled_sandstone": 8,
+      "minecraft:deepslate_tiles → minecraft:light_blue_stained_glass": 8,
+      "minecraft:deepslate_tiles → minecraft:quartz_block": 579,
+      "minecraft:dirt → minecraft:chiseled_sandstone": 877,
+      "minecraft:dirt → minecraft:water[level=0]": 276,
+      "minecraft:grass_block[snowy=false] → minecraft:air": 276,
+      "minecraft:grass_block[snowy=false] → minecraft:chiseled_sandstone": 877,
+      "minecraft:grass_block[snowy=false] → minecraft:gravel": 3625,
+      "minecraft:grass_block[snowy=false] → minecraft:smooth_sandstone": 50,
+      "minecraft:oak_planks → minecraft:air": 36,
+      "minecraft:oak_planks → minecraft:smooth_sandstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]": 4,
+      "minecraft:smooth_sandstone → minecraft:air": 354,
+      "minecraft:smooth_sandstone → minecraft:chiseled_sandstone": 1012,
+      "minecraft:smooth_sandstone → minecraft:light_blue_stained_glass": 536,
+      "minecraft:smooth_sandstone → minecraft:quartz_block": 268,
+      "minecraft:smooth_sandstone → minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]": 24,
+      "minecraft:stone → minecraft:chiseled_sandstone": 1153
+    }
+  },
+  "02→02a": {
+    "changes": 534,
+    "transitions": {
+      "minecraft:smooth_sandstone → minecraft:chiseled_sandstone": 276,
+      "minecraft:smooth_sandstone → minecraft:light_blue_stained_glass": 156,
+      "minecraft:smooth_sandstone → minecraft:quartz_block": 102
+    }
+  },
+  "02a→03": {
+    "changes": 7306,
+    "transitions": {
+      "minecraft:air → minecraft:chiseled_sandstone": 18,
+      "minecraft:air → minecraft:cornflower": 192,
+      "minecraft:air → minecraft:fern": 191,
+      "minecraft:air → minecraft:gold_block": 1,
+      "minecraft:air → minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false]": 1600,
+      "minecraft:air → minecraft:oak_log[axis=y]": 24,
+      "minecraft:air → minecraft:orange_tulip": 334,
+      "minecraft:air → minecraft:quartz_block": 38,
+      "minecraft:air → minecraft:red_tulip": 272,
+      "minecraft:air → minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]": 135,
+      "minecraft:air → minecraft:terracotta": 116,
+      "minecraft:air → minecraft:white_tulip": 254,
+      "minecraft:grass_block[snowy=false] → minecraft:dirt": 1034,
+      "minecraft:grass_block[snowy=false] → minecraft:gravel": 1740,
+      "minecraft:grass_block[snowy=false] → minecraft:podzol[snowy=false]": 1330,
+      "minecraft:gravel → minecraft:dirt": 18,
+      "minecraft:water[level=0] → minecraft:chiseled_sandstone": 9
+    }
+  },
+  "03→03a": {
+    "changes": 150,
+    "transitions": {
+      "minecraft:air → minecraft:light_blue_stained_glass": 3,
+      "minecraft:air → minecraft:quartz_block": 14,
+      "minecraft:grass_block[snowy=false] → minecraft:gravel": 112,
+      "minecraft:quartz_block → minecraft:light_blue_stained_glass": 21
+    }
+  },
+  "03a→03b": {
+    "changes": 1384,
+    "transitions": {
+      "minecraft:oak_leaves[distance=1,persistent=true,waterlogged=false] → minecraft:moss_carpet": 1384
+    }
+  },
+  "03b→03c": {
+    "changes": 3,
+    "transitions": {
+      "minecraft:light_blue_stained_glass → minecraft:air": 3
+    }
+  },
+  "final_architecture_changes_after_02a": {
+    "宫殿主体": 0,
+    "中央亭": 0,
+    "西翼": 0,
+    "东翼": 0,
+    "橘园厅": 35,
+    "园丁房": 0
+  },
+  "micro_water_changes": [
+    [
+      111,
+      63,
+      184,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      111,
+      63,
+      185,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      111,
+      63,
+      186,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      112,
+      63,
+      184,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      112,
+      63,
+      185,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      112,
+      63,
+      186,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      113,
+      63,
+      184,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      113,
+      63,
+      185,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      113,
+      63,
+      186,
+      "minecraft:chiseled_sandstone"
+    ]
+  ]
+}

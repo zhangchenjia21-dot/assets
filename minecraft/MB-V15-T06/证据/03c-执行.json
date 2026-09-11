@@ -1,0 +1,35 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:light_blue_stained_glass"
+  ],
+  "changed_blocks": 3,
+  "apply_seconds": 0.0607142,
+  "readback": [
+    {
+      "position": [
+        43,
+        67,
+        130,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 15.468,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T01-06-18-171Z-a4fd06c1-d4a1-45ad-8912-017062eabd00",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T01-06-18-171Z-a4fd06c1-d4a1-45ad-8912-017062eabd00\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

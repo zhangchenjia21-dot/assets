@@ -1,0 +1,294 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:dirt",
+    "minecraft:dirt",
+    "minecraft:dirt"
+  ],
+  "changed_blocks": 683068,
+  "apply_seconds": 3.1106371,
+  "readback": [
+    {
+      "position": [
+        0,
+        56,
+        0,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        32,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        64,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        96,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        128,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        160,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        192,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        224,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        256,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        0,
+        56,
+        288,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        0,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        32,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        64,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        96,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        128,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        160,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        192,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        224,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        256,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        56,
+        288,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        60,
+        88,
+        42,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        60,
+        88,
+        64,
+        "minecraft:deepslate_tiles"
+      ],
+      "actual": "minecraft:deepslate_tiles",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        56,
+        0,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        56,
+        32,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        56,
+        64,
+        "minecraft:stone"
+      ],
+      "actual": "minecraft:stone",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 19.74,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T00-42-18-176Z-1d04c991-74ec-40f7-b857-b50c9ccff4a6",
+  "backup": null
+}

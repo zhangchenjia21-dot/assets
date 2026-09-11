@@ -1,0 +1,57 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:quartz_block",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]"
+  ],
+  "changed_blocks": 150,
+  "apply_seconds": 0.1503836,
+  "readback": [
+    {
+      "position": [
+        31,
+        67,
+        130,
+        "minecraft:light_blue_stained_glass"
+      ],
+      "actual": "minecraft:light_blue_stained_glass",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        64,
+        185,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        64,
+        182,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 15.769,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T00-55-11-157Z-4aafa356-2d17-4628-a97e-fb693e3713d1",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T00-55-11-157Z-4aafa356-2d17-4628-a97e-fb693e3713d1\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

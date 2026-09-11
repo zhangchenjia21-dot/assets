@@ -1,0 +1,299 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:air",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:grass_block[snowy=false]"
+  ],
+  "changed_blocks": 7306,
+  "apply_seconds": 1.0985847,
+  "readback": [
+    {
+      "position": [
+        18,
+        69,
+        95,
+        "minecraft:quartz_block"
+      ],
+      "actual": "minecraft:quartz_block",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        29,
+        65,
+        138,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        29,
+        65,
+        162,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        14,
+        62,
+        201,
+        "minecraft:podzol[snowy=false]"
+      ],
+      "actual": "minecraft:podzol[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        14,
+        62,
+        224,
+        "minecraft:podzol[snowy=false]"
+      ],
+      "actual": "minecraft:podzol[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        14,
+        62,
+        256,
+        "minecraft:podzol[snowy=false]"
+      ],
+      "actual": "minecraft:podzol[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        14,
+        62,
+        288,
+        "minecraft:podzol[snowy=false]"
+      ],
+      "actual": "minecraft:podzol[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        69,
+        95,
+        "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        65,
+        138,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        35,
+        65,
+        162,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        69,
+        95,
+        "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        64,
+        110,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        64,
+        128,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        66,
+        64,
+        160,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        69,
+        95,
+        "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        64,
+        110,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        64,
+        128,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        64,
+        160,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        69,
+        95,
+        "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        64,
+        110,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        64,
+        128,
+        "minecraft:dirt"
+      ],
+      "actual": "minecraft:dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        64,
+        160,
+        "minecraft:dirt"
+      ],
+      "actual": "minecraft:dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        69,
+        95,
+        "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        177,
+        64,
+        135,
+        "minecraft:dirt"
+      ],
+      "actual": "minecraft:dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        177,
+        64,
+        160,
+        "minecraft:dirt"
+      ],
+      "actual": "minecraft:dirt",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 17.401,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T00-50-29-967Z-6729d60c-2dbd-43f6-a794-040cca4fadc1",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T06-规则宫苑",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T00-50-29-967Z-6729d60c-2dbd-43f6-a794-040cca4fadc1\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

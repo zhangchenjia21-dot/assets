@@ -1,0 +1,57 @@
+{
+  "pools": [
+    {
+      "name": "平台西镜池",
+      "water_cells": 180,
+      "components": [
+        180
+      ],
+      "designed_water_y": 67,
+      "fluid_update_stability": "unverified"
+    },
+    {
+      "name": "平台东镜池",
+      "water_cells": 180,
+      "components": [
+        180
+      ],
+      "designed_water_y": 67,
+      "fluid_update_stability": "unverified"
+    },
+    {
+      "name": "轴线圆池",
+      "water_cells": 178,
+      "components": [
+        178
+      ],
+      "designed_water_y": 63,
+      "fluid_update_stability": "unverified"
+    },
+    {
+      "name": "远端镜渠",
+      "water_cells": 1258,
+      "components": [
+        1258
+      ],
+      "designed_water_y": 61,
+      "fluid_update_stability": "unverified"
+    },
+    {
+      "name": "西林丛圆池",
+      "water_cells": 276,
+      "components": [
+        276
+      ],
+      "designed_water_y": 61,
+      "fluid_update_stability": "unverified"
+    }
+  ],
+  "unsupported_plants": [],
+  "plant_counts": {
+    "minecraft:fern": 191,
+    "minecraft:white_tulip": 254,
+    "minecraft:cornflower": 192,
+    "minecraft:red_tulip": 272,
+    "minecraft:orange_tulip": 334
+  }
+}
