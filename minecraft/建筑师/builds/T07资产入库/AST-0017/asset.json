@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "name": "羽状椰枣树 B",
+  "status": "READY",
+  "palette_locked": true,
+  "created_at": "2026-09-11T14:25:24.034Z",
+  "use": "vegetation",
+  "styles": [
+    "desert",
+    "historical"
+  ],
+  "scale": "small",
+  "terrain_mode": "RIGID",
+  "dimensions": {
+    "x": 12,
+    "y": 15,
+    "z": 13
+  },
+  "occupied_blocks": 137,
+  "specified_blocks": 137,
+  "geometry_only_required": false,
+  "geometry_capability": "READY",
+  "rotation_allowed": [
+    0,
+    90,
+    180,
+    270
+  ],
+  "mirror_allowed": true,
+  "warnings": [],
+  "source_normalized_sha256": "82162cf5820b9f1848c3f612c44474ea442b5e544c93ab9990c6dfeeea4ca4ce",
+  "site_approval_required": true,
+  "site_review": "Asset readiness is technical reuse capability; V5 functional intent, live terrain validation and exact Owner revision approval remain mandatory before world writes",
+  "base_entity_capability": {
+    "policy_version": "26.2-base-state-v1",
+    "safe_positions": 0,
+    "unverified_positions": 0,
+    "all_source_nbt_retained": true
+  },
+  "source_kind": "AI_ORIGINAL",
+  "source_id": "AI-T07-PALM-B",
+  "classification": {
+    "primary_use": "vegetation",
+    "secondary_use": [
+      "shade"
+    ],
+    "structure_type": "tree",
+    "terrain_fit": [
+      {
+        "tag": "flat"
+      }
+    ],
+    "styles": [
+      {
+        "tag": "desert"
+      },
+      {
+        "tag": "historical"
+      }
+    ],
+    "scale": "small"
+  },
+  "max_repetitions": 4,
+  "asset_id": "AST-0017",
+  "source_ref_id": null,
+  "blueprint_sha256": "82162cf5820b9f1848c3f612c44474ea442b5e544c93ab9990c6dfeeea4ca4ce"
+}

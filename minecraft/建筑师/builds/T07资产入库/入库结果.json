@@ -1,0 +1,54 @@
+[
+  {
+    "asset_id": "AST-0017",
+    "name": "羽状椰枣树 B",
+    "status": "READY",
+    "dimensions": {
+      "x": 12,
+      "y": 15,
+      "z": 13
+    },
+    "occupied_blocks": 137,
+    "blueprint_sha256": "82162cf5820b9f1848c3f612c44474ea442b5e544c93ab9990c6dfeeea4ca4ce",
+    "anchor": {
+      "type": "AUTHORED_GROUND_CONTACT",
+      "position": [
+        7,
+        0,
+        6
+      ],
+      "coordinate_space": "blueprint_local",
+      "fallback_reason": null,
+      "surface": "lowest occupied block; supporting terrain required below"
+    },
+    "variants_checked": 12,
+    "source_world_block_mismatches": 0,
+    "world_writes": 0
+  },
+  {
+    "asset_id": "AST-0018",
+    "name": "木脊布棚 A",
+    "status": "READY",
+    "dimensions": {
+      "x": 11,
+      "y": 7,
+      "z": 7
+    },
+    "occupied_blocks": 127,
+    "blueprint_sha256": "4ca19f959995b7324fd8591d142b3ad4ac0e3f42e0dad318d70a2947b70d98a6",
+    "anchor": {
+      "type": "AUTHORED_GROUND_CONTACT",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "coordinate_space": "blueprint_local",
+      "fallback_reason": null,
+      "surface": "lowest occupied block; supporting terrain required below"
+    },
+    "variants_checked": 12,
+    "source_world_block_mismatches": 0,
+    "world_writes": 0
+  }
+]

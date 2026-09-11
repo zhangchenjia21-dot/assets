@@ -1,0 +1,35 @@
+{
+  "id": "AI-T07-CANOPY-A",
+  "name": "木脊布棚 A",
+  "source_kind": "AI_ORIGINAL",
+  "normalized_blueprint_path": "D:\\Games\\Minecraft\\AI工程\\T07资产入库\\AI-T07-CANOPY-A\\blueprint.json",
+  "owner_authorization": "2026-09-11 用户明确要求：把上轮的羽状椰枣树 B 和木脊布棚 A 入库",
+  "max_repetitions": 3,
+  "classification_v2": {
+    "primary_use": "market",
+    "secondary_use": [
+      "shade"
+    ],
+    "structure_type": "open_shelter",
+    "terrain_fit": [
+      {
+        "tag": "flat"
+      }
+    ],
+    "styles": [
+      {
+        "tag": "desert"
+      },
+      {
+        "tag": "historical"
+      }
+    ],
+    "scale": "small"
+  },
+  "source": {
+    "source_url": "https://github.com/zhangchenjia21-dot/assets/tree/main/minecraft/MB-V15-T07",
+    "author": "Codex original for Owner",
+    "license": "Owner-authorized reuse; no separate public license declared"
+  },
+  "brief_path": "D:\\Games\\Minecraft\\AI工程\\T07资产入库\\README.md"
+}

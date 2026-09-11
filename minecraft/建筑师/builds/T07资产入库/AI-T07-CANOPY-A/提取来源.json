@@ -1,0 +1,21 @@
+{
+  "id": "AI-T07-CANOPY-A",
+  "name": "木脊布棚 A",
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V15-T07-绿洲驿站",
+  "source_stage": "05-Water",
+  "snapshot_sha256": "5b21f35a1b98807f4ed7c8ead7170830611f9f64d62395b01aa133c9f4e04d51",
+  "bounds": [
+    [
+      156,
+      21,
+      162
+    ],
+    [
+      166,
+      27,
+      168
+    ]
+  ],
+  "blocks": 127,
+  "extraction": "Tree author coordinate mask includes original and repaired feather paths; shelter exact reviewed bounds. States read from saved snapshot; no redesign or terrain."
+}

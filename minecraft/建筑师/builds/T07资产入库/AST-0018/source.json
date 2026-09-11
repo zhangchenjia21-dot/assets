@@ -1,0 +1,13 @@
+{
+  "source_ref_id": null,
+  "source_url": "https://github.com/zhangchenjia21-dot/assets/tree/main/minecraft/MB-V15-T07",
+  "author": "Codex original for Owner",
+  "license": "Owner-authorized reuse; no separate public license declared",
+  "normalized_blueprint": "D:\\Games\\Minecraft\\AI工程\\T07资产入库\\AI-T07-CANOPY-A\\blueprint.json",
+  "normalized_sha256": "4ca19f959995b7324fd8591d142b3ad4ac0e3f42e0dad318d70a2947b70d98a6",
+  "strategy": "Owner-authorized original Canonical Blueprint; shared V6E validation",
+  "auxiliary_payload_coordinate_space": "original source regions, retained verbatim in blueprint.json",
+  "source_kind": "AI_ORIGINAL",
+  "source_id": "AI-T07-CANOPY-A",
+  "architecture_brief": "D:\\Games\\Minecraft\\AI工程\\T07资产入库\\README.md"
+}

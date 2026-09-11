@@ -1,0 +1,13 @@
+{
+  "source_ref_id": null,
+  "source_url": "https://github.com/zhangchenjia21-dot/assets/tree/main/minecraft/MB-V15-T07",
+  "author": "Codex original for Owner",
+  "license": "Owner-authorized reuse; no separate public license declared",
+  "normalized_blueprint": "D:\\Games\\Minecraft\\AI工程\\T07资产入库\\AI-T07-PALM-B\\blueprint.json",
+  "normalized_sha256": "82162cf5820b9f1848c3f612c44474ea442b5e544c93ab9990c6dfeeea4ca4ce",
+  "strategy": "Owner-authorized original Canonical Blueprint; shared V6E validation",
+  "auxiliary_payload_coordinate_space": "original source regions, retained verbatim in blueprint.json",
+  "source_kind": "AI_ORIGINAL",
+  "source_id": "AI-T07-PALM-B",
+  "architecture_brief": "D:\\Games\\Minecraft\\AI工程\\T07资产入库\\README.md"
+}
