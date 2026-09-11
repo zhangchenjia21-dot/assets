@@ -1,0 +1,46 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt"
+  ],
+  "changed_blocks": 2,
+  "apply_seconds": 0.0629589,
+  "readback": [
+    {
+      "position": [
+        67,
+        19,
+        153,
+        "minecraft:water[level=0]"
+      ],
+      "actual": "minecraft:water[level=0]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        19,
+        181,
+        "minecraft:water[level=0]"
+      ],
+      "actual": "minecraft:water[level=0]",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 16.889,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-32-47-292Z-4198fb0d-d815-45e7-9fa2-591eb1d189d8",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-32-47-292Z-4198fb0d-d815-45e7-9fa2-591eb1d189d8\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

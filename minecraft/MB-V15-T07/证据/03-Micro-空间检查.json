@@ -1,0 +1,171 @@
+{
+  "stage": "03-Micro",
+  "source": "saved-world readback",
+  "water": {
+    "blocks": 4600,
+    "levels": [
+      17,
+      18,
+      19,
+      21
+    ],
+    "lateral_air_breaches": 0,
+    "breach_examples": [],
+    "bed_air_gaps": 0,
+    "components": [
+      {
+        "blocks": 4401,
+        "min": [
+          59,
+          17,
+          29
+        ],
+        "max": [
+          111,
+          19,
+          189
+        ]
+      },
+      {
+        "blocks": 154,
+        "min": [
+          116,
+          18,
+          104
+        ],
+        "max": [
+          126,
+          19,
+          110
+        ]
+      },
+      {
+        "blocks": 1,
+        "min": [
+          115,
+          21,
+          117
+        ],
+        "max": [
+          115,
+          21,
+          117
+        ]
+      },
+      {
+        "blocks": 44,
+        "min": [
+          215,
+          21,
+          169
+        ],
+        "max": [
+          225,
+          21,
+          172
+        ]
+      }
+    ],
+    "fluid_update_stability": "unverified"
+  },
+  "routes": {
+    "南来道路": {
+      "position": [
+        231,
+        20,
+        202
+      ],
+      "reachable": true
+    },
+    "门前": {
+      "position": [
+        178,
+        21,
+        149
+      ],
+      "reachable": true
+    },
+    "主门": {
+      "position": [
+        177,
+        21,
+        139
+      ],
+      "reachable": true
+    },
+    "院心": {
+      "position": [
+        177,
+        21,
+        108
+      ],
+      "reachable": true
+    },
+    "北厩棚": {
+      "position": [
+        158,
+        21,
+        80
+      ],
+      "reachable": true
+    },
+    "西客房": {
+      "position": [
+        145,
+        21,
+        105
+      ],
+      "reachable": true
+    },
+    "东客房": {
+      "position": [
+        207,
+        21,
+        115
+      ],
+      "reachable": true
+    },
+    "取水台": {
+      "position": [
+        118,
+        21,
+        118
+      ],
+      "reachable": true
+    },
+    "市集": {
+      "position": [
+        162,
+        21,
+        166
+      ],
+      "reachable": true
+    },
+    "工院": {
+      "position": [
+        143,
+        21,
+        176
+      ],
+      "reachable": true
+    },
+    "田间桥": {
+      "position": [
+        90,
+        21,
+        168
+      ],
+      "reachable": true
+    },
+    "屋面": {
+      "position": [
+        166,
+        29,
+        134
+      ],
+      "reachable": true
+    }
+  },
+  "route_method": "2-block clearance, cardinal move, one-block height step; voxel approximation, not client playthrough",
+  "reachable_cells": 68882
+}

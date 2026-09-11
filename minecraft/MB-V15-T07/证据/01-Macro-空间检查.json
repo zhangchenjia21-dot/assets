@@ -1,0 +1,275 @@
+{
+  "stage": "01-Macro",
+  "source": "saved-world readback",
+  "water": {
+    "blocks": 4376,
+    "levels": [
+      17,
+      18,
+      19,
+      21
+    ],
+    "lateral_air_breaches": 0,
+    "breach_examples": [],
+    "bed_air_gaps": 0,
+    "components": [
+      {
+        "blocks": 3745,
+        "min": [
+          73,
+          17,
+          87
+        ],
+        "max": [
+          107,
+          19,
+          145
+        ]
+      },
+      {
+        "blocks": 154,
+        "min": [
+          116,
+          18,
+          104
+        ],
+        "max": [
+          126,
+          19,
+          110
+        ]
+      },
+      {
+        "blocks": 168,
+        "min": [
+          89,
+          19,
+          29
+        ],
+        "max": [
+          91,
+          19,
+          84
+        ]
+      },
+      {
+        "blocks": 53,
+        "min": [
+          59,
+          19,
+          147
+        ],
+        "max": [
+          111,
+          19,
+          147
+        ]
+      },
+      {
+        "blocks": 30,
+        "min": [
+          89,
+          19,
+          149
+        ],
+        "max": [
+          91,
+          19,
+          158
+        ]
+      },
+      {
+        "blocks": 53,
+        "min": [
+          59,
+          19,
+          160
+        ],
+        "max": [
+          111,
+          19,
+          160
+        ]
+      },
+      {
+        "blocks": 33,
+        "min": [
+          89,
+          19,
+          162
+        ],
+        "max": [
+          91,
+          19,
+          172
+        ]
+      },
+      {
+        "blocks": 53,
+        "min": [
+          59,
+          19,
+          174
+        ],
+        "max": [
+          111,
+          19,
+          174
+        ]
+      },
+      {
+        "blocks": 30,
+        "min": [
+          89,
+          19,
+          176
+        ],
+        "max": [
+          91,
+          19,
+          185
+        ]
+      },
+      {
+        "blocks": 53,
+        "min": [
+          59,
+          19,
+          187
+        ],
+        "max": [
+          111,
+          19,
+          187
+        ]
+      },
+      {
+        "blocks": 3,
+        "min": [
+          89,
+          19,
+          189
+        ],
+        "max": [
+          91,
+          19,
+          189
+        ]
+      },
+      {
+        "blocks": 1,
+        "min": [
+          115,
+          21,
+          117
+        ],
+        "max": [
+          115,
+          21,
+          117
+        ]
+      }
+    ],
+    "fluid_update_stability": "unverified"
+  },
+  "routes": {
+    "南来道路": {
+      "position": [
+        231,
+        21,
+        202
+      ],
+      "reachable": false
+    },
+    "门前": {
+      "position": [
+        178,
+        21,
+        149
+      ],
+      "reachable": true
+    },
+    "主门": {
+      "position": [
+        177,
+        21,
+        139
+      ],
+      "reachable": true
+    },
+    "院心": {
+      "position": [
+        177,
+        21,
+        108
+      ],
+      "reachable": false
+    },
+    "北厩棚": {
+      "position": [
+        158,
+        21,
+        80
+      ],
+      "reachable": false
+    },
+    "西客房": {
+      "position": [
+        145,
+        21,
+        105
+      ],
+      "reachable": false
+    },
+    "东客房": {
+      "position": [
+        207,
+        21,
+        115
+      ],
+      "reachable": false
+    },
+    "取水台": {
+      "position": [
+        118,
+        21,
+        118
+      ],
+      "reachable": true
+    },
+    "市集": {
+      "position": [
+        162,
+        21,
+        166
+      ],
+      "reachable": true
+    },
+    "工院": {
+      "position": [
+        143,
+        21,
+        176
+      ],
+      "reachable": true
+    },
+    "田间桥": {
+      "position": [
+        90,
+        21,
+        168
+      ],
+      "reachable": false
+    },
+    "屋面": {
+      "position": [
+        166,
+        29,
+        134
+      ],
+      "reachable": false
+    }
+  },
+  "route_method": "2-block clearance, cardinal move, one-block height step; voxel approximation, not client playthrough",
+  "reachable_cells": 62808
+}

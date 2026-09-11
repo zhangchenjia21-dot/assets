@@ -1,0 +1,398 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:air",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:cut_sandstone",
+    "minecraft:air",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:cut_sandstone",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "changed_blocks": 786,
+  "apply_seconds": 0.5596952,
+  "readback": [
+    {
+      "position": [
+        61,
+        26,
+        91,
+        "minecraft:jungle_log[axis=y]"
+      ],
+      "actual": "minecraft:jungle_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        108,
+        27,
+        80,
+        "minecraft:jungle_log[axis=y]"
+      ],
+      "actual": "minecraft:jungle_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        145,
+        21,
+        76,
+        "minecraft:oak_fence[east=true,north=true,south=true,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=true,north=true,south=true,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        161,
+        21,
+        76,
+        "minecraft:oak_fence[east=true,north=true,south=true,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=true,north=true,south=true,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        193,
+        21,
+        76,
+        "minecraft:oak_fence[east=true,north=true,south=true,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=true,north=true,south=true,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        57,
+        27,
+        111,
+        "minecraft:jungle_log[axis=y]"
+      ],
+      "actual": "minecraft:jungle_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        125,
+        21,
+        123,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        199,
+        21,
+        115,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        67,
+        18,
+        153,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        123,
+        27,
+        139,
+        "minecraft:jungle_log[axis=y]"
+      ],
+      "actual": "minecraft:jungle_log[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        143,
+        21,
+        158,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        174,
+        21,
+        147,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        18,
+        181,
+        "minecraft:coarse_dirt"
+      ],
+      "actual": "minecraft:coarse_dirt",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        156,
+        21,
+        162,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        166,
+        21,
+        162,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        192,
+        21,
+        170,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        224,
+        21,
+        180,
+        "minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true]"
+      ],
+      "actual": "minecraft:oak_fence[east=true,north=false,south=false,waterlogged=false,west=true]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        205,
+        21,
+        192,
+        "minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        229,
+        21,
+        192,
+        "minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=true,south=true,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        56,
+        30,
+        89,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        84,
+        28,
+        72,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        123,
+        28,
+        92,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        60,
+        31,
+        96,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        31,
+        96,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        30,
+        116,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        132,
+        30,
+        116,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        54,
+        29,
+        143,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        30,
+        131,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        101,
+        30,
+        132,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        30,
+        154,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        58,
+        29,
+        172,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        81,
+        30,
+        166,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        121,
+        30,
+        170,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        137,
+        30,
+        160,
+        "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+      ],
+      "actual": "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 18.033,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-30-28-385Z-d6f1d814-394a-46af-8f5a-e604574cdb2f",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-30-28-385Z-d6f1d814-394a-46af-8f5a-e604574cdb2f\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

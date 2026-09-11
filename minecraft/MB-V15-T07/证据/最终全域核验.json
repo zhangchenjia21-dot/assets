@@ -1,0 +1,59 @@
+{
+  "scope": [
+    0,
+    12,
+    0,
+    287,
+    63,
+    239
+  ],
+  "compared_cells": 3594240,
+  "mismatches": 0,
+  "envelopes": {
+    "驿站外壳": {
+      "bounds": [
+        139,
+        20,
+        74,
+        214,
+        38,
+        146
+      ],
+      "difference_from_final_blueprint": 0
+    },
+    "水屋": {
+      "bounds": [
+        107,
+        17,
+        100,
+        128,
+        30,
+        123
+      ],
+      "difference_from_final_blueprint": 0
+    },
+    "工院": {
+      "bounds": [
+        137,
+        20,
+        161,
+        150,
+        27,
+        181
+      ],
+      "difference_from_final_blueprint": 0
+    },
+    "烘烤仓房": {
+      "bounds": [
+        116,
+        20,
+        181,
+        133,
+        28,
+        197
+      ],
+      "difference_from_final_blueprint": 0
+    }
+  },
+  "note": "Exact final intent comparison does not by itself prove architectural quality; combine with perspectives, sections and route inspection."
+}

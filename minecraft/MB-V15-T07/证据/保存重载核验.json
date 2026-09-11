@@ -1,0 +1,30 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V15-T07-绿洲驿站",
+  "explicit_block_writes": 0,
+  "checked": 3594240,
+  "differences": 0,
+  "examples": [],
+  "result": {
+    "minecraft_mcp_calls": 0,
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+    "generator": "FlatLevelSource",
+    "before": [],
+    "changed_blocks": 0,
+    "apply_seconds": 0.0000277,
+    "readback": [],
+    "mismatches": 0,
+    "block_entities_checked": 0,
+    "save_completed": true,
+    "status": "PASS",
+    "shutdown_verified": true,
+    "wall_seconds": 16.986,
+    "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-34-59-366Z-ee2f7db1-7347-409d-87c7-8508f3c854db",
+    "backup": {
+      "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+      "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-34-59-366Z-ee2f7db1-7347-409d-87c7-8508f3c854db\\backup",
+      "files": 30,
+      "sha256_verified": true
+    }
+  },
+  "note": "Normal reload only; not a controlled fluid update or client traversal."
+}

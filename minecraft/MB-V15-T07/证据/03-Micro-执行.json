@@ -1,0 +1,772 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:jungle_planks",
+    "minecraft:jungle_planks",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air"
+  ],
+  "changed_blocks": 831,
+  "apply_seconds": 0.973983,
+  "readback": [
+    {
+      "position": [
+        23,
+        22,
+        29,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        95,
+        26,
+        19,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        108,
+        18,
+        15,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        137,
+        21,
+        21,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        178,
+        19,
+        17,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        207,
+        17,
+        14,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        226,
+        16,
+        18,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        269,
+        16,
+        20,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        15,
+        17,
+        40,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        36,
+        19,
+        50,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        20,
+        49,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        125,
+        20,
+        47,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        132,
+        20,
+        59,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        187,
+        22,
+        51,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        221,
+        17,
+        40,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        239,
+        17,
+        39,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        273,
+        16,
+        32,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        14,
+        16,
+        69,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        18,
+        66,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        85,
+        20,
+        82,
+        "minecraft:grass_block[snowy=false]"
+      ],
+      "actual": "minecraft:grass_block[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        20,
+        82,
+        "minecraft:grass_block[snowy=false]"
+      ],
+      "actual": "minecraft:grass_block[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        139,
+        21,
+        75,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        21,
+        90,
+        "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        214,
+        21,
+        75,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        252,
+        21,
+        64,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        271,
+        17,
+        82,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        21,
+        16,
+        104,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        20,
+        124,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        70,
+        20,
+        96,
+        "minecraft:grass_block[snowy=false]"
+      ],
+      "actual": "minecraft:grass_block[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        20,
+        124,
+        "minecraft:grass_block[snowy=false]"
+      ],
+      "actual": "minecraft:grass_block[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        139,
+        21,
+        96,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        21,
+        96,
+        "minecraft:hay_block[axis=y]"
+      ],
+      "actual": "minecraft:hay_block[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        214,
+        21,
+        96,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        248,
+        24,
+        102,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        275,
+        16,
+        115,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        15,
+        16,
+        143,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        33,
+        21,
+        142,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        77,
+        20,
+        128,
+        "minecraft:grass_block[snowy=false]"
+      ],
+      "actual": "minecraft:grass_block[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        102,
+        20,
+        128,
+        "minecraft:grass_block[snowy=false]"
+      ],
+      "actual": "minecraft:grass_block[snowy=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        139,
+        21,
+        128,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        174,
+        21,
+        147,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        214,
+        21,
+        128,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        250,
+        21,
+        145,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        273,
+        16,
+        135,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        14,
+        16,
+        172,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        32,
+        21,
+        169,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        116,
+        21,
+        182,
+        "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]"
+      ],
+      "actual": "minecraft:oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        145,
+        21,
+        177,
+        "minecraft:hay_block[axis=y]"
+      ],
+      "actual": "minecraft:hay_block[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        171,
+        21,
+        180,
+        "minecraft:hay_block[axis=y]"
+      ],
+      "actual": "minecraft:hay_block[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        197,
+        21,
+        171,
+        "minecraft:hay_block[axis=y]"
+      ],
+      "actual": "minecraft:hay_block[axis=y]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        253,
+        19,
+        160,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        268,
+        16,
+        165,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        16,
+        16,
+        195,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        37,
+        21,
+        197,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        251,
+        19,
+        193,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        272,
+        16,
+        200,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        20,
+        16,
+        224,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        16,
+        227,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        269,
+        16,
+        226,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        34,
+        28,
+        21,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        86,
+        30,
+        22,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        98,
+        32,
+        27,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        67,
+        31,
+        32,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        105,
+        31,
+        37,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        136,
+        28,
+        39,
+        "minecraft:dead_bush"
+      ],
+      "actual": "minecraft:dead_bush",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        143,
+        29,
+        74,
+        "minecraft:sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        163,
+        29,
+        74,
+        "minecraft:sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        193,
+        29,
+        74,
+        "minecraft:sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 21.061,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-28-20-050Z-9412d1f0-50bd-4084-9f2f-918f731872ac",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-28-20-050Z-9412d1f0-50bd-4084-9f2f-918f731872ac\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

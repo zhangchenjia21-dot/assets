@@ -1,0 +1,1388 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+  "generator": "FlatLevelSource",
+  "before": [
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:air",
+    "minecraft:sand",
+    "minecraft:coarse_dirt",
+    "minecraft:cut_sandstone",
+    "minecraft:sand",
+    "minecraft:air",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:coarse_dirt",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:cut_sandstone",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:coarse_dirt",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:coarse_dirt",
+    "minecraft:sandstone",
+    "minecraft:coarse_dirt",
+    "minecraft:air",
+    "minecraft:coarse_dirt",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:coarse_dirt",
+    "minecraft:coarse_dirt",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sand",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:sandstone",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:cut_sandstone",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:air",
+    "minecraft:sandstone"
+  ],
+  "changed_blocks": 19140,
+  "apply_seconds": 0.7940757,
+  "readback": [
+    {
+      "position": [
+        41,
+        24,
+        14,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        39,
+        27,
+        18,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        119,
+        20,
+        23,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        159,
+        20,
+        27,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        163,
+        20,
+        26,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        49,
+        20,
+        39,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        72,
+        20,
+        60,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        125,
+        20,
+        42,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        127,
+        25,
+        37,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        20,
+        45,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        135,
+        22,
+        50,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        168,
+        20,
+        56,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        166,
+        22,
+        53,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        63,
+        20,
+        69,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        89,
+        19,
+        85,
+        "minecraft:water[level=0]"
+      ],
+      "actual": "minecraft:water[level=0]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        146,
+        20,
+        64,
+        "minecraft:gravel"
+      ],
+      "actual": "minecraft:gravel",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        173,
+        20,
+        93,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        199,
+        21,
+        73,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        52,
+        20,
+        96,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        20,
+        127,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        108,
+        20,
+        117,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        155,
+        20,
+        104,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        144,
+        23,
+        119,
+        "minecraft:sandstone"
+      ],
+      "actual": "minecraft:sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        173,
+        20,
+        96,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        191,
+        20,
+        107,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        176,
+        20,
+        122,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        192,
+        20,
+        104,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        209,
+        24,
+        99,
+        "minecraft:sandstone"
+      ],
+      "actual": "minecraft:sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        58,
+        18,
+        153,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        18,
+        153,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        75,
+        20,
+        153,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        72,
+        21,
+        157,
+        "minecraft:wheat[age=7]"
+      ],
+      "actual": "minecraft:wheat[age=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        18,
+        153,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        106,
+        20,
+        158,
+        "minecraft:farmland[moisture=7]"
+      ],
+      "actual": "minecraft:farmland[moisture=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        20,
+        128,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        156,
+        20,
+        150,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        151,
+        26,
+        139,
+        "minecraft:sandstone"
+      ],
+      "actual": "minecraft:sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        173,
+        20,
+        128,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        185,
+        20,
+        153,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        171,
+        22,
+        132,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        173,
+        24,
+        145,
+        "minecraft:chiseled_sandstone"
+      ],
+      "actual": "minecraft:chiseled_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        171,
+        27,
+        144,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        217,
+        20,
+        152,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        211,
+        20,
+        159,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        199,
+        25,
+        142,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        255,
+        18,
+        145,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        224,
+        20,
+        157,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        275,
+        15,
+        141,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        58,
+        18,
+        167,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        64,
+        18,
+        167,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        78,
+        20,
+        166,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        70,
+        20,
+        180,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        77,
+        21,
+        169,
+        "minecraft:carrots[age=7]"
+      ],
+      "actual": "minecraft:carrots[age=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        96,
+        18,
+        167,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        101,
+        20,
+        170,
+        "minecraft:farmland[moisture=7]"
+      ],
+      "actual": "minecraft:farmland[moisture=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        124,
+        20,
+        182,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        107,
+        20,
+        191,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        107,
+        21,
+        185,
+        "minecraft:wheat[age=7]"
+      ],
+      "actual": "minecraft:wheat[age=7]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        137,
+        20,
+        161,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        146,
+        20,
+        172,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        134,
+        20,
+        183,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        130,
+        22,
+        181,
+        "minecraft:bricks"
+      ],
+      "actual": "minecraft:bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        24,
+        184,
+        "minecraft:bricks"
+      ],
+      "actual": "minecraft:bricks",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        131,
+        25,
+        190,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        138,
+        26,
+        173,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        20,
+        160,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        163,
+        27,
+        166,
+        "minecraft:white_wool"
+      ],
+      "actual": "minecraft:white_wool",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        192,
+        20,
+        160,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        218,
+        20,
+        172,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        219,
+        21,
+        170,
+        "minecraft:water[level=0]"
+      ],
+      "actual": "minecraft:water[level=0]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        195,
+        27,
+        175,
+        "minecraft:brown_wool"
+      ],
+      "actual": "minecraft:brown_wool",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        224,
+        20,
+        168,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        75,
+        20,
+        193,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        99,
+        20,
+        192,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        123,
+        25,
+        192,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        128,
+        20,
+        192,
+        "minecraft:cut_sandstone"
+      ],
+      "actual": "minecraft:cut_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        221,
+        20,
+        192,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        238,
+        15,
+        216,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        233,
+        19,
+        201,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        245,
+        15,
+        224,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        256,
+        15,
+        226,
+        "minecraft:packed_mud"
+      ],
+      "actual": "minecraft:packed_mud",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        42,
+        28,
+        17,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        45,
+        30,
+        23,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        140,
+        28,
+        75,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        159,
+        28,
+        84,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        141,
+        29,
+        78,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        144,
+        29,
+        91,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        143,
+        30,
+        83,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        158,
+        31,
+        81,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        160,
+        28,
+        75,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        167,
+        28,
+        81,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        174,
+        29,
+        76,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        181,
+        29,
+        82,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        188,
+        30,
+        78,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        163,
+        31,
+        77,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        170,
+        31,
+        83,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        192,
+        28,
+        75,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        193,
+        28,
+        84,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        209,
+        29,
+        76,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        210,
+        29,
+        85,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        203,
+        30,
+        80,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        206,
+        31,
+        78,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        140,
+        28,
+        96,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        144,
+        28,
+        109,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        148,
+        28,
+        122,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        149,
+        29,
+        105,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        144,
+        29,
+        122,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        145,
+        30,
+        112,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        163,
+        28,
+        123,
+        "minecraft:sandstone_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "actual": "minecraft:sandstone_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        199,
+        28,
+        96,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        203,
+        28,
+        109,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        207,
+        28,
+        122,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        211,
+        29,
+        105,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        206,
+        29,
+        122,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        207,
+        30,
+        112,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        140,
+        28,
+        128,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        144,
+        28,
+        139,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        164,
+        28,
+        128,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        185,
+        28,
+        138,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        178,
+        30,
+        141,
+        "minecraft:air"
+      ],
+      "actual": "minecraft:air",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        184,
+        33,
+        141,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        177,
+        37,
+        138,
+        "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]"
+      ],
+      "actual": "minecraft:smooth_sandstone_slab[type=bottom,waterlogged=false]",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        199,
+        28,
+        128,
+        "minecraft:smooth_sandstone"
+      ],
+      "actual": "minecraft:smooth_sandstone",
+      "default_entity_valid": true
+    },
+    {
+      "position": [
+        200,
+        28,
+        138,
+        "minecraft:terracotta"
+      ],
+      "actual": "minecraft:terracotta",
+      "default_entity_valid": true
+    }
+  ],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 20.484,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-25-31-561Z-1d6dc27e-8ae6-4b92-bf50-e830d24ef814",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V15-T07-绿洲驿站",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-11T12-25-31-561Z-1d6dc27e-8ae6-4b92-bf50-e830d24ef814\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

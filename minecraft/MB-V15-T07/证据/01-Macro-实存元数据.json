@@ -1,0 +1,31 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V15-T07-绿洲驿站",
+  "stage": "01-Macro",
+  "origin": [
+    0,
+    12,
+    0
+  ],
+  "shape_yzx": [
+    52,
+    240,
+    288
+  ],
+  "palette": [
+    "minecraft:sand",
+    "minecraft:air",
+    "minecraft:sandstone",
+    "minecraft:coarse_dirt",
+    "minecraft:water[level=0]",
+    "minecraft:cut_sandstone",
+    "minecraft:jungle_log[axis=y]",
+    "minecraft:oak_trapdoor[facing=north,half=bottom,open=false,powered=false,waterlogged=false]",
+    "minecraft:smooth_sandstone",
+    "minecraft:jungle_leaves[distance=1,persistent=true,waterlogged=false]"
+  ],
+  "sha256": "eea9b7fef3291e0d3b0a0d3f9dd52e36b403c4499fc7860d10d0793eda591f67",
+  "checked": 274330,
+  "mismatches": [],
+  "source": "Read-only RegionReader after executor save/shutdown; not blueprint preview",
+  "fluid_stability": "unverified"
+}
