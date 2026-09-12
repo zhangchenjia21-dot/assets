@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "browser": "153.0.4234.32",
+  "protocol": "file://",
+  "checks": [
+    "offline load",
+    "initial QA counts",
+    "formal confirmation guard",
+    "real pointer one-column edit",
+    "undo redo",
+    "rectangle",
+    "layer toggles",
+    "save and file-input import",
+    "draft ZIP",
+    "Owner confirmed ZIP"
+  ],
+  "pageErrors": []
+}

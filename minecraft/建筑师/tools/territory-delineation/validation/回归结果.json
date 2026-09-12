@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": [
+    "single-column brush",
+    "undo-redo",
+    "water rejection",
+    "source and target locks",
+    "RLE roundtrip",
+    "overlap missing wrong-source water unknown-code rejection",
+    "atomic locked import",
+    "rectangle",
+    "enclave and symmetric adjacency",
+    "full preload counts and roundtrip"
+  ],
+  "areas": [
+    92124,
+    0,
+    13661,
+    0,
+    2150896,
+    0
+  ],
+  "landColumns": 2256681,
+  "qaMilliseconds": 297
+}

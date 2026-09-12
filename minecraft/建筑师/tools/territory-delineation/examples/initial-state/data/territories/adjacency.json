@@ -1,0 +1,63 @@
+{
+  "revision": 6,
+  "sourceId": "94fc4687358a9fd5dd542997538822bfdba7b83bd76c4825fd84bd0116ea3d21",
+  "categories": [
+    "ALLIANCE_COMMONS",
+    "WEST_DOMAIN",
+    "MIDDLE_DOMAIN",
+    "EAST_DOMAIN",
+    "UNASSIGNED",
+    "DISPUTED"
+  ],
+  "unit": "shared unit land edge; symmetric",
+  "matrix": [
+    [
+      0,
+      0,
+      48,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      48,
+      0,
+      0,
+      0,
+      190,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      190,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ]
+}

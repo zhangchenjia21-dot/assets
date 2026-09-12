@@ -1,0 +1,163 @@
+{
+  "payload_bytes_excluding_this_manifest": 3862817,
+  "payload_mib": 3.684,
+  "target_mib": 15,
+  "full_raw_included": false,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 28,
+      "sha256": "c3d6f95574ff693ff24b7e94e924e9a4da1cf07ed58b99ac2cd6ec099a92dbb0"
+    },
+    {
+      "path": "Bootstrap/工作台.css",
+      "bytes": 1767,
+      "sha256": "94a02613bb17ad3169ffd91112687ffdc6614442bafd8fc4a2ab02ac443d1ada"
+    },
+    {
+      "path": "Bootstrap/工作台.js",
+      "bytes": 8854,
+      "sha256": "dd116f6085170620fff1c9ce1699bc53bea99d7388d7a7b365a95ad74cdbee32"
+    },
+    {
+      "path": "examples/initial-state/data/territories/adjacency.json",
+      "bytes": 706,
+      "sha256": "751c6e6f6808a5cd4852e5333a636812b2c422132ea85f9348803326034db9e8"
+    },
+    {
+      "path": "examples/initial-state/data/territories/areas.md",
+      "bytes": 205,
+      "sha256": "709ce22632745dc1414f4fdd34c4424259e803611d3b2d6fd473ed41fca9c357"
+    },
+    {
+      "path": "examples/initial-state/data/territories/current.json",
+      "bytes": 185063,
+      "sha256": "d6d837832ad5c32fbc681d4be6a201406b468bc3d3309ced5d0bd4c3ef3cf90e"
+    },
+    {
+      "path": "examples/initial-state/data/territories/preview.png",
+      "bytes": 195829,
+      "sha256": "db303edde83e0bd6c6b238c9dc52172a5338b1087c78b5754a62fdc928157d37"
+    },
+    {
+      "path": "examples/initial-state/data/territories/qa.md",
+      "bytes": 18321,
+      "sha256": "0fd4f5ee9a9796ec476721b7b3f403a01aa38d21387fce3cc751d51796620e6c"
+    },
+    {
+      "path": "index.html",
+      "bytes": 3207,
+      "sha256": "4af153768f84cb6c4a7b91f13dcc8362a5b0c9f2557089e232a45346059a0ea2"
+    },
+    {
+      "path": "L0_公理层/领土契约.js",
+      "bytes": 714,
+      "sha256": "a34847b17d7ef84a4c15230170ae47018bead460040c97647268432020188a04"
+    },
+    {
+      "path": "L1_器件层/边界编码器.js",
+      "bytes": 3109,
+      "sha256": "3556034277a73fe9a194af969f755f37224b0c90a0c5802ec9b7853526da4aa7"
+    },
+    {
+      "path": "L1_器件层/领土状态器.js",
+      "bytes": 3968,
+      "sha256": "fff0be81c65a619e72040c10a5dfae8fd1cafdae1caebff1ae4bb2e5e8727815"
+    },
+    {
+      "path": "L1_器件层/领土质检器.js",
+      "bytes": 2776,
+      "sha256": "3643f388a94b676b28c32dd683db2b1700ddce72052c19ea49bb090e1b83e152"
+    },
+    {
+      "path": "L2_流程层/领土会话.js",
+      "bytes": 1266,
+      "sha256": "354db142ff93116bec0efeed505913f0d51908f579d507150cafda811cc30de3"
+    },
+    {
+      "path": "L3_外交层/领土接口.js",
+      "bytes": 992,
+      "sha256": "072bf41e3b8ad4b81c9696c813b8680260952599d17ed142187182c1531e05e3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6822,
+      "sha256": "e384c11d1b077daf4a79a80745c78f18d9f048fe48b8d8ec1c05acf9fb52b367"
+    },
+    {
+      "path": "validation/freshness.json",
+      "bytes": 4764,
+      "sha256": "9db30891bc1f2ad136aa2338edc0e95aafc0505f32e2de89cba1d4a1ba223c36"
+    },
+    {
+      "path": "validation/source-audit.json",
+      "bytes": 220,
+      "sha256": "79b55527a58090e856acde4bf44a8e1bb202ca02e4bb1d0e304fe2e9b4873bb4"
+    },
+    {
+      "path": "validation/回归结果.json",
+      "bytes": 473,
+      "sha256": "fcd03f79a3ef66411a2082994283fa01137efeddeb4ce735862f087ec7593d0c"
+    },
+    {
+      "path": "validation/导出结果.json",
+      "bytes": 295,
+      "sha256": "b84ffdc3527f32e673154c6c1c24859d40fe3d19b92bdb4eed6668bf5b1ff73a"
+    },
+    {
+      "path": "validation/工作台预览.png",
+      "bytes": 279980,
+      "sha256": "e216075ee983f3a30deced4cbd0cf9c9d90eb0d9c1c459de359acb2239859f4c"
+    },
+    {
+      "path": "validation/浏览器结果.json",
+      "bytes": 362,
+      "sha256": "8fd8e16277da00c1fb6e1d2b59f9c53c9c0d662887e062834ae99cc686d10147"
+    },
+    {
+      "path": "validation/重建结果.json",
+      "bytes": 120,
+      "sha256": "225f5c11d30d4f6a8296179b7cc41bbefbddab1b30fb81adf3051d5493d584d5"
+    },
+    {
+      "path": "构建/源快照保护器.py",
+      "bytes": 1611,
+      "sha256": "a992a5bbae64c44e4328b93fb7ae1c2bfc373283115a31ddb4722d141033376c"
+    },
+    {
+      "path": "构建/预加载生成.py",
+      "bytes": 5065,
+      "sha256": "9a42bd4b64376b2967293bcc30aa865f315faf107f7b1c416ab9d18452017602"
+    },
+    {
+      "path": "测试/导出校验.py",
+      "bytes": 1903,
+      "sha256": "1d3e056e4d8cc8a68611ad92ecba540d59178420fa33a5b34ec7e32f7af81c04"
+    },
+    {
+      "path": "测试/浏览器验收.cjs",
+      "bytes": 4179,
+      "sha256": "4b1b184dc24fa3da5e952eae38a4161fc91c6a71b09ab033a2df3e1f34862122"
+    },
+    {
+      "path": "测试/边界回归.cjs",
+      "bytes": 2687,
+      "sha256": "386528c93b9e395c6f850a9f437b69b9701e59dd176d2a31a87d5efc200925cf"
+    },
+    {
+      "path": "预加载/manifest.json",
+      "bytes": 1500,
+      "sha256": "7a4240b64abeba22516e3eae19987640134619f1aa26776c2442150ce7144e77"
+    },
+    {
+      "path": "预加载/地理数据.js",
+      "bytes": 3126023,
+      "sha256": "54916c0e743b94d987a6f924496e4c663f48d1e18d2449c3213c954fcf6905fc"
+    }
+  ]
+}

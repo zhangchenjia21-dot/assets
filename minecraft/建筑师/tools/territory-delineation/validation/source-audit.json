@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-09-12T10:32:17.588199+00:00",
+  "new_world_block_reads": 0,
+  "status": "PASS",
+  "unchanged": {
+    "architecture": true,
+    "research": true,
+    "world_canon": true
+  },
+  "world_writes": 0
+}

@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "ZIP CRC and five exact paths",
+    "draft and Owner-confirmed status",
+    "RLE area totals",
+    "PNG exact color counts and dimensions",
+    "revision linkage and adjacency symmetry"
+  ],
+  "example": "initial geometry, DRAFT, no Owner authorization"
+}

@@ -1,0 +1,43 @@
+{
+  "acceptedBoundary": "D-020 / AB-001P1R @723f921; Commons92124; connector13661; cutX89",
+  "bounds": [
+    -800,
+    1376,
+    2463,
+    3487
+  ],
+  "coordinateConvention": "block(x,z) occupies [x,x+1) by [z,z+1); horizontal runs inclusive",
+  "freshness": "CACHED_EPOCH_ONLY",
+  "height": 2112,
+  "id": "94fc4687358a9fd5dd542997538822bfdba7b83bd76c4825fd84bd0116ea3d21",
+  "landCount": 2256681,
+  "references": [
+    {
+      "bytes": 244928512,
+      "path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/observed.sqlite",
+      "sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7"
+    },
+    {
+      "bytes": 5083529,
+      "path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/derived.npz",
+      "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff"
+    },
+    {
+      "bytes": 28290,
+      "path": "research/build-sites/CIV-001/AB-001P1R/commons-geometry.json",
+      "sha256": "4931a96cb2e2ea252e0e8e35b059957dc39bdf8cfb2c9ce06eda69f22d3d141b"
+    },
+    {
+      "bytes": 10445,
+      "path": "research/build-sites/CIV-001/AB-001P1R/connector-geometry.json",
+      "sha256": "562d0a6ffa5ee938a0fa5436e3c435b8c8ce8047fad5746ce1e2b932de19a3d1"
+    },
+    {
+      "bytes": 2539,
+      "path": "decisions/D-020_AB-001P1R联盟公地精确边界接受.md",
+      "sha256": "fa39f2fa635b1d269db8ca5e34ceec04dce03998b590a1c1acf8a2749f7c0ccc"
+    }
+  ],
+  "schema": "territory-base/1",
+  "width": 3264
+}

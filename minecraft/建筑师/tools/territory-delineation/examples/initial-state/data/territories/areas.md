@@ -1,0 +1,12 @@
+# 领土面积
+
+单位：block-column；仅有效表层陆地。
+
+|类别|面积|
+|---|---:|
+|ALLIANCE_COMMONS|92124|
+|WEST_DOMAIN|0|
+|MIDDLE_DOMAIN|13661|
+|EAST_DOMAIN|0|
+|UNASSIGNED|2150896|
+|DISPUTED|0|
