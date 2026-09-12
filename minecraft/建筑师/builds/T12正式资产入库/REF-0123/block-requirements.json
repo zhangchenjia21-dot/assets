@@ -1,0 +1,202 @@
+[
+  {
+    "state": "minecraft:azalea",
+    "count": 7
+  },
+  {
+    "state": "minecraft:bamboo_mosaic",
+    "count": 163
+  },
+  {
+    "state": "minecraft:barrel[facing=up,open=false]",
+    "count": 3
+  },
+  {
+    "state": "minecraft:birch_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "count": 22
+  },
+  {
+    "state": "minecraft:birch_planks",
+    "count": 74
+  },
+  {
+    "state": "minecraft:blue_carpet",
+    "count": 8
+  },
+  {
+    "state": "minecraft:blue_wool",
+    "count": 9
+  },
+  {
+    "state": "minecraft:brown_terracotta",
+    "count": 6
+  },
+  {
+    "state": "minecraft:chest[facing=east,type=single,waterlogged=false]",
+    "count": 3
+  },
+  {
+    "state": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "count": 1
+  },
+  {
+    "state": "minecraft:chest[facing=west,type=single,waterlogged=false]",
+    "count": 2
+  },
+  {
+    "state": "minecraft:dark_oak_fence[east=false,north=false,south=false,waterlogged=false,west=false]",
+    "count": 69
+  },
+  {
+    "state": "minecraft:dark_oak_planks",
+    "count": 2359
+  },
+  {
+    "state": "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+    "count": 4
+  },
+  {
+    "state": "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "count": 11
+  },
+  {
+    "state": "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "count": 34
+  },
+  {
+    "state": "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+    "count": 13
+  },
+  {
+    "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+    "count": 28
+  },
+  {
+    "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "count": 723
+  },
+  {
+    "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "count": 697
+  },
+  {
+    "state": "minecraft:deepslate_tiles",
+    "count": 932
+  },
+  {
+    "state": "minecraft:dirt",
+    "count": 174
+  },
+  {
+    "state": "minecraft:flower_pot",
+    "count": 3
+  },
+  {
+    "state": "minecraft:furnace[facing=west,lit=false]",
+    "count": 1
+  },
+  {
+    "state": "minecraft:grass_block[snowy=false]",
+    "count": 236
+  },
+  {
+    "state": "minecraft:gravel",
+    "count": 181
+  },
+  {
+    "state": "minecraft:lantern[hanging=false,waterlogged=false]",
+    "count": 5
+  },
+  {
+    "state": "minecraft:lantern[hanging=true,waterlogged=false]",
+    "count": 5
+  },
+  {
+    "state": "minecraft:moss_block",
+    "count": 53
+  },
+  {
+    "state": "minecraft:moss_carpet",
+    "count": 4
+  },
+  {
+    "state": "minecraft:mossy_stone_bricks",
+    "count": 3
+  },
+  {
+    "state": "minecraft:mud_bricks",
+    "count": 11
+  },
+  {
+    "state": "minecraft:oak_trapdoor[facing=north,half=top,open=false,powered=false,waterlogged=false]",
+    "count": 1
+  },
+  {
+    "state": "minecraft:packed_mud",
+    "count": 315
+  },
+  {
+    "state": "minecraft:polished_andesite",
+    "count": 2
+  },
+  {
+    "state": "minecraft:red_carpet",
+    "count": 2
+  },
+  {
+    "state": "minecraft:spruce_planks",
+    "count": 117
+  },
+  {
+    "state": "minecraft:spruce_slab[type=top,waterlogged=false]",
+    "count": 9
+  },
+  {
+    "state": "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "count": 6
+  },
+  {
+    "state": "minecraft:stone_bricks",
+    "count": 2712
+  },
+  {
+    "state": "minecraft:stripped_dark_oak_log[axis=x]",
+    "count": 191
+  },
+  {
+    "state": "minecraft:stripped_dark_oak_log[axis=y]",
+    "count": 260
+  },
+  {
+    "state": "minecraft:stripped_dark_oak_log[axis=z]",
+    "count": 223
+  },
+  {
+    "state": "minecraft:water[level=0]",
+    "count": 1
+  },
+  {
+    "state": "minecraft:water_cauldron[level=3]",
+    "count": 1
+  },
+  {
+    "state": "minecraft:white_carpet",
+    "count": 17
+  },
+  {
+    "state": "minecraft:white_stained_glass_pane[east=false,north=true,south=true,waterlogged=false,west=false]",
+    "count": 48
+  },
+  {
+    "state": "minecraft:white_stained_glass_pane[east=true,north=false,south=false,waterlogged=false,west=true]",
+    "count": 74
+  },
+  {
+    "state": "minecraft:white_terracotta",
+    "count": 2357
+  },
+  {
+    "state": "minecraft:white_wool",
+    "count": 8
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "reference_id": "REF-0123",
+  "actual_source_cell_differences": 0,
+  "all_47_repair_cells_preserved": true,
+  "out_of_scope_explicit_cells": 0,
+  "canonical_roundtrip_differences": 0,
+  "source_world_files_unchanged": true,
+  "empty_block_entities": 10,
+  "custom_components_or_inventory_omitted": 0,
+  "default_block_entity_nbt_omitted": 10,
+  "preview_hashes_match": true,
+  "existing_122_records_unchanged": true,
+  "world_writes": 0,
+  "litematica": {
+    "format_version": 7,
+    "sub_version": 1,
+    "data_version": 4903,
+    "metadata": {
+      "Name": "江户后期京都呉服商町家院落",
+      "Author": "Codex",
+      "Description": "Owner approved T12 final repaired compound; reference only, no Canon placement authorization.",
+      "TimeCreated": "1789205701101",
+      "TimeModified": "1789205701101",
+      "EnclosingSize": {
+        "x": 29,
+        "y": 20,
+        "z": 74
+      },
+      "RegionCount": 2,
+      "TotalBlocks": 12188,
+      "TotalVolume": 42660
+    },
+    "min": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "dimensions": {
+      "x": 29,
+      "y": 20,
+      "z": 74
+    },
+    "regions": [
+      {
+        "name": "GroundInterface",
+        "position": {
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        "size": {
+          "x": 28,
+          "y": 2,
+          "z": 72
+        },
+        "palette_size": 12,
+        "volume": 4032,
+        "occupied": 3801,
+        "block_entities": 0,
+        "entities": 0,
+        "modded_identifiers": []
+      },
+      {
+        "name": "MachiyaCompound",
+        "position": {
+          "x": 0,
+          "y": 2,
+          "z": 0
+        },
+        "size": {
+          "x": 29,
+          "y": 18,
+          "z": 74
+        },
+        "palette_size": 43,
+        "volume": 38628,
+        "occupied": 8387,
+        "block_entities": 0,
+        "entities": 0,
+        "modded_identifiers": []
+      }
+    ]
+  }
+}

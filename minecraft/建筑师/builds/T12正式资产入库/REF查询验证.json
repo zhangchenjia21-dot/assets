@@ -1,0 +1,37 @@
+{
+  "resolve": {
+    "reference_id": "REF-0123",
+    "representation": "normalized",
+    "blueprint_path": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\normalized\\normalized-blueprint.json",
+    "compatibility": "CURRENT_NATIVE",
+    "warnings": [
+      {
+        "code": "BLOCK_ENTITY_NBT_NOT_EXPORTED",
+        "count": 10,
+        "message": "10 个空容器/炉的方块状态保留；NBT 未导出。无库存物品。实装需遵守当前基础实体策略。"
+      }
+    ],
+    "asset_status": "REFERENCE_ONLY",
+    "approval": null
+  },
+  "query": {
+    "tokens": [
+      "REF-0123"
+    ],
+    "count": 1,
+    "results": [
+      {
+        "id": "REF-0123",
+        "name": "江户后期京都呉服商町家院落",
+        "primary_use": "mixed_use",
+        "confidence": 1.0,
+        "technical_status": "READY_WITH_WARNINGS",
+        "asset_status": "REFERENCE_ONLY",
+        "compatibility": "CURRENT_NATIVE",
+        "default_representation": "normalized",
+        "blueprint_path": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\normalized\\normalized-blueprint.json"
+      }
+    ],
+    "note": "分类为证据化候选；技术警告和低置信度仍需复核，不授予实装资格"
+  }
+}

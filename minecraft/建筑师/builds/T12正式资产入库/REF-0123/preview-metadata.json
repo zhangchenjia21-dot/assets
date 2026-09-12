@@ -1,0 +1,33 @@
+{
+  "reference_id": "REF-0123",
+  "blueprint_path": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\normalized\\normalized-blueprint.json",
+  "blueprint_sha256": "8f3dc1377b5772ea8d44318bba25683de6a99be7227ced74ea7c085981ec204c",
+  "default_representation": "normalized",
+  "compatibility": "CURRENT_NATIVE",
+  "asset_status": "REFERENCE_ONLY",
+  "approval": null,
+  "owner_ingest_approval": {
+    "status": "APPROVED_FOR_INGEST",
+    "file": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\Asset Approval.md",
+    "sha256": "6d8e33e361d968be2227e4ad05aa95dc8ca1690befcdab862f2d4b99c35583d8",
+    "git_commit": "c3c246a",
+    "url": "https://github.com/zhangchenjia21-dot/assets/blob/c3c246a/minecraft/MB-V110-T12/Asset%20Approval.md",
+    "current_instruction": "执行 T12 町家正式资产入库。Owner 已明确批准入库。",
+    "canon_world_write": false
+  },
+  "v5_size_compatible": true,
+  "warnings": [
+    {
+      "code": "BLOCK_ENTITY_NBT_NOT_EXPORTED",
+      "count": 10,
+      "message": "10 个空容器/炉的方块状态保留；NBT 未导出。无库存物品。实装需遵守当前基础实体策略。"
+    }
+  ],
+  "views": {
+    "isometric": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\isometric.png",
+    "front": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\front.png",
+    "side": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\side.png",
+    "top": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\top.png",
+    "rear": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\rear.png"
+  }
+}

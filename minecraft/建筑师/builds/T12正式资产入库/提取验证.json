@@ -1,0 +1,306 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V110-T12-京町家修复",
+  "name": "MB-V110-T12-京町家修复",
+  "data_version": 4903,
+  "source_files": 78,
+  "source_files_unchanged": true,
+  "source_manifest_sha256": "f90247bff82efd711111770047a07772c08e43528e136b3253330e50e0341db7",
+  "bounds": {
+    "min": {
+      "x": 11,
+      "y": 15,
+      "z": 16
+    },
+    "max": {
+      "x": 39,
+      "y": 34,
+      "z": 89
+    }
+  },
+  "dimensions": {
+    "x": 29,
+    "y": 20,
+    "z": 74
+  },
+  "ground_interface": "X12..39 Y15..16 Z17..88",
+  "explicit_blocks": 42660,
+  "occupied_blocks": 12188,
+  "region_count": 2,
+  "blueprint_sha256": "8f3dc1377b5772ea8d44318bba25683de6a99be7227ced74ea7c085981ec204c",
+  "litematic_sha256": "8a5f73031549a631a09b6a3d4d2481a92efcf35269daf603c615082beda95fdf",
+  "block_entity_count": 10,
+  "block_entity_types": [
+    {
+      "id": "minecraft:chest",
+      "x": 15,
+      "y": 19,
+      "z": 20,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:chest",
+      "x": 14,
+      "y": 24,
+      "z": 29,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:chest",
+      "x": 14,
+      "y": 18,
+      "z": 29,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:chest",
+      "x": 20,
+      "y": 24,
+      "z": 29,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:barrel",
+      "x": 30,
+      "y": 18,
+      "z": 41,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:barrel",
+      "x": 36,
+      "y": 17,
+      "z": 45,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:furnace",
+      "x": 36,
+      "y": 17,
+      "z": 51,
+      "keys": [
+        "cooking_total_time",
+        "z",
+        "lit_time_remaining",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components",
+        "lit_total_time",
+        "RecipesUsed",
+        "cooking_time_spent"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:barrel",
+      "x": 36,
+      "y": 17,
+      "z": 59,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:chest",
+      "x": 27,
+      "y": 18,
+      "z": 84,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    },
+    {
+      "id": "minecraft:chest",
+      "x": 34,
+      "y": 18,
+      "z": 80,
+      "keys": [
+        "z",
+        "x",
+        "id",
+        "y",
+        "Items",
+        "keepPacked",
+        "components"
+      ],
+      "inventory_items": 0
+    }
+  ],
+  "block_entity_nbt_exported": false,
+  "roundtrip": {
+    "status": "PASS",
+    "unintended_differences": 0,
+    "dimensions_equal": true,
+    "origin_equal": true,
+    "original": {
+      "dimensions": {
+        "x": 29,
+        "y": 20,
+        "z": 74
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "total_blocks": 12188
+    },
+    "roundtrip": {
+      "dimensions": {
+        "x": 29,
+        "y": 20,
+        "z": 74
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "total_blocks": 12188
+    },
+    "differences": [],
+    "comparison": "dimensions, occupied absolute schematic-local positions, identifier, sorted complete block states, non-air total"
+  },
+  "canonical_explicit_cell_differences": 0,
+  "world_writes": 0,
+  "inspection": {
+    "format_version": 7,
+    "sub_version": 1,
+    "data_version": 4903,
+    "metadata": {
+      "Name": "江户后期京都呉服商町家院落",
+      "Author": "Codex",
+      "Description": "Owner approved T12 final repaired compound; reference only, no Canon placement authorization.",
+      "TimeCreated": "1789205701101",
+      "TimeModified": "1789205701101",
+      "EnclosingSize": {
+        "x": 29,
+        "y": 20,
+        "z": 74
+      },
+      "RegionCount": 2,
+      "TotalBlocks": 12188,
+      "TotalVolume": 42660
+    },
+    "min": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "dimensions": {
+      "x": 29,
+      "y": 20,
+      "z": 74
+    },
+    "regions": [
+      {
+        "name": "GroundInterface",
+        "position": {
+          "x": 1,
+          "y": 0,
+          "z": 1
+        },
+        "size": {
+          "x": 28,
+          "y": 2,
+          "z": 72
+        },
+        "palette_size": 12,
+        "volume": 4032,
+        "occupied": 3801,
+        "block_entities": 0,
+        "entities": 0,
+        "modded_identifiers": []
+      },
+      {
+        "name": "MachiyaCompound",
+        "position": {
+          "x": 0,
+          "y": 2,
+          "z": 0
+        },
+        "size": {
+          "x": 29,
+          "y": 18,
+          "z": 74
+        },
+        "palette_size": 43,
+        "volume": 38628,
+        "occupied": 8387,
+        "block_entities": 0,
+        "entities": 0,
+        "modded_identifiers": []
+      }
+    ]
+  }
+}

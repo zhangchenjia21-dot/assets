@@ -1,0 +1,291 @@
+{
+  "reference_id": "REF-0123",
+  "classification_v1": {
+    "primary_use": "mixed_use",
+    "secondary_use": [
+      "shop",
+      "house",
+      "townhouse",
+      "warehouse",
+      "garden"
+    ],
+    "styles": [
+      {
+        "tag": "japanese",
+        "confidence": 1.0,
+        "evidence": [
+          "Owner approved Kyoto machiya; timber shopfront, earthen walls, tiled roofs, courtyard compound"
+        ]
+      },
+      {
+        "tag": "east_asian",
+        "confidence": 1.0,
+        "evidence": [
+          "Japanese machiya typology"
+        ]
+      }
+    ],
+    "scale": "large"
+  },
+  "classification_v2": {
+    "structure_type": "building",
+    "primary_use": "mixed_use",
+    "secondary_use": [
+      "shop",
+      "house",
+      "townhouse",
+      "warehouse",
+      "garden"
+    ],
+    "styles": [
+      {
+        "tag": "japanese",
+        "confidence": 1.0,
+        "evidence": [
+          "Owner approved Kyoto machiya; timber shopfront, earthen walls, tiled roofs, courtyard compound"
+        ]
+      },
+      {
+        "tag": "east_asian",
+        "confidence": 1.0,
+        "evidence": [
+          "Japanese machiya typology"
+        ]
+      }
+    ],
+    "architectural_features": [
+      "courtyard",
+      "timber_frame",
+      "stone_base",
+      "multi_story",
+      "asymmetrical"
+    ],
+    "terrain_fit": [
+      {
+        "tag": "flat",
+        "confidence": 1.0,
+        "evidence": [
+          "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+        ]
+      },
+      {
+        "tag": "urban_infill",
+        "confidence": 1.0,
+        "evidence": [
+          "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+        ]
+      },
+      {
+        "tag": "courtyard",
+        "confidence": 1.0,
+        "evidence": [
+          "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+        ]
+      }
+    ],
+    "scale": "large",
+    "settlement_roles": [
+      "commerce",
+      "residential",
+      "storage"
+    ],
+    "material_profile": [],
+    "reference_value": {
+      "massing": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "silhouette": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "roof": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "facade": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "palette": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "structure": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "entrance": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "windows": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "terrain_integration": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "settlement_fit": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "interior_layout": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      },
+      "detail_language": {
+        "rating": "useful",
+        "evidence": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。"
+      }
+    },
+    "massing_signature": {
+      "type": "compound",
+      "estimated_floors": 2,
+      "floors_basis": "前屋二层；后主屋及仓库独立屋面"
+    },
+    "confidence": {
+      "primary_use": 1.0,
+      "style_max": 1.0,
+      "structure_type": 1.0,
+      "overall": 1.0,
+      "interpretation": "known original identity, not calibrated score"
+    },
+    "evidence": {
+      "visual_observation": "从 T12 最终实存提取；前店、侧土间、住宅、两庭与后仓库保持同一院落序列。",
+      "standard_views": {
+        "isometric": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\isometric.png",
+        "front": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\front.png",
+        "side": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\side.png",
+        "top": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\top.png",
+        "rear": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\rear.png"
+      },
+      "review_binding": {
+        "source_sha256": "8f3dc1377b5772ea8d44318bba25683de6a99be7227ced74ea7c085981ec204c",
+        "view_sha256": {
+          "isometric": "5e2eb04d12c98a40acf545bcae019b5eac91f13a22b4d52d6ba5b5ec4b000249",
+          "front": "06fdfe3f57bae258057f01d8374d83f7d69c152d88159a8dc8b05ac7fb6700cd",
+          "side": "c4c761a6c6352b1fca6deb8bcfa40ca156f4973aaf87b40ec77ffcee7606b524",
+          "top": "8c548dabff8479a37fbb356a810a61b8bd92537f583606a48d4d9111708af973",
+          "rear": "59fed9f54081c7c4de1faaf2d529e5bd6080e7b20c1d7a47e769fc8f38563f26"
+        },
+        "review_views": [
+          "isometric",
+          "front",
+          "side",
+          "top",
+          "rear"
+        ],
+        "reviewer": "Codex asset extraction review",
+        "owner_review": false
+      }
+    },
+    "source": "codex_final_asset_review",
+    "owner_approved": true,
+    "conflicts": []
+  },
+  "similarity_fingerprint": {
+    "dimensions_normalized": {
+      "x": 0.391892,
+      "y": 0.27027,
+      "z": 1.0
+    },
+    "palette_family_vector": {},
+    "massing_signature": "compound",
+    "feature_vector": {
+      "steep_gable": 0,
+      "cross_gable": 0,
+      "hipped_roof": 0,
+      "mansard": 0,
+      "tower": 0,
+      "turret": 0,
+      "courtyard": 1,
+      "arcade": 0,
+      "chimney": 0,
+      "large_chimney": 0,
+      "dormer": 0,
+      "balcony": 0,
+      "second_floor_overhang": 0,
+      "timber_frame": 1,
+      "stone_base": 1,
+      "colonnade": 0,
+      "buttress": 0,
+      "spire": 0,
+      "open_workshop": 0,
+      "side_wing": 0,
+      "l_shape": 0,
+      "u_shape": 0,
+      "t_shape": 0,
+      "asymmetrical": 1,
+      "symmetrical": 0,
+      "multi_story": 1,
+      "dome": 0,
+      "sail": 0,
+      "balloon": 0,
+      "branching_canopy": 0,
+      "planted_bed": 0,
+      "water_basin": 0,
+      "portal_frame": 0,
+      "sculptural_form": 0,
+      "stilt_support": 0,
+      "flat_roof": 0
+    },
+    "style_vector": {
+      "medieval": 0,
+      "fantasy": 0,
+      "high_fantasy": 0,
+      "rustic": 0,
+      "european": 0,
+      "gothic": 0,
+      "nordic": 0,
+      "victorian": 0,
+      "renaissance": 0,
+      "baroque": 0,
+      "classical": 0,
+      "modern": 0,
+      "industrial": 0,
+      "steampunk": 0,
+      "japanese": 1.0,
+      "chinese": 0,
+      "east_asian": 1.0,
+      "desert": 0,
+      "tropical": 0,
+      "nautical": 0,
+      "cottage": 0,
+      "fortified": 0,
+      "other": 0,
+      "unknown": 0
+    },
+    "use_vector": {
+      "residential": 0,
+      "commercial": 0,
+      "civic": 0,
+      "religious": 0,
+      "military": 0,
+      "industrial": 0,
+      "agricultural": 0,
+      "infrastructure": 0,
+      "transport": 0,
+      "landscape": 0,
+      "landmark": 0,
+      "mixed_use": 1,
+      "other": 0,
+      "unknown": 0
+    },
+    "schema_version": 1
+  },
+  "architecture_proxy": {
+    "views": {
+      "isometric": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\isometric.png",
+      "front": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\front.png",
+      "side": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\side.png",
+      "top": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\top.png",
+      "rear": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\proxy\\rear.png"
+    },
+    "front_confidence": 1.0
+  },
+  "normalized_blueprint_path": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\normalized\\normalized-blueprint.json",
+  "asset_status": "REFERENCE_ONLY",
+  "approval": null
+}

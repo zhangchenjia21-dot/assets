@@ -1,0 +1,18 @@
+✔ NBT 保留所有数值类型、长整数和 Java modified UTF 中文/代理对 (4.4065ms)
+✔ 连续位流 2..10 bits 跨 long 边界与截断拒绝 (1.4551ms)
+✔ 常见完整 building states 不改变 facing / half / shape / axis (31.1504ms)
+✔ 多 Region 负 Size、负 Position 与间隙保持，原点不偏移 (8.7993ms)
+✔ 重叠 Region 相同内容可合并，不同内容明确拒绝 (7.1641ms)
+✔ 实体与方块实体保留带类型 NBT，未知 Mod 不崩溃且明确标记 (5.2921ms)
+✔ V5 稀疏坐标、显式空气、origin 和 metadata 往返；禁止覆盖文件和未烘焙旋转 (4.9805ms)
+✔ 导入预览使用 V5 原存储，缺少实装验证始终禁用批准 (13.8554ms)
+✔ 语义比较能识别状态变化而非仅计数 (11.7587ms)
+✔ 10k / 50k 方块真实导入导出耗时记录 (327.3069ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 543.5445

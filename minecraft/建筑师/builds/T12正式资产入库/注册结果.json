@@ -1,0 +1,19 @@
+{
+  "reference_id": "REF-0123",
+  "name": "江户后期京都呉服商町家院落",
+  "library": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123",
+  "litematic": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\originals\\REF-0123\\京町家修复.litematic",
+  "blueprint": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references\\derived\\REF-0123\\normalized\\normalized-blueprint.json",
+  "previous_records_unchanged": 122,
+  "registry_files": [
+    "catalog/catalog.json",
+    "catalog/catalog.csv",
+    "catalog/reference-id-map.json",
+    "indexes/inverted-index.json",
+    "classification-v2/catalog-v2.json",
+    "classification-v2/catalog-v2.csv",
+    "classification-v2/catalog-final.json",
+    "classification-v2/catalog-final.csv"
+  ],
+  "world_writes": 0
+}
