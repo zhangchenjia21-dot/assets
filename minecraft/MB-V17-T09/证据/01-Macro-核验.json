@@ -1,0 +1,328 @@
+{
+  "stage": "01-Macro",
+  "edges": {
+    "北路至门廊": {
+      "from": [
+        82,
+        16,
+        11
+      ],
+      "to": [
+        82,
+        19,
+        23
+      ],
+      "restricted_xz": [
+        77,
+        87,
+        11,
+        23
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 88
+    },
+    "门廊至更衣": {
+      "from": [
+        82,
+        19,
+        23
+      ],
+      "to": [
+        82,
+        19,
+        35
+      ],
+      "restricted_xz": [
+        78,
+        86,
+        23,
+        35
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 101
+    },
+    "更衣至冷厅西门": {
+      "from": [
+        69,
+        19,
+        40
+      ],
+      "to": [
+        69,
+        19,
+        60
+      ],
+      "restricted_xz": [
+        66,
+        72,
+        40,
+        61
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 77
+    },
+    "更衣至冷厅东门": {
+      "from": [
+        95,
+        19,
+        40
+      ],
+      "to": [
+        95,
+        19,
+        61
+      ],
+      "restricted_xz": [
+        92,
+        98,
+        40,
+        62
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 148
+    },
+    "更衣至西廊": {
+      "from": [
+        65,
+        19,
+        36
+      ],
+      "to": [
+        56,
+        19,
+        36
+      ],
+      "restricted_xz": [
+        55,
+        66,
+        33,
+        39
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 61
+    },
+    "庭院至冷厅": {
+      "from": [
+        49,
+        18,
+        61
+      ],
+      "to": [
+        65,
+        19,
+        61
+      ],
+      "restricted_xz": [
+        48,
+        66,
+        58,
+        64
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 41
+    },
+    "冷厅至暖室": {
+      "from": [
+        82,
+        19,
+        70
+      ],
+      "to": [
+        82,
+        21,
+        84
+      ],
+      "restricted_xz": [
+        78,
+        86,
+        69,
+        85
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 124
+    },
+    "暖室至热室": {
+      "from": [
+        82,
+        21,
+        85
+      ],
+      "to": [
+        82,
+        21,
+        104
+      ],
+      "restricted_xz": [
+        78,
+        86,
+        84,
+        105
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 169
+    },
+    "服务院至炉房": {
+      "from": [
+        124,
+        17,
+        108
+      ],
+      "to": [
+        108,
+        17,
+        112
+      ],
+      "restricted_xz": [
+        106,
+        125,
+        103,
+        114
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 108
+    },
+    "炉房至检修廊": {
+      "from": [
+        109,
+        17,
+        100
+      ],
+      "to": [
+        109,
+        17,
+        84
+      ],
+      "restricted_xz": [
+        106,
+        112,
+        83,
+        101
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 116
+    },
+    "维护梯至水箱平台": {
+      "from": [
+        126,
+        17,
+        73
+      ],
+      "to": [
+        126,
+        32,
+        55
+      ],
+      "restricted_xz": [
+        124,
+        130,
+        54,
+        74
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 1
+    }
+  },
+  "method": "Restricted expected portal corridor, 2-cell clearance, level walking or correctly oriented stairs. No global detour accepted.",
+  "orphan_cells": 2655,
+  "orphan_examples": [
+    [
+      77,
+      33,
+      92,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      87,
+      33,
+      92,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      66,
+      33,
+      103,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      98,
+      33,
+      103,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      66,
+      33,
+      113,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      98,
+      33,
+      113,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      77,
+      33,
+      124,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      87,
+      33,
+      124,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      77,
+      34,
+      92,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      78,
+      34,
+      92,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      86,
+      34,
+      92,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      87,
+      34,
+      92,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      75,
+      34,
+      93,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      89,
+      34,
+      93,
+      "minecraft:smooth_sandstone"
+    ],
+    [
+      73,
+      34,
+      94,
+      "minecraft:smooth_sandstone"
+    ]
+  ],
+  "water": {
+    "cells": 0,
+    "side_or_bottom_open_to_air": 0,
+    "examples": [],
+    "fluid_update_stability": "unverified; no controlled fluid tick available",
+    "logic": "separate contained pools and cistern; no open stepped sources"
+  },
+  "compared_cells": 1161216,
+  "plan_differences": 3072
+}

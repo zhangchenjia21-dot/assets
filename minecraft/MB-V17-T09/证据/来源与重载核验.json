@@ -1,0 +1,64 @@
+{
+  "final_reload_byte_identical": true,
+  "sha256": "194382a14f0aab0f32daad70a7eed7335134a1e5a111ac05b8d45a01cb2b3f61",
+  "skill_git_blob": "24653eda5d8c34c1539f7a670e0a7677434c50ff",
+  "skill_sha256": "4126c757e19e0e7ed6db57e877117f1d5456fe0f5b598e9457fd4bc5cef6d648",
+  "log_findings": [
+    {
+      "stage": "01-GateRepair-执行",
+      "shutdown_verified": true,
+      "messages": [
+        "[09:50:33] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+        "[09:50:33] [main/WARN]: Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values"
+      ]
+    },
+    {
+      "stage": "01-Macro-执行",
+      "shutdown_verified": true,
+      "messages": [
+        "[09:45:34] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+        "[09:45:34] [main/WARN]: Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values"
+      ]
+    },
+    {
+      "stage": "02-JunctionRepair-执行",
+      "shutdown_verified": true,
+      "messages": [
+        "[09:57:51] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+        "[09:57:51] [main/WARN]: Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values"
+      ]
+    },
+    {
+      "stage": "02-Meso-执行",
+      "shutdown_verified": true,
+      "messages": [
+        "[09:55:19] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+        "[09:55:19] [main/WARN]: Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values"
+      ]
+    },
+    {
+      "stage": "03-Micro-执行",
+      "shutdown_verified": true,
+      "messages": [
+        "[09:59:39] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+        "[09:59:39] [main/WARN]: Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values"
+      ]
+    },
+    {
+      "stage": "04-Repair-执行",
+      "shutdown_verified": true,
+      "messages": [
+        "[10:01:55] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+        "[10:01:55] [main/WARN]: Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values"
+      ]
+    },
+    {
+      "stage": "reload-执行",
+      "shutdown_verified": true,
+      "messages": [
+        "[10:03:54] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+        "[10:03:54] [main/WARN]: Unable to locate English counter names in registry Perflib 009. Assuming English counters. Error 0x80070057. See https://support.microsoft.com/en-us/help/300956/how-to-manually-rebuild-performance-counter-library-values"
+      ]
+    }
+  ]
+}

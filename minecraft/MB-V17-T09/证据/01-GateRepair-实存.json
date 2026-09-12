@@ -1,0 +1,96 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V17-T09-罗马浴场",
+  "name": "MB-V17-T09-罗马浴场",
+  "version": {
+    "Snapshot": 0,
+    "Series": "main",
+    "Id": 4903,
+    "Name": "26.2"
+  },
+  "generation": {
+    "bonus_chest": 0,
+    "seed": "1709",
+    "generate_structures": 0,
+    "dimensions": {
+      "minecraft:overworld": {
+        "generator": {
+          "settings": {
+            "features": 0,
+            "biome": "minecraft:plains",
+            "layers": [
+              {
+                "block": "minecraft:bedrock",
+                "height": 1
+              },
+              {
+                "block": "minecraft:stone",
+                "height": 73
+              },
+              {
+                "block": "minecraft:dirt",
+                "height": 5
+              },
+              {
+                "block": "minecraft:grass_block",
+                "height": 1
+              }
+            ],
+            "structure_overrides": [],
+            "lakes": 0
+          },
+          "type": "minecraft:flat"
+        },
+        "type": "minecraft:overworld"
+      },
+      "minecraft:the_nether": {
+        "generator": {
+          "settings": "minecraft:nether",
+          "biome_source": {
+            "preset": "minecraft:nether",
+            "type": "minecraft:multi_noise"
+          },
+          "type": "minecraft:noise"
+        },
+        "type": "minecraft:the_nether"
+      },
+      "minecraft:the_end": {
+        "generator": {
+          "settings": "minecraft:end",
+          "biome_source": {
+            "type": "minecraft:the_end"
+          },
+          "type": "minecraft:noise"
+        },
+        "type": "minecraft:the_end"
+      }
+    }
+  },
+  "origin": [
+    0,
+    10,
+    0
+  ],
+  "shape_yzx": [
+    56,
+    144,
+    144
+  ],
+  "palette": [
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:stone_bricks",
+    "minecraft:bricks",
+    "minecraft:smooth_quartz",
+    "minecraft:air",
+    "minecraft:gravel",
+    "minecraft:smooth_sandstone",
+    "minecraft:sandstone",
+    "minecraft:sand",
+    "minecraft:sandstone_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:sandstone_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:terracotta",
+    "minecraft:stripped_oak_log[axis=x]"
+  ],
+  "sha256": "eb5b317c513cb82695a90e6f5631494155aae6af6f7c484c33771a5a731f23a4",
+  "source": "RegionReader after formal save/shutdown"
+}

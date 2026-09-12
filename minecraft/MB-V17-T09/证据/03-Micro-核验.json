@@ -1,0 +1,346 @@
+{
+  "stage": "03-Micro",
+  "edges": {
+    "北路至门廊": {
+      "from": [
+        82,
+        16,
+        11
+      ],
+      "to": [
+        82,
+        19,
+        23
+      ],
+      "restricted_xz": [
+        77,
+        87,
+        11,
+        23
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 123
+    },
+    "门廊至更衣": {
+      "from": [
+        82,
+        19,
+        23
+      ],
+      "to": [
+        82,
+        19,
+        35
+      ],
+      "restricted_xz": [
+        78,
+        86,
+        23,
+        35
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 107
+    },
+    "更衣至冷厅西门": {
+      "from": [
+        79,
+        19,
+        40
+      ],
+      "to": [
+        79,
+        19,
+        60
+      ],
+      "restricted_xz": [
+        77,
+        81,
+        40,
+        61
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 103
+    },
+    "更衣至冷厅东门": {
+      "from": [
+        95,
+        19,
+        40
+      ],
+      "to": [
+        95,
+        19,
+        61
+      ],
+      "restricted_xz": [
+        92,
+        98,
+        40,
+        62
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 148
+    },
+    "更衣至西廊": {
+      "from": [
+        65,
+        19,
+        36
+      ],
+      "to": [
+        56,
+        19,
+        36
+      ],
+      "restricted_xz": [
+        55,
+        66,
+        33,
+        39
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 27
+    },
+    "庭院至冷厅": {
+      "from": [
+        49,
+        18,
+        61
+      ],
+      "to": [
+        65,
+        19,
+        61
+      ],
+      "restricted_xz": [
+        48,
+        66,
+        58,
+        64
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 112
+    },
+    "冷厅至暖室": {
+      "from": [
+        82,
+        19,
+        70
+      ],
+      "to": [
+        82,
+        21,
+        84
+      ],
+      "restricted_xz": [
+        78,
+        86,
+        69,
+        85
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 122
+    },
+    "暖室至热室": {
+      "from": [
+        82,
+        21,
+        85
+      ],
+      "to": [
+        82,
+        21,
+        104
+      ],
+      "restricted_xz": [
+        78,
+        86,
+        84,
+        105
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 169
+    },
+    "服务院至炉房": {
+      "from": [
+        124,
+        17,
+        108
+      ],
+      "to": [
+        108,
+        17,
+        112
+      ],
+      "restricted_xz": [
+        106,
+        125,
+        103,
+        114
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 174
+    },
+    "炉房至检修廊": {
+      "from": [
+        109,
+        17,
+        100
+      ],
+      "to": [
+        109,
+        17,
+        84
+      ],
+      "restricted_xz": [
+        106,
+        112,
+        83,
+        101
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 116
+    },
+    "维护梯至水箱平台": {
+      "from": [
+        126,
+        17,
+        73
+      ],
+      "to": [
+        126,
+        32,
+        55
+      ],
+      "restricted_xz": [
+        124,
+        130,
+        54,
+        74
+      ],
+      "reachable_via_expected_portal": true,
+      "visited": 96
+    },
+    "庭院至厕间": {
+      "from": [
+        30,
+        18,
+        37
+      ],
+      "to": [
+        30,
+        18,
+        27
+      ],
+      "restricted_xz": [
+        27,
+        33,
+        26,
+        38
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 24
+    },
+    "服务街至院门": {
+      "from": [
+        141,
+        16,
+        107
+      ],
+      "to": [
+        125,
+        17,
+        107
+      ],
+      "restricted_xz": [
+        124,
+        141,
+        104,
+        110
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 49
+    },
+    "服务院至维护梯脚": {
+      "from": [
+        127,
+        17,
+        100
+      ],
+      "to": [
+        127,
+        17,
+        73
+      ],
+      "restricted_xz": [
+        125,
+        129,
+        72,
+        101
+      ],
+      "reachable_via_expected_portal": false,
+      "visited": 30
+    }
+  },
+  "method": "Restricted expected portal corridor, 2-cell clearance, level walking or correctly oriented stairs. No global detour accepted.",
+  "orphan_cells": 8,
+  "orphan_examples": [
+    [
+      80,
+      20,
+      28,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      81,
+      20,
+      28,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      82,
+      20,
+      28,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      83,
+      20,
+      28,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      80,
+      21,
+      28,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      81,
+      21,
+      28,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      82,
+      21,
+      28,
+      "minecraft:chiseled_sandstone"
+    ],
+    [
+      83,
+      21,
+      28,
+      "minecraft:chiseled_sandstone"
+    ]
+  ],
+  "water": {
+    "cells": 1050,
+    "side_or_bottom_open_to_air": 0,
+    "examples": [],
+    "fluid_update_stability": "unverified; no controlled fluid tick available",
+    "logic": "separate contained pools and cistern; no open stepped sources"
+  },
+  "compared_cells": 1161216,
+  "plan_differences": 0
+}

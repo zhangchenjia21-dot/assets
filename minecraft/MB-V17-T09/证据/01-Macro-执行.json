@@ -1,0 +1,22 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V17-T09-罗马浴场",
+  "generator": "FlatLevelSource",
+  "before": [],
+  "changed_blocks": 51423,
+  "apply_seconds": 2.5783272,
+  "readback": [],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 20.134,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T01-45-30-526Z-410b0eb0-6a1f-4b5c-b9c4-583055d6196d",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V17-T09-罗马浴场",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T01-45-30-526Z-410b0eb0-6a1f-4b5c-b9c4-583055d6196d\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}
