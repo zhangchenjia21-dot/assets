@@ -1,0 +1,23 @@
+{
+  "blueprints_validated": 1,
+  "parse_failures": [],
+  "status_distribution": {
+    "HARD_FAIL": 1
+  },
+  "hard_fail_rate": 1.0,
+  "warning_rate": 1.0,
+  "rule_trigger_frequency": {
+    "V001": 0,
+    "V002": 1,
+    "V003": 1,
+    "V004": 1,
+    "V005": 0,
+    "V006": 0,
+    "V007": 0,
+    "V008": 1,
+    "V009": 0,
+    "V010": 0,
+    "V011": 0,
+    "V012": 0
+  }
+}

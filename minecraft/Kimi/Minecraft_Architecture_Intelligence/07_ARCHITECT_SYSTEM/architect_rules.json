@@ -1,0 +1,5479 @@
+{
+ "version": "P5-1.0",
+ "generated_by": "07_ARCHITECT_SYSTEM/build_rulepacks.py",
+ "rule_type_legend": {
+  "HARD": "功能必需（style grammar 不出 HARD）",
+  "STRONG": "高频稳定",
+  "SOFT": "常见可打破",
+  "OPTIONAL": "装饰倾向"
+ },
+ "basis_legend": {
+  "OBSERVED": "数据实测",
+  "HEURISTIC": "启发式",
+  "INFERRED": "推断",
+  "UNKNOWN": "数据不足不编规则"
+ },
+ "categories": {
+  "global_architecture_rules": "任何建筑通用：落地/围护/入口/净高等，映射 Validator 使生成即合规",
+  "style_selection_rules": "按 brief 检索 grammar 与样本不足时的回退策略",
+  "function_rules": "功能分区/出入口/垂直交通有无，转换自 functional_rules.json",
+  "circulation_rules": "主入口→主空间连通与死端控制，对齐 V001–V004/V012",
+  "vertical_access_rules": "楼梯底可进/顶有落点+净高，对齐 V005/V006/V007",
+  "roof_rules": "屋顶比例/出檐，转换自 style grammar；形制 UNKNOWN 不编规则",
+  "palette_rules": "材料族比例与高频方块，带 sample_n 与 IQR",
+  "validator_precheck": "生成后提交前自检清单，逐项对应 V001–V012"
+ },
+ "unknown_dimensions": {
+  "style": {
+   "window_rhythm": {
+    "classes": [
+     "Medieval",
+     "Rustic",
+     "Fantasy",
+     "Japanese",
+     "Chinese"
+    ],
+    "reason": "窗洞位置节奏需立面聚合，P3 阶段 UNKNOWN",
+    "handling": "LLM 自由发挥/人工"
+   },
+   "entrance_placement": {
+    "classes": [
+     "Medieval",
+     "Rustic",
+     "Fantasy",
+     "Japanese",
+     "Chinese"
+    ],
+    "reason": "main_entrance 可判定样本过少（全库 89% UNKNOWN）",
+    "handling": "LLM 自由发挥/人工"
+   },
+   "floor_height": {
+    "classes": [
+     "Medieval",
+     "Fantasy",
+     "Chinese"
+    ],
+    "reason": "可得样本不足半数或 <4",
+    "handling": "LLM 自由发挥/人工"
+   },
+   "floor_count": {
+    "classes": [
+     "Chinese"
+    ],
+    "reason": "可得样本 3/4 不足",
+    "handling": "LLM 自由发挥/人工"
+   },
+   "roof_form": {
+    "classes": [
+     "Medieval",
+     "Rustic",
+     "Fantasy",
+     "Japanese",
+     "Chinese"
+    ],
+    "reason": "屋顶形制/坡度曲线未测量",
+    "handling": "LLM 自由发挥/人工"
+   },
+   "all_dimensions": {
+    "classes": [
+     "Other",
+     "Modern",
+     "Industrial",
+     "Gothic",
+     "Victorian",
+     "Nordic"
+    ],
+    "reason": "Other 异质仅观测；其余全库 0 样本",
+    "handling": "回退策略见 SS-004"
+   }
+  },
+  "function": {
+   "entrance_relation.方位": {
+    "classes": [
+     "Residential",
+     "Decoration",
+     "Castle",
+     "Tower",
+     "Religious",
+     "Workshop",
+     "Vehicle",
+     "Inn",
+     "Civic"
+    ],
+    "reason": "main_entrance 可判定样本过少",
+    "handling": "LLM 自由发挥/人工"
+   },
+   "all_dimensions": {
+    "classes": [
+     "Gate",
+     "Blacksmith",
+     "Farm",
+     "Mixed-use",
+     "Warehouse"
+    ],
+    "reason": "样本 <4，OBSERVATION ONLY",
+    "handling": "回退策略见 SS-007"
+   }
+  }
+ },
+ "rules": [
+  {
+   "id": "GA-001",
+   "category": "global_architecture_rules",
+   "type": "HARD",
+   "statement": "包络约束：单边 ≤128、包络 ≤1,000,000 体素、施工上限 20,000 显式方块；超出则拆分或缩小体量。",
+   "source": {
+    "dataset": "CONTEXT.md",
+    "rule_id": "CONTEXT.§7.engineering_limits"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "GA-002",
+   "category": "global_architecture_rules",
+   "type": "HARD",
+   "statement": "必须有至少一个 exterior→interior 入口（外部门 / 无门开口 / 梯子舱口之一）。若内部为有意密封的装饰空腔，必须在提交说明中标注设计意图（Validator 无法判意图，见 known_limitations §1.3）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V001"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "min_interior_air": 27,
+    "min_interior_stances": 9
+   }
+  },
+  {
+   "id": "GA-003",
+   "category": "global_architecture_rules",
+   "type": "HARD",
+   "statement": "主入口门槛内外两侧各留 ≥1 格可站立接近位（净高 ≈2 格，脚部高程差 ≤1.0）；门开在包络最底层（y=0）时按隐含地面放行，非底层悬空门会触发 V002。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V002"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "max_drop": 1.0
+   }
+  },
+  {
+   "id": "GA-004",
+   "category": "global_architecture_rules",
+   "type": "HARD",
+   "statement": "主要内部空间必须与主入口同一连通分量：主入口内侧分量应覆盖 ≥50% 内部站位；多入口建筑须明确指定主入口（主入口选错会改变 V003 判定分子，见 VALIDATION_SPEC V003 盲区）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V003"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "min_interior_stances": 9,
+    "min_unreachable_stances": 9,
+    "max_reachable_ratio": 0.5,
+    "max_drop": 1.0
+   }
+  },
+  {
+   "id": "GA-005",
+   "category": "global_architecture_rules",
+   "type": "HARD",
+   "statement": "不留纯实体封闭的孤立内部空间：≥20 内部站位的封闭分量判 HARD_FAIL，9–19 判 WARNING；隔离环上留门/活板门/梯子/栅栏门可降级为 WARNING。有意密封的空腔（墓室/树腔）需标注意图。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V004"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "warn_min_stances": 9,
+    "hard_min_stances": 20
+   }
+  },
+  {
+   "id": "GA-006",
+   "category": "global_architecture_rules",
+   "type": "HARD",
+   "statement": "门两侧沿通行轴都要有接近站位；不做贴墙假门（两侧皆实体的装饰门除外，但建议避免歧义）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V008"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "GA-007",
+   "category": "global_architecture_rules",
+   "type": "STRONG",
+   "statement": "主要通路净高 ≥2 格：低净高格（有支撑但站不直）≥12 且占内部站位 ≥35% 触发 V009 WARNING。装饰性夹层/阁楼暗格无法与通道压抑区分，应有意控制规模。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V009"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "min_cells": 12,
+    "min_ratio": 0.35
+   }
+  },
+  {
+   "id": "GA-008",
+   "category": "global_architecture_rules",
+   "type": "STRONG",
+   "statement": "围护完整：内部空气与外部空气的 6 邻接泄漏（排除门/开口周边 1 格）≥10 格且 ≥2% 内部空气触发 V010。无玻璃的开窗 = 真实泄漏，无法与设计性开口区分——窗洞应用玻璃/玻璃板/活板门填充，或接受 WARNING。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V010"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "min_interior_air": 27,
+    "min_gap_voxels": 10,
+    "min_gap_ratio": 0.02,
+    "opening_margin": 1
+   }
+  },
+  {
+   "id": "GA-009",
+   "category": "global_architecture_rules",
+   "type": "STRONG",
+   "statement": "内部空间上方要有屋顶覆盖：无屋顶柱 ≥12 且占内部柱 ≥20% 触发 V011。天井/中庭是设计性露天室内，会触发——如属有意设计请在说明中标注。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V011"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "min_interior_air": 27,
+    "min_columns": 12,
+    "min_ratio": 0.2
+   }
+  },
+  {
+   "id": "GA-010",
+   "category": "global_architecture_rules",
+   "type": "SOFT",
+   "statement": "控制内部死端数量：度数为 1 的内部站位 ≥6 计 INFO、≥15 计 WARNING（V012）。壁龛/房间尽头是合法死端，本规则只作统计提示。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V012"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "info_min": 6,
+    "warn_min": 15
+   }
+  },
+  {
+   "id": "GA-011",
+   "category": "global_architecture_rules",
+   "type": "STRONG",
+   "statement": "主要动线不要依赖红石机关：关闭的铁门 = 阻挡（即使有按钮/拉杆），关闭的非铁质活板门 = 半格实体，Validator 不建模机关语义（known_limitations §1.4）。非铁质门与栅栏门视为可交互开启、可通过。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/known_limitations.md",
+    "rule_id": "KL.§1.4"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "GA-012",
+   "category": "global_architecture_rules",
+   "type": "SOFT",
+   "statement": "蓝图不含地形：入口与楼梯底部尽量落在包络最底层（y=0，按隐含地面放行）或在下方提供支撑体；悬在包络内半空的入口/梯底会真实触发 V002/V005（known_limitations §1.1）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/known_limitations.md",
+    "rule_id": "KL.§1.1"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "GA-013",
+   "category": "global_architecture_rules",
+   "type": "SOFT",
+   "statement": "不要依赖玩家跳跃/游泳/潜行通过主要动线：模型不认跳上 1 格、不认 1.5 格潜行通道（known_limitations §1.5）。跑酷式设计会被判断裂。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/known_limitations.md",
+    "rule_id": "KL.§1.5"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "SS-001",
+   "category": "style_selection_rules",
+   "type": "HARD",
+   "statement": "按 brief 的 style 标签检索 style_rules.json 对应 class 的规则块；样本纪律：n≥8 SUPPORTED，4–7 PROVISIONAL，<4 OBSERVATION ONLY（不形成规则）。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "sample_discipline"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "SS-002",
+   "category": "style_selection_rules",
+   "type": "STRONG",
+   "statement": "SUPPORTED 风格（Medieval n=19 / Rustic n=20 / Fantasy n=10）：规则按标注的 STRONG/SOFT/OPTIONAL 与 confidence 使用，数值取 median 与 IQR[p25,p75]。",
+   "source": {
+    "dataset": "04_GRAMMARS/grammar_confidence_report.md",
+    "rule_id": "GCR.§1.style"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Medieval",
+     "Rustic",
+     "Fantasy"
+    ]
+   }
+  },
+  {
+   "id": "SS-003",
+   "category": "style_selection_rules",
+   "type": "SOFT",
+   "statement": "PROVISIONAL 风格（Japanese n=7 / Chinese n=4）：全部规则按咨询性使用，输出必须标注 'grammar 置信度低（PROVISIONAL）'，优先落在 IQR 内而非追求 median。",
+   "source": {
+    "dataset": "04_GRAMMARS/grammar_confidence_report.md",
+    "rule_id": "GCR.§1.style"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Japanese",
+     "Chinese"
+    ]
+   }
+  },
+  {
+   "id": "SS-004",
+   "category": "style_selection_rules",
+   "type": "HARD",
+   "statement": "回退策略：brief 风格落在 Other（n=7 异质，仅观测）或零样本风格（Modern/Industrial/Gothic/Victorian/Nordic 全库 0 样本）时，无 style grammar 可用——只用 global_architecture_rules + functional grammar + LLM 自由发挥，并在交付说明中标注 'style grammar 无背书'，禁止编造风格数值规则。",
+   "source": {
+    "dataset": "03_TAXONOMY/style_taxonomy.json",
+    "rule_id": "not_built_zero_sample"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Other",
+     "Modern",
+     "Industrial",
+     "Gothic",
+     "Victorian",
+     "Nordic",
+     "Unknown"
+    ]
+   }
+  },
+  {
+   "id": "SS-005",
+   "category": "style_selection_rules",
+   "type": "SOFT",
+   "statement": "brief 风格歧义时（参考库以 conf<0.55 降级为 Unknown 的判例存在）：先向需求方确认或显式声明所假设的风格标签，再检索 grammar；不要把 Unknown 风格当类别检索（Unknown n=56 是非类别）。",
+   "source": {
+    "dataset": "03_TAXONOMY/label_summary.json",
+    "rule_id": "thresholds.style_conf_floor"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "SS-006",
+   "category": "style_selection_rules",
+   "type": "HARD",
+   "statement": "UNKNOWN 维度不编规则：window_rhythm 规律性与 entrance_placement 对全部 5 个风格类均 UNKNOWN；floor_height 对 Medieval/Fantasy/Chinese UNKNOWN；floor_count 对 Chinese UNKNOWN。这些维度交给 LLM 自由发挥或人工判断，rulepack 不提供数值（见 unknown_dimensions 清单）。",
+   "source": {
+    "dataset": "04_GRAMMARS/grammar_confidence_report.md",
+    "rule_id": "GCR.§2"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "SS-007",
+   "category": "style_selection_rules",
+   "type": "STRONG",
+   "statement": "功能类别回退：Gate/Blacksmith/Farm/Mixed-use/Warehouse 样本 <4（OBSERVATION ONLY，0 条规则）；Inn n=5、Civic n=4、Workshop n=7、Vehicle n=7 为 PROVISIONAL。功能 grammar 缺失时回退到 global_architecture_rules + 同类 SUPPORTED 功能（Residential/Castle/Tower 等）作参考，并标注回退来源。",
+   "source": {
+    "dataset": "04_GRAMMARS/grammar_confidence_report.md",
+    "rule_id": "GCR.§1.function"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Gate",
+     "Blacksmith",
+     "Farm",
+     "Mixed-use",
+     "Warehouse",
+     "Inn",
+     "Civic",
+     "Workshop",
+     "Vehicle"
+    ]
+   }
+  },
+  {
+   "id": "STY.ROOF.Medieval.roof_height_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Medieval] 屋顶高度占比（上部 stair+slab 连续带高/size_y）建议落在 IQR[0.029,0.0996]（中位 0.0612，n=19）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.roof_height_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "median": 0.0612,
+    "p25": 0.029,
+    "p75": 0.0996,
+    "min": 0.0,
+    "max": 0.3529,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval 屋顶高度占比 = 上部 stair+slab 最长连续带高 / size_y"
+  },
+  {
+   "id": "STY.ROOF.Medieval.roof_material_share_top3",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Medieval] 顶部 1/3 区域 stair+slab 材料占比建议落在 IQR[0.1173,0.4824]（中位 0.2794，n=19）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.roof_material_share_top3",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "median": 0.2794,
+    "p25": 0.1173,
+    "p75": 0.4824,
+    "min": 0.0102,
+    "max": 0.9697,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval 顶部 1/3 区域 stair+slab 材料占比（屋顶材料信号）"
+  },
+  {
+   "id": "STY.ROOF.Medieval.roof_overhang",
+   "category": "roof_rules",
+   "type": "OPTIONAL",
+   "statement": "[Medieval] 屋顶出檐（顶部1/3 脚印超出中部1/3 >5%）在类内频率 0.37，可自行取舍。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.roof_overhang",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "frequency": 0.3684,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval 屋顶出檐：顶部1/3 脚印超出中部1/3 >5% 的样本频率"
+  },
+  {
+   "id": "STY.ROOF.Medieval.roof_overhang_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Medieval] 出檐比例建议落在 IQR[0.0013,0.0669]（中位 0.0177，n=19）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.roof_overhang_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "median": 0.0177,
+    "p25": 0.0013,
+    "p75": 0.0669,
+    "min": 0.0,
+    "max": 1.6175,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval 出檐比例分布"
+  },
+  {
+   "id": "STY.PAL.Medieval.palette_wood_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Medieval] wood 材料族占比建议落在 IQR[0.1101,0.2328]（中位 0.1647，n=19）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.palette_wood_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "median": 0.1647,
+    "p25": 0.1101,
+    "p75": 0.2328,
+    "min": 0.0072,
+    "max": 0.4197,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval wood 材料占比"
+  },
+  {
+   "id": "STY.PAL.Medieval.palette_stone_ratio",
+   "category": "palette_rules",
+   "type": "STRONG",
+   "statement": "[Medieval] stone 材料族占比建议落在 IQR[0.3893,0.6245]（中位 0.5888，n=19）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.palette_stone_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "median": 0.5888,
+    "p25": 0.3893,
+    "p75": 0.6245,
+    "min": 0.1761,
+    "max": 0.924,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval stone 材料占比"
+  },
+  {
+   "id": "STY.PAL.Medieval.palette_glass_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Medieval] glass 材料族占比建议落在 IQR[0.0005,0.0282]（中位 0.0029，n=19）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.palette_glass_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "median": 0.0029,
+    "p25": 0.0005,
+    "p75": 0.0282,
+    "min": 0.0,
+    "max": 0.0982,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval glass 材料占比"
+  },
+  {
+   "id": "STY.PAL.Medieval.palette_decorative_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Medieval] decorative 材料族占比建议落在 IQR[0.0224,0.0734]（中位 0.03，n=19）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.palette_decorative_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "median": 0.03,
+    "p25": 0.0224,
+    "p75": 0.0734,
+    "min": 0.0098,
+    "max": 0.1903,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval decorative 材料占比"
+  },
+  {
+   "id": "STY.PAL.Medieval.palette_top_blocks",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Medieval] 高频方块参考类内聚合 Top 列表（见 stats.value）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.palette_top_blocks",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "value": [
+     {
+      "block": "minecraft:tuff",
+      "share_of_class": 0.3703
+     },
+     {
+      "block": "minecraft:cobbled_deepslate",
+      "share_of_class": 0.1304
+     },
+     {
+      "block": "minecraft:cyan_terracotta",
+      "share_of_class": 0.0976
+     },
+     {
+      "block": "minecraft:smooth_basalt",
+      "share_of_class": 0.0503
+     },
+     {
+      "block": "minecraft:water",
+      "share_of_class": 0.0435
+     },
+     {
+      "block": "minecraft:stone",
+      "share_of_class": 0.0383
+     },
+     {
+      "block": "minecraft:cobblestone",
+      "share_of_class": 0.0161
+     },
+     {
+      "block": "minecraft:dirt",
+      "share_of_class": 0.0085
+     }
+    ],
+    "sample_n": 19
+   },
+   "original_statement": "Medieval 高频方块 Top（类内聚合）"
+  },
+  {
+   "id": "STY.PAL.Medieval.material_transition",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Medieval] 底/中/顶主导材料族模式参考众数（见原规则 statement；频率 0.42）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.material_transition",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "frequency": 0.4211,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval 底/中/顶主导材料族模式众数：stone→stone→stone"
+  },
+  {
+   "id": "STY.PAL.Medieval.foundation_stone_base",
+   "category": "palette_rules",
+   "type": "OPTIONAL",
+   "statement": "[Medieval] 石质基座（底部20% 石≥55%）在类内频率 0.21。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.foundation_stone_base",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "frequency": 0.2105,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval 石质基座（stone_base，底部20% 石≥55%）频率"
+  },
+  {
+   "id": "STY.PAL.Medieval.foundation_bottom_family",
+   "category": "palette_rules",
+   "type": "STRONG",
+   "statement": "[Medieval] 底部 1/3 主导材料族参考众数（见原规则 statement；频率 0.89）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Medieval.foundation_bottom_family",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Medieval"
+    ]
+   },
+   "stats": {
+    "frequency": 0.8947,
+    "sample_n": 19
+   },
+   "original_statement": "Medieval 底部 1/3 主导材料族众数：stone"
+  },
+  {
+   "id": "STY.ROOF.Rustic.roof_height_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Rustic] 屋顶高度占比（上部 stair+slab 连续带高/size_y）建议落在 IQR[0.0544,0.154]（中位 0.0751，n=20）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.roof_height_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "median": 0.0751,
+    "p25": 0.0544,
+    "p75": 0.154,
+    "min": 0.012,
+    "max": 0.3571,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic 屋顶高度占比 = 上部 stair+slab 最长连续带高 / size_y"
+  },
+  {
+   "id": "STY.ROOF.Rustic.roof_material_share_top3",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Rustic] 顶部 1/3 区域 stair+slab 材料占比建议落在 IQR[0.163,0.4353]（中位 0.306，n=20）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.roof_material_share_top3",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "median": 0.306,
+    "p25": 0.163,
+    "p75": 0.4353,
+    "min": 0.0,
+    "max": 0.6875,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic 顶部 1/3 区域 stair+slab 材料占比（屋顶材料信号）"
+  },
+  {
+   "id": "STY.ROOF.Rustic.roof_overhang",
+   "category": "roof_rules",
+   "type": "OPTIONAL",
+   "statement": "[Rustic] 屋顶出檐（顶部1/3 脚印超出中部1/3 >5%）在类内频率 0.35，可自行取舍。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.roof_overhang",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.35,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic 屋顶出檐：顶部1/3 脚印超出中部1/3 >5% 的样本频率"
+  },
+  {
+   "id": "STY.ROOF.Rustic.roof_overhang_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Rustic] 出檐比例建议落在 IQR[0,0.0587]（中位 0.0166，n=20）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.roof_overhang_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "median": 0.0166,
+    "p25": 0.0,
+    "p75": 0.0587,
+    "min": 0.0,
+    "max": 0.601,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic 出檐比例分布"
+  },
+  {
+   "id": "STY.PAL.Rustic.palette_wood_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Rustic] wood 材料族占比建议落在 IQR[0.1711,0.3007]（中位 0.1949，n=20）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.palette_wood_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "median": 0.1949,
+    "p25": 0.1711,
+    "p75": 0.3007,
+    "min": 0.1665,
+    "max": 0.4388,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic wood 材料占比"
+  },
+  {
+   "id": "STY.PAL.Rustic.palette_stone_ratio",
+   "category": "palette_rules",
+   "type": "STRONG",
+   "statement": "[Rustic] stone 材料族占比建议落在 IQR[0.2825,0.4459]（中位 0.3802，n=20）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.palette_stone_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "median": 0.3802,
+    "p25": 0.2825,
+    "p75": 0.4459,
+    "min": 0.0209,
+    "max": 0.5799,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic stone 材料占比"
+  },
+  {
+   "id": "STY.PAL.Rustic.palette_glass_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Rustic] glass 材料族占比建议落在 IQR[0,0.0264]（中位 0.005，n=20）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.palette_glass_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "median": 0.005,
+    "p25": 0.0,
+    "p75": 0.0264,
+    "min": 0.0,
+    "max": 0.0754,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic glass 材料占比"
+  },
+  {
+   "id": "STY.PAL.Rustic.palette_decorative_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Rustic] decorative 材料族占比建议落在 IQR[0.0302,0.1248]（中位 0.0672，n=20）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.palette_decorative_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "median": 0.0672,
+    "p25": 0.0302,
+    "p75": 0.1248,
+    "min": 0.0102,
+    "max": 0.3796,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic decorative 材料占比"
+  },
+  {
+   "id": "STY.PAL.Rustic.palette_top_blocks",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Rustic] 高频方块参考类内聚合 Top 列表（见 stats.value）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.palette_top_blocks",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "value": [
+     {
+      "block": "minecraft:oak_leaves",
+      "share_of_class": 0.028
+     },
+     {
+      "block": "minecraft:cyan_terracotta",
+      "share_of_class": 0.0229
+     },
+     {
+      "block": "minecraft:spruce_planks",
+      "share_of_class": 0.0225
+     },
+     {
+      "block": "minecraft:oak_log",
+      "share_of_class": 0.021
+     },
+     {
+      "block": "minecraft:grass_block",
+      "share_of_class": 0.0203
+     },
+     {
+      "block": "minecraft:spruce_trapdoor",
+      "share_of_class": 0.0201
+     },
+     {
+      "block": "minecraft:stripped_spruce_log",
+      "share_of_class": 0.0181
+     },
+     {
+      "block": "minecraft:azalea_leaves",
+      "share_of_class": 0.0165
+     }
+    ],
+    "sample_n": 20
+   },
+   "original_statement": "Rustic 高频方块 Top（类内聚合）"
+  },
+  {
+   "id": "STY.PAL.Rustic.material_transition",
+   "category": "palette_rules",
+   "type": "OPTIONAL",
+   "statement": "[Rustic] 底/中/顶主导材料族模式参考众数（见原规则 statement；频率 0.20）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.material_transition",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.2,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic 底/中/顶主导材料族模式众数：stone→functional→stone"
+  },
+  {
+   "id": "STY.PAL.Rustic.foundation_stone_base",
+   "category": "palette_rules",
+   "type": "OPTIONAL",
+   "statement": "[Rustic] 石质基座（底部20% 石≥55%）在类内频率 0.10。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.foundation_stone_base",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.1,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic 石质基座（stone_base，底部20% 石≥55%）频率"
+  },
+  {
+   "id": "STY.PAL.Rustic.foundation_bottom_family",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Rustic] 底部 1/3 主导材料族参考众数（见原规则 statement；频率 0.60）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Rustic.foundation_bottom_family",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Rustic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6,
+    "sample_n": 20
+   },
+   "original_statement": "Rustic 底部 1/3 主导材料族众数：stone"
+  },
+  {
+   "id": "STY.ROOF.Fantasy.roof_height_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] 屋顶高度占比（上部 stair+slab 连续带高/size_y）建议落在 IQR[0.0091,0.0576]（中位 0.0415，n=10）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.roof_height_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "median": 0.0415,
+    "p25": 0.0091,
+    "p75": 0.0576,
+    "min": 0.0,
+    "max": 0.25,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy 屋顶高度占比 = 上部 stair+slab 最长连续带高 / size_y"
+  },
+  {
+   "id": "STY.ROOF.Fantasy.roof_material_share_top3",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] 顶部 1/3 区域 stair+slab 材料占比建议落在 IQR[0.0038,0.2644]（中位 0.1015，n=10）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.roof_material_share_top3",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "median": 0.1015,
+    "p25": 0.0038,
+    "p75": 0.2644,
+    "min": 0.0,
+    "max": 0.5676,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy 顶部 1/3 区域 stair+slab 材料占比（屋顶材料信号）"
+  },
+  {
+   "id": "STY.ROOF.Fantasy.roof_overhang",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] 屋顶出檐（顶部1/3 脚印超出中部1/3 >5%）在类内频率 0.60，可自行取舍。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.roof_overhang",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy 屋顶出檐：顶部1/3 脚印超出中部1/3 >5% 的样本频率"
+  },
+  {
+   "id": "STY.ROOF.Fantasy.roof_overhang_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] 出檐比例建议落在 IQR[0.0248,0.309]（中位 0.0864，n=10）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.roof_overhang_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "median": 0.0864,
+    "p25": 0.0248,
+    "p75": 0.309,
+    "min": 0.0,
+    "max": 0.4118,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy 出檐比例分布"
+  },
+  {
+   "id": "STY.PAL.Fantasy.palette_wood_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] wood 材料族占比建议落在 IQR[0.0194,0.1755]（中位 0.0553，n=10）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.palette_wood_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "median": 0.0553,
+    "p25": 0.0194,
+    "p75": 0.1755,
+    "min": 0.0,
+    "max": 0.5051,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy wood 材料占比"
+  },
+  {
+   "id": "STY.PAL.Fantasy.palette_stone_ratio",
+   "category": "palette_rules",
+   "type": "STRONG",
+   "statement": "[Fantasy] stone 材料族占比建议落在 IQR[0.4834,0.7554]（中位 0.6981，n=10）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.palette_stone_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "median": 0.6981,
+    "p25": 0.4834,
+    "p75": 0.7554,
+    "min": 0.245,
+    "max": 0.9443,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy stone 材料占比"
+  },
+  {
+   "id": "STY.PAL.Fantasy.palette_glass_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] glass 材料族占比建议落在 IQR[0,0.0137]（中位 0.0043，n=10）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.palette_glass_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "median": 0.0043,
+    "p25": 0.0,
+    "p75": 0.0137,
+    "min": 0.0,
+    "max": 0.1106,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy glass 材料占比"
+  },
+  {
+   "id": "STY.PAL.Fantasy.palette_decorative_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] decorative 材料族占比建议落在 IQR[0.0495,0.1557]（中位 0.1058，n=10）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.palette_decorative_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "median": 0.1058,
+    "p25": 0.0495,
+    "p75": 0.1557,
+    "min": 0.0,
+    "max": 0.1747,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy decorative 材料占比"
+  },
+  {
+   "id": "STY.PAL.Fantasy.palette_top_blocks",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] 高频方块参考类内聚合 Top 列表（见 stats.value）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.palette_top_blocks",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "value": [
+     {
+      "block": "minecraft:stone",
+      "share_of_class": 0.1059
+     },
+     {
+      "block": "minecraft:brown_terracotta",
+      "share_of_class": 0.0871
+     },
+     {
+      "block": "minecraft:dirt",
+      "share_of_class": 0.0723
+     },
+     {
+      "block": "minecraft:grass_block",
+      "share_of_class": 0.0595
+     },
+     {
+      "block": "minecraft:gray_terracotta",
+      "share_of_class": 0.0473
+     },
+     {
+      "block": "minecraft:polished_blackstone",
+      "share_of_class": 0.0395
+     },
+     {
+      "block": "minecraft:oak_leaves",
+      "share_of_class": 0.0245
+     },
+     {
+      "block": "minecraft:oak_log",
+      "share_of_class": 0.0207
+     }
+    ],
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy 高频方块 Top（类内聚合）"
+  },
+  {
+   "id": "STY.PAL.Fantasy.material_transition",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] 底/中/顶主导材料族模式参考众数（见原规则 statement；频率 0.50）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.material_transition",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "frequency": 0.5,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy 底/中/顶主导材料族模式众数：stone→stone→stone"
+  },
+  {
+   "id": "STY.PAL.Fantasy.foundation_stone_base",
+   "category": "palette_rules",
+   "type": "OPTIONAL",
+   "statement": "[Fantasy] 石质基座（底部20% 石≥55%）在类内频率 0.20。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.foundation_stone_base",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "frequency": 0.2,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy 石质基座（stone_base，底部20% 石≥55%）频率"
+  },
+  {
+   "id": "STY.PAL.Fantasy.foundation_bottom_family",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Fantasy] 底部 1/3 主导材料族参考众数（见原规则 statement；频率 0.70）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Fantasy.foundation_bottom_family",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Fantasy"
+    ]
+   },
+   "stats": {
+    "frequency": 0.7,
+    "sample_n": 10
+   },
+   "original_statement": "Fantasy 底部 1/3 主导材料族众数：stone"
+  },
+  {
+   "id": "STY.ROOF.Japanese.roof_height_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] 屋顶高度占比（上部 stair+slab 连续带高/size_y）建议落在 IQR[0.0892,0.2535]（中位 0.1892，n=7）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.roof_height_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "median": 0.1892,
+    "p25": 0.0892,
+    "p75": 0.2535,
+    "min": 0.0735,
+    "max": 0.4,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese 屋顶高度占比 = 上部 stair+slab 最长连续带高 / size_y"
+  },
+  {
+   "id": "STY.ROOF.Japanese.roof_material_share_top3",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] 顶部 1/3 区域 stair+slab 材料占比建议落在 IQR[0.3013,0.4264]（中位 0.4073，n=7）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.roof_material_share_top3",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "median": 0.4073,
+    "p25": 0.3013,
+    "p75": 0.4264,
+    "min": 0.0888,
+    "max": 0.4582,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese 顶部 1/3 区域 stair+slab 材料占比（屋顶材料信号）"
+  },
+  {
+   "id": "STY.ROOF.Japanese.roof_overhang",
+   "category": "roof_rules",
+   "type": "OPTIONAL",
+   "statement": "[Japanese] 屋顶出檐（顶部1/3 脚印超出中部1/3 >5%）在类内频率 0.29，可自行取舍。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.roof_overhang",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "frequency": 0.2857,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese 屋顶出檐：顶部1/3 脚印超出中部1/3 >5% 的样本频率"
+  },
+  {
+   "id": "STY.ROOF.Japanese.roof_overhang_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] 出檐比例建议落在 IQR[0,0.0299]（中位 0，n=7）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.roof_overhang_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "median": 0.0,
+    "p25": 0.0,
+    "p75": 0.0299,
+    "min": 0.0,
+    "max": 0.2182,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese 出檐比例分布"
+  },
+  {
+   "id": "STY.PAL.Japanese.palette_wood_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] wood 材料族占比建议落在 IQR[0.2267,0.2948]（中位 0.2539，n=7）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.palette_wood_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "median": 0.2539,
+    "p25": 0.2267,
+    "p75": 0.2948,
+    "min": 0.1081,
+    "max": 0.3454,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese wood 材料占比"
+  },
+  {
+   "id": "STY.PAL.Japanese.palette_stone_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] stone 材料族占比建议落在 IQR[0.2685,0.6222]（中位 0.5174，n=7）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.palette_stone_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "median": 0.5174,
+    "p25": 0.2685,
+    "p75": 0.6222,
+    "min": 0.2369,
+    "max": 0.7693,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese stone 材料占比"
+  },
+  {
+   "id": "STY.PAL.Japanese.palette_glass_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] glass 材料族占比建议落在 IQR[0.0001,0.0033]（中位 0.0009，n=7）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.palette_glass_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "median": 0.0009,
+    "p25": 0.0001,
+    "p75": 0.0033,
+    "min": 0.0,
+    "max": 0.01,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese glass 材料占比"
+  },
+  {
+   "id": "STY.PAL.Japanese.palette_decorative_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] decorative 材料族占比建议落在 IQR[0.0184,0.0662]（中位 0.0429，n=7）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.palette_decorative_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "median": 0.0429,
+    "p25": 0.0184,
+    "p75": 0.0662,
+    "min": 0.0033,
+    "max": 0.0928,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese decorative 材料占比"
+  },
+  {
+   "id": "STY.PAL.Japanese.palette_top_blocks",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] 高频方块参考类内聚合 Top 列表（见 stats.value）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.palette_top_blocks",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "value": [
+     {
+      "block": "minecraft:dirt",
+      "share_of_class": 0.1038
+     },
+     {
+      "block": "minecraft:oak_planks",
+      "share_of_class": 0.0857
+     },
+     {
+      "block": "minecraft:cobblestone",
+      "share_of_class": 0.0822
+     },
+     {
+      "block": "minecraft:stone_bricks",
+      "share_of_class": 0.0439
+     },
+     {
+      "block": "minecraft:cracked_stone_bricks",
+      "share_of_class": 0.0358
+     },
+     {
+      "block": "minecraft:oak_stairs",
+      "share_of_class": 0.034
+     },
+     {
+      "block": "minecraft:dark_oak_planks",
+      "share_of_class": 0.0273
+     },
+     {
+      "block": "minecraft:pale_oak_slab",
+      "share_of_class": 0.0271
+     }
+    ],
+    "sample_n": 7
+   },
+   "original_statement": "Japanese 高频方块 Top（类内聚合）"
+  },
+  {
+   "id": "STY.PAL.Japanese.material_transition",
+   "category": "palette_rules",
+   "type": "OPTIONAL",
+   "statement": "[Japanese] 底/中/顶主导材料族模式参考众数（见原规则 statement；频率 0.29）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.material_transition",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "frequency": 0.2857,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese 底/中/顶主导材料族模式众数：stone→wood→stone"
+  },
+  {
+   "id": "STY.PAL.Japanese.foundation_stone_base",
+   "category": "palette_rules",
+   "type": "OPTIONAL",
+   "statement": "[Japanese] 石质基座（底部20% 石≥55%）在类内频率 0.29。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.foundation_stone_base",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "frequency": 0.2857,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese 石质基座（stone_base，底部20% 石≥55%）频率"
+  },
+  {
+   "id": "STY.PAL.Japanese.foundation_bottom_family",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Japanese] 底部 1/3 主导材料族参考众数（见原规则 statement；频率 0.71）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Japanese.foundation_bottom_family",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Japanese"
+    ]
+   },
+   "stats": {
+    "frequency": 0.7143,
+    "sample_n": 7
+   },
+   "original_statement": "Japanese 底部 1/3 主导材料族众数：stone"
+  },
+  {
+   "id": "STY.ROOF.Chinese.roof_height_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] 屋顶高度占比（上部 stair+slab 连续带高/size_y）建议落在 IQR[0.1102,0.3012]（中位 0.1612，n=4）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.roof_height_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "median": 0.1612,
+    "p25": 0.1102,
+    "p75": 0.3012,
+    "min": 0.0735,
+    "max": 0.6047,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese 屋顶高度占比 = 上部 stair+slab 最长连续带高 / size_y"
+  },
+  {
+   "id": "STY.ROOF.Chinese.roof_material_share_top3",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] 顶部 1/3 区域 stair+slab 材料占比建议落在 IQR[0.4333,0.6132]（中位 0.5613，n=4）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.roof_material_share_top3",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "median": 0.5613,
+    "p25": 0.4333,
+    "p75": 0.6132,
+    "min": 0.1698,
+    "max": 0.6481,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese 顶部 1/3 区域 stair+slab 材料占比（屋顶材料信号）"
+  },
+  {
+   "id": "STY.ROOF.Chinese.roof_overhang",
+   "category": "roof_rules",
+   "type": "OPTIONAL",
+   "statement": "[Chinese] 屋顶出檐（顶部1/3 脚印超出中部1/3 >5%）在类内频率 0.25，可自行取舍。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.roof_overhang",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "frequency": 0.25,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese 屋顶出檐：顶部1/3 脚印超出中部1/3 >5% 的样本频率"
+  },
+  {
+   "id": "STY.ROOF.Chinese.roof_overhang_ratio",
+   "category": "roof_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] 出檐比例建议落在 IQR[0,0.0491]（中位 0.0197，n=4）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.roof_overhang_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "median": 0.0197,
+    "p25": 0.0,
+    "p75": 0.0491,
+    "min": 0.0,
+    "max": 0.0784,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese 出檐比例分布"
+  },
+  {
+   "id": "STY.PAL.Chinese.palette_wood_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] wood 材料族占比建议落在 IQR[0.186,0.2217]（中位 0.2164，n=4）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.palette_wood_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "median": 0.2164,
+    "p25": 0.186,
+    "p75": 0.2217,
+    "min": 0.11,
+    "max": 0.2219,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese wood 材料占比"
+  },
+  {
+   "id": "STY.PAL.Chinese.palette_stone_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] stone 材料族占比建议落在 IQR[0.4777,0.6151]（中位 0.5352，n=4）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.palette_stone_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "median": 0.5352,
+    "p25": 0.4777,
+    "p75": 0.6151,
+    "min": 0.4638,
+    "max": 0.6958,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese stone 材料占比"
+  },
+  {
+   "id": "STY.PAL.Chinese.palette_glass_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] glass 材料族占比建议落在 IQR[0,0.018]（中位 0.0041，n=4）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.palette_glass_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "median": 0.0041,
+    "p25": 0.0,
+    "p75": 0.018,
+    "min": 0.0,
+    "max": 0.0476,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese glass 材料占比"
+  },
+  {
+   "id": "STY.PAL.Chinese.palette_decorative_ratio",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] decorative 材料族占比建议落在 IQR[0.0013,0.0269]（中位 0.0045，n=4）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.palette_decorative_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "median": 0.0045,
+    "p25": 0.0013,
+    "p75": 0.0269,
+    "min": 0.0,
+    "max": 0.0858,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese decorative 材料占比"
+  },
+  {
+   "id": "STY.PAL.Chinese.palette_top_blocks",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] 高频方块参考类内聚合 Top 列表（见 stats.value）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.palette_top_blocks",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "value": [
+     {
+      "block": "minecraft:stone_bricks",
+      "share_of_class": 0.2863
+     },
+     {
+      "block": "minecraft:spruce_slab",
+      "share_of_class": 0.0717
+     },
+     {
+      "block": "minecraft:smooth_stone_slab",
+      "share_of_class": 0.0578
+     },
+     {
+      "block": "minecraft:stone",
+      "share_of_class": 0.0387
+     },
+     {
+      "block": "minecraft:oak_planks",
+      "share_of_class": 0.0311
+     },
+     {
+      "block": "minecraft:smooth_sandstone",
+      "share_of_class": 0.0268
+     },
+     {
+      "block": "minecraft:stone_brick_slab",
+      "share_of_class": 0.0262
+     },
+     {
+      "block": "minecraft:stripped_spruce_log",
+      "share_of_class": 0.0233
+     }
+    ],
+    "sample_n": 4
+   },
+   "original_statement": "Chinese 高频方块 Top（类内聚合）"
+  },
+  {
+   "id": "STY.PAL.Chinese.material_transition",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] 底/中/顶主导材料族模式参考众数（见原规则 statement；频率 0.50）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.material_transition",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "frequency": 0.5,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese 底/中/顶主导材料族模式众数：stone→stone→stone"
+  },
+  {
+   "id": "STY.PAL.Chinese.foundation_stone_base",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] 石质基座（底部20% 石≥55%）在类内频率 0.50。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.foundation_stone_base",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "frequency": 0.5,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese 石质基座（stone_base，底部20% 石≥55%）频率"
+  },
+  {
+   "id": "STY.PAL.Chinese.foundation_bottom_family",
+   "category": "palette_rules",
+   "type": "SOFT",
+   "statement": "[Chinese] 底部 1/3 主导材料族参考众数（见原规则 statement；频率 1.00）。",
+   "source": {
+    "dataset": "04_GRAMMARS\\style_rules.json",
+    "rule_id": "STYLE.Chinese.foundation_bottom_family",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "style": [
+     "Chinese"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 4
+   },
+   "original_statement": "Chinese 底部 1/3 主导材料族众数：stone"
+  },
+  {
+   "id": "STY.ROOF.UNKNOWN.roof_form",
+   "category": "roof_rules",
+   "type": "HARD",
+   "statement": "屋顶形制（坡顶/歇山/悬山/攒尖/平顶等）与坡度曲线未被 grammar 测量，全风格 UNKNOWN：不得编造数值规则，交由 LLM 依据风格常识与参考蓝图预览自由发挥，或人工指定。",
+   "source": {
+    "dataset": "04_GRAMMARS/grammar_confidence_report.md",
+    "rule_id": "GCR.§2"
+   },
+   "confidence": "high",
+   "basis": "UNKNOWN",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "FUNC.Residential.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Residential] Residential 存在围合室内（interior_air_ratio≥0.01）频率 0.39",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.required_zones.enclosed_interior",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "frequency": 0.3913,
+    "sample_n": 23
+   },
+   "original_statement": "Residential 存在围合室内（interior_air_ratio≥0.01）频率 0.39"
+  },
+  {
+   "id": "FUNC.Residential.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "STRONG",
+   "statement": "[Residential] Residential 至少 1 扇外部门频率 0.78（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.required_zones.exterior_door",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "frequency": 0.7826,
+    "sample_n": 23
+   },
+   "original_statement": "Residential 至少 1 扇外部门频率 0.78（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Residential.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Residential] Residential ≥2 层频率 0.37（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.optional_zones.upper_floor",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "frequency": 0.3684,
+    "sample_n": 19
+   },
+   "original_statement": "Residential ≥2 层频率 0.37（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Residential.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Residential] Residential 院落（courtyard 特征）频率 0.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.optional_zones.courtyard",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 23
+   },
+   "original_statement": "Residential 院落（courtyard 特征）频率 0.00"
+  },
+  {
+   "id": "FUNC.Residential.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Residential] Residential 最大可走分量占比中位 0.36（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.zone_adjacency.largest_component",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "median": 0.3599,
+    "p25": 0.2761,
+    "p75": 0.4778,
+    "min": 0.0559,
+    "max": 0.7505,
+    "sample_n": 23
+   },
+   "original_statement": "Residential 最大可走分量占比中位 0.36（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Residential.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Residential] Residential 孤立空间数（≥8 体素非主分量）中位 32.0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.zone_adjacency.isolated_spaces",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "median": 32.0,
+    "p25": 21.0,
+    "p75": 46.5,
+    "min": 3.0,
+    "max": 176.0,
+    "sample_n": 23
+   },
+   "original_statement": "Residential 孤立空间数（≥8 体素非主分量）中位 32.0"
+  },
+  {
+   "id": "FUNC.Residential.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Residential] Residential 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.37（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.public_private_separation",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "frequency": 0.3684,
+    "sample_n": 19
+   },
+   "original_statement": "Residential 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.37（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Residential.vertical_access.presence",
+   "category": "function_rules",
+   "type": "STRONG",
+   "statement": "[Residential] Residential 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.vertical_access.presence",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 23
+   },
+   "original_statement": "Residential 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00"
+  },
+  {
+   "id": "FUNC.Residential.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "SOFT",
+   "statement": "[Residential] Residential 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=7）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.vertical_access.multifloor_requires",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 7
+   },
+   "original_statement": "Residential 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=7）"
+  },
+  {
+   "id": "FUNC.Residential.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Residential] Residential 垂直交通方式：楼梯簇中位 116、梯柱中位 1",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.vertical_access.means",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 116.0,
+     "ladder_column_median": 1.0
+    },
+    "sample_n": 23
+   },
+   "original_statement": "Residential 垂直交通方式：楼梯簇中位 116、梯柱中位 1"
+  },
+  {
+   "id": "FUNC.Residential.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Residential] Residential 外部门候选数中位 2",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.entrance_relation.exterior_door_count",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "median": 2.0,
+    "p25": 1.0,
+    "p75": 3.5,
+    "min": 0.0,
+    "max": 10.0,
+    "sample_n": 23
+   },
+   "original_statement": "Residential 外部门候选数中位 2"
+  },
+  {
+   "id": "FUNC.Residential.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Residential] Residential 死端比例（度1站位/总站位）中位 0.13",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.circulation_constraints.dead_end_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "median": 0.1334,
+    "p25": 0.0843,
+    "p75": 0.1851,
+    "min": 0.0335,
+    "max": 0.3065,
+    "sample_n": 23
+   },
+   "original_statement": "Residential 死端比例（度1站位/总站位）中位 0.13"
+  },
+  {
+   "id": "FUNC.Residential.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Residential] Residential 可用楼面面积中位 1342 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Residential.circulation_constraints.usable_floor_area",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Residential"
+    ]
+   },
+   "stats": {
+    "median": 1342.0,
+    "p25": 926.0,
+    "p75": 1948.0,
+    "min": 231.0,
+    "max": 6078.0,
+    "sample_n": 19
+   },
+   "original_statement": "Residential 可用楼面面积中位 1342 格"
+  },
+  {
+   "id": "FUNC.Decoration.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Decoration] Decoration 存在围合室内（interior_air_ratio≥0.01）频率 0.14",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.required_zones.enclosed_interior",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "frequency": 0.1364,
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 存在围合室内（interior_air_ratio≥0.01）频率 0.14"
+  },
+  {
+   "id": "FUNC.Decoration.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Decoration] Decoration 至少 1 扇外部门频率 0.00（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.required_zones.exterior_door",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 至少 1 扇外部门频率 0.00（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Decoration.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Decoration] Decoration ≥2 层频率 0.42（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.optional_zones.upper_floor",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "frequency": 0.4211,
+    "sample_n": 19
+   },
+   "original_statement": "Decoration ≥2 层频率 0.42（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Decoration.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Decoration] Decoration 院落（courtyard 特征）频率 0.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.optional_zones.courtyard",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 院落（courtyard 特征）频率 0.00"
+  },
+  {
+   "id": "FUNC.Decoration.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Decoration] Decoration 最大可走分量占比中位 0.35（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.zone_adjacency.largest_component",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "median": 0.3465,
+    "p25": 0.1838,
+    "p75": 0.6355,
+    "min": 0.001,
+    "max": 0.8095,
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 最大可走分量占比中位 0.35（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Decoration.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Decoration] Decoration 孤立空间数（≥8 体素非主分量）中位 2.0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.zone_adjacency.isolated_spaces",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "median": 2.0,
+    "p25": 0.0,
+    "p75": 16.75,
+    "min": 0.0,
+    "max": 241.0,
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 孤立空间数（≥8 体素非主分量）中位 2.0"
+  },
+  {
+   "id": "FUNC.Decoration.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Decoration] Decoration 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.42（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.public_private_separation",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "frequency": 0.4211,
+    "sample_n": 19
+   },
+   "original_statement": "Decoration 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.42（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Decoration.vertical_access.presence",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Decoration] Decoration 存在垂直交通（楼梯簇/梯柱≥1）频率 0.50",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.vertical_access.presence",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "frequency": 0.5,
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 存在垂直交通（楼梯簇/梯柱≥1）频率 0.50"
+  },
+  {
+   "id": "FUNC.Decoration.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "OPTIONAL",
+   "statement": "[Decoration] Decoration 多层 ⇒ 有垂直交通：条件频率 0.38（n_multi=8）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.vertical_access.multifloor_requires",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "frequency": 0.375,
+    "sample_n": 8
+   },
+   "original_statement": "Decoration 多层 ⇒ 有垂直交通：条件频率 0.38（n_multi=8）"
+  },
+  {
+   "id": "FUNC.Decoration.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Decoration] Decoration 垂直交通方式：楼梯簇中位 0、梯柱中位 0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.vertical_access.means",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 0.0,
+     "ladder_column_median": 0.0
+    },
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 垂直交通方式：楼梯簇中位 0、梯柱中位 0"
+  },
+  {
+   "id": "FUNC.Decoration.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "STRONG",
+   "statement": "[Decoration] Decoration 外部门候选数中位 0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.entrance_relation.exterior_door_count",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "median": 0.0,
+    "p25": 0.0,
+    "p75": 0.0,
+    "min": 0.0,
+    "max": 0.0,
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 外部门候选数中位 0"
+  },
+  {
+   "id": "FUNC.Decoration.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Decoration] Decoration 死端比例（度1站位/总站位）中位 0.16",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.circulation_constraints.dead_end_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "median": 0.1636,
+    "p25": 0.0715,
+    "p75": 0.2503,
+    "min": 0.0,
+    "max": 0.3918,
+    "sample_n": 22
+   },
+   "original_statement": "Decoration 死端比例（度1站位/总站位）中位 0.16"
+  },
+  {
+   "id": "FUNC.Decoration.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Decoration] Decoration 可用楼面面积中位 267 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Decoration.circulation_constraints.usable_floor_area",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Decoration"
+    ]
+   },
+   "stats": {
+    "median": 267.0,
+    "p25": 76.5,
+    "p75": 1048.0,
+    "min": 16.0,
+    "max": 20880.0,
+    "sample_n": 19
+   },
+   "original_statement": "Decoration 可用楼面面积中位 267 格"
+  },
+  {
+   "id": "FUNC.Castle.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 存在围合室内（interior_air_ratio≥0.01）频率 0.50",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.required_zones.enclosed_interior",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.5,
+    "sample_n": 14
+   },
+   "original_statement": "Castle 存在围合室内（interior_air_ratio≥0.01）频率 0.50"
+  },
+  {
+   "id": "FUNC.Castle.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 至少 1 扇外部门频率 0.71（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.required_zones.exterior_door",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.7143,
+    "sample_n": 14
+   },
+   "original_statement": "Castle 至少 1 扇外部门频率 0.71（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Castle.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle ≥2 层频率 0.45（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.optional_zones.upper_floor",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.4545,
+    "sample_n": 11
+   },
+   "original_statement": "Castle ≥2 层频率 0.45（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Castle.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Castle] Castle 院落（courtyard 特征）频率 0.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.optional_zones.courtyard",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 14
+   },
+   "original_statement": "Castle 院落（courtyard 特征）频率 0.00"
+  },
+  {
+   "id": "FUNC.Castle.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 最大可走分量占比中位 0.39（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.zone_adjacency.largest_component",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "median": 0.3876,
+    "p25": 0.2134,
+    "p75": 0.6077,
+    "min": 0.0885,
+    "max": 0.8262,
+    "sample_n": 14
+   },
+   "original_statement": "Castle 最大可走分量占比中位 0.39（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Castle.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 孤立空间数（≥8 体素非主分量）中位 53.5",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.zone_adjacency.isolated_spaces",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "median": 53.5,
+    "p25": 28.75,
+    "p75": 105.5,
+    "min": 12.0,
+    "max": 783.0,
+    "sample_n": 14
+   },
+   "original_statement": "Castle 孤立空间数（≥8 体素非主分量）中位 53.5"
+  },
+  {
+   "id": "FUNC.Castle.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Castle] Castle 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.45（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.public_private_separation",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.4545,
+    "sample_n": 11
+   },
+   "original_statement": "Castle 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.45（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Castle.vertical_access.presence",
+   "category": "function_rules",
+   "type": "STRONG",
+   "statement": "[Castle] Castle 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.vertical_access.presence",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 14
+   },
+   "original_statement": "Castle 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00"
+  },
+  {
+   "id": "FUNC.Castle.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=5）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.vertical_access.multifloor_requires",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 5
+   },
+   "original_statement": "Castle 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=5）"
+  },
+  {
+   "id": "FUNC.Castle.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 垂直交通方式：楼梯簇中位 113、梯柱中位 4",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.vertical_access.means",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 113.0,
+     "ladder_column_median": 3.5
+    },
+    "sample_n": 14
+   },
+   "original_statement": "Castle 垂直交通方式：楼梯簇中位 113、梯柱中位 4"
+  },
+  {
+   "id": "FUNC.Castle.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 外部门候选数中位 15",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.entrance_relation.exterior_door_count",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "median": 15.0,
+    "p25": 0.5,
+    "p75": 26.75,
+    "min": 0.0,
+    "max": 32.0,
+    "sample_n": 14
+   },
+   "original_statement": "Castle 外部门候选数中位 15"
+  },
+  {
+   "id": "FUNC.Castle.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 死端比例（度1站位/总站位）中位 0.08",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.circulation_constraints.dead_end_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "median": 0.0762,
+    "p25": 0.0396,
+    "p75": 0.0944,
+    "min": 0.009,
+    "max": 0.1975,
+    "sample_n": 14
+   },
+   "original_statement": "Castle 死端比例（度1站位/总站位）中位 0.08"
+  },
+  {
+   "id": "FUNC.Castle.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Castle] Castle 可用楼面面积中位 2206 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Castle.circulation_constraints.usable_floor_area",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Castle"
+    ]
+   },
+   "stats": {
+    "median": 2206.0,
+    "p25": 1598.5,
+    "p75": 4729.0,
+    "min": 722.0,
+    "max": 16944.0,
+    "sample_n": 11
+   },
+   "original_statement": "Castle 可用楼面面积中位 2206 格"
+  },
+  {
+   "id": "FUNC.Tower.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Tower] Tower 存在围合室内（interior_air_ratio≥0.01）频率 0.31",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.required_zones.enclosed_interior",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "frequency": 0.3077,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 存在围合室内（interior_air_ratio≥0.01）频率 0.31"
+  },
+  {
+   "id": "FUNC.Tower.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Tower] Tower 至少 1 扇外部门频率 0.54（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.required_zones.exterior_door",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "frequency": 0.5385,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 至少 1 扇外部门频率 0.54（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Tower.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Tower] Tower ≥2 层频率 0.62（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.optional_zones.upper_floor",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6154,
+    "sample_n": 13
+   },
+   "original_statement": "Tower ≥2 层频率 0.62（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Tower.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Tower] Tower 院落（courtyard 特征）频率 0.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.optional_zones.courtyard",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 院落（courtyard 特征）频率 0.00"
+  },
+  {
+   "id": "FUNC.Tower.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Tower] Tower 最大可走分量占比中位 0.43（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.zone_adjacency.largest_component",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "median": 0.435,
+    "p25": 0.2109,
+    "p75": 0.5194,
+    "min": 0.1578,
+    "max": 0.832,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 最大可走分量占比中位 0.43（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Tower.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Tower] Tower 孤立空间数（≥8 体素非主分量）中位 14.0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.zone_adjacency.isolated_spaces",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "median": 14.0,
+    "p25": 4.0,
+    "p75": 19.0,
+    "min": 0.0,
+    "max": 143.0,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 孤立空间数（≥8 体素非主分量）中位 14.0"
+  },
+  {
+   "id": "FUNC.Tower.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Tower] Tower 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.62（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.public_private_separation",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6154,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.62（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Tower.vertical_access.presence",
+   "category": "function_rules",
+   "type": "STRONG",
+   "statement": "[Tower] Tower 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.vertical_access.presence",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00"
+  },
+  {
+   "id": "FUNC.Tower.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "HARD",
+   "statement": "[Tower] Tower 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=8）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.vertical_access.multifloor_requires",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 8
+   },
+   "original_statement": "Tower 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=8）"
+  },
+  {
+   "id": "FUNC.Tower.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Tower] Tower 垂直交通方式：楼梯簇中位 44、梯柱中位 1",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.vertical_access.means",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 44.0,
+     "ladder_column_median": 1.0
+    },
+    "sample_n": 13
+   },
+   "original_statement": "Tower 垂直交通方式：楼梯簇中位 44、梯柱中位 1"
+  },
+  {
+   "id": "FUNC.Tower.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Tower] Tower 外部门候选数中位 1",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.entrance_relation.exterior_door_count",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "median": 1.0,
+    "p25": 0.0,
+    "p75": 2.0,
+    "min": 0.0,
+    "max": 152.0,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 外部门候选数中位 1"
+  },
+  {
+   "id": "FUNC.Tower.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Tower] Tower 死端比例（度1站位/总站位）中位 0.10",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.circulation_constraints.dead_end_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "median": 0.1016,
+    "p25": 0.061,
+    "p75": 0.1913,
+    "min": 0.0078,
+    "max": 0.2939,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 死端比例（度1站位/总站位）中位 0.10"
+  },
+  {
+   "id": "FUNC.Tower.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Tower] Tower 可用楼面面积中位 473 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Tower.circulation_constraints.usable_floor_area",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Tower"
+    ]
+   },
+   "stats": {
+    "median": 473.0,
+    "p25": 246.0,
+    "p75": 1925.0,
+    "min": 86.0,
+    "max": 4308.0,
+    "sample_n": 13
+   },
+   "original_statement": "Tower 可用楼面面积中位 473 格"
+  },
+  {
+   "id": "FUNC.Religious.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Religious] Religious 存在围合室内（interior_air_ratio≥0.01）频率 0.30",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.required_zones.enclosed_interior",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "frequency": 0.3,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 存在围合室内（interior_air_ratio≥0.01）频率 0.30"
+  },
+  {
+   "id": "FUNC.Religious.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Religious] Religious 至少 1 扇外部门频率 0.50（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.required_zones.exterior_door",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "frequency": 0.5,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 至少 1 扇外部门频率 0.50（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Religious.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Religious] Religious ≥2 层频率 0.30（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.optional_zones.upper_floor",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "frequency": 0.3,
+    "sample_n": 10
+   },
+   "original_statement": "Religious ≥2 层频率 0.30（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Religious.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Religious] Religious 院落（courtyard 特征）频率 0.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.optional_zones.courtyard",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 院落（courtyard 特征）频率 0.00"
+  },
+  {
+   "id": "FUNC.Religious.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "STRONG",
+   "statement": "[Religious] Religious 最大可走分量占比中位 0.38（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.zone_adjacency.largest_component",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "median": 0.3813,
+    "p25": 0.3296,
+    "p75": 0.4506,
+    "min": 0.0757,
+    "max": 0.6028,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 最大可走分量占比中位 0.38（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Religious.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Religious] Religious 孤立空间数（≥8 体素非主分量）中位 27.5",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.zone_adjacency.isolated_spaces",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "median": 27.5,
+    "p25": 18.25,
+    "p75": 55.0,
+    "min": 3.0,
+    "max": 117.0,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 孤立空间数（≥8 体素非主分量）中位 27.5"
+  },
+  {
+   "id": "FUNC.Religious.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Religious] Religious 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.30（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.public_private_separation",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "frequency": 0.3,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.30（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Religious.vertical_access.presence",
+   "category": "function_rules",
+   "type": "STRONG",
+   "statement": "[Religious] Religious 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.vertical_access.presence",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00"
+  },
+  {
+   "id": "FUNC.Religious.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "SOFT",
+   "statement": "[Religious] Religious 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=3）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.vertical_access.multifloor_requires",
+    "support": "OBSERVATION ONLY"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 3
+   },
+   "original_statement": "Religious 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=3）"
+  },
+  {
+   "id": "FUNC.Religious.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Religious] Religious 垂直交通方式：楼梯簇中位 60、梯柱中位 0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.vertical_access.means",
+    "support": "SUPPORTED"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 60.0,
+     "ladder_column_median": 0.0
+    },
+    "sample_n": 10
+   },
+   "original_statement": "Religious 垂直交通方式：楼梯簇中位 60、梯柱中位 0"
+  },
+  {
+   "id": "FUNC.Religious.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Religious] Religious 外部门候选数中位 1",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.entrance_relation.exterior_door_count",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "median": 1.0,
+    "p25": 0.0,
+    "p75": 2.75,
+    "min": 0.0,
+    "max": 42.0,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 外部门候选数中位 1"
+  },
+  {
+   "id": "FUNC.Religious.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Religious] Religious 死端比例（度1站位/总站位）中位 0.08",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.circulation_constraints.dead_end_ratio",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "median": 0.0778,
+    "p25": 0.0606,
+    "p75": 0.1048,
+    "min": 0.0219,
+    "max": 0.1847,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 死端比例（度1站位/总站位）中位 0.08"
+  },
+  {
+   "id": "FUNC.Religious.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Religious] Religious 可用楼面面积中位 1612 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Religious.circulation_constraints.usable_floor_area",
+    "support": "SUPPORTED"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Religious"
+    ]
+   },
+   "stats": {
+    "median": 1611.5,
+    "p25": 776.75,
+    "p75": 3390.0,
+    "min": 193.0,
+    "max": 10102.0,
+    "sample_n": 10
+   },
+   "original_statement": "Religious 可用楼面面积中位 1612 格"
+  },
+  {
+   "id": "FUNC.Workshop.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 存在围合室内（interior_air_ratio≥0.01）频率 0.43",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.required_zones.enclosed_interior",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "frequency": 0.4286,
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 存在围合室内（interior_air_ratio≥0.01）频率 0.43"
+  },
+  {
+   "id": "FUNC.Workshop.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 至少 1 扇外部门频率 0.71（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.required_zones.exterior_door",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "frequency": 0.7143,
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 至少 1 扇外部门频率 0.71（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Workshop.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop ≥2 层频率 0.67（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.optional_zones.upper_floor",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6667,
+    "sample_n": 6
+   },
+   "original_statement": "Workshop ≥2 层频率 0.67（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Workshop.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Workshop] Workshop 院落（courtyard 特征）频率 0.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.optional_zones.courtyard",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 院落（courtyard 特征）频率 0.00"
+  },
+  {
+   "id": "FUNC.Workshop.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 最大可走分量占比中位 0.56（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.zone_adjacency.largest_component",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "median": 0.5615,
+    "p25": 0.4404,
+    "p75": 0.7568,
+    "min": 0.2588,
+    "max": 0.8543,
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 最大可走分量占比中位 0.56（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Workshop.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 孤立空间数（≥8 体素非主分量）中位 7.0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.zone_adjacency.isolated_spaces",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "median": 7.0,
+    "p25": 3.0,
+    "p75": 28.0,
+    "min": 0.0,
+    "max": 102.0,
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 孤立空间数（≥8 体素非主分量）中位 7.0"
+  },
+  {
+   "id": "FUNC.Workshop.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Workshop] Workshop 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.67（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.public_private_separation",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6667,
+    "sample_n": 6
+   },
+   "original_statement": "Workshop 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.67（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Workshop.vertical_access.presence",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 存在垂直交通（楼梯簇/梯柱≥1）频率 0.86",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.vertical_access.presence",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "frequency": 0.8571,
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 存在垂直交通（楼梯簇/梯柱≥1）频率 0.86"
+  },
+  {
+   "id": "FUNC.Workshop.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 多层 ⇒ 有垂直交通：条件频率 0.75（n_multi=4）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.vertical_access.multifloor_requires",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "frequency": 0.75,
+    "sample_n": 4
+   },
+   "original_statement": "Workshop 多层 ⇒ 有垂直交通：条件频率 0.75（n_multi=4）"
+  },
+  {
+   "id": "FUNC.Workshop.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 垂直交通方式：楼梯簇中位 28、梯柱中位 5",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.vertical_access.means",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 28.0,
+     "ladder_column_median": 5.0
+    },
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 垂直交通方式：楼梯簇中位 28、梯柱中位 5"
+  },
+  {
+   "id": "FUNC.Workshop.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 外部门候选数中位 2",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.entrance_relation.exterior_door_count",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "median": 2.0,
+    "p25": 1.0,
+    "p75": 4.0,
+    "min": 0.0,
+    "max": 7.0,
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 外部门候选数中位 2"
+  },
+  {
+   "id": "FUNC.Workshop.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 死端比例（度1站位/总站位）中位 0.09",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.circulation_constraints.dead_end_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "median": 0.0859,
+    "p25": 0.0743,
+    "p75": 0.1488,
+    "min": 0.0622,
+    "max": 0.2326,
+    "sample_n": 7
+   },
+   "original_statement": "Workshop 死端比例（度1站位/总站位）中位 0.09"
+  },
+  {
+   "id": "FUNC.Workshop.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Workshop] Workshop 可用楼面面积中位 570 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Workshop.circulation_constraints.usable_floor_area",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Workshop"
+    ]
+   },
+   "stats": {
+    "median": 570.5,
+    "p25": 293.25,
+    "p75": 772.75,
+    "min": 52.0,
+    "max": 1574.0,
+    "sample_n": 6
+   },
+   "original_statement": "Workshop 可用楼面面积中位 570 格"
+  },
+  {
+   "id": "FUNC.Vehicle.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 存在围合室内（interior_air_ratio≥0.01）频率 0.43",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.required_zones.enclosed_interior",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.4286,
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 存在围合室内（interior_air_ratio≥0.01）频率 0.43"
+  },
+  {
+   "id": "FUNC.Vehicle.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 至少 1 扇外部门频率 0.71（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.required_zones.exterior_door",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.7143,
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 至少 1 扇外部门频率 0.71（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Vehicle.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Vehicle] Vehicle ≥2 层频率 0.20（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.optional_zones.upper_floor",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.2,
+    "sample_n": 5
+   },
+   "original_statement": "Vehicle ≥2 层频率 0.20（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Vehicle.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Vehicle] Vehicle 院落（courtyard 特征）频率 0.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.optional_zones.courtyard",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 院落（courtyard 特征）频率 0.00"
+  },
+  {
+   "id": "FUNC.Vehicle.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 最大可走分量占比中位 0.38（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.zone_adjacency.largest_component",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "median": 0.377,
+    "p25": 0.3183,
+    "p75": 0.5145,
+    "min": 0.1748,
+    "max": 0.5262,
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 最大可走分量占比中位 0.38（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Vehicle.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 孤立空间数（≥8 体素非主分量）中位 48.0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.zone_adjacency.isolated_spaces",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "median": 48.0,
+    "p25": 12.5,
+    "p75": 111.0,
+    "min": 2.0,
+    "max": 194.0,
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 孤立空间数（≥8 体素非主分量）中位 48.0"
+  },
+  {
+   "id": "FUNC.Vehicle.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Vehicle] Vehicle 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.20（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.public_private_separation",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "frequency": 0.2,
+    "sample_n": 5
+   },
+   "original_statement": "Vehicle 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.20（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Vehicle.vertical_access.presence",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.vertical_access.presence",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00"
+  },
+  {
+   "id": "FUNC.Vehicle.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=1）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.vertical_access.multifloor_requires",
+    "support": "OBSERVATION ONLY"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 1
+   },
+   "original_statement": "Vehicle 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=1）"
+  },
+  {
+   "id": "FUNC.Vehicle.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 垂直交通方式：楼梯簇中位 208、梯柱中位 2",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.vertical_access.means",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 208.0,
+     "ladder_column_median": 2.0
+    },
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 垂直交通方式：楼梯簇中位 208、梯柱中位 2"
+  },
+  {
+   "id": "FUNC.Vehicle.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 外部门候选数中位 3",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.entrance_relation.exterior_door_count",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "median": 3.0,
+    "p25": 1.0,
+    "p75": 7.0,
+    "min": 0.0,
+    "max": 14.0,
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 外部门候选数中位 3"
+  },
+  {
+   "id": "FUNC.Vehicle.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 死端比例（度1站位/总站位）中位 0.11",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.circulation_constraints.dead_end_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "median": 0.1065,
+    "p25": 0.096,
+    "p75": 0.197,
+    "min": 0.067,
+    "max": 0.2387,
+    "sample_n": 7
+   },
+   "original_statement": "Vehicle 死端比例（度1站位/总站位）中位 0.11"
+  },
+  {
+   "id": "FUNC.Vehicle.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Vehicle] Vehicle 可用楼面面积中位 825 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Vehicle.circulation_constraints.usable_floor_area",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Vehicle"
+    ]
+   },
+   "stats": {
+    "median": 825.0,
+    "p25": 210.0,
+    "p75": 2504.0,
+    "min": 45.0,
+    "max": 2534.0,
+    "sample_n": 5
+   },
+   "original_statement": "Vehicle 可用楼面面积中位 825 格"
+  },
+  {
+   "id": "FUNC.Inn.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 存在围合室内（interior_air_ratio≥0.01）频率 0.60",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.required_zones.enclosed_interior",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 存在围合室内（interior_air_ratio≥0.01）频率 0.60"
+  },
+  {
+   "id": "FUNC.Inn.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 至少 1 扇外部门频率 1.00（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.required_zones.exterior_door",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 至少 1 扇外部门频率 1.00（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Inn.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn ≥2 层频率 0.60（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.optional_zones.upper_floor",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6,
+    "sample_n": 5
+   },
+   "original_statement": "Inn ≥2 层频率 0.60（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Inn.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Inn] Inn 院落（courtyard 特征）频率 0.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.optional_zones.courtyard",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "frequency": 0.0,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 院落（courtyard 特征）频率 0.00"
+  },
+  {
+   "id": "FUNC.Inn.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 最大可走分量占比中位 0.51（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.zone_adjacency.largest_component",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "median": 0.5125,
+    "p25": 0.5084,
+    "p75": 0.5487,
+    "min": 0.4265,
+    "max": 0.561,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 最大可走分量占比中位 0.51（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Inn.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 孤立空间数（≥8 体素非主分量）中位 44.0",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.zone_adjacency.isolated_spaces",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "median": 44.0,
+    "p25": 20.0,
+    "p75": 63.0,
+    "min": 18.0,
+    "max": 81.0,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 孤立空间数（≥8 体素非主分量）中位 44.0"
+  },
+  {
+   "id": "FUNC.Inn.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Inn] Inn 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.60（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.public_private_separation",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.60（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Inn.vertical_access.presence",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.vertical_access.presence",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00"
+  },
+  {
+   "id": "FUNC.Inn.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=3）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.vertical_access.multifloor_requires",
+    "support": "OBSERVATION ONLY"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 3
+   },
+   "original_statement": "Inn 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=3）"
+  },
+  {
+   "id": "FUNC.Inn.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 垂直交通方式：楼梯簇中位 118、梯柱中位 10",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.vertical_access.means",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 118.0,
+     "ladder_column_median": 10.0
+    },
+    "sample_n": 5
+   },
+   "original_statement": "Inn 垂直交通方式：楼梯簇中位 118、梯柱中位 10"
+  },
+  {
+   "id": "FUNC.Inn.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 外部门候选数中位 3",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.entrance_relation.exterior_door_count",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "median": 3.0,
+    "p25": 3.0,
+    "p75": 4.0,
+    "min": 1.0,
+    "max": 9.0,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 外部门候选数中位 3"
+  },
+  {
+   "id": "FUNC.Inn.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 死端比例（度1站位/总站位）中位 0.09",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.circulation_constraints.dead_end_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "median": 0.0928,
+    "p25": 0.0714,
+    "p75": 0.1495,
+    "min": 0.0661,
+    "max": 0.1563,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 死端比例（度1站位/总站位）中位 0.09"
+  },
+  {
+   "id": "FUNC.Inn.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Inn] Inn 可用楼面面积中位 1313 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Inn.circulation_constraints.usable_floor_area",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Inn"
+    ]
+   },
+   "stats": {
+    "median": 1313.0,
+    "p25": 980.0,
+    "p75": 3589.0,
+    "min": 713.0,
+    "max": 5685.0,
+    "sample_n": 5
+   },
+   "original_statement": "Inn 可用楼面面积中位 1313 格"
+  },
+  {
+   "id": "FUNC.Civic.required_zones.enclosed_interior",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Civic] Civic 存在围合室内（interior_air_ratio≥0.01）频率 0.25",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.required_zones.enclosed_interior",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.25,
+    "sample_n": 4
+   },
+   "original_statement": "Civic 存在围合室内（interior_air_ratio≥0.01）频率 0.25"
+  },
+  {
+   "id": "FUNC.Civic.required_zones.exterior_door",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 至少 1 扇外部门频率 0.75（door_count≠entrance_count，此处为外部门候选）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.required_zones.exterior_door",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.75,
+    "sample_n": 4
+   },
+   "original_statement": "Civic 至少 1 扇外部门频率 0.75（door_count≠entrance_count，此处为外部门候选）"
+  },
+  {
+   "id": "FUNC.Civic.optional_zones.upper_floor",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic ≥2 层频率 0.67（上层作为可选 zone）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.optional_zones.upper_floor",
+    "support": "OBSERVATION ONLY"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6667,
+    "sample_n": 3
+   },
+   "original_statement": "Civic ≥2 层频率 0.67（上层作为可选 zone）"
+  },
+  {
+   "id": "FUNC.Civic.optional_zones.courtyard",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Civic] Civic 院落（courtyard 特征）频率 0.25",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.optional_zones.courtyard",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.25,
+    "sample_n": 4
+   },
+   "original_statement": "Civic 院落（courtyard 特征）频率 0.25"
+  },
+  {
+   "id": "FUNC.Civic.zone_adjacency.largest_component",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 最大可走分量占比中位 0.48（高=各区连通好）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.zone_adjacency.largest_component",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "median": 0.4812,
+    "p25": 0.4266,
+    "p75": 0.5522,
+    "min": 0.3872,
+    "max": 0.6407,
+    "sample_n": 4
+   },
+   "original_statement": "Civic 最大可走分量占比中位 0.48（高=各区连通好）"
+  },
+  {
+   "id": "FUNC.Civic.zone_adjacency.isolated_spaces",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 孤立空间数（≥8 体素非主分量）中位 37.5",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.zone_adjacency.isolated_spaces",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "median": 37.5,
+    "p25": 33.5,
+    "p75": 72.0,
+    "min": 23.0,
+    "max": 174.0,
+    "sample_n": 4
+   },
+   "original_statement": "Civic 孤立空间数（≥8 体素非主分量）中位 37.5"
+  },
+  {
+   "id": "FUNC.Civic.public_private_separation",
+   "category": "function_rules",
+   "type": "OPTIONAL",
+   "statement": "[Civic] Civic 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.67（上层私密假设为 INFERRED）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.public_private_separation",
+    "support": "OBSERVATION ONLY"
+   },
+   "confidence": "low",
+   "basis": "INFERRED",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "frequency": 0.6667,
+    "sample_n": 3
+   },
+   "original_statement": "Civic 公私分区不可从 IR 直接判定；弱代理：≥2 层频率 0.67（上层私密假设为 INFERRED）"
+  },
+  {
+   "id": "FUNC.Civic.vertical_access.presence",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.vertical_access.presence",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 4
+   },
+   "original_statement": "Civic 存在垂直交通（楼梯簇/梯柱≥1）频率 1.00"
+  },
+  {
+   "id": "FUNC.Civic.vertical_access.multifloor_requires",
+   "category": "vertical_access_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=2）",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.vertical_access.multifloor_requires",
+    "support": "OBSERVATION ONLY"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "frequency": 1.0,
+    "sample_n": 2
+   },
+   "original_statement": "Civic 多层 ⇒ 有垂直交通：条件频率 1.00（n_multi=2）"
+  },
+  {
+   "id": "FUNC.Civic.vertical_access.means",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 垂直交通方式：楼梯簇中位 85、梯柱中位 1",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.vertical_access.means",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "value": {
+     "stair_cluster_median": 85.0,
+     "ladder_column_median": 1.0
+    },
+    "sample_n": 4
+   },
+   "original_statement": "Civic 垂直交通方式：楼梯簇中位 85、梯柱中位 1"
+  },
+  {
+   "id": "FUNC.Civic.entrance_relation.exterior_door_count",
+   "category": "function_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 外部门候选数中位 2",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.entrance_relation.exterior_door_count",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "median": 2.5,
+    "p25": 0.75,
+    "p75": 5.5,
+    "min": 0.0,
+    "max": 10.0,
+    "sample_n": 4
+   },
+   "original_statement": "Civic 外部门候选数中位 2"
+  },
+  {
+   "id": "FUNC.Civic.circulation_constraints.dead_end_ratio",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 死端比例（度1站位/总站位）中位 0.07",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.circulation_constraints.dead_end_ratio",
+    "support": "PROVISIONAL"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "median": 0.0705,
+    "p25": 0.0604,
+    "p75": 0.1081,
+    "min": 0.0382,
+    "max": 0.2131,
+    "sample_n": 4
+   },
+   "original_statement": "Civic 死端比例（度1站位/总站位）中位 0.07"
+  },
+  {
+   "id": "FUNC.Civic.circulation_constraints.usable_floor_area",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "[Civic] Civic 可用楼面面积中位 5034 格",
+   "source": {
+    "dataset": "04_GRAMMARS\\functional_rules.json",
+    "rule_id": "FUNC.Civic.circulation_constraints.usable_floor_area",
+    "support": "OBSERVATION ONLY"
+   },
+   "confidence": "low",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "function": [
+     "Civic"
+    ]
+   },
+   "stats": {
+    "median": 5034.0,
+    "p25": 3855.0,
+    "p75": 6605.0,
+    "min": 2676.0,
+    "max": 8176.0,
+    "sample_n": 3
+   },
+   "original_statement": "Civic 可用楼面面积中位 5034 格"
+  },
+  {
+   "id": "CIR-G-01",
+   "category": "circulation_rules",
+   "type": "HARD",
+   "statement": "主入口开门后应直接进入或经短门厅进入主要空间；不要把主入口开进与主空间断开的附属小房间（图上虽连通但主分量占比会被拉低，触发 V003）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V003"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "CIR-G-02",
+   "category": "circulation_rules",
+   "type": "STRONG",
+   "statement": "非设计性死路控制：走廊尽头应是房间/楼梯/门窗之一；内部死端站位 <15（V012 WARNING 阈值），并参照功能类的 dead_end_ratio 中位数（见 circulation_rules 中 FUNC.*.dead_end_ratio 各条）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V012"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "info_min": 6,
+    "warn_min": 15
+   }
+  },
+  {
+   "id": "CIR-G-03",
+   "category": "circulation_rules",
+   "type": "SOFT",
+   "statement": "'出后门绕行再进侧门' 在连通图上算连通（V003/V004 不判不可达），但语义上是劣质动线——内部空间之间应有内部通道，绕行外廊只作补充（VALIDATION_SPEC V003 盲区，生成侧自律）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/VALIDATION_SPEC.md",
+    "rule_id": "V003.blind_spot"
+   },
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "VA-G-01",
+   "category": "vertical_access_rules",
+   "type": "HARD",
+   "statement": "楼梯底部必须可进入：楼梯簇最底层至少一格有合法站位，且相邻站位高程 ≤ 底格高程+0.55（可走上/平级踏上），该邻居不能是同簇更高一级。底格全在 y=0 时按隐含地面放行。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V005"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "min_cluster_size": 3,
+    "min_y_span": 2,
+    "require_connected_bottom": true,
+    "max_blocks_per_level": 5
+   }
+  },
+  {
+   "id": "VA-G-02",
+   "category": "vertical_access_rules",
+   "type": "HARD",
+   "statement": "楼梯顶部必须有落点+净高——'楼梯尽头是墙' 的生成侧预防：顶格至少一格可走出，即存在邻居高程 > 顶格+0.05（继续向上），或高程 ≥ 顶格−0.05 且支撑为非楼梯实体（平台/半砖落点）；顶格上方 2 格内不得被实体埋住（无 headroom 判 WARNING，顶格有站位但无出口判 HARD_FAIL）。生成时先放落点平台，再接楼梯。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V006"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "min_cluster_size": 3,
+    "min_y_span": 2,
+    "require_connected_bottom": true,
+    "max_blocks_per_level": 5
+   }
+  },
+  {
+   "id": "VA-G-03",
+   "category": "vertical_access_rules",
+   "type": "STRONG",
+   "statement": "不要让楼梯顶部唯一出口是关闭的活板门舱口：模型里关着的活板门是半格实体，V006 会判堵（玩家实际可翻开，但静态判定不降级，见 known_limitations §2 V006 行）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/known_limitations.md",
+    "rule_id": "KL.§2.V006"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "VA-G-04",
+   "category": "vertical_access_rules",
+   "type": "HARD",
+   "statement": "多层 ⇒ 有效垂直连接：可用楼层（内部站位 ≥6，层高容差 0.6）≥2 时，各层站位必须与第一层同连通分量；楼梯簇需 size≥3、y_span≥2、底部接入主流通才被计为'有通行意义'（V005/V007 共用口径）。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V007"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_params": {
+    "min_floor_stances": 6,
+    "level_tol": 0.6,
+    "min_interior_stances": 9
+   }
+  },
+  {
+   "id": "VA-G-05",
+   "category": "vertical_access_rules",
+   "type": "SOFT",
+   "statement": "梯柱（ladder）井两侧若通向不同房间，同高程的多个站位都会被连接到上下级（P2 已修复为完全二部连接），但仍建议梯井出口处留 1 格平台，避免出口即墙。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/VALIDATION_SPEC.md",
+    "rule_id": "SPEC.§3.fix2"
+   },
+   "confidence": "medium",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   }
+  },
+  {
+   "id": "PC-V001",
+   "category": "validator_precheck",
+   "type": "HARD",
+   "statement": "提交前自检（对应 V001，severity=HARD_FAIL）：是否存在至少一个入口候选（外部门/无门开口/梯子舱口）？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V001"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "HARD_FAIL",
+   "validator_params": {
+    "min_interior_air": 27,
+    "min_interior_stances": 9
+   },
+   "fail_condition": "无入口且 interior_air≥27、interior_stances≥9 → HARD_FAIL"
+  },
+  {
+   "id": "PC-V002",
+   "category": "validator_precheck",
+   "type": "HARD",
+   "statement": "提交前自检（对应 V002，severity=HARD_FAIL）：主入口门槛内外是否各有可站立接近位（高程差 ≤1.0）？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V002"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "HARD_FAIL",
+   "validator_params": {
+    "max_drop": 1.0
+   },
+   "fail_condition": "缺任一侧 → HARD_FAIL；舱口接近问题只 WARNING"
+  },
+  {
+   "id": "PC-V003",
+   "category": "validator_precheck",
+   "type": "HARD",
+   "statement": "提交前自检（对应 V003，severity=HARD_FAIL）：从主入口出发能否到达 ≥50% 的内部站位？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V003"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "HARD_FAIL",
+   "validator_params": {
+    "min_interior_stances": 9,
+    "min_unreachable_stances": 9,
+    "max_reachable_ratio": 0.5,
+    "max_drop": 1.0
+   },
+   "fail_condition": "可达占比 <0.5 且不可达 ≥9 站位 → HARD_FAIL（隔离环有可交互构件降 WARNING）"
+  },
+  {
+   "id": "PC-V004",
+   "category": "validator_precheck",
+   "type": "HARD",
+   "statement": "提交前自检（对应 V004，severity=HARD_FAIL）：是否存在主分量之外 ≥9 内部站位的封闭空间？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V004"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "HARD_FAIL",
+   "validator_params": {
+    "warn_min_stances": 9,
+    "hard_min_stances": 20
+   },
+   "fail_condition": "9–19 站位 WARNING；≥20 且纯实体封闭 HARD_FAIL"
+  },
+  {
+   "id": "PC-V005",
+   "category": "validator_precheck",
+   "type": "HARD",
+   "statement": "提交前自检（对应 V005，severity=HARD_FAIL）：每个有通行意义的楼梯簇底部是否至少一格可进入？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V005"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "HARD_FAIL",
+   "validator_params": {
+    "min_cluster_size": 3,
+    "min_y_span": 2,
+    "require_connected_bottom": true,
+    "max_blocks_per_level": 5
+   },
+   "fail_condition": "底格全不可进入 → HARD_FAIL"
+  },
+  {
+   "id": "PC-V006",
+   "category": "validator_precheck",
+   "type": "HARD",
+   "statement": "提交前自检（对应 V006，severity=HARD_FAIL）：每个楼梯簇顶部是否至少一格可走出（平台/上行）且有净高？★重点自检",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V006"
+   },
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "HARD_FAIL",
+   "validator_params": {
+    "min_cluster_size": 3,
+    "min_y_span": 2,
+    "require_connected_bottom": true,
+    "max_blocks_per_level": 5
+   },
+   "fail_condition": "顶格有站位无出口 → HARD_FAIL；顶格被实体埋住 → WARNING"
+  },
+  {
+   "id": "PC-V007",
+   "category": "validator_precheck",
+   "type": "HARD",
+   "statement": "提交前自检（对应 V007，severity=HARD_FAIL）：若 ≥2 个可用楼层，是否都有垂直连接与第一层同分量？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V007"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "HARD_FAIL",
+   "validator_params": {
+    "min_floor_stances": 6,
+    "level_tol": 0.6,
+    "min_interior_stances": 9
+   },
+   "fail_condition": "任一层断开 → HARD_FAIL"
+  },
+  {
+   "id": "PC-V008",
+   "category": "validator_precheck",
+   "type": "STRONG",
+   "statement": "提交前自检（对应 V008，severity=WARNING）：每扇门沿通行轴两侧是否都有接近站位？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V008"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "WARNING",
+   "validator_params": {},
+   "fail_condition": "任一侧缺失 → WARNING"
+  },
+  {
+   "id": "PC-V009",
+   "category": "validator_precheck",
+   "type": "STRONG",
+   "statement": "提交前自检（对应 V009，severity=WARNING）：主要通路净高是否 ≥2 格？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V009"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "WARNING",
+   "validator_params": {
+    "min_cells": 12,
+    "min_ratio": 0.35
+   },
+   "fail_condition": "低净高格 ≥12 且占内部站位 ≥35% → WARNING"
+  },
+  {
+   "id": "PC-V010",
+   "category": "validator_precheck",
+   "type": "STRONG",
+   "statement": "提交前自检（对应 V010，severity=WARNING）：窗洞是否已用玻璃/活板门填充？围护是否有非设计性缺口？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V010"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "WARNING",
+   "validator_params": {
+    "min_interior_air": 27,
+    "min_gap_voxels": 10,
+    "min_gap_ratio": 0.02,
+    "opening_margin": 1
+   },
+   "fail_condition": "泄漏 ≥10 格且 ≥2% 内部空气 → WARNING"
+  },
+  {
+   "id": "PC-V011",
+   "category": "validator_precheck",
+   "type": "STRONG",
+   "statement": "提交前自检（对应 V011，severity=WARNING）：内部空间上方是否有屋顶覆盖？（有意天井请标注）",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V011"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "WARNING",
+   "validator_params": {
+    "min_interior_air": 27,
+    "min_columns": 12,
+    "min_ratio": 0.2
+   },
+   "fail_condition": "无屋顶柱 ≥12 且 ≥20% 内部柱 → WARNING"
+  },
+  {
+   "id": "PC-V012",
+   "category": "validator_precheck",
+   "type": "STRONG",
+   "statement": "提交前自检（对应 V012，severity=INFO）：内部死端站位数量统计？",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/validator_rules.json",
+    "rule_id": "V012"
+   },
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "applies_to": {
+    "all": true
+   },
+   "validator_severity": "INFO",
+   "validator_params": {
+    "info_min": 6,
+    "warn_min": 15
+   },
+   "fail_condition": "≥6 INFO；≥15 WARNING"
+  }
+ ]
+}

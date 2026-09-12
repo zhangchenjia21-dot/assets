@@ -1,0 +1,454 @@
+{
+  "generated_at": "2026-09-12T21:23:33.818568+00:00",
+  "selected_briefs": [
+    "BRIEF-0006",
+    "BRIEF-0037",
+    "BRIEF-0053",
+    "BRIEF-0091",
+    "BRIEF-0017",
+    "BRIEF-0030",
+    "BRIEF-0056",
+    "BRIEF-0065",
+    "BRIEF-0096",
+    "BRIEF-0043",
+    "BRIEF-0068",
+    "BRIEF-0099"
+  ],
+  "n_briefs": 12,
+  "rows": [
+    {
+      "brief_id": "BRIEF-0006",
+      "difficulty": "Easy",
+      "function_domain": "Residential",
+      "style": "Medieval",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0037",
+      "difficulty": "Easy",
+      "function_domain": "Workshop",
+      "style": "Rustic",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0053",
+      "difficulty": "Easy",
+      "function_domain": "Hospitality",
+      "style": "Rustic",
+      "targets_gap": true,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0091",
+      "difficulty": "Easy",
+      "function_domain": "Constrained Plot",
+      "style": "Medieval",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0017",
+      "difficulty": "Medium",
+      "function_domain": "Residential",
+      "style": "Rustic",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 20,
+        "style_score": 20,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 95,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 20,
+        "style_score": 20,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 95,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0030",
+      "difficulty": "Medium",
+      "function_domain": "Mixed-use",
+      "style": "Chinese",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 11,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 91,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 11,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 91,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0056",
+      "difficulty": "Medium",
+      "function_domain": "Hospitality",
+      "style": "Japanese",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 3,
+        "total": 95,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 3,
+        "total": 95,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0065",
+      "difficulty": "Medium",
+      "function_domain": "Civic",
+      "style": "Rustic",
+      "targets_gap": true,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 14,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 94,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 14,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 94,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0096",
+      "difficulty": "Medium",
+      "function_domain": "Constrained Plot",
+      "style": "Medieval",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 20,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 92,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 20,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 92,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0043",
+      "difficulty": "Hard",
+      "function_domain": "Workshop",
+      "style": "Rustic",
+      "targets_gap": true,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0068",
+      "difficulty": "Hard",
+      "function_domain": "Civic",
+      "style": "Rustic",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 25,
+        "style_score": 17,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 97,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 0,
+        "changed_cells": 0
+      },
+      "fixed_by_C": false
+    },
+    {
+      "brief_id": "BRIEF-0099",
+      "difficulty": "Hard",
+      "function_domain": "Constrained Plot",
+      "style": "Japanese",
+      "targets_gap": false,
+      "B": {
+        "hard_fail": 2,
+        "warn": 1,
+        "validator_score": 16,
+        "functional_score": 22,
+        "style_score": 14,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 40,
+        "grade": "POOR"
+      },
+      "C": {
+        "hard_fail": 0,
+        "warn": 0,
+        "validator_score": 40,
+        "functional_score": 22,
+        "style_score": 14,
+        "material_score": 10,
+        "efficiency_score": 5,
+        "total": 91,
+        "grade": "EXCELLENT"
+      },
+      "revision_cost": {
+        "rounds": 1,
+        "changed_cells": 6
+      },
+      "fixed_by_C": true
+    }
+  ],
+  "aggregate": {
+    "B": {
+      "hard_fail_rate": 0.0833,
+      "validator_score": 38.0,
+      "functional_score": 23.92,
+      "style_score": 16.25,
+      "material_score": 10.0,
+      "efficiency_score": 4.83,
+      "total": 90.75
+    },
+    "C": {
+      "hard_fail_rate": 0.0,
+      "validator_score": 40.0,
+      "functional_score": 23.92,
+      "style_score": 16.25,
+      "material_score": 10.0,
+      "efficiency_score": 4.83,
+      "total": 95.0,
+      "revision_rounds": 0.08,
+      "revision_cells": 0.5
+    },
+    "c_fix_success": {
+      "initial_hard_fail_n": 1,
+      "fixed_n": 1
+    }
+  }
+}

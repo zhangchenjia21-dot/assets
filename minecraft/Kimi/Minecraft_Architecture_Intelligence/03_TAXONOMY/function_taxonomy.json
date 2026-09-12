@@ -1,0 +1,380 @@
+{
+  "taxonomy": "Function",
+  "version": "P3-1.0",
+  "source": "V6C2 catalog-final.json primary_use+secondary_use 映射 + 几何交叉验证（build_labels.py）",
+  "candidate_classes_from_brief": [
+    "Residential",
+    "Workshop",
+    "Blacksmith",
+    "Inn",
+    "Farm",
+    "Warehouse",
+    "Tower",
+    "Gate",
+    "Religious",
+    "Civic",
+    "Castle",
+    "Bridge",
+    "Decoration",
+    "Mixed-use",
+    "Unknown"
+  ],
+  "not_built_zero_sample": [
+    "Bridge"
+  ],
+  "added_classes": [
+    "Vehicle"
+  ],
+  "classes": [
+    {
+      "id": "Residential",
+      "definition": "居住建筑：house/manor/treehouse。",
+      "judgment_signals": [
+        "primary_use=residential",
+        "交叉验证：door_count≥1 且 estimated_floor_count≥1"
+      ],
+      "v6c2_mapping": {
+        "residential": 23
+      },
+      "sample_n": 23,
+      "support_tier": "SUPPORTED",
+      "members": [
+        "REF-0003",
+        "REF-0004",
+        "REF-0010",
+        "REF-0028",
+        "REF-0040",
+        "REF-0041",
+        "REF-0044",
+        "REF-0046",
+        "REF-0059",
+        "REF-0070",
+        "REF-0073",
+        "REF-0075",
+        "REF-0076",
+        "REF-0078",
+        "REF-0085",
+        "REF-0092",
+        "REF-0100",
+        "REF-0102",
+        "REF-0108",
+        "REF-0109",
+        "REF-0115",
+        "REF-0121",
+        "REF-0122"
+      ]
+    },
+    {
+      "id": "Decoration",
+      "definition": "景观与纪念物：tree/garden/pavilion/campsite（landscape）+ statue/portal/mausoleum（landmark 纪念物）。非功能性构筑物。",
+      "judgment_signals": [
+        "primary_use=landscape，或 landmark+statue/portal/mausoleum"
+      ],
+      "v6c2_mapping": {
+        "landscape": 14,
+        "landmark_statue_portal_mausoleum": 8
+      },
+      "sample_n": 22,
+      "support_tier": "SUPPORTED",
+      "members": [
+        "REF-0001",
+        "REF-0016",
+        "REF-0019",
+        "REF-0022",
+        "REF-0024",
+        "REF-0032",
+        "REF-0042",
+        "REF-0049",
+        "REF-0051",
+        "REF-0057",
+        "REF-0058",
+        "REF-0072",
+        "REF-0079",
+        "REF-0089",
+        "REF-0095",
+        "REF-0096",
+        "REF-0097",
+        "REF-0101",
+        "REF-0105",
+        "REF-0106",
+        "REF-0112",
+        "REF-0117"
+      ]
+    },
+    {
+      "id": "Castle",
+      "definition": "城堡/大型纪念建筑群：military castle/keep + landmark palace（纪念性大型建筑群并入，记录在案）。",
+      "judgment_signals": [
+        "military+castle/keep 或 landmark+palace",
+        "交叉验证：stone_ratio≥0.3"
+      ],
+      "v6c2_mapping": {
+        "castle": 7,
+        "keep": 1,
+        "palace": 6
+      },
+      "sample_n": 14,
+      "support_tier": "SUPPORTED",
+      "members": [
+        "REF-0009",
+        "REF-0020",
+        "REF-0025",
+        "REF-0034",
+        "REF-0035",
+        "REF-0067",
+        "REF-0071",
+        "REF-0087",
+        "REF-0090",
+        "REF-0091",
+        "REF-0093",
+        "REF-0103",
+        "REF-0104",
+        "REF-0113"
+      ]
+    },
+    {
+      "id": "Tower",
+      "definition": "塔类：landmark tower(11) + military tower(2)。",
+      "judgment_signals": [
+        "secondary_use 含 tower",
+        "交叉验证：height_ratio = size_y/max(size_x,size_z) ≥1.65"
+      ],
+      "v6c2_mapping": {
+        "tower_landmark": 11,
+        "tower_military": 2
+      },
+      "sample_n": 13,
+      "support_tier": "SUPPORTED",
+      "members": [
+        "REF-0002",
+        "REF-0015",
+        "REF-0021",
+        "REF-0033",
+        "REF-0048",
+        "REF-0052",
+        "REF-0053",
+        "REF-0055",
+        "REF-0066",
+        "REF-0074",
+        "REF-0111",
+        "REF-0118",
+        "REF-0120"
+      ]
+    },
+    {
+      "id": "Religious",
+      "definition": "宗教建筑：church/cathedral/monastery。",
+      "judgment_signals": [
+        "primary_use=religious"
+      ],
+      "v6c2_mapping": {
+        "church": 5,
+        "cathedral": 3,
+        "monastery": 2
+      },
+      "sample_n": 10,
+      "support_tier": "SUPPORTED",
+      "members": [
+        "REF-0037",
+        "REF-0038",
+        "REF-0039",
+        "REF-0045",
+        "REF-0062",
+        "REF-0064",
+        "REF-0068",
+        "REF-0088",
+        "REF-0098",
+        "REF-0099"
+      ]
+    },
+    {
+      "id": "Workshop",
+      "definition": "生产/商业作坊：industrial 生产建筑（bakery/mill/shop）+ commercial shop/market（零售并入，记录在案）。",
+      "judgment_signals": [
+        "industrial（非 blacksmith/warehouse）或 commercial+shop/market/bakery/mill"
+      ],
+      "v6c2_mapping": {
+        "industrial_bakery_mill_shop": 4,
+        "commercial_shop_market": 3
+      },
+      "sample_n": 7,
+      "support_tier": "PROVISIONAL",
+      "members": [
+        "REF-0007",
+        "REF-0012",
+        "REF-0014",
+        "REF-0060",
+        "REF-0061",
+        "REF-0094",
+        "REF-0119"
+      ]
+    },
+    {
+      "id": "Vehicle",
+      "definition": "载具/运输构筑（新增类，候选表无）：airship×4、ship×1、dock×2。",
+      "judgment_signals": [
+        "primary_use=transport"
+      ],
+      "v6c2_mapping": {
+        "airship": 4,
+        "ship": 1,
+        "dock": 2
+      },
+      "sample_n": 7,
+      "support_tier": "PROVISIONAL",
+      "added_class": true,
+      "members": [
+        "REF-0018",
+        "REF-0026",
+        "REF-0031",
+        "REF-0047",
+        "REF-0054",
+        "REF-0056",
+        "REF-0114"
+      ]
+    },
+    {
+      "id": "Inn",
+      "definition": "旅馆/酒馆：commercial+tavern。",
+      "judgment_signals": [
+        "commercial+tavern/inn"
+      ],
+      "v6c2_mapping": {
+        "tavern": 5
+      },
+      "sample_n": 5,
+      "support_tier": "PROVISIONAL",
+      "members": [
+        "REF-0008",
+        "REF-0011",
+        "REF-0043",
+        "REF-0077",
+        "REF-0107"
+      ]
+    },
+    {
+      "id": "Civic",
+      "definition": "公共/市政：town_hall/guildhall/school/arena（公共集会并入）。",
+      "judgment_signals": [
+        "primary_use=civic"
+      ],
+      "v6c2_mapping": {
+        "town_hall": 1,
+        "guildhall": 1,
+        "school": 1,
+        "arena": 1
+      },
+      "sample_n": 4,
+      "support_tier": "PROVISIONAL",
+      "members": [
+        "REF-0027",
+        "REF-0050",
+        "REF-0063",
+        "REF-0086"
+      ]
+    },
+    {
+      "id": "Gate",
+      "definition": "门/城墙类防御构筑：military+gatehouse。",
+      "judgment_signals": [
+        "military+gatehouse/wall"
+      ],
+      "v6c2_mapping": {
+        "gatehouse": 3
+      },
+      "sample_n": 3,
+      "support_tier": "OBSERVATION ONLY",
+      "members": [
+        "REF-0005",
+        "REF-0013",
+        "REF-0069"
+      ]
+    },
+    {
+      "id": "Blacksmith",
+      "definition": "铁匠铺：industrial+blacksmith。",
+      "judgment_signals": [
+        "secondary_use=blacksmith"
+      ],
+      "v6c2_mapping": {
+        "blacksmith": 3
+      },
+      "sample_n": 3,
+      "support_tier": "OBSERVATION ONLY",
+      "members": [
+        "REF-0006",
+        "REF-0036",
+        "REF-0082"
+      ]
+    },
+    {
+      "id": "Farm",
+      "definition": "农场：agricultural+farm。",
+      "judgment_signals": [
+        "primary_use=agricultural",
+        "交叉验证：decorative_ratio≥0.3（植被）"
+      ],
+      "v6c2_mapping": {
+        "farm": 3
+      },
+      "sample_n": 3,
+      "support_tier": "OBSERVATION ONLY",
+      "members": [
+        "REF-0023",
+        "REF-0029",
+        "REF-0030"
+      ]
+    },
+    {
+      "id": "Mixed-use",
+      "definition": "混合用途：primary_use=mixed_use（house+archery_range；house+shop+townhouse+warehouse+garden）。",
+      "judgment_signals": [
+        "primary_use=mixed_use"
+      ],
+      "v6c2_mapping": {
+        "mixed_use": 2
+      },
+      "sample_n": 2,
+      "support_tier": "OBSERVATION ONLY",
+      "members": [
+        "REF-0081",
+        "REF-0123"
+      ]
+    },
+    {
+      "id": "Warehouse",
+      "definition": "仓库：industrial+warehouse。",
+      "judgment_signals": [
+        "secondary_use=warehouse"
+      ],
+      "v6c2_mapping": {
+        "warehouse": 1
+      },
+      "sample_n": 1,
+      "support_tier": "OBSERVATION ONLY",
+      "members": [
+        "REF-0065"
+      ]
+    },
+    {
+      "id": "Unknown",
+      "definition": "primary_use=unknown，无证据。",
+      "judgment_signals": [
+        "V6C2 primary_use=unknown"
+      ],
+      "v6c2_mapping": {
+        "unknown": 6
+      },
+      "sample_n": 6,
+      "support_tier": "NOT_A_CLASS",
+      "members": [
+        "REF-0017",
+        "REF-0080",
+        "REF-0083",
+        "REF-0084",
+        "REF-0110",
+        "REF-0116"
+      ]
+    }
+  ]
+}

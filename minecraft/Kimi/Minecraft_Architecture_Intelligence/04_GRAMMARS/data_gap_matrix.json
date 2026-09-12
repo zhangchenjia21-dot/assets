@@ -1,0 +1,4803 @@
+{
+  "size_class_rule": "复用 V6C2 catalog scale 字段（tiny≤16边&≤1000块&≤4096包络 / small≤32 / medium≤64 / large≤128 / monumental 超 large；阈值见 references/catalog/classification-rules.md 规模表）",
+  "styles_in_matrix": [
+    "Medieval",
+    "Rustic",
+    "Fantasy",
+    "Japanese",
+    "Chinese"
+  ],
+  "functions_in_matrix": [
+    "Residential",
+    "Decoration",
+    "Castle",
+    "Tower",
+    "Religious",
+    "Workshop",
+    "Vehicle",
+    "Inn",
+    "Civic",
+    "Gate",
+    "Blacksmith",
+    "Farm",
+    "Mixed-use",
+    "Warehouse",
+    "Bridge"
+  ],
+  "size_classes": [
+    "tiny",
+    "small",
+    "medium",
+    "large",
+    "monumental"
+  ],
+  "class_totals": {
+    "style": {
+      "Unknown": 56,
+      "Medieval": 19,
+      "Rustic": 20,
+      "Chinese": 4,
+      "Fantasy": 10,
+      "Other": 7,
+      "Japanese": 7
+    },
+    "function": {
+      "Decoration": 22,
+      "Tower": 13,
+      "Residential": 23,
+      "Gate": 3,
+      "Blacksmith": 3,
+      "Workshop": 7,
+      "Inn": 5,
+      "Castle": 14,
+      "Unknown": 6,
+      "Vehicle": 7,
+      "Farm": 3,
+      "Civic": 4,
+      "Religious": 10,
+      "Warehouse": 1,
+      "Mixed-use": 2,
+      "Bridge": 0
+    }
+  },
+  "cells": [
+    {
+      "style": "Medieval",
+      "function": "Residential",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Residential",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Residential 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Residential",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Residential 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Residential",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Residential 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Residential",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Decoration",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Decoration",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Decoration 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Decoration",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Decoration 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Decoration",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Decoration 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Decoration",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Castle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Castle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Castle 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Castle",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Castle",
+      "size_class": "large",
+      "sample_n": 3,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 3 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Castle",
+      "size_class": "monumental",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Tower",
+      "size_class": "tiny",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Tower",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Tower 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Tower",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Tower",
+      "size_class": "large",
+      "sample_n": 3,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 3 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Tower",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Religious",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Religious",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Religious 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Religious",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Medieval×Religious 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Religious",
+      "size_class": "large",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Religious",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Workshop",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Workshop",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Workshop",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Workshop",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Workshop",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Vehicle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Vehicle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Vehicle",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Vehicle",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Vehicle",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Inn",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Inn",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Inn",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Inn",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Inn",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Civic",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Civic",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Civic",
+      "size_class": "medium",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Civic",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Civic",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Gate",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Gate",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Gate",
+      "size_class": "medium",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "floor_count 全 UNKNOWN",
+        "entrance_placement 全 UNKNOWN",
+        "window 信号为 0"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Gate",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Gate",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Blacksmith",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Blacksmith",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Blacksmith",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Blacksmith",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Blacksmith",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Farm",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Farm",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Farm",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Medieval",
+      "function": "Farm",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Farm",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Mixed-use",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Mixed-use",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Mixed-use",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Mixed-use",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Mixed-use",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Warehouse",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Warehouse",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Warehouse",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Warehouse",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Warehouse",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Bridge",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Bridge",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Bridge",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Bridge",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Bridge",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Residential",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Residential",
+      "size_class": "small",
+      "sample_n": 3,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [],
+      "priority": "P2",
+      "priority_reason": "仅 3 样本，补至 ≥4"
+    },
+    {
+      "style": "Rustic",
+      "function": "Residential",
+      "size_class": "medium",
+      "sample_n": 3,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [],
+      "priority": "P2",
+      "priority_reason": "仅 3 样本，补至 ≥4"
+    },
+    {
+      "style": "Rustic",
+      "function": "Residential",
+      "size_class": "large",
+      "sample_n": 4,
+      "coverage_quality": "PROVISIONAL",
+      "missing_features": [],
+      "priority": "P3",
+      "priority_reason": "样本≥4，可候补至 SUPPORTED"
+    },
+    {
+      "style": "Rustic",
+      "function": "Residential",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Decoration",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Decoration",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Decoration 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Decoration",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Decoration 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Decoration",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Decoration 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Decoration",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Castle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Castle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Castle 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Castle",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Castle 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Castle",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Castle 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Castle",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Tower",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Tower",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Tower 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Tower",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Tower 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Tower",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Tower 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Tower",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Religious",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Religious",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Religious 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Religious",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Religious 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Religious",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Rustic×Religious 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Religious",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Workshop",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Workshop",
+      "size_class": "small",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Rustic",
+      "function": "Workshop",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN",
+        "window 信号为 0"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Rustic",
+      "function": "Workshop",
+      "size_class": "large",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Rustic",
+      "function": "Workshop",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Vehicle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Vehicle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Vehicle",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Vehicle",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Vehicle",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Inn",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Inn",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Inn",
+      "size_class": "medium",
+      "sample_n": 3,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 3 样本，补至 ≥4"
+    },
+    {
+      "style": "Rustic",
+      "function": "Inn",
+      "size_class": "large",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Rustic",
+      "function": "Inn",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Civic",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Civic",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Civic",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Civic",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Civic",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Gate",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Gate",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Gate",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Gate",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Gate",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Blacksmith",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Blacksmith",
+      "size_class": "small",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN",
+        "window 信号为 0"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Rustic",
+      "function": "Blacksmith",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Blacksmith",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Blacksmith",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Farm",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Farm",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Farm",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Farm",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Farm",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Mixed-use",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Mixed-use",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Mixed-use",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Mixed-use",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Mixed-use",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Warehouse",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Warehouse",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Warehouse",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Warehouse",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Warehouse",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Bridge",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Bridge",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Bridge",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Bridge",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Bridge",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Residential",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Residential",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Residential 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Residential",
+      "size_class": "medium",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Residential",
+      "size_class": "large",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Residential",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Decoration",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Decoration",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Decoration 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Decoration",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Decoration",
+      "size_class": "large",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN",
+        "window 信号为 0"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Decoration",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Castle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Castle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Castle 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Castle",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Castle 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Castle",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Castle 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Castle",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Tower",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Tower",
+      "size_class": "small",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN",
+        "window 信号为 0"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Tower",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Tower",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Tower 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Tower",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Religious",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Religious",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Religious 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Religious",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Religious 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Religious",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P1",
+      "priority_reason": "Fantasy×Religious 两类均 SUPPORTED 但组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Religious",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Workshop",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Workshop",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Workshop",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Workshop",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Workshop",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Vehicle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Vehicle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Vehicle",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Vehicle",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Vehicle",
+      "size_class": "monumental",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "floor_count 全 UNKNOWN",
+        "entrance_placement 全 UNKNOWN",
+        "window 信号为 0"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Inn",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Inn",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Inn",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Inn",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Inn",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Civic",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Civic",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Civic",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Civic",
+      "size_class": "large",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Civic",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Gate",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Gate",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Gate",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Gate",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Gate",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Blacksmith",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Blacksmith",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Blacksmith",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Blacksmith",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Blacksmith",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Farm",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Farm",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Farm",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Farm",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Farm",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Mixed-use",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Mixed-use",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Mixed-use",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Mixed-use",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Mixed-use",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Warehouse",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Warehouse",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Warehouse",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Warehouse",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Warehouse",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Bridge",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Bridge",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Bridge",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Bridge",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Fantasy",
+      "function": "Bridge",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Residential",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Residential",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Residential",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Residential",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Residential",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Decoration",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Decoration",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Decoration",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Decoration",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Decoration",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Castle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Castle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Castle",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Castle",
+      "size_class": "large",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Japanese",
+      "function": "Castle",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Tower",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Tower",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Tower",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Japanese",
+      "function": "Tower",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Tower",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Religious",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Religious",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Religious",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Religious",
+      "size_class": "large",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Japanese",
+      "function": "Religious",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Workshop",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Workshop",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Workshop",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Workshop",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Workshop",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Vehicle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Vehicle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Vehicle",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Vehicle",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Vehicle",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Inn",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Inn",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Inn",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Inn",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Inn",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Civic",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Civic",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Civic",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Civic",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Civic",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Gate",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Gate",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Gate",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Gate",
+      "size_class": "large",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Japanese",
+      "function": "Gate",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Blacksmith",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Blacksmith",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Blacksmith",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Blacksmith",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Blacksmith",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Farm",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Farm",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Farm",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Farm",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Farm",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Mixed-use",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Mixed-use",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Mixed-use",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Mixed-use",
+      "size_class": "large",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Japanese",
+      "function": "Mixed-use",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Warehouse",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Warehouse",
+      "size_class": "small",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN",
+        "window 信号为 0"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Japanese",
+      "function": "Warehouse",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Warehouse",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Warehouse",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Bridge",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Bridge",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Bridge",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Bridge",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Japanese",
+      "function": "Bridge",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Residential",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Residential",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Residential",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Residential",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Residential",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Decoration",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Decoration",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Decoration",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Decoration",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Decoration",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Castle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Castle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Castle",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Castle",
+      "size_class": "large",
+      "sample_n": 2,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 2 样本，补至 ≥4"
+    },
+    {
+      "style": "Chinese",
+      "function": "Castle",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Tower",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Tower",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Tower",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN",
+        "window 信号为 0"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Chinese",
+      "function": "Tower",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Tower",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Religious",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Religious",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Religious",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Religious",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Religious",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Workshop",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Workshop",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Workshop",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Workshop",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Workshop",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Vehicle",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Vehicle",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Vehicle",
+      "size_class": "medium",
+      "sample_n": 1,
+      "coverage_quality": "OBSERVATION",
+      "missing_features": [
+        "entrance_placement 全 UNKNOWN"
+      ],
+      "priority": "P2",
+      "priority_reason": "仅 1 样本，补至 ≥4"
+    },
+    {
+      "style": "Chinese",
+      "function": "Vehicle",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Vehicle",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Inn",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Inn",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Inn",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Inn",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Inn",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Civic",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Civic",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Civic",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Civic",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Civic",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Gate",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Gate",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Gate",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Gate",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Gate",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Blacksmith",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Blacksmith",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Blacksmith",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Blacksmith",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Blacksmith",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Farm",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Farm",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Farm",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Farm",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Farm",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Mixed-use",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Mixed-use",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Mixed-use",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Mixed-use",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Mixed-use",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Warehouse",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Warehouse",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Warehouse",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Warehouse",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Warehouse",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Bridge",
+      "size_class": "tiny",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Bridge",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Bridge",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Bridge",
+      "size_class": "large",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    },
+    {
+      "style": "Chinese",
+      "function": "Bridge",
+      "size_class": "monumental",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P2",
+      "priority_reason": "组合空缺"
+    }
+  ],
+  "top_gaps": [
+    {
+      "style": "Medieval",
+      "function": "Inn",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Inn",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Civic",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Gate",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Blacksmith",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Blacksmith",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Farm",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Warehouse",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Warehouse",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Bridge",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Medieval",
+      "function": "Bridge",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Bridge 全库仅 0 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Inn",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Inn 全库仅 5 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Civic",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Civic",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Civic 全库仅 4 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Gate",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Gate",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Gate 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Blacksmith",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Blacksmith 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Farm",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Farm",
+      "size_class": "medium",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Farm 全库仅 3 样本且该 cell 空缺"
+    },
+    {
+      "style": "Rustic",
+      "function": "Warehouse",
+      "size_class": "small",
+      "sample_n": 0,
+      "coverage_quality": "GAP",
+      "missing_features": [
+        "all（无样本）"
+      ],
+      "priority": "P0",
+      "priority_reason": "村落核心功能 Warehouse 全库仅 1 样本且该 cell 空缺"
+    }
+  ]
+}

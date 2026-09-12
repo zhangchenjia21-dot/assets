@@ -1,0 +1,173 @@
+{
+  "references_root": "D:\\Games\\Minecraft\\AI工程\\AI-Blueprints\\references",
+  "ref_dir_count": 123,
+  "coverage": {
+    "blueprint.json": 123,
+    "normalized/normalized-blueprint.json": 123,
+    "normalized/normalization-report.json": 123,
+    "normalized/original-blueprint.json": 123,
+    "proxy/": 123,
+    "preview-metadata.json": 123,
+    "metadata.json": 123,
+    "analysis.md": 123
+  },
+  "catalog_count": 123,
+  "data_version_distribution": {
+    "2975": 2,
+    "3105": 1,
+    "3120": 1,
+    "3465": 58,
+    "3700": 1,
+    "3953": 12,
+    "4189": 14,
+    "4438": 33,
+    "4903": 1
+  },
+  "region_count_distribution": {
+    "1": 122,
+    "2": 1
+  },
+  "compatibility_distribution": {
+    "CURRENT_NATIVE": 1,
+    "LEGACY_SAFE": 67,
+    "MIGRATED": 55
+  },
+  "unresolved_total": 0,
+  "air_palette_representations": {
+    "minecraft:air": 123,
+    "minecraft:cobblestone_stairs": 275,
+    "minecraft:oak_stairs": 421,
+    "minecraft:spruce_stairs": 834,
+    "minecraft:birch_stairs": 132,
+    "minecraft:jungle_stairs": 123,
+    "minecraft:stone_brick_stairs": 295,
+    "minecraft:dark_oak_stairs": 501,
+    "minecraft:deepslate_tile_stairs": 80,
+    "minecraft:deepslate_brick_stairs": 52,
+    "minecraft:brick_stairs": 70,
+    "minecraft:granite_stairs": 45,
+    "minecraft:polished_andesite_stairs": 98,
+    "minecraft:polished_tuff_stairs": 48,
+    "minecraft:tuff_brick_stairs": 45,
+    "minecraft:cherry_stairs": 15,
+    "minecraft:pale_oak_stairs": 40,
+    "minecraft:cobbled_deepslate_stairs": 48,
+    "minecraft:mossy_cobblestone_stairs": 29,
+    "minecraft:tuff_stairs": 61,
+    "minecraft:mud_brick_stairs": 87,
+    "minecraft:polished_granite_stairs": 30,
+    "minecraft:andesite_stairs": 156,
+    "minecraft:dark_prismarine_stairs": 46,
+    "minecraft:stone_stairs": 163,
+    "minecraft:smooth_quartz_stairs": 171,
+    "minecraft:sandstone_stairs": 58,
+    "minecraft:smooth_sandstone_stairs": 59,
+    "minecraft:warped_stairs": 31,
+    "minecraft:mossy_stone_brick_stairs": 24,
+    "minecraft:polished_diorite_stairs": 166,
+    "minecraft:diorite_stairs": 60,
+    "minecraft:red_sandstone_stairs": 5,
+    "minecraft:acacia_stairs": 45,
+    "minecraft:quartz_stairs": 121,
+    "minecraft:prismarine_brick_stairs": 36,
+    "minecraft:smooth_red_sandstone_stairs": 4,
+    "minecraft:bamboo_stairs": 87,
+    "minecraft:polished_blackstone_brick_stairs": 20,
+    "minecraft:nether_brick_stairs": 42,
+    "minecraft:polished_blackstone_stairs": 33,
+    "minecraft:blackstone_stairs": 16,
+    "minecraft:mangrove_stairs": 103,
+    "minecraft:polished_deepslate_stairs": 53,
+    "minecraft:end_stone_brick_stairs": 3,
+    "minecraft:resin_brick_stairs": 2,
+    "minecraft:waxed_exposed_cut_copper_stairs": 14,
+    "minecraft:waxed_cut_copper_stairs": 4,
+    "minecraft:oxidized_cut_copper_stairs": 24,
+    "minecraft:waxed_weathered_cut_copper_stairs": 20,
+    "minecraft:red_nether_brick_stairs": 19,
+    "minecraft:prismarine_stairs": 13,
+    "minecraft:crimson_stairs": 17,
+    "minecraft:waxed_oxidized_cut_copper_stairs": 2,
+    "minecraft:exposed_cut_copper_stairs": 2,
+    "minecraft:weathered_cut_copper_stairs": 2
+  },
+  "air_explicit_in_blocks": {
+    "with_air": 123,
+    "without_air": 0
+  },
+  "samples": {
+    "REF-0001": {
+      "top_keys": [
+        "schema_version",
+        "metadata",
+        "origin",
+        "dimensions",
+        "rotation",
+        "mirror",
+        "palette",
+        "blocks"
+      ],
+      "dimensions": {
+        "x": 14,
+        "y": 15,
+        "z": 15
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "palette_size": 15,
+      "blocks": 3150,
+      "air_palette_entries": [
+        "minecraft:air"
+      ],
+      "sample_block": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "REF-0123": {
+      "top_keys": [
+        "schema_version",
+        "metadata",
+        "origin",
+        "dimensions",
+        "rotation",
+        "mirror",
+        "palette",
+        "blocks"
+      ],
+      "dimensions": {
+        "x": 29,
+        "y": 20,
+        "z": 74
+      },
+      "origin": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "palette_size": 51,
+      "blocks": 42660,
+      "air_palette_entries": [
+        "minecraft:air",
+        "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+        "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+        "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+        "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+        "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+      ],
+      "sample_block": [
+        1,
+        0,
+        1,
+        0
+      ]
+    }
+  }
+}

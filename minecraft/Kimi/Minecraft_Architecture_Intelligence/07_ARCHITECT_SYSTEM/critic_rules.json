@@ -1,0 +1,344 @@
+{
+ "version": "P5-1.0",
+ "generated_by": "07_ARCHITECT_SYSTEM/build_rulepacks.py",
+ "scope_declaration": {
+  "validator": "回答'有没有客观错误'（确定性检查，V001–V012）",
+  "critic": "回答'即使可用，设计是否合理'（判断性评审）",
+  "prohibitions": [
+   "Critic 不重复 Validator 的客观错误检查（V001–V012 触发项直接进 Revision，不在 Critic 重复裁决）",
+   "Critic 不评'丑'或任何纯审美贬损；审美终裁归人工（CR-VF-02）"
+  ]
+ },
+ "check_kind_legend": {
+  "HEURISTIC": "可程序化检查：给量化指标与阈值（阈值引自 grammar/validator 真实统计）",
+  "LLM_ONLY": "只能由模型判断：不给阈值，评审时必须注明是否有数据背书",
+  "HUMAN_REVIEW": "需人工裁决"
+ },
+ "severity_legend": {
+  "suggestion": "可权衡",
+  "important": "强烈建议修改",
+  "critical": "接近必须修改（本 pack 暂无 critical；客观必须项归 Validator HARD_FAIL）"
+ },
+ "rules": [
+  {
+   "id": "CR-SH-01",
+   "dimension": "spatial_hierarchy",
+   "statement": "体量主次：单盒包络（footprint_ratio≈1）且无可识别次级体量/凹凸时，提示缺乏空间层级。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：拆分或附加一个次级体量（侧翼/门廊/塔），形成主-次关系；参考 V4 B 的 L 形主次体量做法。",
+   "source": {
+    "dataset": "AI-Test/Architecture-V4/B-design.md（只读参考）",
+    "rule_id": "B.§1.Macro"
+   },
+   "metric": {
+    "signal": "footprint_ratio≈1 且包络填充率高、无次级脚印",
+    "threshold": "定性阈值，供程序初筛"
+   }
+  },
+  {
+   "id": "CR-SH-02",
+   "dimension": "spatial_hierarchy",
+   "statement": "主入口应在接近方向上可辨认（门廊/踏步/灯光/凹口等手段）。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "important",
+   "revision_template": "修改建议：用门廊、双柱、踏步、灯光或偏心罩棚强调主入口；参考 V4 C 的 'Minecraft readability' 行。",
+   "source": {
+    "dataset": "AI-Test/Architecture-V4/C-critique.md（只读参考）",
+    "rule_id": "C.Minecraft_readability"
+   }
+  },
+  {
+   "id": "CR-CQ-01",
+   "dimension": "circulation_quality",
+   "statement": "死端比例超过所属功能类 IQR 上界（p75）时提示动线碎片化。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：打通尽端走廊成环路，或把死端改造为房间；对照 circulation_rules 中 FUNC.{function}.dead_end_ratio。",
+   "source": {
+    "dataset": "04_GRAMMARS/functional_rules.json",
+    "rule_id": "FUNC.{function}.circulation_constraints.dead_end_ratio"
+   },
+   "metric": {
+    "signal": "dead_end_ratio > class p75",
+    "threshold": "按功能类 p75 取值"
+   }
+  },
+  {
+   "id": "CR-CQ-02",
+   "dimension": "circulation_quality",
+   "statement": "语义动线合理性：图上连通 ≠ 动线合理（如必须穿卧室到厨房、出后门再进侧门）。Validator 不判此类问题。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "important",
+   "revision_template": "修改建议：调整门位/走廊使公共-私密动线分离；参照 CIR-G-03。",
+   "source": {
+    "dataset": "05_SPATIAL_VALIDATOR/VALIDATION_SPEC.md",
+    "rule_id": "V003.blind_spot"
+   }
+  },
+  {
+   "id": "CR-FC-01",
+   "dimension": "function_coherence",
+   "statement": "可用楼面面积显著低于所属功能类 p25 时，提示功能容量不足。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "important",
+   "revision_template": "修改建议：扩大楼面或增加楼层；对照 FUNC.{function}.circulation_constraints.usable_floor_area。",
+   "source": {
+    "dataset": "04_GRAMMARS/functional_rules.json",
+    "rule_id": "FUNC.{function}.circulation_constraints.usable_floor_area"
+   },
+   "metric": {
+    "signal": "usable_floor_area < class p25",
+    "threshold": "按功能类 p25 取值"
+   }
+  },
+  {
+   "id": "CR-FC-02",
+   "dimension": "function_coherence",
+   "statement": "功能分区语义：grammar 不识别房间语义（bedroom/kitchen），分区合理性只能 LLM 判断（公私分层假设为 INFERRED）。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：住宅类优先'公共首层/私密上层'；对照 FUNC.{function}.public_private_separation（INFERRED）。",
+   "source": {
+    "dataset": "04_GRAMMARS/functional_rules.json",
+    "rule_id": "FUNC.{function}.public_private_separation"
+   }
+  },
+  {
+   "id": "CR-SC-01",
+   "dimension": "style_coherence",
+   "statement": "材料族占比偏离所属风格 IQR（wood/stone/glass/decorative 四项中 ≥2 项出界）时提示风格漂移。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "important",
+   "revision_template": "修改建议：把偏离材料族占比调回 STYLE.{style}.palette_*_ratio 的 IQR 内；PROVISIONAL 风格仅作参考。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "STYLE.{style}.palette_*_ratio"
+   },
+   "metric": {
+    "signal": "≥2 个材料族占比超出 IQR",
+    "threshold": "按风格类 IQR 取值"
+   }
+  },
+  {
+   "id": "CR-SC-02",
+   "dimension": "style_coherence",
+   "statement": "风格元素一致性：混搭多种风格语汇（如中式瓦顶+中世纪木框架）只能语义判断。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：统一主导风格语汇；风格为 UNKNOWN/零样本时不评此项（无 grammar 背书）。",
+   "source": {
+    "dataset": "03_TAXONOMY/style_taxonomy.json",
+    "rule_id": "not_built_zero_sample"
+   }
+  },
+  {
+   "id": "CR-PR-01",
+   "dimension": "proportion",
+   "statement": "高宽比超出所属风格 IQR 时提示比例异常（如 Fantasy 类 median 0.82，超出 [0.72,1.23] 需注意）。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：调整高度或面宽使 height_ratio 回到 STYLE.{style}.height_ratio 的 IQR；塔楼类功能可豁免。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "STYLE.{style}.height_ratio"
+   },
+   "metric": {
+    "signal": "height_ratio 出 IQR",
+    "threshold": "按风格类 IQR 取值"
+   }
+  },
+  {
+   "id": "CR-PR-02",
+   "dimension": "proportion",
+   "statement": "平面长宽比超出所属风格 IQR 时提示平面比例异常。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：调整平面使 footprint_ratio 回到 STYLE.{style}.footprint_ratio 的 IQR。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "STYLE.{style}.footprint_ratio"
+   },
+   "metric": {
+    "signal": "footprint_ratio 出 IQR",
+    "threshold": "按风格类 IQR 取值"
+   }
+  },
+  {
+   "id": "CR-FR-01",
+   "dimension": "facade_rhythm",
+   "statement": "窗洞位置节奏：grammar 全风格 UNKNOWN（P3 未做立面聚合），不提供阈值，只由 LLM 从预览判断开窗是否有节奏感。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：对齐窗洞列/层节奏或有意打破；UNKNOWN 维度，评审时注明无数据背书。",
+   "source": {
+    "dataset": "04_GRAMMARS/grammar_confidence_report.md",
+    "rule_id": "GCR.§2.window_rhythm"
+   }
+  },
+  {
+   "id": "CR-FR-02",
+   "dimension": "facade_rhythm",
+   "statement": "窗密度超出所属风格 IQR 时提示开窗过密/过疏。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：调整玻璃用量使 window_density 回到 STYLE.{style}.window_density 的 IQR。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "STYLE.{style}.window_density"
+   },
+   "metric": {
+    "signal": "window_density 出 IQR",
+    "threshold": "按风格类 IQR 取值"
+   }
+  },
+  {
+   "id": "CR-RM-01",
+   "dimension": "roof_massing",
+   "statement": "屋顶高度占比超出所属风格 IQR 时提示屋顶体量异常（过平或过高）。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：调整屋顶带高度使 roof_height_ratio 回到 STYLE.{style}.roof_height_ratio 的 IQR。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "STYLE.{style}.roof_height_ratio"
+   },
+   "metric": {
+    "signal": "roof_height_ratio 出 IQR",
+    "threshold": "按风格类 IQR 取值"
+   }
+  },
+  {
+   "id": "CR-RM-02",
+   "dimension": "roof_massing",
+   "statement": "屋顶形制与风格的匹配（坡度曲线、歇山/悬山/攒尖等）：grammar 未测量形制，LLM 依据风格常识判断。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：调整屋顶形制；UNKNOWN 维度，评审时注明无数据背书。",
+   "source": {
+    "dataset": "04_GRAMMARS/grammar_confidence_report.md",
+    "rule_id": "GCR.§2.roof_form"
+   }
+  },
+  {
+   "id": "CR-MT-01",
+   "dimension": "material_transition",
+   "statement": "底部 1/3 主导材料族与所属风格众数不一致时提示基座材料异常（如 Medieval 众数 stone，频率 0.89）。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：基座改用类内众数材料族；对照 STYLE.{style}.foundation_bottom_family。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "STYLE.{style}.foundation_bottom_family"
+   },
+   "metric": {
+    "signal": "bottom_family != class mode",
+    "threshold": "按风格类众数"
+   }
+  },
+  {
+   "id": "CR-MT-02",
+   "dimension": "material_transition",
+   "statement": "材料过渡质量：竖向底/中/顶过渡是否有层级（承重石→结构木→填充），还是随机噪声铺色。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "important",
+   "revision_template": "修改建议：建立材料层级而非随机点缀；参考 V4 B '材料层级' 与 C 'Material hierarchy'。",
+   "source": {
+    "dataset": "AI-Test/Architecture-V4/C-critique.md（只读参考）",
+    "rule_id": "C.Material_hierarchy"
+   }
+  },
+  {
+   "id": "CR-RP-01",
+   "dimension": "repetition",
+   "statement": "过度重复：等距复制同一窗饰/构件且各立面无差异时提示（V4 C 实测问题：'庭院下层百叶等距重复'）。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：打破机械重复，用有识别度的入口或变异构件替换部分重复单元。",
+   "source": {
+    "dataset": "AI-Test/Architecture-V4/C-critique.md（只读参考）",
+    "rule_id": "C.Repetition"
+   }
+  },
+  {
+   "id": "CR-RP-02",
+   "dimension": "repetition",
+   "statement": "对称性偏离所属风格典型区间时提示（如 Rustic 高对称频率 0.0，做成高对称即偏离类内常态）。",
+   "check": {
+    "kind": "HEURISTIC"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：对照 STYLE.{style}.symmetry 与 symmetry_high；有意对称（如宗教类）可豁免并注明。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "STYLE.{style}.symmetry_high"
+   },
+   "metric": {
+    "signal": "symmetry 出 IQR 或高对称与类内频率矛盾",
+    "threshold": "按风格类统计"
+   }
+  },
+  {
+   "id": "CR-VF-01",
+   "dimension": "visual_focal_point",
+   "statement": "是否存在可识别的视觉焦点（入口强调/塔/脊线/烟囱）；全立面均质无焦点时提示。",
+   "check": {
+    "kind": "LLM_ONLY"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：增加或强化一个焦点构件；烟囱频率可参考 STYLE.{style}.chimney_frequency。",
+   "source": {
+    "dataset": "04_GRAMMARS/style_rules.json",
+    "rule_id": "STYLE.{style}.chimney_frequency"
+   }
+  },
+  {
+   "id": "CR-VF-02",
+   "dimension": "visual_focal_point",
+   "statement": "审美最终裁决归 Owner：Critic 不判'丑'，不自动宣称改后更美（V4 纪律：'规则满足不等于美观自动通过'）。",
+   "check": {
+    "kind": "HUMAN_REVIEW"
+   },
+   "severity": "suggestion",
+   "revision_template": "修改建议：所有 aesthetic 争议项提交人工评审，附修改前后对比说明。",
+   "source": {
+    "dataset": "AI-Test/Architecture-V4/B-design.md（只读参考）",
+    "rule_id": "B.§末"
+   }
+  }
+ ]
+}

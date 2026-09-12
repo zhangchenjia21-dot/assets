@@ -1,0 +1,100 @@
+{
+  "version": "P4-1.0",
+  "total_score": 100,
+  "description": "Design Brief Benchmark 五维评分细则（任务书 §14）。所有子项均可机器执行：hard_validity 由 Spatial Validator 规则触发驱动；functional/material 由 geometry/palette 统计驱动；style 子项对照 style_rules.json 实测区间。",
+  "hard_fail_policy": {
+    "definition": "Validator 判定任一 HARD FAIL（V001/V003/V005/V006/V007 触发，或 V002/V009/V010/V011 达 severe 阈值）",
+    "total_score_caps": [
+      {"hard_fail_count": 1, "total_max": 40, "note": "存在任一 HARD FAIL，总分封顶 40"},
+      {"hard_fail_count": 3, "total_max": 25, "note": "HARD FAIL ≥3 个，总分封顶 25"},
+      {"hard_fail_count": 5, "total_max": 10, "note": "HARD FAIL ≥5 个，建筑不可用，总分封顶 10"}
+    ],
+    "rule": "total = min(computed_total, cap(hard_fail_count))；cap 在五维扣分之后应用"
+  },
+  "dimensions": {
+    "hard_validity": {
+      "weight": 40,
+      "executor": "Spatial Validator（05_SPATIAL_VALIDATOR）",
+      "scoring": "deduction",
+      "items": [
+        {"id": "V001", "rule": "无可识别 exterior→interior 入口", "deduct": 12, "severity": "HARD_FAIL"},
+        {"id": "V002", "rule": "主入口前/后通行空间不足（<2 格或头顶 <3）", "deduct": 8, "severity": "HARD_FAIL_IF_SEVERE"},
+        {"id": "V003", "rule": "任一 required_zone 无法从主入口步行到达", "deduct": 12, "severity": "HARD_FAIL"},
+        {"id": "V004", "rule": "存在 ≥8 体素孤立封闭空间（非设计性）", "deduct": 6, "severity": "WARNING"},
+        {"id": "V005", "rule": "垂直交通底部不可进入", "deduct": 6, "severity": "HARD_FAIL"},
+        {"id": "V006", "rule": "垂直交通顶部落点为实体或净高 <2（'楼梯尽头是墙'）", "deduct": 8, "severity": "HARD_FAIL"},
+        {"id": "V007", "rule": "required_floors≥2 但楼层间无有效垂直连接", "deduct": 10, "severity": "HARD_FAIL"},
+        {"id": "V008", "rule": "门位置 clearance 明显不足", "deduct": 4, "severity": "WARNING"},
+        {"id": "V009", "rule": "主要通行路径净高 < brief 要求（默认 <3）", "deduct": 6, "severity": "HARD_FAIL_IF_SEVERE"},
+        {"id": "V010", "rule": "围护结构高置信度大面积断裂", "deduct": 6, "severity": "WARNING"},
+        {"id": "V011", "rule": "室内屋顶覆盖异常中断", "deduct": 6, "severity": "WARNING"},
+        {"id": "V012", "rule": "非设计性明显死路（HEURISTIC）", "deduct": 3, "severity": "INFO"}
+      ],
+      "cap": "本维扣分合计上限 40（不出现负分）"
+    },
+    "functional_layout": {
+      "weight": 25,
+      "executor": "几何/连通性统计 + brief zone 对照",
+      "scoring": "deduction",
+      "items": [
+        {"id": "F01", "rule": "缺失 required_zone（每缺 1 个）", "deduct": 4, "max_total": 12},
+        {"id": "F02", "rule": "required_adjacency 不满足（每对）", "deduct": 3, "max_total": 8},
+        {"id": "F03", "rule": "forbidden_adjacency 出现（每对）", "deduct": 4, "max_total": 8},
+        {"id": "F04", "rule": "dead_end_ratio > 0.20（SC_DEAD_END）", "deduct": 3, "max_total": 3},
+        {"id": "F05", "rule": "公私分区缺失（功能要求 public_private_separation 而未实现）", "deduct": 2, "max_total": 2},
+        {"id": "F06", "rule": "zone 净使用面积 < zone_catalog min_area（每个）", "deduct": 2, "max_total": 6}
+      ],
+      "cap": "本维扣分合计上限 25"
+    },
+    "style_compliance": {
+      "weight": 20,
+      "executor": "geometry 统计对照 style_rules.json（p25-p75 为正常区间，min-max 为容忍区间）",
+      "scoring": "deduction",
+      "items": [
+        {"id": "S01", "rule": "footprint_ratio 超出 [min,max] 容忍区间", "deduct": 5},
+        {"id": "S02", "rule": "footprint_ratio 在容忍区间内但超出 p25-p75", "deduct": 3},
+        {"id": "S03", "rule": "屋顶形式与 brief.roof_constraints.form 不符", "deduct": 5},
+        {"id": "S04", "rule": "roof_height_ratio 超出 brief 区间", "deduct": 3},
+        {"id": "S05", "rule": "height_ratio 超出 style grammar [min,max]", "deduct": 3},
+        {"id": "S06", "rule": "楼层数与 required_floors 不符（楼板密度启发式）", "deduct": 3},
+        {"id": "S07", "rule": "roof_overhang < overhang_min（风格要求时）", "deduct": 2}
+      ],
+      "cap": "本维扣分合计上限 20",
+      "note": "targets_gap=true 的 brief 该组合无 grammar 支撑，S01/S05 按全库邻近 style 区间宽松判定，并在报告中标注 GENERALIZATION_CASE"
+    },
+    "material_coherence": {
+      "weight": 10,
+      "executor": "palette 统计（材料族 mapping 复用 palette_dictionary.json）",
+      "scoring": "deduction",
+      "items": [
+        {"id": "M01", "rule": "出现 banned_family（每个）", "deduct": 4, "max_total": 8},
+        {"id": "M02", "rule": "材料族占比超出 family_ratio_ranges（每族）", "deduct": 2, "max_total": 6},
+        {"id": "M03", "rule": "主导材料族与 dominant_families 不符", "deduct": 2, "max_total": 2}
+      ],
+      "cap": "本维扣分合计上限 10"
+    },
+    "efficiency": {
+      "weight": 5,
+      "executor": "包络/方块数统计",
+      "scoring": "deduction",
+      "items": [
+        {"id": "E01", "rule": "总方块数 > plot × max_height × 0.35", "deduct": 2},
+        {"id": "E02", "rule": "实际高度 < 0.6 × max_height（限高浪费）", "deduct": 1},
+        {"id": "E03", "rule": "建筑投影占地 < 0.3 × plot 或 > 0.9 × plot", "deduct": 2}
+      ],
+      "cap": "本维扣分合计上限 5"
+    }
+  },
+  "grade_bands": [
+    {"min": 85, "label": "EXCELLENT"},
+    {"min": 70, "label": "GOOD"},
+    {"min": 55, "label": "PASSABLE"},
+    {"min": 40, "label": "POOR"},
+    {"min": 0, "label": "FAIL"}
+  ],
+  "reporting_fields": [
+    "brief_id", "hard_fail_count", "validator_score", "functional_score",
+    "style_score", "material_score", "efficiency_score", "total_score",
+    "total_capped", "grade"
+  ]
+}

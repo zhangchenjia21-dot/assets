@@ -1,0 +1,516 @@
+{
+ "version": "P4-1.0",
+ "seed": 42,
+ "total": 100,
+ "difficulty_counts": {
+  "Easy": 40,
+  "Medium": 40,
+  "Hard": 20
+ },
+ "domain_counts": {
+  "Residential": 23,
+  "Mixed-use": 12,
+  "Workshop": 14,
+  "Hospitality": 12,
+  "Civic": 12,
+  "Defensive": 15,
+  "Constrained Plot": 12
+ },
+ "domain_difficulty": {
+  "Civic|Easy": 3,
+  "Civic|Hard": 3,
+  "Civic|Medium": 6,
+  "Constrained Plot|Easy": 6,
+  "Constrained Plot|Hard": 4,
+  "Constrained Plot|Medium": 2,
+  "Defensive|Easy": 4,
+  "Defensive|Hard": 4,
+  "Defensive|Medium": 7,
+  "Hospitality|Easy": 4,
+  "Hospitality|Hard": 3,
+  "Hospitality|Medium": 5,
+  "Mixed-use|Easy": 3,
+  "Mixed-use|Hard": 3,
+  "Mixed-use|Medium": 6,
+  "Residential|Easy": 15,
+  "Residential|Hard": 2,
+  "Residential|Medium": 6,
+  "Workshop|Easy": 5,
+  "Workshop|Hard": 1,
+  "Workshop|Medium": 8
+ },
+ "style_counts": {
+  "Medieval": 27,
+  "Rustic": 25,
+  "Fantasy": 16,
+  "Japanese": 16,
+  "Chinese": 16
+ },
+ "function_counts": {
+  "Residential": 28,
+  "Mixed-use": 12,
+  "Workshop": 8,
+  "Blacksmith": 3,
+  "Warehouse": 4,
+  "Farm": 2,
+  "Inn": 14,
+  "Civic": 8,
+  "Religious": 4,
+  "Tower": 7,
+  "Gate": 4,
+  "Castle": 6
+ },
+ "targets_gap_count": 20,
+ "style_function_difficulty": [
+  {
+   "style": "Chinese",
+   "function": "Castle",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Civic",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Inn",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Mixed-use",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Mixed-use",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Mixed-use",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Religious",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Residential",
+   "difficulty": "Easy",
+   "count": 4
+  },
+  {
+   "style": "Chinese",
+   "function": "Residential",
+   "difficulty": "Medium",
+   "count": 2
+  },
+  {
+   "style": "Chinese",
+   "function": "Tower",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Workshop",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Chinese",
+   "function": "Workshop",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Castle",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Castle",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Civic",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Inn",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Inn",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Mixed-use",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Mixed-use",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Residential",
+   "difficulty": "Easy",
+   "count": 3
+  },
+  {
+   "style": "Fantasy",
+   "function": "Residential",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Residential",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Tower",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Tower",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Fantasy",
+   "function": "Workshop",
+   "difficulty": "Easy",
+   "count": 2
+  },
+  {
+   "style": "Japanese",
+   "function": "Castle",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Inn",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Inn",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Inn",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Mixed-use",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Mixed-use",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Mixed-use",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Religious",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Residential",
+   "difficulty": "Easy",
+   "count": 4
+  },
+  {
+   "style": "Japanese",
+   "function": "Residential",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Tower",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Tower",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Japanese",
+   "function": "Workshop",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Blacksmith",
+   "difficulty": "Medium",
+   "count": 2
+  },
+  {
+   "style": "Medieval",
+   "function": "Castle",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Civic",
+   "difficulty": "Easy",
+   "count": 2
+  },
+  {
+   "style": "Medieval",
+   "function": "Civic",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Farm",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Gate",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Gate",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Inn",
+   "difficulty": "Easy",
+   "count": 2
+  },
+  {
+   "style": "Medieval",
+   "function": "Inn",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Mixed-use",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Mixed-use",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Religious",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Residential",
+   "difficulty": "Easy",
+   "count": 4
+  },
+  {
+   "style": "Medieval",
+   "function": "Residential",
+   "difficulty": "Medium",
+   "count": 3
+  },
+  {
+   "style": "Medieval",
+   "function": "Tower",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Warehouse",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Medieval",
+   "function": "Warehouse",
+   "difficulty": "Medium",
+   "count": 2
+  },
+  {
+   "style": "Medieval",
+   "function": "Workshop",
+   "difficulty": "Easy",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Blacksmith",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Castle",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Civic",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Civic",
+   "difficulty": "Medium",
+   "count": 2
+  },
+  {
+   "style": "Rustic",
+   "function": "Farm",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Gate",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Gate",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Inn",
+   "difficulty": "Easy",
+   "count": 2
+  },
+  {
+   "style": "Rustic",
+   "function": "Inn",
+   "difficulty": "Hard",
+   "count": 2
+  },
+  {
+   "style": "Rustic",
+   "function": "Inn",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Mixed-use",
+   "difficulty": "Medium",
+   "count": 2
+  },
+  {
+   "style": "Rustic",
+   "function": "Religious",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Residential",
+   "difficulty": "Easy",
+   "count": 3
+  },
+  {
+   "style": "Rustic",
+   "function": "Residential",
+   "difficulty": "Hard",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Residential",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Tower",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Warehouse",
+   "difficulty": "Medium",
+   "count": 1
+  },
+  {
+   "style": "Rustic",
+   "function": "Workshop",
+   "difficulty": "Easy",
+   "count": 2
+  }
+ ],
+ "size_band_counts": {
+  "small": 30,
+  "medium": 45,
+  "large": 20,
+  "xlarge": 5
+ }
+}

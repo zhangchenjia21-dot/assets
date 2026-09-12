@@ -1,0 +1,165 @@
+{
+ "version": "P4-1.0",
+ "zones": {
+  "living_hall": {
+   "min_area": 20,
+   "exterior": false
+  },
+  "bedroom": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "kitchen": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "storage": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "cellar": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "study": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "workshop_floor": {
+   "min_area": 16,
+   "exterior": false
+  },
+  "forge": {
+   "min_area": 16,
+   "exterior": false
+  },
+  "shop_front": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "living_quarters": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "office": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "storage_hall": {
+   "min_area": 25,
+   "exterior": false
+  },
+  "barn": {
+   "min_area": 20,
+   "exterior": false
+  },
+  "common_room": {
+   "min_area": 24,
+   "exterior": false
+  },
+  "guest_room": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "stable": {
+   "min_area": 16,
+   "exterior": false
+  },
+  "great_hall": {
+   "min_area": 30,
+   "exterior": false
+  },
+  "archive": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "meeting_room": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "chapel": {
+   "min_area": 25,
+   "exterior": false
+  },
+  "shrine": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "scriptorium": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "bell_tower_core": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "keep": {
+   "min_area": 25,
+   "exterior": false
+  },
+  "armory": {
+   "min_area": 12,
+   "exterior": false
+  },
+  "gate_passage": {
+   "min_area": 8,
+   "exterior": false
+  },
+  "guard_room": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "tower_core": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "farmhouse": {
+   "min_area": 16,
+   "exterior": false
+  },
+  "silo": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "crypt": {
+   "min_area": 9,
+   "exterior": false
+  },
+  "courtyard": {
+   "min_area": 16,
+   "exterior": true
+  },
+  "balcony": {
+   "min_area": 6,
+   "exterior": true
+  },
+  "field": {
+   "min_area": 30,
+   "exterior": true
+  },
+  "yard": {
+   "min_area": 12,
+   "exterior": true
+  },
+  "loading_dock": {
+   "min_area": 12,
+   "exterior": true
+  },
+  "cloister": {
+   "min_area": 12,
+   "exterior": true
+  },
+  "wall_walk": {
+   "min_area": 8,
+   "exterior": true
+  },
+  "watch_platform": {
+   "min_area": 9,
+   "exterior": true
+  },
+  "sign_post": {
+   "min_area": 4,
+   "exterior": true
+  }
+ }
+}

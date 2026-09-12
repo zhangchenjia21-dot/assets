@@ -1,0 +1,121 @@
+{
+  "_comment": "Spatial Validator 规则参数（项目代号 H · P2）。severity: HARD_FAIL/WARNING/INFO；params 全部可调，代码内无硬编码阈值。",
+  "floor_detection": {
+    "density_threshold": 0.3,
+    "min_gap": 2
+  },
+  "V001": {
+    "enabled": true,
+    "severity": "HARD_FAIL",
+    "basis": "HEURISTIC",
+    "params": {
+      "min_interior_air": 27,
+      "min_interior_stances": 9
+    }
+  },
+  "V002": {
+    "enabled": true,
+    "severity": "HARD_FAIL",
+    "basis": "HEURISTIC",
+    "params": {
+      "max_drop": 1.0
+    }
+  },
+  "V003": {
+    "enabled": true,
+    "severity": "HARD_FAIL",
+    "basis": "HEURISTIC",
+    "params": {
+      "min_interior_stances": 9,
+      "min_unreachable_stances": 9,
+      "max_reachable_ratio": 0.5,
+      "max_drop": 1.0
+    }
+  },
+  "V004": {
+    "enabled": true,
+    "severity": "HARD_FAIL",
+    "basis": "HEURISTIC",
+    "params": {
+      "warn_min_stances": 9,
+      "hard_min_stances": 20
+    }
+  },
+  "V005": {
+    "enabled": true,
+    "severity": "HARD_FAIL",
+    "basis": "OBSERVED",
+    "params": {
+      "min_cluster_size": 3,
+      "min_y_span": 2,
+      "require_connected_bottom": true,
+      "max_blocks_per_level": 5
+    }
+  },
+  "V006": {
+    "enabled": true,
+    "severity": "HARD_FAIL",
+    "basis": "OBSERVED",
+    "params": {
+      "min_cluster_size": 3,
+      "min_y_span": 2,
+      "require_connected_bottom": true,
+      "max_blocks_per_level": 5
+    }
+  },
+  "V007": {
+    "enabled": true,
+    "severity": "HARD_FAIL",
+    "basis": "HEURISTIC",
+    "params": {
+      "min_floor_stances": 6,
+      "level_tol": 0.6,
+      "min_interior_stances": 9
+    }
+  },
+  "V008": {
+    "enabled": true,
+    "severity": "WARNING",
+    "basis": "HEURISTIC",
+    "params": {}
+  },
+  "V009": {
+    "enabled": true,
+    "severity": "WARNING",
+    "basis": "HEURISTIC",
+    "params": {
+      "min_cells": 12,
+      "min_ratio": 0.35
+    }
+  },
+  "V010": {
+    "enabled": true,
+    "severity": "WARNING",
+    "basis": "HEURISTIC",
+    "params": {
+      "min_interior_air": 27,
+      "min_gap_voxels": 10,
+      "min_gap_ratio": 0.02,
+      "opening_margin": 1
+    }
+  },
+  "V011": {
+    "enabled": true,
+    "severity": "WARNING",
+    "basis": "HEURISTIC",
+    "params": {
+      "min_interior_air": 27,
+      "min_columns": 12,
+      "min_ratio": 0.2
+    }
+  },
+  "V012": {
+    "enabled": true,
+    "severity": "INFO",
+    "basis": "HEURISTIC",
+    "params": {
+      "info_min": 6,
+      "warn_min": 15
+    }
+  }
+}

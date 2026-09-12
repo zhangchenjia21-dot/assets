@@ -1,0 +1,59 @@
+{
+  "total": 123,
+  "style_counts": {
+    "Unknown": 56,
+    "Rustic": 20,
+    "Medieval": 19,
+    "Fantasy": 10,
+    "Other": 7,
+    "Japanese": 7,
+    "Chinese": 4
+  },
+  "function_counts": {
+    "Residential": 23,
+    "Decoration": 22,
+    "Castle": 14,
+    "Tower": 13,
+    "Religious": 10,
+    "Workshop": 7,
+    "Vehicle": 7,
+    "Unknown": 6,
+    "Inn": 5,
+    "Civic": 4,
+    "Gate": 3,
+    "Blacksmith": 3,
+    "Farm": 3,
+    "Mixed-use": 2,
+    "Warehouse": 1
+  },
+  "downgrades": [
+    {
+      "ref_id": "REF-0016",
+      "kind": "style",
+      "reason": "chinese@0.48 < 0.55 → Unknown"
+    },
+    {
+      "ref_id": "REF-0017",
+      "kind": "style",
+      "reason": "chinese@0.48 < 0.55 → Unknown"
+    },
+    {
+      "ref_id": "REF-0035",
+      "kind": "style",
+      "reason": "chinese@0.48 < 0.55 → Unknown"
+    },
+    {
+      "ref_id": "REF-0076",
+      "kind": "style",
+      "reason": "japanese@0.48 < 0.55 → Unknown"
+    },
+    {
+      "ref_id": "REF-0096",
+      "kind": "style",
+      "reason": "desert@0.48 < 0.55 → Unknown"
+    }
+  ],
+  "thresholds": {
+    "style_conf_floor": 0.55
+  }
+}

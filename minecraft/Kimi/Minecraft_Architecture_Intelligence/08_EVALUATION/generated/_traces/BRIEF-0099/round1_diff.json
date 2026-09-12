@@ -1,0 +1,23 @@
+{
+ "round": 1,
+ "actions": [
+  "regen overrides={\"balcony_door_shift\": 3}"
+ ],
+ "diff": {
+  "added": 0,
+  "removed": 0,
+  "changed": 6,
+  "total": 6,
+  "sha256": "67f158745875fb2df76c075b2362ab9a604d6360432f57db6a31f3f6852a7f5b",
+  "prev_non_air": 833,
+  "new_non_air": 833
+ },
+ "anchors": {
+  "footprint_unchanged": true,
+  "zones_unchanged": true,
+  "style_unchanged": true
+ },
+ "overrides": {
+  "balcony_door_shift": 3
+ }
+}

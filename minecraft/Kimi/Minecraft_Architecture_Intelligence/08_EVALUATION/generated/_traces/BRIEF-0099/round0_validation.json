@@ -1,0 +1,223 @@
+{
+ "ref_id": "round0_blueprint",
+ "ir_source": "canonical",
+ "path": "D:\\AI\\kimi\\kimi\\workspace\\Minecraft 建筑设计\\Minecraft_Architecture_Intelligence\\08_EVALUATION\\generated\\_traces\\BRIEF-0099\\round0_blueprint.json",
+ "validation_status": "HARD_FAIL",
+ "hard_fail_count": 2,
+ "warning_count": 1,
+ "info_count": 0,
+ "rules_triggered": [
+  "V002",
+  "V003",
+  "V008"
+ ],
+ "walkability_score": 98.7,
+ "connectivity_score": 100.0,
+ "vertical_circulation_score": 100.0,
+ "validator_confidence": "high",
+ "diagnostics": {
+  "walkable_voxels": 230,
+  "potential_stance_voxels": 233,
+  "interior_air_voxels": 393,
+  "interior_stances": 82,
+  "walkable_components": 4,
+  "floor_elevations": [
+   1,
+   6,
+   11,
+   17,
+   23
+  ],
+  "door_count": 2,
+  "stair_clusters": 4,
+  "unknown_block_types": []
+ },
+ "rules": [
+  {
+   "rule_id": "V001",
+   "name": "No Exterior Entrance",
+   "severity": "",
+   "configured_severity": "HARD_FAIL",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "发现 2 个入口候选"
+  },
+  {
+   "rule_id": "V002",
+   "name": "Main Entrance Blocked",
+   "severity": "HARD_FAIL",
+   "configured_severity": "HARD_FAIL",
+   "triggered": true,
+   "applicable": true,
+   "evidence": [
+    {
+     "entrance": {
+      "kind": "door",
+      "confidence": "high",
+      "pos": [
+       3,
+       16,
+       6
+      ],
+      "outside": [
+       2,
+       16,
+       6
+      ],
+      "inside": [
+       4,
+       16,
+       6
+      ],
+      "facing_out": "west"
+     },
+     "problems": [
+      "门内接近空间不足 inside=[4, 16, 6]"
+     ]
+    }
+   ],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "主入口前/后通行空间不足或不可穿越：门内接近空间不足 inside=[4, 16, 6]"
+  },
+  {
+   "rule_id": "V003",
+   "name": "Major Interior Unreachable",
+   "severity": "HARD_FAIL",
+   "configured_severity": "HARD_FAIL",
+   "triggered": true,
+   "applicable": true,
+   "evidence": [
+    {
+     "reason": "入口内侧无合法站位",
+     "interior_stances": 82
+    }
+   ],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "主入口内侧无合法站位，全部内部空间不可达"
+  },
+  {
+   "rule_id": "V004",
+   "name": "Isolated Room / Space",
+   "severity": "",
+   "configured_severity": "HARD_FAIL",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "无显著孤立内部空间"
+  },
+  {
+   "rule_id": "V005",
+   "name": "Stair Bottom Blocked",
+   "severity": "",
+   "configured_severity": "HARD_FAIL",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "message": "全部楼梯簇底部可进入"
+  },
+  {
+   "rule_id": "V006",
+   "name": "Stair Top Blocked",
+   "severity": "",
+   "configured_severity": "HARD_FAIL",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "OBSERVED",
+   "message": "全部楼梯簇顶端有合法落点"
+  },
+  {
+   "rule_id": "V007",
+   "name": "Vertical Circulation Broken",
+   "severity": "",
+   "configured_severity": "HARD_FAIL",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "3 个可用楼层经垂直交通连通"
+  },
+  {
+   "rule_id": "V008",
+   "name": "Door Clearance Failure",
+   "severity": "WARNING",
+   "configured_severity": "WARNING",
+   "triggered": true,
+   "applicable": true,
+   "evidence": [
+    {
+     "pos": [
+      3,
+      16,
+      6
+     ],
+     "missing_approach": [
+      "back"
+     ]
+    }
+   ],
+   "confidence": "medium",
+   "basis": "HEURISTIC",
+   "message": "1/2 扇门通行轴方向存在 clearance 问题"
+  },
+  {
+   "rule_id": "V009",
+   "name": "Severe Headroom Failure",
+   "severity": "",
+   "configured_severity": "WARNING",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "低净高内部格 3（阈值 12 / 35%）"
+  },
+  {
+   "rule_id": "V010",
+   "name": "Exterior Envelope Gap",
+   "severity": "",
+   "configured_severity": "WARNING",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "围护泄漏 0 格（阈值 10）"
+  },
+  {
+   "rule_id": "V011",
+   "name": "Roof Coverage Anomaly",
+   "severity": "",
+   "configured_severity": "WARNING",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "无屋顶室内柱 0/21（阈值 12 且 ≥20%）"
+  },
+  {
+   "rule_id": "V012",
+   "name": "Dead-end Circulation Anomaly",
+   "severity": "",
+   "configured_severity": "INFO",
+   "triggered": false,
+   "applicable": true,
+   "evidence": [],
+   "confidence": "high",
+   "basis": "HEURISTIC",
+   "message": "内部死端 1（INFO 阈值 6）"
+  }
+ ]
+}
