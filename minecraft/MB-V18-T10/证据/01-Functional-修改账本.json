@@ -1,0 +1,218 @@
+[
+  {
+    "x": 64,
+    "y": 19,
+    "z": 29,
+    "before": "minecraft:air",
+    "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "reason": "更衣保管：面向座席，箱盖上方保留空气",
+    "permission": "Allowed"
+  },
+  {
+    "x": 67,
+    "y": 19,
+    "z": 29,
+    "before": "minecraft:air",
+    "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "reason": "更衣保管：面向座席，箱盖上方保留空气",
+    "permission": "Allowed"
+  },
+  {
+    "x": 70,
+    "y": 19,
+    "z": 29,
+    "before": "minecraft:air",
+    "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "reason": "更衣保管：面向座席，箱盖上方保留空气",
+    "permission": "Allowed"
+  },
+  {
+    "x": 73,
+    "y": 19,
+    "z": 29,
+    "before": "minecraft:air",
+    "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "reason": "更衣保管：面向座席，箱盖上方保留空气",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 19,
+    "z": 29,
+    "before": "minecraft:air",
+    "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "reason": "更衣保管：面向座席，箱盖上方保留空气",
+    "permission": "Allowed"
+  },
+  {
+    "x": 93,
+    "y": 19,
+    "z": 29,
+    "before": "minecraft:air",
+    "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "reason": "更衣保管：面向座席，箱盖上方保留空气",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 19,
+    "z": 29,
+    "before": "minecraft:air",
+    "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "reason": "更衣保管：面向座席，箱盖上方保留空气",
+    "permission": "Allowed"
+  },
+  {
+    "x": 99,
+    "y": 19,
+    "z": 29,
+    "before": "minecraft:air",
+    "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+    "reason": "更衣保管：面向座席，箱盖上方保留空气",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 19,
+    "z": 33,
+    "before": "minecraft:air",
+    "after": "minecraft:stripped_oak_log[axis=y]",
+    "reason": "入口侧管理台，不占两条冷厅分流线",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 19,
+    "z": 33,
+    "before": "minecraft:air",
+    "after": "minecraft:stripped_oak_log[axis=y]",
+    "reason": "入口侧管理台，不占两条冷厅分流线",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 19,
+    "z": 33,
+    "before": "minecraft:air",
+    "after": "minecraft:stripped_oak_log[axis=y]",
+    "reason": "入口侧管理台，不占两条冷厅分流线",
+    "permission": "Allowed"
+  },
+  {
+    "x": 89,
+    "y": 19,
+    "z": 33,
+    "before": "minecraft:air",
+    "after": "minecraft:stripped_oak_log[axis=y]",
+    "reason": "入口侧管理台，不占两条冷厅分流线",
+    "permission": "Allowed"
+  },
+  {
+    "x": 89,
+    "y": 20,
+    "z": 33,
+    "before": "minecraft:air",
+    "after": "minecraft:candle[candles=2,lit=true,waterlogged=false]",
+    "reason": "管理台任务灯，保留北窗自然光",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 21,
+    "z": 102,
+    "before": "minecraft:air",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热浴后整理用品台，贴活动边缘不围池",
+    "permission": "Allowed"
+  },
+  {
+    "x": 91,
+    "y": 21,
+    "z": 102,
+    "before": "minecraft:air",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热浴后整理用品台，贴活动边缘不围池",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 22,
+    "z": 102,
+    "before": "minecraft:air",
+    "after": "minecraft:flower_pot",
+    "reason": "浴后油膏小器皿的方块转译，不声称有液体库存",
+    "permission": "Allowed"
+  },
+  {
+    "x": 91,
+    "y": 22,
+    "z": 102,
+    "before": "minecraft:air",
+    "after": "minecraft:flower_pot",
+    "reason": "浴后油膏小器皿的方块转译，不声称有液体库存",
+    "permission": "Allowed"
+  },
+  {
+    "x": 119,
+    "y": 17,
+    "z": 98,
+    "before": "minecraft:air",
+    "after": "minecraft:stripped_oak_log[axis=y]",
+    "reason": "燃料院劈分和整理工作台",
+    "permission": "Allowed"
+  },
+  {
+    "x": 120,
+    "y": 17,
+    "z": 98,
+    "before": "minecraft:air",
+    "after": "minecraft:stripped_oak_log[axis=y]",
+    "reason": "燃料院劈分和整理工作台",
+    "permission": "Allowed"
+  },
+  {
+    "x": 121,
+    "y": 17,
+    "z": 98,
+    "before": "minecraft:air",
+    "after": "minecraft:stripped_oak_log[axis=y]",
+    "reason": "燃料院劈分和整理工作台",
+    "permission": "Allowed"
+  },
+  {
+    "x": 122,
+    "y": 17,
+    "z": 98,
+    "before": "minecraft:air",
+    "after": "minecraft:stripped_oak_log[axis=y]",
+    "reason": "燃料院劈分和整理工作台",
+    "permission": "Allowed"
+  },
+  {
+    "x": 119,
+    "y": 18,
+    "z": 98,
+    "before": "minecraft:air",
+    "after": "minecraft:barrel[facing=up,open=false]",
+    "reason": "服务用品储存，位于可接近工作台端部",
+    "permission": "Allowed"
+  },
+  {
+    "x": 122,
+    "y": 18,
+    "z": 98,
+    "before": "minecraft:air",
+    "after": "minecraft:barrel[facing=up,open=false]",
+    "reason": "服务用品储存，位于可接近工作台端部",
+    "permission": "Allowed"
+  },
+  {
+    "x": 120,
+    "y": 18,
+    "z": 98,
+    "before": "minecraft:air",
+    "after": "minecraft:candle[candles=1,lit=true,waterlogged=false]",
+    "reason": "工作台任务照明，与既有燃料堆分离",
+    "permission": "Allowed"
+  }
+]

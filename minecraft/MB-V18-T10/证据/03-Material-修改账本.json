@@ -1,0 +1,263 @@
+[
+  {
+    "x": 106,
+    "y": 19,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 106,
+    "y": 20,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 107,
+    "y": 19,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 107,
+    "y": 20,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 107,
+    "y": 21,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:gray_terracotta",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 108,
+    "y": 19,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 108,
+    "y": 20,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 108,
+    "y": 21,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:gray_terracotta",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 109,
+    "y": 19,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 109,
+    "y": 20,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 109,
+    "y": 21,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:gray_terracotta",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 110,
+    "y": 19,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 110,
+    "y": 20,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:polished_blackstone",
+    "reason": "炉口上方烟熏，由烟源向上减弱",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 18,
+    "z": 29,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:sandstone",
+    "reason": "入场脚步集中区域磨损；保持地坪标高",
+    "permission": "Allowed"
+  },
+  {
+    "x": 81,
+    "y": 18,
+    "z": 30,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:sandstone",
+    "reason": "入场脚步集中区域磨损；保持地坪标高",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 18,
+    "z": 31,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:sandstone",
+    "reason": "入场脚步集中区域磨损；保持地坪标高",
+    "permission": "Allowed"
+  },
+  {
+    "x": 83,
+    "y": 18,
+    "z": 32,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:sandstone",
+    "reason": "入场脚步集中区域磨损；保持地坪标高",
+    "permission": "Allowed"
+  },
+  {
+    "x": 84,
+    "y": 18,
+    "z": 31,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:sandstone",
+    "reason": "入场脚步集中区域磨损；保持地坪标高",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 18,
+    "z": 32,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:sandstone",
+    "reason": "入场脚步集中区域磨损；保持地坪标高",
+    "permission": "Allowed"
+  },
+  {
+    "x": 135,
+    "y": 15,
+    "z": 114,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 135,
+    "y": 15,
+    "z": 115,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 135,
+    "y": 15,
+    "z": 116,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 135,
+    "y": 15,
+    "z": 117,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 135,
+    "y": 15,
+    "z": 118,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 136,
+    "y": 15,
+    "z": 114,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 136,
+    "y": 15,
+    "z": 115,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 136,
+    "y": 15,
+    "z": 116,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 136,
+    "y": 15,
+    "z": 117,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  },
+  {
+    "x": 136,
+    "y": 15,
+    "z": 118,
+    "before": "minecraft:grass_block[snowy=false]",
+    "after": "minecraft:coarse_dirt",
+    "reason": "服务院外少量踩踏地面，不改变地形或路线",
+    "permission": "Restricted"
+  }
+]

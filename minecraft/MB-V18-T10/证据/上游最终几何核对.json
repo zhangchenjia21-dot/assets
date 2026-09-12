@@ -1,0 +1,11 @@
+{
+  "compared_cells": 1161216,
+  "canonical_state_differences": 1222,
+  "changes": [
+    {
+      "before": "minecraft:grass_block[snowy=false]",
+      "now": "minecraft:dirt",
+      "count": 1222
+    }
+  ]
+}

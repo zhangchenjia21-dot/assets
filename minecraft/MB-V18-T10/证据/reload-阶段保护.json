@@ -1,0 +1,104 @@
+{
+  "stage": "reload",
+  "baseline_changed_cells": 326,
+  "unexplained_actual_changes": 0,
+  "frozen_Y24_and_above_changed": 0,
+  "water_state_changes": 0,
+  "baseline_solid_removed": 0,
+  "restricted_edits": [
+    {
+      "x": 135,
+      "y": 15,
+      "z": 114,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 135,
+      "y": 15,
+      "z": 115,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 135,
+      "y": 15,
+      "z": 116,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 135,
+      "y": 15,
+      "z": 117,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 135,
+      "y": 15,
+      "z": 118,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 136,
+      "y": 15,
+      "z": 114,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 136,
+      "y": 15,
+      "z": 115,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 136,
+      "y": 15,
+      "z": 116,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 136,
+      "y": 15,
+      "z": 117,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    },
+    {
+      "x": 136,
+      "y": 15,
+      "z": 118,
+      "before": "minecraft:grass_block[snowy=false]",
+      "after": "minecraft:coarse_dirt",
+      "reason": "服务院外少量踩踏地面，不改变地形或路线",
+      "permission": "Restricted"
+    }
+  ],
+  "interpretation": "Semantic review still required: material substitutions retain occupied shape; all additions are logged furniture/props below Y24.",
+  "all_14_expected_edges": true,
+  "orphan_cells": 0,
+  "static_water_leaks": 0
+}

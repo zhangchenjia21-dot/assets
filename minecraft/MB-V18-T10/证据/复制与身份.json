@@ -1,0 +1,8 @@
+{
+  "source": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V17-T09-罗马浴场",
+  "target": "D:\\Games\\Minecraft\\AI工程\\MB-V18-T10/实例/saves/MB-V18-T10-罗马浴场精修",
+  "source_files_unchanged": true,
+  "copy_exact_except_LevelName_and_lock": true,
+  "runtime_profile_source": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5",
+  "initial_profile_attempt": "Factory runtime rejected by qualification: datapack/generation metadata changed on disposable qualification copy; target and T09 not loaded"
+}

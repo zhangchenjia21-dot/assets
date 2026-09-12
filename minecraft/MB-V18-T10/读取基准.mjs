@@ -1,0 +1,5 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';import {RegionReader,readNBT} from '../AI-Offline/L3_外交层/存档读取接口.mjs';
+const R=path.dirname(fileURLToPath(import.meta.url)),w=R+'/实例/saves/MB-V18-T10-罗马浴场精修',rr=new RegionReader(w),palette=[],ids=new Map(),b=Buffer.alloc(56*144*144*2);let i=0;
+if(readNBT(fs.readFileSync(w+'/level.dat')).Data.LevelName!=='MB-V18-T10-罗马浴场精修')throw Error('IDENTITY');
+for(let y=10;y<66;y++)for(let z=0;z<144;z++)for(let x=0;x<144;x++){const s=rr.get(x,y,z)??'UNGENERATED';if(!ids.has(s)){ids.set(s,palette.length);palette.push(s);}b.writeUInt16LE(ids.get(s),i++*2);}
+fs.writeFileSync(R+'/证据/00-Baseline.u16',b);fs.writeFileSync(R+'/证据/00-Baseline-实存.json',JSON.stringify({world:w,origin:[0,10,0],shape_yzx:[56,144,144],palette,sha256:crypto.createHash('sha256').update(b).digest('hex'),source:'Read-only RegionReader from isolated exact copy'},null,2));console.log('Baseline sampled without Minecraft load');

@@ -1,0 +1,38 @@
+[
+  {
+    "x": 64,
+    "y": 20,
+    "z": 60,
+    "before": "minecraft:torch",
+    "after": "minecraft:candle[candles=3,lit=true,waterlogged=false]",
+    "reason": "冷暖休息边照明转为低位灯群，避免固定节距火把感",
+    "permission": "Allowed"
+  },
+  {
+    "x": 100,
+    "y": 20,
+    "z": 60,
+    "before": "minecraft:torch",
+    "after": "minecraft:candle[candles=3,lit=true,waterlogged=false]",
+    "reason": "冷暖休息边照明转为低位灯群，避免固定节距火把感",
+    "permission": "Allowed"
+  },
+  {
+    "x": 71,
+    "y": 22,
+    "z": 83,
+    "before": "minecraft:torch",
+    "after": "minecraft:candle[candles=3,lit=true,waterlogged=false]",
+    "reason": "冷暖休息边照明转为低位灯群，避免固定节距火把感",
+    "permission": "Allowed"
+  },
+  {
+    "x": 93,
+    "y": 22,
+    "z": 83,
+    "before": "minecraft:torch",
+    "after": "minecraft:candle[candles=3,lit=true,waterlogged=false]",
+    "reason": "冷暖休息边照明转为低位灯群，避免固定节距火把感",
+    "permission": "Allowed"
+  }
+]

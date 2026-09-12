@@ -1,0 +1,2495 @@
+[
+  {
+    "x": 78,
+    "y": 19,
+    "z": 26,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 19,
+    "z": 27,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 20,
+    "z": 26,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 20,
+    "z": 27,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 21,
+    "z": 26,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 21,
+    "z": 27,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 22,
+    "z": 26,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 22,
+    "z": 27,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 19,
+    "z": 26,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 19,
+    "z": 27,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 20,
+    "z": 26,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 20,
+    "z": 27,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 21,
+    "z": 26,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 21,
+    "z": 27,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 22,
+    "z": 26,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 22,
+    "z": 27,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "主入口既有实心门侧的石材收口",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 18,
+    "z": 59,
+    "before": "minecraft:polished_diorite",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 18,
+    "z": 60,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 18,
+    "z": 61,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 18,
+    "z": 62,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 18,
+    "z": 63,
+    "before": "minecraft:polished_diorite",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 77,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 77,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 79,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 79,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 81,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 81,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 83,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 83,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 84,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 84,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 85,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 85,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 18,
+    "z": 58,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 18,
+    "z": 59,
+    "before": "minecraft:polished_diorite",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 18,
+    "z": 60,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 18,
+    "z": 61,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 18,
+    "z": 62,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 18,
+    "z": 63,
+    "before": "minecraft:polished_diorite",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 18,
+    "z": 64,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅平整地坪镶边，强调停留中心而不构成隔断",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 18,
+    "z": 60,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅中央小尺度几何嵌饰",
+    "permission": "Allowed"
+  },
+  {
+    "x": 81,
+    "y": 18,
+    "z": 61,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅中央小尺度几何嵌饰",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 18,
+    "z": 62,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅中央小尺度几何嵌饰",
+    "permission": "Allowed"
+  },
+  {
+    "x": 83,
+    "y": 18,
+    "z": 61,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅中央小尺度几何嵌饰",
+    "permission": "Allowed"
+  },
+  {
+    "x": 84,
+    "y": 18,
+    "z": 60,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅中央小尺度几何嵌饰",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 18,
+    "z": 60,
+    "before": "minecraft:smooth_sandstone",
+    "after": "minecraft:black_terracotta",
+    "reason": "冷厅中央小尺度几何嵌饰",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 103,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 103,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 103,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 104,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 104,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 104,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 106,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 106,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 106,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 107,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 107,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 107,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 108,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 108,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 108,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 109,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 109,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 109,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 110,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 110,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 110,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 111,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 111,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 111,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 112,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 112,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 112,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 21,
+    "z": 113,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 22,
+    "z": 113,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 68,
+    "y": 23,
+    "z": 113,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 21,
+    "z": 101,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 22,
+    "z": 101,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 23,
+    "z": 101,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 21,
+    "z": 102,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 22,
+    "z": 102,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 23,
+    "z": 102,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 21,
+    "z": 114,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 22,
+    "z": 114,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 23,
+    "z": 114,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 21,
+    "z": 115,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 22,
+    "z": 115,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 69,
+    "y": 23,
+    "z": 115,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 70,
+    "y": 21,
+    "z": 100,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 70,
+    "y": 22,
+    "z": 100,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 70,
+    "y": 23,
+    "z": 100,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 70,
+    "y": 21,
+    "z": 116,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 70,
+    "y": 22,
+    "z": 116,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 70,
+    "y": 23,
+    "z": 116,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 71,
+    "y": 21,
+    "z": 99,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 71,
+    "y": 22,
+    "z": 99,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 71,
+    "y": 23,
+    "z": 99,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 71,
+    "y": 21,
+    "z": 117,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 71,
+    "y": 22,
+    "z": 117,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 71,
+    "y": 23,
+    "z": 117,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 72,
+    "y": 21,
+    "z": 98,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 72,
+    "y": 22,
+    "z": 98,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 72,
+    "y": 23,
+    "z": 98,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 72,
+    "y": 21,
+    "z": 118,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 72,
+    "y": 22,
+    "z": 118,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 72,
+    "y": 23,
+    "z": 118,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 73,
+    "y": 21,
+    "z": 97,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 73,
+    "y": 22,
+    "z": 97,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 73,
+    "y": 23,
+    "z": 97,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 73,
+    "y": 21,
+    "z": 119,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 73,
+    "y": 22,
+    "z": 119,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 73,
+    "y": 23,
+    "z": 119,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 74,
+    "y": 21,
+    "z": 96,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 74,
+    "y": 22,
+    "z": 96,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 74,
+    "y": 23,
+    "z": 96,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 74,
+    "y": 21,
+    "z": 120,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 74,
+    "y": 22,
+    "z": 120,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 74,
+    "y": 23,
+    "z": 120,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 75,
+    "y": 21,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 75,
+    "y": 22,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 75,
+    "y": 23,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 75,
+    "y": 21,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 75,
+    "y": 22,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 75,
+    "y": 23,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 21,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 22,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 23,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 21,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 22,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 76,
+    "y": 23,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 77,
+    "y": 21,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 77,
+    "y": 22,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 77,
+    "y": 23,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 77,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 77,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 77,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 21,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 22,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 23,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 78,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 79,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 79,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 79,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 81,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 81,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 81,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 83,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 83,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 83,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 84,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 84,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 84,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 85,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 85,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 85,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 21,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 22,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 23,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 86,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 21,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 22,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 23,
+    "z": 94,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 21,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 22,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 87,
+    "y": 23,
+    "z": 122,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 21,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 22,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 23,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 21,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 22,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 88,
+    "y": 23,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 89,
+    "y": 21,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 89,
+    "y": 22,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 89,
+    "y": 23,
+    "z": 95,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 89,
+    "y": 21,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 89,
+    "y": 22,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 89,
+    "y": 23,
+    "z": 121,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 21,
+    "z": 96,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 22,
+    "z": 96,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 23,
+    "z": 96,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 21,
+    "z": 120,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 22,
+    "z": 120,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 90,
+    "y": 23,
+    "z": 120,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 91,
+    "y": 21,
+    "z": 97,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 91,
+    "y": 22,
+    "z": 97,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 91,
+    "y": 23,
+    "z": 97,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 91,
+    "y": 21,
+    "z": 119,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 91,
+    "y": 22,
+    "z": 119,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 91,
+    "y": 23,
+    "z": 119,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 92,
+    "y": 21,
+    "z": 98,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 92,
+    "y": 22,
+    "z": 98,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 92,
+    "y": 23,
+    "z": 98,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 92,
+    "y": 21,
+    "z": 118,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 92,
+    "y": 22,
+    "z": 118,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 92,
+    "y": 23,
+    "z": 118,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 93,
+    "y": 21,
+    "z": 99,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 93,
+    "y": 22,
+    "z": 99,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 93,
+    "y": 23,
+    "z": 99,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 93,
+    "y": 21,
+    "z": 117,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 93,
+    "y": 22,
+    "z": 117,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 93,
+    "y": 23,
+    "z": 117,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 94,
+    "y": 21,
+    "z": 100,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 94,
+    "y": 22,
+    "z": 100,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 94,
+    "y": 23,
+    "z": 100,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 94,
+    "y": 21,
+    "z": 116,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 94,
+    "y": 22,
+    "z": 116,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 94,
+    "y": 23,
+    "z": 116,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 21,
+    "z": 101,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 22,
+    "z": 101,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 23,
+    "z": 101,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 21,
+    "z": 102,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 22,
+    "z": 102,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 23,
+    "z": 102,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 21,
+    "z": 114,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 22,
+    "z": 114,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 23,
+    "z": 114,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 21,
+    "z": 115,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 22,
+    "z": 115,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 95,
+    "y": 23,
+    "z": 115,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 103,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 103,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 103,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 104,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 104,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 104,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 105,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 106,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 106,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 106,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 107,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 107,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 107,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 108,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 108,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 108,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 109,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 109,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 109,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 110,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 110,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 110,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 111,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 111,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 111,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 112,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 112,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 112,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 21,
+    "z": 113,
+    "before": "minecraft:bricks",
+    "after": "minecraft:smooth_quartz",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 22,
+    "z": 113,
+    "before": "minecraft:bricks",
+    "after": "minecraft:white_terracotta",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  },
+  {
+    "x": 96,
+    "y": 23,
+    "z": 113,
+    "before": "minecraft:bricks",
+    "after": "minecraft:cut_sandstone",
+    "reason": "热室内侧可擦洗墙脚与压顶，仅换既有表面材料",
+    "permission": "Allowed"
+  }
+]

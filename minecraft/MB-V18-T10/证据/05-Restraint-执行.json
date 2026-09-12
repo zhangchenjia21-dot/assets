@@ -1,0 +1,22 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\AI工程\\MB-V18-T10\\实例\\saves\\MB-V18-T10-罗马浴场精修",
+  "generator": "FlatLevelSource",
+  "before": [],
+  "changed_blocks": 8,
+  "apply_seconds": 0.6658846,
+  "readback": [],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 31.365,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T03-52-01-640Z-1d4a96bd-1833-4ea2-988a-2c5f05474346",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\AI工程\\MB-V18-T10\\实例\\saves\\MB-V18-T10-罗马浴场精修",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T03-52-01-640Z-1d4a96bd-1833-4ea2-988a-2c5f05474346\\backup",
+    "files": 86,
+    "sha256_verified": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "points": [
+    {
+      "stand": [
+        87,
+        19,
+        35
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        89,
+        21,
+        102
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        120,
+        17,
+        100
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        64,
+        19,
+        31
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        67,
+        19,
+        31
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        70,
+        19,
+        31
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        73,
+        19,
+        31
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        90,
+        19,
+        31
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        93,
+        19,
+        31
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        96,
+        19,
+        31
+      ],
+      "two_block_clearance_and_floor": true
+    },
+    {
+      "stand": [
+        99,
+        19,
+        31
+      ],
+      "two_block_clearance_and_floor": true
+    }
+  ],
+  "all_chest_lids_clear": true,
+  "native_interaction_tested": false
+}

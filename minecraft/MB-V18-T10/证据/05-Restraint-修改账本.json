@@ -1,0 +1,74 @@
+[
+  {
+    "x": 91,
+    "y": 22,
+    "z": 102,
+    "before": "minecraft:flower_pot",
+    "after": "minecraft:air",
+    "reason": "Restraint：删除重复油膏器皿，释放用品台面",
+    "permission": "Allowed"
+  },
+  {
+    "x": 122,
+    "y": 18,
+    "z": 98,
+    "before": "minecraft:barrel[facing=up,open=false]",
+    "after": "minecraft:air",
+    "reason": "Restraint：删除工作台端部重复储桶，保留整理工作面",
+    "permission": "Allowed"
+  },
+  {
+    "x": 80,
+    "y": 18,
+    "z": 60,
+    "before": "minecraft:black_terracotta",
+    "after": "minecraft:smooth_sandstone",
+    "reason": "Restraint：取消中央零散嵌饰，只保留外围边线与冷厅留白",
+    "permission": "Allowed"
+  },
+  {
+    "x": 81,
+    "y": 18,
+    "z": 61,
+    "before": "minecraft:black_terracotta",
+    "after": "minecraft:smooth_sandstone",
+    "reason": "Restraint：取消中央零散嵌饰，只保留外围边线与冷厅留白",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 18,
+    "z": 62,
+    "before": "minecraft:black_terracotta",
+    "after": "minecraft:smooth_sandstone",
+    "reason": "Restraint：取消中央零散嵌饰，只保留外围边线与冷厅留白",
+    "permission": "Allowed"
+  },
+  {
+    "x": 83,
+    "y": 18,
+    "z": 61,
+    "before": "minecraft:black_terracotta",
+    "after": "minecraft:smooth_sandstone",
+    "reason": "Restraint：取消中央零散嵌饰，只保留外围边线与冷厅留白",
+    "permission": "Allowed"
+  },
+  {
+    "x": 84,
+    "y": 18,
+    "z": 60,
+    "before": "minecraft:black_terracotta",
+    "after": "minecraft:smooth_sandstone",
+    "reason": "Restraint：取消中央零散嵌饰，只保留外围边线与冷厅留白",
+    "permission": "Allowed"
+  },
+  {
+    "x": 82,
+    "y": 18,
+    "z": 60,
+    "before": "minecraft:black_terracotta",
+    "after": "minecraft:smooth_sandstone",
+    "reason": "Restraint：取消中央零散嵌饰，只保留外围边线与冷厅留白",
+    "permission": "Allowed"
+  }
+]
