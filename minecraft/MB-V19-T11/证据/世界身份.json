@@ -1,0 +1,85 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V19-T11-京町家",
+  "name": "MB-V19-T11-京町家",
+  "version": {
+    "Snapshot": 0,
+    "Series": "main",
+    "Id": 4903,
+    "Name": "26.2"
+  },
+  "generation": {
+    "bonus_chest": 0,
+    "seed": "1911",
+    "generate_structures": 0,
+    "dimensions": {
+      "minecraft:overworld": {
+        "generator": {
+          "settings": {
+            "features": 0,
+            "biome": "minecraft:plains",
+            "layers": [
+              {
+                "block": "minecraft:bedrock",
+                "height": 1
+              },
+              {
+                "block": "minecraft:stone",
+                "height": 73
+              },
+              {
+                "block": "minecraft:dirt",
+                "height": 5
+              },
+              {
+                "block": "minecraft:grass_block",
+                "height": 1
+              }
+            ],
+            "structure_overrides": [],
+            "lakes": 0
+          },
+          "type": "minecraft:flat"
+        },
+        "type": "minecraft:overworld"
+      },
+      "minecraft:the_nether": {
+        "generator": {
+          "settings": "minecraft:nether",
+          "biome_source": {
+            "preset": "minecraft:nether",
+            "type": "minecraft:multi_noise"
+          },
+          "type": "minecraft:noise"
+        },
+        "type": "minecraft:the_nether"
+      },
+      "minecraft:the_end": {
+        "generator": {
+          "settings": "minecraft:end",
+          "biome_source": {
+            "type": "minecraft:the_end"
+          },
+          "type": "minecraft:noise"
+        },
+        "type": "minecraft:the_end"
+      }
+    }
+  },
+  "result": {
+    "minecraft_mcp_calls": 0,
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V19-T11-京町家",
+    "generator": "FlatLevelSource",
+    "before": [],
+    "changed_blocks": 0,
+    "apply_seconds": 0.000014,
+    "readback": [],
+    "mismatches": 0,
+    "block_entities_checked": 0,
+    "save_completed": true,
+    "status": "PASS",
+    "shutdown_verified": true,
+    "wall_seconds": 25.784,
+    "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T04-51-51-947Z-a217b393-0f3e-4b0c-bae3-56602b29a2e8",
+    "backup": null
+  }
+}

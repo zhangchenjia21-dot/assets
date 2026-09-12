@@ -1,0 +1,5022 @@
+{
+  "source": "04-Base",
+  "stage": "05-Functional",
+  "changes": [
+    {
+      "at": [
+        14,
+        18,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        18,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        18,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        18,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        18,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        18,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        18,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        18,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        18,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        18,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        18,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        18,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        18,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        18,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "前店看样与丈量台，避开中央迎客线",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        19,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "受台面支承的三类样布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        19,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "受台面支承的三类样布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        19,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_wool",
+      "reason": "受台面支承的三类样布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        19,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_wool",
+      "reason": "受台面支承的三类样布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        19,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:red_wool",
+      "reason": "受台面支承的三类样布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        19,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:red_wool",
+      "reason": "受台面支承的三类样布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        18,
+        20
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "靠格子侧的备货柜",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        18,
+        20
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "靠格子侧的备货柜",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        18,
+        20
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "靠格子侧的备货柜",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        19,
+        20
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:chest[facing=south,type=single,waterlogged=false]",
+      "reason": "原生空容器，可存经营物品",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        18,
+        30
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "账房低案",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        18,
+        30
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "账房低案",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        18,
+        30
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "账房低案",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        18,
+        31
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "账房低案",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        18,
+        31
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "账房低案",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        18,
+        31
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "账房低案",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        18,
+        29
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:chest[facing=east,type=single,waterlogged=false]",
+      "reason": "账房文书存放",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        19,
+        31
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "账案纸面转译",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        37
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "取合部检布包装台，主路在西侧",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        37
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "取合部检布包装台，主路在西侧",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        38
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "取合部检布包装台，主路在西侧",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        38
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "取合部检布包装台，主路在西侧",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        39
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "取合部检布包装台，主路在西侧",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        39
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "取合部检布包装台，主路在西侧",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        40
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "取合部检布包装台，主路在西侧",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        40
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "取合部检布包装台，主路在西侧",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        19,
+        38
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "摊平检视的未染布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        19,
+        38
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "摊平检视的未染布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        19,
+        39
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "摊平检视的未染布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        19,
+        39
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "摊平检视的未染布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        41
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:barrel[facing=up,open=false]",
+      "reason": "包装材料收储",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        46
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        47
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        48
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        49
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        50
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        46
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        50
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        54
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        55
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        56
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        57
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        58
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        59
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        60
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        61
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        54
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        58
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        18,
+        47
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        18,
+        47
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        18,
+        47
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        18,
+        48
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        18,
+        48
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        18,
+        48
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        18,
+        49
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        18,
+        49
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        18,
+        49
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "家庭低桌",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        19,
+        48
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:flower_pot",
+      "reason": "日常桌上容器转译",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        18,
+        47
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_carpet",
+      "reason": "用餐座垫",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        18,
+        49
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_carpet",
+      "reason": "用餐座垫",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        18,
+        47
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_carpet",
+      "reason": "用餐座垫",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        18,
+        49
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_carpet",
+      "reason": "用餐座垫",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        57
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "后座敷靠墙陈列台，中央保持空场",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        57
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "后座敷靠墙陈列台，中央保持空场",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        58
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "后座敷靠墙陈列台，中央保持空场",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        58
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "后座敷靠墙陈列台，中央保持空场",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        59
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "后座敷靠墙陈列台，中央保持空场",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        59
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "后座敷靠墙陈列台，中央保持空场",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        60
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "后座敷靠墙陈列台，中央保持空场",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        18,
+        60
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "后座敷靠墙陈列台，中央保持空场",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        19,
+        58
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:flower_pot",
+      "reason": "安静陈设",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        19,
+        60
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "收置书卷转译",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        36,
+        17,
+        45
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:barrel[facing=up,open=false]",
+      "reason": "厨房备料容器，避开通道",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        36,
+        17,
+        59
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:barrel[facing=up,open=false]",
+      "reason": "厨房备料容器，避开通道",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        36,
+        17,
+        46
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "厨房备餐台",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        36,
+        17,
+        47
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "厨房备餐台",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        36,
+        17,
+        48
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "厨房备餐台",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        36,
+        18,
+        47
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:flower_pot",
+      "reason": "备餐小器皿",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        20
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        23,
+        20
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        23,
+        20
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        23,
+        20
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        20
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        23,
+        20
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        23,
+        20
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        21
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        23,
+        21
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        23,
+        21
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        23,
+        21
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        21
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        23,
+        21
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        23,
+        21
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        22
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        23,
+        22
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        23,
+        22
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        23,
+        22
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        22
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        23,
+        22
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        23,
+        22
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        23
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        23,
+        23
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        23,
+        23
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        23,
+        23
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        23
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        23,
+        23
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        23,
+        23
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        24
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        23,
+        24
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        23,
+        24
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        23,
+        24
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        24
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        23,
+        24
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        23,
+        24
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        25
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        23,
+        25
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        23,
+        25
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        23,
+        25
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        25
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        23,
+        25
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        23,
+        25
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:bamboo_mosaic",
+      "reason": "洁净席面，保留楼板体积与标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        20
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        23,
+        20
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        23,
+        20
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        23,
+        20
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        20
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        23,
+        20
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        23,
+        20
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        24
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        23,
+        24
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        23,
+        24
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        23,
+        24
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        24
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        23,
+        24
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        23,
+        24
+      ],
+      "before": "minecraft:bamboo_mosaic",
+      "after": "minecraft:birch_planks",
+      "reason": "席面分缝与边缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        24,
+        21
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        24,
+        21
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        24,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        24,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        24,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        24,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        24,
+        24
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        24,
+        24
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        24,
+        21
+      ],
+      "before": "minecraft:white_carpet",
+      "after": "minecraft:blue_carpet",
+      "reason": "铺盖头缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        24,
+        21
+      ],
+      "before": "minecraft:white_carpet",
+      "after": "minecraft:blue_carpet",
+      "reason": "铺盖头缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        24,
+        21
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        24,
+        21
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        24,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        24,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        24,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        24,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        24,
+        24
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        24,
+        24
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_carpet",
+      "reason": "伙计可收叠铺盖；非原生床",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        24,
+        21
+      ],
+      "before": "minecraft:white_carpet",
+      "after": "minecraft:blue_carpet",
+      "reason": "铺盖头缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        24,
+        21
+      ],
+      "before": "minecraft:white_carpet",
+      "after": "minecraft:blue_carpet",
+      "reason": "铺盖头缘",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        24,
+        29
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:chest[facing=east,type=single,waterlogged=false]",
+      "reason": "伙计个人储物",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        24,
+        29
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:chest[facing=west,type=single,waterlogged=false]",
+      "reason": "伙计共同储物",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        18,
+        79
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        19,
+        79
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        20,
+        79
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        21,
+        79
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        18,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        19,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        20,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        21,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        18,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        18,
+        81
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        18,
+        82
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        18,
+        83
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        18,
+        84
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        20,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        20,
+        81
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        20,
+        82
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        20,
+        83
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        20,
+        84
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        19,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "架上布包",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        21,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_wool",
+      "reason": "架上包裹",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        19,
+        83
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_wool",
+      "reason": "架上布包",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        21,
+        83
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_wool",
+      "reason": "架上包裹",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        18,
+        79
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        19,
+        79
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        20,
+        79
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        21,
+        79
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        18,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        19,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        20,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        21,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储货架竖向承托",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        18,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        18,
+        81
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        18,
+        82
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        18,
+        83
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        18,
+        84
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        20,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        20,
+        81
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        20,
+        82
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        20,
+        83
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        20,
+        84
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "仓储层板沿墙组织",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        19,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "架上布包",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        21,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_wool",
+      "reason": "架上包裹",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        19,
+        83
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_wool",
+      "reason": "架上布包",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        35,
+        21,
+        83
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:white_wool",
+      "reason": "架上包裹",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        18,
+        84
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:chest[facing=east,type=single,waterlogged=false]",
+      "reason": "库内原生空储物箱",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        18,
+        80
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:chest[facing=west,type=single,waterlogged=false]",
+      "reason": "库内原生空储物箱",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        18,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "灯台支承",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        19,
+        85
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "reason": "库内工作灯，避开箱盖",
+      "permission": "Allowed"
+    }
+  ]
+}

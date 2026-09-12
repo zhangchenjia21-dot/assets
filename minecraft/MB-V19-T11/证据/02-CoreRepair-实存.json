@@ -1,0 +1,99 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V19-T11-京町家",
+  "name": "MB-V19-T11-京町家",
+  "version": {
+    "Snapshot": 0,
+    "Series": "main",
+    "Id": 4903,
+    "Name": "26.2"
+  },
+  "generation": {
+    "bonus_chest": 0,
+    "seed": "1911",
+    "generate_structures": 0,
+    "dimensions": {
+      "minecraft:overworld": {
+        "generator": {
+          "settings": {
+            "features": 0,
+            "biome": "minecraft:plains",
+            "layers": [
+              {
+                "block": "minecraft:bedrock",
+                "height": 1
+              },
+              {
+                "block": "minecraft:stone",
+                "height": 73
+              },
+              {
+                "block": "minecraft:dirt",
+                "height": 5
+              },
+              {
+                "block": "minecraft:grass_block",
+                "height": 1
+              }
+            ],
+            "structure_overrides": [],
+            "lakes": 0
+          },
+          "type": "minecraft:flat"
+        },
+        "type": "minecraft:overworld"
+      },
+      "minecraft:the_nether": {
+        "generator": {
+          "settings": "minecraft:nether",
+          "biome_source": {
+            "preset": "minecraft:nether",
+            "type": "minecraft:multi_noise"
+          },
+          "type": "minecraft:noise"
+        },
+        "type": "minecraft:the_nether"
+      },
+      "minecraft:the_end": {
+        "generator": {
+          "settings": "minecraft:end",
+          "biome_source": {
+            "type": "minecraft:the_end"
+          },
+          "type": "minecraft:noise"
+        },
+        "type": "minecraft:the_end"
+      }
+    }
+  },
+  "origin": [
+    0,
+    10,
+    0
+  ],
+  "shape_yzx": [
+    36,
+    96,
+    56
+  ],
+  "palette": [
+    "minecraft:dirt",
+    "minecraft:grass_block[snowy=false]",
+    "minecraft:stone_bricks",
+    "minecraft:air",
+    "minecraft:gravel",
+    "minecraft:stone_brick_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:packed_mud",
+    "minecraft:white_terracotta",
+    "minecraft:moss_block",
+    "minecraft:dark_oak_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:dark_oak_planks",
+    "minecraft:dark_oak_stairs[facing=west,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:stripped_dark_oak_log[axis=y]",
+    "minecraft:dark_oak_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:dark_oak_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]",
+    "minecraft:deepslate_tiles",
+    "minecraft:stripped_dark_oak_log[axis=z]",
+    "minecraft:stripped_dark_oak_log[axis=x]"
+  ],
+  "sha256": "5e3bd11ba8d4d719f6f51e8bac897e747866130f9024d1eb4214ed4fd7c0ecd1"
+}

@@ -1,0 +1,734 @@
+{
+  ".gitattributes": {
+    "size": 8,
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+  },
+  "Architectural Intent.md": {
+    "size": 4440,
+    "sha256": "7ee75911cd24549382dc95ae91d612352499f368d7343366ef06e15f3c30aa59"
+  },
+  "Completion Report.md": {
+    "size": 3595,
+    "sha256": "531c0b745ed9931a64c5301d3411a95ff7468be909c6183c7196244b5dd7108a"
+  },
+  "Design Gate.md": {
+    "size": 1408,
+    "sha256": "83ebba7f24b86a1a42bea21583bd671dbd74f4ed98330a76ec373c9da8bb322c"
+  },
+  "Finishing Completion Gate.md": {
+    "size": 3050,
+    "sha256": "2eb91bb6e7894f26612fe240c4863910d2acd0d1de53396c441c2b6f41b10c88"
+  },
+  "Finishing Coverage Map.md": {
+    "size": 1507,
+    "sha256": "fd191130388f806922c8ed9b4e39635744152f80baae2785f76f4b068fb79056"
+  },
+  "README.md": {
+    "size": 1669,
+    "sha256": "663362a0c65c134afc1220b7e9d66fe355d63d175d70a0f1b7e4361b3bb611b1"
+  },
+  "Spatial Completion Gate.md": {
+    "size": 1950,
+    "sha256": "96fea8c9b5b6d3f8414738ed08a5b8565443299dc01495eb9fa02d615411da0b"
+  },
+  "Verification.md": {
+    "size": 1994,
+    "sha256": "8ea3d66111c89167830e0f94bfad193a836cfee182ff1fda16e13c8c29495a00"
+  },
+  "世界作业.mjs": {
+    "size": 2729,
+    "sha256": "b29281bea73b1cc53577bc32ebc9c7af9a54d22f91adfff0ba91fa3a8fe5d1e8"
+  },
+  "交付核验.py": {
+    "size": 1655,
+    "sha256": "3aa8e5cc26758c99cab27a4371ea7b57756a4c3e9c9389b543af01b69254069e"
+  },
+  "同机位空间审计.html": {
+    "size": 8279,
+    "sha256": "7389ab77e298a32aefc5964e810c94a5f3ad82250eba7cd510a3dcc3980f1679"
+  },
+  "审计视图.py": {
+    "size": 7092,
+    "sha256": "aef42d0631f8976f33bb5840cff03641f317a6122ab6af6f45d23e95a9bdc798"
+  },
+  "建造町家.py": {
+    "size": 8203,
+    "sha256": "72db271da61feb340e4e48885cdf6f98501a3327e885f5f19ea80e8647b90fe1"
+  },
+  "归档成果.py": {
+    "size": 1681,
+    "sha256": "6e9ac7ed620196c0b4695a1e9c1066b3e35ba44a55a0d667206a3edc9693a7c5"
+  },
+  "归档暂存核验.py": {
+    "size": 956,
+    "sha256": "6b76677cbf6311140b2c5be1adc2dd9854cf83b2f2065d2daa1a2390c3841b98"
+  },
+  "整理证据.py": {
+    "size": 3463,
+    "sha256": "f323aebae38f99a883a4cb19d7429a77776862d72e9528d4df846607c10c03ef"
+  },
+  "施工与自检.md": {
+    "size": 3300,
+    "sha256": "8491f9068cb2cef09e74fcce12279a7a7e26a4c2e8d750d7cc8fe0ec072c44fd"
+  },
+  "研究/技能原文-SKILL.md": {
+    "size": 44693,
+    "sha256": "c64c5d72baad15ab6cd85be0be819521dd955b780f37dbc39e2dd1235960c9f2"
+  },
+  "研究资料读取.py": {
+    "size": 1364,
+    "sha256": "05d0a025023e9a1dbb6193a6b1b8b2e161bce26584e991fbb3eb2aad2d4618bf"
+  },
+  "空间核验.py": {
+    "size": 3415,
+    "sha256": "af1f660f8398f54a8268a81be97014f3cb45d7b41669a5bf60e26845fae5f6cf"
+  },
+  "精修町家.py": {
+    "size": 7417,
+    "sha256": "7fab3a3d5a1b96986b02c82cff8f4661ada36c82a5bfed1fc1934f9d4c424426"
+  },
+  "蓝图与实存.zip": {
+    "size": 197229,
+    "sha256": "af5f829aac0561047ecef9814ab8909a2bf5d6938626b46e4e6eaebee48acbba"
+  },
+  "证据/01-Macro-东北总貌.png": {
+    "size": 22729,
+    "sha256": "25cd970d8480e56196df2b77f3682e28aadcc2756c135f4004047dfdfc917637"
+  },
+  "证据/01-Macro-二层伙计.png": {
+    "size": 15637,
+    "sha256": "a28e9899eeb6186076a1ef4f33227b4f1ed51f280c403cf51e6073b41076567e"
+  },
+  "证据/01-Macro-二层平面Y25.png": {
+    "size": 2371,
+    "sha256": "1fcf236ca0c298d838171bf98186d40ea8c3486eb8ef2389d4791bd7c33c4b08"
+  },
+  "证据/01-Macro-前店.png": {
+    "size": 16213,
+    "sha256": "f332bc375907ff490a7cf1c2fc1fe6416df88fed95b03f540a0428fc007d6640"
+  },
+  "证据/01-Macro-前店剖Z26.png": {
+    "size": 1138,
+    "sha256": "63a01ae0bde7bde0b2e5ffe9f1f39638ed67c0222f00defa128b6a4413a79d2f"
+  },
+  "证据/01-Macro-厨房挑空.png": {
+    "size": 18109,
+    "sha256": "cb3d9af2e6e9a016e7196e086b1a9a53632f69a000262276f38095fef63c1078"
+  },
+  "证据/01-Macro-实存.json": {
+    "size": 2795,
+    "sha256": "f96aacd7b7efd9504c1de70f3c55084e1dd123dc3b0b970dd2664c5d96bfbc37"
+  },
+  "证据/01-Macro-底层平面Y19.png": {
+    "size": 2882,
+    "sha256": "c80beb4bff2264fb55ca417b739bef37867caf7f9fc5f76cc05f548284757f4c"
+  },
+  "证据/01-Macro-执行.json": {
+    "size": 870,
+    "sha256": "bda9ac847f474e11b1830c82aef3b8aade931c669e744dd34a69231abea40957"
+  },
+  "证据/01-Macro-核验.json": {
+    "size": 4846,
+    "sha256": "67155d011bbd6fb9699fdbce0af1b742b518d50bac87708597e9a825878eccd1"
+  },
+  "证据/01-Macro-纵剖X27.png": {
+    "size": 1673,
+    "sha256": "918134d2de70c62d91c97f60eaa1e818ee935a728b419e160b42f01aafa56ecc"
+  },
+  "证据/01-Macro-街上接近.png": {
+    "size": 18887,
+    "sha256": "8c34316ecf426277286a838a37a1b13d3598415e9668dde7b90ec9b75518abb1"
+  },
+  "证据/01-Macro-通庭剖X34.png": {
+    "size": 1687,
+    "sha256": "b92f50f8c7551c92bf0c29c95c93e16bad37ac10708535afb5c4998881ae3c0a"
+  },
+  "证据/02-CoreRepair-东北总貌.png": {
+    "size": 23326,
+    "sha256": "51f30a54cdf09890c1e2bb2576c27867cc96a23f4b2b6e14c81b9a523d2cc8f9"
+  },
+  "证据/02-CoreRepair-中庭取合.png": {
+    "size": 16885,
+    "sha256": "93ce614d5faa2bcccdf9da0ee95967381292e3e59eb3da9189294447be898a46"
+  },
+  "证据/02-CoreRepair-二层伙计.png": {
+    "size": 16291,
+    "sha256": "4a88511e3d5f60a210e4257262a7ef8e1f39c4562a9498578cd4474e114f6ed9"
+  },
+  "证据/02-CoreRepair-二层平面Y25.png": {
+    "size": 2371,
+    "sha256": "1fcf236ca0c298d838171bf98186d40ea8c3486eb8ef2389d4791bd7c33c4b08"
+  },
+  "证据/02-CoreRepair-前店剖Z26.png": {
+    "size": 1138,
+    "sha256": "63a01ae0bde7bde0b2e5ffe9f1f39638ed67c0222f00defa128b6a4413a79d2f"
+  },
+  "证据/02-CoreRepair-实存.json": {
+    "size": 2795,
+    "sha256": "90427cf8b5e3d0d25225c317e6a57619c361ec8675abb02bfd8169d13e4acbf6"
+  },
+  "证据/02-CoreRepair-底层平面Y19.png": {
+    "size": 2895,
+    "sha256": "8be0432bf46bfdd1bf5f1f4a3850ddc3727565e628755027bff01bce3d422c7b"
+  },
+  "证据/02-CoreRepair-执行.json": {
+    "size": 867,
+    "sha256": "6131506d5e69e2e41de3e823ed9fc1f784f00fa995a06c6d140b2ed067ea256c"
+  },
+  "证据/02-CoreRepair-核验.json": {
+    "size": 4848,
+    "sha256": "8ab38ab7d2c725e2228f70578d7760b61096bbcad672a6cb8e6ecd3065a8e144"
+  },
+  "证据/02-CoreRepair-纵剖X27.png": {
+    "size": 1673,
+    "sha256": "918134d2de70c62d91c97f60eaa1e818ee935a728b419e160b42f01aafa56ecc"
+  },
+  "证据/02-CoreRepair-通庭剖X34.png": {
+    "size": 1684,
+    "sha256": "cf8e4087c7e04381182a70135af200a16d6b97e9067602347fe19a0f45997848"
+  },
+  "证据/03-Meso-二层伙计.png": {
+    "size": 16584,
+    "sha256": "3c8e1255466dcd7919ee019975c6ad8d18437853712398280255c78b70b36f53"
+  },
+  "证据/03-Meso-二层平面Y25.png": {
+    "size": 2537,
+    "sha256": "67ef80fad71a57d14a60abe53dcb643c7113d9ce30d13dbe18cc1e1052b41a03"
+  },
+  "证据/03-Meso-前店.png": {
+    "size": 16992,
+    "sha256": "654e5ede678336feb46fb5d54484a2722a10338ffffdf6e9498b2621c7425694"
+  },
+  "证据/03-Meso-前店剖Z26.png": {
+    "size": 1222,
+    "sha256": "f7f67524ef31c5c2416609dca0a042e8bb88ac7d71b786e1f38f22097df27d93"
+  },
+  "证据/03-Meso-厨房挑空.png": {
+    "size": 19204,
+    "sha256": "ec0646678fb379cd7ff6d72dd55bc034ca4d0920487b46e06ef2142b8c838741"
+  },
+  "证据/03-Meso-实存.json": {
+    "size": 3460,
+    "sha256": "070f2e598267d99e93901179348e609ec809749a9a112e4a8011d6c8b417deb9"
+  },
+  "证据/03-Meso-底层平面Y19.png": {
+    "size": 2981,
+    "sha256": "9285e661a2b51b065acde6abf6ce892baed159d130f82e4b9858e1ab6edc101e"
+  },
+  "证据/03-Meso-执行.json": {
+    "size": 868,
+    "sha256": "db9bc831411935e226820dbdd0caf6c10c2af95541533e1bdd07f9abced04abb"
+  },
+  "证据/03-Meso-核验.json": {
+    "size": 4842,
+    "sha256": "d2e10fea2e1c535c32aa4c246b0b633f38ffc7477678e910a0d06bde8414d660"
+  },
+  "证据/03-Meso-纵剖X27.png": {
+    "size": 1819,
+    "sha256": "64c1f4c622f7240d835fe80907f57769773bba99104f36adb6ca806f894322ce"
+  },
+  "证据/03-Meso-街上接近.png": {
+    "size": 22791,
+    "sha256": "ad92eeb20e4bc1f67cc590842ef8869fb111f286888154cae2f3e3ab118d61be"
+  },
+  "证据/03-Meso-通庭剖X34.png": {
+    "size": 1829,
+    "sha256": "4bfa1da581a52f74beafbcdffe6367bf7f8f9833601fda07176a358837dbc71c"
+  },
+  "证据/04-Base-东北总貌.png": {
+    "size": 27864,
+    "sha256": "d6634c820fb44dcd8f0cc9616f77d93e4729f149b2b5ebaf248d4139ac95e12d"
+  },
+  "证据/04-Base-中庭仰视.png": {
+    "size": 18287,
+    "sha256": "e58585e6e0f8f398de356e7bb44f8314ce945733dbbf961e43fbb6e779c0f562"
+  },
+  "证据/04-Base-中庭取合.png": {
+    "size": 16322,
+    "sha256": "fa8366b0c93cb0aaf779b8327a659dc2926bd4ce782679dd43af331da429938e"
+  },
+  "证据/04-Base-二层伙计.png": {
+    "size": 15124,
+    "sha256": "641755eaaa1cd1f718d5b05bb13e450d7926ca9334fa2adffe331a8576937ac2"
+  },
+  "证据/04-Base-二层平面Y25.png": {
+    "size": 2523,
+    "sha256": "a668977215d88b0372d04bb6078b85ccae3f3a5965f8f95b0742ffc1ecfc879b"
+  },
+  "证据/04-Base-仓库.png": {
+    "size": 13507,
+    "sha256": "ceff192ecb23f43526f66d75cc4872f923efee9583d8b02a43e1f1b1e1b082b4"
+  },
+  "证据/04-Base-伙计室内.png": {
+    "size": 14963,
+    "sha256": "4aeb129dcbdb6fa9786d2e82e651d03c51dae837df65593523b550ba11516314"
+  },
+  "证据/04-Base-前店.png": {
+    "size": 15504,
+    "sha256": "15366e056800e6a992de9df9d1b3c29d784ad0360e6fa60b231a5ff86c1700c3"
+  },
+  "证据/04-Base-前店剖Z26.png": {
+    "size": 1202,
+    "sha256": "b8bb61c21eb1ce74dd5a39daa4b697e686ebd322ebeb47afdcdffe54b923dff8"
+  },
+  "证据/04-Base-厨房使用.png": {
+    "size": 16014,
+    "sha256": "ce72ca13a3af6da6e67a2212ecd5e57de234475a364b101dc0bc42cb0eff8723"
+  },
+  "证据/04-Base-厨房挑空.png": {
+    "size": 17949,
+    "sha256": "66903183d4711faa90099d1f05093e1148ab28be89db26690e410c01657e88a2"
+  },
+  "证据/04-Base-后庭总貌.png": {
+    "size": 27429,
+    "sha256": "07361daaa0f8ff13ef32cd2660195791f7051540279d3649d70a58fd6728233d"
+  },
+  "证据/04-Base-后庭缘侧.png": {
+    "size": 18470,
+    "sha256": "3bb3e6effed029f0d58c02c076248cff31fab5c5819836a9a220a77e08f003bc"
+  },
+  "证据/04-Base-实存.json": {
+    "size": 3769,
+    "sha256": "ae8b9c1fbcdface6398bcbf36ae2ccab02747b8b4baad8613420eef2c8329775"
+  },
+  "证据/04-Base-家庭起居.png": {
+    "size": 16883,
+    "sha256": "5f86f2fd20168228ecb181e8b42eae605a7657c0157177fae9849cf2398e5508"
+  },
+  "证据/04-Base-底层平面Y19.png": {
+    "size": 2935,
+    "sha256": "0482d374a02e932e7cc76634e0b492a2629b854a1bf2ea263e83c4b7455468ce"
+  },
+  "证据/04-Base-座敷室内.png": {
+    "size": 15079,
+    "sha256": "54b112806e426b5b836f7c132a6658b40c17cc3a0a7d6005feca47e68b96a606"
+  },
+  "证据/04-Base-座敷望庭.png": {
+    "size": 14908,
+    "sha256": "1190e5f96656ca85d34ea16d1692562d4bdcedab35117305673f9caf30381d0d"
+  },
+  "证据/04-Base-执行.json": {
+    "size": 867,
+    "sha256": "0aa4aff4f05c68a9a5e91559cf105f8d37b033bda7f3ab8b495996f2e7682de6"
+  },
+  "证据/04-Base-服务后路.png": {
+    "size": 15786,
+    "sha256": "f962b58b97374d8ac78749385f395fbb1755cc9cd05d0b6969ad993fbd25021a"
+  },
+  "证据/04-Base-核验.json": {
+    "size": 4842,
+    "sha256": "36d07dcab8984c4f0c226eb147d4765f1a7082d6f5d736a4d998a0d34626da0f"
+  },
+  "证据/04-Base-正面中景.png": {
+    "size": 16666,
+    "sha256": "8d3a9f2dd81ac9cd8b9aa23d8b0b8a65027be028c6f3f5c91b91eb2619262625"
+  },
+  "证据/04-Base-纵剖X27.png": {
+    "size": 1778,
+    "sha256": "821eba72a27e0c7767d1e14971bfe4edf902c17444db5ac0b8335942094f274f"
+  },
+  "证据/04-Base-街上接近.png": {
+    "size": 20233,
+    "sha256": "33fd95297a0aba1cdeaff7eace39773a7a7ad1db731569e79bd3f552b9f000f1"
+  },
+  "证据/04-Base-账房验货.png": {
+    "size": 16722,
+    "sha256": "1c54aa053ad272ce6de486c5346223f166bcd805a60214f1c4c7775473339f4c"
+  },
+  "证据/04-Base-通り庭.png": {
+    "size": 16131,
+    "sha256": "617247185820dd9e53f3efbc8a7831404f010711f6dba7378ec555a366bf9811"
+  },
+  "证据/04-Base-通庭剖X34.png": {
+    "size": 1792,
+    "sha256": "366de2c9f2d9455f918a87258839a0cca3d848e9cc3f40e54d601f39a43abde5"
+  },
+  "证据/05-Functional-二层平面Y25.png": {
+    "size": 2523,
+    "sha256": "a668977215d88b0372d04bb6078b85ccae3f3a5965f8f95b0742ffc1ecfc879b"
+  },
+  "证据/05-Functional-仓库.png": {
+    "size": 14919,
+    "sha256": "32d2d5e289fd6236bbd9c977024cb96b14f023dc3c0a00ff96f8415351183ea8"
+  },
+  "证据/05-Functional-伙计室内.png": {
+    "size": 16290,
+    "sha256": "5e6f5aac33c5079e2769abafa75a0ef5420e68d60c11b95b1c51418c83339e17"
+  },
+  "证据/05-Functional-前店.png": {
+    "size": 16583,
+    "sha256": "cafe0acc31ed7fb218b261c444294fa5b1dc8e58197c301969e07fdb77ba4ff9"
+  },
+  "证据/05-Functional-前店剖Z26.png": {
+    "size": 1202,
+    "sha256": "b8bb61c21eb1ce74dd5a39daa4b697e686ebd322ebeb47afdcdffe54b923dff8"
+  },
+  "证据/05-Functional-厨房使用.png": {
+    "size": 16318,
+    "sha256": "bc3f4e579bfad785a01187617aa157f9d589b8997eb262b1dbfc855af5ba8b1a"
+  },
+  "证据/05-Functional-变更账本.json": {
+    "size": 113633,
+    "sha256": "38b0c4bd82c1914072963c2d830782fa5ecfb0fa0db4a85df769bce434f2d248"
+  },
+  "证据/05-Functional-实存.json": {
+    "size": 4332,
+    "sha256": "cb67c94a7ad64ec16b36b1e7d0d7b24ee4efc07f94d5600e87948cf237b7a4c5"
+  },
+  "证据/05-Functional-家庭起居.png": {
+    "size": 18255,
+    "sha256": "62dae30722623c9a2b7520d1769cc999ca5b29b33d6da399d2587be6a979cd42"
+  },
+  "证据/05-Functional-底层平面Y19.png": {
+    "size": 3251,
+    "sha256": "ea9b1f2c187cdc6e75436dd6ac2e2adb9299e8119164090c71ffab0f1ed7150f"
+  },
+  "证据/05-Functional-座敷室内.png": {
+    "size": 16543,
+    "sha256": "8e5158ff115d06cecc0cf81c6f8984b51cad9bd946beebde272c1cb4efb5de2b"
+  },
+  "证据/05-Functional-执行.json": {
+    "size": 868,
+    "sha256": "8ab8affcf17635d4850d24268ec70fccd5abdbf1cc6b09107df80f340c493b11"
+  },
+  "证据/05-Functional-核验.json": {
+    "size": 4848,
+    "sha256": "29cacf20f3a5eb8d56b1278a3a554303e6168a5e855c976ff51905149c5dc18a"
+  },
+  "证据/05-Functional-纵剖X27.png": {
+    "size": 1837,
+    "sha256": "ac6c5250a2cd511f0673625973cbff7dc5f9e9009f57261fd78554d15e31bd09"
+  },
+  "证据/05-Functional-账房验货.png": {
+    "size": 16965,
+    "sha256": "53350c26826013616f8111723f873cd0f23a99fc6a432a9305ac4d2133ca558d"
+  },
+  "证据/05-Functional-通庭剖X34.png": {
+    "size": 1821,
+    "sha256": "ee5f634c83f8186e80b55e912207bc6c29559f285d4391c1d4492c28d64b6549"
+  },
+  "证据/05-Functional-阶段保护.json": {
+    "size": 781,
+    "sha256": "d26ca637e50824e50fbf268e934493f7f5629661b1a5c96ee80a8c349c1e9cc6"
+  },
+  "证据/06-Architectural-二层平面Y25.png": {
+    "size": 2548,
+    "sha256": "6e3394ba642dd924bbc148b72bb598f81a426266aa717fdfbef125f4fa96d850"
+  },
+  "证据/06-Architectural-前店剖Z26.png": {
+    "size": 1202,
+    "sha256": "b8bb61c21eb1ce74dd5a39daa4b697e686ebd322ebeb47afdcdffe54b923dff8"
+  },
+  "证据/06-Architectural-变更账本.json": {
+    "size": 26556,
+    "sha256": "9454dafa5535cf40750dde9b6cedb59e06f90d13d237fe4dc07c3697817ff73a"
+  },
+  "证据/06-Architectural-后庭缘侧.png": {
+    "size": 19425,
+    "sha256": "4e8394ed070e040d5b915b156e205af17110c81dae1a045f030edb9e58f2ea11"
+  },
+  "证据/06-Architectural-实存.json": {
+    "size": 4389,
+    "sha256": "d47aff0bb101737f714082d05fb9ad4004b8bcf2cb407a0d7a46c6ddbdc826bd"
+  },
+  "证据/06-Architectural-底层平面Y19.png": {
+    "size": 3251,
+    "sha256": "ea9b1f2c187cdc6e75436dd6ac2e2adb9299e8119164090c71ffab0f1ed7150f"
+  },
+  "证据/06-Architectural-执行.json": {
+    "size": 868,
+    "sha256": "0b060c734ef2e882a2bac323ad26be79b4fed9172a5ae51fd51b4cbb4cd0c5b3"
+  },
+  "证据/06-Architectural-核验.json": {
+    "size": 4851,
+    "sha256": "333c3a50e44a8a551adb1686cb1ecd7a62a3e685456713de243cf23baabda5d5"
+  },
+  "证据/06-Architectural-纵剖X27.png": {
+    "size": 1849,
+    "sha256": "384e1934b6dba77418d37de55b9a4310188eb702e9cd045c65b4af5f0662038a"
+  },
+  "证据/06-Architectural-街上接近.png": {
+    "size": 21351,
+    "sha256": "5264396bb16389104902eb6544843e7fbd246e12bf1b78ceee62ea44a6e7a577"
+  },
+  "证据/06-Architectural-通庭剖X34.png": {
+    "size": 1821,
+    "sha256": "ee5f634c83f8186e80b55e912207bc6c29559f285d4391c1d4492c28d64b6549"
+  },
+  "证据/06-Architectural-阶段保护.json": {
+    "size": 784,
+    "sha256": "d4c919a4f6a75ed4d1fd80818f68bdf9072d05602806ba2dc7ab3be725447fa8"
+  },
+  "证据/07-Environmental-中庭取合.png": {
+    "size": 16994,
+    "sha256": "5d0688fab20393824d2452a117376abffa6eaca31020b2211b01638bef2f250c"
+  },
+  "证据/07-Environmental-二层平面Y25.png": {
+    "size": 2548,
+    "sha256": "6e3394ba642dd924bbc148b72bb598f81a426266aa717fdfbef125f4fa96d850"
+  },
+  "证据/07-Environmental-前店剖Z26.png": {
+    "size": 1202,
+    "sha256": "b8bb61c21eb1ce74dd5a39daa4b697e686ebd322ebeb47afdcdffe54b923dff8"
+  },
+  "证据/07-Environmental-厨房使用.png": {
+    "size": 16863,
+    "sha256": "486ada7a7b13192d62efad46a3ba199d00af290ef98625daa25cdca823ac2e57"
+  },
+  "证据/07-Environmental-变更账本.json": {
+    "size": 10391,
+    "sha256": "4a048db1a55fc49b6a08c5ac00d33a0eaef606d73d7ef744e786785036f1a17b"
+  },
+  "证据/07-Environmental-实存.json": {
+    "size": 4566,
+    "sha256": "5cbe3093bda0f93ca6edde50143964c139864c6e28090fac5fb5c20d0bda0a13"
+  },
+  "证据/07-Environmental-底层平面Y19.png": {
+    "size": 3283,
+    "sha256": "c8638b9e53dc3a251626febe892f744dda0e0bce68632cc4e9b332c0936a1b1b"
+  },
+  "证据/07-Environmental-座敷室内.png": {
+    "size": 16865,
+    "sha256": "90f2a9c2b92b32cc637bc3e4821a361ae5fb388d66c034f84991f943d9d42cf0"
+  },
+  "证据/07-Environmental-座敷望庭.png": {
+    "size": 16076,
+    "sha256": "eaa771bf88b768ff2512da12dec17c95b6a05f66c37dd6461d5b48908c9a4527"
+  },
+  "证据/07-Environmental-执行.json": {
+    "size": 866,
+    "sha256": "35a07643b4486f6aa9e16d92b57e19c271f63f52a316225146d299afc5e608da"
+  },
+  "证据/07-Environmental-核验.json": {
+    "size": 4851,
+    "sha256": "cb2d0ec7c4527b8c4b0e68e7959d47473419ef9c0b41607148785f30b9dc9adb"
+  },
+  "证据/07-Environmental-纵剖X27.png": {
+    "size": 1849,
+    "sha256": "384e1934b6dba77418d37de55b9a4310188eb702e9cd045c65b4af5f0662038a"
+  },
+  "证据/07-Environmental-账房验货.png": {
+    "size": 17296,
+    "sha256": "e7f7121320fb1b8e1d298b8ec627ceec234baf60da0949bd3f2ad61e5ab1da9a"
+  },
+  "证据/07-Environmental-通り庭.png": {
+    "size": 16872,
+    "sha256": "60dfab421a3c3e5833367c9acd3c4ed7b3e6a55d99bb1e733826be10e164ba70"
+  },
+  "证据/07-Environmental-通庭剖X34.png": {
+    "size": 1821,
+    "sha256": "ee5f634c83f8186e80b55e912207bc6c29559f285d4391c1d4492c28d64b6549"
+  },
+  "证据/07-Environmental-阶段保护.json": {
+    "size": 784,
+    "sha256": "0c4cb8ca6d9ad252c3338d0f34a1b5f4ec212d328a1cbb31cc879242c7997d4a"
+  },
+  "证据/08-Composition-中庭取合.png": {
+    "size": 17076,
+    "sha256": "556b4a4d00efa244453421691d0ce8358885b5d41b986ae6596a2d77c10b3d9d"
+  },
+  "证据/08-Composition-二层平面Y25.png": {
+    "size": 2548,
+    "sha256": "6e3394ba642dd924bbc148b72bb598f81a426266aa717fdfbef125f4fa96d850"
+  },
+  "证据/08-Composition-前店.png": {
+    "size": 16988,
+    "sha256": "f597f0bd04c7a764a00496ef53c89b70a2f8e9cbb2a4e076aa5d67be5db60bfd"
+  },
+  "证据/08-Composition-前店剖Z26.png": {
+    "size": 1202,
+    "sha256": "b8bb61c21eb1ce74dd5a39daa4b697e686ebd322ebeb47afdcdffe54b923dff8"
+  },
+  "证据/08-Composition-变更账本.json": {
+    "size": 1578,
+    "sha256": "7627838ba749a1581c5098d83bd48d48f36cb4685aa95f051f510b14f3c5148f"
+  },
+  "证据/08-Composition-实存.json": {
+    "size": 4566,
+    "sha256": "604b978a4e63214a6f0ae1eeff6ec772d0b5fb7b7d3a35ed45f663921ab01ee8"
+  },
+  "证据/08-Composition-底层平面Y19.png": {
+    "size": 3335,
+    "sha256": "34d807b046aed66aef6adf772576425f485e846cfa5edb12e50a651f06c3ef3f"
+  },
+  "证据/08-Composition-座敷室内.png": {
+    "size": 16885,
+    "sha256": "4ccfa94667b269e03d9318b269f6eb472b1aed18202266117bf9f57abf45609b"
+  },
+  "证据/08-Composition-执行.json": {
+    "size": 866,
+    "sha256": "3dcd5b5bec7efc8b67af5f10fdcc02cd7addb015a1fad65fc9b55f64483ebbb5"
+  },
+  "证据/08-Composition-核验.json": {
+    "size": 4849,
+    "sha256": "fbecad9ddecebd847172112f5436d53c8cab1a6219a9eaf687bcd603ed18c875"
+  },
+  "证据/08-Composition-纵剖X27.png": {
+    "size": 1849,
+    "sha256": "384e1934b6dba77418d37de55b9a4310188eb702e9cd045c65b4af5f0662038a"
+  },
+  "证据/08-Composition-通庭剖X34.png": {
+    "size": 1821,
+    "sha256": "ee5f634c83f8186e80b55e912207bc6c29559f285d4391c1d4492c28d64b6549"
+  },
+  "证据/08-Composition-阶段保护.json": {
+    "size": 782,
+    "sha256": "8ded4f2cb58df3ff79110e51f5e2ca98306c778212ce8d38d643e08b0e92ce6a"
+  },
+  "证据/09-Restraint-东北总貌.png": {
+    "size": 28542,
+    "sha256": "9f0617bfcc8fc791e4499ff7f2eef9293f8e6d1ec6a199eca8a840898ef263fe"
+  },
+  "证据/09-Restraint-中庭仰视.png": {
+    "size": 18663,
+    "sha256": "0e51583eadf38337678f2a580344235c3b991ff811f37c29ddc5af245eb9d1d3"
+  },
+  "证据/09-Restraint-中庭取合.png": {
+    "size": 16851,
+    "sha256": "8b5f51dcc1cfc8bc9a3d6ee4c06f735fb5e54e2ff3d8cc34658279282d4d712f"
+  },
+  "证据/09-Restraint-二层伙计.png": {
+    "size": 15965,
+    "sha256": "b6e0be8ac42f7445f6c9cf0c65479b2b582e482cfda88a304ebcdda558aff5dd"
+  },
+  "证据/09-Restraint-二层平面Y25.png": {
+    "size": 2548,
+    "sha256": "6e3394ba642dd924bbc148b72bb598f81a426266aa717fdfbef125f4fa96d850"
+  },
+  "证据/09-Restraint-仓库.png": {
+    "size": 15057,
+    "sha256": "69d5fe495fb5b40c2ae8da6b4a347749cab91f2e64c2bfe849991a611807f01f"
+  },
+  "证据/09-Restraint-伙计室内.png": {
+    "size": 16503,
+    "sha256": "4e8f38875b8fa5d222db218d31a4dfd8cf6d2b0b7cc9aa3fdced6018a78ee07a"
+  },
+  "证据/09-Restraint-前店.png": {
+    "size": 16955,
+    "sha256": "f401da20954b1e15f38f2246c49033eeea1bf08d25c2b8ce0b956cdff324a9ea"
+  },
+  "证据/09-Restraint-前店剖Z26.png": {
+    "size": 1202,
+    "sha256": "b8bb61c21eb1ce74dd5a39daa4b697e686ebd322ebeb47afdcdffe54b923dff8"
+  },
+  "证据/09-Restraint-厨房使用.png": {
+    "size": 16749,
+    "sha256": "4539d40084c2428ea6a2b457ccc661c41a2f5a5ca2b9b8f0ac1bbb090e7c70d0"
+  },
+  "证据/09-Restraint-厨房挑空.png": {
+    "size": 18552,
+    "sha256": "eb78408b14393ad956d82a14bbe8bb19864d35d1e687cc87ae8d01c01aeb1b48"
+  },
+  "证据/09-Restraint-变更账本.json": {
+    "size": 899,
+    "sha256": "83e0bb82dbc9a769d7f892d5c366dd1badaef7a1d091ba9ab1ce71021c5d0204"
+  },
+  "证据/09-Restraint-后庭总貌.png": {
+    "size": 28371,
+    "sha256": "89eb5e228648a82a7d551c936f4cfa14e5a5938e2c1f00bfac5f1bc8b4c2dac3"
+  },
+  "证据/09-Restraint-后庭缘侧.png": {
+    "size": 19223,
+    "sha256": "a0fba6c3f7bd9285df84fb2861ec84503808f98ff4ff4d75f8ecd43b9a3ca599"
+  },
+  "证据/09-Restraint-实存.json": {
+    "size": 4568,
+    "sha256": "8001cc4090a93448964c54b75a3319872c2813e03114327d2ea8f0e62a907cb9"
+  },
+  "证据/09-Restraint-家庭起居.png": {
+    "size": 18395,
+    "sha256": "e97b3958ebd88e2b53289e50d0ba555528d3aa62672f082df4030b73fa39950d"
+  },
+  "证据/09-Restraint-底层平面Y19.png": {
+    "size": 3321,
+    "sha256": "93e4c72eab3ae343643a058dd0b8ea42665dcc7c957927748baa291c7a9d0f81"
+  },
+  "证据/09-Restraint-座敷室内.png": {
+    "size": 16625,
+    "sha256": "fc7ff436babcfd79d93c751686aa4efdf858194c3ba2ebf922d9c0bb2e665301"
+  },
+  "证据/09-Restraint-座敷望庭.png": {
+    "size": 15920,
+    "sha256": "f5e92ce4622e64ac39f502becd5cf81438eabecbd3bfbb2f9cead461cd33b2b8"
+  },
+  "证据/09-Restraint-执行.json": {
+    "size": 866,
+    "sha256": "7d1b3e8aaa144c557c4ee1ca6591957859a993f8c4269abc6dd7fc28062f5df1"
+  },
+  "证据/09-Restraint-服务后路.png": {
+    "size": 16409,
+    "sha256": "c4987c066c8d9077f1d03f2fd7ae1b19142e9130320c9f2c83cb259e01c0f29b"
+  },
+  "证据/09-Restraint-核验.json": {
+    "size": 4847,
+    "sha256": "ec5b17e899529b9f45cbee343a3a91f1eb468c8062132de8cd4a86718d059206"
+  },
+  "证据/09-Restraint-正面中景.png": {
+    "size": 17937,
+    "sha256": "88c4cd47f6d46421a9ab6bdf4f16fa6fed28210e759d64061f327cbead91ec68"
+  },
+  "证据/09-Restraint-纵剖X27.png": {
+    "size": 1849,
+    "sha256": "384e1934b6dba77418d37de55b9a4310188eb702e9cd045c65b4af5f0662038a"
+  },
+  "证据/09-Restraint-街上接近.png": {
+    "size": 21268,
+    "sha256": "05a4f5ae94777e8afc3b725a0d9d9be4cb73487ad4cb94eea2dbe49c01c4ed38"
+  },
+  "证据/09-Restraint-账房验货.png": {
+    "size": 17127,
+    "sha256": "aed7fac1131fd9b0a26ffca8947acc8e81ccfc98ed0930fe305a52f0db0fcd44"
+  },
+  "证据/09-Restraint-通り庭.png": {
+    "size": 16683,
+    "sha256": "90baf5476912696f66d28e6c65e878f93c91eb614d2371eeb2cea777141b013a"
+  },
+  "证据/09-Restraint-通庭剖X34.png": {
+    "size": 1821,
+    "sha256": "ee5f634c83f8186e80b55e912207bc6c29559f285d4391c1d4492c28d64b6549"
+  },
+  "证据/09-Restraint-阶段保护.json": {
+    "size": 780,
+    "sha256": "929ad8943f44472518dc6c9c5f1c9319fa3fe0d57f43f3f3fc82d81ef2bb0d00"
+  },
+  "证据/reload-实存.json": {
+    "size": 4568,
+    "sha256": "8001cc4090a93448964c54b75a3319872c2813e03114327d2ea8f0e62a907cb9"
+  },
+  "证据/reload-执行.json": {
+    "size": 866,
+    "sha256": "32efc01722c31a4f7f366539861f04ab559f994a80a7cf23d555cd8f2bd2bf47"
+  },
+  "证据/reload-核验.json": {
+    "size": 4815,
+    "sha256": "93350e26aafe176986a25eed5f1e6d3d7a938c8696d29181e7fe91b0a66bbcda"
+  },
+  "证据/reload-阶段保护.json": {
+    "size": 774,
+    "sha256": "80ad9dac220588506b0f75f27c3c9e414c2a4fcaaa322519bddb6a39c4c0a351"
+  },
+  "证据/Skill来源.json": {
+    "size": 295,
+    "sha256": "8099e1825effdb63ec0633a98da3ba06559e874fc70ee49640142bf60603a5fb"
+  },
+  "证据/世界身份.json": {
+    "size": 2324,
+    "sha256": "4a42546dd05b72c42244d8d21c303aecdc4d9b87f0ad75cbfda574c34d39a86f"
+  },
+  "证据/交付核验.json": {
+    "size": 816,
+    "sha256": "2858c342824523b790a51d3656826dd18132f8408f006c45a81a26d00c38dd2f"
+  },
+  "证据/执行与日志摘要.json": {
+    "size": 29639,
+    "sha256": "acdd15bd5820d87c26335c23a3d31e82cd85a24da455e5d85f5111c2a27367e6"
+  },
+  "证据/观察点.json": {
+    "size": 4940,
+    "sha256": "cdcfe746496aa6a5350a8d264c94d44777c04d753023504a0b762b4e4ebc32e2"
+  },
+  "阶段保护核验.py": {
+    "size": 2467,
+    "sha256": "f7a890e7b9c2e202883e49bc62dffb628908eb2efc293f9d6edeabff9b2bc874"
+  }
+}

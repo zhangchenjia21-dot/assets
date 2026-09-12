@@ -1,0 +1,468 @@
+{
+  "source": "06-Architectural",
+  "stage": "07-Environmental",
+  "changes": [
+    {
+      "at": [
+        22,
+        16,
+        14
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:andesite",
+      "reason": "门前高频踩踏，保留街面标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        16,
+        14
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:andesite",
+      "reason": "门前高频踩踏，保留街面标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        16,
+        14
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:andesite",
+      "reason": "门前高频踩踏，保留街面标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        16,
+        14
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:andesite",
+      "reason": "门前高频踩踏，保留街面标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        16,
+        14
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:andesite",
+      "reason": "门前高频踩踏，保留街面标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        16,
+        15
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:andesite",
+      "reason": "门前高频踩踏，保留街面标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        16,
+        15
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:andesite",
+      "reason": "门前高频踩踏，保留街面标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        21
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        22
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        23
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        46
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        47
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        48
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        54
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        55
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        56
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        72
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        34,
+        16,
+        73
+      ],
+      "before": "minecraft:packed_mud",
+      "after": "minecraft:mud_bricks",
+      "reason": "土间受踏实的干燥维护带",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        50
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:brown_terracotta",
+      "reason": "灶旁局部烟熏，强度受火源限制",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        19,
+        50
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:brown_terracotta",
+      "reason": "灶旁局部烟熏，强度受火源限制",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        20,
+        50
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:brown_terracotta",
+      "reason": "灶旁局部烟熏，强度受火源限制",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        52
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:brown_terracotta",
+      "reason": "灶旁局部烟熏，强度受火源限制",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        19,
+        52
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:brown_terracotta",
+      "reason": "灶旁局部烟熏，强度受火源限制",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        20,
+        52
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:brown_terracotta",
+      "reason": "灶旁局部烟熏，强度受火源限制",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        13,
+        17,
+        68
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:azalea",
+      "reason": "既有苔地中的低灌木，不增加结构树",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        17,
+        68
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:azalea",
+      "reason": "既有苔地中的低灌木，不增加结构树",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        13,
+        17,
+        69
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:azalea",
+      "reason": "既有苔地中的低灌木，不增加结构树",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        71
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:azalea",
+      "reason": "既有苔地中的低灌木，不增加结构树",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        71
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:azalea",
+      "reason": "既有苔地中的低灌木，不增加结构树",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        72
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:azalea",
+      "reason": "既有苔地中的低灌木，不增加结构树",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        17,
+        72
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:azalea",
+      "reason": "既有苔地中的低灌木，不增加结构树",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        69
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:moss_carpet",
+      "reason": "庭地低密度苔边",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        69
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:moss_carpet",
+      "reason": "庭地低密度苔边",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        70
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:moss_carpet",
+      "reason": "庭地低密度苔边",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        73
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:moss_carpet",
+      "reason": "庭地低密度苔边",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        16,
+        34
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:moss_block",
+      "reason": "小庭背阴地表，保持标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        16,
+        34
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:moss_block",
+      "reason": "小庭背阴地表，保持标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        16,
+        34
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:moss_block",
+      "reason": "小庭背阴地表，保持标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        16,
+        35
+      ],
+      "before": "minecraft:gravel",
+      "after": "minecraft:moss_block",
+      "reason": "小庭背阴地表，保持标高",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        13,
+        16,
+        70
+      ],
+      "before": "minecraft:moss_block",
+      "after": "minecraft:mossy_stone_bricks",
+      "reason": "院墙接地潮湿点",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        13,
+        16,
+        71
+      ],
+      "before": "minecraft:moss_block",
+      "after": "minecraft:mossy_stone_bricks",
+      "reason": "院墙接地潮湿点",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        16,
+        73
+      ],
+      "before": "minecraft:moss_block",
+      "after": "minecraft:mossy_stone_bricks",
+      "reason": "院墙接地潮湿点",
+      "permission": "Allowed"
+    }
+  ]
+}

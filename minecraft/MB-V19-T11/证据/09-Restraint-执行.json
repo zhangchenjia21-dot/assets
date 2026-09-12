@@ -1,0 +1,22 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V19-T11-京町家",
+  "generator": "FlatLevelSource",
+  "before": [],
+  "changed_blocks": 3,
+  "apply_seconds": 0.3119277,
+  "readback": [],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 24.247,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T05-28-06-591Z-0b8ea122-769f-4091-9702-a0c83b6d114e",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V19-T11-京町家",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T05-28-06-591Z-0b8ea122-769f-4091-9702-a0c83b6d114e\\backup",
+    "files": 30,
+    "sha256_verified": true
+  }
+}

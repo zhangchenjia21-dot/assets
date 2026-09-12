@@ -1,0 +1,1150 @@
+{
+  "source": "05-Functional",
+  "stage": "06-Architectural",
+  "changes": [
+    {
+      "at": [
+        14,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        15,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        16,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        17,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        18,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        20,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        28,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        29,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        30,
+        18,
+        18
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_slab[type=top,waterlogged=false]",
+      "reason": "格子下槛局部细分，开口语义不变",
+      "permission": "Restricted"
+    },
+    {
+      "at": [
+        31,
+        18,
+        45
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        50
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        53
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        54
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        55
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        56
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        57
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        58
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        60
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        61
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        18,
+        62
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:dark_oak_planks",
+      "reason": "居住侧土壁木踢脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        34
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        36
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        37
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        38
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        39
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        40
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        41
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        42
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        44
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        45
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        46
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        47
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        48
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        49
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        50
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        52
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        53
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        54
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        55
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        56
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        57
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        58
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        60
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        17,
+        61
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "土间外墙防潮墙脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        78
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        78
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        79
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        79
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        80
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        80
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        81
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        81
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        82
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        82
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        83
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        83
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        84
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        84
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        85
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        85
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        18,
+        86
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        37,
+        18,
+        86
+      ],
+      "before": "minecraft:white_terracotta",
+      "after": "minecraft:stone_bricks",
+      "reason": "库墙落地石脚",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        13,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        13,
+        17,
+        65
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        17,
+        65
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        17,
+        65
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        17,
+        65
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        21,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        22,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        23,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        24,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        25,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        26,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        27,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        28,
+        17,
+        65
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        17,
+        65
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        30,
+        17,
+        65
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        17,
+        64
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        31,
+        17,
+        65
+      ],
+      "before": "minecraft:dark_oak_planks",
+      "after": "minecraft:spruce_planks",
+      "reason": "缘侧清洁木面，保留几何",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        22,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        23,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        24,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        25,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        26,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        22,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        23,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        24,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        25,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        26,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:dark_oak_fence[east=false,north=false,south=false,west=false,waterlogged=false]",
+      "reason": "布幌吊杆接到现有檐底",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        14,
+        21,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "檐下悬挂布幌；主门不遮挡",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        15,
+        21,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "檐下悬挂布幌；主门不遮挡",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        21,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "檐下悬挂布幌；主门不遮挡",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        17,
+        21,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "檐下悬挂布幌；主门不遮挡",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        21,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:blue_wool",
+      "reason": "檐下悬挂布幌；主门不遮挡",
+      "permission": "Allowed"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "source": "07-Environmental",
+  "stage": "08-Composition",
+  "changes": [
+    {
+      "at": [
+        29,
+        18,
+        36
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "验货灯台",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        19,
+        36
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "reason": "庭边验货工作灯",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        16,
+        19,
+        31
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "reason": "账目集中照明",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        18,
+        61
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:spruce_planks",
+      "reason": "座敷单处行灯支座",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        29,
+        19,
+        61
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "reason": "夜间后间识别；实际照度待客户端",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        20,
+        19,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:lantern[hanging=false,waterlogged=false]",
+      "reason": "售布台末端照明",
+      "permission": "Allowed"
+    }
+  ]
+}

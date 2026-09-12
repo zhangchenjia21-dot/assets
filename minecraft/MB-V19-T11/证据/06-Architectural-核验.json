@@ -1,0 +1,331 @@
+{
+  "stage": "06-Architectural",
+  "edges": {
+    "街至店": {
+      "from": [
+        24,
+        17,
+        14
+      ],
+      "to": [
+        24,
+        18,
+        22
+      ],
+      "restricted_xz": [
+        22,
+        26,
+        14,
+        23
+      ],
+      "expected_edge": true
+    },
+    "街至土间": {
+      "from": [
+        34,
+        17,
+        14
+      ],
+      "to": [
+        34,
+        17,
+        23
+      ],
+      "restricted_xz": [
+        33,
+        36,
+        14,
+        24
+      ],
+      "expected_edge": true
+    },
+    "店至账房": {
+      "from": [
+        18,
+        18,
+        24
+      ],
+      "to": [
+        18,
+        18,
+        30
+      ],
+      "restricted_xz": [
+        17,
+        21,
+        23,
+        31
+      ],
+      "expected_edge": true
+    },
+    "账房至取合": {
+      "from": [
+        27,
+        18,
+        32
+      ],
+      "to": [
+        27,
+        18,
+        38
+      ],
+      "restricted_xz": [
+        25,
+        29,
+        31,
+        39
+      ],
+      "expected_edge": true
+    },
+    "取合至起居": {
+      "from": [
+        27,
+        18,
+        39
+      ],
+      "to": [
+        27,
+        18,
+        48
+      ],
+      "restricted_xz": [
+        25,
+        29,
+        38,
+        49
+      ],
+      "expected_edge": true
+    },
+    "店至土间": {
+      "from": [
+        29,
+        18,
+        22
+      ],
+      "to": [
+        34,
+        17,
+        22
+      ],
+      "restricted_xz": [
+        28,
+        35,
+        20,
+        24
+      ],
+      "expected_edge": true
+    },
+    "土间至厨房": {
+      "from": [
+        34,
+        17,
+        22
+      ],
+      "to": [
+        34,
+        17,
+        49
+      ],
+      "restricted_xz": [
+        32,
+        36,
+        21,
+        50
+      ],
+      "expected_edge": true
+    },
+    "起居至土间": {
+      "from": [
+        28,
+        18,
+        47
+      ],
+      "to": [
+        34,
+        17,
+        47
+      ],
+      "restricted_xz": [
+        27,
+        35,
+        46,
+        49
+      ],
+      "expected_edge": true
+    },
+    "取合至中庭": {
+      "from": [
+        26,
+        18,
+        38
+      ],
+      "to": [
+        20,
+        17,
+        38
+      ],
+      "restricted_xz": [
+        19,
+        27,
+        37,
+        40
+      ],
+      "expected_edge": true
+    },
+    "中庭至西缘侧": {
+      "from": [
+        20,
+        17,
+        38
+      ],
+      "to": [
+        14,
+        18,
+        38
+      ],
+      "restricted_xz": [
+        13,
+        21,
+        37,
+        40
+      ],
+      "expected_edge": true
+    },
+    "起居至座敷": {
+      "from": [
+        21,
+        18,
+        49
+      ],
+      "to": [
+        21,
+        18,
+        58
+      ],
+      "restricted_xz": [
+        19,
+        24,
+        48,
+        59
+      ],
+      "expected_edge": true
+    },
+    "座敷至后庭": {
+      "from": [
+        23,
+        18,
+        60
+      ],
+      "to": [
+        23,
+        17,
+        69
+      ],
+      "restricted_xz": [
+        17,
+        27,
+        59,
+        70
+      ],
+      "expected_edge": true
+    },
+    "后路至厕间": {
+      "from": [
+        33,
+        17,
+        66
+      ],
+      "to": [
+        36,
+        17,
+        67
+      ],
+      "restricted_xz": [
+        32,
+        37,
+        65,
+        69
+      ],
+      "expected_edge": true
+    },
+    "服务路至仓库": {
+      "from": [
+        33,
+        17,
+        73
+      ],
+      "to": [
+        32,
+        18,
+        81
+      ],
+      "restricted_xz": [
+        30,
+        35,
+        72,
+        82
+      ],
+      "expected_edge": true
+    },
+    "账房梯至二层": {
+      "from": [
+        27,
+        18,
+        24
+      ],
+      "to": [
+        27,
+        24,
+        31
+      ],
+      "restricted_xz": [
+        25,
+        28,
+        24,
+        31
+      ],
+      "expected_edge": true
+    },
+    "二层至伙计区": {
+      "from": [
+        27,
+        24,
+        31
+      ],
+      "to": [
+        17,
+        24,
+        28
+      ],
+      "restricted_xz": [
+        14,
+        29,
+        27,
+        32
+      ],
+      "expected_edge": true
+    },
+    "厨房至后路": {
+      "from": [
+        34,
+        17,
+        58
+      ],
+      "to": [
+        33,
+        17,
+        73
+      ],
+      "restricted_xz": [
+        32,
+        36,
+        57,
+        74
+      ],
+      "expected_edge": true
+    }
+  },
+  "orphan_cells": 0,
+  "orphan_examples": [],
+  "plan_differences": 0
+}

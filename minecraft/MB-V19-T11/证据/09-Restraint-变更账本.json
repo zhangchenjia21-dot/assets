@@ -1,0 +1,39 @@
+{
+  "source": "08-Composition",
+  "stage": "09-Restraint",
+  "changes": [
+    {
+      "at": [
+        30,
+        19,
+        60
+      ],
+      "before": "minecraft:white_carpet",
+      "after": "minecraft:air",
+      "reason": "删去座敷重复书卷点，让单处器皿与留白成立",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        18,
+        19,
+        22
+      ],
+      "before": "minecraft:red_wool",
+      "after": "minecraft:red_carpet",
+      "reason": "整块红布在前店中景抢眼，压低为台上摊开的样布",
+      "permission": "Allowed"
+    },
+    {
+      "at": [
+        19,
+        19,
+        22
+      ],
+      "before": "minecraft:red_wool",
+      "after": "minecraft:red_carpet",
+      "reason": "整块红布在前店中景抢眼，压低为台上摊开的样布",
+      "permission": "Allowed"
+    }
+  ]
+}

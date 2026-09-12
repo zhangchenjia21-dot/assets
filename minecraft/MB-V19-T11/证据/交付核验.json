@@ -1,0 +1,32 @@
+{
+  "scope_state": "FINISHED",
+  "regression_verdict": "NOT_ASSIGNED",
+  "world_name": "MB-V19-T11-京町家",
+  "superflat": true,
+  "structures": false,
+  "reload_changed_blocks": 0,
+  "reload_same_palette": true,
+  "reload_same_sample_bytes": true,
+  "sample_origin": [
+    0,
+    10,
+    0
+  ],
+  "sample_shape_yzx": [
+    36,
+    96,
+    56
+  ],
+  "sample_sha256": "889061bf5fb61245ae9daef69ac2d3fd4863411ff64af6d308b3d883208fca9c",
+  "same_camera_pairs": 19,
+  "native_client_verified": false,
+  "finishing_gate": "see Finishing Completion Gate.md",
+  "history": [
+    "DESIGN_READY",
+    "CORE_BUILDING",
+    "SPATIAL_COMPLETE after 04-Base",
+    "FINISHING 05-09",
+    "FINISHED after Finishing Completion Gate"
+  ],
+  "skill_blob": "5420c7cbbca25199e81ec1204dbc928b70abf73c"
+}

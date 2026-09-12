@@ -1,0 +1,287 @@
+[
+  {
+    "name": "街上接近",
+    "eye": [
+      8,
+      18.62,
+      8
+    ],
+    "target": [
+      25,
+      22,
+      23
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "正面中景",
+    "eye": [
+      25,
+      18.62,
+      9
+    ],
+    "target": [
+      25,
+      22,
+      23
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "东北总貌",
+    "eye": [
+      53,
+      51,
+      2
+    ],
+    "target": [
+      26,
+      23,
+      48
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "后庭总貌",
+    "eye": [
+      3,
+      40,
+      91
+    ],
+    "target": [
+      25,
+      22,
+      51
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "前店",
+    "eye": [
+      23,
+      19.62,
+      20
+    ],
+    "target": [
+      18,
+      20,
+      26
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "账房验货",
+    "eye": [
+      18,
+      19.62,
+      30
+    ],
+    "target": [
+      27,
+      20,
+      29
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "通り庭",
+    "eye": [
+      34,
+      18.62,
+      22
+    ],
+    "target": [
+      34,
+      21,
+      49
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "中庭取合",
+    "eye": [
+      20,
+      18.62,
+      38
+    ],
+    "target": [
+      28,
+      20,
+      39
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "家庭起居",
+    "eye": [
+      27,
+      19.62,
+      47
+    ],
+    "target": [
+      18,
+      20,
+      49
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "座敷望庭",
+    "eye": [
+      23,
+      19.62,
+      57
+    ],
+    "target": [
+      23,
+      20,
+      71
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "厨房挑空",
+    "eye": [
+      34,
+      18.62,
+      44
+    ],
+    "target": [
+      35,
+      23,
+      53
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "二层伙计",
+    "eye": [
+      26,
+      25.62,
+      31
+    ],
+    "target": [
+      17,
+      26,
+      23
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "后庭缘侧",
+    "eye": [
+      21,
+      18.62,
+      71
+    ],
+    "target": [
+      23,
+      20,
+      59
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "仓库",
+    "eye": [
+      32,
+      19.62,
+      79
+    ],
+    "target": [
+      27,
+      20,
+      84
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "服务后路",
+    "eye": [
+      33,
+      18.62,
+      62
+    ],
+    "target": [
+      35,
+      19,
+      74
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "中庭仰视",
+    "eye": [
+      20,
+      18.62,
+      38
+    ],
+    "target": [
+      17,
+      25,
+      34
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "伙计室内",
+    "eye": [
+      19,
+      25.62,
+      30
+    ],
+    "target": [
+      16,
+      24.7,
+      22
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "厨房使用",
+    "eye": [
+      34,
+      18.62,
+      48
+    ],
+    "target": [
+      36,
+      18,
+      53
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  },
+  {
+    "name": "座敷室内",
+    "eye": [
+      21,
+      19.62,
+      60
+    ],
+    "target": [
+      28,
+      19.5,
+      56
+    ],
+    "coordinate_system": "Minecraft X Y Z",
+    "kind": "saved voxel perspective, not client screenshot"
+  }
+]

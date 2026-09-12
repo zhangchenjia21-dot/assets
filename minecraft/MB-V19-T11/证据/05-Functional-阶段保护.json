@@ -1,0 +1,23 @@
+{
+  "stage": "05-Functional",
+  "world": "MB-V19-T11-京町家",
+  "same_world_identity": true,
+  "critical_core_state_changes": 0,
+  "critical_changed_coordinates": [],
+  "total_differences_from_baseline": 378,
+  "well": {
+    "source": "minecraft:water[level=0]",
+    "bottom": "minecraft:stone_bricks",
+    "sides": [
+      "minecraft:stone_bricks",
+      "minecraft:stone_bricks",
+      "minecraft:stone_bricks",
+      "minecraft:stone_bricks"
+    ],
+    "fluid_update_stability": "not independently exercised"
+  },
+  "well_contained": true,
+  "removed_core_solid_cells": 0,
+  "small_object_support_failures": [],
+  "limits": "掩码保护主要构件；墙面材质、家具及语义仍需逐项账本/平剖/路线审查。非客户端碰撞检查。"
+}
