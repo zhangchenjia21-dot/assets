@@ -1,0 +1,68 @@
+{
+  "delivery": "LOCAL_ONLY",
+  "cache_path": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001S1",
+  "snapshot_source": "../current-world-audit.json",
+  "restore_note": "本机缓存保留完整本轮只读快照；复制这些原字节即可离线复现。不得从旧规划cache伪造。异机缺raw时需Owner提供本地副本或重新授权新epoch读取。",
+  "files": {
+    "cache-delta.json": {
+      "bytes": 553,
+      "sha256": "65ec01e57f2fdeb4ebae8ef1d27616cefe2bea34217f3484a6a5ce3d832d786f"
+    },
+    "candidate-analysis.json": {
+      "bytes": 23375,
+      "sha256": "252534664ecc952070b1a04f7a6b4c87661c488e29f6b3316c288ccf9ca89217"
+    },
+    "capture.json": {
+      "bytes": 14536,
+      "sha256": "aa7eada393aaa11a7e88ee888e82b5114d5a2dff95395bb8d28b66f582f12b37"
+    },
+    "content-analysis.json": {
+      "bytes": 4504,
+      "sha256": "1187a54643dc846fcce8ff9e64210ce7dbf1a75ea6972369239d279c2953d310"
+    },
+    "diagnostic.png": {
+      "bytes": 35319,
+      "sha256": "776c41f4689106c31c433e287f6b16544f59813cf939cc88dce6b318fdf562ba"
+    },
+    "protected-before.json": {
+      "bytes": 10416,
+      "sha256": "737285aac41af4dedfa676df926e6366b32b780f7b474a899282926948d68764"
+    },
+    "screening-rejections.json": {
+      "bytes": 167,
+      "sha256": "9fa672e171e516a48e1e15f5cd1c42f683a00c73b7947c982ae0bae18c2354b2"
+    },
+    "snapshot/entities-r.0.3.mca": {
+      "bytes": 790528,
+      "sha256": "a7e2d92dea21ec03224ed5099a32ff0454f9e5c70714af2a1efab1049bb7121f"
+    },
+    "snapshot/level.dat": {
+      "bytes": 521,
+      "sha256": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410"
+    },
+    "snapshot/poi-r.0.3.mca": {
+      "bytes": 16384,
+      "sha256": "fa1600957844e93436d7371067df45daacaa6b0ea74c63375f44d7300689f230"
+    },
+    "snapshot/region-r.0.3.mca": {
+      "bytes": 10039296,
+      "sha256": "7d873f5e82c557e489b872aaae6ae36e501f5a3675754665ba752691c554ef99"
+    },
+    "snapshot/session.lock": {
+      "bytes": 3,
+      "sha256": "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc"
+    },
+    "surface-summary.json": {
+      "bytes": 559,
+      "sha256": "995e3fa51a973492526e24eb92359bac1118828e44f8acd74735ddb3e2d044b1"
+    },
+    "surface.json.gz": {
+      "bytes": 45267,
+      "sha256": "8b1cc57583a8fdf832a5dff290aee39e0534408faa884973d15e347d48882aa3"
+    },
+    "visual-rays.json": {
+      "bytes": 34805,
+      "sha256": "55beab75e7df64837dc916c884cbc665ef311a05069ac90e4f7a6739af4570ea"
+    }
+  }
+}

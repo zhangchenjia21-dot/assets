@@ -1,0 +1,536 @@
+{
+  "status": "CURRENT SAVE OBSERVED",
+  "observed_scope_columns": 10954,
+  "G1_columns": 7175,
+  "G1_ground_y_range": [
+    62,
+    68
+  ],
+  "G1_materials": {
+    "minecraft:rooted_dirt": 333,
+    "minecraft:moss_block": 783,
+    "minecraft:coarse_dirt": 1029,
+    "minecraft:grass_block": 3948,
+    "minecraft:packed_mud": 1050,
+    "minecraft:dirt": 25,
+    "minecraft:pumpkin": 7
+  },
+  "ground_definition": "WORLD_SURFACE downward stripping explicit vegetation; trunks are separately inventoried and avoided, not declared removable",
+  "candidate_profiles": [
+    {
+      "id": "S1",
+      "gross_usable_area": 570,
+      "surface_elevation_range": [
+        66,
+        67
+      ],
+      "median_ground_y": 67.0,
+      "relief": 1,
+      "adjacent_max_step": 1,
+      "adjacent_mean_step": 0.04003724394785847,
+      "ground_materials": {
+        "minecraft:coarse_dirt": 62,
+        "minecraft:packed_mud": 109,
+        "minecraft:grass_block": 332,
+        "minecraft:moss_block": 51,
+        "minecraft:rooted_dirt": 16
+      }
+    },
+    {
+      "id": "S2",
+      "gross_usable_area": 586,
+      "surface_elevation_range": [
+        63,
+        65
+      ],
+      "median_ground_y": 64.0,
+      "relief": 2,
+      "adjacent_max_step": 1,
+      "adjacent_mean_step": 0.07077205882352941,
+      "ground_materials": {
+        "minecraft:packed_mud": 66,
+        "minecraft:grass_block": 434,
+        "minecraft:rooted_dirt": 15,
+        "minecraft:moss_block": 40,
+        "minecraft:coarse_dirt": 31
+      }
+    },
+    {
+      "id": "S3",
+      "gross_usable_area": 605,
+      "surface_elevation_range": [
+        64,
+        66
+      ],
+      "median_ground_y": 65.0,
+      "relief": 2,
+      "adjacent_max_step": 1,
+      "adjacent_mean_step": 0.07460035523978685,
+      "ground_materials": {
+        "minecraft:grass_block": 210,
+        "minecraft:moss_block": 69,
+        "minecraft:rooted_dirt": 63,
+        "minecraft:coarse_dirt": 148,
+        "minecraft:packed_mud": 115
+      }
+    }
+  ],
+  "cache_comparison": {
+    "compared_G1_columns": 7175,
+    "changed_columns": 1,
+    "changes": [
+      {
+        "point": [
+          213,
+          1712
+        ],
+        "current": [
+          65,
+          "minecraft:grass_block",
+          65,
+          "minecraft:grass_block"
+        ],
+        "cache": [
+          65,
+          "minecraft:dirt",
+          65,
+          "minecraft:dirt"
+        ]
+      }
+    ],
+    "comparison_fields": [
+      "exposed_y",
+      "exposed_block_name",
+      "surface_y",
+      "surface_block_name"
+    ],
+    "not_compared": "block properties, biome and historical below-ground state"
+  },
+  "witness_columns": [
+    {
+      "x": 225,
+      "z": 1683,
+      "surface_y": 68,
+      "ground_y": 66,
+      "ground": "minecraft:rooted_dirt",
+      "top": "minecraft:acacia_leaves"
+    },
+    {
+      "x": 234,
+      "z": 1691,
+      "surface_y": 67,
+      "ground_y": 67,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 220,
+      "z": 1695,
+      "surface_y": 67,
+      "ground_y": 67,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 205,
+      "z": 1698,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 229,
+      "z": 1700,
+      "surface_y": 67,
+      "ground_y": 67,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 219,
+      "z": 1702,
+      "surface_y": 66,
+      "ground_y": 66,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 192,
+      "z": 1704,
+      "surface_y": 63,
+      "ground_y": 63,
+      "ground": "minecraft:packed_mud",
+      "top": "minecraft:packed_mud"
+    },
+    {
+      "x": 235,
+      "z": 1705,
+      "surface_y": 68,
+      "ground_y": 67,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 174,
+      "z": 1707,
+      "surface_y": 64,
+      "ground_y": 63,
+      "ground": "minecraft:moss_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 210,
+      "z": 1708,
+      "surface_y": 65,
+      "ground_y": 65,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 145,
+      "z": 1710,
+      "surface_y": 63,
+      "ground_y": 63,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 181,
+      "z": 1711,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 217,
+      "z": 1712,
+      "surface_y": 67,
+      "ground_y": 66,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 152,
+      "z": 1714,
+      "surface_y": 63,
+      "ground_y": 63,
+      "ground": "minecraft:packed_mud",
+      "top": "minecraft:packed_mud"
+    },
+    {
+      "x": 188,
+      "z": 1715,
+      "surface_y": 66,
+      "ground_y": 65,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 224,
+      "z": 1716,
+      "surface_y": 68,
+      "ground_y": 67,
+      "ground": "minecraft:coarse_dirt",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 159,
+      "z": 1718,
+      "surface_y": 64,
+      "ground_y": 63,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 195,
+      "z": 1719,
+      "surface_y": 66,
+      "ground_y": 65,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 231,
+      "z": 1720,
+      "surface_y": 68,
+      "ground_y": 67,
+      "ground": "minecraft:coarse_dirt",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 166,
+      "z": 1722,
+      "surface_y": 63,
+      "ground_y": 63,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 202,
+      "z": 1723,
+      "surface_y": 65,
+      "ground_y": 65,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 238,
+      "z": 1724,
+      "surface_y": 68,
+      "ground_y": 67,
+      "ground": "minecraft:rooted_dirt",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 173,
+      "z": 1726,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:packed_mud",
+      "top": "minecraft:packed_mud"
+    },
+    {
+      "x": 209,
+      "z": 1727,
+      "surface_y": 66,
+      "ground_y": 66,
+      "ground": "minecraft:moss_block",
+      "top": "minecraft:moss_block"
+    },
+    {
+      "x": 144,
+      "z": 1729,
+      "surface_y": 63,
+      "ground_y": 63,
+      "ground": "minecraft:rooted_dirt",
+      "top": "minecraft:rooted_dirt"
+    },
+    {
+      "x": 180,
+      "z": 1730,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:coarse_dirt",
+      "top": "minecraft:coarse_dirt"
+    },
+    {
+      "x": 216,
+      "z": 1731,
+      "surface_y": 67,
+      "ground_y": 67,
+      "ground": "minecraft:packed_mud",
+      "top": "minecraft:packed_mud"
+    },
+    {
+      "x": 151,
+      "z": 1733,
+      "surface_y": 64,
+      "ground_y": 63,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 187,
+      "z": 1734,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:rooted_dirt",
+      "top": "minecraft:rooted_dirt"
+    },
+    {
+      "x": 223,
+      "z": 1735,
+      "surface_y": 67,
+      "ground_y": 67,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 158,
+      "z": 1737,
+      "surface_y": 64,
+      "ground_y": 63,
+      "ground": "minecraft:moss_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 194,
+      "z": 1738,
+      "surface_y": 66,
+      "ground_y": 65,
+      "ground": "minecraft:moss_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 230,
+      "z": 1739,
+      "surface_y": 68,
+      "ground_y": 67,
+      "ground": "minecraft:packed_mud",
+      "top": "minecraft:acacia_leaves"
+    },
+    {
+      "x": 165,
+      "z": 1741,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 201,
+      "z": 1742,
+      "surface_y": 66,
+      "ground_y": 65,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 237,
+      "z": 1743,
+      "surface_y": 66,
+      "ground_y": 66,
+      "ground": "minecraft:packed_mud",
+      "top": "minecraft:packed_mud"
+    },
+    {
+      "x": 172,
+      "z": 1745,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 208,
+      "z": 1746,
+      "surface_y": 66,
+      "ground_y": 66,
+      "ground": "minecraft:rooted_dirt",
+      "top": "minecraft:rooted_dirt"
+    },
+    {
+      "x": 143,
+      "z": 1748,
+      "surface_y": 64,
+      "ground_y": 63,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:acacia_leaves"
+    },
+    {
+      "x": 179,
+      "z": 1749,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:coarse_dirt",
+      "top": "minecraft:coarse_dirt"
+    },
+    {
+      "x": 215,
+      "z": 1750,
+      "surface_y": 67,
+      "ground_y": 66,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 150,
+      "z": 1752,
+      "surface_y": 64,
+      "ground_y": 63,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 186,
+      "z": 1753,
+      "surface_y": 65,
+      "ground_y": 65,
+      "ground": "minecraft:packed_mud",
+      "top": "minecraft:packed_mud"
+    },
+    {
+      "x": 222,
+      "z": 1754,
+      "surface_y": 66,
+      "ground_y": 66,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 157,
+      "z": 1756,
+      "surface_y": 63,
+      "ground_y": 63,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 194,
+      "z": 1757,
+      "surface_y": 66,
+      "ground_y": 65,
+      "ground": "minecraft:moss_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 232,
+      "z": 1758,
+      "surface_y": 67,
+      "ground_y": 66,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 175,
+      "z": 1760,
+      "surface_y": 64,
+      "ground_y": 64,
+      "ground": "minecraft:packed_mud",
+      "top": "minecraft:packed_mud"
+    },
+    {
+      "x": 228,
+      "z": 1761,
+      "surface_y": 66,
+      "ground_y": 66,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:grass_block"
+    },
+    {
+      "x": 214,
+      "z": 1763,
+      "surface_y": 67,
+      "ground_y": 66,
+      "ground": "minecraft:coarse_dirt",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 227,
+      "z": 1765,
+      "surface_y": 67,
+      "ground_y": 66,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 208,
+      "z": 1768,
+      "surface_y": 66,
+      "ground_y": 65,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    },
+    {
+      "x": 218,
+      "z": 1775,
+      "surface_y": 67,
+      "ground_y": 66,
+      "ground": "minecraft:grass_block",
+      "top": "minecraft:short_grass"
+    }
+  ],
+  "local_raw": "surface.json.gz retained Local-only"
+}

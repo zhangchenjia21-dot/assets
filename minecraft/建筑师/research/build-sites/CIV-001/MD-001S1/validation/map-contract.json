@@ -1,0 +1,56 @@
+{
+  "current-world-site-base": {
+    "pixel_size": [
+      1800,
+      1160
+    ],
+    "world_bounds_exclusive": [
+      85,
+      1674,
+      251,
+      1794
+    ],
+    "origin_pixel": [
+      80,
+      165
+    ],
+    "pixels_per_block_x": 6,
+    "pixels_per_block_z": 6
+  },
+  "candidate-comparison": {
+    "pixel_size": [
+      1800,
+      1160
+    ],
+    "world_bounds_exclusive": [
+      85,
+      1674,
+      251,
+      1794
+    ],
+    "origin_pixel": [
+      80,
+      165
+    ],
+    "pixels_per_block_x": 6,
+    "pixels_per_block_z": 6
+  },
+  "recommended-site-detail": {
+    "pixel_size": [
+      1800,
+      1160
+    ],
+    "world_bounds_exclusive": [
+      206,
+      1678,
+      248,
+      1730
+    ],
+    "origin_pixel": [
+      80,
+      165
+    ],
+    "pixels_per_block_x": 15,
+    "pixels_per_block_z": 15
+  }
+}

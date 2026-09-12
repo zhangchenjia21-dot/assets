@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "byte_identical": true,
+  "scope": "same current snapshot; volatile final_source_check_at excluded",
+  "files": {
+    "access-drainage-audit.json": "0be37cee3cb14ac0df588e6055f86ad8303c9f92d6fbb269fc7ee1a862ab5567",
+    "candidates.json": "9ba002fdbfebf49199f857d04fd24c4db674169c2166dc0e451353be6f763f66",
+    "existing-content-audit.json": "1c77dc7192f9a4ce3f18172dfcf2b2f24a328a1ba0198237bd0f1f7dfcf583f3",
+    "recommended-site.json": "1576a6ea4743d4ac396e1444a68e6d1044e962dab6cc4b9a134e8dab02c79425",
+    "subsurface-audit.json": "7131589ac3a1634fe9fda22d5d382462409468402e5a67fd0755b96392f964e2",
+    "surface-terrain.json": "7118a4a3b99f8942bb86c71926d168f028887f9ccc5a44a435c871b15b83f259",
+    "visual/candidate-comparison.png": "8a9a0dcecad78a2cc976b389906514d5ef4b5833cb3ef3e5e6a859011fa274c0",
+    "visual/current-world-site-base.png": "57352d2f3c2c083b868d96aab90a915991a5c1caae70f83dbdd24e28a200532e",
+    "visual/recommended-site-detail.png": "d4cadbba3a99912235cd8142fdd691ceab4b8349e3c36f8bc912526c17855304"
+  }
+}

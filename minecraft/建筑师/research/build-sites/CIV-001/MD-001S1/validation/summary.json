@@ -1,0 +1,35 @@
+{
+  "status": "IMPLEMENTATION COMPLETE / RECOMMENDED S1 / AWAITING GPT + OWNER REVIEW",
+  "technical_checks": "PASS",
+  "current_world_identity_confirmed": true,
+  "current_snapshot_at": "2026-09-12T14:47:25.060986+00:00",
+  "candidate_count": 3,
+  "candidate_areas": [
+    570,
+    586,
+    605
+  ],
+  "recommended": "S1",
+  "surface_columns": 10954,
+  "G1_columns": 7175,
+  "visual_ray_unique_sample_columns": 368,
+  "visual_ray_columns_outside_surface_scope": 72,
+  "cache_changed_columns": 1,
+  "subsurface_per_candidate_queries": [
+    11882,
+    12246,
+    12831
+  ],
+  "independent_heightmap_witnesses": 47,
+  "protected_planning_authority_files": 80,
+  "world_writes": 0,
+  "broad_rescan": 0,
+  "architecture_design_started": false,
+  "limitations": [
+    "potable water unconfirmed",
+    "no player screenshot; single-ray visual proxy only",
+    "natural-material placement provenance unresolved",
+    "subsurface limited to 12 below ground and 4-column buffers",
+    "planned main corridor contains vegetation; cart access not certified"
+  ]
+}

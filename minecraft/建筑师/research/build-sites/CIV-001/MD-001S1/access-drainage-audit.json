@@ -1,0 +1,409 @@
+{
+  "status": "LOCAL RELATION WITNESSES / NOT ROAD DESIGN",
+  "candidate_access": [
+    {
+      "id": "S1",
+      "path": [
+        [
+          238,
+          1705,
+          67
+        ],
+        [
+          238,
+          1706,
+          67
+        ],
+        [
+          238,
+          1707,
+          67
+        ],
+        [
+          238,
+          1708,
+          67
+        ],
+        [
+          238,
+          1709,
+          67
+        ],
+        [
+          238,
+          1710,
+          67
+        ],
+        [
+          238,
+          1711,
+          67
+        ],
+        [
+          238,
+          1712,
+          67
+        ],
+        [
+          238,
+          1713,
+          67
+        ],
+        [
+          238,
+          1714,
+          67
+        ]
+      ],
+      "steps": 9,
+      "role": "东南侧9步当前表层见证接入 R1b；装卸可退入 gross envelope 内，不能把净空当专属仓院。"
+    },
+    {
+      "id": "S2",
+      "path": [
+        [
+          189,
+          1722,
+          64
+        ],
+        [
+          189,
+          1723,
+          64
+        ],
+        [
+          189,
+          1724,
+          64
+        ],
+        [
+          189,
+          1725,
+          64
+        ],
+        [
+          189,
+          1726,
+          64
+        ],
+        [
+          189,
+          1727,
+          64
+        ],
+        [
+          189,
+          1728,
+          64
+        ],
+        [
+          189,
+          1729,
+          64
+        ],
+        [
+          189,
+          1730,
+          64
+        ],
+        [
+          189,
+          1731,
+          64
+        ]
+      ],
+      "steps": 9,
+      "role": "南侧9步接入 G1 中段；即时交接方便，但装卸停驻不得溢入最繁忙的穿行带。"
+    },
+    {
+      "id": "S3",
+      "path": [
+        [
+          181,
+          1740,
+          64
+        ],
+        [
+          181,
+          1739,
+          64
+        ],
+        [
+          181,
+          1738,
+          64
+        ],
+        [
+          181,
+          1737,
+          64
+        ],
+        [
+          181,
+          1736,
+          64
+        ],
+        [
+          181,
+          1735,
+          64
+        ],
+        [
+          181,
+          1734,
+          64
+        ],
+        [
+          181,
+          1733,
+          64
+        ],
+        [
+          181,
+          1732,
+          64
+        ],
+        [
+          181,
+          1731,
+          64
+        ]
+      ],
+      "steps": 9,
+      "role": "北侧9步到主穿行；短仓可向北交接，不能把通行带当停牲口区。"
+    }
+  ],
+  "drainage": [
+    {
+      "id": "S1",
+      "non_rising_witness": [
+        [
+          228,
+          1684,
+          66
+        ],
+        [
+          227,
+          1684,
+          66
+        ],
+        [
+          226,
+          1684,
+          66
+        ],
+        [
+          226,
+          1683,
+          66
+        ],
+        [
+          226,
+          1682,
+          66
+        ],
+        [
+          226,
+          1681,
+          65
+        ]
+      ],
+      "local_pit_check": {
+        "maximum_fill_depth": 0,
+        "depressed_columns": 0,
+        "boundary_assumption": "four-column buffer edge open; not catchment flood certification"
+      },
+      "note": "北缘有不升高到更低地面的短见证；排水须保留岸线维护，不向岸边排污。饮用水未确认；沿通行联系运水、院内储水/消防作为待设计验证关系。"
+    },
+    {
+      "id": "S2",
+      "non_rising_witness": [
+        [
+          197,
+          1695,
+          63
+        ],
+        [
+          196,
+          1695,
+          62
+        ],
+        [
+          195,
+          1695,
+          62
+        ],
+        [
+          195,
+          1694,
+          62
+        ],
+        [
+          195,
+          1693,
+          62
+        ],
+        [
+          195,
+          1692,
+          62
+        ]
+      ],
+      "local_pit_check": {
+        "maximum_fill_depth": 0,
+        "depressed_columns": 0,
+        "boundary_assumption": "four-column buffer edge open; not catchment flood certification"
+      },
+      "note": "北缘通向Y62低地，存在非升高排水见证；低缘比 S1 更敏感，不应把低地当污水接收池。清洁供水待确认。"
+    },
+    {
+      "id": "S3",
+      "non_rising_witness": [
+        [
+          181,
+          1740,
+          64
+        ],
+        [
+          180,
+          1740,
+          64
+        ],
+        [
+          179,
+          1740,
+          64
+        ],
+        [
+          178,
+          1740,
+          64
+        ],
+        [
+          177,
+          1740,
+          64
+        ],
+        [
+          176,
+          1740,
+          64
+        ],
+        [
+          175,
+          1740,
+          64
+        ],
+        [
+          174,
+          1740,
+          64
+        ],
+        [
+          173,
+          1740,
+          64
+        ],
+        [
+          172,
+          1740,
+          64
+        ],
+        [
+          171,
+          1740,
+          64
+        ],
+        [
+          170,
+          1740,
+          64
+        ],
+        [
+          169,
+          1740,
+          64
+        ],
+        [
+          168,
+          1740,
+          64
+        ],
+        [
+          167,
+          1740,
+          64
+        ],
+        [
+          166,
+          1740,
+          64
+        ],
+        [
+          165,
+          1740,
+          64
+        ],
+        [
+          164,
+          1740,
+          64
+        ],
+        [
+          163,
+          1740,
+          64
+        ],
+        [
+          162,
+          1740,
+          64
+        ],
+        [
+          161,
+          1740,
+          64
+        ],
+        [
+          161,
+          1739,
+          64
+        ],
+        [
+          161,
+          1738,
+          64
+        ],
+        [
+          161,
+          1737,
+          64
+        ],
+        [
+          161,
+          1736,
+          63
+        ]
+      ],
+      "local_pit_check": {
+        "maximum_fill_depth": 0,
+        "depressed_columns": 0,
+        "boundary_assumption": "four-column buffer edge open; not catchment flood certification"
+      },
+      "note": "沿西侧有24步非升高到更低地面的见证，较 S1/S2 长且经过平缓段；降雨汇流/地表维护更需设计复核，清洁取水不能由此推定。"
+    }
+  ],
+  "main_corridor_current_obstructions": {
+    "trunk_columns": [
+      [
+        233,
+        1729
+      ]
+    ],
+    "low_leaf_columns_in_stored_path_sequence": 46,
+    "meaning": "Planning clearance is not a cleared existing road; do not promise cart access; future design must retain circulation and address vegetation under separate authorization"
+  },
+  "potable_water": "NOT CONFIRMED; nearby water not assumed potable; supply via corridor and safe storage/fire reserve is a planning possibility, not an installed system",
+  "drainage_limit": "local non-rising path to lower terrain only; not rainfall simulation or a sewage outlet design",
+  "world_writes": 0
+}

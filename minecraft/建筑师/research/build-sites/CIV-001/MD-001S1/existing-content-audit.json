@@ -1,0 +1,70 @@
+{
+  "status": "READ COMPLETE / PROVENANCE LIMITS",
+  "scope": "67 selected terrain/entity/POI chunks; candidate buffers precisely filtered",
+  "candidate_buffers": [
+    {
+      "id": "S1",
+      "buffer_area": 914,
+      "above_buffer_palette": {
+        "minecraft:short_grass": 328,
+        "minecraft:acacia_leaves": 125,
+        "minecraft:acacia_log": 7,
+        "minecraft:dead_bush": 2
+      },
+      "identified_artificial_surface": [],
+      "block_entities_in_buffer": [],
+      "entities_in_buffer": []
+    },
+    {
+      "id": "S2",
+      "buffer_area": 942,
+      "above_buffer_palette": {
+        "minecraft:short_grass": 311,
+        "minecraft:acacia_leaves": 70,
+        "minecraft:acacia_log": 3,
+        "minecraft:dead_bush": 2
+      },
+      "identified_artificial_surface": [],
+      "block_entities_in_buffer": [],
+      "entities_in_buffer": [
+        {
+          "id": "minecraft:cow",
+          "pos": [
+            188.165044485851,
+            64.0,
+            1704.8348738352927
+          ],
+          "item": ""
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "buffer_area": 987,
+      "above_buffer_palette": {
+        "minecraft:short_grass": 308,
+        "minecraft:acacia_leaves": 124,
+        "minecraft:acacia_log": 13,
+        "minecraft:dead_bush": 1,
+        "minecraft:tall_grass": 18
+      },
+      "identified_artificial_surface": [],
+      "block_entities_in_buffer": [],
+      "entities_in_buffer": []
+    }
+  ],
+  "block_entities": [],
+  "poi_records": [],
+  "structure_starts": [],
+  "entity_summary": {
+    "minecraft:item": 12,
+    "minecraft:armadillo": 3,
+    "minecraft:sheep": 2,
+    "minecraft:pig": 4,
+    "minecraft:cow": 4,
+    "minecraft:chicken": 2
+  },
+  "deep_item_note": "item entities elsewhere in scope at negative Y are outside shallow candidate volume; not treated as a mine or player structure",
+  "natural_material_provenance": "grass/dirt/packed_mud/stone/logs may be world-generated or placed; material-only query cannot establish actor/history",
+  "world_writes": 0
+}

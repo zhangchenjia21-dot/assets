@@ -1,0 +1,108 @@
+{
+  "scope": "MD-001S1 Lightweight Review Bundle; manifest itself excluded",
+  "raw_delivery": "LOCAL_ONLY",
+  "payload_bytes": 679051,
+  "payload_mib": 0.648,
+  "files": {
+    "access-drainage-audit.json": {
+      "bytes": 7052,
+      "sha256": "0be37cee3cb14ac0df588e6055f86ad8303c9f92d6fbb269fc7ee1a862ab5567"
+    },
+    "candidates.json": {
+      "bytes": 77262,
+      "sha256": "9ba002fdbfebf49199f857d04fd24c4db674169c2166dc0e451353be6f763f66"
+    },
+    "current-world-audit.json": {
+      "bytes": 15496,
+      "sha256": "deb5c756684cea7f08e6dd5620ce62c0d784122cfb2394b8a5804117440846ce"
+    },
+    "existing-content-audit.json": {
+      "bytes": 2047,
+      "sha256": "1c77dc7192f9a4ce3f18172dfcf2b2f24a328a1ba0198237bd0f1f7dfcf583f3"
+    },
+    "README.md": {
+      "bytes": 3159,
+      "sha256": "350ebada9f70ccb485f87e9fec7d46e3d58544e38eaae48b93b722a6587a749e"
+    },
+    "recommended-site.json": {
+      "bytes": 2836,
+      "sha256": "1576a6ea4743d4ac396e1444a68e6d1044e962dab6cc4b9a134e8dab02c79425"
+    },
+    "SITE-GATE.md": {
+      "bytes": 7294,
+      "sha256": "b64de2b385a33664e393f5a662ae12b23b5b5b0ef837ea4eca67114c47199738"
+    },
+    "subsurface-audit.json": {
+      "bytes": 10099,
+      "sha256": "7131589ac3a1634fe9fda22d5d382462409468402e5a67fd0755b96392f964e2"
+    },
+    "surface-terrain.json": {
+      "bytes": 11667,
+      "sha256": "7118a4a3b99f8942bb86c71926d168f028887f9ccc5a44a435c871b15b83f259"
+    },
+    "tooling/场地交付核验.py": {
+      "bytes": 4444,
+      "sha256": "53b24c47f0f8088b5e3a54360e1bd0a733b2b8e6ea224235b3c9c277c87ea85c"
+    },
+    "tooling/场地候选核查.py": {
+      "bytes": 9841,
+      "sha256": "e7663df6877600d7c3d38d48602a6f813a761551c7f78809bdbcd70ba94cb333"
+    },
+    "tooling/场地证据制图.py": {
+      "bytes": 6297,
+      "sha256": "87d30aefc8b3e19712594e8a7da496b6ded950cc558538628b1e2a65f4e3aa4c"
+    },
+    "tooling/场地证据汇编.py": {
+      "bytes": 11497,
+      "sha256": "08f85f64a4757a41514a1d05f4d19b4806e73f51bea38bc47ec444bc125ce676"
+    },
+    "tooling/当前场地读取.py": {
+      "bytes": 9892,
+      "sha256": "4ef6afa51f5b670bfca3bc7c8d4be757ee67ab1ba39659269d838a2181af53fb"
+    },
+    "validation/CRITIC.md": {
+      "bytes": 1123,
+      "sha256": "8511204792c12de332d032f9a44d07f0c9c74b104d3938acbbf6ad461466f196"
+    },
+    "validation/geometry-and-source.json": {
+      "bytes": 600,
+      "sha256": "70430eda01cfa30ab254f3e3f09e3af0b4a631c1c15709bd5b32960a512eb712"
+    },
+    "validation/heightmap-crosscheck.json": {
+      "bytes": 6534,
+      "sha256": "3ad49e35d3bb5bb360b61bbf9277167e56e8465a2aa838029d959d360b4f3808"
+    },
+    "validation/local-cache-manifest.json": {
+      "bytes": 2516,
+      "sha256": "b3fd2dd9676ebc4f4798de370e3834833de0c07c232feb11067f4652134da3de"
+    },
+    "validation/map-contract.json": {
+      "bytes": 828,
+      "sha256": "6396d1b79f4c17b350b712b26a51e4465907b1ba6fbac55cd5a70b744a8413fd"
+    },
+    "validation/rebuild.json": {
+      "bytes": 1056,
+      "sha256": "c53ff00a5bbed9ff718856af306a6a88a180bcd85f99f5c9a5093667985f22a7"
+    },
+    "validation/source-fingerprint.json": {
+      "bytes": 1065,
+      "sha256": "93dba7c858b1bcde4d534fb04e48d0bc2a119e2929c404ad034c859e73380943"
+    },
+    "validation/summary.json": {
+      "bytes": 1054,
+      "sha256": "841051363404bafe049e5a2e48f37badd6f9957e6fda3f95832038fcf5730e56"
+    },
+    "visual/candidate-comparison.png": {
+      "bytes": 164257,
+      "sha256": "8a9a0dcecad78a2cc976b389906514d5ef4b5833cb3ef3e5e6a859011fa274c0"
+    },
+    "visual/current-world-site-base.png": {
+      "bytes": 150024,
+      "sha256": "57352d2f3c2c083b868d96aab90a915991a5c1caae70f83dbdd24e28a200532e"
+    },
+    "visual/recommended-site-detail.png": {
+      "bytes": 171111,
+      "sha256": "d4cadbba3a99912235cd8142fdd691ceab4b8349e3c36f8bc912526c17855304"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "execution_base": "c7743bf4324028a9bcb8d0da935a76216eaf3311",
+  "territory_revision": 154,
+  "accepted_masterplan_commit": "c5f0876e5e71995ba7d758e7970fddcffead3b09",
+  "sources": {
+    "tasks\\MD-001S1\\TASK.md": "0b5d045475dd1f89f88633ad39c570d4fb7e77884847ebe7945cb5dd35b943c0",
+    "decisions\\D-027_MD-001P-R1总规Owner接受并进入G1首栋SiteGate.md": "32547af243353e29fd3b5956ea04164bb67a05456c3d06809d7eccd3d45c75b6",
+    "planning\\CIV-001\\MIDDLE\\MD-001P\\settlement-nodes.json": "6baa7b5ada3cd546cc87ed0957d43d27834a8370262d1e1c38be0a9910d52334",
+    "planning\\CIV-001\\MIDDLE\\MD-001P\\land-use.json": "3cec78a3390a42bc702f7ad8bd5dfe747250f99f7f0f83c0d9700d4eaf20aefb",
+    "research\\human-geography\\southern-island\\territory-refinement\\TT-002R\\refined-draft.json": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919",
+    "architecture\\civilizations\\CIV-001\\Architecture-Grammar.md": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6"
+  },
+  "current_world_fingerprint": "../current-world-audit.json"
+}

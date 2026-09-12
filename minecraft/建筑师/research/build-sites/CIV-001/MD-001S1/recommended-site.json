@@ -1,0 +1,216 @@
+{
+  "schema": "local-site-recommendation/1",
+  "status": "RECOMMENDED / SITE ACCEPTANCE PENDING GPT + OWNER",
+  "id": "S1",
+  "name": "东侧高位缓台",
+  "geometry": [
+    [
+      1684,
+      228,
+      228
+    ],
+    [
+      1685,
+      223,
+      225
+    ],
+    [
+      1685,
+      227,
+      229
+    ],
+    [
+      1686,
+      221,
+      230
+    ],
+    [
+      1687,
+      220,
+      231
+    ],
+    [
+      1688,
+      219,
+      232
+    ],
+    [
+      1689,
+      218,
+      233
+    ],
+    [
+      1690,
+      217,
+      234
+    ],
+    [
+      1691,
+      216,
+      235
+    ],
+    [
+      1692,
+      217,
+      236
+    ],
+    [
+      1693,
+      218,
+      237
+    ],
+    [
+      1694,
+      219,
+      238
+    ],
+    [
+      1695,
+      218,
+      239
+    ],
+    [
+      1696,
+      217,
+      240
+    ],
+    [
+      1697,
+      217,
+      240
+    ],
+    [
+      1698,
+      218,
+      240
+    ],
+    [
+      1699,
+      219,
+      240
+    ],
+    [
+      1700,
+      218,
+      240
+    ],
+    [
+      1701,
+      218,
+      240
+    ],
+    [
+      1702,
+      218,
+      240
+    ],
+    [
+      1703,
+      218,
+      240
+    ],
+    [
+      1704,
+      218,
+      240
+    ],
+    [
+      1705,
+      218,
+      240
+    ],
+    [
+      1706,
+      219,
+      237
+    ],
+    [
+      1707,
+      218,
+      236
+    ],
+    [
+      1708,
+      217,
+      235
+    ],
+    [
+      1709,
+      217,
+      234
+    ],
+    [
+      1710,
+      217,
+      233
+    ],
+    [
+      1711,
+      218,
+      232
+    ],
+    [
+      1712,
+      219,
+      231
+    ],
+    [
+      1713,
+      220,
+      230
+    ],
+    [
+      1714,
+      221,
+      229
+    ],
+    [
+      1715,
+      222,
+      229
+    ],
+    [
+      1716,
+      223,
+      228
+    ],
+    [
+      1717,
+      224,
+      227
+    ],
+    [
+      1718,
+      225,
+      226
+    ]
+  ],
+  "bounds": [
+    216,
+    1684,
+    240,
+    1718
+  ],
+  "gross_usable_area": 570,
+  "surface_elevation_range": [
+    66,
+    67
+  ],
+  "source_snapshot": "current-world-audit.json",
+  "why": [
+    "三者中候选面高差最小",
+    "较高缓台，局部向北排水方向清楚",
+    "9步联系在同一Y67上，居民/货物组织空间较完整"
+  ],
+  "planning_anchor_is_not_building_coordinate": true,
+  "first_build_type": "G1 共享周转与生活院",
+  "architecture_footprint_frozen": false,
+  "world_write_authorized": false,
+  "conditions_before_design_or_build": [
+    "GPT + Owner accept this Site Gate before Architecture Design task",
+    "verify potable source or actual clean-water delivery/storage solution",
+    "resolve canopy/root/animal protection and separated goods/resident circulation",
+    "verify foundation volume, drainage and deeper underground if future design exceeds 12-block audit",
+    "refresh current state before any future world-write authorization"
+  ]
+}

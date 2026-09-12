@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "candidate_areas": [
+    570,
+    586,
+    605
+  ],
+  "three_disjoint_connected_envelopes_inside_G1": true,
+  "no_threshold_clearance_or_reserve_overlap": true,
+  "candidate_current_surface_verified": true,
+  "access_and_drainage_witnesses_verified": true,
+  "local_closed_pit_depths": [
+    0,
+    0,
+    0
+  ],
+  "snapshot_and_current_source_sha_size_mtime_unchanged": true,
+  "protected_planning_authority_files_unchanged": 80,
+  "world_writes": 0,
+  "broad_rescan": 0,
+  "new_world_column_reads": 10954,
+  "extra_eye_ray_sample_columns": 368,
+  "maps_equal_scale": true
+}
