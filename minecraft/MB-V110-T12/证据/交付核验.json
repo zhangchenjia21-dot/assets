@@ -1,0 +1,19 @@
+{
+  "world": "D:/Games/Minecraft/.minecraft/versions/MB-V110-T12-隔离实例/saves/MB-V110-T12-京町家修复",
+  "world_name": "MB-V110-T12-京町家修复",
+  "skill_version": "v1.10",
+  "skill_blob": "aa235db5bccabe7e2fa16714cf95867ba991624d",
+  "source_file_count": 74,
+  "source_files_unchanged_including_lock": true,
+  "source_manifest_sha256": "5f33788ed5f1074a19820c9cb82da46de53386c4746ac9614fcb55b0b6aebd7c",
+  "repair_cells": 47,
+  "reload_same_sample_bytes_and_palette": true,
+  "reload_sample_sha256": "d95cd57951fac64a6c11d30a0824fa97ffe1543f775cbf64693c10931e77d0bd",
+  "construction_closure_clearance_gate": "UNVERIFIED",
+  "known_closure_failures_remaining": 0,
+  "known_static_envelope_failures_remaining": 0,
+  "actual_player_movement": "UNVERIFIED",
+  "scope_state": "FINISHED with explicit physical UNVERIFIED boundary",
+  "regression_verdict": "NOT_ASSIGNED",
+  "asset_registration": false
+}

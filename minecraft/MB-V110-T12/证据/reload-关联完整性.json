@@ -1,0 +1,63 @@
+{
+  "stage": "reload",
+  "unexpected_differences": [],
+  "actual_changed_cells": 47,
+  "roof_states_unchanged": true,
+  "stair_states_unchanged": true,
+  "water_states_unchanged": true,
+  "unrooted_native_collision_nodes": [
+    {
+      "at": [
+        17,
+        21,
+        26
+      ],
+      "state": "minecraft:lantern[hanging=true,waterlogged=false]",
+      "above": "minecraft:stripped_dark_oak_log[axis=x]",
+      "review": "intentional native hanging lantern; collision excludes suspension connection"
+    },
+    {
+      "at": [
+        29,
+        21,
+        33
+      ],
+      "state": "minecraft:lantern[hanging=true,waterlogged=false]",
+      "above": "minecraft:stripped_dark_oak_log[axis=x]",
+      "review": "intentional native hanging lantern; collision excludes suspension connection"
+    },
+    {
+      "at": [
+        21,
+        22,
+        52
+      ],
+      "state": "minecraft:lantern[hanging=true,waterlogged=false]",
+      "above": "minecraft:stripped_dark_oak_log[axis=x]",
+      "review": "intentional native hanging lantern; collision excludes suspension connection"
+    },
+    {
+      "at": [
+        34,
+        24,
+        51
+      ],
+      "state": "minecraft:lantern[hanging=true,waterlogged=false]",
+      "above": "minecraft:stripped_dark_oak_log[axis=x]",
+      "review": "intentional native hanging lantern; collision excludes suspension connection"
+    },
+    {
+      "at": [
+        18,
+        26,
+        26
+      ],
+      "state": "minecraft:lantern[hanging=true,waterlogged=false]",
+      "above": "minecraft:stripped_dark_oak_log[axis=x]",
+      "review": "intentional native hanging lantern; collision excludes suspension connection"
+    }
+  ],
+  "native_touch_graph_limit": "static collision shapes; hanging lights/small intrinsic model offsets are reviewed separately; no structural load calculation",
+  "semantic_review": "same Program/Space Graph/main floors/openings/roofline; affected y16/y17 base interfaces and y22 local stair framing only",
+  "source_world": "D:/Games/Minecraft/.minecraft/versions/MB-V110-T12-隔离实例/saves/MB-V110-T12-京町家修复"
+}

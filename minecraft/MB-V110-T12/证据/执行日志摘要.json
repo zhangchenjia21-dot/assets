@@ -1,0 +1,48 @@
+[
+  {
+    "stage": "01-Repair-执行",
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\MB-V110-T12-隔离实例\\saves\\MB-V110-T12-京町家修复",
+    "changed_blocks": 47,
+    "save_completed": true,
+    "shutdown_verified": true,
+    "excerpt": [
+      "[16:47:25] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+      "[16:47:35] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key",
+      "[16:47:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:overworld",
+      "[16:47:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_nether",
+      "[16:47:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_end",
+      "[16:47:39] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved",
+      "[16:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:overworld",
+      "[16:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_nether",
+      "[16:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_end",
+      "[16:47:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved",
+      "[16:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:overworld",
+      "[16:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_nether",
+      "[16:47:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_end",
+      "[16:47:40] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+    ]
+  },
+  {
+    "stage": "reload-执行",
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\MB-V110-T12-隔离实例\\saves\\MB-V110-T12-京町家修复",
+    "changed_blocks": 0,
+    "save_completed": true,
+    "shutdown_verified": true,
+    "excerpt": [
+      "[16:51:53] [main/ERROR]: Unable to locate English counter names in registry Perflib 009. Counters may need to be rebuilt: ",
+      "[16:52:04] [Yggdrasil Key Fetcher/ERROR]: Failed to request yggdrasil public key",
+      "[16:52:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:overworld",
+      "[16:52:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_nether",
+      "[16:52:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_end",
+      "[16:52:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved",
+      "[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:overworld",
+      "[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_nether",
+      "[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_end",
+      "[16:52:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved",
+      "[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:overworld",
+      "[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_nether",
+      "[16:52:09] [Server thread/INFO]: Saving chunks for level 'ServerLevel[MB-V110-T12-京町家修复]'/minecraft:the_end",
+      "[16:52:09] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved"
+    ]
+  }
+]

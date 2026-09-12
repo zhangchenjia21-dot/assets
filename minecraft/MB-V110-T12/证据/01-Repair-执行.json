@@ -1,0 +1,22 @@
+{
+  "minecraft_mcp_calls": 0,
+  "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\MB-V110-T12-隔离实例\\saves\\MB-V110-T12-京町家修复",
+  "generator": "FlatLevelSource",
+  "before": [],
+  "changed_blocks": 47,
+  "apply_seconds": 0.5210024,
+  "readback": [],
+  "mismatches": 0,
+  "block_entities_checked": 0,
+  "save_completed": true,
+  "status": "PASS",
+  "shutdown_verified": true,
+  "wall_seconds": 28.218,
+  "job_directory": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T08-47-12-635Z-fed08774-977a-4950-b59e-9265f21d1da4",
+  "backup": {
+    "world_path": "D:\\Games\\Minecraft\\.minecraft\\versions\\MB-V110-T12-隔离实例\\saves\\MB-V110-T12-京町家修复",
+    "backup_path": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T08-47-12-635Z-fed08774-977a-4950-b59e-9265f21d1da4\\backup",
+    "files": 73,
+    "sha256_verified": true
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "old": "MB-V19-T11-京町家",
+  "new": "MB-V110-T12-京町家修复",
+  "only_tag": "Data.LevelName",
+  "source_level_sha256": "e9c740ac4cbf27f68b3867308e3a9f892c77aa07798841708c880803e19dc7bb",
+  "destination_level_sha256": "34d67728dfea21f8a2b4537130e83eac793f7a2b387f3d1da5c9d6170f061a86",
+  "region_writes": 0
+}

@@ -1,0 +1,11 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import {fileURLToPath} from 'node:url';
+import {qualifyExistingWorld} from '../AI-Offline/L3_外交层/离线执行接口.mjs';import {readNBT} from '../AI-Offline/L3_外交层/存档读取接口.mjs';
+const R=path.dirname(fileURLToPath(import.meta.url)),instance='D:/Games/Minecraft/.minecraft/versions/MB-V110-T12-隔离实例',dst=instance+'/saves/MB-V110-T12-京町家修复',src='D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V19-T11-京町家';
+const write=(n,v)=>fs.writeFileSync(R+'/证据/'+n,JSON.stringify(v,null,2)),before=JSON.parse(fs.readFileSync(R+'/证据/来源世界文件哈希.json')),rename=JSON.parse(fs.readFileSync(R+'/证据/副本更名.json'));
+console.log('checking identity');if(readNBT(fs.readFileSync(dst+'/level.dat')).Data.LevelName!==path.basename(dst))throw Error('DEST_IDENTITY');console.log('checking hashes',Object.keys(before).length);
+for(const [f,h] of Object.entries(before)){if(crypto.createHash('sha256').update(fs.readFileSync(src+'/'+f)).digest('hex')!==h)throw Error('SOURCE_CHANGED');if(f==='session.lock')continue;const expected=f==='level.dat'?rename.destination_level_sha256:h;if(crypto.createHash('sha256').update(fs.readFileSync(dst+'/'+f)).digest('hex')!==expected)throw Error('COPY_MISMATCH:'+f);}
+console.log('hashes checked');function verifyTree(a,b){for(const e of fs.readdirSync(a,{withFileTypes:true})){if(e.isSymbolicLink())throw Error('SYMLINK');if(e.isDirectory())verifyTree(path.join(a,e.name),path.join(b,e.name));else if(!fs.readFileSync(path.join(a,e.name)).equals(fs.readFileSync(path.join(b,e.name))))throw Error('PROFILE_COPY_MISMATCH');}}for(const n of ['mods','config'])verifyTree(path.resolve(R,'../AI-Offline/runtime',n),instance+'/'+n);
+write('复制验证.json',{source:src,destination:dst,source_files:Object.keys(before).length,copy_byte_identical_except_lock_and_name:true});
+console.log('copy verified; qualification starting');const q=await qualifyExistingWorld(dst,instance,R+'/隔离资格验证');
+write('资格验证摘要.json',{status:q.status,world_path:q.world_path,qualification:q.qualification});for(const[f,h]of Object.entries(before))if(crypto.createHash('sha256').update(fs.readFileSync(src+'/'+f)).digest('hex')!==h)throw Error('SOURCE_CHANGED');
+write('来源未改验证.json',{source:src,all_files_hash_identical:true,includes_session_lock:true,world_writes:0});console.log('qualified; T11 unchanged');

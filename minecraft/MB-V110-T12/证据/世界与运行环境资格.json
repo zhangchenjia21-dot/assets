@@ -1,0 +1,13 @@
+{
+  "source_world": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V19-T11-京町家",
+  "test_world": "D:\\Games\\Minecraft\\.minecraft\\versions\\MB-V110-T12-隔离实例\\saves\\MB-V110-T12-京町家修复",
+  "qualification": {
+    "first": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T08-33-33-768Z-6be15bdd-b1ad-4089-ac69-53e06a9b6e11",
+    "second": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T08-34-35-062Z-981dad91-9aef-475a-ae22-60a947599649",
+    "metadata_and_players_preserved": true
+  },
+  "qualification_status": "PASS",
+  "source_unchanged": true,
+  "initial_minimal_profile_rejected": "QUALIFICATION_METADATA_CHANGED; enabled datapacks missing; no repair ran in failed qualification clone",
+  "mod_profile": "full T11 source instance mods/config copied to isolated instance, compared and qualified; actual files are not archived"
+}

@@ -1,0 +1,571 @@
+{
+  "source": "baseline",
+  "stage": "01-Repair",
+  "changes": [
+    {
+      "at": [
+        32,
+        17,
+        18
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        18
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        19
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        20
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        21
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        22
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        23
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        24
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        25
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        26
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        27
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        28
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        29
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        30
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        31
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        32
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        37,
+        17,
+        33
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C1",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        22,
+        16,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C2",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        23,
+        16,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C2",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        24,
+        16,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C2",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        25,
+        16,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C2",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        26,
+        16,
+        17
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C2",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        16,
+        76
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C2",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        30,
+        16,
+        76
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C2",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        31,
+        16,
+        76
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stone_bricks",
+      "issue": "C2",
+      "reason": "闭合已有墙柱或台阶至既有地坪；不改变 footprint",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        16,
+        75
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:gravel",
+      "issue": "C3",
+      "reason": "接续后庭同标高铺地至库门阶前；补残余低槽",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        30,
+        16,
+        75
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:gravel",
+      "issue": "C3",
+      "reason": "接续后庭同标高铺地至库门阶前；补残余低槽",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        31,
+        16,
+        75
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:gravel",
+      "issue": "C3",
+      "reason": "接续后庭同标高铺地至库门阶前；补残余低槽",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        25,
+        22,
+        26
+      ],
+      "before": "minecraft:stripped_dark_oak_log[axis=x]",
+      "after": "minecraft:air",
+      "issue": "M1",
+      "reason": "只清除侵入既有梯井身体包络的梁残段",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        25,
+        22,
+        28
+      ],
+      "before": "minecraft:stripped_dark_oak_log[axis=z]",
+      "after": "minecraft:air",
+      "issue": "M1",
+      "reason": "只清除侵入既有梯井身体包络的梁残段",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        26,
+        22,
+        26
+      ],
+      "before": "minecraft:stripped_dark_oak_log[axis=x]",
+      "after": "minecraft:air",
+      "issue": "M1",
+      "reason": "只清除侵入既有梯井身体包络的梁残段",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        27,
+        22,
+        26
+      ],
+      "before": "minecraft:stripped_dark_oak_log[axis=x]",
+      "after": "minecraft:air",
+      "issue": "M1",
+      "reason": "只清除侵入既有梯井身体包络的梁残段",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        28,
+        22,
+        26
+      ],
+      "before": "minecraft:stripped_dark_oak_log[axis=x]",
+      "after": "minecraft:air",
+      "issue": "M1",
+      "reason": "只清除侵入既有梯井身体包络的梁残段",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        24,
+        22,
+        24
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        24,
+        22,
+        25
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        24,
+        22,
+        26
+      ],
+      "before": "minecraft:stripped_dark_oak_log[axis=x]",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        24,
+        22,
+        27
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        24,
+        22,
+        28
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        24,
+        22,
+        29
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        24,
+        22,
+        30
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        22,
+        24
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        22,
+        25
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        22,
+        26
+      ],
+      "before": "minecraft:stripped_dark_oak_log[axis=x]",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        22,
+        27
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        22,
+        28
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        22,
+        29
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    },
+    {
+      "at": [
+        29,
+        22,
+        30
+      ],
+      "before": "minecraft:air",
+      "after": "minecraft:stripped_dark_oak_log[axis=z]",
+      "issue": "M1",
+      "reason": "既有梯井两侧局部边梁承托，落于原楼板边带；不侵入四条步行线",
+      "phase": "bounded physical Core Repair"
+    }
+  ],
+  "semantic_changes": false
+}
