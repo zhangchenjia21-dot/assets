@@ -1,0 +1,181 @@
+{
+  "schema": "civ-architecture-kit/0.1",
+  "civilization": "CIV-001",
+  "region": "MIDDLE",
+  "version": "0.1",
+  "status": "PROPOSED",
+  "shared_dna": [
+    {
+      "id": "C01",
+      "subject": "构造",
+      "rule": "石基承担地面接口；木柱梁/石墙形成真实支承链，填充墙不冒充悬空承重。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "C02",
+      "subject": "材料",
+      "rule": "主结构、次结构、屋面、填充共2–4种主材料；罕见/高亮色仅在功能节点克制使用。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "C03",
+      "subject": "形成过程",
+      "rule": "形态差异由用途、街路、地形与分期产生；不随机破损或复制均等地块。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "C04",
+      "subject": "尺度",
+      "rule": "门窗对应实际活动和楼层；先检验入口、楼梯、落脚与支承，再做细节。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "C05",
+      "subject": "文明语义",
+      "rule": "普通日常建筑不布满魔法装置；契约/消息用可达的小公共界面表达，不默认官署。",
+      "status": "PROPOSED"
+    }
+  ],
+  "regional_dna": [
+    {
+      "id": "R01",
+      "subject": "混合与密度",
+      "rule": "以独立商住/短仓/饮食体量共享街巷和院；楼上增加生活，不吞占公共通行。",
+      "status": "PREVIEW_VALIDATED",
+      "evidence": "MD-001U1:487/1310 footprint;1046 gross floor area"
+    },
+    {
+      "id": "R02",
+      "subject": "台基",
+      "rule": "各栋依地面独立定标高；优先0–2格局部填补、0–1格局部切削，超过须另作场地设计。",
+      "status": "PREVIEW_VALIDATED",
+      "observed_instance_ranges": "B1 0;B2 0..2;B3 0..1;B4 0..1;B5 -1..0"
+    },
+    {
+      "id": "R03",
+      "subject": "跨间",
+      "rule": "常用柱间3–5格；末跨2–3格可容入口/楼梯；梁柱同楼板与支承相交。",
+      "status": "PROPOSED",
+      "bay_range": [
+        3,
+        5
+      ],
+      "end_bay_range": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R04",
+      "subject": "层高",
+      "rule": "生活层楼面到楼面4格；短仓首层5格；拟扩范围4–5格，净高至少2.5格。",
+      "status": "PREVIEW_VALIDATED",
+      "validated_floor_deltas": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "R05",
+      "subject": "屋顶",
+      "rule": "长仓横脊，转角旅舍陡双坡，低公共屋可四坡；坡比取1:2或1:1，半格台阶翻译后重核封口。",
+      "status": "PROPOSED",
+      "families": [
+        "gable-long",
+        "gable-steep",
+        "hipped-low"
+      ],
+      "pitch_rise_run": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "id": "R06",
+      "subject": "开口层级",
+      "rule": "家门宽1–2高2–3；商门2高3；仓门3高3–4；不能占柱脚或让高门切断上层梁。",
+      "status": "PREVIEW_VALIDATED",
+      "validated_clear_portals": "width2/3,height3; no installed door blockstate"
+    },
+    {
+      "id": "R07",
+      "subject": "窗与立面",
+      "rule": "生活窗1–2宽、2高；短仓首层实墙优先；寝区需要朝外采光，楼梯孔对应区不机械开窗。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "R08",
+      "subject": "街边",
+      "rule": "短退界0–2格用于门槛/雨棚；退界随实际路线弯折，不把所有住宅平行后退成草坪街。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "R09",
+      "subject": "街巷",
+      "rule": "常用步行净带2格，驮运3格为拟定下限；新细节不得侵入全高净空。外部道路仍需现状检验。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "R10",
+      "subject": "间距",
+      "rule": "本例最近墙面3格、屋檐间1格仅作为维护界面；公共主巷不使用这一最窄间隙。",
+      "status": "PREVIEW_VALIDATED",
+      "evidence": "B4-B2 measured wall gap3; eave gap1; no fire-code claim"
+    },
+    {
+      "id": "R11",
+      "subject": "坡岸转换",
+      "rule": "岸侧先防潮和水源验证；低地用独立石脚；坡麓用短挡墙/错层，禁止统一巨台推平。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "R12",
+      "subject": "院落",
+      "rule": "院是饮食、家务、短交接与通行的共享空间；装卸停泊独立于全天居民净带。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "R13",
+      "subject": "排水",
+      "rule": "檐沟→落水位置→有连续坡向的盖沟/明沟→可维护收水处；污物另收运，禁止把雨水沟当污水渠。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "R14",
+      "subject": "细部",
+      "rule": "招牌只挂在入口/转角，告示可站读；灯设在门槛、楼梯和作业处，不等距满街插火把。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "R15",
+      "subject": "边墙",
+      "rule": "本轮独立屋，不使用共用承重墙。后续贴邻必须另给防火墙、分户排水、维修权与独立疏散设计。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "R16",
+      "subject": "地域边界",
+      "rule": "Middle以转接和紧凑混用区别于West农牧展开、East山地工程；不能只换同一房屋的色板。",
+      "status": "PROPOSED"
+    }
+  ],
+  "maturity_ceiling": "PREVIEW_VALIDATED",
+  "source_design": "planning/CIV-001/MIDDLE/G1/MD-001U1",
+  "compile_order": [
+    "Site Context",
+    "Program/Space Graph",
+    "Plan+Section+Sequence",
+    "Choose/fit typology and modules",
+    "Geometric/semantic Critic",
+    "Preview",
+    "GPT+Owner review"
+  ],
+  "formal_asset_registration": false,
+  "world_writes": 0
+}

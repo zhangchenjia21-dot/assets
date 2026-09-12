@@ -1,0 +1,96 @@
+{
+  "envelope_components": [
+    1310
+  ],
+  "unbuilt_columns_components": [
+    823
+  ],
+  "building_footprint_columns": 487,
+  "roof_and_canopy_projection_columns": 717,
+  "roof_projection_coverage": 0.5473282442748092,
+  "footprint_overlap_clearance": 0,
+  "all_roof_overlap_clearance": 0,
+  "all_roof_overlap_threshold": 0,
+  "all_roof_overlap_reserve": 0,
+  "all_roof_outside_G1": 0,
+  "pairwise_spacing": [
+    {
+      "a": "B1",
+      "b": "B2",
+      "minimum_empty_columns_manhattan": 8
+    },
+    {
+      "a": "B1",
+      "b": "B3",
+      "minimum_empty_columns_manhattan": 23
+    },
+    {
+      "a": "B1",
+      "b": "B4",
+      "minimum_empty_columns_manhattan": 23
+    },
+    {
+      "a": "B1",
+      "b": "B5",
+      "minimum_empty_columns_manhattan": 5
+    },
+    {
+      "a": "B2",
+      "b": "B3",
+      "minimum_empty_columns_manhattan": 5
+    },
+    {
+      "a": "B2",
+      "b": "B4",
+      "minimum_empty_columns_manhattan": 3
+    },
+    {
+      "a": "B2",
+      "b": "B5",
+      "minimum_empty_columns_manhattan": 11
+    },
+    {
+      "a": "B3",
+      "b": "B4",
+      "minimum_empty_columns_manhattan": 4
+    },
+    {
+      "a": "B3",
+      "b": "B5",
+      "minimum_empty_columns_manhattan": 14
+    },
+    {
+      "a": "B4",
+      "b": "B5",
+      "minimum_empty_columns_manhattan": 25
+    }
+  ],
+  "R1_connections": [
+    {
+      "design_edge": [
+        209,
+        1723
+      ],
+      "nearest_R1_reference": [
+        209,
+        1731,
+        66
+      ],
+      "status": "context relation only; outside-envelope route not designed/cleared"
+    },
+    {
+      "design_edge": [
+        231,
+        1714
+      ],
+      "nearest_R1_reference": [
+        238,
+        1714,
+        67
+      ],
+      "status": "context relation only; outside-envelope route not designed/cleared"
+    }
+  ],
+  "open_space_note": "one connected open system does not certify absence of every dead-end; B5 east maintenance strip is explicitly service-only, not an advertised public alley",
+  "fire_and_daylight": "minimum wall gap3 at B4/B2 and eave gap1; no cross-alley timber bridge; maintained separation proposal, not fire-code or seasonal daylight simulation"
+}

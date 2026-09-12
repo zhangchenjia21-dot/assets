@@ -1,0 +1,458 @@
+{
+  "schema": "civ-modules/0.1",
+  "modules": [
+    {
+      "id": "M01",
+      "name": "连续石脚/台基",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "width": [
+          6,
+          14
+        ],
+        "depth": [
+          7,
+          13
+        ],
+        "local_fill": [
+          0,
+          2
+        ],
+        "local_cut": [
+          0,
+          1
+        ]
+      },
+      "inputs": [
+        "terrain-column profile",
+        "ground floor Y"
+      ],
+      "invariants": [
+        "each wall/column has support",
+        "no strip of grass under a bearing wall"
+      ],
+      "incompatible": [
+        "deep foundation below observed12 is unverified"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M02",
+      "name": "两格直跑楼梯",
+      "status": "PREVIEW_VALIDATED",
+      "dimension_ranges_blocks": {
+        "width": [
+          2,
+          2
+        ],
+        "rise": [
+          4,
+          5
+        ],
+        "run": [
+          4,
+          5
+        ],
+        "landing_length": [
+          1,
+          2
+        ],
+        "tread_half_rise": 0.5
+      },
+      "inputs": [
+        "two floor elevations",
+        "reserved hole"
+      ],
+      "invariants": [
+        "hole covers run x2",
+        "clear ceiling volume over every tread and landing"
+      ],
+      "incompatible": [
+        "trapdoor/beam over head envelope",
+        "no upper landing"
+      ],
+      "preview_evidence": "MD-001U1/validation/design-qa.json; chosen instances only, real collision UNVERIFIED"
+    },
+    {
+      "id": "M03",
+      "name": "家门/店门",
+      "status": "PREVIEW_VALIDATED",
+      "dimension_ranges_blocks": {
+        "clear_width": [
+          2,
+          2
+        ],
+        "clear_height": [
+          3,
+          3
+        ],
+        "wall_depth": [
+          1,
+          1
+        ]
+      },
+      "inputs": [
+        "two continuous walking surfaces"
+      ],
+      "invariants": [
+        "opening through full wall",
+        "no canopy post in approach"
+      ],
+      "incompatible": [
+        "door on a retained tree column without clearance resolution"
+      ],
+      "preview_evidence": "MD-001U1/validation/design-qa.json; chosen instances only, real collision UNVERIFIED"
+    },
+    {
+      "id": "M04",
+      "name": "短仓大门",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "clear_width": [
+          3,
+          3
+        ],
+        "clear_height": [
+          3,
+          4
+        ],
+        "wall_depth": [
+          1,
+          2
+        ]
+      },
+      "inputs": [
+        "separate off-route unloading bay"
+      ],
+      "invariants": [
+        "lintel retains bearing",
+        "resident access independent of cargo door"
+      ],
+      "incompatible": [
+        "forced customs or toll gate"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M05",
+      "name": "生活窗",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "width": [
+          1,
+          2
+        ],
+        "height": [
+          2,
+          2
+        ],
+        "sill_above_floor": [
+          1,
+          1
+        ]
+      },
+      "inputs": [
+        "room position",
+        "bay line"
+      ],
+      "invariants": [
+        "openings do not replace bearing posts"
+      ],
+      "incompatible": [
+        "glass curtain wall",
+        "window over stair hole without review"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M06",
+      "name": "短檐雨棚",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "depth": [
+          1,
+          2
+        ],
+        "clear_height": [
+          3,
+          4
+        ],
+        "projection_span": [
+          4,
+          10
+        ]
+      },
+      "inputs": [
+        "door and route geometry"
+      ],
+      "invariants": [
+        "supported at margins",
+        "upper room egress not obstructed"
+      ],
+      "incompatible": [
+        "post in cargo turning lane"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M07",
+      "name": "门廊",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "width": [
+          3,
+          5
+        ],
+        "depth": [
+          2,
+          3
+        ]
+      },
+      "inputs": [
+        "entry sequence"
+      ],
+      "invariants": [
+        "one continuous door/landing route"
+      ],
+      "incompatible": [
+        "fortified entrance across public road"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M08",
+      "name": "小阳台",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "depth": [
+          1,
+          2
+        ],
+        "width": [
+          3,
+          6
+        ],
+        "rail_height": [
+          1,
+          1.5
+        ]
+      },
+      "inputs": [
+        "upper room",
+        "street role"
+      ],
+      "invariants": [
+        "bearing beam/cantilever accounted",
+        "no overhanging neighbour parcel"
+      ],
+      "incompatible": [
+        "heavy stone deck on unsupported timber skin"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M09",
+      "name": "短拱廊",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "bays": [
+          2,
+          3
+        ],
+        "clear_bay_width": [
+          3,
+          4
+        ],
+        "height": [
+          3,
+          4
+        ]
+      },
+      "inputs": [
+        "public frontage need"
+      ],
+      "invariants": [
+        "columns leave continuous2-wide path",
+        "independent structural spans"
+      ],
+      "incompatible": [
+        "arcade merely square holes labelled pointed arches",
+        "road enclosure"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M10",
+      "name": "院墙/小门",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "height": [
+          1,
+          2
+        ],
+        "gate_width": [
+          2,
+          3
+        ]
+      },
+      "inputs": [
+        "shared court boundary",
+        "public access rights"
+      ],
+      "invariants": [
+        "resident through-route stays open",
+        "drain outlet not blocked"
+      ],
+      "incompatible": [
+        "all four sides sealed without outfall"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M11",
+      "name": "服务院",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "clear_area": [
+          24,
+          72
+        ],
+        "passage_width": [
+          2,
+          3
+        ]
+      },
+      "inputs": [
+        "loading and waste destinations"
+      ],
+      "invariants": [
+        "standing loads separate from passing",
+        "maintenance access"
+      ],
+      "incompatible": [
+        "mixed sewage and clean storage"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M12",
+      "name": "转角/尽端",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "corner_recess": [
+          0,
+          2
+        ],
+        "eave_projection": [
+          0.5,
+          1
+        ]
+      },
+      "inputs": [
+        "street junction",
+        "neighbour roof geometry"
+      ],
+      "invariants": [
+        "corner sightline",
+        "no accidental inaccessible slit"
+      ],
+      "incompatible": [
+        "mirror copy for its own sake"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M13",
+      "name": "盖沟/坡阶",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "channel_width": [
+          1,
+          1
+        ],
+        "cover_width": [
+          1,
+          2
+        ],
+        "step_rise": [
+          0.5,
+          0.5
+        ]
+      },
+      "inputs": [
+        "current terrain",
+        "local receiver"
+      ],
+      "invariants": [
+        "monotone invert",
+        "walkable crossing separate from water volume"
+      ],
+      "incompatible": [
+        "source-water staircase without fluid update",
+        "polluted outfall"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M14",
+      "name": "储水/消防/干污物位",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "clean_storage_area": [
+          2,
+          6
+        ],
+        "fire_storage_area": [
+          2,
+          6
+        ],
+        "dry_waste_area": [
+          2,
+          4
+        ]
+      },
+      "inputs": [
+        "verified source and servicing plan"
+      ],
+      "invariants": [
+        "covered clean storage",
+        "separate sealed waste",
+        "no emergency lane storage"
+      ],
+      "incompatible": [
+        "treat nearby water as confirmed potable"
+      ],
+      "preview_evidence": null
+    },
+    {
+      "id": "M15",
+      "name": "小招牌与告示",
+      "status": "PROPOSED",
+      "dimension_ranges_blocks": {
+        "width": [
+          1,
+          2
+        ],
+        "height": [
+          1,
+          2
+        ],
+        "reading_clearance": [
+          2,
+          3
+        ]
+      },
+      "inputs": [
+        "named activity and doorway"
+      ],
+      "invariants": [
+        "limited accent",
+        "standing reader outside route"
+      ],
+      "incompatible": [
+        "inventing tax or border-control authority"
+      ],
+      "preview_evidence": null
+    }
+  ]
+}

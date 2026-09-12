@@ -1,0 +1,269 @@
+{
+  "lineage": "MD-001S1 capture; identical current source SHA256",
+  "surface_reused_columns": 1310,
+  "subsurface_scope_rle": [
+    [
+      1691,
+      193,
+      237
+    ],
+    [
+      1692,
+      191,
+      238
+    ],
+    [
+      1693,
+      190,
+      239
+    ],
+    [
+      1694,
+      189,
+      240
+    ],
+    [
+      1695,
+      188,
+      241
+    ],
+    [
+      1696,
+      187,
+      241
+    ],
+    [
+      1697,
+      186,
+      241
+    ],
+    [
+      1698,
+      185,
+      241
+    ],
+    [
+      1699,
+      185,
+      241
+    ],
+    [
+      1700,
+      185,
+      241
+    ],
+    [
+      1701,
+      185,
+      241
+    ],
+    [
+      1702,
+      185,
+      241
+    ],
+    [
+      1703,
+      185,
+      241
+    ],
+    [
+      1704,
+      185,
+      241
+    ],
+    [
+      1705,
+      185,
+      241
+    ],
+    [
+      1706,
+      185,
+      241
+    ],
+    [
+      1707,
+      185,
+      241
+    ],
+    [
+      1708,
+      185,
+      241
+    ],
+    [
+      1709,
+      185,
+      240
+    ],
+    [
+      1710,
+      185,
+      239
+    ],
+    [
+      1711,
+      185,
+      238
+    ],
+    [
+      1712,
+      185,
+      237
+    ],
+    [
+      1713,
+      185,
+      236
+    ],
+    [
+      1714,
+      185,
+      235
+    ],
+    [
+      1715,
+      185,
+      235
+    ],
+    [
+      1716,
+      185,
+      234
+    ],
+    [
+      1717,
+      185,
+      233
+    ],
+    [
+      1718,
+      185,
+      232
+    ],
+    [
+      1719,
+      185,
+      231
+    ],
+    [
+      1720,
+      185,
+      231
+    ],
+    [
+      1721,
+      185,
+      230
+    ],
+    [
+      1722,
+      185,
+      230
+    ],
+    [
+      1723,
+      185,
+      230
+    ],
+    [
+      1724,
+      186,
+      229
+    ],
+    [
+      1725,
+      187,
+      228
+    ],
+    [
+      1726,
+      188,
+      227
+    ],
+    [
+      1727,
+      189,
+      226
+    ]
+  ],
+  "subsurface_columns": 1902,
+  "depth_below_surface": 12,
+  "block_queries": 24726,
+  "materials": {
+    "minecraft:stone": 19861,
+    "minecraft:coal_ore": 407,
+    "minecraft:dirt": 2176,
+    "minecraft:moss_block": 176,
+    "minecraft:rooted_dirt": 74,
+    "minecraft:coarse_dirt": 239,
+    "minecraft:grass_block": 1143,
+    "minecraft:copper_ore": 123,
+    "minecraft:packed_mud": 258,
+    "minecraft:gravel": 234,
+    "minecraft:dandelion": 1,
+    "minecraft:iron_ore": 18,
+    "minecraft:lapis_ore": 12,
+    "minecraft:pumpkin": 4
+  },
+  "anomalies": [],
+  "above_ground_materials_in_envelope": {
+    "minecraft:short_grass": 438,
+    "minecraft:acacia_leaves": 123,
+    "minecraft:acacia_log": 7,
+    "minecraft:dead_bush": 1
+  },
+  "log_blocks_in_envelope": [
+    [
+      200,
+      64,
+      1702,
+      "minecraft:acacia_log"
+    ],
+    [
+      213,
+      66,
+      1713,
+      "minecraft:acacia_log"
+    ],
+    [
+      213,
+      67,
+      1714,
+      "minecraft:acacia_log"
+    ],
+    [
+      213,
+      68,
+      1715,
+      "minecraft:acacia_log"
+    ],
+    [
+      216,
+      66,
+      1699,
+      "minecraft:acacia_log"
+    ],
+    [
+      216,
+      66,
+      1706,
+      "minecraft:acacia_log"
+    ],
+    [
+      220,
+      68,
+      1717,
+      "minecraft:acacia_log"
+    ]
+  ],
+  "reader_sha256": "4ef6afa51f5b670bfca3bc7c8d4be757ee67ab1ba39659269d838a2181af53fb",
+  "raw_cache": "LOCAL_ONLY: MD-001S1/snapshot and surface.json.gz",
+  "limitations": [
+    "natural block placement provenance unknown",
+    "deep underground not surveyed",
+    "water source not confirmed",
+    "entities and POIs reuse MD-001S1 selected-chunk audit; recheck before build"
+  ]
+}

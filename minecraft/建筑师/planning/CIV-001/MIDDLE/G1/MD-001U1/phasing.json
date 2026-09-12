@@ -1,0 +1,33 @@
+{
+  "status": "PROPOSED_NO_WRITE_AUTHORITY",
+  "phases": [
+    {
+      "id": 0,
+      "work": "water-source confirmation, new live-save read-only check, bounded footprint/vegetation/ground route compilation",
+      "stop": "no occupancy or writes on this packet"
+    },
+    {
+      "id": 1,
+      "buildings": [
+        "B1",
+        "B3"
+      ],
+      "work": "separate high short-store + lower shop-home, shared approach and water/fire service before occupation"
+    },
+    {
+      "id": 2,
+      "buildings": [
+        "B2",
+        "B4"
+      ],
+      "work": "need-driven inn and cold-repair infill, keep cross-court connection"
+    },
+    {
+      "id": 3,
+      "buildings": [
+        "B5"
+      ],
+      "work": "low service end-piece; remaining gaps remain open, not automatic infill"
+    }
+  ]
+}

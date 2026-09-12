@@ -1,0 +1,263 @@
+{
+  "schema": "civ-urban-ensemble/0.1",
+  "status": "DESIGN_PREVIEW / AWAITING INDEPENDENT REVIEW",
+  "world_writes": 0,
+  "envelope": "site-envelope.json",
+  "gross_area": 1310,
+  "footprint_area": 487,
+  "coverage": 0.3717557251908397,
+  "gross_floor_area": 1046,
+  "buildings": [
+    {
+      "id": "B1",
+      "name": "高台短仓与仓管住家",
+      "type": "short-storage-residence",
+      "bounds": [
+        222,
+        1697,
+        234,
+        1706
+      ],
+      "floors": [
+        68,
+        73
+      ],
+      "eave": 77,
+      "roof_axis": "x",
+      "pitch": 0.5,
+      "palette": "working-stone",
+      "phase": 1,
+      "doors": [
+        [
+          226,
+          1706,
+          68,
+          3
+        ],
+        [
+          222,
+          1701,
+          68,
+          2
+        ]
+      ],
+      "program": [
+        "短存/交接/手推货物",
+        "仓管家庭、起居与寝区"
+      ],
+      "cause": "干燥高台承重仓底；长脊顺装卸面，楼上不占地增加家庭生活",
+      "footprint_area": 130,
+      "ground_y_range": [
+        67,
+        67
+      ],
+      "ground_floor_fill_range": [
+        0,
+        0
+      ],
+      "bay": 4,
+      "roof_family": "gable",
+      "ridge_y": 79.75
+    },
+    {
+      "id": "B2",
+      "name": "转角饮食与小旅舍",
+      "type": "inn-food",
+      "bounds": [
+        202,
+        1698,
+        213,
+        1707
+      ],
+      "floors": [
+        66,
+        70,
+        74
+      ],
+      "eave": 78,
+      "roof_axis": "z",
+      "pitch": 1,
+      "palette": "lime-timber",
+      "phase": 2,
+      "doors": [
+        [
+          207,
+          1707,
+          66,
+          2
+        ]
+      ],
+      "program": [
+        "饮食/备餐/柜台",
+        "经营家庭起居、寝区",
+        "两组短住房与共用小厅"
+      ],
+      "cause": "处于生活院转角，三层节约低地；窄向屋脊与仓库横脊相对",
+      "footprint_area": 120,
+      "ground_y_range": [
+        63,
+        65
+      ],
+      "ground_floor_fill_range": [
+        0,
+        2
+      ],
+      "bay": 3,
+      "roof_family": "gable",
+      "ridge_y": 84.5
+    },
+    {
+      "id": "B3",
+      "name": "沿路日用品商住",
+      "type": "mixed-shop-house",
+      "bounds": [
+        193,
+        1713,
+        205,
+        1721
+      ],
+      "floors": [
+        66,
+        70
+      ],
+      "eave": 74,
+      "roof_axis": "x",
+      "pitch": 0.5,
+      "palette": "earth-timber",
+      "phase": 1,
+      "doors": [
+        [
+          199,
+          1721,
+          66,
+          2
+        ],
+        [
+          199,
+          1713,
+          66,
+          2
+        ]
+      ],
+      "program": [
+        "铺面/日用品/内院家务",
+        "铺户家庭寝居"
+      ],
+      "cause": "南向公共买卖、北向住家入口；不以商店营业开关控制居民通行",
+      "footprint_area": 117,
+      "ground_y_range": [
+        64,
+        65
+      ],
+      "ground_floor_fill_range": [
+        0,
+        1
+      ],
+      "bay": 5,
+      "roof_family": "gable",
+      "ridge_y": 76.75
+    },
+    {
+      "id": "B4",
+      "name": "鞍具木器修理住屋",
+      "type": "repair-house",
+      "bounds": [
+        190,
+        1701,
+        198,
+        1708
+      ],
+      "floors": [
+        65,
+        69
+      ],
+      "eave": 73,
+      "roof_axis": "z",
+      "pitch": 0.5,
+      "palette": "repair-timber",
+      "phase": 2,
+      "doors": [
+        [
+          194,
+          1708,
+          65,
+          2
+        ]
+      ],
+      "program": [
+        "冷作修理/材料架",
+        "工匠家庭与学徒寝居"
+      ],
+      "cause": "低台短进深，南面作业口；只修鞍具木器，无熔炉、锻造或明火工序",
+      "footprint_area": 72,
+      "ground_y_range": [
+        63,
+        64
+      ],
+      "ground_floor_fill_range": [
+        0,
+        1
+      ],
+      "bay": 4,
+      "roof_family": "gable",
+      "ridge_y": 75.75
+    },
+    {
+      "id": "B5",
+      "name": "消息与照护小屋",
+      "type": "record-service",
+      "bounds": [
+        220,
+        1712,
+        225,
+        1719
+      ],
+      "floors": [
+        68
+      ],
+      "eave": 72,
+      "roof_axis": "z",
+      "pitch": 0.5,
+      "palette": "working-stone",
+      "phase": 3,
+      "doors": [
+        [
+          220,
+          1715,
+          68,
+          2
+        ]
+      ],
+      "program": [
+        "问路/告示/小记录/短时照护"
+      ],
+      "cause": "低檐尽端体量让住家与短仓之间留下视线；不是官署、查验处或收费点",
+      "footprint_area": 48,
+      "ground_y_range": [
+        67,
+        68
+      ],
+      "ground_floor_fill_range": [
+        -1,
+        0
+      ],
+      "bay": 3,
+      "roof_family": "hipped",
+      "ridge_y": 73.75
+    }
+  ],
+  "model_contract": "design-model.json.gz: colored half-open solid boxes, not executable blockstates; Minecraft collision not certified",
+  "sections": [
+    {
+      "id": "A-A",
+      "axis": "x",
+      "fixed_z": 1703
+    },
+    {
+      "id": "B-B",
+      "axis": "z",
+      "fixed_x": 207
+    }
+  ],
+  "interpretive_growth": "The short-store and shop support immediate exchange; inn/repair grow around their shared court; low public room completes the slope end. This is design causality, not authored history Canon."
+}

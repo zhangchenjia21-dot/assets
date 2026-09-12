@@ -1,0 +1,29 @@
+{
+  "compared_artifacts": 22,
+  "byte_identical": true,
+  "sha256_by_path": {
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/building-roles.json": "a8af3285a62c13bab3a7be80d48977ed333802f95f220e384b3c9091694e94ef",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/circulation.json": "abffc0335374a11d81495b119aca6cfe384ce1a11d547403c9bf414b1529581e",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/design-model.json.gz": "429ce114266ab58c1798a9d208310ee117699641b8c73475fe16ef05e6910f37",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/drainage-vegetation.json": "4020792e98c7057742f2435634271f6b2b9177092ee1ac9d00addcd9dea0c410",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/phasing.json": "4b63f90ea2295054a9e7f1153d1e80a140d1d129d948c5e2358aeaf252675ec8",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/site-envelope.json": "23fbbdd9ff19df66eb1c0cff8fa2ef840713774d997dfd05a604593d3465bcc1",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/URBAN-ENSEMBLE.json": "0502d18a66ababee42072e112656c29992eaf7277b455147ad0bdc311e54453f",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/01-top-plan.png": "26eb309b811f9999d094da45e574312b3f1e184bd8629cd6a94f055dd24b880f",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/02-sections.png": "294384a9235905275e923c5e7876276cfc1fd0857e0529177f5f0c32cfd9618b",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/03-floor-plans.png": "b57c52a71f5b201a5cb90c192842dd028c524f68ff172f3fe4d6fb596bad1faf",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/04-roof-skyline.png": "a858e2b74517d38b632e846313b743da7ea1037628d25aadaef0ffd8dcc6f445",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/05-growth-phases.png": "c4a3b3a697a486ac14c2da067f69208ff85b85a5edc3bffdfbaa16084c47345d",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/06-oblique-1.png": "dd758818f81fa25122312b06499e97705cc73c68d528b1488a34e79af8ac755c",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/06-oblique-2.png": "9c54438e1b70bc7c5b19ce030db1265f2a14f28f5b78c4d8925d6ead69f7c0d2",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/06-oblique-3.png": "455926e72eaa651820f0446578fea97979b679ecf188a1a935be3e994f0666bc",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/06-oblique-4-cutaway.png": "935ef9698b086b59f675290fac1543e662f3019e1b0c70fdcceedd46e70ec5a8",
+    "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/07-kit-overview.png": "b58d695f61760806ef76ea47f854011bfc2524d4e382abbf1dd2a4b41606b25b",
+    "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/KIT.json": "ee6a076c3cfdee92e765e31470b493ea74b9f8f46e491499c3114cc946f7f52b",
+    "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/modules.json": "3a2c27b90e67923e26ae4a836c6ab7c4909e077e33845928ba5c87a8f6e433fa",
+    "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/palette-families.json": "02a4429e624622c8978fcc7344f518e565bcb3764875614ac975cff29c4a29a2",
+    "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/typologies.json": "a9eb910d3c997529a7ee62ed08975abae81ffad2e7e0f8b68b6ca1e17f429287",
+    "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/variation-rules.json": "1e9052f10bf5c58a816e4e10a2e12b0d382589d4949efd40353b1350bb2a0e37"
+  },
+  "excludes": "freshness timestamps and delivery reports"
+}

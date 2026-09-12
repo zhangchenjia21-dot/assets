@@ -1,0 +1,130 @@
+{
+  "envelope_within_G1": true,
+  "clearance_overlap": 0,
+  "all_design_projection_outside_columns": 0,
+  "stairs": [
+    {
+      "id": "B1-0",
+      "sampled_treads_landings": 12,
+      "failures": []
+    },
+    {
+      "id": "B2-0",
+      "sampled_treads_landings": 10,
+      "failures": []
+    },
+    {
+      "id": "B2-1",
+      "sampled_treads_landings": 10,
+      "failures": []
+    },
+    {
+      "id": "B3-0",
+      "sampled_treads_landings": 10,
+      "failures": []
+    },
+    {
+      "id": "B4-0",
+      "sampled_treads_landings": 10,
+      "failures": []
+    }
+  ],
+  "routes": [
+    {
+      "id": "B1-ENTRY-STAIR",
+      "samples": 22,
+      "failures": []
+    },
+    {
+      "id": "B1-UPPER-0",
+      "samples": 23,
+      "failures": []
+    },
+    {
+      "id": "B2-GUEST-WEST",
+      "samples": 18,
+      "failures": []
+    },
+    {
+      "id": "B2-GUEST-EAST",
+      "samples": 11,
+      "failures": []
+    },
+    {
+      "id": "B2-ENTRY-STAIR",
+      "samples": 23,
+      "failures": []
+    },
+    {
+      "id": "B2-UPPER-0",
+      "samples": 23,
+      "failures": []
+    },
+    {
+      "id": "B2-UPPER-1",
+      "samples": 23,
+      "failures": []
+    },
+    {
+      "id": "B3-ENTRY-STAIR",
+      "samples": 23,
+      "failures": []
+    },
+    {
+      "id": "B3-UPPER-0",
+      "samples": 23,
+      "failures": []
+    },
+    {
+      "id": "B4-ENTRY-STAIR",
+      "samples": 17,
+      "failures": []
+    },
+    {
+      "id": "B4-UPPER-0",
+      "samples": 13,
+      "failures": []
+    },
+    {
+      "id": "R-LIVING",
+      "samples": 53,
+      "failures": []
+    },
+    {
+      "id": "R-CARGO",
+      "samples": 25,
+      "failures": []
+    },
+    {
+      "id": "R-B3-HOME",
+      "samples": 25,
+      "failures": []
+    },
+    {
+      "id": "R-B2-FOOD",
+      "samples": 10,
+      "failures": []
+    },
+    {
+      "id": "R-B4-REPAIR",
+      "samples": 20,
+      "failures": []
+    },
+    {
+      "id": "R-B5-SERVICE",
+      "samples": 20,
+      "failures": []
+    },
+    {
+      "id": "R-B1-RESIDENT",
+      "samples": 26,
+      "failures": []
+    }
+  ],
+  "limitations": [
+    "checks use simplified solids, not Minecraft blockstate collisions",
+    "route centerline radius0.3; full pack-animal envelope not certified",
+    "no in-game walk-through / lighting / fluid updates"
+  ],
+  "world_writes": 0
+}

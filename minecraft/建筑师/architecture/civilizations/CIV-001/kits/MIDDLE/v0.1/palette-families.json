@@ -1,0 +1,93 @@
+{
+  "schema": "civ-palettes/0.1",
+  "families": [
+    {
+      "id": "working-stone",
+      "status": "PROPOSED",
+      "structure": [
+        "stone",
+        "cobblestone"
+      ],
+      "upper_frame": [
+        "stripped_oak_log"
+      ],
+      "infill": [
+        "mud_bricks"
+      ],
+      "roof": [
+        "stone_brick_slab",
+        "stone_brick_stairs"
+      ],
+      "accent": [
+        "oak_sign"
+      ],
+      "use": "B1 working ground floor/B5 public plinth; heavy roof requires actual truss/support closure before build"
+    },
+    {
+      "id": "lime-timber",
+      "status": "PROPOSED",
+      "structure": [
+        "stone"
+      ],
+      "upper_frame": [
+        "stripped_oak_log"
+      ],
+      "infill": [
+        "smooth_sandstone"
+      ],
+      "roof": [
+        "spruce_stairs",
+        "spruce_slab"
+      ],
+      "accent": [
+        "oak_trapdoor"
+      ],
+      "use": "B2 cared-for food/guest frontage"
+    },
+    {
+      "id": "earth-timber",
+      "status": "PROPOSED",
+      "structure": [
+        "cobblestone"
+      ],
+      "upper_frame": [
+        "stripped_oak_log"
+      ],
+      "infill": [
+        "packed_mud"
+      ],
+      "roof": [
+        "dark_oak_stairs",
+        "dark_oak_slab"
+      ],
+      "accent": [
+        "oak_sign"
+      ],
+      "use": "B3 everyday retail-house; paired window where living activity needs light"
+    },
+    {
+      "id": "repair-timber",
+      "status": "PROPOSED",
+      "structure": [
+        "cobblestone"
+      ],
+      "upper_frame": [
+        "stripped_acacia_log"
+      ],
+      "infill": [
+        "mud_bricks"
+      ],
+      "roof": [
+        "spruce_stairs",
+        "spruce_slab"
+      ],
+      "accent": [
+        "oak_fence"
+      ],
+      "use": "B4 economical cold-repair frontage; patches only where repair phase explains them"
+    }
+  ],
+  "availability": "design choices, not proof of on-site stock or supply chain",
+  "prefix": "minecraft:",
+  "preview_colors": "schematic; palette textures not client-validated"
+}

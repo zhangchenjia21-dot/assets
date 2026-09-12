@@ -1,0 +1,53 @@
+{
+  "cache_id": "MD-001S1-current-world-reused-by-MD-001U1",
+  "status": "LOCAL_ONLY",
+  "retention": "PRESERVE_LOCAL",
+  "schema": "Minecraft4903 Anvil+NBT snapshot / surface-json-gzip",
+  "source_epoch": "2026-09-12T14:47:25.060986+00:00",
+  "source_world_fingerprint": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410",
+  "rebuild_command": "See validation/README.md; no refresh from changed world without new lineage",
+  "artifacts": [
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001S1\\capture.json",
+      "bytes": 14536,
+      "sha256": "aa7eada393aaa11a7e88ee888e82b5114d5a2dff95395bb8d28b66f582f12b37",
+      "generated_at": "2026-09-12T14:47:25.064658+00:00"
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001S1\\surface.json.gz",
+      "bytes": 45267,
+      "sha256": "8b1cc57583a8fdf832a5dff290aee39e0534408faa884973d15e347d48882aa3",
+      "generated_at": "2026-09-12T14:47:25.857615+00:00"
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001S1\\snapshot\\entities-r.0.3.mca",
+      "bytes": 790528,
+      "sha256": "a7e2d92dea21ec03224ed5099a32ff0454f9e5c70714af2a1efab1049bb7121f",
+      "generated_at": "2026-09-12T14:47:25.051443+00:00"
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001S1\\snapshot\\level.dat",
+      "bytes": 521,
+      "sha256": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410",
+      "generated_at": "2026-09-12T14:47:25.029912+00:00"
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001S1\\snapshot\\poi-r.0.3.mca",
+      "bytes": 16384,
+      "sha256": "fa1600957844e93436d7371067df45daacaa6b0ea74c63375f44d7300689f230",
+      "generated_at": "2026-09-12T14:47:25.052949+00:00"
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001S1\\snapshot\\region-r.0.3.mca",
+      "bytes": 10039296,
+      "sha256": "7d873f5e82c557e489b872aaae6ae36e501f5a3675754665ba752691c554ef99",
+      "generated_at": "2026-09-12T14:47:25.044975+00:00"
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001S1\\snapshot\\session.lock",
+      "bytes": 3,
+      "sha256": "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc",
+      "generated_at": "2026-09-12T14:47:25.030918+00:00"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-09-12T16:03:23.716569+00:00",
+  "source_capture_utc": "2026-09-12T14:47:25.060986+00:00",
+  "world_name": "建筑师",
+  "data_version": 4903,
+  "files": [
+    {
+      "world_relative": "level.dat",
+      "snapshot_name": "level.dat",
+      "size": 521,
+      "mtime_ns": 1789208444979777400,
+      "sha256": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410",
+      "matches_current": true
+    },
+    {
+      "world_relative": "session.lock",
+      "snapshot_name": "session.lock",
+      "size": 3,
+      "mtime_ns": 1789207332588629000,
+      "sha256": "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc",
+      "matches_current": true
+    },
+    {
+      "world_relative": "dimensions/minecraft/overworld/region/r.0.3.mca",
+      "snapshot_name": "region-r.0.3.mca",
+      "size": 10039296,
+      "mtime_ns": 1789207967075634100,
+      "sha256": "7d873f5e82c557e489b872aaae6ae36e501f5a3675754665ba752691c554ef99",
+      "matches_current": true
+    },
+    {
+      "world_relative": "dimensions/minecraft/overworld/entities/r.0.3.mca",
+      "snapshot_name": "entities-r.0.3.mca",
+      "size": 790528,
+      "mtime_ns": 1789208445630440700,
+      "sha256": "a7e2d92dea21ec03224ed5099a32ff0454f9e5c70714af2a1efab1049bb7121f",
+      "matches_current": true
+    },
+    {
+      "world_relative": "dimensions/minecraft/overworld/poi/r.0.3.mca",
+      "snapshot_name": "poi-r.0.3.mca",
+      "size": 16384,
+      "mtime_ns": 1789207385359329200,
+      "sha256": "fa1600957844e93436d7371067df45daacaa6b0ea74c63375f44d7300689f230",
+      "matches_current": true
+    }
+  ],
+  "world_writes": 0,
+  "method": "read-only SHA256 + size + mtime comparison; no runtime launched",
+  "scope": "five identity/session/local containers, not whole-save inventory"
+}

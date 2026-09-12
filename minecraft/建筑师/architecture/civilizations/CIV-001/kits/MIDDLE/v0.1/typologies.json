@@ -1,0 +1,287 @@
+{
+  "schema": "civ-typologies/0.1",
+  "typologies": [
+    {
+      "id": "T01",
+      "name": "mixed-shop-house",
+      "status": "PROPOSED",
+      "required_core": [
+        "street shop",
+        "independent home entrance",
+        "upper living",
+        "M02"
+      ],
+      "optional_modules": [
+        "M06",
+        "M08"
+      ],
+      "dimension_ranges_blocks": {
+        "width": [
+          9,
+          14
+        ],
+        "depth": [
+          8,
+          12
+        ],
+        "storeys": [
+          2,
+          3
+        ]
+      },
+      "proportion": "usually width/depth0.65..1.8; compound may bend with terrain, area is not a rectangular plot mandate",
+      "variation_knobs": [
+        "function and load",
+        "plot edge",
+        "age/addition sequence",
+        "slope and entry Y",
+        "street corner or end",
+        "craft/status"
+      ],
+      "terrain_adaptation": [
+        "lowland plinth",
+        "small split level"
+      ],
+      "incompatible": [
+        "single shop door controls all homes"
+      ],
+      "not_fixed_blueprint": true
+    },
+    {
+      "id": "T02",
+      "name": "short-storage-residence",
+      "status": "PROPOSED",
+      "required_core": [
+        "high clear ground store",
+        "cargo portal",
+        "home access",
+        "off-route handover"
+      ],
+      "optional_modules": [
+        "M04",
+        "M06",
+        "M11"
+      ],
+      "dimension_ranges_blocks": {
+        "width": [
+          11,
+          15
+        ],
+        "depth": [
+          9,
+          14
+        ],
+        "storeys": [
+          2,
+          2
+        ]
+      },
+      "proportion": "usually width/depth0.65..1.8; compound may bend with terrain, area is not a rectangular plot mandate",
+      "variation_knobs": [
+        "function and load",
+        "plot edge",
+        "age/addition sequence",
+        "slope and entry Y",
+        "street corner or end",
+        "craft/status"
+      ],
+      "terrain_adaptation": [
+        "dry lowland",
+        "independent terrace"
+      ],
+      "incompatible": [
+        "bulk industrial warehouse in G1",
+        "home stair through locked cargo racks"
+      ],
+      "not_fixed_blueprint": true
+    },
+    {
+      "id": "T03",
+      "name": "repair-house",
+      "status": "PROPOSED",
+      "required_core": [
+        "cold-work area",
+        "materials rack",
+        "home/learner space",
+        "service apron"
+      ],
+      "optional_modules": [
+        "M06",
+        "M11"
+      ],
+      "dimension_ranges_blocks": {
+        "width": [
+          8,
+          12
+        ],
+        "depth": [
+          7,
+          11
+        ],
+        "storeys": [
+          1,
+          2
+        ]
+      },
+      "proportion": "usually width/depth0.65..1.8; compound may bend with terrain, area is not a rectangular plot mandate",
+      "variation_knobs": [
+        "function and load",
+        "plot edge",
+        "age/addition sequence",
+        "slope and entry Y",
+        "street corner or end",
+        "craft/status"
+      ],
+      "terrain_adaptation": [
+        "small low plinth",
+        "edge terrace"
+      ],
+      "incompatible": [
+        "hot metal process below timber bedrooms"
+      ],
+      "not_fixed_blueprint": true
+    },
+    {
+      "id": "T04",
+      "name": "inn-food",
+      "status": "PROPOSED",
+      "required_core": [
+        "food room",
+        "separate cook/flue location",
+        "host family",
+        "guest floor",
+        "M02"
+      ],
+      "optional_modules": [
+        "M07",
+        "M08"
+      ],
+      "dimension_ranges_blocks": {
+        "width": [
+          10,
+          14
+        ],
+        "depth": [
+          9,
+          14
+        ],
+        "storeys": [
+          2,
+          3
+        ]
+      },
+      "proportion": "usually width/depth0.65..1.8; compound may bend with terrain, area is not a rectangular plot mandate",
+      "variation_knobs": [
+        "function and load",
+        "plot edge",
+        "age/addition sequence",
+        "slope and entry Y",
+        "street corner or end",
+        "craft/status"
+      ],
+      "terrain_adaptation": [
+        "street corner",
+        "terrace step"
+      ],
+      "incompatible": [
+        "guest access through private sleeping area",
+        "timber touching flue"
+      ],
+      "not_fixed_blueprint": true
+    },
+    {
+      "id": "T05",
+      "name": "record-service",
+      "status": "PROPOSED",
+      "required_core": [
+        "readable front room",
+        "record/help desk",
+        "short care place"
+      ],
+      "optional_modules": [
+        "M07",
+        "M15"
+      ],
+      "dimension_ranges_blocks": {
+        "width": [
+          6,
+          9
+        ],
+        "depth": [
+          7,
+          10
+        ],
+        "storeys": [
+          1,
+          2
+        ]
+      },
+      "proportion": "usually width/depth0.65..1.8; compound may bend with terrain, area is not a rectangular plot mandate",
+      "variation_knobs": [
+        "function and load",
+        "plot edge",
+        "age/addition sequence",
+        "slope and entry Y",
+        "street corner or end",
+        "craft/status"
+      ],
+      "terrain_adaptation": [
+        "low end piece",
+        "step terrace"
+      ],
+      "incompatible": [
+        "dominant government/toll iconography"
+      ],
+      "not_fixed_blueprint": true
+    },
+    {
+      "id": "T06",
+      "name": "courtyard-service-compound",
+      "status": "PROPOSED",
+      "required_core": [
+        "daily passage",
+        "water/fire access",
+        "shared activity",
+        "separate short unloading"
+      ],
+      "optional_modules": [
+        "M10",
+        "M11",
+        "M14"
+      ],
+      "dimension_ranges_blocks": {
+        "width": [
+          12,
+          24
+        ],
+        "depth": [
+          8,
+          18
+        ],
+        "storeys": [
+          0,
+          0
+        ]
+      },
+      "proportion": "usually width/depth0.65..1.8; compound may bend with terrain, area is not a rectangular plot mandate",
+      "variation_knobs": [
+        "function and load",
+        "plot edge",
+        "age/addition sequence",
+        "slope and entry Y",
+        "street corner or end",
+        "craft/status"
+      ],
+      "terrain_adaptation": [
+        "split court",
+        "covered crossing at swale"
+      ],
+      "incompatible": [
+        "sealed basin",
+        "fill every gap",
+        "uniform four-side cloister by default"
+      ],
+      "not_fixed_blueprint": true
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "baseline_commit": "d06eb07b3725d11744c6715259823a7ef031c156",
+  "inputs": [
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/first-build-recommendation.md",
+      "sha256": "5c04adf37fde00af377a2b8ece7cf893be4dbca5c84f11f4733a55a64a1feb76"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/human-use-intensity.json",
+      "sha256": "37165768edc05e504716dc396bcca568a24eb6ee47d0cea53251d8dda9a95470"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/land-use.json",
+      "sha256": "3cec78a3390a42bc702f7ad8bd5dfe747250f99f7f0f83c0d9700d4eaf20aefb"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/MASTERPLAN.json",
+      "sha256": "26d4d07b6e1b719dbcbf2436060d498cbe7acb905df8bfd4614336c44664e784"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/MASTERPLAN.md",
+      "sha256": "5e82f8976d27432bf3df64893c1614d5e6ac663976ee6397d205bbf78acc93e4"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/movement-network.json",
+      "sha256": "7212e8a879d0d0ecde7f6a3b720799518518223ea54702212c4923bec9f0fbab"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/owner-overview/manifest.json",
+      "sha256": "ba625ddfef0cfd0f202e87f0c7dfec8c8971c48d3b8bc2ad88e17ee834e32f5b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/owner-overview/README.md",
+      "sha256": "58c6437045185f0f4ef548a59eb1770cc58d469514a698d604575bc1d6f09466"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/owner-overview/中域规划示意图.png",
+      "sha256": "511cabc079758f0ca2a9fd6cdd9576dc3bce24e86f4bf172f14d8e7505259546"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/owner-overview/规划示意图绘制.py",
+      "sha256": "b1c0564d4d0825ec94277b7086c12f19f9425101a4ab3165febd6d8241d06c21"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/principal-hub-structure.json",
+      "sha256": "f27e0c43bc39f04f2ae75b78114896b51e31bf1d9ade5906eef8f40cf82ddb85"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/R1独立审核.md",
+      "sha256": "85d8497a6c356d7d474952939c063ce57dcb0f09e3b963d79437502d277661a2"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/README.md",
+      "sha256": "cc420c295cc457c810b724c88cb466cf04357e7e64adf94d49eda07c151b5716"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/resident-life-system.json",
+      "sha256": "edb60c8d3482f1e57898964e266782b2c27edfe1d652c2bbea630d437a1a6ff6"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/REVISION-R1.md",
+      "sha256": "acf0588f2a779cc04d48c9b28f4a5dd6697e089d0d02fc765f9d263d89f00e4f"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/settlement-nodes.json",
+      "sha256": "6baa7b5ada3cd546cc87ed0957d43d27834a8370262d1e1c38be0a9910d52334"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/subareas.json",
+      "sha256": "3fdf842459ae7fe932e98c452dafdba2b46050957d928a08126acb4aefafe935"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/tooling/主镇生活关系图.py",
+      "sha256": "4b4e7a7c9e25a4671fa08b2c45d243d17b0aa605d0fb048b01c724546d8e5a6f"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/tooling/总体规划汇编.py",
+      "sha256": "6bec7455256c919f9ac807d8bbbfe498b35b481ea22312e61d590d573fcdaa5b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/tooling/规划独立核验.py",
+      "sha256": "3c16aae2c1c617c3a18b7cae4eafd21a73c57f0a09339caedacd2131a8dd1a25"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/tooling/门户聚落修订.py",
+      "sha256": "1a506f35a3ca1ca167838027664649da14808946210518a00e1bafbeea271ef1"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/tooling/门户规划制图.py",
+      "sha256": "44aa6e760bacf336f2929f3c66096d437a2456934f1f5f3bbdd86564d8ff9380"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/gateway-evidence.json",
+      "sha256": "6de9cfffbd6d924bf8ee03bd5b44cc7c8ca622b128d5a225cf3cb5a768a3b2f6"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/independent-geometry.json",
+      "sha256": "c644d61beb428c4d63b7951b2e1c2d8dd280932d75a565351d56a86ffb19caad"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/map-contract.json",
+      "sha256": "92a938d8fd44399920dfd215fd522b714dc071a2d1c0111dd76809987e91460c"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/payload-manifest.json",
+      "sha256": "96a99232f5bfd4559d1607a0fbcce291d39439086e2fdcd67b99c8852440bc6e"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/PLANNER-CRITIC.md",
+      "sha256": "c6e4040e5b242583528d077f76af8831febc06014d3eb117b03ccdb5c7daa25b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/planning-geometry.json",
+      "sha256": "837fde6f1008a78555867c4fe2053dff52247238ca903d4f3e12bea6732f743b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/principal-map-contract.json",
+      "sha256": "66c0b6190ea06c5bcc3018126ebb16523fb50ede95b41c061baa1421f7f24527"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/rebuild.json",
+      "sha256": "97e38c945d48be3962c124ffbc2c901d49d577c669512af029fe808162f9ab53"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/scope-delta.json",
+      "sha256": "3875e235e69864128cc13ffc177a40840d0fa77db3ccb12c81585598a1449aa1"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/source-audit.json",
+      "sha256": "0be6a530a777697748e04663d6c07e4396be36c6acabd0200215d50d464418e4"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/source-fingerprint.json",
+      "sha256": "a8ed0b0f8baceb80e1b2729df3b09e96a7efe091441a1f0f1fedbf123c2d74bd"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/validation/summary.json",
+      "sha256": "21f6ad529c6170e95343de522cf91649667b3761dfb7ae19787baf83d1a8730f"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/gateway-principal-detail.png",
+      "sha256": "00f136812cc96e60cadac4b80e6588e5e68830ea14d5766770c9bbbb39b5d4eb"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/human-use-density.png",
+      "sha256": "9c0403aec912d9e35c6ad0695461f9ee86c238408cdedfef860f941206ea1540"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/land-use-masterplan.png",
+      "sha256": "c195ccfd47175f80474bce88c75d00b7193aa8d44374708d3c472c79aaed32d9"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/movement-exchange.png",
+      "sha256": "3b4cdbf34b2be3cecb0aa9505d140135874415cba3be953b00f69a9010d80c33"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/phasing-first-build.png",
+      "sha256": "4d2e101f67bf16f330f9dc104ca4d910d93da74186674e3e314c8d7ce8a51614"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/planning-subareas.png",
+      "sha256": "f4e534a197fc1d27063c40933a3111ed850438ceb695bec552bf572dcd38dc42"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/principal-life-structure.png",
+      "sha256": "39369d8349d327fd250b9ca72d962be14409aa357832d6bf9336404b78302b9b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/settlement-hierarchy.png",
+      "sha256": "511cabc079758f0ca2a9fd6cdd9576dc3bce24e86f4bf172f14d8e7505259546"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/visual/terrain-base.png",
+      "sha256": "77251582bc37c55feffe50987b1fbd56c9fdcad62f0469c1ec36c168225924c2"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/独立审核.md",
+      "sha256": "95e919ca522b54287aca8b48c84d31101afe805ce00760fbb3a7be671eac7c0a"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/access-drainage-audit.json",
+      "sha256": "0be37cee3cb14ac0df588e6055f86ad8303c9f92d6fbb269fc7ee1a862ab5567"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/candidates.json",
+      "sha256": "9ba002fdbfebf49199f857d04fd24c4db674169c2166dc0e451353be6f763f66"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/current-world-audit.json",
+      "sha256": "deb5c756684cea7f08e6dd5620ce62c0d784122cfb2394b8a5804117440846ce"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/existing-content-audit.json",
+      "sha256": "1c77dc7192f9a4ce3f18172dfcf2b2f24a328a1ba0198237bd0f1f7dfcf583f3"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/README.md",
+      "sha256": "350ebada9f70ccb485f87e9fec7d46e3d58544e38eaae48b93b722a6587a749e"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/recommended-site.json",
+      "sha256": "1576a6ea4743d4ac396e1444a68e6d1044e962dab6cc4b9a134e8dab02c79425"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/SITE-GATE.md",
+      "sha256": "b64de2b385a33664e393f5a662ae12b23b5b5b0ef837ea4eca67114c47199738"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/subsurface-audit.json",
+      "sha256": "7131589ac3a1634fe9fda22d5d382462409468402e5a67fd0755b96392f964e2"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/surface-terrain.json",
+      "sha256": "7118a4a3b99f8942bb86c71926d168f028887f9ccc5a44a435c871b15b83f259"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/tooling/__pycache__/当前场地读取.cpython-312.pyc",
+      "sha256": "b42f7f6595d2c2fcde726df762493fecaff216a70a49d904f6510170987bb832"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/tooling/场地交付核验.py",
+      "sha256": "53b24c47f0f8088b5e3a54360e1bd0a733b2b8e6ea224235b3c9c277c87ea85c"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/tooling/场地候选核查.py",
+      "sha256": "e7663df6877600d7c3d38d48602a6f813a761551c7f78809bdbcd70ba94cb333"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/tooling/场地证据制图.py",
+      "sha256": "87d30aefc8b3e19712594e8a7da496b6ded950cc558538628b1e2a65f4e3aa4c"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/tooling/场地证据汇编.py",
+      "sha256": "08f85f64a4757a41514a1d05f4d19b4806e73f51bea38bc47ec444bc125ce676"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/tooling/当前场地读取.py",
+      "sha256": "4ef6afa51f5b670bfca3bc7c8d4be757ee67ab1ba39659269d838a2181af53fb"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/CRITIC.md",
+      "sha256": "8511204792c12de332d032f9a44d07f0c9c74b104d3938acbbf6ad461466f196"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/geometry-and-source.json",
+      "sha256": "70430eda01cfa30ab254f3e3f09e3af0b4a631c1c15709bd5b32960a512eb712"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/heightmap-crosscheck.json",
+      "sha256": "3ad49e35d3bb5bb360b61bbf9277167e56e8465a2aa838029d959d360b4f3808"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/local-cache-manifest.json",
+      "sha256": "b3fd2dd9676ebc4f4798de370e3834833de0c07c232feb11067f4652134da3de"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/map-contract.json",
+      "sha256": "6396d1b79f4c17b350b712b26a51e4465907b1ba6fbac55cd5a70b744a8413fd"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/payload-manifest.json",
+      "sha256": "0611a7e04fb830d6b325d097f012c555d6fbbca7d244d5cf66f423653fc88c86"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/rebuild.json",
+      "sha256": "c53ff00a5bbed9ff718856af306a6a88a180bcd85f99f5c9a5093667985f22a7"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/source-fingerprint.json",
+      "sha256": "93dba7c858b1bcde4d534fb04e48d0bc2a119e2929c404ad034c859e73380943"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/validation/summary.json",
+      "sha256": "841051363404bafe049e5a2e48f37badd6f9957e6fda3f95832038fcf5730e56"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/visual/candidate-comparison.png",
+      "sha256": "8a9a0dcecad78a2cc976b389906514d5ef4b5833cb3ef3e5e6a859011fa274c0"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/visual/current-world-site-base.png",
+      "sha256": "57352d2f3c2c083b868d96aab90a915991a5c1caae70f83dbdd24e28a200532e"
+    },
+    {
+      "path": "research/build-sites/CIV-001/MD-001S1/visual/recommended-site-detail.png",
+      "sha256": "d4cadbba3a99912235cd8142fdd691ceab4b8349e3c36f8bc912526c17855304"
+    },
+    {
+      "path": "world/civilizations/CIV-001/README.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d"
+    },
+    {
+      "path": "world/global/Fantasy-Foundation.md",
+      "sha256": "4df10b9956cc54ddded818ab2190efe37e3cb6fbfc14164b913a1f799f45e7d0"
+    },
+    {
+      "path": "world/README.md",
+      "sha256": "670dbb832701a4e842a26036b3f551cc6162ef737a1b8ed35597ee0b02673aff"
+    },
+    {
+      "path": "decisions/D-001_自然地理事实源与机器可读事实层.md",
+      "sha256": "6afc28f0553785d06b8ea2b63107f745301e6e64d747c6b8ade9baa8c33bcc4a"
+    },
+    {
+      "path": "decisions/D-002_项目成果归档位置.md",
+      "sha256": "899845d77345ced242387b272d4a21acbf159e8927bbc7f42300b733b874db50"
+    },
+    {
+      "path": "decisions/D-003_NG-2代表性局部自然地理精查授权.md",
+      "sha256": "04c7f954195c8a7a4ef39020621254bc86cfc969438c97ef5122e912097488c1"
+    },
+    {
+      "path": "decisions/D-004_NG-3自然地理图册收敛授权.md",
+      "sha256": "ca124ccd06bc3096f4e412fc7dc2f9ede2f6e9e0a66e7baa5748c4df25491206"
+    },
+    {
+      "path": "decisions/D-005_WB-001最小幻想世界基础Canon批准.md",
+      "sha256": "1841bed24d67b6f4c89d4f78e886f5ed418df389dc5e12aee608a88bbc94c6f9"
+    },
+    {
+      "path": "decisions/D-006_CIV-001南部大岛林地长生种文明试点批准.md",
+      "sha256": "f86ca1b7476e5dbb87a5b26f3cb7dc68c41939522cba0fff24881d5c10e946e6"
+    },
+    {
+      "path": "decisions/D-007_文明设定必须经过区域实地考察.md",
+      "sha256": "bd3f3271c6ac020043c2e6847e7997c2a301ae9658cd53b0ced1cda60ae81412"
+    },
+    {
+      "path": "decisions/D-008_WB-002R南部大岛区域精查授权.md",
+      "sha256": "4e9c276e8190028b43759c1ecc7aed30653c4d331b3609556e849c7775bce587"
+    },
+    {
+      "path": "decisions/D-009_WB-002R-R1南部岛屿群范围补全授权.md",
+      "sha256": "415a8f86aea3db34b2c7f94a5cdcd5a50ebd97401179925d356d9bfbc18ea4d6"
+    },
+    {
+      "path": "decisions/D-010_大型扫描证据GitHub轻量化.md",
+      "sha256": "facc70154643144560d0377a5e9b9061c364e7ef5ee67db9ffa003c33193f032"
+    },
+    {
+      "path": "decisions/D-011_CIV-001人类三域联盟与三席议会方向批准.md",
+      "sha256": "d58f8dab7d5ebe29430b4a9792b5ebb9d625d02fa8f33101ffe849d12de4bc03"
+    },
+    {
+      "path": "decisions/D-012_WB-003R经济与通达性最小调查授权.md",
+      "sha256": "1fa65e4f0e24da277505e4673e5c2854cf3f25356cc4997692b3ce124df57189"
+    },
+    {
+      "path": "decisions/D-013_可见世界约束与隐性设定可创作原则.md",
+      "sha256": "605654b500747cc8e53a62209f710579a6b533ba7378e1deddd25d8d95acdff8"
+    },
+    {
+      "path": "decisions/D-014_CIV-001最小文明Canon收敛与AB-001进入.md",
+      "sha256": "87ad6fe84834bbf76b52a6c8fc1f8b56c1bfc4c58166ba959bc0dcc28e6bbd3d"
+    },
+    {
+      "path": "decisions/D-015_AB-001P1三席议会中心岛SiteGate授权.md",
+      "sha256": "30449e76a92855f1cdc41f3e4aee2da3e930b0c35bed8c7a931702bed3b9d34e"
+    },
+    {
+      "path": "decisions/D-016_AB-001P1_A场地确认与小批次施工原则.md",
+      "sha256": "ebf4135d1c64f05b72d390dcf089c5c782e9ae2efb0a9641a6e356a667d85d53"
+    },
+    {
+      "path": "decisions/D-017_政治中心先总体容量后单体尺度.md",
+      "sha256": "74d5b111f9865334af39cb8ebd7cfdc1d65ce87544f0df77a9728f19dfc7a019"
+    },
+    {
+      "path": "decisions/D-018_CouncilCenterland联盟公地与中域交割.md",
+      "sha256": "1d39f67e4af31a872731d0bec3986a7b3556a3150265bc2eefc3641362d9c875"
+    },
+    {
+      "path": "decisions/D-019_AB-001P1R联盟公地东侧连接带边界拟合授权.md",
+      "sha256": "7ee665ef7e2febdfb7cdb30d449c595a4d8bfa6bbb41a29edd30b5752cbaa46e"
+    },
+    {
+      "path": "decisions/D-020_AB-001P1R联盟公地精确边界接受.md",
+      "sha256": "fa39f2fa635b1d269db8ca5e34ceec04dce03998b590a1c1acf8a2749f7c0ccc"
+    },
+    {
+      "path": "decisions/D-021_先完成中域区域调查与总体规划再进入首栋建筑.md",
+      "sha256": "beb6128f186d9ba801dab2d3f3f74bccec669d5b1b3f971c36f5aa9481f46158"
+    },
+    {
+      "path": "decisions/D-023_中域东域手绘边界地形辅助精修.md",
+      "sha256": "6840f01d8095c6e3ff07140d598a1f06f2f9c594b05fe1b077d6acc7573966b0"
+    },
+    {
+      "path": "decisions/D-024_TT-002R中域东域精修边界接受并进入MD-001P.md",
+      "sha256": "a082c3fec790ad111b0d4aa061b06199e8b0e37841bba6fa16f935c61a1f8771"
+    },
+    {
+      "path": "decisions/D-025_三域聚落密度与土地利用梯度.md",
+      "sha256": "9bbf526523f1b0d1e91308cc264ea4ba8c98e92f098a828d33eb7dfa026a25d8"
+    },
+    {
+      "path": "decisions/D-026_P1连接带升级为中域门户聚落并修订MD-001P.md",
+      "sha256": "328f49e63e982a1c20e83958ccddd2c87895858be81b299bf15aaaedc708b1e8"
+    },
+    {
+      "path": "decisions/D-027_MD-001P-R1总规Owner接受并进入G1首栋SiteGate.md",
+      "sha256": "32547af243353e29fd3b5956ea04164bb67a05456c3d06809d7eccd3d45c75b6"
+    },
+    {
+      "path": "decisions/D-028_高密区域以微街区为作业单元并建立文明地域ArchitectureKit.md",
+      "sha256": "fdc42482f37ee1ee832791195bc72d5dd5a03c5b1d2533f6532645515eb37f97"
+    },
+    {
+      "path": "decisions/README.md",
+      "sha256": "c39bcf980ae07af270ad572aa7a2b7881e457c7f032bbda1dc90692dee5656d2"
+    }
+  ],
+  "skill": {
+    "url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/main/skill/codex/minecraft-builder/SKILL.md",
+    "version": "1.10",
+    "sha256": "1c719db419f51410ba894d9731ab2026e68b4bbcb73b9c092863dfb5edd85f9e"
+  }
+}

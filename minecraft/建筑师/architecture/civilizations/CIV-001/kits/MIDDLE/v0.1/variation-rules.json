@@ -1,0 +1,42 @@
+{
+  "schema": "civ-variation-rules/0.1",
+  "rules": [
+    {
+      "id": "V01",
+      "subject": "功能",
+      "rule": "仓首层5格与3格门；住家层4格、2格门；不要仅换颜色。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "V02",
+      "subject": "年代",
+      "rule": "后增雨棚、不同维护程度的填充墙可改变立面；结构柱仍连续。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "V03",
+      "subject": "地块",
+      "rule": "转角短面可承担入口或次窗，末跨可缩；不得随机旋转脱离路。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "V04",
+      "subject": "地形",
+      "rule": "在本例0–2填/0–1切之外的场地须重做剖面；不扩大台基套用。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "V05",
+      "subject": "等级/工匠",
+      "rule": "常用房以土色，旅舍入口可浅色；装饰集中门梁，不把每栋换成不同文明。",
+      "status": "PROPOSED"
+    },
+    {
+      "id": "V06",
+      "subject": "变化界限",
+      "rule": "一个组团至少由用途产生两种脊向、不同高度与入口等级；这是审阅提示，不是自动评分器。",
+      "status": "PROPOSED"
+    }
+  ],
+  "randomization_policy": "no stochastic noise or whole-building cloning"
+}

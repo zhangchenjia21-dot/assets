@@ -1,0 +1,236 @@
+{
+  "status": "TECHNICAL_CHECKS_COMPLETED / NOT INDEPENDENT REVIEW",
+  "checked_at": "2026-09-12T16:03:23.858814+00:00",
+  "json_parsed": 20,
+  "png_verified": 10,
+  "protected_input_hashes_unchanged": 102,
+  "invalid_links": [],
+  "kit_maturity_entries": 52,
+  "kit_built_accepted_entries": 0,
+  "model_routes_checked": 18,
+  "stair_flights_checked": 5,
+  "payload_bytes_excluding_this_report_task_completion_current": 1121068,
+  "payload_MiB": 1.069,
+  "files": [
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/building-roles.json",
+      "bytes": 4682,
+      "sha256": "a8af3285a62c13bab3a7be80d48977ed333802f95f220e384b3c9091694e94ef"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/circulation.json",
+      "bytes": 42202,
+      "sha256": "abffc0335374a11d81495b119aca6cfe384ce1a11d547403c9bf414b1529581e"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/design-model.json.gz",
+      "bytes": 27662,
+      "sha256": "429ce114266ab58c1798a9d208310ee117699641b8c73475fe16ef05e6910f37"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/drainage-vegetation.json",
+      "bytes": 16217,
+      "sha256": "4020792e98c7057742f2435634271f6b2b9177092ee1ac9d00addcd9dea0c410"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/phasing.json",
+      "bytes": 806,
+      "sha256": "4b63f90ea2295054a9e7f1153d1e80a140d1d129d948c5e2358aeaf252675ec8"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/README.md",
+      "bytes": 1606,
+      "sha256": "a2efeb5d322f948cfd54aacc3d59254dca7c253c8ba482965268c900321a0369"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/site-envelope.json",
+      "bytes": 1819,
+      "sha256": "23fbbdd9ff19df66eb1c0cff8fa2ef840713774d997dfd05a604593d3465bcc1"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/tooling/.gitignore",
+      "bytes": 13,
+      "sha256": "32dae3052f331ee34d628ef535709b301259a45df7c7522c4d35dcf49873f00b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/tooling/交付封口核验.py",
+      "bytes": 4859,
+      "sha256": "de542668b28201c72900c4779ab25654e79ba289eb002e2db09e0bfaf6024e9b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/tooling/地域模板编译.py",
+      "bytes": 12628,
+      "sha256": "13d7f3dcc297c555d2c131292e35532d226438fd5d88390e5626a1e8dcc0023f"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/tooling/场地关系核验.py",
+      "bytes": 5573,
+      "sha256": "1eb6092f07afa00e0a306125d601b9e95cdfc3d025ad91cf909403c31ea3e6ba"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/tooling/街区审阅制图.py",
+      "bytes": 13211,
+      "sha256": "e05ec8c91331d54ec788687fa13744f2dd23d32f19f378c5ca3317ee2e733e9b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/tooling/街区设计编译.py",
+      "bytes": 24342,
+      "sha256": "c54cb01d94fb3b586a14db74561f98f17723aaf4ae93992404ddde019710f7d0"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/URBAN-ENSEMBLE.json",
+      "bytes": 5366,
+      "sha256": "0502d18a66ababee42072e112656c29992eaf7277b455147ad0bdc311e54453f"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/URBAN-ENSEMBLE.md",
+      "bytes": 9011,
+      "sha256": "8583cd14c26b1f0d5280f95bedd442661f0663f7debfe135d2d65f75a965e252"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/CRITIC.md",
+      "bytes": 2661,
+      "sha256": "bd29a36b0553e7a2bff757e95d9f92cad186fffd322a2217f4c2f1d8fc21f38c"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/design-qa.json",
+      "bytes": 2325,
+      "sha256": "db4c196bbe041d014afee902e4416616f1e5e13e50dac35ac9ab3f618c900a57"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/local-context.json",
+      "bytes": 3518,
+      "sha256": "33725a9518524d51834756375b051f3f780f8496c7d7f9f68e012176074f9b16"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/raw-cache-manifest.json",
+      "bytes": 2509,
+      "sha256": "7be5bc65ab88d96b5f775e394dc88c55197d983bfa9781906ed138887d91381a"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/README.md",
+      "bytes": 3454,
+      "sha256": "b9ef87342084a0d254729e2e70b5bfbf134faec79b948a137c687746d9a393a0"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/rebuild-check.json",
+      "bytes": 3138,
+      "sha256": "8086b1a648faa4b2b43304839dc5bbb5814dadc86db6a68b5c34b350ea70d33f"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/source-freshness-after.json",
+      "bytes": 1805,
+      "sha256": "64a3a535a267bb5a7b6873100d6f3749b1b87b1a51901c8f307713153e818363"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/source-freshness-before.json",
+      "bytes": 1805,
+      "sha256": "cea9f6e592af799982fc5732b4abc2cb83f33d2634b3ccdc81a8ebd0e5b1c27b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/source-inputs.json",
+      "bytes": 18145,
+      "sha256": "cb760212b73315f98a8ff118713304099df6956d2a3e672ce7decf7921c136d6"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/validation/spatial-relations.json",
+      "bytes": 2174,
+      "sha256": "02550bf769bf06cc181d1eec49f99cac365ea8b2cd3743b3361763481b363f9d"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/01-top-plan.png",
+      "bytes": 135662,
+      "sha256": "26eb309b811f9999d094da45e574312b3f1e184bd8629cd6a94f055dd24b880f"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/02-sections.png",
+      "bytes": 66568,
+      "sha256": "294384a9235905275e923c5e7876276cfc1fd0857e0529177f5f0c32cfd9618b"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/03-floor-plans.png",
+      "bytes": 91485,
+      "sha256": "b57c52a71f5b201a5cb90c192842dd028c524f68ff172f3fe4d6fb596bad1faf"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/04-roof-skyline.png",
+      "bytes": 132579,
+      "sha256": "a858e2b74517d38b632e846313b743da7ea1037628d25aadaef0ffd8dcc6f445"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/05-growth-phases.png",
+      "bytes": 135093,
+      "sha256": "c4a3b3a697a486ac14c2da067f69208ff85b85a5edc3bffdfbaa16084c47345d"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/06-oblique-1.png",
+      "bytes": 54410,
+      "sha256": "dd758818f81fa25122312b06499e97705cc73c68d528b1488a34e79af8ac755c"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/06-oblique-2.png",
+      "bytes": 55680,
+      "sha256": "9c54438e1b70bc7c5b19ce030db1265f2a14f28f5b78c4d8925d6ead69f7c0d2"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/06-oblique-3.png",
+      "bytes": 51703,
+      "sha256": "455926e72eaa651820f0446578fea97979b679ecf188a1a935be3e994f0666bc"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/06-oblique-4-cutaway.png",
+      "bytes": 40507,
+      "sha256": "935ef9698b086b59f675290fac1543e662f3019e1b0c70fdcceedd46e70ec5a8"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/G1/MD-001U1/visual/07-kit-overview.png",
+      "bytes": 113954,
+      "sha256": "b58d695f61760806ef76ea47f854011bfc2524d4e382abbf1dd2a4b41606b25b"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/forbidden-combinations.md",
+      "bytes": 1376,
+      "sha256": "266dffa7713afdf22e2a90b3ceb1165537744c02ae221b74af760c68d0af8a66"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/KIT.json",
+      "bytes": 5821,
+      "sha256": "ee6a076c3cfdee92e765e31470b493ea74b9f8f46e491499c3114cc946f7f52b"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/KIT.md",
+      "bytes": 4354,
+      "sha256": "e00c5411f578c025fe9568792f8814d3ec13408fb403b440500a0a8ecca2b308"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/modules.json",
+      "bytes": 9373,
+      "sha256": "3a2c27b90e67923e26ae4a836c6ab7c4909e077e33845928ba5c87a8f6e433fa"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/palette-families.json",
+      "bytes": 2010,
+      "sha256": "02a4429e624622c8978fcc7344f518e565bcb3764875614ac975cff29c4a29a2"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/README.md",
+      "bytes": 1150,
+      "sha256": "0dea86e9fb085f86f9bdbf392b5f4b6229ffe1fb9842c28c4a97a0bc1ce1eef4"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/typologies.json",
+      "bytes": 6495,
+      "sha256": "a9eb910d3c997529a7ee62ed08975abae81ffad2e7e0f8b68b6ca1e17f429287"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/variation-rules.json",
+      "bytes": 1317,
+      "sha256": "1e9052f10bf5c58a816e4e10a2e12b0d382589d4949efd40353b1350bb2a0e37"
+    }
+  ],
+  "world_writes": 0,
+  "broad_rescan": 0,
+  "formal_world_runtime_launches": 0,
+  "real_minecraft_collision": "UNVERIFIED",
+  "fluid_stability": "UNVERIFIED"
+}
