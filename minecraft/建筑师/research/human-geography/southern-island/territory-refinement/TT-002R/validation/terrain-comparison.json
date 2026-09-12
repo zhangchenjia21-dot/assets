@@ -1,0 +1,145 @@
+{
+  "band": "conservative L1 distance <128 to Owner edge incident columns; no full region reclassification",
+  "statistics": {
+    "before": {
+      "2": {
+        "elevation": {
+          "n": 114446,
+          "mean": 131.983878859899,
+          "median": 135.0,
+          "p90": 166.0,
+          "max": 183.0
+        },
+        "slope8": {
+          "n": 110886,
+          "mean": 0.7541950345039368,
+          "median": 0.615553617477417,
+          "p90": 1.6213902235031128,
+          "max": 3.8981165885925293
+        },
+        "relief32": {
+          "n": 114446,
+          "mean": 30.19187214931059,
+          "median": 28.0,
+          "p90": 56.0,
+          "max": 80.0
+        }
+      },
+      "3": {
+        "elevation": {
+          "n": 99692,
+          "mean": 158.59709906512057,
+          "median": 175.0,
+          "p90": 193.0,
+          "max": 218.0
+        },
+        "slope8": {
+          "n": 96736,
+          "mean": 0.5060010552406311,
+          "median": 0.3186887204647064,
+          "p90": 1.3721561431884766,
+          "max": 2.950105905532837
+        },
+        "relief32": {
+          "n": 99692,
+          "mean": 20.46328692372507,
+          "median": 15.0,
+          "p90": 49.0,
+          "max": 79.0
+        }
+      }
+    },
+    "after": {
+      "2": {
+        "elevation": {
+          "n": 110304,
+          "mean": 130.42090042065564,
+          "median": 134.0,
+          "p90": 161.0,
+          "max": 183.0
+        },
+        "slope8": {
+          "n": 106744,
+          "mean": 0.7513630986213684,
+          "median": 0.615553617477417,
+          "p90": 1.612936019897461,
+          "max": 3.8981165885925293
+        },
+        "relief32": {
+          "n": 110304,
+          "mean": 29.935523643748187,
+          "median": 27.0,
+          "p90": 57.0,
+          "max": 80.0
+        }
+      },
+      "3": {
+        "elevation": {
+          "n": 103834,
+          "mean": 159.19585106997707,
+          "median": 175.0,
+          "p90": 192.0,
+          "max": 218.0
+        },
+        "slope8": {
+          "n": 100878,
+          "mean": 0.519188404083252,
+          "median": 0.3365727961063385,
+          "p90": 1.3877252340316772,
+          "max": 3.188112735748291
+        },
+        "relief32": {
+          "n": 103834,
+          "mean": 21.123687809388063,
+          "median": 15.0,
+          "p90": 49.0,
+          "max": 79.0
+        }
+      }
+    }
+  },
+  "changed_terrain": {
+    "elevation": {
+      "n": 4142,
+      "mean": 173.60695316272333,
+      "median": 176.0,
+      "p90": 180.0,
+      "max": 182.0
+    },
+    "slope8": {
+      "n": 4142,
+      "mean": 0.8271784782409668,
+      "median": 0.755190372467041,
+      "p90": 1.6512305736541748,
+      "max": 3.188112735748291
+    },
+    "relief32": {
+      "n": 4142,
+      "mean": 37.01859005311444,
+      "median": 38.0,
+      "p90": 52.0,
+      "max": 72.0
+    }
+  },
+  "movement": [
+    {
+      "id": "C-01",
+      "path_columns_in_diagnostic_band": 306,
+      "path_columns_reassigned": 17,
+      "meaning": "existing terrain-cost research path, not road / trade route / mandatory political corridor"
+    },
+    {
+      "id": "C-02",
+      "path_columns_in_diagnostic_band": 364,
+      "path_columns_reassigned": 17,
+      "meaning": "existing terrain-cost research path, not road / trade route / mandatory political corridor"
+    },
+    {
+      "id": "C-03",
+      "path_columns_in_diagnostic_band": 364,
+      "path_columns_reassigned": 17,
+      "meaning": "existing terrain-cost research path, not road / trade route / mandatory political corridor"
+    }
+  ],
+  "movement_source_sha256": "4f7e1168bc14eb3a1104a96211cea22dd7dfc8ac4e4016caa332aa6a2e211b08"
+}

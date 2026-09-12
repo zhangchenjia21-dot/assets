@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "protected_files": 459,
+  "inventory_before_sha256": "50a56883f6e4de31e35832325b8c642e31b52024792bc430d7aab6760cb8c2e4",
+  "research_predecessors_immutable": true,
+  "world_canon_immutable": true,
+  "architecture_immutable": true,
+  "baseline_byte_identical": true,
+  "world_writes": 0,
+  "new_world_block_reads": 0,
+  "world_files_opened_by_task": 0,
+  "freshness": "cache epoch only; live save not fingerprinted"
+}

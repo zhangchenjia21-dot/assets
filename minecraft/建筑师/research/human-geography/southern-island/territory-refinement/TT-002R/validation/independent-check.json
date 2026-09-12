@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "implementation": "separate RLE decoder and row-mask reconstruction, no generator import",
+  "checks": [
+    "unique coverage",
+    "exact baseline hash",
+    "land conservation",
+    "accepted Commons connector and all West unchanged",
+    "only Middle-East reassignment",
+    "all changed columns within explicit 48-block row spans",
+    "no unassigned holes",
+    "four readable PNGs",
+    "459 predecessor source files unchanged"
+  ],
+  "world_writes": 0
+}

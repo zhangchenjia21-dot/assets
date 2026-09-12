@@ -1,0 +1,103 @@
+{
+  "bytes_excluding_this_manifest": 1363426,
+  "mib": 1.3,
+  "target_mib": 15,
+  "full_raw_in_git": false,
+  "files": [
+    {
+      "path": "baseline-owner-draft.json",
+      "bytes": 192273,
+      "sha256": "4fce4c14295ba3f5dd760e31b8a1e3f63fe139002c9eb427ff8d4648a6aef2e6"
+    },
+    {
+      "path": "boundary-delta.json",
+      "bytes": 80460,
+      "sha256": "27ae932e36ba07db8dce3fec352f0be9c4517a9627fb46e14ca12efebc55a2ac"
+    },
+    {
+      "path": "input/owner-draft-rev153.json",
+      "bytes": 192273,
+      "sha256": "4fce4c14295ba3f5dd760e31b8a1e3f63fe139002c9eb427ff8d4648a6aef2e6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4164,
+      "sha256": "5ddeee191145a991874ba7656b5534024914f5d321d3a489895e8f2874f63755"
+    },
+    {
+      "path": "refined-draft.json",
+      "bytes": 192548,
+      "sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919"
+    },
+    {
+      "path": "reports/中域东域边界地形精修.md",
+      "bytes": 7582,
+      "sha256": "4166a1e0c1fddfb96d567df5641126a39b2566895db1318f541cec6c5eb027ff"
+    },
+    {
+      "path": "tooling/交付核验.py",
+      "bytes": 3538,
+      "sha256": "0da531bcc05dc6ea7c74d1bb79be2ae40b9a15b5ab4d3aa84cfea812abbbb535"
+    },
+    {
+      "path": "tooling/边界精修.py",
+      "bytes": 15846,
+      "sha256": "3e01785064fd3de28a466eb7781be0ffe11ed7ace060ffa56acc9aabc81601ab"
+    },
+    {
+      "path": "validation/geometry.json",
+      "bytes": 1620,
+      "sha256": "0400bcb44d6fe6796f2433aee0849a7aade5cdedb8fa0a64c5f0828cbd0e01db"
+    },
+    {
+      "path": "validation/independent-check.json",
+      "bytes": 484,
+      "sha256": "c7a3a1b832a2fe6c7cb018847e702c5d7fbcec052349c2a3f120edfc0fff761d"
+    },
+    {
+      "path": "validation/rebuild.json",
+      "bytes": 1142,
+      "sha256": "11b9f9a57d34f5c1716c3c31b76cf169ca0867c6ff0bca816d2a766d6ddcd0a0"
+    },
+    {
+      "path": "validation/segments.json",
+      "bytes": 1788,
+      "sha256": "4aaafe956532cf7fb19a3e14d1249ee9ebc7e29000c58722de6632471e12e4af"
+    },
+    {
+      "path": "validation/source-audit.json",
+      "bytes": 440,
+      "sha256": "5333c8acbdfe562d1aa02dc9f2c1d43944c1bbf03563dee6c03063178a02c682"
+    },
+    {
+      "path": "validation/summary.json",
+      "bytes": 1907,
+      "sha256": "48e6b3fac5223aa6ea6ac40b35704ea415631838630f0afd5a1ce2bc899f4abf"
+    },
+    {
+      "path": "validation/terrain-comparison.json",
+      "bytes": 3668,
+      "sha256": "fb55e64b9c4a87c3366917e5aec77394b192a75895700ee216748b8b25ec4fe8"
+    },
+    {
+      "path": "visual/after.png",
+      "bytes": 74691,
+      "sha256": "5993704f634dec51e142265f80e24875e14104ebeb8537bbfb8cc5f96638abcf"
+    },
+    {
+      "path": "visual/before.png",
+      "bytes": 74629,
+      "sha256": "8806ffc31bcafd74d12d83138b1a0e27c9a07bb58e92798943a490a9926d85d0"
+    },
+    {
+      "path": "visual/diff.png",
+      "bytes": 238326,
+      "sha256": "82a86749f0f37a605af18111920715c12068a91a6390d59268dd1269bb5c767b"
+    },
+    {
+      "path": "visual/terrain-overlay.png",
+      "bytes": 276047,
+      "sha256": "5147688360ef9c5ff6d486ebae0b9608d31b1116c3715cac0c0071b68bacdbea"
+    }
+  ]
+}

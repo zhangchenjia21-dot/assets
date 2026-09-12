@@ -1,0 +1,38 @@
+{
+  "status": "REFINED_DRAFT / AWAITING GPT + OWNER ACCEPTANCE",
+  "technical_checks": "PASS",
+  "world_writes": 0,
+  "new_world_block_reads": 0,
+  "broad_rescan": 0,
+  "baseline_sha256": "4fce4c14295ba3f5dd760e31b8a1e3f63fe139002c9eb427ff8d4648a6aef2e6",
+  "refined_sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919",
+  "resolved_sources": [
+    {
+      "provided_path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/observed.sqlite",
+      "resolved_path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/observed.sqlite",
+      "sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7"
+    },
+    {
+      "provided_path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/derived.npz",
+      "resolved_path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/derived.npz",
+      "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff"
+    },
+    {
+      "provided_path": "research/build-sites/CIV-001/AB-001P1R/commons-geometry.json",
+      "resolved_path": "research/build-sites/CIV-001/AB-001P1R/commons-geometry.json",
+      "sha256": "4931a96cb2e2ea252e0e8e35b059957dc39bdf8cfb2c9ce06eda69f22d3d141b"
+    },
+    {
+      "provided_path": "research/build-sites/CIV-001/AB-001P1R/connector-geometry.json",
+      "resolved_path": "research/build-sites/CIV-001/AB-001P1R/connector-geometry.json",
+      "sha256": "562d0a6ffa5ee938a0fa5436e3c435b8c8ce8047fad5746ce1e2b932de19a3d1"
+    },
+    {
+      "provided_path": "decisions/D-020_AB-001P1R联盟公地精确边界接受.md",
+      "resolved_path": "decisions/D-020_AB-001P1R联盟公地精确边界接受.md",
+      "sha256": "fa39f2fa635b1d269db8ca5e34ceec04dce03998b590a1c1acf8a2749f7c0ccc"
+    }
+  ],
+  "changed_columns": 4142,
+  "freshness": "CACHED_EPOCH_ONLY; no current-world freshness claim"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "byte_identical": true,
+  "files": {
+    "baseline-owner-draft.json": "4fce4c14295ba3f5dd760e31b8a1e3f63fe139002c9eb427ff8d4648a6aef2e6",
+    "refined-draft.json": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919",
+    "boundary-delta.json": "27ae932e36ba07db8dce3fec352f0be9c4517a9627fb46e14ca12efebc55a2ac",
+    "validation/geometry.json": "0400bcb44d6fe6796f2433aee0849a7aade5cdedb8fa0a64c5f0828cbd0e01db",
+    "validation/summary.json": "48e6b3fac5223aa6ea6ac40b35704ea415631838630f0afd5a1ce2bc899f4abf",
+    "validation/segments.json": "4aaafe956532cf7fb19a3e14d1249ee9ebc7e29000c58722de6632471e12e4af",
+    "validation/terrain-comparison.json": "fb55e64b9c4a87c3366917e5aec77394b192a75895700ee216748b8b25ec4fe8",
+    "visual/before.png": "8806ffc31bcafd74d12d83138b1a0e27c9a07bb58e92798943a490a9926d85d0",
+    "visual/after.png": "5993704f634dec51e142265f80e24875e14104ebeb8537bbfb8cc5f96638abcf",
+    "visual/diff.png": "82a86749f0f37a605af18111920715c12068a91a6390d59268dd1269bb5c767b",
+    "visual/terrain-overlay.png": "5147688360ef9c5ff6d486ebae0b9608d31b1116c3715cac0c0071b68bacdbea"
+  }
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "S1",
+    "z_range": [
+      1786,
+      1850
+    ],
+    "interpretation": "北岸接入：保留",
+    "changed_columns": 0,
+    "middle_to_east": 0,
+    "east_to_middle": 0,
+    "max_row_shift": 0
+  },
+  {
+    "id": "S2",
+    "z_range": [
+      1851,
+      1894
+    ],
+    "interpretation": "北侧肩部：保留",
+    "changed_columns": 0,
+    "middle_to_east": 0,
+    "east_to_middle": 0,
+    "max_row_shift": 0
+  },
+  {
+    "id": "S3",
+    "z_range": [
+      1895,
+      1960
+    ],
+    "interpretation": "内谷东北坡：东域西压",
+    "changed_columns": 1692,
+    "middle_to_east": 1692,
+    "east_to_middle": 0,
+    "max_row_shift": 35
+  },
+  {
+    "id": "S4",
+    "z_range": [
+      1961,
+      2030
+    ],
+    "interpretation": "内谷东壁：东域西压",
+    "changed_columns": 1276,
+    "middle_to_east": 1276,
+    "east_to_middle": 0,
+    "max_row_shift": 25
+  },
+  {
+    "id": "S5",
+    "z_range": [
+      2031,
+      2090
+    ],
+    "interpretation": "南向坡麓：东域西压",
+    "changed_columns": 1174,
+    "middle_to_east": 1174,
+    "east_to_middle": 0,
+    "max_row_shift": 35
+  },
+  {
+    "id": "S6",
+    "z_range": [
+      2091,
+      2200
+    ],
+    "interpretation": "弥散坡面：保留",
+    "changed_columns": 0,
+    "middle_to_east": 0,
+    "east_to_middle": 0,
+    "max_row_shift": 0
+  },
+  {
+    "id": "S7",
+    "z_range": [
+      2201,
+      2300
+    ],
+    "interpretation": "南段山侧：保留",
+    "changed_columns": 0,
+    "middle_to_east": 0,
+    "east_to_middle": 0,
+    "max_row_shift": 0
+  },
+  {
+    "id": "S8",
+    "z_range": [
+      2301,
+      2383
+    ],
+    "interpretation": "海岸坡面：保留",
+    "changed_columns": 0,
+    "middle_to_east": 0,
+    "east_to_middle": 0,
+    "max_row_shift": 0
+  }
+]

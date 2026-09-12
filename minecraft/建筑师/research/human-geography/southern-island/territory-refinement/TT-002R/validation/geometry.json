@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "coverage": 2256681,
+  "no_unassigned_or_disputed": true,
+  "changed_within_64": true,
+  "main_edge_counts": [
+    1226,
+    1430
+  ],
+  "nonmain_edges_unchanged": true,
+  "locked": {
+    "commons": {
+      "count": 92124,
+      "before_sha256": "f524d185a46f281cd25c4c22a2b6b54d72876336986a6c1f19460af58ab3eea3",
+      "after_sha256": "f524d185a46f281cd25c4c22a2b6b54d72876336986a6c1f19460af58ab3eea3"
+    },
+    "west": {
+      "count": 575397,
+      "before_sha256": "e790dca2c51318c0c96ccc7330e828253ab6f99fc4dbcd1270e43a5abb22b652",
+      "after_sha256": "e790dca2c51318c0c96ccc7330e828253ab6f99fc4dbcd1270e43a5abb22b652"
+    },
+    "accepted_commons": {
+      "count": 92124,
+      "geometry_sha256": "4931a96cb2e2ea252e0e8e35b059957dc39bdf8cfb2c9ce06eda69f22d3d141b",
+      "unchanged": true
+    },
+    "accepted_connector": {
+      "count": 13661,
+      "geometry_sha256": "562d0a6ffa5ee938a0fa5436e3c435b8c8ce8047fad5746ce1e2b932de19a3d1",
+      "unchanged": true
+    },
+    "all_non_middle_east": {
+      "count": 5304408,
+      "unchanged": true
+    }
+  },
+  "topology": {
+    "2": {
+      "before_component_count": 2,
+      "after_component_count": 2,
+      "before_largest": 395137,
+      "after_largest": 390995,
+      "unchanged_secondary_components": true,
+      "before_enclaves": 0,
+      "after_enclaves": 0
+    },
+    "3": {
+      "before_component_count": 2088,
+      "after_component_count": 2088,
+      "before_largest": 1187110,
+      "after_largest": 1191252,
+      "unchanged_secondary_components": true,
+      "before_enclaves": 2,
+      "after_enclaves": 2
+    }
+  }
+}
