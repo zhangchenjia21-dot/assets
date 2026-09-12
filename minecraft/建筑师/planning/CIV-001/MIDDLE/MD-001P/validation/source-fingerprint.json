@@ -1,0 +1,70 @@
+{
+  "execution_base": "3fd23c18523498b92d85892f5c2b770ad1eb524e",
+  "territory_revision": 154,
+  "source_freshness": "ACCEPTED CACHE EPOCH ONLY",
+  "sources": [
+    {
+      "path": "tasks/MD-001P/TASK.md",
+      "bytes": 12017,
+      "sha256": "68dfa71c55734cf4ab70ffc6f724bf575742d91a9311caac42242056e5046d71"
+    },
+    {
+      "path": "decisions/D-024_TT-002R中域东域精修边界接受并进入MD-001P.md",
+      "bytes": 2801,
+      "sha256": "a082c3fec790ad111b0d4aa061b06199e8b0e37841bba6fa16f935c61a1f8771"
+    },
+    {
+      "path": "decisions/D-025_三域聚落密度与土地利用梯度.md",
+      "bytes": 5179,
+      "sha256": "9bbf526523f1b0d1e91308cc264ea4ba8c98e92f098a828d33eb7dfa026a25d8"
+    },
+    {
+      "path": "world/civilizations/CIV-001/README.md",
+      "bytes": 7128,
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d"
+    },
+    {
+      "path": "architecture/civilizations/CIV-001/Architecture-Grammar.md",
+      "bytes": 16494,
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6"
+    },
+    {
+      "path": "research/human-geography/southern-island/territory-refinement/TT-002R/refined-draft.json",
+      "bytes": 192548,
+      "sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919"
+    },
+    {
+      "path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/observed.sqlite",
+      "bytes": 244928512,
+      "sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7"
+    },
+    {
+      "path": "research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/derived.npz",
+      "bytes": 5083529,
+      "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff"
+    },
+    {
+      "path": "research/human-geography/southern-island/WB-003R/profile/movement-corridors.json",
+      "bytes": 827639,
+      "sha256": "4f7e1168bc14eb3a1104a96211cea22dd7dfc8ac4e4016caa332aa6a2e211b08"
+    },
+    {
+      "path": "research/human-geography/southern-island/WB-003R/profile/crossing-profile.json",
+      "bytes": 18720,
+      "sha256": "2da9fb77637fc43c3e012cc549e17db37c33b6a5f8f119f764d96a12555250b7"
+    },
+    {
+      "path": "research/build-sites/CIV-001/AB-001P1R/connector-geometry.json",
+      "bytes": 10445,
+      "sha256": "562d0a6ffa5ee938a0fa5436e3c435b8c8ce8047fad5746ce1e2b932de19a3d1"
+    },
+    {
+      "path": "research/build-sites/CIV-001/AB-001P1R/commons-geometry.json",
+      "bytes": 28290,
+      "sha256": "4931a96cb2e2ea252e0e8e35b059957dc39bdf8cfb2c9ce06eda69f22d3d141b"
+    }
+  ],
+  "world_writes": 0,
+  "new_world_block_reads": 0,
+  "broad_rescan": 0
+}

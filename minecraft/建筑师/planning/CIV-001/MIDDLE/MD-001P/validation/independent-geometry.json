@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    "exact 391002-column subarea/landuse/intensity partitions",
+    "four disjoint compact settlement envelopes",
+    "no settlement envelope in terrain reserve or connector",
+    "seven Middle-only 4-neighbor proposed corridors with exact endpoints and independently queried cached elevations",
+    "both East interfaces cross exact revision154 shared edges",
+    "D025 principal/secondary density gradient and capacity arithmetic",
+    "seven readable equal-scale maps",
+    "505 predecessor source files unchanged"
+  ],
+  "cross_domain_density_note": "West/East future built coverage is not measured or frozen; D025 ordering retained as next-plan constraint",
+  "world_writes": 0
+}

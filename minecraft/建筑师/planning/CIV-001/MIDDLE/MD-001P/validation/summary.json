@@ -1,0 +1,27 @@
+{
+  "status": "MASTERPLAN PROPOSAL / AWAITING GPT + OWNER REVIEW",
+  "technical_validation": "PASS",
+  "territory_revision": 154,
+  "middle_columns": 391002,
+  "subareas": 5,
+  "principal_hubs": 1,
+  "secondary_nodes": 3,
+  "corridors": 7,
+  "maps": 8,
+  "protected_source_files_unchanged": 505,
+  "world_writes": 0,
+  "new_world_block_reads": 0,
+  "broad_rescan": 0,
+  "limitations": [
+    "Accepted cache epoch; current world freshness not asserted",
+    "Corridors are reservations, not existing roads or verified cart routes",
+    "West/East future density remains a planning constraint, not measured compliance",
+    "No building design or Site approval"
+  ],
+  "evidence": [
+    "independent-geometry.json",
+    "source-audit.json",
+    "source-fingerprint.json",
+    "rebuild.json"
+  ]
+}

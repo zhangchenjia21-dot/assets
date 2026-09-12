@@ -1,0 +1,1 @@
+{"pixel_size":[1970,1100],"map_origin_pixel":[45,65],"world_origin":[-400,1440],"map_extent_exclusive":[-400,1440,1200,2400],"pixels_per_block_x":1,"pixels_per_block_z":1,"all_middle_columns_included":true,"note":"circles are node symbols only; actual envelope membership is RLE, not circle radius"}

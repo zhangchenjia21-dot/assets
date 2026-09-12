@@ -1,0 +1,132 @@
+{
+  "scope": "MD-001P planning bundle; manifest itself excluded",
+  "raw_cache": "Local-only",
+  "payload_bytes": 2558476,
+  "payload_mib": 2.44,
+  "files": {
+    "first-build-recommendation.md": {
+      "bytes": 1865,
+      "sha256": "eb0916f9b785322694dd93c65aaec74ca0d93abb4568521c356c023701824987"
+    },
+    "human-use-intensity.json": {
+      "bytes": 124327,
+      "sha256": "38907ffffff059cba49796ce0cfda09fab6aaa7257be17b9a5cddb0f06142b05"
+    },
+    "land-use.json": {
+      "bytes": 123794,
+      "sha256": "947fcd54efdee1e8fe69b44685fea7162405026f0cc5b3dfb45466c14d1ec82c"
+    },
+    "MASTERPLAN.json": {
+      "bytes": 5547,
+      "sha256": "a3cb23ec38e75921a7c74e029320ebd6032898c2e32222006a1078d6fa0abca6"
+    },
+    "MASTERPLAN.md": {
+      "bytes": 17012,
+      "sha256": "79369b090cc0d48b1646c689737e0947f90af890367a966291b2c0160dc4e509"
+    },
+    "movement-network.json": {
+      "bytes": 43764,
+      "sha256": "5619047410487bccd54593fd9df66f9d6adf267cac140151d393e93eca78f3be"
+    },
+    "principal-hub-structure.json": {
+      "bytes": 1494,
+      "sha256": "f27e0c43bc39f04f2ae75b78114896b51e31bf1d9ade5906eef8f40cf82ddb85"
+    },
+    "README.md": {
+      "bytes": 4689,
+      "sha256": "b9aab188b9233df67e27fcfee2b1ae5b6457a190ae596df5eaf737c4ff144a80"
+    },
+    "resident-life-system.json": {
+      "bytes": 3561,
+      "sha256": "4622eeeef3c48a192294cb157684e4e4d5f7002986dba916dad48bd845d3827c"
+    },
+    "settlement-nodes.json": {
+      "bytes": 21813,
+      "sha256": "4a2136c7aa509d2baeffe4dae3b2cb7c71cf9f2bcf9540b894cee17e702cfde9"
+    },
+    "subareas.json": {
+      "bytes": 41656,
+      "sha256": "495a3b1b763ebc56121398b4c4686e2400a52af23525a2851a77ceb08366dd87"
+    },
+    "tooling/主镇生活关系图.py": {
+      "bytes": 2876,
+      "sha256": "31e49961c033877b620b2a8ff4585cc763e4fdf40623902afe654239b93ee36f"
+    },
+    "tooling/总体规划汇编.py": {
+      "bytes": 30163,
+      "sha256": "36823a77b32d08549953b4574ec81e6162710226a9a005e11c459d18c723be2a"
+    },
+    "tooling/规划独立核验.py": {
+      "bytes": 5284,
+      "sha256": "899eccefa0838bc1300e40106e7713e5acf83c694720e1f95903866b36649611"
+    },
+    "validation/independent-geometry.json": {
+      "bytes": 720,
+      "sha256": "d6edc302ab459ad40427f507e161c7cfdb8f6a13dbef2366be0ddd284da27d99"
+    },
+    "validation/map-contract.json": {
+      "bytes": 299,
+      "sha256": "3d0c987bea23a8cb1deb0ef81f4dabc2f951ae174a7e8a38b9feb5ffedf5a53e"
+    },
+    "validation/PLANNER-CRITIC.md": {
+      "bytes": 3123,
+      "sha256": "ba808cabe209c4639a7a169f3d9ea2bced6499c8ac1f7288e2f2bb9bc31ff566"
+    },
+    "validation/planning-geometry.json": {
+      "bytes": 347,
+      "sha256": "d4de33ba9aa16fa95ec90c34795f4e7f7ecad2544ac42d5d1612e3204a2c9941"
+    },
+    "validation/principal-map-contract.json": {
+      "bytes": 239,
+      "sha256": "66c0b6190ea06c5bcc3018126ebb16523fb50ede95b41c061baa1421f7f24527"
+    },
+    "validation/rebuild.json": {
+      "bytes": 1900,
+      "sha256": "fdab49638a53bb3db21dd69f92cbc5738eb265f329c7b850798ed58ea2245c0c"
+    },
+    "validation/source-audit.json": {
+      "bytes": 356,
+      "sha256": "bc290a7b49d9b402c8a2cc211a934cb49d2e7d0dd1eabfb18cb1e5041f3ffeb8"
+    },
+    "validation/source-fingerprint.json": {
+      "bytes": 2652,
+      "sha256": "2e601d3a98cb03a20692b36fa487a545dee92a1abb795681c22a75ae931e8d12"
+    },
+    "validation/summary.json": {
+      "bytes": 795,
+      "sha256": "a0d4b385052f8ed1373ac345789e8e92e48ff773420a7046b068bf58229ec51d"
+    },
+    "visual/human-use-density.png": {
+      "bytes": 209480,
+      "sha256": "89dc6485933ecdbb026d99aa0eaf6566f59c07bd32d88f6aedad76edef9bc930"
+    },
+    "visual/land-use-masterplan.png": {
+      "bytes": 270311,
+      "sha256": "4918d0c90732405a7569be864bd4bd14fde10297f3cc9ac542884037e3cf6887"
+    },
+    "visual/movement-exchange.png": {
+      "bytes": 325603,
+      "sha256": "9c58774bbb38cc00d6f17d0edbee108b02fee749056666692f6c91623a7c91bd"
+    },
+    "visual/phasing-first-build.png": {
+      "bytes": 309451,
+      "sha256": "0daaa91155fa4af0468eb70ce6fc8911da50eda7e64abc2f09ed8eff11942a25"
+    },
+    "visual/planning-subareas.png": {
+      "bytes": 266893,
+      "sha256": "adf41ef44094c479ec7cd0b4e7ce5259eefcfa2d7670538faed150ac4707fbf3"
+    },
+    "visual/principal-life-structure.png": {
+      "bytes": 93870,
+      "sha256": "6416e2b71fcc958f3d387bf859692b0771b96c15650af3a6668c63ccfe29927c"
+    },
+    "visual/settlement-hierarchy.png": {
+      "bytes": 321741,
+      "sha256": "25184a8c15e54964ec6931693414bb56a03da0623aae721b85ccfd19bcc12c16"
+    },
+    "visual/terrain-base.png": {
+      "bytes": 322851,
+      "sha256": "21d690cb0a16c75076cae20b63c4875ef1f7d10435b707ad4ded0b25251b5273"
+    }
+  }
+}

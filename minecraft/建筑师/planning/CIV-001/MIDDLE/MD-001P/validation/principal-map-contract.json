@@ -1,0 +1,16 @@
+{
+  "status": "PLANNING PROPOSAL",
+  "world_bounds_exclusive": [
+    221,
+    1493,
+    452,
+    1799
+  ],
+  "origin_pixel": [
+    50,
+    70
+  ],
+  "pixels_per_block_x": 3.0,
+  "pixels_per_block_z": 3.0,
+  "symbols_not_footprints": true
+}

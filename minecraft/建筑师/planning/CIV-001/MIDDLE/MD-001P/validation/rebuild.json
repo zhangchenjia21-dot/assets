@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "byte_identical": true,
+  "files": {
+    "human-use-intensity.json": "38907ffffff059cba49796ce0cfda09fab6aaa7257be17b9a5cddb0f06142b05",
+    "land-use.json": "947fcd54efdee1e8fe69b44685fea7162405026f0cc5b3dfb45466c14d1ec82c",
+    "MASTERPLAN.json": "a3cb23ec38e75921a7c74e029320ebd6032898c2e32222006a1078d6fa0abca6",
+    "movement-network.json": "5619047410487bccd54593fd9df66f9d6adf267cac140151d393e93eca78f3be",
+    "principal-hub-structure.json": "f27e0c43bc39f04f2ae75b78114896b51e31bf1d9ade5906eef8f40cf82ddb85",
+    "settlement-nodes.json": "4a2136c7aa509d2baeffe4dae3b2cb7c71cf9f2bcf9540b894cee17e702cfde9",
+    "subareas.json": "495a3b1b763ebc56121398b4c4686e2400a52af23525a2851a77ceb08366dd87",
+    "visual/human-use-density.png": "89dc6485933ecdbb026d99aa0eaf6566f59c07bd32d88f6aedad76edef9bc930",
+    "visual/land-use-masterplan.png": "4918d0c90732405a7569be864bd4bd14fde10297f3cc9ac542884037e3cf6887",
+    "visual/movement-exchange.png": "9c58774bbb38cc00d6f17d0edbee108b02fee749056666692f6c91623a7c91bd",
+    "visual/phasing-first-build.png": "0daaa91155fa4af0468eb70ce6fc8911da50eda7e64abc2f09ed8eff11942a25",
+    "visual/planning-subareas.png": "adf41ef44094c479ec7cd0b4e7ce5259eefcfa2d7670538faed150ac4707fbf3",
+    "visual/principal-life-structure.png": "6416e2b71fcc958f3d387bf859692b0771b96c15650af3a6668c63ccfe29927c",
+    "visual/settlement-hierarchy.png": "25184a8c15e54964ec6931693414bb56a03da0623aae721b85ccfd19bcc12c16",
+    "visual/terrain-base.png": "21d690cb0a16c75076cae20b63c4875ef1f7d10435b707ad4ded0b25251b5273",
+    "validation/planning-geometry.json": "d4de33ba9aa16fa95ec90c34795f4e7f7ecad2544ac42d5d1612e3204a2c9941",
+    "validation/map-contract.json": "3d0c987bea23a8cb1deb0ef81f4dabc2f951ae174a7e8a38b9feb5ffedf5a53e",
+    "validation/principal-map-contract.json": "66c0b6190ea06c5bcc3018126ebb16523fb50ede95b41c061baa1421f7f24527"
+  }
+}
