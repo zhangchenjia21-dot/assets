@@ -1,0 +1,564 @@
+{
+ "blueprint": {
+  "blocks": 30253,
+  "conflicts": 83,
+  "states": 62,
+  "bounds": {
+   "minX": -22,
+   "maxX": 44,
+   "minY": -4,
+   "maxY": 44,
+   "minZ": -20,
+   "maxZ": 54
+  }
+ },
+ "scans": [
+  {
+   "x1": -24,
+   "y1": -6,
+   "z1": -22,
+   "x2": 46,
+   "y2": 50,
+   "z2": 16
+  },
+  {
+   "x1": -24,
+   "y1": -6,
+   "z1": 17,
+   "x2": 46,
+   "y2": 50,
+   "z2": 56
+  }
+ ],
+ "job_directories": [
+  "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T12-26-31-431Z-9498b33f-4d83-44b2-85d2-0e4a254f7dac",
+  "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T12-26-50-285Z-4fb86096-c0f6-411e-b488-fd142b4a3de1"
+ ],
+ "compare": {
+  "checked": 30253,
+  "mismatch": 0,
+  "diffs": []
+ },
+ "floating": {
+  "count": 1200,
+  "top": [
+   [
+    "minecraft:deepslate_tiles",
+    649
+   ],
+   [
+    "minecraft:cinnabar_bricks",
+    278
+   ],
+   [
+    "minecraft:polished_diorite",
+    19
+   ],
+   [
+    "minecraft:polished_deepslate_slab[type=bottom,waterlogged=false]",
+    9
+   ],
+   [
+    "minecraft:dark_oak_planks",
+    8
+   ],
+   [
+    "minecraft:stripped_dark_oak_log[axis=y]",
+    72
+   ],
+   [
+    "minecraft:barrel[facing=up,open=false]",
+    2
+   ],
+   [
+    "minecraft:dark_oak_wood[axis=y]",
+    39
+   ],
+   [
+    "minecraft:dark_oak_log[axis=y]",
+    89
+   ],
+   [
+    "minecraft:ladder[facing=south,waterlogged=false]",
+    1
+   ],
+   [
+    "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]",
+    4
+   ],
+   [
+    "minecraft:deepslate_bricks",
+    14
+   ],
+   [
+    "minecraft:diorite",
+    12
+   ],
+   [
+    "minecraft:polished_diorite_slab[type=bottom,waterlogged=false]",
+    4
+   ]
+  ],
+  "samples": [
+   [
+    1,
+    7,
+    -7,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    1,
+    7,
+    -6,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    1,
+    7,
+    -5,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    1,
+    7,
+    -4,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    2,
+    7,
+    -7,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    2,
+    7,
+    -6,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    2,
+    7,
+    -5,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    2,
+    7,
+    -4,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    3,
+    7,
+    -7,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    3,
+    7,
+    -6,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    3,
+    7,
+    -5,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    3,
+    7,
+    -4,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    4,
+    7,
+    -7,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    4,
+    7,
+    -6,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    4,
+    7,
+    -4,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    4,
+    4,
+    2,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    5,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    8,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    9,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    10,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    11,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    14,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    15,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    16,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    17,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    20,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    21,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    22,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    23,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    26,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    27,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    28,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    29,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    32,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    33,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    34,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    35,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    38,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    39,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    40,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    41,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    44,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    45,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    46,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    4,
+    4,
+    47,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    7,
+    -7,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    5,
+    7,
+    -6,
+    "minecraft:deepslate_tiles"
+   ],
+   [
+    5,
+    7,
+    -5,
+    "minecraft:polished_diorite"
+   ],
+   [
+    5,
+    7,
+    -4,
+    "minecraft:polished_diorite"
+   ],
+   [
+    5,
+    6,
+    2,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    6,
+    3,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    6,
+    4,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    4,
+    5,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    6,
+    5,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    4,
+    6,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    6,
+    6,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    4,
+    7,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    6,
+    7,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    6,
+    8,
+    "minecraft:cinnabar_bricks"
+   ],
+   [
+    5,
+    6,
+    9,
+    "minecraft:cinnabar_bricks"
+   ]
+  ]
+ },
+ "paths": {
+  "广场→门前台阶→门廊": {
+   "name": "广场→门前台阶→门廊",
+   "issues": [],
+   "steps": 7
+  },
+  "门廊→拱廊→东端（沿 x=5 通行带）": {
+   "name": "门廊→拱廊→东端（沿 x=5 通行带）",
+   "issues": [],
+   "steps": 8
+  },
+  "拱廊→交易厅（中门 z=26）": {
+   "name": "拱廊→交易厅（中门 z=26）",
+   "issues": [],
+   "steps": 10
+  },
+  "交易厅→主楼梯→上层大厅": {
+   "name": "交易厅→主楼梯→上层大厅",
+   "issues": [
+    {
+     "at": [
+      9,
+      7,
+      4
+     ],
+     "kind": "STEP_TOO_HIGH",
+     "detail": "相对上一格抬升 2 格（>1，需跳跃）"
+    }
+   ],
+   "steps": 10
+  },
+  "上层大厅东西贯通": {
+   "name": "上层大厅东西贯通",
+   "issues": [],
+   "steps": 5
+  },
+  "交易厅东西贯通（南跨）": {
+   "name": "交易厅东西贯通（南跨）",
+   "issues": [],
+   "steps": 5
+  },
+  "交易厅东西贯通（北跨）": {
+   "name": "交易厅东西贯通（北跨）",
+   "issues": [],
+   "steps": 5
+  },
+  "北侧后勤穿通": {
+   "name": "北侧后勤穿通",
+   "issues": [],
+   "steps": 5
+  },
+  "上层辅助房间（北侧）": {
+   "name": "上层辅助房间（北侧）",
+   "issues": [],
+   "steps": 4
+  },
+  "地窖梯（自交易层下行）": {
+   "name": "地窖梯（自交易层下行）",
+   "issues": [],
+   "steps": 7
+  }
+ },
+ "compartments": {
+  "拱廊（拱廊内净空）": {
+   "air": 207,
+   "largest": 189,
+   "pockets": 18
+  },
+  "交易厅南跨": {
+   "air": 227,
+   "largest": 194,
+   "pockets": 33
+  },
+  "交易厅北跨": {
+   "air": 323,
+   "largest": 323,
+   "pockets": 0
+  },
+  "上层大厅": {
+   "air": 3183,
+   "largest": 3183,
+   "pockets": 0
+  },
+  "上层辅助房间": {
+   "air": 396,
+   "largest": 109,
+   "pockets": 287
+  },
+  "地窖": {
+   "air": 36,
+   "largest": 9,
+   "pockets": 27
+  },
+  "门廊内部": {
+   "air": 114,
+   "largest": 114,
+   "pockets": 0
+  }
+ }
+}

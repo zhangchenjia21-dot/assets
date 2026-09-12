@@ -1,0 +1,42 @@
+  34                              
+  33                              
+  32                              
+  31              DD              
+  30              DDDDDDD         
+  29              DDDDDDDD        
+  28              DDDDDDDD        
+  27             DDDDDDDDDD       
+  26             DDDDDDDDDD       
+  25            DDDDDDDDDDDD      
+  24            DDDDDDDDDDDD      
+  23           DDDDDDDDDDDDDD     
+  22           DDDDDDDDDDDDDD     
+  21          DDDDDDDDDDDDDDDD    
+  20          DDDDDDDDDDDDDDDD    
+  19         DDDDDDDDDDDDDDDDDD   
+  18         DDDDDDDDDDDDDDDDDD   
+  17       DS#          ##     SD 
+  16        W#          ##        
+  15        SS          ##        
+  14        SS          ##        
+  13        SS          ##        
+  12       DSS          ###       
+  11      D SS          ###       
+  10    DD  SS          ###       
+   9     ###SS          ###       
+   8     ####W      *   ###       
+   7     ###D#WWWWDWWWWWD##WWWW   
+   6     ###WWWWWWWWWWWWWWWWWWW   
+   5      # SS   WWWWWWWWWWWWWW   
+   4     ###     W  ###########   
+   3             D      #D#####   
+   2        D DDDD      SD#####   
+   1     DDD  DDDDDDDDDD#######D  
+   0 sssDDDDDDD##DDD####DD###DDssD
+  -1 DDDssDDDD####sD####DD###DDDDD
+  -2        DD#### ###### ###DD   
+  -3        DD               DD   
+  -4        DDDb*DDDDDDDDDDDDDD   
+  -5                              
+  -6                              
+     -10123456789012345678901234567

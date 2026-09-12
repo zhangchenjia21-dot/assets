@@ -1,0 +1,35 @@
+  27                                                                
+  26                                                                
+  25                                                                
+  24             D#WWWWWWWW##WWWWWWWW###WWWWWWWWW##WWWWWWWWW#D      
+  23             D#WWWWWWWW##WWWbWWWWb##WbWWWWWWW##WWbWWWWWW#D      
+  22             D#WWWWWWWW##WWWWWWWWb##WWWWWWWWW##DWWWWWWWW#D      
+  21             D#WWWWWWWW#  WWWWWWWW#  WWWWWWWWW WWWWWWWWW#D      
+  20             D##########  ########d  #########  #########D      
+  19             D###########################################D      
+  18             DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD      
+  17             D#WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+  16             D#WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+  15             D#WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+  14             D#WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+  13             D#WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+  12             D#WWWWWWDWbWWWWWWWWWDWWbWWWWWWWWWWWWbWWWWWW#D      
+  11             D#WDDWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+  10             D#D   WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+   9    DDDDDDD  D#DDD WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+   8    DDDDDDD  D#D   WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW#D      
+   7    DDDDDDD  D#S  S######################################D      
+   6    DDDDDDD  DDSWWSDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD      
+   5    DDDDSSS  #d####################d####################d#####  
+   4    DDDDDDD  #################################################  
+   3    DDDDDDD  #################################################  
+   2    DDDDDDD                                                     
+   1    DDDDDDD                                                     
+   0    DDDDDDD                                                     
+  -1                                                                
+  -2                                                                
+  -3                                                                
+  -4                                                                
+  -5                                                                
+  -6                                                                
+     z→-2-10-9-8-7-6-5-4-3-2-1012345678901234567890123456789012345678901234567890

@@ -1,0 +1,342 @@
+[
+  {
+    "path": "_fetch_skill_v110.mjs",
+    "sha256": "ACDD4B6872377CB15BC10AC8C2EF2E79B542DB6DEAEF3BA9A8C480458072EB13",
+    "bytes": 2737
+  },
+  {
+    "path": "_skill_SKILL_v1.10.md",
+    "sha256": "1C719DB419F51410BA894D9731AB2026E68B4BBCB73B9C092863DFB5EDD85F9E",
+    "bytes": 52396
+  },
+  {
+    "path": "design/02_Architectural_Intent.md",
+    "sha256": "098C22C6D20F5E9163013ACE34E2425E6ADCEC163C885716B9642FB73448F30A",
+    "bytes": 8624
+  },
+  {
+    "path": "evidence/结构闭合与附着性核验.md",
+    "sha256": "C6397FA9D2722FA798CF8108CEE98B4274956B873A38E1016A7DD023FDA41B65",
+    "bytes": 4370
+  },
+  {
+    "path": "evidence/baseline/baseline-world.json",
+    "sha256": "CA1F049B5A630A32FE5C4D757CFE59FB9ED2A4A88974A4D2553FBD425F98AD45",
+    "bytes": 409
+  },
+  {
+    "path": "evidence/baseline/core-baseline-report.json",
+    "sha256": "37B0A957E4D88E285099195EC440A36A2E108E3DA2D26AF73F6C8177ED6AFE75",
+    "bytes": 862
+  },
+  {
+    "path": "evidence/baseline/frozen-core-baseline.json",
+    "sha256": "FC0520A755198B2834B682C1A72979D7A575588F9B34F41DDD9455953638184A",
+    "bytes": 2389
+  },
+  {
+    "path": "evidence/Completion_Report.md",
+    "sha256": "71A0F816148F29ACD5A893FC9CD13DD30C833A6334667E1ADE45033846000D6C",
+    "bytes": 20229
+  },
+  {
+    "path": "evidence/preview/blueprint-report.json",
+    "sha256": "9BCB07F634D46B9618C6C0FA0A5565FB978685B43FF04C559C999555F457A250",
+    "bytes": 386692
+  },
+  {
+    "path": "evidence/preview/plan-y1.txt",
+    "sha256": "28884F05F4BCB2A67C488F99C2CE7E6C8FEA94ED11E4FAB8C571D3C3104F3747",
+    "bytes": 2429
+  },
+  {
+    "path": "evidence/preview/plan-y7.txt",
+    "sha256": "0964A9B91786E543346F82ABD01E7A27BE75C7CAE9E5A0EC16480C4C0D86BEC7",
+    "bytes": 2429
+  },
+  {
+    "path": "evidence/preview/preview-A-城市接近.png",
+    "sha256": "EC0B0504CEEE94031ECF0AC6D7923C96EB85D647F8620E7597F043CBC5F170BA",
+    "bytes": 46903
+  },
+  {
+    "path": "evidence/preview/preview-B-正面.png",
+    "sha256": "B49008F0503832AE5119C42860F4EF83FA0B20389A8BEA8312D5D54052D991D5",
+    "bytes": 40279
+  },
+  {
+    "path": "evidence/preview/preview-C-整体体量.png",
+    "sha256": "AA9D7C786B2E418B8E45ACA023392460009CC8C754F1CE3290CCD8AB2A509570",
+    "bytes": 80193
+  },
+  {
+    "path": "evidence/preview/preview-D-后勤侧.png",
+    "sha256": "CFC1112B0F004C655A5D285FDE69DB5D87D96351516D6C2A2245073470B24ED4",
+    "bytes": 56665
+  },
+  {
+    "path": "evidence/preview/preview-E-门廊近景.png",
+    "sha256": "FF36786792A5E23974CA866D3D1816B2986FCBB9F3E96EFA34FABCB8B76EDDF4",
+    "bytes": 31222
+  },
+  {
+    "path": "evidence/preview/preview-F-俯视平面感.png",
+    "sha256": "4CFAFEA3C419CA17C9F12ACAFAADC38D8355855E3AF791A38B4A3C188EE9A778",
+    "bytes": 16382
+  },
+  {
+    "path": "evidence/preview/section-x12.txt",
+    "sha256": "5EDD34AC2790EF8D7ADF2F3F6DF618FA02948895A8442F659E81BF458CD58146",
+    "bytes": 2822
+  },
+  {
+    "path": "evidence/preview/section-z22.txt",
+    "sha256": "A07A14B08DA6A58831B5625D837115FCF1DFFAA435C46F900CB848761B35727C",
+    "bytes": 1470
+  },
+  {
+    "path": "evidence/preview/section-z8.txt",
+    "sha256": "EED5F9C3ADBA3DD47CFF95E2967A85CD137A1E86570F86B1ABBDC208B11E8EB4",
+    "bytes": 1470
+  },
+  {
+    "path": "evidence/verify-report.json",
+    "sha256": "27031B66234C676E7BA9A22AB533FA87E9EDED400402A18BA7160451C7C41A2A",
+    "bytes": 7510
+  },
+  {
+    "path": "evidence/views/baseline-1-城市接近_正面.png",
+    "sha256": "896E0DE8D6820C9EED1E1778A7355CDC32C1A07230AC76EF4554378A8588DD2A",
+    "bytes": 62499
+  },
+  {
+    "path": "evidence/views/baseline-10-山墙与钟塔细部.png",
+    "sha256": "890FB467C25E5BEA11774949C602EB95B8DB28DE68317994C9E2FE13767AD25E",
+    "bytes": 50254
+  },
+  {
+    "path": "evidence/views/baseline-11-背街与后勤立面.png",
+    "sha256": "0D50F39F137B67095DF5C1F3C775C018B3F45DE6AE1021FA4EF2463C986C1997",
+    "bytes": 33841
+  },
+  {
+    "path": "evidence/views/baseline-12-俯视平面.png",
+    "sha256": "4BD56BFAF839F7AD0F15E787B1B48CCA98468B082B9F4E3364E4B110ACFFD97C",
+    "bytes": 16877
+  },
+  {
+    "path": "evidence/views/baseline-2-整体体量_斜俯视.png",
+    "sha256": "EB64A779AE738A7177E09C81F9A238BC4CD9A645221947DD6243010B21AB0906",
+    "bytes": 95819
+  },
+  {
+    "path": "evidence/views/baseline-3-市场侧拱廊.png",
+    "sha256": "C287C5AC4B14E6758DB0BD104AA2448EBAF52BD8316DFE094E393CDDB456848B",
+    "bytes": 29132
+  },
+  {
+    "path": "evidence/views/baseline-4-入口门廊与大楼梯.png",
+    "sha256": "38C7ECF7147BC569177F72222A213049D85315D280C036998A7511453E43BB33",
+    "bytes": 35723
+  },
+  {
+    "path": "evidence/views/baseline-5-拱廊内看交易厅.png",
+    "sha256": "3ACB4F1867DD3DE117846B25F3BD2F335026A7D0693DE96F6E4A9958993D4259",
+    "bytes": 18904
+  },
+  {
+    "path": "evidence/views/baseline-6-交易厅内景（南跨）.png",
+    "sha256": "D7D25E62947304F73889903122E6A66489DB1230DCC67311C097CA80D7F5B7A6",
+    "bytes": 10385
+  },
+  {
+    "path": "evidence/views/baseline-7-上层大厅内景.png",
+    "sha256": "CCE8F1EA3D8D723014FD2D338642C1F6D82D31A7FC32083C7C38F412BBA51523",
+    "bytes": 13273
+  },
+  {
+    "path": "evidence/views/baseline-8-主楼梯与井道.png",
+    "sha256": "9531715A211B606168E0822F771A25FC6C8E6ACC3DD382B150BE1C11C57CA451",
+    "bytes": 7767
+  },
+  {
+    "path": "evidence/views/baseline-9-北侧后勤院.png",
+    "sha256": "CFDBB3455929845B8AE7DDE49F9C9A336CE3E715A7D5648607C5D0542C095BC1",
+    "bytes": 25983
+  },
+  {
+    "path": "evidence/views/baseline-manifest.json",
+    "sha256": "8A3940136A0417AB5431A2035E70530864E915AD6BCB8D1B28991B34D276556E",
+    "bytes": 2626
+  },
+  {
+    "path": "evidence/views/final-1-城市接近_正面.png",
+    "sha256": "2E7B7FE2A7BE282AF3F6DFB05B21B6E2D696C14F0142B4CA00C7CB9E305EAEE6",
+    "bytes": 62512
+  },
+  {
+    "path": "evidence/views/final-10-山墙与钟塔细部.png",
+    "sha256": "FE8E480D271B71B17DE15AB9B566D4A0CD0A03F7EC55C594C45D5999EC72EDBD",
+    "bytes": 51484
+  },
+  {
+    "path": "evidence/views/final-11-背街与后勤立面.png",
+    "sha256": "B99C76335957AC56590F433F4633E3F8E76556E12930CBAC0470ECB781BA272F",
+    "bytes": 35264
+  },
+  {
+    "path": "evidence/views/final-12-俯视平面.png",
+    "sha256": "7422544B87254E277691454C7A7FCEFD59400156E7BD1D7632C643AA0E3F0CE9",
+    "bytes": 16319
+  },
+  {
+    "path": "evidence/views/final-2-整体体量_斜俯视.png",
+    "sha256": "33AD89257C535312A5682A8DEFF7C21DDAD8DCF1A8C40744CAC11CB7A79B38FC",
+    "bytes": 99097
+  },
+  {
+    "path": "evidence/views/final-3-市场侧拱廊.png",
+    "sha256": "E1D7A87A4671D2E36BA47266DC5305FCE529184F5523B25328DCA46EA257909B",
+    "bytes": 29562
+  },
+  {
+    "path": "evidence/views/final-4-入口门廊与大楼梯.png",
+    "sha256": "873ABAED492C815D8ED1821F5654C10222699CBC3345D061BF3178E866A3E8FD",
+    "bytes": 36225
+  },
+  {
+    "path": "evidence/views/final-5-拱廊内看交易厅.png",
+    "sha256": "1B98726C7A0D31178E1EE903D3D5E1EACDBBD713689ECCA67B48A7214A30D236",
+    "bytes": 19522
+  },
+  {
+    "path": "evidence/views/final-6-交易厅内景（南跨）.png",
+    "sha256": "15B4DF4B09A18E39A6BD63ADC0EE7CA7CF75C6B365293EE0D4D34ED660BFE6AC",
+    "bytes": 9318
+  },
+  {
+    "path": "evidence/views/final-7-上层大厅内景.png",
+    "sha256": "6C3DFB0F5249824FD7D008E81C9B041AA9836F2049C4FB98F920831C8586C831",
+    "bytes": 13905
+  },
+  {
+    "path": "evidence/views/final-8-主楼梯与井道.png",
+    "sha256": "7904B571B25CA7D5332CEDA76243772C1E9CB1624DDA8CD56A5438D40E8512DA",
+    "bytes": 7617
+  },
+  {
+    "path": "evidence/views/final-9-北侧后勤院.png",
+    "sha256": "2657311E12C01F15DF7DA263407FC994DA7FA99C6CEC98C54729601424FB6FBF",
+    "bytes": 27596
+  },
+  {
+    "path": "evidence/views/final-manifest.json",
+    "sha256": "B988960CDAB7CD478831ED09136DFE694C81AAB5643B899F2F99CDD7E20844CC",
+    "bytes": 2572
+  },
+  {
+    "path": "evidence/world-identity.json",
+    "sha256": "F35C92E122118F948644AF862E80D4ADF0C4689EAEAD568103C7A970F02E1981",
+    "bytes": 956
+  },
+  {
+    "path": "README.md",
+    "sha256": "C9D65B75EFB64A94D1413E3EC8E5886CC6CA1E9DA10D596FCD32A25801B51565",
+    "bytes": 8724
+  },
+  {
+    "path": "research/01_研究记录.md",
+    "sha256": "1079FCC9C94837A8C9521EE85AF93B6F18CFDF6DD58E5559C311AF489B903782",
+    "bytes": 6515
+  },
+  {
+    "path": "research/blocks_schema.json",
+    "sha256": "E1F78BCD7DE4872C8265AABD118A7756CCB1681C4BFFE4130CF9DA94BB0B6951",
+    "bytes": 177705
+  },
+  {
+    "path": "research/palette.json",
+    "sha256": "DB7FDF3B84953A113EA9C279989D9A687BEE17B02EF27066C9C059D38A378A22",
+    "bytes": 497837
+  },
+  {
+    "path": "tools/构建.mjs",
+    "sha256": "50C912F8C67C9BE39CE20AA6FFF5BC2C227C95F1B0873F1DD86A527F30C3F3FD",
+    "bytes": 9167
+  },
+  {
+    "path": "tools/核验世界.mjs",
+    "sha256": "06C69D2829E87C90505786B5310AAAA3E03C131617DA61D2C2BFD24073C2ACB3",
+    "bytes": 8345
+  },
+  {
+    "path": "tools/基线.mjs",
+    "sha256": "6127D55E747789E7E554E86E2229E51DFF790569FCF6EC0591797686344F1846",
+    "bytes": 3195
+  },
+  {
+    "path": "tools/几何核心.mjs",
+    "sha256": "3A8A9EDF58EAD4CBDAA7437F3348AFE60D3260B4677FC23D4A34E474D5CA6A5B",
+    "bytes": 18619
+  },
+  {
+    "path": "tools/建筑生成器.mjs",
+    "sha256": "EFF82535B204DEFA055D39C205B15DC93C0961894A9A7DCC9B658035845014EC",
+    "bytes": 26046
+  },
+  {
+    "path": "tools/结构自检.mjs",
+    "sha256": "C26D343F412043BD64F8431EE0EDC46E830F927511C1BD6E423F5E2A24B979DE",
+    "bytes": 5491
+  },
+  {
+    "path": "tools/解码调色板.mjs",
+    "sha256": "8B728565EDDCD086351961D7E3D8CFED97A009743EB660CC8C1543FC5429113B",
+    "bytes": 3069
+  },
+  {
+    "path": "tools/精修.mjs",
+    "sha256": "4106AEF7EABC9DDE6ACA394D51AD28953798EE773484500E62A1D33F71EB03E0",
+    "bytes": 23008
+  },
+  {
+    "path": "tools/蓝本.mjs",
+    "sha256": "790C7F2D623F8590033FE1060DD476F94506A8E2C5C7287F99419D0920237D98",
+    "bytes": 2262
+  },
+  {
+    "path": "tools/设计参数.mjs",
+    "sha256": "1738D82A6E38C5B489250AF68B5BA5BDF01667C885151F52AE3DA6602D69DB62",
+    "bytes": 6599
+  },
+  {
+    "path": "tools/视图证据.mjs",
+    "sha256": "F10BCB47F2B867AB4B340281E3C6455ACE627415D98F0BAE07B64AF78CF9C945",
+    "bytes": 3806
+  },
+  {
+    "path": "tools/提取方块schema.mjs",
+    "sha256": "A9CA9D7C97E071595591A4AE7CDCD395CC0CD74ADDE9D5BE3CA3CF3321907C2E",
+    "bytes": 2657
+  },
+  {
+    "path": "tools/体素渲染.mjs",
+    "sha256": "02BA92431069D40F68CA8AB4345A8CEBC561E28E9133E68C5E7922FE655C5475",
+    "bytes": 19238
+  },
+  {
+    "path": "tools/验证调色板.mjs",
+    "sha256": "CCB3ECF5D29E9ED17592D88464692419FB432B010A22D6624BF90476E2DAAF84",
+    "bytes": 9612
+  },
+  {
+    "path": "tools/预览.mjs",
+    "sha256": "984EF1E333508FC6EDAA53AAFF707124E9AECE3F060B1B1AA4714FA5F2CEEA4D",
+    "bytes": 1899
+  },
+  {
+    "path": "tools/执行器.mjs",
+    "sha256": "DC02BB5A7A4B8B2E5C82858634A9087F3D2CD704321C20BDCCCAB06EEBB74953",
+    "bytes": 4412
+  }
+]

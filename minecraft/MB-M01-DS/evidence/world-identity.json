@@ -1,0 +1,28 @@
+{
+ "world_path": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/MB-V110-M01-DS-汉萨市政厅",
+ "created_job": "D:\\Games\\Minecraft\\AI工程\\AI-Offline\\jobs\\2026-09-12T12-22-23-232Z-d59be51f-3169-4cf1-8953-348b399b4772",
+ "stamp": "2026-09-12T12-22-22-029Z",
+ "generator": "FlatLevelSource",
+ "status": "PASS",
+ "changed_blocks": 30253,
+ "world_path_reported": "D:\\Games\\Minecraft\\.minecraft\\versions\\26.2-Fabric 0.19.5\\saves\\MB-V110-M01-DS-汉萨市政厅",
+ "rebuild_backup": {
+  "path": "D:\\Games\\Minecraft\\AI工程\\MB-V110-M01-DS\\snapshots\\pre-rebuild-2026-09-12T12-22-20-517Z"
+ },
+ "rebuilt_at": "2026-09-12T12:22:43.321Z",
+ "stages": [
+  "S1-场地与台基",
+  "S2-地窖",
+  "S3-交易层",
+  "S4-楼板与披檐",
+  "S5-上层大厅",
+  "S6-屋面",
+  "S7-屋脊钟塔",
+  "S8-开口与主楼梯",
+  "F1-功能精修",
+  "F2-建筑收口",
+  "F3-材质与环境",
+  "F4-构图与氛围",
+  "F5-Restraint"
+ ]
+}

@@ -1,0 +1,42 @@
+  34                               #  #                           
+  33                               #  #                           
+  32           ##                  #  #                   ##      
+  31         DD##DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  30         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  29         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  28         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  27         DD##DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  26         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  25         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  24         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  23         DD##DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  22         DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  21         DDDDDDDDDDDDDDDDDDDDD DDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  20         DDDDDDDDDDDDDDDDDDDDDdDDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  19         DD##DDDDDDDDDDDDDDDDDD DDDDDDDDDDDDDDDDDDDDDDDDDD    
+  18         DDDDDDDDDDDDDDDDDDDDDDdDDDDDDDDDDDDDDDDDDDDDDDDDD    
+  17           ##                                         ##      
+  16           ##                   d                     ##      
+  15           SS                                         SS      
+  14           SS                    d                    SS      
+  13           SS                                         SS      
+  12           SS                     d                   SS      
+  11           SS                                         SS      
+  10           SS                      d                  SS      
+   9           ##                                         ##      
+   8           ##                       d                 ##      
+   7           D#WWWWWWDWbWWWWWWWWWDWWbWWWWWWWWWWWWbWWWWWW#D      
+   6           WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW      
+   5          SWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW  SWWS
+   4           DD    DD    DD    DD    DD    DD    DD    DD#   DD 
+   3           DD    DD    DD    DD    DD    DD    DD    DD#   DD 
+   2           DD    DD    DD    DD    DD    DD    DD    DDS   DD 
+   1          DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD#D  DD 
+   0 sDDDDDsssDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDsssss
+  -1 DssDsDDDDDDDDDDDsDssDDDDsDDDDDDDsDssDDDDDDDDDsDDDsDDDDDsDDDDD
+  -2            DD DD    DD    DD    DD    DD    DD    DDDD       
+  -3            DD DD    DD   DDD    DD    DD D  DD    DDDD       
+  -4           DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD      
+  -5                                                              
+  -6                                                              
+     0-9-8-7-6-5-4-3-2-1012345678901234567890123456789012345678901234567890
