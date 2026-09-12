@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "base_commit": "4e276890000ffb87219aaaf1e8c2ea09cc6a8624",
+  "unchanged": [
+    "revision154 source hash",
+    "Commons",
+    "P1 exact members",
+    "P2-P5 entire records",
+    "N1-N4 entire records",
+    "R2-R7",
+    "East interfaces",
+    "water interfaces",
+    "all land-use and intensity columns outside P1"
+  ],
+  "G1_connected_columns": 7175,
+  "G1_clearance_columns": 1451,
+  "G1_cached_height_and_slope_independent_check": true,
+  "R1_segments_reconstruct_original": true,
+  "world_writes": 0
+}

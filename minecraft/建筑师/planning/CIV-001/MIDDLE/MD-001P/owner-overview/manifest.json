@@ -1,9 +1,9 @@
 {
-  "status": "AWAITING GPT + OWNER REVIEW",
+  "status": "R1 AWAITING GPT + OWNER REVIEW",
   "world_writes": 0,
   "sha256": {
-    "README.md": "2dcb8d5732c08ce7c2e5ecdf56a8a300d861eaa393de90f7831ec9055060d343",
-    "中域规划示意图.png": "c90311ce26d45c17f185c18c8dc44bcd5d38c71d76310b4efa6ef3663aa490dc",
-    "规划示意图绘制.py": "b0327f6000d5ee7ec83f35bf3e4a73f1df34736061130165142276f40a5066fc"
+    "README.md": "58c6437045185f0f4ef548a59eb1770cc58d469514a698d604575bc1d6f09466",
+    "中域规划示意图.png": "511cabc079758f0ca2a9fd6cdd9576dc3bce24e86f4bf172f14d8e7505259546",
+    "规划示意图绘制.py": "b1c0564d4d0825ec94277b7086c12f19f9425101a4ab3165febd6d8241d06c21"
   }
 }

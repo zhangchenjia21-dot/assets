@@ -1,1 +1,46 @@
-{"pixel_size":[1970,1100],"map_origin_pixel":[45,65],"world_origin":[-400,1440],"map_extent_exclusive":[-400,1440,1200,2400],"pixels_per_block_x":1,"pixels_per_block_z":1,"all_middle_columns_included":true,"note":"circles are node symbols only; actual envelope membership is RLE, not circle radius"}
+{
+  "pixel_size": [
+    2180,
+    1220
+  ],
+  "map_origin_pixel": [
+    50,
+    145
+  ],
+  "world_origin": [
+    -400,
+    1440
+  ],
+  "map_extent_exclusive": [
+    -400,
+    1440,
+    1200,
+    2400
+  ],
+  "pixels_per_block_x": 1,
+  "pixels_per_block_z": 1,
+  "all_middle_columns_included": true,
+  "local_gateway": {
+    "pixel_size": [
+      1900,
+      1220
+    ],
+    "map_origin_pixel": [
+      70,
+      160
+    ],
+    "world_origin": [
+      70,
+      1500
+    ],
+    "extent_exclusive": [
+      70,
+      1500,
+      450,
+      1880
+    ],
+    "pixels_per_block_x": 2.5,
+    "pixels_per_block_z": 2.5
+  },
+  "symbols_not_footprints": true
+}

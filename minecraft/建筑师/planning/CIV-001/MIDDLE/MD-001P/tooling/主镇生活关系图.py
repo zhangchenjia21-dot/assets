@@ -20,7 +20,7 @@ for dest in ('A2','A3','A4'):
         q=a+(b-a)*t;r=a+(b-a)*min(t+.055,1);dr.line((*q,*r),fill='#b3dfea',width=2)
 for p in n['activity_centres']:
     xx,zz=points[p['id']];dr.ellipse((xx-6,zz-6,xx+6,zz+6),fill='white');dr.text((xx+10,zz-22),p['id'],font=font,fill='white')
-explain=['A1 日常市场、秤验、记录与协商','A2 共享仓院、装卸与车马寄存','A3 家庭生活、小供给、清洁储水预留','A4 轻修理、商住与旅宿混合','红面：N1 混合候选面，不是建成占地','虚线：功能联系，街线待局部规划','活动重心不是独占功能分区','上住下作/下店、共享院落、短巷','货物在院内停装，居民全天可通行','热工与生活冲突用院落/运营分隔','不可填平图内地形保留缺口','首栋推荐在 N1 内另做 Local Site Gate']
+explain=['A1 日常市场、秤验、记录与协商','A2 共享仓院、装卸与车马寄存','A3 家庭生活、小供给、清洁储水预留','A4 轻修理、商住与旅宿混合','红面：N1 混合候选面，不是建成占地','虚线：功能联系，街线待局部规划','活动重心不是独占功能分区','上住下作/下店、共享院落、短巷','货物在院内停装，居民全天可通行','热工与生活冲突用院落/运营分隔','不可填平图内地形保留缺口','N1 主镇保留；R1 首栋改荐 G1']
 for i,t in enumerate(explain):dr.text((990,100+i*56),t,font=small,fill='white')
 for x in range((x0//50+1)*50,x1,50):dr.text((ox+(x-x0)*scale,45),str(x),font=small,fill='white')
 for z in range((z0//50+1)*50,z1,50):dr.text((5,oz+(z-z0)*scale),str(z),font=small,fill='white')

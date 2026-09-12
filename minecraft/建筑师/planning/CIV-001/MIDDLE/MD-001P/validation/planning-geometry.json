@@ -1,1 +1,25 @@
-{"status":"PASS","middle_area":391002,"subarea_area_sum":391002,"subareas_cover_middle":true,"land_use_cover_middle":true,"settlement_envelopes_disjoint":true,"node_envelope_areas":[24614,14495,24000,9500],"no_envelope_in_reserve":true,"no_envelope_in_commons_or_east":true,"all_paths_dry_middle":true,"secondary_7_reserved":true,"world_writes":0}
+{
+  "status": "PASS",
+  "planning_revision": "R1",
+  "middle_area": 391002,
+  "subareas_cover_middle": true,
+  "land_use_cover_middle": true,
+  "intensity_cover_middle": true,
+  "node_envelope_areas": [
+    24614,
+    14495,
+    24000,
+    9500,
+    7175
+  ],
+  "envelopes_disjoint": true,
+  "G1_only_node_in_connector": true,
+  "threshold_columns": 2077,
+  "gateway_columns": 7175,
+  "gateway_building_exclusion_columns": 1451,
+  "outside_P1_geometry_unchanged": true,
+  "path_segments": 8,
+  "original_R1_reconstructed": true,
+  "independent_evidence": "scope-delta.json",
+  "world_writes": 0
+}

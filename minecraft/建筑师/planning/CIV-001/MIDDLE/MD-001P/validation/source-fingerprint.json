@@ -1,5 +1,5 @@
 {
-  "execution_base": "3fd23c18523498b92d85892f5c2b770ad1eb524e",
+  "execution_base": "4e276890000ffb87219aaaf1e8c2ea09cc6a8624",
   "territory_revision": 154,
   "source_freshness": "ACCEPTED CACHE EPOCH ONLY",
   "sources": [
@@ -62,9 +62,32 @@
       "path": "research/build-sites/CIV-001/AB-001P1R/commons-geometry.json",
       "bytes": 28290,
       "sha256": "4931a96cb2e2ea252e0e8e35b059957dc39bdf8cfb2c9ce06eda69f22d3d141b"
+    },
+    {
+      "path": "tasks/MD-001P-R1/TASK.md",
+      "bytes": 7884,
+      "sha256": "b50cedeef2b131fec77b8502edbeff59371e7d70d8700e84812b8b5275b65ac2"
+    },
+    {
+      "path": "decisions/D-026_P1连接带升级为中域门户聚落并修订MD-001P.md",
+      "bytes": 3646,
+      "sha256": "328f49e63e982a1c20e83958ccddd2c87895858be81b299bf15aaaedc708b1e8"
+    },
+    {
+      "path": "planning/CIV-001/MIDDLE/MD-001P/独立审核.md",
+      "bytes": 6282,
+      "sha256": "95e919ca522b54287aca8b48c84d31101afe805ce00760fbb3a7be671eac7c0a"
     }
   ],
   "world_writes": 0,
   "new_world_block_reads": 0,
-  "broad_rescan": 0
+  "broad_rescan": 0,
+  "previous_execution_base": "3fd23c18523498b92d85892f5c2b770ad1eb524e",
+  "planning_revision": "R1",
+  "local_map_cache": {
+    "path": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\建筑师\\MD-001P\\terrain.npz",
+    "bytes": 337790840,
+    "sha256": "9fe3fde5b8f41858da6fdbda507d82b8663919ccc17b4168bcdd536b44f102f6",
+    "delivery": "LOCAL_ONLY"
+  }
 }

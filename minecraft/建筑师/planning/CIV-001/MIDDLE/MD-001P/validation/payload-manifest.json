@@ -1,132 +1,178 @@
 {
-  "scope": "MD-001P planning bundle; manifest itself excluded",
-  "raw_cache": "Local-only",
-  "payload_bytes": 2558476,
-  "payload_mib": 2.44,
+  "scope": "current MD-001P R1 planning bundle; manifest itself excluded",
+  "planning_revision": "R1",
+  "base_commit": "4e276890000ffb87219aaaf1e8c2ea09cc6a8624",
+  "raw_cache": "LOCAL_ONLY",
+  "payload_bytes": 2287235,
+  "payload_mib": 2.181,
   "files": {
     "first-build-recommendation.md": {
-      "bytes": 1865,
-      "sha256": "eb0916f9b785322694dd93c65aaec74ca0d93abb4568521c356c023701824987"
+      "bytes": 2403,
+      "sha256": "5c04adf37fde00af377a2b8ece7cf893be4dbca5c84f11f4733a55a64a1feb76"
     },
     "human-use-intensity.json": {
-      "bytes": 124327,
-      "sha256": "38907ffffff059cba49796ce0cfda09fab6aaa7257be17b9a5cddb0f06142b05"
+      "bytes": 130476,
+      "sha256": "37165768edc05e504716dc396bcca568a24eb6ee47d0cea53251d8dda9a95470"
     },
     "land-use.json": {
-      "bytes": 123794,
-      "sha256": "947fcd54efdee1e8fe69b44685fea7162405026f0cc5b3dfb45466c14d1ec82c"
+      "bytes": 131030,
+      "sha256": "3cec78a3390a42bc702f7ad8bd5dfe747250f99f7f0f83c0d9700d4eaf20aefb"
     },
     "MASTERPLAN.json": {
-      "bytes": 5547,
-      "sha256": "a3cb23ec38e75921a7c74e029320ebd6032898c2e32222006a1078d6fa0abca6"
+      "bytes": 6238,
+      "sha256": "26d4d07b6e1b719dbcbf2436060d498cbe7acb905df8bfd4614336c44664e784"
     },
     "MASTERPLAN.md": {
-      "bytes": 17012,
-      "sha256": "79369b090cc0d48b1646c689737e0947f90af890367a966291b2c0160dc4e509"
+      "bytes": 19781,
+      "sha256": "5e82f8976d27432bf3df64893c1614d5e6ac663976ee6397d205bbf78acc93e4"
     },
     "movement-network.json": {
-      "bytes": 43764,
-      "sha256": "5619047410487bccd54593fd9df66f9d6adf267cac140151d393e93eca78f3be"
+      "bytes": 44415,
+      "sha256": "7212e8a879d0d0ecde7f6a3b720799518518223ea54702212c4923bec9f0fbab"
+    },
+    "owner-overview/manifest.json": {
+      "bytes": 374,
+      "sha256": "ba625ddfef0cfd0f202e87f0c7dfec8c8971c48d3b8bc2ad88e17ee834e32f5b"
+    },
+    "owner-overview/README.md": {
+      "bytes": 627,
+      "sha256": "58c6437045185f0f4ef548a59eb1770cc58d469514a698d604575bc1d6f09466"
+    },
+    "owner-overview/中域规划示意图.png": {
+      "bytes": 177782,
+      "sha256": "511cabc079758f0ca2a9fd6cdd9576dc3bce24e86f4bf172f14d8e7505259546"
+    },
+    "owner-overview/规划示意图绘制.py": {
+      "bytes": 265,
+      "sha256": "b1c0564d4d0825ec94277b7086c12f19f9425101a4ab3165febd6d8241d06c21"
     },
     "principal-hub-structure.json": {
       "bytes": 1494,
       "sha256": "f27e0c43bc39f04f2ae75b78114896b51e31bf1d9ade5906eef8f40cf82ddb85"
     },
     "README.md": {
-      "bytes": 4689,
-      "sha256": "b9aab188b9233df67e27fcfee2b1ae5b6457a190ae596df5eaf737c4ff144a80"
+      "bytes": 5802,
+      "sha256": "cc420c295cc457c810b724c88cb466cf04357e7e64adf94d49eda07c151b5716"
     },
     "resident-life-system.json": {
-      "bytes": 3561,
-      "sha256": "4622eeeef3c48a192294cb157684e4e4d5f7002986dba916dad48bd845d3827c"
+      "bytes": 4375,
+      "sha256": "edb60c8d3482f1e57898964e266782b2c27edfe1d652c2bbea630d437a1a6ff6"
+    },
+    "REVISION-R1.md": {
+      "bytes": 3970,
+      "sha256": "acf0588f2a779cc04d48c9b28f4a5dd6697e089d0d02fc765f9d263d89f00e4f"
     },
     "settlement-nodes.json": {
-      "bytes": 21813,
-      "sha256": "4a2136c7aa509d2baeffe4dae3b2cb7c71cf9f2bcf9540b894cee17e702cfde9"
+      "bytes": 25533,
+      "sha256": "6baa7b5ada3cd546cc87ed0957d43d27834a8370262d1e1c38be0a9910d52334"
     },
     "subareas.json": {
-      "bytes": 41656,
-      "sha256": "495a3b1b763ebc56121398b4c4686e2400a52af23525a2851a77ceb08366dd87"
+      "bytes": 52710,
+      "sha256": "3fdf842459ae7fe932e98c452dafdba2b46050957d928a08126acb4aefafe935"
     },
     "tooling/主镇生活关系图.py": {
-      "bytes": 2876,
-      "sha256": "31e49961c033877b620b2a8ff4585cc763e4fdf40623902afe654239b93ee36f"
+      "bytes": 2868,
+      "sha256": "4b4e7a7c9e25a4671fa08b2c45d243d17b0aa605d0fb048b01c724546d8e5a6f"
     },
     "tooling/总体规划汇编.py": {
-      "bytes": 30163,
-      "sha256": "36823a77b32d08549953b4574ec81e6162710226a9a005e11c459d18c723be2a"
+      "bytes": 274,
+      "sha256": "6bec7455256c919f9ac807d8bbbfe498b35b481ea22312e61d590d573fcdaa5b"
     },
     "tooling/规划独立核验.py": {
-      "bytes": 5284,
-      "sha256": "899eccefa0838bc1300e40106e7713e5acf83c694720e1f95903866b36649611"
+      "bytes": 9126,
+      "sha256": "3c16aae2c1c617c3a18b7cae4eafd21a73c57f0a09339caedacd2131a8dd1a25"
+    },
+    "tooling/门户聚落修订.py": {
+      "bytes": 14010,
+      "sha256": "1a506f35a3ca1ca167838027664649da14808946210518a00e1bafbeea271ef1"
+    },
+    "tooling/门户规划制图.py": {
+      "bytes": 8687,
+      "sha256": "44aa6e760bacf336f2929f3c66096d437a2456934f1f5f3bbdd86564d8ff9380"
+    },
+    "validation/gateway-evidence.json": {
+      "bytes": 5540,
+      "sha256": "6de9cfffbd6d924bf8ee03bd5b44cc7c8ca622b128d5a225cf3cb5a768a3b2f6"
     },
     "validation/independent-geometry.json": {
-      "bytes": 720,
-      "sha256": "d6edc302ab459ad40427f507e161c7cfdb8f6a13dbef2366be0ddd284da27d99"
+      "bytes": 806,
+      "sha256": "c644d61beb428c4d63b7951b2e1c2d8dd280932d75a565351d56a86ffb19caad"
     },
     "validation/map-contract.json": {
-      "bytes": 299,
-      "sha256": "3d0c987bea23a8cb1deb0ef81f4dabc2f951ae174a7e8a38b9feb5ffedf5a53e"
+      "bytes": 650,
+      "sha256": "92a938d8fd44399920dfd215fd522b714dc071a2d1c0111dd76809987e91460c"
     },
     "validation/PLANNER-CRITIC.md": {
-      "bytes": 3123,
-      "sha256": "ba808cabe209c4639a7a169f3d9ea2bced6499c8ac1f7288e2f2bb9bc31ff566"
+      "bytes": 1820,
+      "sha256": "c6e4040e5b242583528d077f76af8831febc06014d3eb117b03ccdb5c7daa25b"
     },
     "validation/planning-geometry.json": {
-      "bytes": 347,
-      "sha256": "d4de33ba9aa16fa95ec90c34795f4e7f7ecad2544ac42d5d1612e3204a2c9941"
+      "bytes": 597,
+      "sha256": "837fde6f1008a78555867c4fe2053dff52247238ca903d4f3e12bea6732f743b"
     },
     "validation/principal-map-contract.json": {
       "bytes": 239,
       "sha256": "66c0b6190ea06c5bcc3018126ebb16523fb50ede95b41c061baa1421f7f24527"
     },
     "validation/rebuild.json": {
-      "bytes": 1900,
-      "sha256": "fdab49638a53bb3db21dd69f92cbc5738eb265f329c7b850798ed58ea2245c0c"
+      "bytes": 2339,
+      "sha256": "97e38c945d48be3962c124ffbc2c901d49d577c669512af029fe808162f9ab53"
+    },
+    "validation/scope-delta.json": {
+      "bytes": 528,
+      "sha256": "3875e235e69864128cc13ffc177a40840d0fa77db3ccb12c81585598a1449aa1"
     },
     "validation/source-audit.json": {
       "bytes": 356,
-      "sha256": "bc290a7b49d9b402c8a2cc211a934cb49d2e7d0dd1eabfb18cb1e5041f3ffeb8"
+      "sha256": "0be6a530a777697748e04663d6c07e4396be36c6acabd0200215d50d464418e4"
     },
     "validation/source-fingerprint.json": {
-      "bytes": 2652,
-      "sha256": "2e601d3a98cb03a20692b36fa487a545dee92a1abb795681c22a75ae931e8d12"
+      "bytes": 3560,
+      "sha256": "a8ed0b0f8baceb80e1b2729df3b09e96a7efe091441a1f0f1fedbf123c2d74bd"
     },
     "validation/summary.json": {
-      "bytes": 795,
-      "sha256": "a0d4b385052f8ed1373ac345789e8e92e48ff773420a7046b068bf58229ec51d"
+      "bytes": 985,
+      "sha256": "21f6ad529c6170e95343de522cf91649667b3761dfb7ae19787baf83d1a8730f"
+    },
+    "visual/gateway-principal-detail.png": {
+      "bytes": 185306,
+      "sha256": "00f136812cc96e60cadac4b80e6588e5e68830ea14d5766770c9bbbb39b5d4eb"
     },
     "visual/human-use-density.png": {
-      "bytes": 209480,
-      "sha256": "89dc6485933ecdbb026d99aa0eaf6566f59c07bd32d88f6aedad76edef9bc930"
+      "bytes": 172662,
+      "sha256": "9c0403aec912d9e35c6ad0695461f9ee86c238408cdedfef860f941206ea1540"
     },
     "visual/land-use-masterplan.png": {
-      "bytes": 270311,
-      "sha256": "4918d0c90732405a7569be864bd4bd14fde10297f3cc9ac542884037e3cf6887"
+      "bytes": 192936,
+      "sha256": "c195ccfd47175f80474bce88c75d00b7193aa8d44374708d3c472c79aaed32d9"
     },
     "visual/movement-exchange.png": {
-      "bytes": 325603,
-      "sha256": "9c58774bbb38cc00d6f17d0edbee108b02fee749056666692f6c91623a7c91bd"
+      "bytes": 175842,
+      "sha256": "3b4cdbf34b2be3cecb0aa9505d140135874415cba3be953b00f69a9010d80c33"
     },
     "visual/phasing-first-build.png": {
-      "bytes": 309451,
-      "sha256": "0daaa91155fa4af0468eb70ce6fc8911da50eda7e64abc2f09ed8eff11942a25"
+      "bytes": 175091,
+      "sha256": "4d2e101f67bf16f330f9dc104ca4d910d93da74186674e3e314c8d7ce8a51614"
     },
     "visual/planning-subareas.png": {
-      "bytes": 266893,
-      "sha256": "adf41ef44094c479ec7cd0b4e7ce5259eefcfa2d7670538faed150ac4707fbf3"
+      "bytes": 162796,
+      "sha256": "f4e534a197fc1d27063c40933a3111ed850438ceb695bec552bf572dcd38dc42"
     },
     "visual/principal-life-structure.png": {
-      "bytes": 93870,
-      "sha256": "6416e2b71fcc958f3d387bf859692b0771b96c15650af3a6668c63ccfe29927c"
+      "bytes": 93059,
+      "sha256": "39369d8349d327fd250b9ca72d962be14409aa357832d6bf9336404b78302b9b"
     },
     "visual/settlement-hierarchy.png": {
-      "bytes": 321741,
-      "sha256": "25184a8c15e54964ec6931693414bb56a03da0623aae721b85ccfd19bcc12c16"
+      "bytes": 177782,
+      "sha256": "511cabc079758f0ca2a9fd6cdd9576dc3bce24e86f4bf172f14d8e7505259546"
     },
     "visual/terrain-base.png": {
-      "bytes": 322851,
-      "sha256": "21d690cb0a16c75076cae20b63c4875ef1f7d10435b707ad4ded0b25251b5273"
+      "bytes": 285819,
+      "sha256": "77251582bc37c55feffe50987b1fbd56c9fdcad62f0469c1ec36c168225924c2"
+    },
+    "独立审核.md": {
+      "bytes": 6282,
+      "sha256": "95e919ca522b54287aca8b48c84d31101afe805ce00760fbb3a7be671eac7c0a"
     }
   }
 }
