@@ -1,0 +1,141 @@
+{
+  "sources": [
+    {
+      "id": "E-CANON",
+      "path": "minecraft/建筑师/world/civilizations/CIV-001/README.md",
+      "git_commit": "b4e27fd3fddc19cc1d67082b7f63394d01711607",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "authority": "APPROVED_CANON",
+      "freshness": "已接受调查/Canon的仓库版本；非当日世界重扫",
+      "used_for": "身份/尺度/阻力/边界约束"
+    },
+    {
+      "id": "E-ATLAS",
+      "path": "minecraft/建筑师/research/natural-geography/NG-3/manifest/atlas.json",
+      "git_commit": "b4e27fd3fddc19cc1d67082b7f63394d01711607",
+      "sha256": "f4b765372f86dace3ced3d83311c517ae50957e1edf1edd7c3a86620d0356859",
+      "authority": "DERIVED",
+      "freshness": "已接受调查/Canon的仓库版本；非当日世界重扫",
+      "used_for": "身份/尺度/阻力/边界约束"
+    },
+    {
+      "id": "E-R1",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/manifest/profile.json",
+      "git_commit": "b4e27fd3fddc19cc1d67082b7f63394d01711607",
+      "sha256": "0052bdab4cfaf06b2575dbd172e239d5234b86a2b175d5ac7c53f3f3c7d547ee",
+      "authority": "DERIVED",
+      "freshness": "已接受调查/Canon的仓库版本；非当日世界重扫",
+      "used_for": "身份/尺度/阻力/边界约束"
+    },
+    {
+      "id": "E-SCOPE",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/profile/scope-completion.json",
+      "git_commit": "b4e27fd3fddc19cc1d67082b7f63394d01711607",
+      "sha256": "ee2952caa2242e344e503494aa7304720434a27c921cf934ef64b4b2f31eefdc",
+      "authority": "DERIVED",
+      "freshness": "已接受调查/Canon的仓库版本；非当日世界重扫",
+      "used_for": "身份/尺度/阻力/边界约束"
+    },
+    {
+      "id": "E-STORE",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/manifest/store.json",
+      "git_commit": "b4e27fd3fddc19cc1d67082b7f63394d01711607",
+      "sha256": "25ce3168361f8bca56d3df9cacb20aaf40347406f244f4a44e8ec3428e9d2bc9",
+      "authority": "DERIVED",
+      "freshness": "已接受调查/Canon的仓库版本；非当日世界重扫",
+      "used_for": "身份/尺度/阻力/边界约束"
+    },
+    {
+      "id": "SKILL-SKILL",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/main/skill/codex/minecraft-planner/SKILL.md",
+      "sha256": "5299e2c882fe3a86d774579661ca0beaed1c1454f0ca6c24befc84154dc40d68",
+      "authority": "OWNER_CONSTRAINT",
+      "version": "v0.1",
+      "retrieved": "2026-09-13",
+      "immutable_evidence": "sources/skill/SKILL.md"
+    },
+    {
+      "id": "SKILL-architecture-kit-requirements",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/main/skill/codex/minecraft-planner/references/architecture-kit-requirements.md",
+      "sha256": "3195fdb049289a2f91e9e3a24ff0af4ec314d87930d82e33f414426c44558aec",
+      "authority": "OWNER_CONSTRAINT",
+      "version": "v0.1",
+      "retrieved": "2026-09-13",
+      "immutable_evidence": "sources/skill/references/architecture-kit-requirements.md"
+    },
+    {
+      "id": "SKILL-causal-growth-model",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/main/skill/codex/minecraft-planner/references/causal-growth-model.md",
+      "sha256": "df738a6ff724d2462e816bf86896fdc21fb83c8067465018de98cab0c02b45e8",
+      "authority": "OWNER_CONSTRAINT",
+      "version": "v0.1",
+      "retrieved": "2026-09-13",
+      "immutable_evidence": "sources/skill/references/causal-growth-model.md"
+    },
+    {
+      "id": "SKILL-flows-externalities-and-demand",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/main/skill/codex/minecraft-planner/references/flows-externalities-and-demand.md",
+      "sha256": "989a284d9c765b660de974f5fc863664121de31b5a536a20046082c4122b3a0a",
+      "authority": "OWNER_CONSTRAINT",
+      "version": "v0.1",
+      "retrieved": "2026-09-13",
+      "immutable_evidence": "sources/skill/references/flows-externalities-and-demand.md"
+    },
+    {
+      "id": "SKILL-planner-builder-handoff",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/main/skill/codex/minecraft-planner/references/planner-builder-handoff.md",
+      "sha256": "39bb92658a67e16fea94bb5cd12a82bde35c5f3e12712487a65992fda219e32c",
+      "authority": "OWNER_CONSTRAINT",
+      "version": "v0.1",
+      "retrieved": "2026-09-13",
+      "immutable_evidence": "sources/skill/references/planner-builder-handoff.md"
+    },
+    {
+      "id": "SKILL-planning-artifacts-and-maps",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/main/skill/codex/minecraft-planner/references/planning-artifacts-and-maps.md",
+      "sha256": "952e40c729baa847fb625a3a86943c488d3ce91c77acad8087573d5d249d19f3",
+      "authority": "OWNER_CONSTRAINT",
+      "version": "v0.1",
+      "retrieved": "2026-09-13",
+      "immutable_evidence": "sources/skill/references/planning-artifacts-and-maps.md"
+    },
+    {
+      "id": "SKILL-regression-rubric",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/main/skill/codex/minecraft-planner/references/regression-rubric.md",
+      "sha256": "99ae0be6b840ef5445cf4455518ac4d1ff0d9e02100448455f6167ec24845473",
+      "authority": "OWNER_CONSTRAINT",
+      "version": "v0.1",
+      "retrieved": "2026-09-13",
+      "immutable_evidence": "sources/skill/references/regression-rubric.md"
+    },
+    {
+      "id": "DATA-observed.sqlite",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/observed.sqlite.gz",
+      "sha256": "f3599956cabc3a456b3fe799996c29335079c52656e615679cfc0d8d3a51f842",
+      "authority": "OBSERVED",
+      "selected_fields": "samples x,z,exposed_y only; derived land_component,slope8 only; atlas NGEO/NHYD within study only",
+      "not_used": "targets,assessments,zones,k2/k3/k4/k5及任何人文方案"
+    },
+    {
+      "id": "DATA-derived",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/derived.npz",
+      "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff",
+      "authority": "DERIVED",
+      "selected_fields": "samples x,z,exposed_y only; derived land_component,slope8 only; atlas NGEO/NHYD within study only",
+      "not_used": "targets,assessments,zones,k2/k3/k4/k5及任何人文方案"
+    },
+    {
+      "id": "DATA-objects",
+      "path": "minecraft/建筑师/research/natural-geography/NG-3/atlas/objects.jsonl",
+      "sha256": "41b9018a2cbc323c26b393882d710f759abd3b5129bb130e4603c048c0450062",
+      "authority": "DERIVED",
+      "selected_fields": "samples x,z,exposed_y only; derived land_component,slope8 only; atlas NGEO/NHYD within study only",
+      "not_used": "targets,assessments,zones,k2/k3/k4/k5及任何人文方案"
+    }
+  ],
+  "world_reads": 0,
+  "world_writes": 0,
+  "sampling_note": "snapshot样本107712列；不是新世界调查",
+  "isolation": "不读取后续人文规划、G1/N1/Middle、Architecture Design或其评审；WB-003R也未读取，避免混入既有经济规划。Canon入口的自含文字保留。",
+  "prior_context_caveat": "同一会话早前出现过项目状态摘要；本轮不调用其方案内容作为依据，无法声称新会话级盲测。"
+}

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "PROGRAM-01",
+    "demand_refs": [
+      "DEMAND-01",
+      "DEMAND-05"
+    ],
+    "scope": "REGION-01",
+    "required_functions": [
+      "生产腹地的生活/维护",
+      "周期交易与储备",
+      "分散水粮保障"
+    ],
+    "dedicated_buildings": "不规定；先验证需求是否可嵌入家庭/共有空间",
+    "kit_requirements": [
+      "平地生产与居住互接",
+      "可增长的混合市场与服务接口",
+      "财富/地权/季节强度差异"
+    ],
+    "status": "HYPOTHESIS"
+  },
+  {
+    "id": "PROGRAM-02",
+    "demand_refs": [
+      "DEMAND-03",
+      "DEMAND-04"
+    ],
+    "scope": "REGION-02 / CANON-COMMONS",
+    "required_functions": [
+      "贸易换载与候渡",
+      "联盟独立公众到达",
+      "货运与议事流可分离"
+    ],
+    "dedicated_buildings": "不提供会堂或仓库的精确尺度",
+    "kit_requirements": [
+      "岸陆/坡麓高差适应",
+      "公共入口与货运接口区分",
+      "身份连续但不复制同一整栋"
+    ],
+    "status": "HYPOTHESIS"
+  },
+  {
+    "id": "PROGRAM-03",
+    "demand_refs": [
+      "DEMAND-02",
+      "DEMAND-05",
+      "DEMAND-06"
+    ],
+    "scope": "REGION-03",
+    "required_functions": [
+      "共同体日常服务",
+      "就近减重加工",
+      "燃料更新/清水/废物界面"
+    ],
+    "dedicated_buildings": "实际矿口/规模未核前不列矿城建筑数",
+    "kit_requirements": [
+      "断续台地与维护通路适应",
+      "污染工序与洁净生活关系",
+      "年龄/山坡/权属/工种改变构型"
+    ],
+    "status": "HYPOTHESIS"
+  }
+]

@@ -1,0 +1,225 @@
+[
+  {
+    "id": "ROUTE-01",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-01",
+    "to": "SETTLEMENT-03",
+    "mode": "land",
+    "flow": "粮食、日常市场与赴会合流",
+    "magnitude": "REGIONAL",
+    "historical_stage": "GROWTH-02",
+    "sampled_length_blocks": 389,
+    "sampled_absolute_rise": 1,
+    "resistance_cost": 398,
+    "max_sample_grade": 0.125,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-02",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-02",
+    "to": "SETTLEMENT-03",
+    "mode": "land",
+    "flow": "北弧居民与低地产品",
+    "magnitude": "REGIONAL",
+    "historical_stage": "GROWTH-02",
+    "sampled_length_blocks": 389,
+    "sampled_absolute_rise": 3,
+    "resistance_cost": 422,
+    "max_sample_grade": 0.125,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-03",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-03",
+    "to": "SETTLEMENT-04",
+    "mode": "water",
+    "flow": "代表/旅人及轻货候选渡运",
+    "magnitude": "STRATEGIC",
+    "historical_stage": "GROWTH-03",
+    "sampled_length_blocks": 469,
+    "sampled_absolute_rise": 13,
+    "resistance_cost": 7133,
+    "max_sample_grade": 0.35355339059327373,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "8格采样可能漏窄沟、崖、人工物；不验证净空/碰撞/驮队通行",
+      "水线包含岸端接入，不是已验证船道；未知水深流向/风浪"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-04",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-04",
+    "to": "SETTLEMENT-05",
+    "mode": "land",
+    "flow": "公地与中域政治连接，重货不强制穿公地",
+    "magnitude": "STRATEGIC",
+    "historical_stage": "GROWTH-03",
+    "sampled_length_blocks": 417,
+    "sampled_absolute_rise": 15,
+    "resistance_cost": 581,
+    "max_sample_grade": 0.25,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-05",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-05",
+    "to": "SETTLEMENT-06",
+    "mode": "land",
+    "flow": "粮食上山、制品下山、驮运接续",
+    "magnitude": "REGIONAL",
+    "historical_stage": "GROWTH-02",
+    "sampled_length_blocks": 701,
+    "sampled_absolute_rise": 52,
+    "resistance_cost": 1443,
+    "max_sample_grade": 0.5303300858899106,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-06",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-06",
+    "to": "SETTLEMENT-07",
+    "mode": "land",
+    "flow": "山地侧向共同体联系",
+    "magnitude": "REGIONAL",
+    "historical_stage": "GROWTH-04",
+    "sampled_length_blocks": 809,
+    "sampled_absolute_rise": 173,
+    "resistance_cost": 3329,
+    "max_sample_grade": 0.75,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-07",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-07",
+    "to": "SETTLEMENT-08",
+    "mode": "land",
+    "flow": "分段驮运与信息支线，不假定连续重车道",
+    "magnitude": "LOW",
+    "historical_stage": "GROWTH-04",
+    "sampled_length_blocks": 1284,
+    "sampled_absolute_rise": 329,
+    "resistance_cost": 5400,
+    "max_sample_grade": 0.75,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-08",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-08",
+    "to": "SETTLEMENT-09",
+    "mode": "land",
+    "flow": "条件性货物集运到南岸",
+    "magnitude": "REGIONAL_CONDITIONAL",
+    "historical_stage": "GROWTH-04",
+    "sampled_length_blocks": 945,
+    "sampled_absolute_rise": 210,
+    "resistance_cost": 3550,
+    "max_sample_grade": 0.75,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-09",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-03",
+    "to": "SETTLEMENT-05",
+    "mode": "water",
+    "flow": "商业货物直达中域，分离议事流",
+    "magnitude": "REGIONAL",
+    "historical_stage": "GROWTH-02",
+    "sampled_length_blocks": 949,
+    "sampled_absolute_rise": 12,
+    "resistance_cost": 6857,
+    "max_sample_grade": 0.35355339059327373,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "8格采样可能漏窄沟、崖、人工物；不验证净空/碰撞/驮队通行",
+      "水线包含岸端接入，不是已验证船道；未知水深流向/风浪"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  },
+  {
+    "id": "ROUTE-10",
+    "authority": "DESIGN_PROPOSAL",
+    "from": "SETTLEMENT-09",
+    "to": "SETTLEMENT-05",
+    "mode": "water",
+    "flow": "条件性绕島海运：批量货物与返程粮食",
+    "magnitude": "REGIONAL_CONDITIONAL",
+    "historical_stage": "GROWTH-04",
+    "sampled_length_blocks": 2239,
+    "sampled_absolute_rise": 8,
+    "resistance_cost": 6187,
+    "max_sample_grade": 0.25,
+    "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+    "limitations": [
+      "8格采样可能漏窄沟、崖、人工物；不验证净空/碰撞/驮队通行",
+      "水线包含岸端接入，不是已验证船道；未知水深流向/风浪"
+    ],
+    "source_refs": [
+      "E-R1",
+      "A-TRANSPORT"
+    ]
+  }
+]

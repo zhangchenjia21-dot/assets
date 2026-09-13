@@ -1,0 +1,93 @@
+[
+  {
+    "id": "FLOW-01",
+    "origin": [
+      "REGION-01"
+    ],
+    "destination": [
+      "REGION-02",
+      "REGION-03"
+    ],
+    "goods": "食物、牲畜、日用品",
+    "magnitude": "REGIONAL / seasonal peak",
+    "routes": [
+      "ROUTE-01",
+      "ROUTE-02",
+      "ROUTE-09",
+      "ROUTE-05"
+    ],
+    "reverse": "金属成品/工具，不预设所有原矿送西域",
+    "spatial_effect": "转运与储备集中于03/05，居民生产分散于腹地",
+    "externality": "牲畜、装卸与公众候渡时间分离；控制损耗"
+  },
+  {
+    "id": "FLOW-02",
+    "origin": [
+      "REGION-03"
+    ],
+    "destination": [
+      "REGION-02",
+      "REGION-01"
+    ],
+    "goods": "分选后的矿品/石材/成品",
+    "magnitude": "REGIONAL_CONDITIONAL",
+    "routes": [
+      "ROUTE-05",
+      "ROUTE-06",
+      "ROUTE-07",
+      "ROUTE-08"
+    ],
+    "reverse": "粮、补给、劳力",
+    "spatial_effect": "重货优先就近减重/加工；远端量不足不维持昂贵通道",
+    "externality": "烟尘废水与供水/住居不可混为一个下游接收面"
+  },
+  {
+    "id": "FLOW-03",
+    "origin": [
+      "REGION-01",
+      "REGION-02",
+      "REGION-03"
+    ],
+    "destination": [
+      "CANON-COMMONS"
+    ],
+    "goods": "代表、信使、共同誓约与动员",
+    "magnitude": "低日常 / 高事件",
+    "routes": [
+      "ROUTE-03",
+      "ROUTE-04"
+    ],
+    "spatial_effect": "政治中心保持可达但不夺取所有商业主路",
+    "externality": "公地活动峰值与常住人口位阶分开"
+  },
+  {
+    "id": "FLOW-04",
+    "origin": [
+      "区域经核实林灌地/水源"
+    ],
+    "destination": [
+      "各地方生产生活节点"
+    ],
+    "goods": "清水、燃料和维护劳动",
+    "magnitude": "LOCAL / REGIONAL",
+    "routes": [],
+    "spatial_effect": "在下游水源/林料证据前不锁厂址、规模或斜坡开发",
+    "externality": "采伐、尾矿、侵蚀与矿水不可由魔法虚化"
+  },
+  {
+    "id": "FLOW-05",
+    "origin": [
+      "SETTLEMENT-09"
+    ],
+    "destination": [
+      "SETTLEMENT-05"
+    ],
+    "goods": "条件性批量矿品/石材；返程粮食",
+    "magnitude": "REGIONAL_CONDITIONAL",
+    "routes": [
+      "ROUTE-10"
+    ],
+    "spatial_effect": "仅在航行和货量成立时，与跨山段比较维护/换载成本；不能用水线长度证明可航",
+    "externality": "岸端装卸与水源/居民分离；天气停航需储备"
+  }
+]

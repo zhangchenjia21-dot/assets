@@ -1,0 +1,8 @@
+{
+  "base": "bc96aa5",
+  "columns": 6893568,
+  "observed_sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7",
+  "schema": "southern-island-group-profile/1.0",
+  "scope_status": "CLOSED_WITHIN_STUDY",
+  "world_writes": 0
+}

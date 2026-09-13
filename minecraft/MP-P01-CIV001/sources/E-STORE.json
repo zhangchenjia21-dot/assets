@@ -1,0 +1,25 @@
+{
+  "compression": "gzip lossless mtime=0",
+  "files": [
+    {
+      "name": "observed.sqlite",
+      "uncompressed_size": 244928512,
+      "sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7",
+      "archive": "observed.sqlite.gz",
+      "archive_size": 37165391,
+      "archive_sha256": "f3599956cabc3a456b3fe799996c29335079c52656e615679cfc0d8d3a51f842",
+      "roundtrip": "PASS",
+      "integrity_check": "ok"
+    },
+    {
+      "name": "regional-profile.sqlite",
+      "uncompressed_size": 525959168,
+      "sha256": "677378f98cff9e6acaeb32700a141382bceb15621acf5a4487ac3b17821293b6",
+      "archive": "regional-profile.sqlite.gz",
+      "archive_size": 74580439,
+      "archive_sha256": "1ee7351a66a9104d1a2d1e4bc5e668738253e103ad0dcad42f370b2f73bde7ef",
+      "roundtrip": "PASS",
+      "integrity_check": "ok"
+    }
+  ]
+}

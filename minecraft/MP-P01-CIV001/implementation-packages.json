@@ -1,0 +1,145 @@
+{
+  "state": "HANDOFF_READY",
+  "scope_of_ready": "国家尺度到区域Planner的约束交接；非建筑施工就绪",
+  "packages": [
+    {
+      "id": "PACKAGE-01",
+      "scale": "REGIONAL_SYSTEM",
+      "recipient": "next minecraft-planner",
+      "scope_ref": "REGION-01",
+      "why": "连续低平地支持分散生产；集市和接驳分别集中，不能把岛全涂成住宅或农田。",
+      "planner_fixed": [
+        "保留本轮提出的节点角色关系；节点搜索点可由更精细证据修订",
+        "先填现有服务关系空缺；保留连片生产地与步行到达，边界由地权和水供应决定。",
+        "遵守已批准三席/公地主权，不得以自然粗分区替代地籍"
+      ],
+      "builder_adaptable": [
+        "exact footprint",
+        "Plan/Section",
+        "结构、屋顶、立面、开口",
+        "palette / Minecraft translation",
+        "局部地形和详细路径实现"
+      ],
+      "regional_planner_to_resolve": [
+        "实际可用地/供水/地权/既有对象",
+        "节点规模与catchment",
+        "路线纵断与季节可用性",
+        "下钻后的建筑/组团包和边界"
+      ],
+      "dependencies": [
+        "EVIDENCE-REFRESH",
+        "PROGRAM-01"
+      ],
+      "historical_growth_stage": [
+        "GROWTH-01",
+        "GROWTH-02",
+        "GROWTH-03",
+        "GROWTH-04"
+      ],
+      "world_write_authorization": false,
+      "direct_builder_ready": false,
+      "reason_not_direct_build": "L0交接到L1；尚无parcel/envelope，不向Builder伪造可直接施工包",
+      "conflict_protocol": "UPSTREAM_PLANNING_ISSUE：附证据、冲突关系与最小修订对象，回退受影响Morphology/Handoff Gate"
+    },
+    {
+      "id": "PACKAGE-02",
+      "scale": "REGIONAL_SYSTEM",
+      "recipient": "next minecraft-planner",
+      "scope_ref": "REGION-02",
+      "why": "跨水、低陆运与山地驮运的转换成本叠加；不是任意港口圈。",
+      "planner_fixed": [
+        "保留本轮提出的节点角色关系；节点搜索点可由更精细证据修订",
+        "沿可用台地和货运接口断续增长；保留公地独立通达，不把贸易垄断变成领土吞并。",
+        "遵守已批准三席/公地主权，不得以自然粗分区替代地籍"
+      ],
+      "builder_adaptable": [
+        "exact footprint",
+        "Plan/Section",
+        "结构、屋顶、立面、开口",
+        "palette / Minecraft translation",
+        "局部地形和详细路径实现"
+      ],
+      "regional_planner_to_resolve": [
+        "实际可用地/供水/地权/既有对象",
+        "节点规模与catchment",
+        "路线纵断与季节可用性",
+        "下钻后的建筑/组团包和边界"
+      ],
+      "dependencies": [
+        "EVIDENCE-REFRESH",
+        "PROGRAM-02"
+      ],
+      "historical_growth_stage": [
+        "GROWTH-01",
+        "GROWTH-02",
+        "GROWTH-03",
+        "GROWTH-04"
+      ],
+      "world_write_authorization": false,
+      "direct_builder_ready": false,
+      "reason_not_direct_build": "L0交接到L1；尚无parcel/envelope，不向Builder伪造可直接施工包",
+      "conflict_protocol": "UPSTREAM_PLANNING_ISSUE：附证据、冲突关系与最小修订对象，回退受影响Morphology/Handoff Gate"
+    },
+    {
+      "id": "PACKAGE-03",
+      "scale": "REGIONAL_SYSTEM",
+      "recipient": "next minecraft-planner",
+      "scope_ref": "REGION-03",
+      "why": "多点氏族/共同体与矿地服务保持分散；主峰构成交通阻力而不是首都位置。",
+      "planner_fixed": [
+        "保留本轮提出的节点角色关系；节点搜索点可由更精细证据修订",
+        "水粮燃料和安全出入先成立，再纳入季节生产点；不铺满脊线，不默认统一矿业城市。",
+        "遵守已批准三席/公地主权，不得以自然粗分区替代地籍"
+      ],
+      "builder_adaptable": [
+        "exact footprint",
+        "Plan/Section",
+        "结构、屋顶、立面、开口",
+        "palette / Minecraft translation",
+        "局部地形和详细路径实现"
+      ],
+      "regional_planner_to_resolve": [
+        "实际可用地/供水/地权/既有对象",
+        "节点规模与catchment",
+        "路线纵断与季节可用性",
+        "下钻后的建筑/组团包和边界"
+      ],
+      "dependencies": [
+        "EVIDENCE-REFRESH",
+        "PROGRAM-03"
+      ],
+      "historical_growth_stage": [
+        "GROWTH-01",
+        "GROWTH-02",
+        "GROWTH-03",
+        "GROWTH-04"
+      ],
+      "world_write_authorization": false,
+      "direct_builder_ready": false,
+      "reason_not_direct_build": "L0交接到L1；尚无parcel/envelope，不向Builder伪造可直接施工包",
+      "conflict_protocol": "UPSTREAM_PLANNING_ISSUE：附证据、冲突关系与最小修订对象，回退受影响Morphology/Handoff Gate"
+    }
+  ],
+  "implementation_sequence": [
+    {
+      "step": 1,
+      "action": "GPT+Owner审核本提案；不修改Canon",
+      "world_writes": 0
+    },
+    {
+      "step": 2,
+      "action": "更新关键水源/岸端/坡地证据，比较A/B运输分支",
+      "world_writes": 0
+    },
+    {
+      "step": 3,
+      "action": "先完成共享跨域接口关系，再分别下钻三域；不按历史阶段机械复制施工批次",
+      "world_writes": 0
+    },
+    {
+      "step": 4,
+      "action": "L1→L2→必要L3/L4后产出具体Builder packages；另取得world-write授权",
+      "world_writes": 0
+    }
+  ]
+}

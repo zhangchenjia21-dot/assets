@@ -1,0 +1,39 @@
+[
+  {
+    "id": "GROWTH-01",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "地方生计、低地可占地与山地共同体各自组织",
+    "response": "低岛分散生活/生产及周期会聚，山地存在低强度混合生计与本地服务；不是成熟矿业人口先行",
+    "new_constraint": "已有季节往来与共同体土地关系，使后来集市不随意搬动",
+    "next_pressure": "地方剩余与工具需求促成跨水交换",
+    "standalone_viability": "若后来没有联盟，仍是地方小规模自给+有限交换；不预留未来议会大道"
+  },
+  {
+    "id": "GROWTH-02",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "丰余、矿工专业化及转运损耗",
+    "response": "03/05成为接口，05→06驮运接续；商业流直接到转换地",
+    "new_constraint": "服务投放、到达习惯和权利关系增加迁移成本",
+    "next_pressure": "争端、公共工程和交换规则需要共同协商",
+    "standalone_viability": "双边季节贸易即能支持共享服务，不需要未来议会或港城"
+  },
+  {
+    "id": "GROWTH-03",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "三席联盟及已批准共同领土制度",
+    "response": "04获得政治位阶；议事流与商业流分叉，维护东connector通达",
+    "new_constraint": "共同主权不能被中域通行费或西域飞地吃掉；旧贸易不全搬公地",
+    "next_pressure": "远端共同体纳入交换并要求较近日常服务",
+    "standalone_viability": "以现有西北核心和有限山地网络运作，不依赖09外贸"
+  },
+  {
+    "id": "GROWTH-04",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "只有在水粮/资源/通行规模得到支持后，远端交换深化",
+    "response": "07/08分段服务，09参与陆海比选；失败则不升级常年中心",
+    "new_constraint": "山地地方权利、供水与生态成本限制扩张",
+    "next_pressure": "维护成本、资源衰退或航路中断可能导致节点降级",
+    "standalone_viability": "南端可保持季节生产与地方互助，不要求永远增长",
+    "contraction": "09量不足撤回季节集运；保留地方土地关系和维护通道，不强行维持大港"
+  }
+]

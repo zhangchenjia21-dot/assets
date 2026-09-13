@@ -1,0 +1,4613 @@
+{
+  "plan_id": "MP-P01",
+  "revision": 1,
+  "state": "HANDOFF_READY",
+  "scale": "POLITY_TERRITORY",
+  "context_modifier": "GREENFIELD",
+  "context_note": "实际人文现状未查询；仅在未建关系规划意义采用 GREENFIELD，任何已存在对象须下游保护，历史序列是提案而非实存。",
+  "bounds": [
+    -800,
+    1376,
+    2463,
+    3487
+  ],
+  "authority": "DESIGN_PROPOSAL",
+  "world_writes": 0,
+  "nodes": [
+    {
+      "id": "SETTLEMENT-01",
+      "name": "西部腹地集市",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -412,
+          2164
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 66,
+        "land_component": 1,
+        "slope8": 0.0
+      },
+      "role": "regional_center",
+      "historical_stage": "GROWTH-01",
+      "users": "西域居民、农牧与常见手工业的日常中心",
+      "why": "低地粮食/牲畜与家庭加工先可自立；丰余交换使腹地节点先于联盟出现",
+      "catchment": "高常住、周期来客；服务西岛南部腹地",
+      "downstream_implication": "粮食季节性集散；不得吞噬连续生产地",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "高常住、周期来客；服务西岛南部腹地",
+      "political_role": "地方自治下的功能节点",
+      "symbolic_role": "地方身份，不自动赋予圣地资格"
+    },
+    {
+      "id": "SETTLEMENT-02",
+      "name": "北弧次级集市",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -204,
+          1508
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 64,
+        "land_component": 1,
+        "slope8": 0.0883883461356163
+      },
+      "role": "secondary_market",
+      "historical_stage": "GROWTH-01",
+      "users": "西岛北弧家庭与牧用地",
+      "why": "C 形陆路绕行成本使北弧不必每日依赖南部中心",
+      "catchment": "中低常住、地方集市；与01竞争北西接壤腹地",
+      "downstream_implication": "保留分散生产，不铺成连续城带",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "中低常住、地方集市；与01竞争北西接壤腹地",
+      "political_role": "地方自治下的功能节点",
+      "symbolic_role": "地方身份，不自动赋予圣地资格"
+    },
+    {
+      "id": "SETTLEMENT-03",
+      "name": "西岸内湾接驳候选",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -444,
+          1788
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 67,
+        "land_component": 1,
+        "slope8": 0.0
+      },
+      "role": "gateway",
+      "historical_stage": "GROWTH-02",
+      "users": "跨水粮运、旅人和议事代表",
+      "why": "接近公地的内湾岸段减少陆运绕行，但岸坡和航道尚待核实",
+      "catchment": "少量常住、季节性高吞吐；不是人口首位城",
+      "downstream_implication": "装卸与候渡共用到达走廊，候渡不阻日常通行",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "少量常住、季节性高吞吐；不是人口首位城",
+      "political_role": "地方自治下的功能节点",
+      "symbolic_role": "地方身份，不自动赋予圣地资格"
+    },
+    {
+      "id": "SETTLEMENT-04",
+      "name": "联盟公地代表点",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -124,
+          1788
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 70,
+        "land_component": 2,
+        "slope8": 0.125
+      },
+      "role": "institutional_center",
+      "historical_stage": "GROWTH-03",
+      "users": "三席、裁决、共同誓约与公共工程协商",
+      "why": "共同主权降低地方主城独占议会的制度成本",
+      "catchment": "低常住但高政治位阶；不等同经济首都",
+      "downstream_implication": "准确边界只引用 Canon，点不是公地面域",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "低常住但高政治位阶；不等同经济首都",
+      "political_role": "三席共同主权",
+      "symbolic_role": "共同誓约"
+    },
+    {
+      "id": "SETTLEMENT-05",
+      "name": "坡麓转换中心候选",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          276,
+          1764
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 69,
+        "land_component": 2,
+        "slope8": 0.1875
+      },
+      "role": "regional_gateway",
+      "historical_stage": "GROWTH-02",
+      "users": "跨岛交换、仓储、加工和山地驮运",
+      "why": "低地进入山坡的成本转换使货物分批、换载和结算集中",
+      "catchment": "中等常住、跨域吞吐高；不垄断全部外贸",
+      "downstream_implication": "重货停在低处，居民和洁净补给避污染物流",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "中等常住、跨域吞吐高；不垄断全部外贸",
+      "political_role": "地方自治下的功能节点",
+      "symbolic_role": "地方身份，不自动赋予圣地资格"
+    },
+    {
+      "id": "SETTLEMENT-06",
+      "name": "北山共同体服务候选",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          644,
+          1756
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 91,
+        "land_component": 2,
+        "slope8": 0.1767766922712326
+      },
+      "role": "mountain_service",
+      "historical_stage": "GROWTH-01",
+      "users": "多个山地地方共同体",
+      "why": "适度高地停留面连接周边生产点；具体矿口未定，不能先造矿城",
+      "catchment": "中低常住、山地多点服务；东席不集中为单王城",
+      "downstream_implication": "矿口与水源发现后可在搜索窗内迁移；禁止默认露天矿",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "中低常住、山地多点服务；东席不集中为单王城",
+      "political_role": "地方自治下的功能节点",
+      "symbolic_role": "地方身份，不自动赋予圣地资格"
+    },
+    {
+      "id": "SETTLEMENT-07",
+      "name": "东北坡地交换候选",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1116,
+          2108
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 120,
+        "land_component": 2,
+        "slope8": 0.0625
+      },
+      "role": "specialized_exchange",
+      "historical_stage": "GROWTH-04",
+      "users": "东岛东北坡地与北山支线",
+      "why": "山脊以东的侧向联系避免所有货物翻越主峰",
+      "catchment": "条件性中低常住；与06分担山地服务",
+      "downstream_implication": "须核实连续缓坡和清洁水；未满足不升级常年中心",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "条件性中低常住；与06分担山地服务",
+      "political_role": "地方自治下的功能节点",
+      "symbolic_role": "地方身份，不自动赋予圣地资格"
+    },
+    {
+      "id": "SETTLEMENT-08",
+      "name": "东南共同体服务候选",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1900,
+          2660
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 153,
+        "land_component": 2,
+        "slope8": 0.1767766922712326
+      },
+      "role": "mountain_service",
+      "historical_stage": "GROWTH-04",
+      "users": "远离北侧接口的东南地方共同体",
+      "why": "狭长岛体使远端地方服务有理由独立，不必日常进公地",
+      "catchment": "条件性低常住、地方补给与季节集散",
+      "downstream_implication": "未有可持续水/粮/燃料方案时只保留季节节点",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "条件性低常住、地方补给与季节集散",
+      "political_role": "地方自治下的功能节点",
+      "symbolic_role": "地方身份，不自动赋予圣地资格"
+    },
+    {
+      "id": "SETTLEMENT-09",
+      "name": "南岸海运替代候选",
+      "type": "settlement_search_anchor",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1420,
+          3188
+        ],
+        "coordinate_system": "Minecraft overworld X,Z; north=-Z",
+        "meaning": "搜索窗代表点，不是城址/码头/建筑定位",
+        "search_halfwidth_blocks": 96
+      },
+      "observed_at_sample": {
+        "exposed_y": 63,
+        "land_component": 2,
+        "slope8": 0.1397542506456375
+      },
+      "role": "conditional_gateway",
+      "historical_stage": "GROWTH-04",
+      "users": "远端矿产/石材批量外运与返程粮食",
+      "why": "若重货足够且航行可靠，绕岛海运可替代跨脊重车",
+      "catchment": "可选低人口高货流；需求不足不成立",
+      "downstream_implication": "不宣称天然港，不预设外部贸易伙伴",
+      "source_refs": [
+        "E-CANON",
+        "E-R1",
+        "E-ATLAS"
+      ],
+      "uncertainty": [
+        "实址须 L1/L2 核实水、可用台地和出入接口"
+      ],
+      "population_role": "可选低人口高货流；需求不足不成立",
+      "political_role": "地方自治下的功能节点",
+      "symbolic_role": "地方身份，不自动赋予圣地资格"
+    }
+  ],
+  "routes": [
+    {
+      "id": "ROUTE-01",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-01",
+      "to": "SETTLEMENT-03",
+      "mode": "land",
+      "flow": "粮食、日常市场与赴会合流",
+      "magnitude": "REGIONAL",
+      "historical_stage": "GROWTH-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -412,
+            2164
+          ],
+          [
+            -412,
+            2156
+          ],
+          [
+            -412,
+            2148
+          ],
+          [
+            -412,
+            2140
+          ],
+          [
+            -412,
+            2132
+          ],
+          [
+            -412,
+            2124
+          ],
+          [
+            -412,
+            2116
+          ],
+          [
+            -412,
+            2108
+          ],
+          [
+            -412,
+            2100
+          ],
+          [
+            -412,
+            2092
+          ],
+          [
+            -412,
+            2084
+          ],
+          [
+            -412,
+            2076
+          ],
+          [
+            -412,
+            2068
+          ],
+          [
+            -412,
+            2060
+          ],
+          [
+            -412,
+            2052
+          ],
+          [
+            -412,
+            2044
+          ],
+          [
+            -412,
+            2036
+          ],
+          [
+            -412,
+            2028
+          ],
+          [
+            -412,
+            2020
+          ],
+          [
+            -420,
+            2012
+          ],
+          [
+            -420,
+            2004
+          ],
+          [
+            -420,
+            1996
+          ],
+          [
+            -428,
+            1988
+          ],
+          [
+            -436,
+            1980
+          ],
+          [
+            -436,
+            1972
+          ],
+          [
+            -436,
+            1964
+          ],
+          [
+            -436,
+            1956
+          ],
+          [
+            -436,
+            1948
+          ],
+          [
+            -436,
+            1940
+          ],
+          [
+            -436,
+            1932
+          ],
+          [
+            -436,
+            1924
+          ],
+          [
+            -436,
+            1916
+          ],
+          [
+            -436,
+            1908
+          ],
+          [
+            -436,
+            1900
+          ],
+          [
+            -436,
+            1892
+          ],
+          [
+            -436,
+            1884
+          ],
+          [
+            -436,
+            1876
+          ],
+          [
+            -436,
+            1868
+          ],
+          [
+            -436,
+            1860
+          ],
+          [
+            -436,
+            1852
+          ],
+          [
+            -444,
+            1844
+          ],
+          [
+            -444,
+            1836
+          ],
+          [
+            -444,
+            1828
+          ],
+          [
+            -444,
+            1820
+          ],
+          [
+            -444,
+            1812
+          ],
+          [
+            -444,
+            1804
+          ],
+          [
+            -444,
+            1796
+          ],
+          [
+            -444,
+            1788
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 389,
+      "sampled_absolute_rise": 1,
+      "resistance_cost": 398,
+      "max_sample_grade": 0.125,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-02",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-02",
+      "to": "SETTLEMENT-03",
+      "mode": "land",
+      "flow": "北弧居民与低地产品",
+      "magnitude": "REGIONAL",
+      "historical_stage": "GROWTH-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -204,
+            1508
+          ],
+          [
+            -212,
+            1508
+          ],
+          [
+            -220,
+            1508
+          ],
+          [
+            -228,
+            1516
+          ],
+          [
+            -236,
+            1524
+          ],
+          [
+            -244,
+            1532
+          ],
+          [
+            -252,
+            1540
+          ],
+          [
+            -260,
+            1548
+          ],
+          [
+            -260,
+            1556
+          ],
+          [
+            -268,
+            1564
+          ],
+          [
+            -276,
+            1572
+          ],
+          [
+            -284,
+            1580
+          ],
+          [
+            -292,
+            1588
+          ],
+          [
+            -300,
+            1596
+          ],
+          [
+            -308,
+            1604
+          ],
+          [
+            -316,
+            1612
+          ],
+          [
+            -324,
+            1620
+          ],
+          [
+            -332,
+            1628
+          ],
+          [
+            -340,
+            1636
+          ],
+          [
+            -340,
+            1644
+          ],
+          [
+            -348,
+            1652
+          ],
+          [
+            -348,
+            1660
+          ],
+          [
+            -348,
+            1668
+          ],
+          [
+            -356,
+            1676
+          ],
+          [
+            -364,
+            1684
+          ],
+          [
+            -372,
+            1692
+          ],
+          [
+            -372,
+            1700
+          ],
+          [
+            -380,
+            1708
+          ],
+          [
+            -388,
+            1716
+          ],
+          [
+            -388,
+            1724
+          ],
+          [
+            -396,
+            1732
+          ],
+          [
+            -396,
+            1740
+          ],
+          [
+            -404,
+            1748
+          ],
+          [
+            -412,
+            1756
+          ],
+          [
+            -420,
+            1764
+          ],
+          [
+            -428,
+            1772
+          ],
+          [
+            -436,
+            1780
+          ],
+          [
+            -444,
+            1788
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 389,
+      "sampled_absolute_rise": 3,
+      "resistance_cost": 422,
+      "max_sample_grade": 0.125,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-03",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-03",
+      "to": "SETTLEMENT-04",
+      "mode": "water",
+      "flow": "代表/旅人及轻货候选渡运",
+      "magnitude": "STRATEGIC",
+      "historical_stage": "GROWTH-03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -444,
+            1788
+          ],
+          [
+            -436,
+            1788
+          ],
+          [
+            -428,
+            1788
+          ],
+          [
+            -420,
+            1788
+          ],
+          [
+            -412,
+            1788
+          ],
+          [
+            -404,
+            1788
+          ],
+          [
+            -396,
+            1780
+          ],
+          [
+            -388,
+            1788
+          ],
+          [
+            -380,
+            1788
+          ],
+          [
+            -372,
+            1788
+          ],
+          [
+            -364,
+            1788
+          ],
+          [
+            -356,
+            1788
+          ],
+          [
+            -348,
+            1788
+          ],
+          [
+            -340,
+            1788
+          ],
+          [
+            -332,
+            1788
+          ],
+          [
+            -324,
+            1788
+          ],
+          [
+            -316,
+            1788
+          ],
+          [
+            -308,
+            1780
+          ],
+          [
+            -300,
+            1772
+          ],
+          [
+            -292,
+            1764
+          ],
+          [
+            -284,
+            1756
+          ],
+          [
+            -276,
+            1756
+          ],
+          [
+            -268,
+            1748
+          ],
+          [
+            -260,
+            1748
+          ],
+          [
+            -252,
+            1740
+          ],
+          [
+            -244,
+            1732
+          ],
+          [
+            -236,
+            1724
+          ],
+          [
+            -228,
+            1724
+          ],
+          [
+            -220,
+            1716
+          ],
+          [
+            -212,
+            1708
+          ],
+          [
+            -204,
+            1700
+          ],
+          [
+            -196,
+            1700
+          ],
+          [
+            -188,
+            1692
+          ],
+          [
+            -180,
+            1684
+          ],
+          [
+            -172,
+            1684
+          ],
+          [
+            -164,
+            1684
+          ],
+          [
+            -156,
+            1684
+          ],
+          [
+            -148,
+            1684
+          ],
+          [
+            -140,
+            1684
+          ],
+          [
+            -132,
+            1684
+          ],
+          [
+            -124,
+            1692
+          ],
+          [
+            -124,
+            1700
+          ],
+          [
+            -124,
+            1708
+          ],
+          [
+            -124,
+            1716
+          ],
+          [
+            -124,
+            1724
+          ],
+          [
+            -124,
+            1732
+          ],
+          [
+            -124,
+            1740
+          ],
+          [
+            -124,
+            1748
+          ],
+          [
+            -124,
+            1756
+          ],
+          [
+            -124,
+            1764
+          ],
+          [
+            -124,
+            1772
+          ],
+          [
+            -124,
+            1780
+          ],
+          [
+            -124,
+            1788
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 469,
+      "sampled_absolute_rise": 13,
+      "resistance_cost": 7133,
+      "max_sample_grade": 0.35355339059327373,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "8格采样可能漏窄沟、崖、人工物；不验证净空/碰撞/驮队通行",
+        "水线包含岸端接入，不是已验证船道；未知水深流向/风浪"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-04",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-04",
+      "to": "SETTLEMENT-05",
+      "mode": "land",
+      "flow": "公地与中域政治连接，重货不强制穿公地",
+      "magnitude": "STRATEGIC",
+      "historical_stage": "GROWTH-03",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -124,
+            1788
+          ],
+          [
+            -116,
+            1788
+          ],
+          [
+            -108,
+            1780
+          ],
+          [
+            -100,
+            1780
+          ],
+          [
+            -92,
+            1780
+          ],
+          [
+            -84,
+            1780
+          ],
+          [
+            -76,
+            1780
+          ],
+          [
+            -68,
+            1780
+          ],
+          [
+            -60,
+            1780
+          ],
+          [
+            -52,
+            1780
+          ],
+          [
+            -44,
+            1780
+          ],
+          [
+            -36,
+            1780
+          ],
+          [
+            -28,
+            1780
+          ],
+          [
+            -20,
+            1780
+          ],
+          [
+            -12,
+            1780
+          ],
+          [
+            -4,
+            1780
+          ],
+          [
+            4,
+            1772
+          ],
+          [
+            12,
+            1772
+          ],
+          [
+            20,
+            1772
+          ],
+          [
+            28,
+            1772
+          ],
+          [
+            36,
+            1772
+          ],
+          [
+            44,
+            1772
+          ],
+          [
+            52,
+            1764
+          ],
+          [
+            60,
+            1764
+          ],
+          [
+            68,
+            1764
+          ],
+          [
+            76,
+            1764
+          ],
+          [
+            84,
+            1764
+          ],
+          [
+            92,
+            1764
+          ],
+          [
+            100,
+            1764
+          ],
+          [
+            108,
+            1764
+          ],
+          [
+            116,
+            1764
+          ],
+          [
+            124,
+            1756
+          ],
+          [
+            132,
+            1756
+          ],
+          [
+            140,
+            1756
+          ],
+          [
+            148,
+            1764
+          ],
+          [
+            156,
+            1764
+          ],
+          [
+            164,
+            1764
+          ],
+          [
+            172,
+            1764
+          ],
+          [
+            180,
+            1764
+          ],
+          [
+            188,
+            1764
+          ],
+          [
+            196,
+            1764
+          ],
+          [
+            204,
+            1764
+          ],
+          [
+            212,
+            1764
+          ],
+          [
+            220,
+            1764
+          ],
+          [
+            228,
+            1764
+          ],
+          [
+            236,
+            1764
+          ],
+          [
+            244,
+            1764
+          ],
+          [
+            252,
+            1764
+          ],
+          [
+            260,
+            1764
+          ],
+          [
+            268,
+            1764
+          ],
+          [
+            276,
+            1764
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 417,
+      "sampled_absolute_rise": 15,
+      "resistance_cost": 581,
+      "max_sample_grade": 0.25,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-05",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-05",
+      "to": "SETTLEMENT-06",
+      "mode": "land",
+      "flow": "粮食上山、制品下山、驮运接续",
+      "magnitude": "REGIONAL",
+      "historical_stage": "GROWTH-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            276,
+            1764
+          ],
+          [
+            268,
+            1756
+          ],
+          [
+            268,
+            1748
+          ],
+          [
+            268,
+            1740
+          ],
+          [
+            268,
+            1732
+          ],
+          [
+            268,
+            1724
+          ],
+          [
+            276,
+            1716
+          ],
+          [
+            284,
+            1708
+          ],
+          [
+            292,
+            1700
+          ],
+          [
+            292,
+            1692
+          ],
+          [
+            300,
+            1684
+          ],
+          [
+            300,
+            1676
+          ],
+          [
+            300,
+            1668
+          ],
+          [
+            308,
+            1660
+          ],
+          [
+            308,
+            1652
+          ],
+          [
+            316,
+            1644
+          ],
+          [
+            324,
+            1636
+          ],
+          [
+            332,
+            1628
+          ],
+          [
+            340,
+            1620
+          ],
+          [
+            348,
+            1612
+          ],
+          [
+            356,
+            1604
+          ],
+          [
+            364,
+            1596
+          ],
+          [
+            372,
+            1588
+          ],
+          [
+            380,
+            1580
+          ],
+          [
+            388,
+            1572
+          ],
+          [
+            396,
+            1564
+          ],
+          [
+            404,
+            1556
+          ],
+          [
+            412,
+            1548
+          ],
+          [
+            420,
+            1540
+          ],
+          [
+            428,
+            1532
+          ],
+          [
+            436,
+            1524
+          ],
+          [
+            444,
+            1516
+          ],
+          [
+            452,
+            1516
+          ],
+          [
+            460,
+            1516
+          ],
+          [
+            468,
+            1516
+          ],
+          [
+            476,
+            1516
+          ],
+          [
+            484,
+            1516
+          ],
+          [
+            492,
+            1516
+          ],
+          [
+            500,
+            1516
+          ],
+          [
+            508,
+            1516
+          ],
+          [
+            516,
+            1524
+          ],
+          [
+            524,
+            1532
+          ],
+          [
+            532,
+            1540
+          ],
+          [
+            540,
+            1540
+          ],
+          [
+            548,
+            1548
+          ],
+          [
+            556,
+            1556
+          ],
+          [
+            564,
+            1564
+          ],
+          [
+            572,
+            1564
+          ],
+          [
+            580,
+            1572
+          ],
+          [
+            588,
+            1580
+          ],
+          [
+            596,
+            1588
+          ],
+          [
+            604,
+            1596
+          ],
+          [
+            612,
+            1604
+          ],
+          [
+            620,
+            1612
+          ],
+          [
+            620,
+            1620
+          ],
+          [
+            620,
+            1628
+          ],
+          [
+            628,
+            1636
+          ],
+          [
+            628,
+            1644
+          ],
+          [
+            628,
+            1652
+          ],
+          [
+            628,
+            1660
+          ],
+          [
+            628,
+            1668
+          ],
+          [
+            628,
+            1676
+          ],
+          [
+            628,
+            1684
+          ],
+          [
+            620,
+            1692
+          ],
+          [
+            620,
+            1700
+          ],
+          [
+            620,
+            1708
+          ],
+          [
+            620,
+            1716
+          ],
+          [
+            628,
+            1724
+          ],
+          [
+            636,
+            1732
+          ],
+          [
+            644,
+            1740
+          ],
+          [
+            644,
+            1748
+          ],
+          [
+            644,
+            1756
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 701,
+      "sampled_absolute_rise": 52,
+      "resistance_cost": 1443,
+      "max_sample_grade": 0.5303300858899106,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-06",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-06",
+      "to": "SETTLEMENT-07",
+      "mode": "land",
+      "flow": "山地侧向共同体联系",
+      "magnitude": "REGIONAL",
+      "historical_stage": "GROWTH-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            644,
+            1756
+          ],
+          [
+            652,
+            1748
+          ],
+          [
+            660,
+            1740
+          ],
+          [
+            668,
+            1732
+          ],
+          [
+            676,
+            1724
+          ],
+          [
+            684,
+            1724
+          ],
+          [
+            692,
+            1732
+          ],
+          [
+            692,
+            1724
+          ],
+          [
+            700,
+            1716
+          ],
+          [
+            708,
+            1716
+          ],
+          [
+            716,
+            1724
+          ],
+          [
+            724,
+            1732
+          ],
+          [
+            732,
+            1740
+          ],
+          [
+            740,
+            1748
+          ],
+          [
+            748,
+            1756
+          ],
+          [
+            756,
+            1764
+          ],
+          [
+            764,
+            1772
+          ],
+          [
+            772,
+            1780
+          ],
+          [
+            780,
+            1788
+          ],
+          [
+            788,
+            1796
+          ],
+          [
+            788,
+            1804
+          ],
+          [
+            796,
+            1812
+          ],
+          [
+            804,
+            1820
+          ],
+          [
+            812,
+            1828
+          ],
+          [
+            820,
+            1836
+          ],
+          [
+            828,
+            1844
+          ],
+          [
+            836,
+            1844
+          ],
+          [
+            844,
+            1852
+          ],
+          [
+            852,
+            1860
+          ],
+          [
+            860,
+            1868
+          ],
+          [
+            868,
+            1876
+          ],
+          [
+            876,
+            1884
+          ],
+          [
+            884,
+            1892
+          ],
+          [
+            892,
+            1900
+          ],
+          [
+            900,
+            1908
+          ],
+          [
+            908,
+            1916
+          ],
+          [
+            916,
+            1924
+          ],
+          [
+            924,
+            1932
+          ],
+          [
+            924,
+            1940
+          ],
+          [
+            924,
+            1948
+          ],
+          [
+            924,
+            1956
+          ],
+          [
+            932,
+            1964
+          ],
+          [
+            940,
+            1972
+          ],
+          [
+            940,
+            1980
+          ],
+          [
+            940,
+            1988
+          ],
+          [
+            940,
+            1996
+          ],
+          [
+            940,
+            2004
+          ],
+          [
+            940,
+            2012
+          ],
+          [
+            940,
+            2020
+          ],
+          [
+            948,
+            2028
+          ],
+          [
+            956,
+            2036
+          ],
+          [
+            956,
+            2044
+          ],
+          [
+            964,
+            2052
+          ],
+          [
+            972,
+            2060
+          ],
+          [
+            980,
+            2068
+          ],
+          [
+            980,
+            2076
+          ],
+          [
+            980,
+            2084
+          ],
+          [
+            988,
+            2092
+          ],
+          [
+            996,
+            2100
+          ],
+          [
+            1004,
+            2108
+          ],
+          [
+            1012,
+            2116
+          ],
+          [
+            1020,
+            2124
+          ],
+          [
+            1028,
+            2124
+          ],
+          [
+            1036,
+            2132
+          ],
+          [
+            1044,
+            2132
+          ],
+          [
+            1052,
+            2132
+          ],
+          [
+            1060,
+            2132
+          ],
+          [
+            1068,
+            2132
+          ],
+          [
+            1076,
+            2140
+          ],
+          [
+            1076,
+            2132
+          ],
+          [
+            1068,
+            2124
+          ],
+          [
+            1060,
+            2116
+          ],
+          [
+            1068,
+            2116
+          ],
+          [
+            1076,
+            2116
+          ],
+          [
+            1084,
+            2124
+          ],
+          [
+            1084,
+            2116
+          ],
+          [
+            1092,
+            2124
+          ],
+          [
+            1100,
+            2124
+          ],
+          [
+            1100,
+            2116
+          ],
+          [
+            1108,
+            2108
+          ],
+          [
+            1116,
+            2108
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 809,
+      "sampled_absolute_rise": 173,
+      "resistance_cost": 3329,
+      "max_sample_grade": 0.75,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-07",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-07",
+      "to": "SETTLEMENT-08",
+      "mode": "land",
+      "flow": "分段驮运与信息支线，不假定连续重车道",
+      "magnitude": "LOW",
+      "historical_stage": "GROWTH-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1116,
+            2108
+          ],
+          [
+            1124,
+            2108
+          ],
+          [
+            1132,
+            2100
+          ],
+          [
+            1140,
+            2100
+          ],
+          [
+            1148,
+            2108
+          ],
+          [
+            1156,
+            2100
+          ],
+          [
+            1164,
+            2108
+          ],
+          [
+            1172,
+            2116
+          ],
+          [
+            1180,
+            2124
+          ],
+          [
+            1188,
+            2116
+          ],
+          [
+            1196,
+            2108
+          ],
+          [
+            1196,
+            2100
+          ],
+          [
+            1204,
+            2108
+          ],
+          [
+            1204,
+            2116
+          ],
+          [
+            1204,
+            2124
+          ],
+          [
+            1204,
+            2132
+          ],
+          [
+            1204,
+            2140
+          ],
+          [
+            1204,
+            2148
+          ],
+          [
+            1212,
+            2156
+          ],
+          [
+            1220,
+            2164
+          ],
+          [
+            1220,
+            2172
+          ],
+          [
+            1220,
+            2180
+          ],
+          [
+            1220,
+            2188
+          ],
+          [
+            1220,
+            2196
+          ],
+          [
+            1220,
+            2204
+          ],
+          [
+            1220,
+            2212
+          ],
+          [
+            1220,
+            2220
+          ],
+          [
+            1220,
+            2228
+          ],
+          [
+            1220,
+            2236
+          ],
+          [
+            1212,
+            2236
+          ],
+          [
+            1204,
+            2236
+          ],
+          [
+            1212,
+            2244
+          ],
+          [
+            1220,
+            2252
+          ],
+          [
+            1228,
+            2260
+          ],
+          [
+            1236,
+            2268
+          ],
+          [
+            1244,
+            2276
+          ],
+          [
+            1252,
+            2284
+          ],
+          [
+            1252,
+            2292
+          ],
+          [
+            1260,
+            2300
+          ],
+          [
+            1260,
+            2308
+          ],
+          [
+            1260,
+            2316
+          ],
+          [
+            1260,
+            2324
+          ],
+          [
+            1260,
+            2332
+          ],
+          [
+            1260,
+            2340
+          ],
+          [
+            1260,
+            2348
+          ],
+          [
+            1260,
+            2356
+          ],
+          [
+            1260,
+            2364
+          ],
+          [
+            1268,
+            2372
+          ],
+          [
+            1268,
+            2380
+          ],
+          [
+            1276,
+            2388
+          ],
+          [
+            1276,
+            2396
+          ],
+          [
+            1276,
+            2404
+          ],
+          [
+            1276,
+            2412
+          ],
+          [
+            1276,
+            2420
+          ],
+          [
+            1276,
+            2428
+          ],
+          [
+            1276,
+            2436
+          ],
+          [
+            1276,
+            2444
+          ],
+          [
+            1276,
+            2452
+          ],
+          [
+            1276,
+            2460
+          ],
+          [
+            1284,
+            2468
+          ],
+          [
+            1292,
+            2476
+          ],
+          [
+            1300,
+            2484
+          ],
+          [
+            1300,
+            2492
+          ],
+          [
+            1300,
+            2500
+          ],
+          [
+            1308,
+            2508
+          ],
+          [
+            1316,
+            2516
+          ],
+          [
+            1324,
+            2524
+          ],
+          [
+            1332,
+            2524
+          ],
+          [
+            1340,
+            2524
+          ],
+          [
+            1348,
+            2532
+          ],
+          [
+            1356,
+            2540
+          ],
+          [
+            1364,
+            2548
+          ],
+          [
+            1372,
+            2556
+          ],
+          [
+            1380,
+            2564
+          ],
+          [
+            1388,
+            2572
+          ],
+          [
+            1396,
+            2572
+          ],
+          [
+            1404,
+            2572
+          ],
+          [
+            1412,
+            2580
+          ],
+          [
+            1420,
+            2580
+          ],
+          [
+            1428,
+            2588
+          ],
+          [
+            1436,
+            2588
+          ],
+          [
+            1444,
+            2596
+          ],
+          [
+            1452,
+            2596
+          ],
+          [
+            1460,
+            2604
+          ],
+          [
+            1468,
+            2604
+          ],
+          [
+            1476,
+            2604
+          ],
+          [
+            1484,
+            2604
+          ],
+          [
+            1492,
+            2604
+          ],
+          [
+            1500,
+            2604
+          ],
+          [
+            1508,
+            2612
+          ],
+          [
+            1516,
+            2620
+          ],
+          [
+            1524,
+            2628
+          ],
+          [
+            1532,
+            2628
+          ],
+          [
+            1540,
+            2636
+          ],
+          [
+            1548,
+            2644
+          ],
+          [
+            1556,
+            2652
+          ],
+          [
+            1564,
+            2652
+          ],
+          [
+            1572,
+            2652
+          ],
+          [
+            1580,
+            2652
+          ],
+          [
+            1588,
+            2652
+          ],
+          [
+            1596,
+            2652
+          ],
+          [
+            1604,
+            2652
+          ],
+          [
+            1612,
+            2652
+          ],
+          [
+            1620,
+            2644
+          ],
+          [
+            1628,
+            2644
+          ],
+          [
+            1636,
+            2644
+          ],
+          [
+            1644,
+            2636
+          ],
+          [
+            1652,
+            2628
+          ],
+          [
+            1660,
+            2620
+          ],
+          [
+            1668,
+            2620
+          ],
+          [
+            1676,
+            2620
+          ],
+          [
+            1684,
+            2620
+          ],
+          [
+            1692,
+            2620
+          ],
+          [
+            1700,
+            2612
+          ],
+          [
+            1708,
+            2612
+          ],
+          [
+            1716,
+            2612
+          ],
+          [
+            1724,
+            2612
+          ],
+          [
+            1732,
+            2612
+          ],
+          [
+            1740,
+            2620
+          ],
+          [
+            1748,
+            2620
+          ],
+          [
+            1756,
+            2620
+          ],
+          [
+            1764,
+            2620
+          ],
+          [
+            1772,
+            2620
+          ],
+          [
+            1780,
+            2620
+          ],
+          [
+            1788,
+            2620
+          ],
+          [
+            1796,
+            2620
+          ],
+          [
+            1804,
+            2620
+          ],
+          [
+            1812,
+            2620
+          ],
+          [
+            1820,
+            2620
+          ],
+          [
+            1828,
+            2620
+          ],
+          [
+            1836,
+            2620
+          ],
+          [
+            1844,
+            2620
+          ],
+          [
+            1852,
+            2620
+          ],
+          [
+            1860,
+            2620
+          ],
+          [
+            1868,
+            2620
+          ],
+          [
+            1876,
+            2628
+          ],
+          [
+            1884,
+            2636
+          ],
+          [
+            1892,
+            2644
+          ],
+          [
+            1900,
+            2652
+          ],
+          [
+            1900,
+            2660
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 1284,
+      "sampled_absolute_rise": 329,
+      "resistance_cost": 5400,
+      "max_sample_grade": 0.75,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-08",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-08",
+      "to": "SETTLEMENT-09",
+      "mode": "land",
+      "flow": "条件性货物集运到南岸",
+      "magnitude": "REGIONAL_CONDITIONAL",
+      "historical_stage": "GROWTH-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1900,
+            2660
+          ],
+          [
+            1900,
+            2652
+          ],
+          [
+            1892,
+            2644
+          ],
+          [
+            1884,
+            2636
+          ],
+          [
+            1876,
+            2628
+          ],
+          [
+            1868,
+            2620
+          ],
+          [
+            1860,
+            2620
+          ],
+          [
+            1852,
+            2620
+          ],
+          [
+            1844,
+            2620
+          ],
+          [
+            1836,
+            2620
+          ],
+          [
+            1828,
+            2620
+          ],
+          [
+            1820,
+            2620
+          ],
+          [
+            1812,
+            2620
+          ],
+          [
+            1804,
+            2620
+          ],
+          [
+            1796,
+            2620
+          ],
+          [
+            1788,
+            2620
+          ],
+          [
+            1780,
+            2620
+          ],
+          [
+            1772,
+            2620
+          ],
+          [
+            1764,
+            2620
+          ],
+          [
+            1756,
+            2620
+          ],
+          [
+            1748,
+            2620
+          ],
+          [
+            1740,
+            2620
+          ],
+          [
+            1732,
+            2612
+          ],
+          [
+            1724,
+            2612
+          ],
+          [
+            1716,
+            2612
+          ],
+          [
+            1708,
+            2612
+          ],
+          [
+            1700,
+            2612
+          ],
+          [
+            1692,
+            2620
+          ],
+          [
+            1684,
+            2620
+          ],
+          [
+            1676,
+            2620
+          ],
+          [
+            1668,
+            2620
+          ],
+          [
+            1660,
+            2620
+          ],
+          [
+            1652,
+            2628
+          ],
+          [
+            1644,
+            2636
+          ],
+          [
+            1636,
+            2644
+          ],
+          [
+            1628,
+            2644
+          ],
+          [
+            1620,
+            2652
+          ],
+          [
+            1612,
+            2660
+          ],
+          [
+            1604,
+            2668
+          ],
+          [
+            1604,
+            2676
+          ],
+          [
+            1604,
+            2684
+          ],
+          [
+            1604,
+            2692
+          ],
+          [
+            1604,
+            2700
+          ],
+          [
+            1604,
+            2708
+          ],
+          [
+            1604,
+            2716
+          ],
+          [
+            1604,
+            2724
+          ],
+          [
+            1604,
+            2732
+          ],
+          [
+            1604,
+            2740
+          ],
+          [
+            1604,
+            2748
+          ],
+          [
+            1604,
+            2756
+          ],
+          [
+            1604,
+            2764
+          ],
+          [
+            1604,
+            2772
+          ],
+          [
+            1604,
+            2780
+          ],
+          [
+            1604,
+            2788
+          ],
+          [
+            1604,
+            2796
+          ],
+          [
+            1604,
+            2804
+          ],
+          [
+            1596,
+            2812
+          ],
+          [
+            1596,
+            2820
+          ],
+          [
+            1588,
+            2828
+          ],
+          [
+            1580,
+            2836
+          ],
+          [
+            1580,
+            2844
+          ],
+          [
+            1572,
+            2852
+          ],
+          [
+            1572,
+            2860
+          ],
+          [
+            1572,
+            2868
+          ],
+          [
+            1572,
+            2876
+          ],
+          [
+            1572,
+            2884
+          ],
+          [
+            1564,
+            2892
+          ],
+          [
+            1564,
+            2900
+          ],
+          [
+            1564,
+            2908
+          ],
+          [
+            1564,
+            2916
+          ],
+          [
+            1564,
+            2924
+          ],
+          [
+            1564,
+            2932
+          ],
+          [
+            1564,
+            2940
+          ],
+          [
+            1564,
+            2948
+          ],
+          [
+            1564,
+            2956
+          ],
+          [
+            1556,
+            2964
+          ],
+          [
+            1556,
+            2972
+          ],
+          [
+            1548,
+            2980
+          ],
+          [
+            1548,
+            2988
+          ],
+          [
+            1540,
+            2996
+          ],
+          [
+            1540,
+            3004
+          ],
+          [
+            1540,
+            3012
+          ],
+          [
+            1540,
+            3020
+          ],
+          [
+            1540,
+            3028
+          ],
+          [
+            1540,
+            3036
+          ],
+          [
+            1540,
+            3044
+          ],
+          [
+            1532,
+            3052
+          ],
+          [
+            1532,
+            3060
+          ],
+          [
+            1524,
+            3068
+          ],
+          [
+            1516,
+            3076
+          ],
+          [
+            1508,
+            3084
+          ],
+          [
+            1508,
+            3092
+          ],
+          [
+            1500,
+            3100
+          ],
+          [
+            1492,
+            3108
+          ],
+          [
+            1484,
+            3116
+          ],
+          [
+            1476,
+            3124
+          ],
+          [
+            1468,
+            3132
+          ],
+          [
+            1460,
+            3140
+          ],
+          [
+            1452,
+            3148
+          ],
+          [
+            1452,
+            3156
+          ],
+          [
+            1452,
+            3164
+          ],
+          [
+            1444,
+            3172
+          ],
+          [
+            1436,
+            3180
+          ],
+          [
+            1428,
+            3188
+          ],
+          [
+            1420,
+            3188
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 945,
+      "sampled_absolute_rise": 210,
+      "resistance_cost": 3550,
+      "max_sample_grade": 0.75,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "线为区域走廊见证，不证明连续可用路线；重货须另行纵断和转运设计"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-09",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-03",
+      "to": "SETTLEMENT-05",
+      "mode": "water",
+      "flow": "商业货物直达中域，分离议事流",
+      "magnitude": "REGIONAL",
+      "historical_stage": "GROWTH-02",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -444,
+            1788
+          ],
+          [
+            -436,
+            1788
+          ],
+          [
+            -428,
+            1788
+          ],
+          [
+            -420,
+            1788
+          ],
+          [
+            -412,
+            1788
+          ],
+          [
+            -404,
+            1788
+          ],
+          [
+            -396,
+            1780
+          ],
+          [
+            -388,
+            1788
+          ],
+          [
+            -388,
+            1796
+          ],
+          [
+            -388,
+            1804
+          ],
+          [
+            -388,
+            1812
+          ],
+          [
+            -388,
+            1820
+          ],
+          [
+            -388,
+            1828
+          ],
+          [
+            -388,
+            1836
+          ],
+          [
+            -388,
+            1844
+          ],
+          [
+            -388,
+            1852
+          ],
+          [
+            -388,
+            1860
+          ],
+          [
+            -388,
+            1868
+          ],
+          [
+            -380,
+            1876
+          ],
+          [
+            -372,
+            1884
+          ],
+          [
+            -364,
+            1892
+          ],
+          [
+            -356,
+            1900
+          ],
+          [
+            -348,
+            1908
+          ],
+          [
+            -340,
+            1916
+          ],
+          [
+            -332,
+            1924
+          ],
+          [
+            -324,
+            1932
+          ],
+          [
+            -316,
+            1940
+          ],
+          [
+            -308,
+            1948
+          ],
+          [
+            -300,
+            1956
+          ],
+          [
+            -292,
+            1964
+          ],
+          [
+            -284,
+            1972
+          ],
+          [
+            -276,
+            1972
+          ],
+          [
+            -268,
+            1972
+          ],
+          [
+            -260,
+            1972
+          ],
+          [
+            -252,
+            1980
+          ],
+          [
+            -244,
+            1980
+          ],
+          [
+            -236,
+            1980
+          ],
+          [
+            -228,
+            1980
+          ],
+          [
+            -220,
+            1980
+          ],
+          [
+            -212,
+            1980
+          ],
+          [
+            -204,
+            1980
+          ],
+          [
+            -196,
+            1988
+          ],
+          [
+            -188,
+            1988
+          ],
+          [
+            -180,
+            1988
+          ],
+          [
+            -172,
+            1988
+          ],
+          [
+            -164,
+            1988
+          ],
+          [
+            -156,
+            1988
+          ],
+          [
+            -148,
+            1988
+          ],
+          [
+            -140,
+            1988
+          ],
+          [
+            -132,
+            1988
+          ],
+          [
+            -124,
+            1988
+          ],
+          [
+            -116,
+            1988
+          ],
+          [
+            -108,
+            1988
+          ],
+          [
+            -100,
+            1988
+          ],
+          [
+            -92,
+            1988
+          ],
+          [
+            -84,
+            1988
+          ],
+          [
+            -76,
+            1988
+          ],
+          [
+            -68,
+            1988
+          ],
+          [
+            -60,
+            1988
+          ],
+          [
+            -52,
+            1988
+          ],
+          [
+            -44,
+            1988
+          ],
+          [
+            -36,
+            1988
+          ],
+          [
+            -28,
+            1988
+          ],
+          [
+            -20,
+            1988
+          ],
+          [
+            -12,
+            1988
+          ],
+          [
+            -4,
+            1988
+          ],
+          [
+            4,
+            1980
+          ],
+          [
+            12,
+            1972
+          ],
+          [
+            20,
+            1964
+          ],
+          [
+            28,
+            1956
+          ],
+          [
+            36,
+            1948
+          ],
+          [
+            44,
+            1940
+          ],
+          [
+            52,
+            1932
+          ],
+          [
+            60,
+            1924
+          ],
+          [
+            68,
+            1916
+          ],
+          [
+            76,
+            1908
+          ],
+          [
+            84,
+            1908
+          ],
+          [
+            92,
+            1900
+          ],
+          [
+            100,
+            1900
+          ],
+          [
+            108,
+            1900
+          ],
+          [
+            116,
+            1892
+          ],
+          [
+            124,
+            1892
+          ],
+          [
+            132,
+            1884
+          ],
+          [
+            140,
+            1876
+          ],
+          [
+            148,
+            1868
+          ],
+          [
+            156,
+            1860
+          ],
+          [
+            164,
+            1852
+          ],
+          [
+            172,
+            1844
+          ],
+          [
+            180,
+            1836
+          ],
+          [
+            188,
+            1828
+          ],
+          [
+            196,
+            1820
+          ],
+          [
+            204,
+            1812
+          ],
+          [
+            212,
+            1804
+          ],
+          [
+            220,
+            1804
+          ],
+          [
+            228,
+            1804
+          ],
+          [
+            236,
+            1804
+          ],
+          [
+            244,
+            1796
+          ],
+          [
+            252,
+            1788
+          ],
+          [
+            260,
+            1780
+          ],
+          [
+            268,
+            1772
+          ],
+          [
+            276,
+            1764
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 949,
+      "sampled_absolute_rise": 12,
+      "resistance_cost": 6857,
+      "max_sample_grade": 0.35355339059327373,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "8格采样可能漏窄沟、崖、人工物；不验证净空/碰撞/驮队通行",
+        "水线包含岸端接入，不是已验证船道；未知水深流向/风浪"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    },
+    {
+      "id": "ROUTE-10",
+      "authority": "DESIGN_PROPOSAL",
+      "from": "SETTLEMENT-09",
+      "to": "SETTLEMENT-05",
+      "mode": "water",
+      "flow": "条件性绕島海运：批量货物与返程粮食",
+      "magnitude": "REGIONAL_CONDITIONAL",
+      "historical_stage": "GROWTH-04",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            1420,
+            3188
+          ],
+          [
+            1428,
+            3196
+          ],
+          [
+            1420,
+            3204
+          ],
+          [
+            1412,
+            3204
+          ],
+          [
+            1404,
+            3212
+          ],
+          [
+            1396,
+            3212
+          ],
+          [
+            1388,
+            3220
+          ],
+          [
+            1380,
+            3220
+          ],
+          [
+            1372,
+            3220
+          ],
+          [
+            1364,
+            3220
+          ],
+          [
+            1356,
+            3220
+          ],
+          [
+            1348,
+            3220
+          ],
+          [
+            1340,
+            3220
+          ],
+          [
+            1332,
+            3220
+          ],
+          [
+            1324,
+            3220
+          ],
+          [
+            1316,
+            3220
+          ],
+          [
+            1308,
+            3220
+          ],
+          [
+            1300,
+            3220
+          ],
+          [
+            1292,
+            3220
+          ],
+          [
+            1284,
+            3220
+          ],
+          [
+            1276,
+            3220
+          ],
+          [
+            1268,
+            3220
+          ],
+          [
+            1260,
+            3220
+          ],
+          [
+            1252,
+            3220
+          ],
+          [
+            1244,
+            3220
+          ],
+          [
+            1236,
+            3220
+          ],
+          [
+            1228,
+            3220
+          ],
+          [
+            1220,
+            3220
+          ],
+          [
+            1212,
+            3220
+          ],
+          [
+            1204,
+            3220
+          ],
+          [
+            1196,
+            3220
+          ],
+          [
+            1188,
+            3220
+          ],
+          [
+            1180,
+            3220
+          ],
+          [
+            1172,
+            3220
+          ],
+          [
+            1164,
+            3220
+          ],
+          [
+            1156,
+            3220
+          ],
+          [
+            1148,
+            3220
+          ],
+          [
+            1140,
+            3220
+          ],
+          [
+            1132,
+            3220
+          ],
+          [
+            1124,
+            3220
+          ],
+          [
+            1116,
+            3220
+          ],
+          [
+            1108,
+            3220
+          ],
+          [
+            1100,
+            3220
+          ],
+          [
+            1092,
+            3220
+          ],
+          [
+            1084,
+            3220
+          ],
+          [
+            1076,
+            3220
+          ],
+          [
+            1068,
+            3220
+          ],
+          [
+            1060,
+            3212
+          ],
+          [
+            1052,
+            3204
+          ],
+          [
+            1044,
+            3196
+          ],
+          [
+            1036,
+            3188
+          ],
+          [
+            1028,
+            3180
+          ],
+          [
+            1028,
+            3172
+          ],
+          [
+            1020,
+            3164
+          ],
+          [
+            1012,
+            3156
+          ],
+          [
+            1004,
+            3148
+          ],
+          [
+            996,
+            3140
+          ],
+          [
+            988,
+            3132
+          ],
+          [
+            980,
+            3124
+          ],
+          [
+            972,
+            3116
+          ],
+          [
+            964,
+            3108
+          ],
+          [
+            956,
+            3100
+          ],
+          [
+            948,
+            3092
+          ],
+          [
+            940,
+            3084
+          ],
+          [
+            932,
+            3076
+          ],
+          [
+            924,
+            3068
+          ],
+          [
+            916,
+            3060
+          ],
+          [
+            908,
+            3052
+          ],
+          [
+            900,
+            3044
+          ],
+          [
+            892,
+            3036
+          ],
+          [
+            884,
+            3028
+          ],
+          [
+            876,
+            3020
+          ],
+          [
+            868,
+            3012
+          ],
+          [
+            860,
+            3004
+          ],
+          [
+            852,
+            2996
+          ],
+          [
+            844,
+            2988
+          ],
+          [
+            836,
+            2980
+          ],
+          [
+            828,
+            2972
+          ],
+          [
+            820,
+            2964
+          ],
+          [
+            812,
+            2956
+          ],
+          [
+            804,
+            2948
+          ],
+          [
+            796,
+            2940
+          ],
+          [
+            788,
+            2932
+          ],
+          [
+            780,
+            2924
+          ],
+          [
+            772,
+            2916
+          ],
+          [
+            764,
+            2908
+          ],
+          [
+            756,
+            2900
+          ],
+          [
+            748,
+            2892
+          ],
+          [
+            740,
+            2884
+          ],
+          [
+            732,
+            2876
+          ],
+          [
+            724,
+            2868
+          ],
+          [
+            716,
+            2860
+          ],
+          [
+            708,
+            2852
+          ],
+          [
+            700,
+            2844
+          ],
+          [
+            692,
+            2836
+          ],
+          [
+            684,
+            2828
+          ],
+          [
+            676,
+            2820
+          ],
+          [
+            668,
+            2812
+          ],
+          [
+            660,
+            2804
+          ],
+          [
+            652,
+            2796
+          ],
+          [
+            644,
+            2788
+          ],
+          [
+            636,
+            2780
+          ],
+          [
+            628,
+            2772
+          ],
+          [
+            620,
+            2764
+          ],
+          [
+            620,
+            2756
+          ],
+          [
+            620,
+            2748
+          ],
+          [
+            620,
+            2740
+          ],
+          [
+            620,
+            2732
+          ],
+          [
+            620,
+            2724
+          ],
+          [
+            620,
+            2716
+          ],
+          [
+            620,
+            2708
+          ],
+          [
+            620,
+            2700
+          ],
+          [
+            620,
+            2692
+          ],
+          [
+            620,
+            2684
+          ],
+          [
+            620,
+            2676
+          ],
+          [
+            620,
+            2668
+          ],
+          [
+            612,
+            2660
+          ],
+          [
+            604,
+            2652
+          ],
+          [
+            596,
+            2644
+          ],
+          [
+            588,
+            2636
+          ],
+          [
+            580,
+            2628
+          ],
+          [
+            572,
+            2620
+          ],
+          [
+            564,
+            2612
+          ],
+          [
+            556,
+            2604
+          ],
+          [
+            548,
+            2596
+          ],
+          [
+            540,
+            2588
+          ],
+          [
+            532,
+            2580
+          ],
+          [
+            524,
+            2572
+          ],
+          [
+            516,
+            2564
+          ],
+          [
+            508,
+            2556
+          ],
+          [
+            500,
+            2548
+          ],
+          [
+            492,
+            2540
+          ],
+          [
+            484,
+            2532
+          ],
+          [
+            476,
+            2524
+          ],
+          [
+            468,
+            2516
+          ],
+          [
+            460,
+            2508
+          ],
+          [
+            452,
+            2500
+          ],
+          [
+            444,
+            2492
+          ],
+          [
+            436,
+            2484
+          ],
+          [
+            428,
+            2476
+          ],
+          [
+            420,
+            2468
+          ],
+          [
+            412,
+            2460
+          ],
+          [
+            404,
+            2452
+          ],
+          [
+            396,
+            2444
+          ],
+          [
+            388,
+            2436
+          ],
+          [
+            380,
+            2428
+          ],
+          [
+            372,
+            2420
+          ],
+          [
+            364,
+            2412
+          ],
+          [
+            356,
+            2404
+          ],
+          [
+            348,
+            2396
+          ],
+          [
+            340,
+            2388
+          ],
+          [
+            332,
+            2380
+          ],
+          [
+            324,
+            2372
+          ],
+          [
+            324,
+            2364
+          ],
+          [
+            324,
+            2356
+          ],
+          [
+            324,
+            2348
+          ],
+          [
+            324,
+            2340
+          ],
+          [
+            324,
+            2332
+          ],
+          [
+            324,
+            2324
+          ],
+          [
+            324,
+            2316
+          ],
+          [
+            324,
+            2308
+          ],
+          [
+            324,
+            2300
+          ],
+          [
+            324,
+            2292
+          ],
+          [
+            324,
+            2284
+          ],
+          [
+            324,
+            2276
+          ],
+          [
+            324,
+            2268
+          ],
+          [
+            324,
+            2260
+          ],
+          [
+            324,
+            2252
+          ],
+          [
+            324,
+            2244
+          ],
+          [
+            324,
+            2236
+          ],
+          [
+            324,
+            2228
+          ],
+          [
+            324,
+            2220
+          ],
+          [
+            324,
+            2212
+          ],
+          [
+            324,
+            2204
+          ],
+          [
+            324,
+            2196
+          ],
+          [
+            324,
+            2188
+          ],
+          [
+            324,
+            2180
+          ],
+          [
+            316,
+            2172
+          ],
+          [
+            308,
+            2164
+          ],
+          [
+            308,
+            2156
+          ],
+          [
+            300,
+            2148
+          ],
+          [
+            300,
+            2140
+          ],
+          [
+            292,
+            2132
+          ],
+          [
+            292,
+            2124
+          ],
+          [
+            292,
+            2116
+          ],
+          [
+            292,
+            2108
+          ],
+          [
+            292,
+            2100
+          ],
+          [
+            284,
+            2092
+          ],
+          [
+            284,
+            2084
+          ],
+          [
+            284,
+            2076
+          ],
+          [
+            284,
+            2068
+          ],
+          [
+            284,
+            2060
+          ],
+          [
+            284,
+            2052
+          ],
+          [
+            276,
+            2044
+          ],
+          [
+            276,
+            2036
+          ],
+          [
+            276,
+            2028
+          ],
+          [
+            276,
+            2020
+          ],
+          [
+            268,
+            2012
+          ],
+          [
+            268,
+            2004
+          ],
+          [
+            268,
+            1996
+          ],
+          [
+            268,
+            1988
+          ],
+          [
+            268,
+            1980
+          ],
+          [
+            260,
+            1972
+          ],
+          [
+            260,
+            1964
+          ],
+          [
+            260,
+            1956
+          ],
+          [
+            260,
+            1948
+          ],
+          [
+            260,
+            1940
+          ],
+          [
+            260,
+            1932
+          ],
+          [
+            252,
+            1924
+          ],
+          [
+            244,
+            1916
+          ],
+          [
+            244,
+            1908
+          ],
+          [
+            244,
+            1900
+          ],
+          [
+            244,
+            1892
+          ],
+          [
+            244,
+            1884
+          ],
+          [
+            244,
+            1876
+          ],
+          [
+            236,
+            1868
+          ],
+          [
+            236,
+            1860
+          ],
+          [
+            236,
+            1852
+          ],
+          [
+            228,
+            1844
+          ],
+          [
+            220,
+            1836
+          ],
+          [
+            212,
+            1828
+          ],
+          [
+            204,
+            1820
+          ],
+          [
+            204,
+            1812
+          ],
+          [
+            212,
+            1804
+          ],
+          [
+            220,
+            1804
+          ],
+          [
+            228,
+            1804
+          ],
+          [
+            236,
+            1804
+          ],
+          [
+            244,
+            1796
+          ],
+          [
+            252,
+            1788
+          ],
+          [
+            260,
+            1780
+          ],
+          [
+            268,
+            1772
+          ],
+          [
+            276,
+            1764
+          ]
+        ],
+        "meaning": "8格抽样阻力候选线；非道路中心线施工许可"
+      },
+      "sampled_length_blocks": 2239,
+      "sampled_absolute_rise": 8,
+      "resistance_cost": 6187,
+      "max_sample_grade": 0.25,
+      "status": "CANDIDATE_REQUIRES_LOCAL_SURVEY",
+      "limitations": [
+        "8格采样可能漏窄沟、崖、人工物；不验证净空/碰撞/驮队通行",
+        "水线包含岸端接入，不是已验证船道；未知水深流向/风浪"
+      ],
+      "source_refs": [
+        "E-R1",
+        "A-TRANSPORT"
+      ]
+    }
+  ],
+  "canon_constraints": [
+    {
+      "id": "CANON-COMMONS",
+      "authority": "APPROVED_CANON",
+      "geometry": {
+        "type": "source_reference",
+        "definition": "A ∩ X<=88；connector A∩X>=89；接口 Z1726..1774",
+        "exact_mask_not_loaded": true
+      },
+      "area_blocks2": 92124,
+      "note": "不把代表点/矩形当作精确公地轮廓，不读取后续规划面域。"
+    }
+  ],
+  "regions": [
+    {
+      "id": "REGION-01",
+      "name": "西域低岛生产网络",
+      "authority": "DESIGN_PROPOSAL",
+      "canon_basis": "西域低岛人口、农牧与市场方向",
+      "geometry": {
+        "type": "source_reference",
+        "mask": "R1 land_component == 1",
+        "semantic": "自然岛形作为上层研究覆盖，不是本轮新定地籍"
+      },
+      "hierarchy": [
+        "SETTLEMENT-01",
+        "SETTLEMENT-02",
+        "SETTLEMENT-03"
+      ],
+      "formation": "连续低平地支持分散生产；集市和接驳分别集中，不能把岛全涂成住宅或农田。",
+      "expansion": "先填现有服务关系空缺；保留连片生产地与步行到达，边界由地权和水供应决定。"
+    },
+    {
+      "id": "REGION-02",
+      "name": "中域坡麓与转换网络",
+      "authority": "DESIGN_PROPOSAL",
+      "canon_basis": "东岛西侧低地/坡麓及Commons东connector",
+      "geometry": {
+        "type": "source_reference",
+        "mask": "东岛西部低地/坡麓，精确中东界未定",
+        "not_polygon": true
+      },
+      "hierarchy": [
+        "SETTLEMENT-05"
+      ],
+      "formation": "跨水、低陆运与山地驮运的转换成本叠加；不是任意港口圈。",
+      "expansion": "沿可用台地和货运接口断续增长；保留公地独立通达，不把贸易垄断变成领土吞并。"
+    },
+    {
+      "id": "REGION-03",
+      "name": "东域山地共同体网络",
+      "authority": "DESIGN_PROPOSAL",
+      "canon_basis": "富矿为 CANON_AUTHORED_RESOURCE；具体矿口未定",
+      "geometry": {
+        "type": "source_reference",
+        "mask": "东岛山地核心；不使用NGEO-032的粗边界作为政治边界"
+      },
+      "hierarchy": [
+        "SETTLEMENT-06",
+        "SETTLEMENT-07",
+        "SETTLEMENT-08",
+        "SETTLEMENT-09"
+      ],
+      "formation": "多点氏族/共同体与矿地服务保持分散；主峰构成交通阻力而不是首都位置。",
+      "expansion": "水粮燃料和安全出入先成立，再纳入季节生产点；不铺满脊线，不默认统一矿业城市。"
+    }
+  ],
+  "assumptions": [
+    {
+      "id": "A-TRANSPORT",
+      "authority": "PLANNING_ASSUMPTION",
+      "statement": "成熟前现代小规模驮运、近岸季节渡运可作为待核实方案；没有证据支持连续重车道或全年安全海运。",
+      "impact": "HIGH",
+      "branches": [
+        {
+          "id": "BRANCH-A",
+          "condition": "岸端/水深/近岸可航与装卸稳定得到下层证据",
+          "consequence": "保留03→05商业直达和03→04议事分流；09达到批量货流后可升级绕岛海运接口"
+        },
+        {
+          "id": "BRANCH-B",
+          "condition": "近岸仅季节可用或南岸不可航",
+          "consequence": "09不建常年外运中心；07/08缩为自给较强的地方与季节节点；粮食和成品分批储备，不承诺区域重货通路"
+        }
+      ]
+    },
+    {
+      "id": "A-WATER",
+      "authority": "PLANNING_ASSUMPTION",
+      "statement": "低岛有可建立的分散淡水供应，但当前未验证可持续供水与农牧产量。",
+      "impact": "HIGH",
+      "branches": [
+        {
+          "condition": "供水足以支撑农牧丰余",
+          "consequence": "01维持主要居民/粮食集散；02补充分区集市"
+        },
+        {
+          "condition": "淡水严重不足",
+          "consequence": "西域转向低密牧用/耐旱生产与有限市场；缩小联盟远端专业人口，不用人工假设粮食过剩补洞"
+        }
+      ]
+    },
+    {
+      "id": "A-MATURITY",
+      "authority": "PLANNING_ASSUMPTION",
+      "statement": "构想一个已稳定协商但空间仍渐进增长的联盟；具体年代/人口/敌国不编成Canon。",
+      "impact": "MEDIUM",
+      "sensitivity": "交换规模低时服务嵌入家庭/共同体，不同时建设九座城。"
+    },
+    {
+      "id": "A-TENURE",
+      "authority": "PLANNING_ASSUMPTION",
+      "statement": "Canon地方自治下，农业地权与矿山权属保持地方解释；不预设全国统一私有地块制。",
+      "impact": "MEDIUM",
+      "sensitivity": "家族、庄园或共有制度改变下层密度与空间占用，本轮不画parcel。"
+    },
+    {
+      "id": "A-SNAPSHOT",
+      "authority": "PLANNING_ASSUMPTION",
+      "statement": "接受既有自然调查作为本轮L0基线；未比对当前世界区域文件，不声称实时新鲜。",
+      "impact": "MEDIUM",
+      "sensitivity": "因大型地形变更而改变两岛或岸线时，受影响路线/节点全部回退SCOPED；下钻前须做最新现场核实。"
+    }
+  ],
+  "anchors": [
+    {
+      "id": "ANCHOR-01",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-01",
+      "role": "ORIGIN_ANCHOR",
+      "why": "低地粮食/牲畜与家庭加工先可自立；丰余交换使腹地节点先于联盟出现",
+      "when": "GROWTH-01",
+      "attracts": "西域居民、农牧与常见手工业的日常中心",
+      "repels": "粮食季节性集散；不得吞噬连续生产地",
+      "morphology": "高常住、周期来客；服务西岛南部腹地",
+      "removal_effect": "依赖此节点的流改道、降低专业化或改为季节服务；不保留同等密度与同一条末端路。"
+    },
+    {
+      "id": "ANCHOR-02",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-02",
+      "role": "ORIGIN_ANCHOR",
+      "why": "C 形陆路绕行成本使北弧不必每日依赖南部中心",
+      "when": "GROWTH-01",
+      "attracts": "西岛北弧家庭与牧用地",
+      "repels": "保留分散生产，不铺成连续城带",
+      "morphology": "中低常住、地方集市；与01竞争北西接壤腹地",
+      "removal_effect": "依赖此节点的流改道、降低专业化或改为季节服务；不保留同等密度与同一条末端路。"
+    },
+    {
+      "id": "ANCHOR-03",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-03",
+      "role": "GROWTH_ANCHOR",
+      "why": "接近公地的内湾岸段减少陆运绕行，但岸坡和航道尚待核实",
+      "when": "GROWTH-02",
+      "attracts": "跨水粮运、旅人和议事代表",
+      "repels": "装卸与候渡共用到达走廊，候渡不阻日常通行",
+      "morphology": "少量常住、季节性高吞吐；不是人口首位城",
+      "removal_effect": "依赖此节点的流改道、降低专业化或改为季节服务；不保留同等密度与同一条末端路。"
+    },
+    {
+      "id": "ANCHOR-04",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-04",
+      "role": "STABILIZING_ANCHOR",
+      "why": "共同主权降低地方主城独占议会的制度成本",
+      "when": "GROWTH-03",
+      "attracts": "三席、裁决、共同誓约与公共工程协商",
+      "repels": "准确边界只引用 Canon，点不是公地面域",
+      "morphology": "低常住但高政治位阶；不等同经济首都",
+      "removal_effect": "04：共同议事流消失，03/05仍可贸易；不得把Canon实际删掉。"
+    },
+    {
+      "id": "ANCHOR-05",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-05",
+      "role": "GROWTH_ANCHOR",
+      "why": "低地进入山坡的成本转换使货物分批、换载和结算集中",
+      "when": "GROWTH-02",
+      "attracts": "跨岛交换、仓储、加工和山地驮运",
+      "repels": "重货停在低处，居民和洁净补给避污染物流",
+      "morphology": "中等常住、跨域吞吐高；不垄断全部外贸",
+      "removal_effect": "依赖此节点的流改道、降低专业化或改为季节服务；不保留同等密度与同一条末端路。"
+    },
+    {
+      "id": "ANCHOR-06",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-06",
+      "role": "ORIGIN_ANCHOR",
+      "why": "适度高地停留面连接周边生产点；具体矿口未定，不能先造矿城",
+      "when": "GROWTH-01",
+      "attracts": "多个山地地方共同体",
+      "repels": "矿口与水源发现后可在搜索窗内迁移；禁止默认露天矿",
+      "morphology": "中低常住、山地多点服务；东席不集中为单王城",
+      "removal_effect": "依赖此节点的流改道、降低专业化或改为季节服务；不保留同等密度与同一条末端路。"
+    },
+    {
+      "id": "ANCHOR-07",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-07",
+      "role": "GROWTH_ANCHOR",
+      "why": "山脊以东的侧向联系避免所有货物翻越主峰",
+      "when": "GROWTH-04",
+      "attracts": "东岛东北坡地与北山支线",
+      "repels": "须核实连续缓坡和清洁水；未满足不升级常年中心",
+      "morphology": "条件性中低常住；与06分担山地服务",
+      "removal_effect": "依赖此节点的流改道、降低专业化或改为季节服务；不保留同等密度与同一条末端路。"
+    },
+    {
+      "id": "ANCHOR-08",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-08",
+      "role": "GROWTH_ANCHOR",
+      "why": "狭长岛体使远端地方服务有理由独立，不必日常进公地",
+      "when": "GROWTH-04",
+      "attracts": "远离北侧接口的东南地方共同体",
+      "repels": "未有可持续水/粮/燃料方案时只保留季节节点",
+      "morphology": "条件性低常住、地方补给与季节集散",
+      "removal_effect": "依赖此节点的流改道、降低专业化或改为季节服务；不保留同等密度与同一条末端路。"
+    },
+    {
+      "id": "ANCHOR-09",
+      "scale": "POLITY_TERRITORY",
+      "authority": "DESIGN_PROPOSAL",
+      "node": "SETTLEMENT-09",
+      "role": "GROWTH_ANCHOR",
+      "why": "若重货足够且航行可靠，绕岛海运可替代跨脊重车",
+      "when": "GROWTH-04",
+      "attracts": "远端矿产/石材批量外运与返程粮食",
+      "repels": "不宣称天然港，不预设外部贸易伙伴",
+      "morphology": "可选低人口高货流；需求不足不成立",
+      "removal_effect": "依赖此节点的流改道、降低专业化或改为季节服务；不保留同等密度与同一条末端路。"
+    }
+  ],
+  "commons_negative_spaces": [
+    {
+      "id": "SPACE-01",
+      "authority": "DESIGN_PROPOSAL",
+      "controller": "西域地方共同体/农牧权利者，具体地权待定",
+      "users": "农牧户",
+      "use": "连续生产与季节放牧",
+      "when": "常年/季节交替",
+      "why_not_built_over": "生产是聚落存在条件，集市边缘不能自动转成均匀住宅",
+      "geometry": "REGION-01内部未定农业地块，不输出精确农田面域"
+    },
+    {
+      "id": "SPACE-02",
+      "authority": "APPROVED_CANON",
+      "controller": "三席共同拥有",
+      "users": "联盟成员",
+      "use": "联盟公地；本轮不重定详细功能容量",
+      "when": "制度持续、活动间歇",
+      "why_not_built_over": "无单域侵占/再缩小第二行政公地的权利",
+      "geometry": "CANON-COMMONS"
+    },
+    {
+      "id": "SPACE-03",
+      "authority": "DESIGN_PROPOSAL",
+      "controller": "地方水源/山地公共资源权利者待明确",
+      "users": "住民、生产者",
+      "use": "清水保护/侵蚀缓冲/燃料更新与通行留地",
+      "when": "长期",
+      "why_not_built_over": "洁净补给与坡面稳定约束生产扩张",
+      "geometry": "具体水源/排水/坡体未验证，禁止以此虚构固定保护半径"
+    }
+  ]
+}

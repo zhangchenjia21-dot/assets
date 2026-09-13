@@ -1,0 +1,32 @@
+{
+  "coordinate_system": "Minecraft X,Z; units=blocks; north=-Z",
+  "sampling": {
+    "step": 8,
+    "origin": [
+      -796,
+      1380
+    ],
+    "shape": [
+      264,
+      408
+    ],
+    "no_missing_samples": true
+  },
+  "maps": [
+    "territory",
+    "flows",
+    "growth-1",
+    "growth-2",
+    "growth-3",
+    "growth-4",
+    "catchments"
+  ],
+  "proposal_nodes": 9,
+  "proposal_routes": 10,
+  "freshness": "Accepted snapshot, not live world verification",
+  "source_refs": [
+    "E-R1",
+    "E-ATLAS",
+    "E-CANON"
+  ]
+}
