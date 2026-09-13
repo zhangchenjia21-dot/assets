@@ -1,0 +1,100 @@
+{
+  "north": {
+    "bounds": [
+      510,
+      1540,
+      990,
+      2020
+    ],
+    "land_columns": 227860,
+    "elevation_percentiles": [
+      87.0,
+      137.0,
+      180.0
+    ],
+    "gentle_columns": 28873,
+    "surface_counts": {
+      "SOIL_SURFACE": 115449,
+      "ROCK_SURFACE": 88743,
+      "SAND_GRAVEL": 21928,
+      "TERRACOTTA_SURFACE": 6,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 996,
+      "OTHER_UNRESOLVED": 738
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.5067,
+      "ROCK_SURFACE": 0.3895,
+      "SAND_GRAVEL": 0.0962,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0044,
+      "OTHER_UNRESOLVED": 0.0032
+    },
+    "vegetation_samples": 14290,
+    "leaf_presence_ratio": 0.0478,
+    "any_vegetation_presence_ratio": 0.1311,
+    "artificial_flag_columns": 190,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  "south": {
+    "bounds": [
+      1350,
+      2510,
+      1830,
+      2990
+    ],
+    "land_columns": 221670,
+    "elevation_percentiles": [
+      143.0,
+      202.0,
+      253.0
+    ],
+    "gentle_columns": 12929,
+    "surface_counts": {
+      "SOIL_SURFACE": 115818,
+      "ROCK_SURFACE": 47132,
+      "SAND_GRAVEL": 4014,
+      "TERRACOTTA_SURFACE": 52620,
+      "MUD_CLAY": 3,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 1119,
+      "OTHER_UNRESOLVED": 964
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.5225,
+      "ROCK_SURFACE": 0.2126,
+      "SAND_GRAVEL": 0.0181,
+      "TERRACOTTA_SURFACE": 0.2374,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.005,
+      "OTHER_UNRESOLVED": 0.0043
+    },
+    "vegetation_samples": 13801,
+    "leaf_presence_ratio": 0.0653,
+    "any_vegetation_presence_ratio": 0.198,
+    "artificial_flag_columns": 788,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  }
+}

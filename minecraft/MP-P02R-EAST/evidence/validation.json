@@ -1,0 +1,22 @@
+{
+  "structural_checks": "COMPLETED_NO_ASSERTION_FAILURE",
+  "deterministic_rebuild_files": 8,
+  "unintended_rebuild_diff": 0,
+  "north_capacity_arithmetic": [
+    6000,
+    14000
+  ],
+  "south_alternatives_not_summed": true,
+  "source_sha256_recorded": true,
+  "world_writes": 0,
+  "world_verification": "NOT_OPENED; no world API or save access used",
+  "semantic_quality": "NOT_DETERMINED_BY_SCRIPT",
+  "live_route_water_substrate_fabric": "UNVERIFIED",
+  "maps_visually_reviewed": [
+    "地形与区域交换关系",
+    "地表差异与候选规模",
+    "植被采样与开放地压力",
+    "候选区域同范围比较",
+    "关系线地形探针"
+  ]
+}

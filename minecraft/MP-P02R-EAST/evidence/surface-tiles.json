@@ -1,0 +1,1962 @@
+[
+  {
+    "bounds": [
+      512,
+      1520,
+      703,
+      1711
+    ],
+    "land_columns": 35546,
+    "elevation_percentiles": [
+      70.0,
+      90.0,
+      123.0
+    ],
+    "gentle_columns": 283,
+    "surface_counts": {
+      "SOIL_SURFACE": 31838,
+      "ROCK_SURFACE": 3309,
+      "SAND_GRAVEL": 247,
+      "TERRACOTTA_SURFACE": 28,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 93,
+      "OTHER_UNRESOLVED": 31
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8957,
+      "ROCK_SURFACE": 0.0931,
+      "SAND_GRAVEL": 0.0069,
+      "TERRACOTTA_SURFACE": 0.0008,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0026,
+      "OTHER_UNRESOLVED": 0.0009
+    },
+    "vegetation_samples": 2214,
+    "leaf_presence_ratio": 0.0786,
+    "any_vegetation_presence_ratio": 0.2276,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      704,
+      1520,
+      895,
+      1711
+    ],
+    "land_columns": 34570,
+    "elevation_percentiles": [
+      100.0,
+      132.0,
+      139.0
+    ],
+    "gentle_columns": 10769,
+    "surface_counts": {
+      "SOIL_SURFACE": 952,
+      "ROCK_SURFACE": 27213,
+      "SAND_GRAVEL": 6345,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 33,
+      "OTHER_UNRESOLVED": 27
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.0275,
+      "ROCK_SURFACE": 0.7872,
+      "SAND_GRAVEL": 0.1835,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.001,
+      "OTHER_UNRESOLVED": 0.0008
+    },
+    "vegetation_samples": 2146,
+    "leaf_presence_ratio": 0.0014,
+    "any_vegetation_presence_ratio": 0.0047,
+    "artificial_flag_columns": 8,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      896,
+      1520,
+      1087,
+      1711
+    ],
+    "land_columns": 32600,
+    "elevation_percentiles": [
+      137.0,
+      146.0,
+      156.0
+    ],
+    "gentle_columns": 4722,
+    "surface_counts": {
+      "SOIL_SURFACE": 10669,
+      "ROCK_SURFACE": 18024,
+      "SAND_GRAVEL": 3774,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 99,
+      "OTHER_UNRESOLVED": 34
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.3273,
+      "ROCK_SURFACE": 0.5529,
+      "SAND_GRAVEL": 0.1158,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.003,
+      "OTHER_UNRESOLVED": 0.001
+    },
+    "vegetation_samples": 2023,
+    "leaf_presence_ratio": 0.0534,
+    "any_vegetation_presence_ratio": 0.1097,
+    "artificial_flag_columns": 16,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1088,
+      1520,
+      1279,
+      1711
+    ],
+    "land_columns": 10324,
+    "elevation_percentiles": [
+      82.0,
+      139.0,
+      144.0
+    ],
+    "gentle_columns": 1571,
+    "surface_counts": {
+      "SOIL_SURFACE": 489,
+      "ROCK_SURFACE": 5862,
+      "SAND_GRAVEL": 3354,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 570,
+      "OTHER_UNRESOLVED": 49
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.0474,
+      "ROCK_SURFACE": 0.5678,
+      "SAND_GRAVEL": 0.3249,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0552,
+      "OTHER_UNRESOLVED": 0.0047
+    },
+    "vegetation_samples": 651,
+    "leaf_presence_ratio": 0.0,
+    "any_vegetation_presence_ratio": 0.0154,
+    "artificial_flag_columns": 194,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      512,
+      1712,
+      703,
+      1903
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      101.0,
+      148.0,
+      168.0
+    ],
+    "gentle_columns": 1648,
+    "surface_counts": {
+      "SOIL_SURFACE": 31081,
+      "ROCK_SURFACE": 5425,
+      "SAND_GRAVEL": 195,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 133,
+      "OTHER_UNRESOLVED": 30
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8431,
+      "ROCK_SURFACE": 0.1472,
+      "SAND_GRAVEL": 0.0053,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0036,
+      "OTHER_UNRESOLVED": 0.0008
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0703,
+    "any_vegetation_presence_ratio": 0.2018,
+    "artificial_flag_columns": 1,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      704,
+      1712,
+      895,
+      1903
+    ],
+    "land_columns": 36606,
+    "elevation_percentiles": [
+      90.0,
+      133.0,
+      154.0
+    ],
+    "gentle_columns": 5013,
+    "surface_counts": {
+      "SOIL_SURFACE": 6992,
+      "ROCK_SURFACE": 19985,
+      "SAND_GRAVEL": 9408,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 163,
+      "OTHER_UNRESOLVED": 58
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.191,
+      "ROCK_SURFACE": 0.5459,
+      "SAND_GRAVEL": 0.257,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0045,
+      "OTHER_UNRESOLVED": 0.0016
+    },
+    "vegetation_samples": 2284,
+    "leaf_presence_ratio": 0.021,
+    "any_vegetation_presence_ratio": 0.0552,
+    "artificial_flag_columns": 38,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      896,
+      1712,
+      1087,
+      1903
+    ],
+    "land_columns": 23564,
+    "elevation_percentiles": [
+      66.0,
+      115.0,
+      141.0
+    ],
+    "gentle_columns": 2105,
+    "surface_counts": {
+      "SOIL_SURFACE": 766,
+      "ROCK_SURFACE": 15835,
+      "SAND_GRAVEL": 5869,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 563,
+      "OTHER_UNRESOLVED": 531
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.0325,
+      "ROCK_SURFACE": 0.672,
+      "SAND_GRAVEL": 0.2491,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0239,
+      "OTHER_UNRESOLVED": 0.0225
+    },
+    "vegetation_samples": 1488,
+    "leaf_presence_ratio": 0.0,
+    "any_vegetation_presence_ratio": 0.0054,
+    "artificial_flag_columns": 184,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      512,
+      1904,
+      703,
+      2095
+    ],
+    "land_columns": 36213,
+    "elevation_percentiles": [
+      131.0,
+      180.0,
+      206.0
+    ],
+    "gentle_columns": 6306,
+    "surface_counts": {
+      "SOIL_SURFACE": 31485,
+      "ROCK_SURFACE": 4561,
+      "SAND_GRAVEL": 10,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 117,
+      "OTHER_UNRESOLVED": 40
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8694,
+      "ROCK_SURFACE": 0.1259,
+      "SAND_GRAVEL": 0.0003,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0032,
+      "OTHER_UNRESOLVED": 0.0011
+    },
+    "vegetation_samples": 2261,
+    "leaf_presence_ratio": 0.1132,
+    "any_vegetation_presence_ratio": 0.2658,
+    "artificial_flag_columns": 7,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      704,
+      1904,
+      895,
+      2095
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      165.0,
+      209.0,
+      245.0
+    ],
+    "gentle_columns": 415,
+    "surface_counts": {
+      "SOIL_SURFACE": 31335,
+      "ROCK_SURFACE": 4897,
+      "SAND_GRAVEL": 481,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 116,
+      "OTHER_UNRESOLVED": 35
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.85,
+      "ROCK_SURFACE": 0.1328,
+      "SAND_GRAVEL": 0.013,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0031,
+      "OTHER_UNRESOLVED": 0.0009
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0755,
+    "any_vegetation_presence_ratio": 0.2214,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      896,
+      1904,
+      1087,
+      2095
+    ],
+    "land_columns": 29314,
+    "elevation_percentiles": [
+      72.0,
+      143.0,
+      212.0
+    ],
+    "gentle_columns": 493,
+    "surface_counts": {
+      "SOIL_SURFACE": 12858,
+      "ROCK_SURFACE": 15495,
+      "SAND_GRAVEL": 8,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 560,
+      "OTHER_UNRESOLVED": 393
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.4386,
+      "ROCK_SURFACE": 0.5286,
+      "SAND_GRAVEL": 0.0003,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0191,
+      "OTHER_UNRESOLVED": 0.0134
+    },
+    "vegetation_samples": 1818,
+    "leaf_presence_ratio": 0.0132,
+    "any_vegetation_presence_ratio": 0.0803,
+    "artificial_flag_columns": 170,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1088,
+      1904,
+      1279,
+      2095
+    ],
+    "land_columns": 34989,
+    "elevation_percentiles": [
+      96.0,
+      142.0,
+      160.0
+    ],
+    "gentle_columns": 4300,
+    "surface_counts": {
+      "SOIL_SURFACE": 6965,
+      "ROCK_SURFACE": 27647,
+      "SAND_GRAVEL": 303,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 43,
+      "OTHER_UNRESOLVED": 31
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.1991,
+      "ROCK_SURFACE": 0.7902,
+      "SAND_GRAVEL": 0.0087,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0012,
+      "OTHER_UNRESOLVED": 0.0009
+    },
+    "vegetation_samples": 2168,
+    "leaf_presence_ratio": 0.0143,
+    "any_vegetation_presence_ratio": 0.0434,
+    "artificial_flag_columns": 5,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      512,
+      2096,
+      703,
+      2287
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      175.0,
+      190.0,
+      213.0
+    ],
+    "gentle_columns": 8280,
+    "surface_counts": {
+      "SOIL_SURFACE": 31770,
+      "ROCK_SURFACE": 4880,
+      "SAND_GRAVEL": 6,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 169,
+      "OTHER_UNRESOLVED": 39
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8618,
+      "ROCK_SURFACE": 0.1324,
+      "SAND_GRAVEL": 0.0002,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0046,
+      "OTHER_UNRESOLVED": 0.0011
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.1163,
+    "any_vegetation_presence_ratio": 0.2704,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      704,
+      2096,
+      895,
+      2287
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      223.0,
+      248.0,
+      263.0
+    ],
+    "gentle_columns": 2687,
+    "surface_counts": {
+      "SOIL_SURFACE": 31397,
+      "ROCK_SURFACE": 5306,
+      "SAND_GRAVEL": 17,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 112,
+      "OTHER_UNRESOLVED": 32
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8517,
+      "ROCK_SURFACE": 0.1439,
+      "SAND_GRAVEL": 0.0005,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.003,
+      "OTHER_UNRESOLVED": 0.0009
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0877,
+    "any_vegetation_presence_ratio": 0.25,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      896,
+      2096,
+      1087,
+      2287
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      179.0,
+      207.0,
+      237.0
+    ],
+    "gentle_columns": 1255,
+    "surface_counts": {
+      "SOIL_SURFACE": 32526,
+      "ROCK_SURFACE": 4023,
+      "SAND_GRAVEL": 44,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 234,
+      "OTHER_UNRESOLVED": 37
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8823,
+      "ROCK_SURFACE": 0.1091,
+      "SAND_GRAVEL": 0.0012,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0063,
+      "OTHER_UNRESOLVED": 0.001
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0799,
+    "any_vegetation_presence_ratio": 0.2253,
+    "artificial_flag_columns": 27,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1088,
+      2096,
+      1279,
+      2287
+    ],
+    "land_columns": 36735,
+    "elevation_percentiles": [
+      133.0,
+      187.0,
+      243.0
+    ],
+    "gentle_columns": 0,
+    "surface_counts": {
+      "SOIL_SURFACE": 32713,
+      "ROCK_SURFACE": 3874,
+      "SAND_GRAVEL": 20,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 103,
+      "OTHER_UNRESOLVED": 25
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8905,
+      "ROCK_SURFACE": 0.1055,
+      "SAND_GRAVEL": 0.0005,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0028,
+      "OTHER_UNRESOLVED": 0.0007
+    },
+    "vegetation_samples": 2293,
+    "leaf_presence_ratio": 0.0388,
+    "any_vegetation_presence_ratio": 0.1535,
+    "artificial_flag_columns": 11,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1280,
+      2096,
+      1471,
+      2287
+    ],
+    "land_columns": 31371,
+    "elevation_percentiles": [
+      74.0,
+      126.0,
+      150.0
+    ],
+    "gentle_columns": 222,
+    "surface_counts": {
+      "SOIL_SURFACE": 8605,
+      "ROCK_SURFACE": 19658,
+      "SAND_GRAVEL": 237,
+      "TERRACOTTA_SURFACE": 2825,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 22,
+      "OTHER_UNRESOLVED": 24
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.2743,
+      "ROCK_SURFACE": 0.6266,
+      "SAND_GRAVEL": 0.0076,
+      "TERRACOTTA_SURFACE": 0.0901,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0007,
+      "OTHER_UNRESOLVED": 0.0008
+    },
+    "vegetation_samples": 1965,
+    "leaf_presence_ratio": 0.0092,
+    "any_vegetation_presence_ratio": 0.0316,
+    "artificial_flag_columns": 4,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      512,
+      2288,
+      703,
+      2479
+    ],
+    "land_columns": 19744,
+    "elevation_percentiles": [
+      68.0,
+      109.0,
+      153.0
+    ],
+    "gentle_columns": 1,
+    "surface_counts": {
+      "SOIL_SURFACE": 11960,
+      "ROCK_SURFACE": 7219,
+      "SAND_GRAVEL": 1,
+      "TERRACOTTA_SURFACE": 12,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 69,
+      "OTHER_UNRESOLVED": 483
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.6058,
+      "ROCK_SURFACE": 0.3656,
+      "SAND_GRAVEL": 0.0001,
+      "TERRACOTTA_SURFACE": 0.0006,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0035,
+      "OTHER_UNRESOLVED": 0.0245
+    },
+    "vegetation_samples": 1250,
+    "leaf_presence_ratio": 0.0152,
+    "any_vegetation_presence_ratio": 0.0768,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      704,
+      2288,
+      895,
+      2479
+    ],
+    "land_columns": 22144,
+    "elevation_percentiles": [
+      96.0,
+      154.0,
+      194.0
+    ],
+    "gentle_columns": 0,
+    "surface_counts": {
+      "SOIL_SURFACE": 9777,
+      "ROCK_SURFACE": 11845,
+      "SAND_GRAVEL": 4,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 231,
+      "OTHER_UNRESOLVED": 287
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.4415,
+      "ROCK_SURFACE": 0.5349,
+      "SAND_GRAVEL": 0.0002,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0104,
+      "OTHER_UNRESOLVED": 0.013
+    },
+    "vegetation_samples": 1400,
+    "leaf_presence_ratio": 0.0129,
+    "any_vegetation_presence_ratio": 0.0557,
+    "artificial_flag_columns": 57,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      896,
+      2288,
+      1087,
+      2479
+    ],
+    "land_columns": 35567,
+    "elevation_percentiles": [
+      149.0,
+      237.0,
+      275.0
+    ],
+    "gentle_columns": 513,
+    "surface_counts": {
+      "SOIL_SURFACE": 25191,
+      "ROCK_SURFACE": 9884,
+      "SAND_GRAVEL": 17,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 107,
+      "OTHER_UNRESOLVED": 368
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.7083,
+      "ROCK_SURFACE": 0.2779,
+      "SAND_GRAVEL": 0.0005,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.003,
+      "OTHER_UNRESOLVED": 0.0103
+    },
+    "vegetation_samples": 2217,
+    "leaf_presence_ratio": 0.0474,
+    "any_vegetation_presence_ratio": 0.1313,
+    "artificial_flag_columns": 2,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1088,
+      2288,
+      1279,
+      2479
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      227.0,
+      266.0,
+      290.0
+    ],
+    "gentle_columns": 287,
+    "surface_counts": {
+      "SOIL_SURFACE": 32600,
+      "ROCK_SURFACE": 4122,
+      "SAND_GRAVEL": 21,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 104,
+      "OTHER_UNRESOLVED": 17
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8843,
+      "ROCK_SURFACE": 0.1118,
+      "SAND_GRAVEL": 0.0006,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0028,
+      "OTHER_UNRESOLVED": 0.0005
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0612,
+    "any_vegetation_presence_ratio": 0.1966,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1280,
+      2288,
+      1471,
+      2479
+    ],
+    "land_columns": 35763,
+    "elevation_percentiles": [
+      82.0,
+      161.0,
+      199.0
+    ],
+    "gentle_columns": 883,
+    "surface_counts": {
+      "SOIL_SURFACE": 12683,
+      "ROCK_SURFACE": 17253,
+      "SAND_GRAVEL": 14,
+      "TERRACOTTA_SURFACE": 4819,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 58,
+      "OTHER_UNRESOLVED": 936
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.3546,
+      "ROCK_SURFACE": 0.4824,
+      "SAND_GRAVEL": 0.0004,
+      "TERRACOTTA_SURFACE": 0.1347,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0016,
+      "OTHER_UNRESOLVED": 0.0262
+    },
+    "vegetation_samples": 2230,
+    "leaf_presence_ratio": 0.0197,
+    "any_vegetation_presence_ratio": 0.0682,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1472,
+      2288,
+      1663,
+      2479
+    ],
+    "land_columns": 26321,
+    "elevation_percentiles": [
+      65.0,
+      87.0,
+      122.0
+    ],
+    "gentle_columns": 0,
+    "surface_counts": {
+      "SOIL_SURFACE": 792,
+      "ROCK_SURFACE": 21756,
+      "SAND_GRAVEL": 754,
+      "TERRACOTTA_SURFACE": 2923,
+      "MUD_CLAY": 10,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 0,
+      "OTHER_UNRESOLVED": 86
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.0301,
+      "ROCK_SURFACE": 0.8266,
+      "SAND_GRAVEL": 0.0286,
+      "TERRACOTTA_SURFACE": 0.1111,
+      "MUD_CLAY": 0.0004,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0,
+      "OTHER_UNRESOLVED": 0.0033
+    },
+    "vegetation_samples": 1653,
+    "leaf_presence_ratio": 0.0,
+    "any_vegetation_presence_ratio": 0.0012,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      896,
+      2480,
+      1087,
+      2671
+    ],
+    "land_columns": 25374,
+    "elevation_percentiles": [
+      118.0,
+      174.0,
+      214.0
+    ],
+    "gentle_columns": 0,
+    "surface_counts": {
+      "SOIL_SURFACE": 11808,
+      "ROCK_SURFACE": 12912,
+      "SAND_GRAVEL": 3,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 64,
+      "OTHER_UNRESOLVED": 587
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.4654,
+      "ROCK_SURFACE": 0.5089,
+      "SAND_GRAVEL": 0.0001,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0025,
+      "OTHER_UNRESOLVED": 0.0231
+    },
+    "vegetation_samples": 1566,
+    "leaf_presence_ratio": 0.0192,
+    "any_vegetation_presence_ratio": 0.0868,
+    "artificial_flag_columns": 3,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1088,
+      2480,
+      1279,
+      2671
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      219.0,
+      235.0,
+      249.0
+    ],
+    "gentle_columns": 1766,
+    "surface_counts": {
+      "SOIL_SURFACE": 32485,
+      "ROCK_SURFACE": 4175,
+      "SAND_GRAVEL": 55,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 122,
+      "OTHER_UNRESOLVED": 27
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8812,
+      "ROCK_SURFACE": 0.1133,
+      "SAND_GRAVEL": 0.0015,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0033,
+      "OTHER_UNRESOLVED": 0.0007
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.1007,
+    "any_vegetation_presence_ratio": 0.2812,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1280,
+      2480,
+      1471,
+      2671
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      186.0,
+      207.0,
+      219.0
+    ],
+    "gentle_columns": 1380,
+    "surface_counts": {
+      "SOIL_SURFACE": 20641,
+      "ROCK_SURFACE": 3243,
+      "SAND_GRAVEL": 25,
+      "TERRACOTTA_SURFACE": 12922,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 23,
+      "OTHER_UNRESOLVED": 10
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.5599,
+      "ROCK_SURFACE": 0.088,
+      "SAND_GRAVEL": 0.0007,
+      "TERRACOTTA_SURFACE": 0.3505,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0006,
+      "OTHER_UNRESOLVED": 0.0003
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0612,
+    "any_vegetation_presence_ratio": 0.1862,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1472,
+      2480,
+      1663,
+      2671
+    ],
+    "land_columns": 36850,
+    "elevation_percentiles": [
+      143.0,
+      158.0,
+      200.0
+    ],
+    "gentle_columns": 4167,
+    "surface_counts": {
+      "SOIL_SURFACE": 5034,
+      "ROCK_SURFACE": 14683,
+      "SAND_GRAVEL": 267,
+      "TERRACOTTA_SURFACE": 16855,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 3,
+      "OTHER_UNRESOLVED": 8
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.1366,
+      "ROCK_SURFACE": 0.3985,
+      "SAND_GRAVEL": 0.0072,
+      "TERRACOTTA_SURFACE": 0.4574,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0001,
+      "OTHER_UNRESOLVED": 0.0002
+    },
+    "vegetation_samples": 2303,
+    "leaf_presence_ratio": 0.0182,
+    "any_vegetation_presence_ratio": 0.0534,
+    "artificial_flag_columns": 8,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1664,
+      2480,
+      1855,
+      2671
+    ],
+    "land_columns": 21837,
+    "elevation_percentiles": [
+      90.0,
+      146.0,
+      174.0
+    ],
+    "gentle_columns": 2921,
+    "surface_counts": {
+      "SOIL_SURFACE": 2456,
+      "ROCK_SURFACE": 14379,
+      "SAND_GRAVEL": 4882,
+      "TERRACOTTA_SURFACE": 37,
+      "MUD_CLAY": 2,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 38,
+      "OTHER_UNRESOLVED": 43
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.1125,
+      "ROCK_SURFACE": 0.6585,
+      "SAND_GRAVEL": 0.2236,
+      "TERRACOTTA_SURFACE": 0.0017,
+      "MUD_CLAY": 0.0001,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0017,
+      "OTHER_UNRESOLVED": 0.002
+    },
+    "vegetation_samples": 1345,
+    "leaf_presence_ratio": 0.0119,
+    "any_vegetation_presence_ratio": 0.0335,
+    "artificial_flag_columns": 31,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1856,
+      2480,
+      2047,
+      2671
+    ],
+    "land_columns": 32634,
+    "elevation_percentiles": [
+      89.0,
+      144.0,
+      149.0
+    ],
+    "gentle_columns": 8729,
+    "surface_counts": {
+      "SOIL_SURFACE": 1740,
+      "ROCK_SURFACE": 26798,
+      "SAND_GRAVEL": 4067,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 5,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 10,
+      "OTHER_UNRESOLVED": 14
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.0533,
+      "ROCK_SURFACE": 0.8212,
+      "SAND_GRAVEL": 0.1246,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0002,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0003,
+      "OTHER_UNRESOLVED": 0.0004
+    },
+    "vegetation_samples": 2024,
+    "leaf_presence_ratio": 0.0,
+    "any_vegetation_presence_ratio": 0.0044,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      896,
+      2672,
+      1087,
+      2863
+    ],
+    "land_columns": 21314,
+    "elevation_percentiles": [
+      95.0,
+      147.0,
+      172.0
+    ],
+    "gentle_columns": 83,
+    "surface_counts": {
+      "SOIL_SURFACE": 5382,
+      "ROCK_SURFACE": 14975,
+      "SAND_GRAVEL": 81,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 21,
+      "OTHER_UNRESOLVED": 855
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.2525,
+      "ROCK_SURFACE": 0.7026,
+      "SAND_GRAVEL": 0.0038,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.001,
+      "OTHER_UNRESOLVED": 0.0401
+    },
+    "vegetation_samples": 1318,
+    "leaf_presence_ratio": 0.0114,
+    "any_vegetation_presence_ratio": 0.0395,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1088,
+      2672,
+      1279,
+      2863
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      202.0,
+      248.0,
+      260.0
+    ],
+    "gentle_columns": 7589,
+    "surface_counts": {
+      "SOIL_SURFACE": 31223,
+      "ROCK_SURFACE": 5484,
+      "SAND_GRAVEL": 51,
+      "TERRACOTTA_SURFACE": 1,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 85,
+      "OTHER_UNRESOLVED": 20
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.847,
+      "ROCK_SURFACE": 0.1488,
+      "SAND_GRAVEL": 0.0014,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0023,
+      "OTHER_UNRESOLVED": 0.0005
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0959,
+    "any_vegetation_presence_ratio": 0.2452,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1280,
+      2672,
+      1471,
+      2863
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      225.0,
+      255.0,
+      261.0
+    ],
+    "gentle_columns": 8297,
+    "surface_counts": {
+      "SOIL_SURFACE": 24599,
+      "ROCK_SURFACE": 2242,
+      "SAND_GRAVEL": 4,
+      "TERRACOTTA_SURFACE": 9988,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 30,
+      "OTHER_UNRESOLVED": 1
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.6673,
+      "ROCK_SURFACE": 0.0608,
+      "SAND_GRAVEL": 0.0001,
+      "TERRACOTTA_SURFACE": 0.2709,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0008,
+      "OTHER_UNRESOLVED": 0.0
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0885,
+    "any_vegetation_presence_ratio": 0.2826,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1472,
+      2672,
+      1663,
+      2863
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      175.0,
+      201.0,
+      243.0
+    ],
+    "gentle_columns": 181,
+    "surface_counts": {
+      "SOIL_SURFACE": 16684,
+      "ROCK_SURFACE": 1851,
+      "SAND_GRAVEL": 7,
+      "TERRACOTTA_SURFACE": 17774,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 332,
+      "OTHER_UNRESOLVED": 216
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.4526,
+      "ROCK_SURFACE": 0.0502,
+      "SAND_GRAVEL": 0.0002,
+      "TERRACOTTA_SURFACE": 0.4822,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.009,
+      "OTHER_UNRESOLVED": 0.0059
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.1363,
+    "any_vegetation_presence_ratio": 0.24,
+    "artificial_flag_columns": 180,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1664,
+      2672,
+      1855,
+      2863
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      205.0,
+      241.0,
+      264.0
+    ],
+    "gentle_columns": 486,
+    "surface_counts": {
+      "SOIL_SURFACE": 29934,
+      "ROCK_SURFACE": 5651,
+      "SAND_GRAVEL": 34,
+      "TERRACOTTA_SURFACE": 260,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 516,
+      "OTHER_UNRESOLVED": 469
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.812,
+      "ROCK_SURFACE": 0.1533,
+      "SAND_GRAVEL": 0.0009,
+      "TERRACOTTA_SURFACE": 0.0071,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.014,
+      "OTHER_UNRESOLVED": 0.0127
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0803,
+    "any_vegetation_presence_ratio": 0.3407,
+    "artificial_flag_columns": 409,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1856,
+      2672,
+      2047,
+      2863
+    ],
+    "land_columns": 32252,
+    "elevation_percentiles": [
+      129.0,
+      161.0,
+      215.0
+    ],
+    "gentle_columns": 1322,
+    "surface_counts": {
+      "SOIL_SURFACE": 15944,
+      "ROCK_SURFACE": 12760,
+      "SAND_GRAVEL": 3424,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 20,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 92,
+      "OTHER_UNRESOLVED": 12
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.4944,
+      "ROCK_SURFACE": 0.3956,
+      "SAND_GRAVEL": 0.1062,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0006,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0029,
+      "OTHER_UNRESOLVED": 0.0004
+    },
+    "vegetation_samples": 2034,
+    "leaf_presence_ratio": 0.0025,
+    "any_vegetation_presence_ratio": 0.1332,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      896,
+      2864,
+      1087,
+      3055
+    ],
+    "land_columns": 12402,
+    "elevation_percentiles": [
+      82.0,
+      139.0,
+      146.0
+    ],
+    "gentle_columns": 1220,
+    "surface_counts": {
+      "SOIL_SURFACE": 490,
+      "ROCK_SURFACE": 11275,
+      "SAND_GRAVEL": 586,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 0,
+      "OTHER_UNRESOLVED": 51
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.0395,
+      "ROCK_SURFACE": 0.9091,
+      "SAND_GRAVEL": 0.0473,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0,
+      "OTHER_UNRESOLVED": 0.0041
+    },
+    "vegetation_samples": 755,
+    "leaf_presence_ratio": 0.0013,
+    "any_vegetation_presence_ratio": 0.0026,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1088,
+      2864,
+      1279,
+      3055
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      97.0,
+      169.0,
+      241.0
+    ],
+    "gentle_columns": 145,
+    "surface_counts": {
+      "SOIL_SURFACE": 27468,
+      "ROCK_SURFACE": 7678,
+      "SAND_GRAVEL": 965,
+      "TERRACOTTA_SURFACE": 26,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 294,
+      "OTHER_UNRESOLVED": 433
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.7451,
+      "ROCK_SURFACE": 0.2083,
+      "SAND_GRAVEL": 0.0262,
+      "TERRACOTTA_SURFACE": 0.0007,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.008,
+      "OTHER_UNRESOLVED": 0.0117
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.036,
+    "any_vegetation_presence_ratio": 0.1437,
+    "artificial_flag_columns": 81,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1280,
+      2864,
+      1471,
+      3055
+    ],
+    "land_columns": 36864,
+    "elevation_percentiles": [
+      189.0,
+      212.0,
+      247.0
+    ],
+    "gentle_columns": 102,
+    "surface_counts": {
+      "SOIL_SURFACE": 32349,
+      "ROCK_SURFACE": 3539,
+      "SAND_GRAVEL": 46,
+      "TERRACOTTA_SURFACE": 772,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 130,
+      "OTHER_UNRESOLVED": 28
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8775,
+      "ROCK_SURFACE": 0.096,
+      "SAND_GRAVEL": 0.0012,
+      "TERRACOTTA_SURFACE": 0.0209,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0035,
+      "OTHER_UNRESOLVED": 0.0008
+    },
+    "vegetation_samples": 2304,
+    "leaf_presence_ratio": 0.0373,
+    "any_vegetation_presence_ratio": 0.2114,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1472,
+      2864,
+      1663,
+      3055
+    ],
+    "land_columns": 33873,
+    "elevation_percentiles": [
+      85.0,
+      155.0,
+      209.0
+    ],
+    "gentle_columns": 0,
+    "surface_counts": {
+      "SOIL_SURFACE": 27214,
+      "ROCK_SURFACE": 5886,
+      "SAND_GRAVEL": 31,
+      "TERRACOTTA_SURFACE": 412,
+      "MUD_CLAY": 1,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 142,
+      "OTHER_UNRESOLVED": 187
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.8034,
+      "ROCK_SURFACE": 0.1738,
+      "SAND_GRAVEL": 0.0009,
+      "TERRACOTTA_SURFACE": 0.0122,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0042,
+      "OTHER_UNRESOLVED": 0.0055
+    },
+    "vegetation_samples": 2132,
+    "leaf_presence_ratio": 0.0427,
+    "any_vegetation_presence_ratio": 0.1712,
+    "artificial_flag_columns": 138,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1664,
+      2864,
+      1855,
+      3055
+    ],
+    "land_columns": 24879,
+    "elevation_percentiles": [
+      75.0,
+      161.0,
+      203.0
+    ],
+    "gentle_columns": 1,
+    "surface_counts": {
+      "SOIL_SURFACE": 15792,
+      "ROCK_SURFACE": 8747,
+      "SAND_GRAVEL": 109,
+      "TERRACOTTA_SURFACE": 37,
+      "MUD_CLAY": 0,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 133,
+      "OTHER_UNRESOLVED": 61
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.6348,
+      "ROCK_SURFACE": 0.3516,
+      "SAND_GRAVEL": 0.0044,
+      "TERRACOTTA_SURFACE": 0.0015,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0053,
+      "OTHER_UNRESOLVED": 0.0025
+    },
+    "vegetation_samples": 1565,
+    "leaf_presence_ratio": 0.0217,
+    "any_vegetation_presence_ratio": 0.1655,
+    "artificial_flag_columns": 22,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  },
+  {
+    "bounds": [
+      1856,
+      2864,
+      2047,
+      3055
+    ],
+    "land_columns": 27305,
+    "elevation_percentiles": [
+      80.0,
+      142.0,
+      176.0
+    ],
+    "gentle_columns": 5,
+    "surface_counts": {
+      "SOIL_SURFACE": 18447,
+      "ROCK_SURFACE": 8613,
+      "SAND_GRAVEL": 80,
+      "TERRACOTTA_SURFACE": 0,
+      "MUD_CLAY": 15,
+      "SNOW_ICE": 0,
+      "SURFACE_PLANT": 132,
+      "OTHER_UNRESOLVED": 18
+    },
+    "surface_ratios": {
+      "SOIL_SURFACE": 0.6756,
+      "ROCK_SURFACE": 0.3154,
+      "SAND_GRAVEL": 0.0029,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0005,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0048,
+      "OTHER_UNRESOLVED": 0.0007
+    },
+    "vegetation_samples": 1736,
+    "leaf_presence_ratio": 0.0006,
+    "any_vegetation_presence_ratio": 0.1417,
+    "artificial_flag_columns": 0,
+    "authority": "DERIVED",
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "limitations": [
+      "土深/肥力/岩质/矿床/饮水未证",
+      "植被为采样占比",
+      "低坡地不等于可建地"
+    ]
+  }
+]

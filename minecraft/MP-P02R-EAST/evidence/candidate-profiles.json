@@ -1,0 +1,146 @@
+[
+  {
+    "id": "NODE-01",
+    "bounds": [
+      704,
+      1520,
+      895,
+      1711
+    ],
+    "land_columns": 34570,
+    "y_p10_p50_p90": [
+      100.0,
+      132.0,
+      139.0
+    ],
+    "gentle_columns": 10769,
+    "surface_ratio": {
+      "SOIL_SURFACE": 0.0275,
+      "ROCK_SURFACE": 0.7872,
+      "SAND_GRAVEL": 0.1835,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.001,
+      "OTHER_UNRESOLVED": 0.0008
+    },
+    "vegetation_sample_count": 2146,
+    "leaf_sample_presence_ratio": 0.0014,
+    "artificial_flag_columns": 8,
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "authority": "DERIVED",
+    "substrate": "UNRESOLVED",
+    "existing_fabric": "UNVERIFIED"
+  },
+  {
+    "id": "NODE-02",
+    "bounds": [
+      512,
+      1904,
+      703,
+      2095
+    ],
+    "land_columns": 36213,
+    "y_p10_p50_p90": [
+      131.0,
+      180.0,
+      206.0
+    ],
+    "gentle_columns": 6306,
+    "surface_ratio": {
+      "SOIL_SURFACE": 0.8694,
+      "ROCK_SURFACE": 0.1259,
+      "SAND_GRAVEL": 0.0003,
+      "TERRACOTTA_SURFACE": 0.0,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0032,
+      "OTHER_UNRESOLVED": 0.0011
+    },
+    "vegetation_sample_count": 2261,
+    "leaf_sample_presence_ratio": 0.1132,
+    "artificial_flag_columns": 7,
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "authority": "DERIVED",
+    "substrate": "UNRESOLVED",
+    "existing_fabric": "UNVERIFIED"
+  },
+  {
+    "id": "NODE-03",
+    "bounds": [
+      1472,
+      2480,
+      1663,
+      2671
+    ],
+    "land_columns": 36850,
+    "y_p10_p50_p90": [
+      143.0,
+      158.0,
+      200.0
+    ],
+    "gentle_columns": 4167,
+    "surface_ratio": {
+      "SOIL_SURFACE": 0.1366,
+      "ROCK_SURFACE": 0.3985,
+      "SAND_GRAVEL": 0.0072,
+      "TERRACOTTA_SURFACE": 0.4574,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.0001,
+      "OTHER_UNRESOLVED": 0.0002
+    },
+    "vegetation_sample_count": 2303,
+    "leaf_sample_presence_ratio": 0.0182,
+    "artificial_flag_columns": 8,
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "authority": "DERIVED",
+    "substrate": "UNRESOLVED",
+    "existing_fabric": "UNVERIFIED"
+  },
+  {
+    "id": "NODE-04",
+    "bounds": [
+      1350,
+      2672,
+      1471,
+      2863
+    ],
+    "land_columns": 23424,
+    "y_p10_p50_p90": [
+      223.0,
+      253.0,
+      260.0
+    ],
+    "gentle_columns": 4458,
+    "surface_ratio": {
+      "SOIL_SURFACE": 0.6049,
+      "ROCK_SURFACE": 0.0086,
+      "SAND_GRAVEL": 0.0,
+      "TERRACOTTA_SURFACE": 0.3854,
+      "MUD_CLAY": 0.0,
+      "SNOW_ICE": 0.0,
+      "SURFACE_PLANT": 0.001,
+      "OTHER_UNRESOLVED": 0.0
+    },
+    "vegetation_sample_count": 1440,
+    "leaf_sample_presence_ratio": 0.0833,
+    "artificial_flag_columns": 0,
+    "source_refs": [
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "authority": "DERIVED",
+    "substrate": "UNRESOLVED",
+    "existing_fabric": "UNVERIFIED"
+  }
+]

@@ -1,0 +1,119 @@
+[
+  {
+    "id": "SRC-CANON",
+    "path": "minecraft/建筑师/world/civilizations/CIV-001/README.md",
+    "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+    "repository": "zhangchenjia21-dot/assets",
+    "revision": "aeded8d91e6af132a139cff5334a3a654d1c2806",
+    "authority": "APPROVED_CANON",
+    "use": "文明最低设定；不跟随后续建筑规划链接"
+  },
+  {
+    "id": "SRC-PARENT",
+    "path": "minecraft/MP-P01R-CIV001/implementation-packages.json",
+    "sha256": "79ee8f8841d073d175d8cd1e26bbacf7827c81d3a5bde01c2f11527df1deed77",
+    "repository": "zhangchenjia21-dot/assets",
+    "revision": "aeded8d91e6af132a139cff5334a3a654d1c2806",
+    "authority": "DESIGN_PROPOSAL",
+    "use": "仅PACKAGE-03和必要node/route引用；抽取见sources/parent-package.json"
+  },
+  {
+    "id": "SRC-OBS",
+    "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/observed.sqlite.gz",
+    "sha256": "f3599956cabc3a456b3fe799996c29335079c52656e615679cfc0d8d3a51f842",
+    "repository": "zhangchenjia21-dot/assets",
+    "revision": "aeded8d91e6af132a139cff5334a3a654d1c2806",
+    "authority": "OBSERVED",
+    "use": "逐列地表、4格植被采样；非当前存档刷新"
+  },
+  {
+    "id": "SRC-DERIVED",
+    "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/derived.npz",
+    "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff",
+    "repository": "zhangchenjia21-dot/assets",
+    "revision": "aeded8d91e6af132a139cff5334a3a654d1c2806",
+    "authority": "DERIVED",
+    "use": "只使用land_component、slope8、relief32自然数组"
+  },
+  {
+    "id": "SRC-ATLAS",
+    "path": "minecraft/建筑师/research/natural-geography/NG-3/atlas/objects.jsonl",
+    "sha256": "41b9018a2cbc323c26b393882d710f759abd3b5129bb130e4603c048c0450062",
+    "repository": "zhangchenjia21-dot/assets",
+    "revision": "aeded8d91e6af132a139cff5334a3a654d1c2806",
+    "authority": "DERIVED_WITH_MIXED_CONFIDENCE",
+    "use": "只取相交NGEO/NHYD，未读取NSITE规划潜力；子集保留原lineage"
+  },
+  {
+    "id": "SRC-REF-architecture-kit-requirements",
+    "path": "skill/codex/minecraft-planner/references/architecture-kit-requirements.md",
+    "sha256": "3195fdb049289a2f91e9e3a24ff0af4ec314d87930d82e33f414426c44558aec",
+    "repository": "zhangchenjia21-dot/Vibe-Coding",
+    "revision": "886a8f3c4a06c9292080a0642636f31b90849a3b",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/architecture-kit-requirements.md"
+  },
+  {
+    "id": "SRC-REF-causal-growth-model",
+    "path": "skill/codex/minecraft-planner/references/causal-growth-model.md",
+    "sha256": "df738a6ff724d2462e816bf86896fdc21fb83c8067465018de98cab0c02b45e8",
+    "repository": "zhangchenjia21-dot/Vibe-Coding",
+    "revision": "886a8f3c4a06c9292080a0642636f31b90849a3b",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/causal-growth-model.md"
+  },
+  {
+    "id": "SRC-REF-flows-externalities-and-demand",
+    "path": "skill/codex/minecraft-planner/references/flows-externalities-and-demand.md",
+    "sha256": "989a284d9c765b660de974f5fc863664121de31b5a536a20046082c4122b3a0a",
+    "repository": "zhangchenjia21-dot/Vibe-Coding",
+    "revision": "886a8f3c4a06c9292080a0642636f31b90849a3b",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/flows-externalities-and-demand.md"
+  },
+  {
+    "id": "SRC-REF-planning-artifacts-and-maps",
+    "path": "skill/codex/minecraft-planner/references/planning-artifacts-and-maps.md",
+    "sha256": "7e475829e161c07ac6370d3cff323a92cec2db9c6b72a567356ec21f37dcad14",
+    "repository": "zhangchenjia21-dot/Vibe-Coding",
+    "revision": "886a8f3c4a06c9292080a0642636f31b90849a3b",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/planning-artifacts-and-maps.md"
+  },
+  {
+    "id": "SRC-REF-recursive-planning-handoff",
+    "path": "skill/codex/minecraft-planner/references/recursive-planning-handoff.md",
+    "sha256": "f9feb2c78290b6bcda49940cab8fb4aecbef71f630f96910aec4d1bcfb4123d4",
+    "repository": "zhangchenjia21-dot/Vibe-Coding",
+    "revision": "886a8f3c4a06c9292080a0642636f31b90849a3b",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/recursive-planning-handoff.md"
+  },
+  {
+    "id": "SRC-REF-settlement-capacity-and-scale",
+    "path": "skill/codex/minecraft-planner/references/settlement-capacity-and-scale.md",
+    "sha256": "239c1d70b279e575ccbf40b233504149407d594f041e0ccac7ee3fdc6351967b",
+    "repository": "zhangchenjia21-dot/Vibe-Coding",
+    "revision": "886a8f3c4a06c9292080a0642636f31b90849a3b",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/settlement-capacity-and-scale.md"
+  },
+  {
+    "id": "SRC-REF-surface-substrate-landcover",
+    "path": "skill/codex/minecraft-planner/references/surface-substrate-landcover.md",
+    "sha256": "0972887a7250f3f43a282a5c3643fae84635f556beb9d1686bee39c9a0124c8e",
+    "repository": "zhangchenjia21-dot/Vibe-Coding",
+    "revision": "886a8f3c4a06c9292080a0642636f31b90849a3b",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/surface-substrate-landcover.md"
+  },
+  {
+    "id": "SRC-SKILL",
+    "path": "skill/codex/minecraft-planner/SKILL.md",
+    "sha256": "2018df6e78d46c9d47796d977127eb738bf740d4982f34eeca3bf1a62a985b34",
+    "repository": "zhangchenjia21-dot/Vibe-Coding",
+    "revision": "886a8f3c4a06c9292080a0642636f31b90849a3b",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/SKILL.md"
+  }
+]

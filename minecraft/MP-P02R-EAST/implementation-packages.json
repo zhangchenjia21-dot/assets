@@ -1,0 +1,469 @@
+[
+  {
+    "id": "PACKAGE-01",
+    "parent_plan": "MP-P02R-EAST",
+    "parent_revision": "r1",
+    "parent_scale": "REGIONAL_SYSTEM",
+    "child_scale": "SETTLEMENT",
+    "recipient": "minecraft-planner",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "scope_node_refs": [
+      "NODE-01"
+    ],
+    "why": "北部共同体产品交割、修理及共享储备；承担吞吐不垄断东席",
+    "upstream_anchor_refs": [
+      "ANCHOR-01",
+      "ANCHOR-02",
+      "ANCHOR-03"
+    ],
+    "flow_refs": [
+      "ROUTE-01",
+      "ROUTE-02"
+    ],
+    "upstream_fixed": [
+      "多个自治共同体，北部服务不独占东席",
+      "保持中域—北部—条件远端供给关系",
+      "搜索窗、建成容量、关系腹地三分；NODE-03/04互斥",
+      "保护待查土面与水源选择，不以绿色或裸岩直接定产能"
+    ],
+    "fixed_authority_note": "Canon立即有效；本轮关系仅在本案被接受后约束下游，不升格World Canon",
+    "downstream_to_resolve": [
+      "先读取当前既有建筑/道路/土地权属，不按空白建设",
+      "逐候选检查稳定饮水、季节水量与污水方向",
+      "岩面裂隙/土深/陶瓦质基底/侵蚀；人工地表来源",
+      "植被逐地块覆盖、利用权与更新；土面生产可行性",
+      "连续驮路坡度、净空、转折、桥渡及装卸；不得以端点可达代替",
+      "实际资源地点与活动规模、燃料来源、粮食交换压力",
+      "建立聚落Anchor、历史继承、主通行与分区关系，再交L3"
+    ],
+    "downstream_adaptable": [
+      "在角色成立条件下迁移或拆分搜索位置",
+      "重新分配北部总容量，不能机械占满上限",
+      "本地catchment、内部层级与形态",
+      "南部季节化、取消或互斥替代"
+    ],
+    "capacity_hypothesis": {
+      "area_range_blocks2": [
+        3500,
+        8000
+      ],
+      "household_pressure": [
+        12,
+        24
+      ],
+      "household_allowance_blocks2": [
+        100,
+        150
+      ],
+      "shared_service_blocks2": [
+        2300,
+        4400
+      ],
+      "arithmetic_range": [
+        3500,
+        8000
+      ],
+      "confidence": "LOW",
+      "inactive_area_blocks2": 0,
+      "existing_area": "UNVERIFIED",
+      "exclusions": [
+        "生产腹地",
+        "未建设公地",
+        "矿区与燃料林",
+        "节点间交通",
+        "全部搜索窗"
+      ],
+      "semantic": "户用地含本地通行院落；shared只计不重复区域服务。为Minecraft压力假设，不是人口普查。"
+    },
+    "location_search_envelope": {
+      "bounds": [
+        704,
+        1520,
+        895,
+        1711
+      ],
+      "representative_xz": [
+        800,
+        1620
+      ],
+      "not_exact_site": true
+    },
+    "functional_hinterland": {
+      "type": "RELATIONAL_NOT_POLYGON",
+      "description": "北部家庭—交割—中域接口"
+    },
+    "surface_evidence": {
+      "bounds": [
+        704,
+        1520,
+        895,
+        1711
+      ],
+      "land_columns": 34570,
+      "y_p10_p50_p90": [
+        100.0,
+        132.0,
+        139.0
+      ],
+      "gentle_columns": 10769,
+      "surface_ratio": {
+        "SOIL_SURFACE": 0.0275,
+        "ROCK_SURFACE": 0.7872,
+        "SAND_GRAVEL": 0.1835,
+        "TERRACOTTA_SURFACE": 0.0,
+        "MUD_CLAY": 0.0,
+        "SNOW_ICE": 0.0,
+        "SURFACE_PLANT": 0.001,
+        "OTHER_UNRESOLVED": 0.0008
+      },
+      "vegetation_sample_count": 2146,
+      "leaf_sample_presence_ratio": 0.0014,
+      "artificial_flag_columns": 8,
+      "source_refs": [
+        "SRC-OBS",
+        "SRC-DERIVED"
+      ],
+      "authority": "DERIVED",
+      "substrate": "UNRESOLVED",
+      "existing_fabric": "UNVERIFIED"
+    },
+    "surface_specific_requirement": "稀缺土面先保留调查；常住不随平岩面积膨胀；若供水/下山运输失败，服务随既有社区迁移或收缩",
+    "source_refs": [
+      "SRC-CANON",
+      "SRC-PARENT",
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "cross_package_dependencies": [
+      "PACKAGE-02",
+      "PACKAGE-03"
+    ],
+    "external_dependency": "MP-P01R PACKAGE-02中域接口仅协调，无本轮设计权限",
+    "revision_triggers": [
+      "水/通达/既有权属使角色无兼容位置",
+      "容量显著超出范围或多个节点重复服务同一压力",
+      "具体资源与假设方向不符",
+      "保护地表后角色不可维持"
+    ],
+    "revision_protocol": "先移位/拆分/季节化；仍不能满足关系则提最小受影响node/route/capacity证据，标UPSTREAM_PLANNING_ISSUE，父案revision后重跑Gate并标子包stale；不覆盖原父案",
+    "expected_outputs": [
+      "现状与地表证据",
+      "聚落Plan/关系与容量，非建筑设计",
+      "同坐标地图、machine-readable数据、L3交接包",
+      "供水/驮路/生计结论及未证边界"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false
+  },
+  {
+    "id": "PACKAGE-02",
+    "parent_plan": "MP-P02R-EAST",
+    "parent_revision": "r1",
+    "parent_scale": "REGIONAL_SYSTEM",
+    "child_scale": "SETTLEMENT",
+    "recipient": "minecraft-planner",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "scope_node_refs": [
+      "NODE-02"
+    ],
+    "why": "地方家庭与共同体日常支援，向北交换但保有自治与地方祭祀",
+    "upstream_anchor_refs": [
+      "ANCHOR-01",
+      "ANCHOR-02",
+      "ANCHOR-03"
+    ],
+    "flow_refs": [
+      "ROUTE-02",
+      "ROUTE-03",
+      "ROUTE-04"
+    ],
+    "upstream_fixed": [
+      "多个自治共同体，北部服务不独占东席",
+      "保持中域—北部—条件远端供给关系",
+      "搜索窗、建成容量、关系腹地三分；NODE-03/04互斥",
+      "保护待查土面与水源选择，不以绿色或裸岩直接定产能"
+    ],
+    "fixed_authority_note": "Canon立即有效；本轮关系仅在本案被接受后约束下游，不升格World Canon",
+    "downstream_to_resolve": [
+      "先读取当前既有建筑/道路/土地权属，不按空白建设",
+      "逐候选检查稳定饮水、季节水量与污水方向",
+      "岩面裂隙/土深/陶瓦质基底/侵蚀；人工地表来源",
+      "植被逐地块覆盖、利用权与更新；土面生产可行性",
+      "连续驮路坡度、净空、转折、桥渡及装卸；不得以端点可达代替",
+      "实际资源地点与活动规模、燃料来源、粮食交换压力",
+      "建立聚落Anchor、历史继承、主通行与分区关系，再交L3"
+    ],
+    "downstream_adaptable": [
+      "在角色成立条件下迁移或拆分搜索位置",
+      "重新分配北部总容量，不能机械占满上限",
+      "本地catchment、内部层级与形态",
+      "南部季节化、取消或互斥替代"
+    ],
+    "capacity_hypothesis": {
+      "area_range_blocks2": [
+        2500,
+        6000
+      ],
+      "household_pressure": [
+        18,
+        36
+      ],
+      "household_allowance_blocks2": [
+        100,
+        130
+      ],
+      "shared_service_blocks2": [
+        700,
+        1320
+      ],
+      "arithmetic_range": [
+        2500,
+        6000
+      ],
+      "confidence": "LOW",
+      "inactive_area_blocks2": 0,
+      "existing_area": "UNVERIFIED",
+      "exclusions": [
+        "生产腹地",
+        "未建设公地",
+        "矿区与燃料林",
+        "节点间交通",
+        "全部搜索窗"
+      ],
+      "semantic": "户用地含本地通行院落；shared只计不重复区域服务。为Minecraft压力假设，不是人口普查。"
+    },
+    "location_search_envelope": {
+      "bounds": [
+        512,
+        1904,
+        703,
+        2095
+      ],
+      "representative_xz": [
+        610,
+        1990
+      ],
+      "not_exact_site": true
+    },
+    "functional_hinterland": {
+      "type": "RELATIONAL_NOT_POLYGON",
+      "description": "北部家庭—交割—中域接口"
+    },
+    "surface_evidence": {
+      "bounds": [
+        512,
+        1904,
+        703,
+        2095
+      ],
+      "land_columns": 36213,
+      "y_p10_p50_p90": [
+        131.0,
+        180.0,
+        206.0
+      ],
+      "gentle_columns": 6306,
+      "surface_ratio": {
+        "SOIL_SURFACE": 0.8694,
+        "ROCK_SURFACE": 0.1259,
+        "SAND_GRAVEL": 0.0003,
+        "TERRACOTTA_SURFACE": 0.0,
+        "MUD_CLAY": 0.0,
+        "SNOW_ICE": 0.0,
+        "SURFACE_PLANT": 0.0032,
+        "OTHER_UNRESOLVED": 0.0011
+      },
+      "vegetation_sample_count": 2261,
+      "leaf_sample_presence_ratio": 0.1132,
+      "artificial_flag_columns": 7,
+      "source_refs": [
+        "SRC-OBS",
+        "SRC-DERIVED"
+      ],
+      "authority": "DERIVED",
+      "substrate": "UNRESOLVED",
+      "existing_fabric": "UNVERIFIED"
+    },
+    "surface_specific_requirement": "不得把草土都铺成聚落；保留成片土面调查生产潜力，水与运输不足则下调居民压力",
+    "source_refs": [
+      "SRC-CANON",
+      "SRC-PARENT",
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "cross_package_dependencies": [
+      "PACKAGE-01",
+      "PACKAGE-03"
+    ],
+    "external_dependency": "MP-P01R PACKAGE-02中域接口仅协调，无本轮设计权限",
+    "revision_triggers": [
+      "水/通达/既有权属使角色无兼容位置",
+      "容量显著超出范围或多个节点重复服务同一压力",
+      "具体资源与假设方向不符",
+      "保护地表后角色不可维持"
+    ],
+    "revision_protocol": "先移位/拆分/季节化；仍不能满足关系则提最小受影响node/route/capacity证据，标UPSTREAM_PLANNING_ISSUE，父案revision后重跑Gate并标子包stale；不覆盖原父案",
+    "expected_outputs": [
+      "现状与地表证据",
+      "聚落Plan/关系与容量，非建筑设计",
+      "同坐标地图、machine-readable数据、L3交接包",
+      "供水/驮路/生计结论及未证边界"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false
+  },
+  {
+    "id": "PACKAGE-03",
+    "parent_plan": "MP-P02R-EAST",
+    "parent_revision": "r1",
+    "parent_scale": "REGIONAL_SYSTEM",
+    "child_scale": "SETTLEMENT",
+    "recipient": "minecraft-planner",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "scope_node_refs": [
+      "NODE-03",
+      "NODE-04"
+    ],
+    "why": "仅在真实远端生产与持续供给成立后支持当地活动",
+    "upstream_anchor_refs": [
+      "ANCHOR-04"
+    ],
+    "flow_refs": [
+      "ROUTE-03"
+    ],
+    "upstream_fixed": [
+      "多个自治共同体，北部服务不独占东席",
+      "保持中域—北部—条件远端供给关系",
+      "搜索窗、建成容量、关系腹地三分；NODE-03/04互斥",
+      "保护待查土面与水源选择，不以绿色或裸岩直接定产能"
+    ],
+    "fixed_authority_note": "Canon立即有效；本轮关系仅在本案被接受后约束下游，不升格World Canon",
+    "downstream_to_resolve": [
+      "先读取当前既有建筑/道路/土地权属，不按空白建设",
+      "逐候选检查稳定饮水、季节水量与污水方向",
+      "岩面裂隙/土深/陶瓦质基底/侵蚀；人工地表来源",
+      "植被逐地块覆盖、利用权与更新；土面生产可行性",
+      "连续驮路坡度、净空、转折、桥渡及装卸；不得以端点可达代替",
+      "实际资源地点与活动规模、燃料来源、粮食交换压力",
+      "建立聚落Anchor、历史继承、主通行与分区关系，再交L3"
+    ],
+    "downstream_adaptable": [
+      "在角色成立条件下迁移或拆分搜索位置",
+      "重新分配北部总容量，不能机械占满上限",
+      "本地catchment、内部层级与形态",
+      "南部季节化、取消或互斥替代"
+    ],
+    "capacity_hypothesis": {
+      "area_range_blocks2": [
+        3000,
+        9000
+      ],
+      "household_pressure": [
+        12,
+        30
+      ],
+      "household_allowance_blocks2": [
+        120,
+        180
+      ],
+      "shared_service_blocks2": [
+        1560,
+        3600
+      ],
+      "arithmetic_range": [
+        3000,
+        9000
+      ],
+      "confidence": "LOW",
+      "inactive_area_blocks2": 0,
+      "existing_area": "UNVERIFIED",
+      "exclusions": [
+        "生产腹地",
+        "未建设公地",
+        "矿区与燃料林",
+        "节点间交通",
+        "全部搜索窗"
+      ],
+      "semantic": "户用地含本地通行院落；shared只计不重复区域服务。为Minecraft压力假设，不是人口普查。"
+    },
+    "location_search_envelope": {
+      "bounds": [
+        1472,
+        2480,
+        1663,
+        2671
+      ],
+      "representative_xz": [
+        1570,
+        2580
+      ],
+      "not_exact_site": true
+    },
+    "functional_hinterland": {
+      "type": "RELATIONAL_NOT_POLYGON",
+      "description": "实际远端生产点—驻留支持—北部交换；有活动才启动"
+    },
+    "surface_evidence": {
+      "bounds": [
+        1472,
+        2480,
+        1663,
+        2671
+      ],
+      "land_columns": 36850,
+      "y_p10_p50_p90": [
+        143.0,
+        158.0,
+        200.0
+      ],
+      "gentle_columns": 4167,
+      "surface_ratio": {
+        "SOIL_SURFACE": 0.1366,
+        "ROCK_SURFACE": 0.3985,
+        "SAND_GRAVEL": 0.0072,
+        "TERRACOTTA_SURFACE": 0.4574,
+        "MUD_CLAY": 0.0,
+        "SNOW_ICE": 0.0,
+        "SURFACE_PLANT": 0.0001,
+        "OTHER_UNRESOLVED": 0.0002
+      },
+      "vegetation_sample_count": 2303,
+      "leaf_sample_presence_ratio": 0.0182,
+      "artificial_flag_columns": 8,
+      "source_refs": [
+        "SRC-OBS",
+        "SRC-DERIVED"
+      ],
+      "authority": "DERIVED",
+      "substrate": "UNRESOLVED",
+      "existing_fabric": "UNVERIFIED"
+    },
+    "surface_specific_requirement": "不设自给农业默认值；先季节服务，土层/饮水/资源/驮路任一失败可为0",
+    "source_refs": [
+      "SRC-CANON",
+      "SRC-PARENT",
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "cross_package_dependencies": [
+      "PACKAGE-01",
+      "PACKAGE-02"
+    ],
+    "external_dependency": "MP-P01R PACKAGE-02中域接口仅协调，无本轮设计权限",
+    "revision_triggers": [
+      "水/通达/既有权属使角色无兼容位置",
+      "容量显著超出范围或多个节点重复服务同一压力",
+      "具体资源与假设方向不符",
+      "保护地表后角色不可维持"
+    ],
+    "revision_protocol": "先移位/拆分/季节化；仍不能满足关系则提最小受影响node/route/capacity证据，标UPSTREAM_PLANNING_ISSUE，父案revision后重跑Gate并标子包stale；不覆盖原父案",
+    "expected_outputs": [
+      "现状与地表证据",
+      "聚落Plan/关系与容量，非建筑设计",
+      "同坐标地图、machine-readable数据、L3交接包",
+      "供水/驮路/生计结论及未证边界"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false
+  }
+]
