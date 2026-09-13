@@ -1,0 +1,2000 @@
+[
+  {
+    "xz": [
+      924,
+      1495
+    ],
+    "y": 41,
+    "state": "minecraft:magma_block",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      924,
+      1496
+    ],
+    "y": 41,
+    "state": "minecraft:magma_block",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      890,
+      1527
+    ],
+    "y": 65,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1530
+    ],
+    "y": 81,
+    "state": "minecraft:cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1530
+    ],
+    "y": 80,
+    "state": "minecraft:cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1530
+    ],
+    "y": 79,
+    "state": "minecraft:cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1530
+    ],
+    "y": 77,
+    "state": "minecraft:cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1530
+    ],
+    "y": 76,
+    "state": "minecraft:cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1530
+    ],
+    "y": 75,
+    "state": "minecraft:cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1530
+    ],
+    "y": 74,
+    "state": "minecraft:cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1530
+    ],
+    "y": 73,
+    "state": "minecraft:cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1531
+    ],
+    "y": 83,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1531
+    ],
+    "y": 82,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1531
+    ],
+    "y": 80,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1531
+    ],
+    "y": 79,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1531
+    ],
+    "y": 78,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1531
+    ],
+    "y": 76,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1531
+    ],
+    "y": 75,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1531
+    ],
+    "y": 74,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1531
+    ],
+    "y": 73,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1531
+    ],
+    "y": 72,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1532
+    ],
+    "y": 85,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1532
+    ],
+    "y": 84,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1532
+    ],
+    "y": 83,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1532
+    ],
+    "y": 81,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1532
+    ],
+    "y": 80,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1532
+    ],
+    "y": 79,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1532
+    ],
+    "y": 77,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1532
+    ],
+    "y": 76,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1532
+    ],
+    "y": 75,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1532
+    ],
+    "y": 74,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1532
+    ],
+    "y": 72,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1533
+    ],
+    "y": 87,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1533
+    ],
+    "y": 86,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1533
+    ],
+    "y": 85,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1533
+    ],
+    "y": 83,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1533
+    ],
+    "y": 82,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1533
+    ],
+    "y": 81,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1533
+    ],
+    "y": 80,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1533
+    ],
+    "y": 78,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1533
+    ],
+    "y": 77,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1533
+    ],
+    "y": 76,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1533
+    ],
+    "y": 74,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      731,
+      1533
+    ],
+    "y": 73,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      915,
+      1533
+    ],
+    "y": 69,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1534
+    ],
+    "y": 90,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1534
+    ],
+    "y": 88,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1534
+    ],
+    "y": 87,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1534
+    ],
+    "y": 86,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1534
+    ],
+    "y": 84,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1534
+    ],
+    "y": 83,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1534
+    ],
+    "y": 82,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1534
+    ],
+    "y": 80,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1534
+    ],
+    "y": 79,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1534
+    ],
+    "y": 78,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1534
+    ],
+    "y": 76,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      731,
+      1534
+    ],
+    "y": 75,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      732,
+      1534
+    ],
+    "y": 73,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      936,
+      1534
+    ],
+    "y": 66,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      954,
+      1534
+    ],
+    "y": 63,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1535
+    ],
+    "y": 92,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1535
+    ],
+    "y": 90,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1535
+    ],
+    "y": 89,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1535
+    ],
+    "y": 88,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1535
+    ],
+    "y": 87,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1535
+    ],
+    "y": 85,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1535
+    ],
+    "y": 84,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1535
+    ],
+    "y": 82,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1535
+    ],
+    "y": 81,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1535
+    ],
+    "y": 80,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1535
+    ],
+    "y": 78,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      731,
+      1535
+    ],
+    "y": 76,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      732,
+      1535
+    ],
+    "y": 75,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      733,
+      1535
+    ],
+    "y": 74,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      734,
+      1535
+    ],
+    "y": 73,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1536
+    ],
+    "y": 93,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1536
+    ],
+    "y": 92,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1536
+    ],
+    "y": 91,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1536
+    ],
+    "y": 90,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1536
+    ],
+    "y": 89,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1536
+    ],
+    "y": 87,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1536
+    ],
+    "y": 86,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1536
+    ],
+    "y": 84,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1536
+    ],
+    "y": 83,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1536
+    ],
+    "y": 82,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1536
+    ],
+    "y": 80,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      731,
+      1536
+    ],
+    "y": 79,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      732,
+      1536
+    ],
+    "y": 77,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      733,
+      1536
+    ],
+    "y": 76,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      734,
+      1536
+    ],
+    "y": 75,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      735,
+      1536
+    ],
+    "y": 74,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      896,
+      1536
+    ],
+    "y": 106,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1537
+    ],
+    "y": 95,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1537
+    ],
+    "y": 94,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1537
+    ],
+    "y": 93,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1537
+    ],
+    "y": 92,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1537
+    ],
+    "y": 91,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1537
+    ],
+    "y": 89,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1537
+    ],
+    "y": 88,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1537
+    ],
+    "y": 86,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1537
+    ],
+    "y": 85,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1537
+    ],
+    "y": 84,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1537
+    ],
+    "y": 82,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      731,
+      1537
+    ],
+    "y": 81,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      732,
+      1537
+    ],
+    "y": 79,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      733,
+      1537
+    ],
+    "y": 78,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      734,
+      1537
+    ],
+    "y": 78,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      735,
+      1537
+    ],
+    "y": 77,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      736,
+      1537
+    ],
+    "y": 76,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      737,
+      1537
+    ],
+    "y": 75,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1538
+    ],
+    "y": 97,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1538
+    ],
+    "y": 96,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1538
+    ],
+    "y": 95,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1538
+    ],
+    "y": 94,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1538
+    ],
+    "y": 93,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1538
+    ],
+    "y": 91,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1538
+    ],
+    "y": 90,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1538
+    ],
+    "y": 88,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1538
+    ],
+    "y": 87,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1538
+    ],
+    "y": 86,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1538
+    ],
+    "y": 84,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      731,
+      1538
+    ],
+    "y": 83,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      732,
+      1538
+    ],
+    "y": 81,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      733,
+      1538
+    ],
+    "y": 81,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      734,
+      1538
+    ],
+    "y": 80,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      735,
+      1538
+    ],
+    "y": 79,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      736,
+      1538
+    ],
+    "y": 78,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      737,
+      1538
+    ],
+    "y": 77,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      738,
+      1538
+    ],
+    "y": 75,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      932,
+      1538
+    ],
+    "y": 100,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1539
+    ],
+    "y": 98,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1539
+    ],
+    "y": 97,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1539
+    ],
+    "y": 97,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1539
+    ],
+    "y": 96,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1539
+    ],
+    "y": 95,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1539
+    ],
+    "y": 93,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1539
+    ],
+    "y": 92,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1539
+    ],
+    "y": 90,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1539
+    ],
+    "y": 89,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1539
+    ],
+    "y": 88,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1539
+    ],
+    "y": 86,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      731,
+      1539
+    ],
+    "y": 85,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      732,
+      1539
+    ],
+    "y": 84,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      733,
+      1539
+    ],
+    "y": 83,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      734,
+      1539
+    ],
+    "y": 82,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      735,
+      1539
+    ],
+    "y": 81,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      736,
+      1539
+    ],
+    "y": 79,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      737,
+      1539
+    ],
+    "y": 78,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      866,
+      1539
+    ],
+    "y": 78,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      910,
+      1539
+    ],
+    "y": 105,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      931,
+      1539
+    ],
+    "y": 100,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      948,
+      1539
+    ],
+    "y": 101,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1540
+    ],
+    "y": 100,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1540
+    ],
+    "y": 99,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1540
+    ],
+    "y": 98,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1540
+    ],
+    "y": 97,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      724,
+      1540
+    ],
+    "y": 96,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      725,
+      1540
+    ],
+    "y": 95,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      726,
+      1540
+    ],
+    "y": 93,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      727,
+      1540
+    ],
+    "y": 92,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      728,
+      1540
+    ],
+    "y": 90,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      729,
+      1540
+    ],
+    "y": 89,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      730,
+      1540
+    ],
+    "y": 88,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      731,
+      1540
+    ],
+    "y": 86,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      732,
+      1540
+    ],
+    "y": 85,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      733,
+      1540
+    ],
+    "y": 84,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      734,
+      1540
+    ],
+    "y": 83,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      735,
+      1540
+    ],
+    "y": 82,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1541
+    ],
+    "y": 101,
+    "state": "minecraft:lava[level=4]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      721,
+      1541
+    ],
+    "y": 100,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      722,
+      1541
+    ],
+    "y": 99,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      723,
+      1541
+    ],
+    "y": 98,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      738,
+      1541
+    ],
+    "y": 81,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      862,
+      1541
+    ],
+    "y": 74,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      954,
+      1541
+    ],
+    "y": 99,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      720,
+      1542
+    ],
+    "y": 101,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      772,
+      1542
+    ],
+    "y": 80,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      955,
+      1542
+    ],
+    "y": 97,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      732,
+      1545
+    ],
+    "y": 96,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      740,
+      1545
+    ],
+    "y": 94,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      741,
+      1545
+    ],
+    "y": 94,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      742,
+      1546
+    ],
+    "y": 98,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      797,
+      1546
+    ],
+    "y": 84,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      858,
+      1546
+    ],
+    "y": 83,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      844,
+      1547
+    ],
+    "y": 77,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      812,
+      1548
+    ],
+    "y": 90,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      772,
+      1552
+    ],
+    "y": 107,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      822,
+      1552
+    ],
+    "y": 98,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      822,
+      1554
+    ],
+    "y": 103,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      855,
+      1554
+    ],
+    "y": 109,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      832,
+      1555
+    ],
+    "y": 100,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      828,
+      1557
+    ],
+    "y": 108,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      835,
+      1558
+    ],
+    "y": 106,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      833,
+      1559
+    ],
+    "y": 110,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      753,
+      1666
+    ],
+    "y": 113,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      752,
+      1667
+    ],
+    "y": 115,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      753,
+      1667
+    ],
+    "y": 115,
+    "state": "minecraft:lava[level=4]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      752,
+      1668
+    ],
+    "y": 129,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      753,
+      1668
+    ],
+    "y": 115,
+    "state": "minecraft:lava[level=2]",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      754,
+      1668
+    ],
+    "y": 123,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      752,
+      1669
+    ],
+    "y": 118,
+    "state": "minecraft:cobweb",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      837,
+      1712
+    ],
+    "y": 84,
+    "state": "minecraft:cobweb",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      806,
+      1720
+    ],
+    "y": 117,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      807,
+      1721
+    ],
+    "y": 113,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      805,
+      1725
+    ],
+    "y": 111,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      825,
+      1727
+    ],
+    "y": 84,
+    "state": "minecraft:cobweb",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      922,
+      1753
+    ],
+    "y": 129,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      925,
+      1754
+    ],
+    "y": 128,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      928,
+      1754
+    ],
+    "y": 129,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      928,
+      1755
+    ],
+    "y": 128,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      942,
+      1761
+    ],
+    "y": 115,
+    "state": "minecraft:cobweb",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      913,
+      1764
+    ],
+    "y": 107,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      818,
+      1766
+    ],
+    "y": 107,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      915,
+      1766
+    ],
+    "y": 103,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      915,
+      1767
+    ],
+    "y": 101,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      950,
+      1767
+    ],
+    "y": 88,
+    "state": "minecraft:cobweb",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      925,
+      1768
+    ],
+    "y": 101,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      932,
+      1768
+    ],
+    "y": 105,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      956,
+      1768
+    ],
+    "y": 80,
+    "state": "minecraft:mossy_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      950,
+      1771
+    ],
+    "y": 78,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      936,
+      1772
+    ],
+    "y": 93,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  },
+  {
+    "xz": [
+      951,
+      1772
+    ],
+    "y": 74,
+    "state": "minecraft:infested_cobblestone",
+    "meaning": "OBSERVED_MATERIAL_NOT_AUTHORED_ORIGIN"
+  }
+]

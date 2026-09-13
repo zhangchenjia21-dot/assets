@@ -1,0 +1,37 @@
+[
+  {
+    "district": "DISTRICT-01",
+    "witness_count": 33,
+    "blocks": {
+      "minecraft:stone": 421,
+      "minecraft:coal_ore": 6,
+      "minecraft:dirt": 2
+    },
+    "meaning": "8格离散13层见证，不能证明柱间无空洞"
+  },
+  {
+    "district": "DISTRICT-02",
+    "witness_count": 33,
+    "blocks": {
+      "minecraft:stone": 415,
+      "minecraft:iron_ore": 3,
+      "minecraft:dirt": 4,
+      "minecraft:gravel": 4,
+      "minecraft:coal_ore": 3
+    },
+    "meaning": "8格离散13层见证，不能证明柱间无空洞"
+  },
+  {
+    "district": "DISTRICT-03",
+    "witness_count": 27,
+    "blocks": {
+      "minecraft:stone": 330,
+      "minecraft:air": 8,
+      "minecraft:dirt": 7,
+      "minecraft:iron_ore": 1,
+      "minecraft:infested_cobblestone": 2,
+      "minecraft:gravel": 3
+    },
+    "meaning": "8格离散13层见证，不能证明柱间无空洞"
+  }
+]

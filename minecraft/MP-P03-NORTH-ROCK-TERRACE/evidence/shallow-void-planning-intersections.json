@@ -1,0 +1,73 @@
+[
+  {
+    "id": "FRONTAGE-01",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 0
+  },
+  {
+    "id": "FRONTAGE-02",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 0
+  },
+  {
+    "id": "FRONTAGE-03",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 6
+  },
+  {
+    "id": "FRONTAGE-04",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 0
+  },
+  {
+    "id": "FRONTAGE-05",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 0
+  },
+  {
+    "id": "FRONTAGE-07",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 0
+  },
+  {
+    "id": "FRONTAGE-08",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 0
+  },
+  {
+    "id": "SPACE-01",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 0
+  },
+  {
+    "id": "SPACE-02",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 34
+  },
+  {
+    "id": "SPACE-03",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 14
+  },
+  {
+    "id": "SPACE-04",
+    "void_column_overlap": 0,
+    "soil_column_overlap": 11
+  },
+  {
+    "id": "ROUTE-01",
+    "void_column_overlap": 0
+  },
+  {
+    "id": "ROUTE-02",
+    "void_column_overlap": 0
+  },
+  {
+    "id": "ROUTE-03",
+    "void_column_overlap": 0
+  },
+  {
+    "id": "ROUTE-04",
+    "void_column_overlap": 0
+  }
+]

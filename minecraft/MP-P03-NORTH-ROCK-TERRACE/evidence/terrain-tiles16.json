@@ -1,0 +1,3038 @@
+[
+  {
+    "bounds": [
+      704,
+      1536,
+      719,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      92,
+      102.0,
+      109
+    ],
+    "surface_counts": {
+      "ROCK": 178,
+      "SOIL": 78,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1536,
+      735,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      74,
+      98.0,
+      111
+    ],
+    "surface_counts": {
+      "ROCK": 157,
+      "SOIL": 0,
+      "SAND_GRAVEL": 13,
+      "WATER": 0,
+      "LAVA": 85,
+      "OTHER": 1
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1536,
+      751,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      62,
+      88.5,
+      114
+    ],
+    "surface_counts": {
+      "ROCK": 194,
+      "SOIL": 0,
+      "SAND_GRAVEL": 51,
+      "WATER": 0,
+      "LAVA": 7,
+      "OTHER": 4
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1536,
+      767,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      62,
+      85.0,
+      114
+    ],
+    "surface_counts": {
+      "ROCK": 107,
+      "SOIL": 0,
+      "SAND_GRAVEL": 149,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1536,
+      783,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      64,
+      85.0,
+      105
+    ],
+    "surface_counts": {
+      "ROCK": 245,
+      "SOIL": 10,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 1
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1536,
+      799,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      65,
+      81.0,
+      102
+    ],
+    "surface_counts": {
+      "ROCK": 249,
+      "SOIL": 6,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 1
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1536,
+      815,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      66,
+      79.0,
+      98
+    ],
+    "surface_counts": {
+      "ROCK": 249,
+      "SOIL": 6,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 1
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1536,
+      831,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      64,
+      80.0,
+      97
+    ],
+    "surface_counts": {
+      "ROCK": 255,
+      "SOIL": 0,
+      "SAND_GRAVEL": 1,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1536,
+      847,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      56,
+      70.5,
+      90
+    ],
+    "surface_counts": {
+      "ROCK": 203,
+      "SOIL": 4,
+      "SAND_GRAVEL": 0,
+      "WATER": 48,
+      "LAVA": 0,
+      "OTHER": 1
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1536,
+      863,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      55,
+      74.0,
+      119
+    ],
+    "surface_counts": {
+      "ROCK": 178,
+      "SOIL": 15,
+      "SAND_GRAVEL": 0,
+      "WATER": 61,
+      "LAVA": 0,
+      "OTHER": 2
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1536,
+      879,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      62,
+      106.0,
+      131
+    ],
+    "surface_counts": {
+      "ROCK": 251,
+      "SOIL": 4,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 1
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1536,
+      895,
+      1551
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      92,
+      120.0,
+      135
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1552,
+      719,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      101,
+      106.0,
+      110
+    ],
+    "surface_counts": {
+      "ROCK": 187,
+      "SOIL": 69,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1552,
+      735,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      110,
+      114.0,
+      120
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1552,
+      751,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      114,
+      122.0,
+      127
+    ],
+    "surface_counts": {
+      "ROCK": 232,
+      "SOIL": 0,
+      "SAND_GRAVEL": 24,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1552,
+      767,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      108,
+      126.0,
+      130
+    ],
+    "surface_counts": {
+      "ROCK": 133,
+      "SOIL": 0,
+      "SAND_GRAVEL": 123,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1552,
+      783,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      105,
+      121.0,
+      130
+    ],
+    "surface_counts": {
+      "ROCK": 250,
+      "SOIL": 5,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 1
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1552,
+      799,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      96,
+      117.0,
+      128
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1552,
+      815,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      97,
+      117.0,
+      131
+    ],
+    "surface_counts": {
+      "ROCK": 241,
+      "SOIL": 0,
+      "SAND_GRAVEL": 15,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1552,
+      831,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      93,
+      116.0,
+      132
+    ],
+    "surface_counts": {
+      "ROCK": 253,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 3
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1552,
+      847,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      89,
+      111.0,
+      131
+    ],
+    "surface_counts": {
+      "ROCK": 253,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 3
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1552,
+      863,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      93,
+      127.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 250,
+      "SOIL": 5,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 1
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1552,
+      879,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      124,
+      137.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 247,
+      "SOIL": 0,
+      "SAND_GRAVEL": 9,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1552,
+      895,
+      1567
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      133,
+      138.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 254,
+      "SOIL": 0,
+      "SAND_GRAVEL": 2,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1568,
+      719,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      103,
+      108.0,
+      113
+    ],
+    "surface_counts": {
+      "ROCK": 184,
+      "SOIL": 72,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1568,
+      735,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      111,
+      116.0,
+      122
+    ],
+    "surface_counts": {
+      "ROCK": 254,
+      "SOIL": 2,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1568,
+      751,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      120,
+      125.0,
+      129
+    ],
+    "surface_counts": {
+      "ROCK": 114,
+      "SOIL": 0,
+      "SAND_GRAVEL": 142,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1568,
+      767,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      127,
+      130.0,
+      132
+    ],
+    "surface_counts": {
+      "ROCK": 142,
+      "SOIL": 0,
+      "SAND_GRAVEL": 114,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1568,
+      783,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      129,
+      131.0,
+      132
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1568,
+      799,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      127,
+      130.0,
+      131
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1568,
+      815,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      127,
+      132.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1568,
+      831,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      132,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1568,
+      847,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      131,
+      136.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1568,
+      863,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      133,
+      137.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1568,
+      879,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      137,
+      138.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1568,
+      895,
+      1583
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      138,
+      139.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 157,
+      "SOIL": 0,
+      "SAND_GRAVEL": 99,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1584,
+      719,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      104,
+      111.0,
+      118
+    ],
+    "surface_counts": {
+      "ROCK": 208,
+      "SOIL": 48,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1584,
+      735,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      114,
+      120.0,
+      125
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1584,
+      751,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      122,
+      128.0,
+      131
+    ],
+    "surface_counts": {
+      "ROCK": 83,
+      "SOIL": 0,
+      "SAND_GRAVEL": 173,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1584,
+      767,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      129,
+      132.0,
+      134
+    ],
+    "surface_counts": {
+      "ROCK": 218,
+      "SOIL": 0,
+      "SAND_GRAVEL": 38,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1584,
+      783,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      129,
+      131.0,
+      134
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1584,
+      799,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      129,
+      130.0,
+      132
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1584,
+      815,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      131,
+      134.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 231,
+      "SOIL": 25,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1584,
+      831,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      136.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 233,
+      "SOIL": 23,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1584,
+      847,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      131,
+      137.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 220,
+      "SOIL": 36,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1584,
+      863,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      137,
+      138.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1584,
+      879,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      138,
+      139.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1584,
+      895,
+      1599
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      139,
+      139.0,
+      140
+    ],
+    "surface_counts": {
+      "ROCK": 133,
+      "SOIL": 0,
+      "SAND_GRAVEL": 123,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1600,
+      719,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      108,
+      114.0,
+      119
+    ],
+    "surface_counts": {
+      "ROCK": 107,
+      "SOIL": 24,
+      "SAND_GRAVEL": 125,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1600,
+      735,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      118,
+      122.0,
+      126
+    ],
+    "surface_counts": {
+      "ROCK": 112,
+      "SOIL": 0,
+      "SAND_GRAVEL": 144,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1600,
+      751,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      126,
+      130.0,
+      132
+    ],
+    "surface_counts": {
+      "ROCK": 99,
+      "SOIL": 0,
+      "SAND_GRAVEL": 157,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1600,
+      767,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      131,
+      133.0,
+      134
+    ],
+    "surface_counts": {
+      "ROCK": 248,
+      "SOIL": 0,
+      "SAND_GRAVEL": 8,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1600,
+      783,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      130,
+      133.0,
+      134
+    ],
+    "surface_counts": {
+      "ROCK": 241,
+      "SOIL": 15,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1600,
+      799,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      129,
+      131.0,
+      135
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1600,
+      815,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      132,
+      135.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1600,
+      831,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      136.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 255,
+      "SOIL": 1,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1600,
+      847,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      137,
+      138.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 229,
+      "SOIL": 0,
+      "SAND_GRAVEL": 27,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1600,
+      863,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      138,
+      139.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 243,
+      "SOIL": 13,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1600,
+      879,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      139,
+      139.0,
+      140
+    ],
+    "surface_counts": {
+      "ROCK": 216,
+      "SOIL": 21,
+      "SAND_GRAVEL": 19,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1600,
+      895,
+      1615
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      139,
+      140.0,
+      141
+    ],
+    "surface_counts": {
+      "ROCK": 103,
+      "SOIL": 0,
+      "SAND_GRAVEL": 153,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1616,
+      719,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      108,
+      114.0,
+      118
+    ],
+    "surface_counts": {
+      "ROCK": 134,
+      "SOIL": 7,
+      "SAND_GRAVEL": 115,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1616,
+      735,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      118,
+      123.0,
+      126
+    ],
+    "surface_counts": {
+      "ROCK": 240,
+      "SOIL": 0,
+      "SAND_GRAVEL": 16,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1616,
+      751,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      126,
+      129.0,
+      131
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1616,
+      767,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      130,
+      132.0,
+      133
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1616,
+      783,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      133,
+      134.0,
+      135
+    ],
+    "surface_counts": {
+      "ROCK": 255,
+      "SOIL": 1,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1616,
+      799,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      134,
+      135.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 225,
+      "SOIL": 0,
+      "SAND_GRAVEL": 31,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1616,
+      815,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      135,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 226,
+      "SOIL": 30,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1616,
+      831,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      137.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 252,
+      "SOIL": 4,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1616,
+      847,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      138.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1616,
+      863,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      139.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 216,
+      "SOIL": 0,
+      "SAND_GRAVEL": 40,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1616,
+      879,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      139,
+      140.0,
+      140
+    ],
+    "surface_counts": {
+      "ROCK": 72,
+      "SOIL": 0,
+      "SAND_GRAVEL": 184,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1616,
+      895,
+      1631
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      140,
+      141.0,
+      143
+    ],
+    "surface_counts": {
+      "ROCK": 127,
+      "SOIL": 0,
+      "SAND_GRAVEL": 129,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1632,
+      719,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      110,
+      116.0,
+      121
+    ],
+    "surface_counts": {
+      "ROCK": 210,
+      "SOIL": 30,
+      "SAND_GRAVEL": 16,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1632,
+      735,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      119,
+      123.0,
+      127
+    ],
+    "surface_counts": {
+      "ROCK": 247,
+      "SOIL": 0,
+      "SAND_GRAVEL": 9,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1632,
+      751,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      126,
+      128.0,
+      131
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1632,
+      767,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      130,
+      132.0,
+      133
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1632,
+      783,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      133,
+      134.0,
+      135
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1632,
+      799,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      135,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1632,
+      815,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1632,
+      831,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      137.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1632,
+      847,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      132,
+      137.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 151,
+      "SOIL": 33,
+      "SAND_GRAVEL": 72,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1632,
+      863,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      129,
+      139.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 128,
+      "SOIL": 28,
+      "SAND_GRAVEL": 98,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 2
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1632,
+      879,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      139,
+      139.0,
+      140
+    ],
+    "surface_counts": {
+      "ROCK": 67,
+      "SOIL": 2,
+      "SAND_GRAVEL": 187,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1632,
+      895,
+      1647
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      140,
+      142.0,
+      144
+    ],
+    "surface_counts": {
+      "ROCK": 166,
+      "SOIL": 3,
+      "SAND_GRAVEL": 87,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1648,
+      719,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      114,
+      120.0,
+      124
+    ],
+    "surface_counts": {
+      "ROCK": 207,
+      "SOIL": 38,
+      "SAND_GRAVEL": 11,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 8
+  },
+  {
+    "bounds": [
+      720,
+      1648,
+      735,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      122,
+      125.0,
+      129
+    ],
+    "surface_counts": {
+      "ROCK": 239,
+      "SOIL": 0,
+      "SAND_GRAVEL": 17,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1648,
+      751,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      127,
+      130.0,
+      132
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1648,
+      767,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      131,
+      133.0,
+      134
+    ],
+    "surface_counts": {
+      "ROCK": 255,
+      "SOIL": 0,
+      "SAND_GRAVEL": 1,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1648,
+      783,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      133,
+      134.0,
+      135
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1648,
+      799,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      135,
+      135.5,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1648,
+      815,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 248,
+      "SOIL": 8,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1648,
+      831,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      137.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 205,
+      "SOIL": 21,
+      "SAND_GRAVEL": 30,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1648,
+      847,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      137,
+      137.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 119,
+      "SOIL": 0,
+      "SAND_GRAVEL": 137,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1648,
+      863,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      138,
+      138.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 252,
+      "SOIL": 0,
+      "SAND_GRAVEL": 4,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1648,
+      879,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      138,
+      139.0,
+      140
+    ],
+    "surface_counts": {
+      "ROCK": 73,
+      "SOIL": 0,
+      "SAND_GRAVEL": 183,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1648,
+      895,
+      1663
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      139,
+      141.0,
+      143
+    ],
+    "surface_counts": {
+      "ROCK": 25,
+      "SOIL": 0,
+      "SAND_GRAVEL": 231,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1664,
+      719,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      118,
+      121.0,
+      125
+    ],
+    "surface_counts": {
+      "ROCK": 154,
+      "SOIL": 31,
+      "SAND_GRAVEL": 71,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 2
+  },
+  {
+    "bounds": [
+      720,
+      1664,
+      735,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      124,
+      127.0,
+      130
+    ],
+    "surface_counts": {
+      "ROCK": 98,
+      "SOIL": 0,
+      "SAND_GRAVEL": 158,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1664,
+      751,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      129,
+      131.0,
+      134
+    ],
+    "surface_counts": {
+      "ROCK": 204,
+      "SOIL": 0,
+      "SAND_GRAVEL": 52,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1664,
+      767,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      113,
+      134.0,
+      135
+    ],
+    "surface_counts": {
+      "ROCK": 249,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 5,
+      "OTHER": 2
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1664,
+      783,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      134,
+      135.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1664,
+      799,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      135,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1664,
+      815,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 254,
+      "SOIL": 2,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1664,
+      831,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      133,
+      136.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 139,
+      "SOIL": 7,
+      "SAND_GRAVEL": 110,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1664,
+      847,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      128,
+      136.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 255,
+      "SOIL": 0,
+      "SAND_GRAVEL": 1,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1664,
+      863,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      128,
+      136.0,
+      138
+    ],
+    "surface_counts": {
+      "ROCK": 94,
+      "SOIL": 0,
+      "SAND_GRAVEL": 162,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1664,
+      879,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      134,
+      138.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 0,
+      "SOIL": 0,
+      "SAND_GRAVEL": 256,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1664,
+      895,
+      1679
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      139,
+      140.0,
+      142
+    ],
+    "surface_counts": {
+      "ROCK": 133,
+      "SOIL": 0,
+      "SAND_GRAVEL": 123,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1680,
+      719,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      119,
+      123.0,
+      125
+    ],
+    "surface_counts": {
+      "ROCK": 255,
+      "SOIL": 0,
+      "SAND_GRAVEL": 1,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1680,
+      735,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      125,
+      127.0,
+      130
+    ],
+    "surface_counts": {
+      "ROCK": 240,
+      "SOIL": 0,
+      "SAND_GRAVEL": 16,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1680,
+      751,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      129,
+      132.0,
+      134
+    ],
+    "surface_counts": {
+      "ROCK": 77,
+      "SOIL": 0,
+      "SAND_GRAVEL": 179,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1680,
+      767,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      134,
+      135.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 236,
+      "SOIL": 0,
+      "SAND_GRAVEL": 20,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1680,
+      783,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      135,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 225,
+      "SOIL": 0,
+      "SAND_GRAVEL": 31,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1680,
+      799,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 230,
+      "SOIL": 26,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1680,
+      815,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      135,
+      136.0,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1680,
+      831,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      123,
+      134.5,
+      137
+    ],
+    "surface_counts": {
+      "ROCK": 93,
+      "SOIL": 27,
+      "SAND_GRAVEL": 136,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1680,
+      847,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      106,
+      122.0,
+      132
+    ],
+    "surface_counts": {
+      "ROCK": 132,
+      "SOIL": 6,
+      "SAND_GRAVEL": 110,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 8
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1680,
+      863,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      104,
+      118.0,
+      133
+    ],
+    "surface_counts": {
+      "ROCK": 4,
+      "SOIL": 3,
+      "SAND_GRAVEL": 249,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1680,
+      879,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      114,
+      135.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 2,
+      "SOIL": 0,
+      "SAND_GRAVEL": 254,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1680,
+      895,
+      1695
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      137,
+      139.0,
+      140
+    ],
+    "surface_counts": {
+      "ROCK": 66,
+      "SOIL": 0,
+      "SAND_GRAVEL": 190,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      704,
+      1696,
+      719,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      122,
+      126.0,
+      127
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      720,
+      1696,
+      735,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      126,
+      127.0,
+      129
+    ],
+    "surface_counts": {
+      "ROCK": 242,
+      "SOIL": 14,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      736,
+      1696,
+      751,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      128,
+      130.0,
+      133
+    ],
+    "surface_counts": {
+      "ROCK": 179,
+      "SOIL": 0,
+      "SAND_GRAVEL": 77,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      752,
+      1696,
+      767,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      132,
+      134.5,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 147,
+      "SOIL": 0,
+      "SAND_GRAVEL": 109,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      768,
+      1696,
+      783,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      784,
+      1696,
+      799,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      136,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 256,
+      "SOIL": 0,
+      "SAND_GRAVEL": 0,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      800,
+      1696,
+      815,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      122,
+      136.0,
+      136
+    ],
+    "surface_counts": {
+      "ROCK": 217,
+      "SOIL": 0,
+      "SAND_GRAVEL": 39,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      816,
+      1696,
+      831,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      97,
+      121.0,
+      135
+    ],
+    "surface_counts": {
+      "ROCK": 23,
+      "SOIL": 7,
+      "SAND_GRAVEL": 221,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 5
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      832,
+      1696,
+      847,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      77,
+      98.0,
+      121
+    ],
+    "surface_counts": {
+      "ROCK": 0,
+      "SOIL": 20,
+      "SAND_GRAVEL": 222,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 14
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      848,
+      1696,
+      863,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      77,
+      94.0,
+      111
+    ],
+    "surface_counts": {
+      "ROCK": 87,
+      "SOIL": 5,
+      "SAND_GRAVEL": 164,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      864,
+      1696,
+      879,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      93,
+      116.0,
+      135
+    ],
+    "surface_counts": {
+      "ROCK": 176,
+      "SOIL": 0,
+      "SAND_GRAVEL": 80,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  },
+  {
+    "bounds": [
+      880,
+      1696,
+      895,
+      1711
+    ],
+    "area": 256,
+    "y_min_median_max": [
+      120,
+      135.0,
+      139
+    ],
+    "surface_counts": {
+      "ROCK": 253,
+      "SOIL": 0,
+      "SAND_GRAVEL": 3,
+      "WATER": 0,
+      "LAVA": 0,
+      "OTHER": 0
+    },
+    "leaf_columns": 0
+  }
+]
