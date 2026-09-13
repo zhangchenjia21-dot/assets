@@ -1,0 +1,89 @@
+[
+  {
+    "id": "PROGRAM-01",
+    "source_demand": "DEMAND-01",
+    "required_functions": "地方保留粮食与就地日常服务，剩余才进入市场",
+    "magnitude": "户群至跨共同体",
+    "implementation_options": "shared / embedded 优先；专用机构须由下层 throughput 证明",
+    "adjacency": [
+      "REGION-01",
+      "NODE-01",
+      "NODE-02"
+    ],
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "externality": "牲畜拥挤、存储损耗",
+    "uncertainty": "无单体数量或房间指标；L1 先分配聚落功能"
+  },
+  {
+    "id": "PROGRAM-02",
+    "source_demand": "DEMAND-02",
+    "required_functions": "分段转运与混合服务，不把仓储等同整个城镇",
+    "magnitude": "区域重货，未有吨位",
+    "implementation_options": "shared / embedded 优先；专用机构须由下层 throughput 证明",
+    "adjacency": [
+      "NODE-02",
+      "NODE-04",
+      "NODE-05"
+    ],
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "externality": "堆货占地、火险、停航滞留",
+    "uncertainty": "无单体数量或房间指标；L1 先分配聚落功能"
+  },
+  {
+    "id": "PROGRAM-03",
+    "source_demand": "DEMAND-03",
+    "required_functions": "就近减量加工的可行性比较；保护饮水，矿源不实则撤节点",
+    "magnitude": "分散/资源未定位",
+    "implementation_options": "shared / embedded 优先；专用机构须由下层 throughput 证明",
+    "adjacency": [
+      "REGION-03"
+    ],
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "externality": "污染、耗林、边坡侵蚀",
+    "uncertainty": "无单体数量或房间指标；L1 先分配聚落功能"
+  },
+  {
+    "id": "PROGRAM-04",
+    "source_demand": "DEMAND-04",
+    "required_functions": "公共到达与共享活动空间；日常小量服务可嵌入",
+    "magnitude": "政治高、常住低、活动峰值高",
+    "implementation_options": "shared / embedded 优先；专用机构须由下层 throughput 证明",
+    "adjacency": [
+      "SPACE-01",
+      "NODE-03"
+    ],
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "externality": "会期拥堵、地方垄断到达",
+    "uncertainty": "无单体数量或房间指标；L1 先分配聚落功能"
+  },
+  {
+    "id": "PROGRAM-05",
+    "source_demand": "DEMAND-05",
+    "required_functions": "各端分散缓冲、备用访问；拒绝虚构已通航冗余",
+    "magnitude": "战略保障但低常态流",
+    "implementation_options": "shared / embedded 优先；专用机构须由下层 throughput 证明",
+    "adjacency": [
+      "ROUTE-01",
+      "ROUTE-04",
+      "ROUTE-05"
+    ],
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "externality": "运力挤兑与储备腐损",
+    "uncertainty": "无单体数量或房间指标；L1 先分配聚落功能"
+  },
+  {
+    "id": "PROGRAM-06",
+    "source_demand": "DEMAND-06",
+    "required_functions": "服务嵌入地方聚落，不强制逐镇独立纪念建筑",
+    "magnitude": "日常地方强、联盟弱",
+    "implementation_options": "shared / embedded 优先；专用机构须由下层 throughput 证明",
+    "adjacency": [
+      "REGION-01",
+      "REGION-02",
+      "REGION-03"
+    ],
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "externality": "静养/烟火冲突",
+    "uncertainty": "无单体数量或房间指标；L1 先分配聚落功能"
+  }
+]

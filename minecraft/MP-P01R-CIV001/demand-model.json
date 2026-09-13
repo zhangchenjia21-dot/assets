@@ -1,0 +1,101 @@
+[
+  {
+    "id": "DEMAND-01",
+    "authority": "DESIGN_PROPOSAL",
+    "why": "农牧产品季节集中、日常需求分散",
+    "users": "西域共同体及工匠",
+    "magnitude": "户群至跨共同体",
+    "frequency": "日常+收获季",
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "spatial_dependencies": [
+      "REGION-01",
+      "NODE-01",
+      "NODE-02"
+    ],
+    "externalities": "牲畜拥挤、存储损耗",
+    "possible_spatial_response": "地方保留粮食与就地日常服务，剩余才进入市场",
+    "priority": "ANCHOR_CORE"
+  },
+  {
+    "id": "DEMAND-02",
+    "authority": "DESIGN_PROPOSAL",
+    "why": "海与坡之间载具及负载变化",
+    "users": "运输者、旅商、生产者",
+    "magnitude": "区域重货，未有吨位",
+    "frequency": "周期",
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "spatial_dependencies": [
+      "NODE-02",
+      "NODE-04",
+      "NODE-05"
+    ],
+    "externalities": "堆货占地、火险、停航滞留",
+    "possible_spatial_response": "分段转运与混合服务，不把仓储等同整个城镇",
+    "priority": "ANCHOR_CORE"
+  },
+  {
+    "id": "DEMAND-03",
+    "authority": "DESIGN_PROPOSAL",
+    "why": "富矿山地需要常规劳动、燃料与食物",
+    "users": "多个山地共同体",
+    "magnitude": "分散/资源未定位",
+    "frequency": "日常+季节",
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "spatial_dependencies": [
+      "REGION-03"
+    ],
+    "externalities": "污染、耗林、边坡侵蚀",
+    "possible_spatial_response": "就近减量加工的可行性比较；保护饮水，矿源不实则撤节点",
+    "priority": "ANCHOR_CORE"
+  },
+  {
+    "id": "DEMAND-04",
+    "authority": "DESIGN_PROPOSAL",
+    "why": "跨域争端和共同工程",
+    "users": "三席、申请者、地方代表",
+    "magnitude": "政治高、常住低、活动峰值高",
+    "frequency": "周期/事件",
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "spatial_dependencies": [
+      "SPACE-01",
+      "NODE-03"
+    ],
+    "externalities": "会期拥堵、地方垄断到达",
+    "possible_spatial_response": "公共到达与共享活动空间；日常小量服务可嵌入",
+    "priority": "ANCHOR_CORE"
+  },
+  {
+    "id": "DEMAND-05",
+    "authority": "DESIGN_PROPOSAL",
+    "why": "风险不能用低普及魔法消除",
+    "users": "岛民、矿工、渡运者",
+    "magnitude": "战略保障但低常态流",
+    "frequency": "恶劣天气/事故",
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "spatial_dependencies": [
+      "ROUTE-01",
+      "ROUTE-04",
+      "ROUTE-05"
+    ],
+    "externalities": "运力挤兑与储备腐损",
+    "possible_spatial_response": "各端分散缓冲、备用访问；拒绝虚构已通航冗余",
+    "priority": "ESSENTIAL_SUPPORT"
+  },
+  {
+    "id": "DEMAND-06",
+    "authority": "DESIGN_PROPOSAL",
+    "why": "地方自治、祭祀和常规照护",
+    "users": "居民与旅人",
+    "magnitude": "日常地方强、联盟弱",
+    "frequency": "日常+节令",
+    "maturity": "MATURE_WORKING_HYPOTHESIS",
+    "spatial_dependencies": [
+      "REGION-01",
+      "REGION-02",
+      "REGION-03"
+    ],
+    "externalities": "静养/烟火冲突",
+    "possible_spatial_response": "服务嵌入地方聚落，不强制逐镇独立纪念建筑",
+    "priority": "ESSENTIAL_SUPPORT"
+  }
+]

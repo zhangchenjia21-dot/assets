@@ -1,0 +1,188 @@
+{
+  "archive_revision": "r1",
+  "sources": [
+    {
+      "id": "SRC-CANON",
+      "path": "minecraft/建筑师/world/civilizations/CIV-001/README.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "authority": "APPROVED_CANON",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "Canon constraints",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-D014",
+      "path": "minecraft/建筑师/decisions/D-014_CIV-001最小文明Canon收敛与AB-001进入.md",
+      "sha256": "87ad6fe84834bbf76b52a6c8fc1f8b56c1bfc4c58166ba959bc0dcc28e6bbd3d",
+      "authority": "APPROVED_CANON",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "Canon constraints",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-D020",
+      "path": "minecraft/建筑师/decisions/D-020_AB-001P1R联盟公地精确边界接受.md",
+      "sha256": "fa39f2fa635b1d269db8ca5e34ceec04dce03998b590a1c1acf8a2749f7c0ccc",
+      "authority": "APPROVED_CANON",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "Canon constraints",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-R1-OBS",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/observed.sqlite.gz",
+      "sha256": "f3599956cabc3a456b3fe799996c29335079c52656e615679cfc0d8d3a51f842",
+      "authority": "OBSERVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-R1-DERIVED",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/raw-or-queryable/derived.npz",
+      "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff",
+      "authority": "DERIVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-R1-PROFILE",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/manifest/profile.json",
+      "sha256": "0052bdab4cfaf06b2575dbd172e239d5234b86a2b175d5ac7c53f3f3c7d547ee",
+      "authority": "DERIVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-R1-STORE",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/manifest/store.json",
+      "sha256": "25ce3168361f8bca56d3df9cacb20aaf40347406f244f4a44e8ec3428e9d2bc9",
+      "authority": "DERIVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-R1-SCOPE",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/profile/scope-completion.json",
+      "sha256": "ee2952caa2242e344e503494aa7304720434a27c921cf934ef64b4b2f31eefdc",
+      "authority": "DERIVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-R1-LAND",
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/profile/land-components.json",
+      "sha256": "e19bc5486efd5d80c534fd13f2e2dc45a1a43c54e323440585bba3ce85aad032",
+      "authority": "DERIVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-ATLAS",
+      "path": "minecraft/建筑师/research/natural-geography/NG-3/atlas/objects.jsonl",
+      "sha256": "41b9018a2cbc323c26b393882d710f759abd3b5129bb130e4603c048c0450062",
+      "authority": "DERIVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-ATLAS-MANIFEST",
+      "path": "minecraft/建筑师/research/natural-geography/NG-3/manifest/atlas.json",
+      "sha256": "f4b765372f86dace3ced3d83311c517ae50957e1edf1edd7c3a86620d0356859",
+      "authority": "DERIVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    },
+    {
+      "id": "SRC-ATLAS-FRESHNESS",
+      "path": "minecraft/建筑师/research/natural-geography/NG-3/manifest/freshness.json",
+      "sha256": "0eeab87d28da0370a200f181a36707d3853b5fd3eb7bb0f2c4d58bec15d63220",
+      "authority": "DERIVED",
+      "repository": "zhangchenjia21-dot/assets",
+      "snapshot": "b9fe3488fba793854314dc37a4540c0bff2eea86",
+      "used_for": "natural terrain evidence only",
+      "limitations": "历史快照；没有当前世界 freshness 或人文实存验证"
+    }
+  ],
+  "skill_version": "minecraft-planner v0.2",
+  "skill_files": [
+    {
+      "path": "sources/skill/references/architecture-kit-requirements.md",
+      "sha256": "3195fdb049289a2f91e9e3a24ff0af4ec314d87930d82e33f414426c44558aec",
+      "source_url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/eb58654568d31d96ea1ee50f100e1ef6b927daa0/skill/codex/minecraft-planner/references/architecture-kit-requirements.md"
+    },
+    {
+      "path": "sources/skill/references/causal-growth-model.md",
+      "sha256": "df738a6ff724d2462e816bf86896fdc21fb83c8067465018de98cab0c02b45e8",
+      "source_url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/eb58654568d31d96ea1ee50f100e1ef6b927daa0/skill/codex/minecraft-planner/references/causal-growth-model.md"
+    },
+    {
+      "path": "sources/skill/references/flows-externalities-and-demand.md",
+      "sha256": "989a284d9c765b660de974f5fc863664121de31b5a536a20046082c4122b3a0a",
+      "source_url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/eb58654568d31d96ea1ee50f100e1ef6b927daa0/skill/codex/minecraft-planner/references/flows-externalities-and-demand.md"
+    },
+    {
+      "path": "sources/skill/references/planning-artifacts-and-maps.md",
+      "sha256": "7685824e584328c96e9efb8e12763b2caaa7f2d64fde524bff3ede18dc77a01a",
+      "source_url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/eb58654568d31d96ea1ee50f100e1ef6b927daa0/skill/codex/minecraft-planner/references/planning-artifacts-and-maps.md"
+    },
+    {
+      "path": "sources/skill/references/recursive-planning-handoff.md",
+      "sha256": "f9feb2c78290b6bcda49940cab8fb4aecbef71f630f96910aec4d1bcfb4123d4",
+      "source_url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/eb58654568d31d96ea1ee50f100e1ef6b927daa0/skill/codex/minecraft-planner/references/recursive-planning-handoff.md"
+    },
+    {
+      "path": "sources/skill/references/settlement-capacity-and-scale.md",
+      "sha256": "a1373e34e5c4ea5b3787c05d8a46556204e856749d9b375997b7897d7bf46db7",
+      "source_url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/eb58654568d31d96ea1ee50f100e1ef6b927daa0/skill/codex/minecraft-planner/references/settlement-capacity-and-scale.md"
+    },
+    {
+      "path": "sources/skill/SKILL.md",
+      "sha256": "5b9b0c2c5ebfbae71e21a150a6f88537a09375e54ab91e6859327808c1741a27",
+      "source_url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/eb58654568d31d96ea1ee50f100e1ef6b927daa0/skill/codex/minecraft-planner/SKILL.md"
+    }
+  ],
+  "skill_commit": "eb58654568d31d96ea1ee50f100e1ef6b927daa0",
+  "pinned_skill_byte_comparison": "equal",
+  "read_filters": {
+    "sqlite_tables": [
+      "samples"
+    ],
+    "npz_arrays": [
+      "land_component",
+      "slope8",
+      "relief32"
+    ],
+    "atlas_families": [
+      "NGEO",
+      "NHYD"
+    ],
+    "excluded": [
+      "MP-P01 proposal / Critic / maps / review",
+      "subsequent human planning / architecture answers",
+      "targets / assessments",
+      "k2 / k3 / k4 / k5 / zones"
+    ],
+    "atlas_filter": "bounds intersect [-800,1376,2463,3487]"
+  },
+  "freshness": "R1 accepted snapshot; NG3 freshness is its prior check only; no current save access",
+  "world_writes": 0
+}

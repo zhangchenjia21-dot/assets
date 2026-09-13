@@ -1,0 +1,48 @@
+{
+  "status": "ARTIFACT_CHECKS_COMPLETED_NOT_REGRESSION_VERDICT",
+  "checks": {
+    "unique_ids": 22,
+    "nodes": 6,
+    "routes": 6,
+    "planner_packages": 4,
+    "json_parse": true,
+    "capacity_arithmetic": true,
+    "search_capacity_catchment_separate": true,
+    "route_endpoint_refs": true,
+    "commons_area_matches_canon": 92124,
+    "five_maps_dimensions": [
+      2430,
+      1380
+    ],
+    "deterministic_rebuild_equal": true,
+    "pinned_skill_bytes_equal": true
+  },
+  "visual_review": {
+    "method": "view_image actual rendered PNGs",
+    "reviewed": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "finding": "范围/坐标/图例与面积区间可读；非比例地籍。02 双向字形改为文字，03 同源公地 mask；没有实机预览。"
+  },
+  "protected_scope": {
+    "world_writes": 0,
+    "save_access": "NONE",
+    "canon_writes": 0,
+    "skill_source_writes": 0,
+    "existing_plan_writes": 0,
+    "basis": "执行流程仅读取归档白名单，修改范围由 git scoped diff 复核；不是对实时存档做前后字节检测"
+  },
+  "unverified": [
+    "current world freshness",
+    "existing built fabric",
+    "water supply and food carrying capacity",
+    "navigation / usable routes",
+    "exact ore / fuel resources",
+    "exact settlement boundaries"
+  ],
+  "review_status": "AWAITING_GPT_AND_OWNER"
+}

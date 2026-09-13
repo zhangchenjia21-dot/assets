@@ -1,0 +1,38 @@
+[
+  {
+    "id": "GROWTH-01",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "当地生计与山地少量资源利用",
+    "response": "分散农牧共同体和有水有资源的山地共同体独立成立；北臂收集与北山服务角色逐步出现",
+    "new_constraint": "地方土地与可用山路形成惯性",
+    "next_pressure": "交换季节盈余与互缺物资",
+    "viable_without_future": "不依赖未来议会与跨域高吞吐；没有足够生计的远端点不设"
+  },
+  {
+    "id": "GROWTH-02",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "重复跨水和山地交换的损耗",
+    "response": "西域市场集中部分交换，中域分段存储，已有路线强化",
+    "new_constraint": "岸线、转运持有人和地方权利限制后续改线",
+    "next_pressure": "跨域纠纷与公共工程协商",
+    "viable_without_future": "即使无正式联盟，交换仍可通过地方契约运转"
+  },
+  {
+    "id": "GROWTH-03",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "共享工程与争端超过双边协商能力",
+    "response": "已批准公地承担政治终点；三方访问加强，货运主链仍在地方",
+    "new_constraint": "公地共同所有与 connector 地方归属长期约束",
+    "next_pressure": "维持可达、公平使用和缓冲能力",
+    "viable_without_future": "有限常设机构即可工作，不依赖远端扩张"
+  },
+  {
+    "id": "GROWTH-04",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "仅在资源、饮水、运输证明后出现远端盈余",
+    "response": "东南小共同体及分段支线可强化；否则保持季节/未设",
+    "new_constraint": "更长补给链、燃料和侵蚀负担",
+    "next_pressure": "可能收缩或改用沿岸路线；不保证持续增长",
+    "viable_without_future": "依赖已证明的当期活动，不依据未来矿都预建"
+  }
+]

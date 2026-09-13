@@ -1,0 +1,651 @@
+[
+  {
+    "id": "PACKAGE-01",
+    "name": "西域生产—市场系统",
+    "parent_plan": "MP-P01R-CIV001",
+    "parent_revision": "r1",
+    "parent_scale": "POLITY_TERRITORY",
+    "child_scale": "REGIONAL_SYSTEM",
+    "recipient": "minecraft-planner",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "scope_search_geometry": {
+      "node_refs": [
+        "NODE-01",
+        "NODE-02"
+      ],
+      "route_refs": [
+        "ROUTE-01",
+        "ROUTE-04"
+      ],
+      "not_child_boundary": true
+    },
+    "why": "西域生产—市场系统",
+    "upstream_anchors": [
+      "ANCHOR-01",
+      "ANCHOR-02"
+    ],
+    "upstream_flows": [
+      "ROUTE-01",
+      "ROUTE-04"
+    ],
+    "UPSTREAM_FIXED": [
+      "低平生产不能被集中建成区耗尽",
+      "主市场与地方日常服务分工；不使全岛每天远行"
+    ],
+    "conditional_authority_note": "Canon/Owner 约束立即有效；本轮关系仅在父案获接受后成为下层 fixed，不自动成为 Canon。",
+    "DOWNSTREAM_TO_RESOLVE": [
+      "EXISTING_FABRIC_UNVERIFIED：先调查现有人文实存",
+      "人口/食物水量、实际农地与实存权属",
+      "北渡可行性和现有道路",
+      "分散村落的数量与容量"
+    ],
+    "DOWNSTREAM_ADAPTABLE": [
+      "主市场在搜索逻辑内迁移",
+      "地方节点合并/拆分与容量分布"
+    ],
+    "capacity_hypothesis": [
+      {
+        "node": "NODE-01",
+        "location_search_envelope": {
+          "type": "bbox_search_only",
+          "bounds": [
+            -530,
+            1970,
+            -170,
+            2330
+          ],
+          "representative_xz": [
+            -350,
+            2150
+          ],
+          "not_exact_site": true
+        },
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            20000,
+            38000
+          ],
+          "confidence": "LOW",
+          "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+          "morphology": "沿既有可用通路集聚的院落型混合市镇，生产地留在外围",
+          "resident_household_pressure_range": [
+            90,
+            140
+          ],
+          "household_land_allowance_blocks2": [
+            150,
+            190
+          ],
+          "shared_service_land_blocks2": [
+            6000,
+            11000
+          ],
+          "arithmetic_range": [
+            19500,
+            37600
+          ],
+          "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+          "exclusions": [
+            "完整农牧腹地",
+            "矿场与燃料林",
+            "公地未建设保留地",
+            "搜索范围内其它未建地"
+          ],
+          "drivers": [
+            "西岛连续低平地",
+            "农牧与市场 Canon",
+            "多个地方共同体定期交换"
+          ],
+          "sensitivity": "若实际供给或人口不足，缩小到区间下限甚至退为周期市场，不强凑区域城镇。",
+          "existing_area": "UNVERIFIED"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL_NOT_POLYGON",
+          "description": "西岛中南部生产共同体；北臂日常服务由 NODE-02 分担，三域货物流经中域而非全国日常赴此"
+        }
+      },
+      {
+        "node": "NODE-02",
+        "location_search_envelope": {
+          "type": "bbox_search_only",
+          "bounds": [
+            -330,
+            1420,
+            -70,
+            1680
+          ],
+          "representative_xz": [
+            -200,
+            1550
+          ],
+          "not_exact_site": true
+        },
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            5000,
+            10000
+          ],
+          "confidence": "LOW",
+          "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+          "morphology": "小规模院落簇，不把整个北臂岸线建满",
+          "resident_household_pressure_range": [
+            20,
+            35
+          ],
+          "household_land_allowance_blocks2": [
+            150,
+            190
+          ],
+          "shared_service_land_blocks2": [
+            1500,
+            3000
+          ],
+          "arithmetic_range": [
+            4500,
+            9650
+          ],
+          "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+          "exclusions": [
+            "完整农牧腹地",
+            "矿场与燃料林",
+            "公地未建设保留地",
+            "搜索范围内其它未建地"
+          ],
+          "drivers": [
+            "C 形低岛绕行距离",
+            "北臂土地连续但面积有限"
+          ],
+          "sensitivity": "北侧航渡失败时保留地方收集功能，取消区域渡运容量。",
+          "existing_area": "UNVERIFIED"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL_NOT_POLYGON",
+          "description": "西岛北臂；与主市场重叠的是季节货运而非独占行政区"
+        }
+      }
+    ],
+    "source_refs": [
+      "SRC-CANON",
+      "SRC-R1-OBS",
+      "SRC-R1-DERIVED"
+    ],
+    "uncertainty": "容量 LOW；水/实存/可通行性未验证；图上符号不是地籍",
+    "cross_package_dependencies": [
+      "PACKAGE-02",
+      "PACKAGE-03",
+      "PACKAGE-04"
+    ],
+    "REVISION_TRIGGER": [
+      "生产及进口无法支持户压力",
+      "主市场因实存无法承载且无附近替代"
+    ],
+    "revision_protocol": "先在适配范围内修订；无解则报 UPSTREAM_PLANNING_ISSUE，引用新证据及最小受影响 node/route/capacity；父案加 revision，仅更新受影响链并重跑 Gates，关联 child 标记 stale。",
+    "expected_outputs": [
+      "刷新自然及实存证据",
+      "L1 settlement network / catchment / capacity 三分对象",
+      "跨包接口可行性",
+      "L2 Planner 包",
+      "坐标规划图和 machine-readable objects"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false
+  },
+  {
+    "id": "PACKAGE-02",
+    "name": "中域与跨水接口系统",
+    "parent_plan": "MP-P01R-CIV001",
+    "parent_revision": "r1",
+    "parent_scale": "POLITY_TERRITORY",
+    "child_scale": "REGIONAL_SYSTEM",
+    "recipient": "minecraft-planner",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "scope_search_geometry": {
+      "node_refs": [
+        "NODE-04"
+      ],
+      "route_refs": [
+        "ROUTE-04",
+        "ROUTE-05",
+        "ROUTE-03"
+      ],
+      "not_child_boundary": true
+    },
+    "why": "中域与跨水接口系统",
+    "upstream_anchors": [
+      "ANCHOR-04"
+    ],
+    "upstream_flows": [
+      "ROUTE-04",
+      "ROUTE-05",
+      "ROUTE-03"
+    ],
+    "UPSTREAM_FIXED": [
+      "西—中—东产品/人员转换",
+      "不强迫主要矿货穿越公地",
+      "connector 属中域且需公共访问关系"
+    ],
+    "conditional_authority_note": "Canon/Owner 约束立即有效；本轮关系仅在父案获接受后成为下层 fixed，不自动成为 Canon。",
+    "DOWNSTREAM_TO_RESOLVE": [
+      "EXISTING_FABRIC_UNVERIFIED：先调查现有人文实存",
+      "水深岸坡航渡风浪与两端装卸",
+      "饮水、地面净空和上山路线",
+      "实际混合实存与服务容量"
+    ],
+    "DOWNSTREAM_ADAPTABLE": [
+      "渡点组合和分段缓存",
+      "单中心或双转换节点",
+      "岸陆连接精确走向"
+    ],
+    "capacity_hypothesis": [
+      {
+        "node": "NODE-04",
+        "location_search_envelope": {
+          "type": "bbox_search_only",
+          "bounds": [
+            200,
+            1450,
+            500,
+            1750
+          ],
+          "representative_xz": [
+            350,
+            1600
+          ],
+          "not_exact_site": true
+        },
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            12000,
+            24000
+          ],
+          "confidence": "LOW",
+          "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+          "morphology": "低地口袋内较紧凑混合前沿，装卸服务与居民共存但分流",
+          "resident_household_pressure_range": [
+            45,
+            80
+          ],
+          "household_land_allowance_blocks2": [
+            110,
+            160
+          ],
+          "shared_service_land_blocks2": [
+            6500,
+            11000
+          ],
+          "arithmetic_range": [
+            11450,
+            23800
+          ],
+          "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+          "exclusions": [
+            "完整农牧腹地",
+            "矿场与燃料林",
+            "公地未建设保留地",
+            "搜索范围内其它未建地"
+          ],
+          "drivers": [
+            "东岛北西侧低地口袋",
+            "低地向山地陡升",
+            "中域 Canon"
+          ],
+          "sensitivity": "岸线不是已证港口；若船岸或水源不成立，沿中域低地迁移或分成两节点，并回算容量。",
+          "existing_area": "UNVERIFIED"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL_NOT_POLYGON",
+          "description": "西域集货—东域北部生产之间；公地只分享人员通达，不垄断货流"
+        }
+      }
+    ],
+    "source_refs": [
+      "SRC-CANON",
+      "SRC-R1-OBS",
+      "SRC-R1-DERIVED"
+    ],
+    "uncertainty": "容量 LOW；水/实存/可通行性未验证；图上符号不是地籍",
+    "cross_package_dependencies": [
+      "PACKAGE-01",
+      "PACKAGE-03",
+      "PACKAGE-04"
+    ],
+    "REVISION_TRIGGER": [
+      "无跨水方式能支持假设流量",
+      "上山供给链中断或容量降一数量级"
+    ],
+    "revision_protocol": "先在适配范围内修订；无解则报 UPSTREAM_PLANNING_ISSUE，引用新证据及最小受影响 node/route/capacity；父案加 revision，仅更新受影响链并重跑 Gates，关联 child 标记 stale。",
+    "expected_outputs": [
+      "刷新自然及实存证据",
+      "L1 settlement network / catchment / capacity 三分对象",
+      "跨包接口可行性",
+      "L2 Planner 包",
+      "坐标规划图和 machine-readable objects"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false
+  },
+  {
+    "id": "PACKAGE-03",
+    "name": "东域山地共同体系统",
+    "parent_plan": "MP-P01R-CIV001",
+    "parent_revision": "r1",
+    "parent_scale": "POLITY_TERRITORY",
+    "child_scale": "REGIONAL_SYSTEM",
+    "recipient": "minecraft-planner",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "scope_search_geometry": {
+      "node_refs": [
+        "NODE-05",
+        "NODE-06"
+      ],
+      "route_refs": [
+        "ROUTE-05",
+        "ROUTE-06"
+      ],
+      "not_child_boundary": true
+    },
+    "why": "东域山地共同体系统",
+    "upstream_anchors": [
+      "ANCHOR-05",
+      "ANCHOR-06"
+    ],
+    "upstream_flows": [
+      "ROUTE-05",
+      "ROUTE-06"
+    ],
+    "UPSTREAM_FIXED": [
+      "多个共同体而非单一矿都",
+      "富矿是区域 Canon 不定位矿脉",
+      "远端节点条件启动"
+    ],
+    "conditional_authority_note": "Canon/Owner 约束立即有效；本轮关系仅在父案获接受后成为下层 fixed，不自动成为 Canon。",
+    "DOWNSTREAM_TO_RESOLVE": [
+      "EXISTING_FABRIC_UNVERIFIED：先调查现有人文实存",
+      "真实可服务资源、水源、燃料更新",
+      "驮运路线与台地可用面积",
+      "当地实存与山地食物来源"
+    ],
+    "DOWNSTREAM_ADAPTABLE": [
+      "节点在资源/台地调查后迁移",
+      "远端保持季节性或撤销",
+      "碎片化服务网络及容量"
+    ],
+    "capacity_hypothesis": [
+      {
+        "node": "NODE-05",
+        "location_search_envelope": {
+          "type": "bbox_search_only",
+          "bounds": [
+            510,
+            1540,
+            990,
+            2020
+          ],
+          "representative_xz": [
+            750,
+            1780
+          ],
+          "not_exact_site": true
+        },
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            6000,
+            14000
+          ],
+          "confidence": "LOW",
+          "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+          "morphology": "不连续台地簇，总建成面积小于地理扩散范围",
+          "resident_household_pressure_range": [
+            30,
+            60
+          ],
+          "household_land_allowance_blocks2": [
+            100,
+            150
+          ],
+          "shared_service_land_blocks2": [
+            3000,
+            5000
+          ],
+          "arithmetic_range": [
+            6000,
+            14000
+          ],
+          "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+          "exclusions": [
+            "完整农牧腹地",
+            "矿场与燃料林",
+            "公地未建设保留地",
+            "搜索范围内其它未建地"
+          ],
+          "drivers": [
+            "富矿山地 Canon 而非矿脉测量",
+            "北侧中域接近性",
+            "大高差使持续上坡运输昂贵"
+          ],
+          "sensitivity": "找不到稳定水源或可服务资源时缩为季节节点；不得用矿产 Canon 指定这里必有矿。",
+          "existing_area": "UNVERIFIED"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL_NOT_POLYGON",
+          "description": "北部山地共同体与实际矿源；服务范围随山路和水源调整"
+        }
+      },
+      {
+        "node": "NODE-06",
+        "location_search_envelope": {
+          "type": "bbox_search_only",
+          "bounds": [
+            1350,
+            2510,
+            1830,
+            2990
+          ],
+          "representative_xz": [
+            1590,
+            2750
+          ],
+          "not_exact_site": true
+        },
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            3000,
+            9000
+          ],
+          "confidence": "LOW",
+          "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+          "morphology": "离散小台地簇，禁止单一大圆形矿城",
+          "resident_household_pressure_range": [
+            12,
+            30
+          ],
+          "household_land_allowance_blocks2": [
+            120,
+            180
+          ],
+          "shared_service_land_blocks2": [
+            1500,
+            3200
+          ],
+          "arithmetic_range": [
+            2940,
+            8600
+          ],
+          "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+          "exclusions": [
+            "完整农牧腹地",
+            "矿场与燃料林",
+            "公地未建设保留地",
+            "搜索范围内其它未建地"
+          ],
+          "drivers": [
+            "东岛南北延伸明显",
+            "远端活动若存在，日常全赴北部代价高"
+          ],
+          "sensitivity": "这是条件分支：资源/饮水/通道任一失败则不设常住聚落，容量可为 0；图上范围仅表示启动分支的规模。",
+          "existing_area": "UNVERIFIED"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL_NOT_POLYGON",
+          "description": "东南山地实际资源点；本轮不划矿权和边疆国界"
+        }
+      }
+    ],
+    "source_refs": [
+      "SRC-CANON",
+      "SRC-R1-OBS",
+      "SRC-R1-DERIVED"
+    ],
+    "uncertainty": "容量 LOW；水/实存/可通行性未验证；图上符号不是地籍",
+    "cross_package_dependencies": [
+      "PACKAGE-01",
+      "PACKAGE-02",
+      "PACKAGE-04"
+    ],
+    "REVISION_TRIGGER": [
+      "没有持续供给的北山活动支点",
+      "通达/水源与区域角色无可兼容位置"
+    ],
+    "revision_protocol": "先在适配范围内修订；无解则报 UPSTREAM_PLANNING_ISSUE，引用新证据及最小受影响 node/route/capacity；父案加 revision，仅更新受影响链并重跑 Gates，关联 child 标记 stale。",
+    "expected_outputs": [
+      "刷新自然及实存证据",
+      "L1 settlement network / catchment / capacity 三分对象",
+      "跨包接口可行性",
+      "L2 Planner 包",
+      "坐标规划图和 machine-readable objects"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false
+  },
+  {
+    "id": "PACKAGE-04",
+    "name": "联盟公地与三域公共访问接口",
+    "parent_plan": "MP-P01R-CIV001",
+    "parent_revision": "r1",
+    "parent_scale": "POLITY_TERRITORY",
+    "child_scale": "REGIONAL_SYSTEM",
+    "recipient": "minecraft-planner",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "scope_search_geometry": {
+      "node_refs": [
+        "NODE-03"
+      ],
+      "route_refs": [
+        "ROUTE-02",
+        "ROUTE-03"
+      ],
+      "not_child_boundary": true
+    },
+    "why": "联盟公地与三域公共访问接口",
+    "upstream_anchors": [
+      "ANCHOR-03"
+    ],
+    "upstream_flows": [
+      "ROUTE-02",
+      "ROUTE-03"
+    ],
+    "UPSTREAM_FIXED": [
+      "SPACE-01 全部 92124 格²共同所有，不缩小产权",
+      "X89 政治界面不是物理割裂",
+      "政治重要性不等于最大常住城镇"
+    ],
+    "conditional_authority_note": "Canon/Owner 约束立即有效；本轮关系仅在父案获接受后成为下层 fixed，不自动成为 Canon。",
+    "DOWNSTREAM_TO_RESOLVE": [
+      "EXISTING_FABRIC_UNVERIFIED：先调查现有人文实存",
+      "已批准 A 及公地边界实地复核",
+      "三域公平到达与会议峰值",
+      "实存、饮水、可用公共地与低量常设需求"
+    ],
+    "DOWNSTREAM_ADAPTABLE": [
+      "活动核心位置及服务形态",
+      "低密服务的分布与非建设空间用途"
+    ],
+    "capacity_hypothesis": [
+      {
+        "node": "NODE-03",
+        "location_search_envelope": {
+          "type": "bbox_search_only",
+          "bounds": [
+            -260,
+            1680,
+            -20,
+            1920
+          ],
+          "representative_xz": [
+            -140,
+            1800
+          ],
+          "not_exact_site": true
+        },
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            10000,
+            20000
+          ],
+          "confidence": "LOW",
+          "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+          "morphology": "有限常住服务簇与共享活动空地；建成量不等于整个公地面积",
+          "resident_household_pressure_range": [
+            20,
+            40
+          ],
+          "household_land_allowance_blocks2": [
+            110,
+            160
+          ],
+          "shared_service_land_blocks2": [
+            7800,
+            13000
+          ],
+          "arithmetic_range": [
+            10000,
+            19400
+          ],
+          "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+          "exclusions": [
+            "完整农牧腹地",
+            "矿场与燃料林",
+            "公地未建设保留地",
+            "搜索范围内其它未建地"
+          ],
+          "drivers": [
+            "已批准共同领土",
+            "跨域争端与公共工程协调",
+            "强地方自治限制常设中央扩张"
+          ],
+          "sensitivity": "会议峰值未定；规模超过 20000 或改变非商业主导关系需重新评估，公地全域产权不因核心面积缩小。",
+          "existing_area": "UNVERIFIED"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL_NOT_POLYGON",
+          "description": "政治服务覆盖三域；日常生计依赖周边，行政影响不等于吞并中域"
+        }
+      }
+    ],
+    "source_refs": [
+      "SRC-CANON",
+      "SRC-R1-OBS",
+      "SRC-R1-DERIVED"
+    ],
+    "uncertainty": "容量 LOW；水/实存/可通行性未验证；图上符号不是地籍",
+    "cross_package_dependencies": [
+      "PACKAGE-01",
+      "PACKAGE-02",
+      "PACKAGE-03"
+    ],
+    "REVISION_TRIGGER": [
+      "公地内无法支持必要公共访问",
+      "需要改变公地或地方归属才能成立"
+    ],
+    "revision_protocol": "先在适配范围内修订；无解则报 UPSTREAM_PLANNING_ISSUE，引用新证据及最小受影响 node/route/capacity；父案加 revision，仅更新受影响链并重跑 Gates，关联 child 标记 stale。",
+    "expected_outputs": [
+      "刷新自然及实存证据",
+      "L1 settlement network / catchment / capacity 三分对象",
+      "跨包接口可行性",
+      "L2 Planner 包",
+      "坐标规划图和 machine-readable objects"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false
+  }
+]

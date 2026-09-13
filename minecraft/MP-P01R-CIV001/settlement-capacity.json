@@ -1,0 +1,272 @@
+{
+  "semantics": "非现存面积、非通用密度、非人口事实、非建设授权",
+  "nodes": [
+    {
+      "id": "NODE-01",
+      "capacity": {
+        "area_range_blocks2": [
+          20000,
+          38000
+        ],
+        "confidence": "LOW",
+        "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+        "morphology": "沿既有可用通路集聚的院落型混合市镇，生产地留在外围",
+        "resident_household_pressure_range": [
+          90,
+          140
+        ],
+        "household_land_allowance_blocks2": [
+          150,
+          190
+        ],
+        "shared_service_land_blocks2": [
+          6000,
+          11000
+        ],
+        "arithmetic_range": [
+          19500,
+          37600
+        ],
+        "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+        "exclusions": [
+          "完整农牧腹地",
+          "矿场与燃料林",
+          "公地未建设保留地",
+          "搜索范围内其它未建地"
+        ],
+        "drivers": [
+          "西岛连续低平地",
+          "农牧与市场 Canon",
+          "多个地方共同体定期交换"
+        ],
+        "sensitivity": "若实际供给或人口不足，缩小到区间下限甚至退为周期市场，不强凑区域城镇。",
+        "existing_area": "UNVERIFIED"
+      }
+    },
+    {
+      "id": "NODE-02",
+      "capacity": {
+        "area_range_blocks2": [
+          5000,
+          10000
+        ],
+        "confidence": "LOW",
+        "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+        "morphology": "小规模院落簇，不把整个北臂岸线建满",
+        "resident_household_pressure_range": [
+          20,
+          35
+        ],
+        "household_land_allowance_blocks2": [
+          150,
+          190
+        ],
+        "shared_service_land_blocks2": [
+          1500,
+          3000
+        ],
+        "arithmetic_range": [
+          4500,
+          9650
+        ],
+        "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+        "exclusions": [
+          "完整农牧腹地",
+          "矿场与燃料林",
+          "公地未建设保留地",
+          "搜索范围内其它未建地"
+        ],
+        "drivers": [
+          "C 形低岛绕行距离",
+          "北臂土地连续但面积有限"
+        ],
+        "sensitivity": "北侧航渡失败时保留地方收集功能，取消区域渡运容量。",
+        "existing_area": "UNVERIFIED"
+      }
+    },
+    {
+      "id": "NODE-03",
+      "capacity": {
+        "area_range_blocks2": [
+          10000,
+          20000
+        ],
+        "confidence": "LOW",
+        "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+        "morphology": "有限常住服务簇与共享活动空地；建成量不等于整个公地面积",
+        "resident_household_pressure_range": [
+          20,
+          40
+        ],
+        "household_land_allowance_blocks2": [
+          110,
+          160
+        ],
+        "shared_service_land_blocks2": [
+          7800,
+          13000
+        ],
+        "arithmetic_range": [
+          10000,
+          19400
+        ],
+        "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+        "exclusions": [
+          "完整农牧腹地",
+          "矿场与燃料林",
+          "公地未建设保留地",
+          "搜索范围内其它未建地"
+        ],
+        "drivers": [
+          "已批准共同领土",
+          "跨域争端与公共工程协调",
+          "强地方自治限制常设中央扩张"
+        ],
+        "sensitivity": "会议峰值未定；规模超过 20000 或改变非商业主导关系需重新评估，公地全域产权不因核心面积缩小。",
+        "existing_area": "UNVERIFIED"
+      }
+    },
+    {
+      "id": "NODE-04",
+      "capacity": {
+        "area_range_blocks2": [
+          12000,
+          24000
+        ],
+        "confidence": "LOW",
+        "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+        "morphology": "低地口袋内较紧凑混合前沿，装卸服务与居民共存但分流",
+        "resident_household_pressure_range": [
+          45,
+          80
+        ],
+        "household_land_allowance_blocks2": [
+          110,
+          160
+        ],
+        "shared_service_land_blocks2": [
+          6500,
+          11000
+        ],
+        "arithmetic_range": [
+          11450,
+          23800
+        ],
+        "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+        "exclusions": [
+          "完整农牧腹地",
+          "矿场与燃料林",
+          "公地未建设保留地",
+          "搜索范围内其它未建地"
+        ],
+        "drivers": [
+          "东岛北西侧低地口袋",
+          "低地向山地陡升",
+          "中域 Canon"
+        ],
+        "sensitivity": "岸线不是已证港口；若船岸或水源不成立，沿中域低地迁移或分成两节点，并回算容量。",
+        "existing_area": "UNVERIFIED"
+      }
+    },
+    {
+      "id": "NODE-05",
+      "capacity": {
+        "area_range_blocks2": [
+          6000,
+          14000
+        ],
+        "confidence": "LOW",
+        "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+        "morphology": "不连续台地簇，总建成面积小于地理扩散范围",
+        "resident_household_pressure_range": [
+          30,
+          60
+        ],
+        "household_land_allowance_blocks2": [
+          100,
+          150
+        ],
+        "shared_service_land_blocks2": [
+          3000,
+          5000
+        ],
+        "arithmetic_range": [
+          6000,
+          14000
+        ],
+        "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+        "exclusions": [
+          "完整农牧腹地",
+          "矿场与燃料林",
+          "公地未建设保留地",
+          "搜索范围内其它未建地"
+        ],
+        "drivers": [
+          "富矿山地 Canon 而非矿脉测量",
+          "北侧中域接近性",
+          "大高差使持续上坡运输昂贵"
+        ],
+        "sensitivity": "找不到稳定水源或可服务资源时缩为季节节点；不得用矿产 Canon 指定这里必有矿。",
+        "existing_area": "UNVERIFIED"
+      }
+    },
+    {
+      "id": "NODE-06",
+      "capacity": {
+        "area_range_blocks2": [
+          3000,
+          9000
+        ],
+        "confidence": "LOW",
+        "status": "TARGET_MATURITY_HYPOTHESIS_NOT_OBSERVED",
+        "morphology": "离散小台地簇，禁止单一大圆形矿城",
+        "resident_household_pressure_range": [
+          12,
+          30
+        ],
+        "household_land_allowance_blocks2": [
+          120,
+          180
+        ],
+        "shared_service_land_blocks2": [
+          1500,
+          3200
+        ],
+        "arithmetic_range": [
+          2940,
+          8600
+        ],
+        "calculation_note": "户压力×含日常通行院落的户均用地+不重复计入的区域/政治服务空间；向外取整。系 Minecraft 规模敏感性模型，不是人口普查、地块标准或通用密度常数。",
+        "exclusions": [
+          "完整农牧腹地",
+          "矿场与燃料林",
+          "公地未建设保留地",
+          "搜索范围内其它未建地"
+        ],
+        "drivers": [
+          "东岛南北延伸明显",
+          "远端活动若存在，日常全赴北部代价高"
+        ],
+        "sensitivity": "这是条件分支：资源/饮水/通道任一失败则不设常住聚落，容量可为 0；图上范围仅表示启动分支的规模。",
+        "existing_area": "UNVERIFIED"
+      }
+    }
+  ],
+  "rural_reserve_hypothesis": {
+    "west_distributed_households": [
+      40,
+      70
+    ],
+    "built_fabric_range_blocks2": [
+      6000,
+      14000
+    ],
+    "not_fixed_village_count": true,
+    "location": "REGION-01 既有生产联系；不得依据本图自动新增村庄"
+  },
+  "food_balance": "UNRESOLVED；不把低坡面积当良田或默许地图外无限输入",
+  "sum_main_nodes_range_blocks2": [
+    56000,
+    115000
+  ]
+}

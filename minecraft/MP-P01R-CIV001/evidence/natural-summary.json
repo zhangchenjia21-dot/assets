@@ -1,0 +1,26 @@
+[
+  {
+    "component": 1,
+    "area": 575363,
+    "height_percentiles": [
+      14.0,
+      63.0,
+      66.0,
+      71.0,
+      79.0
+    ],
+    "low_slope_columns": 477953
+  },
+  {
+    "component": 2,
+    "area": 1674373,
+    "height_percentiles": [
+      29.0,
+      70.0,
+      149.0,
+      242.0,
+      300.0
+    ],
+    "low_slope_columns": 202861
+  }
+]
