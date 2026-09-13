@@ -1,0 +1,1065 @@
+[
+  {
+    "boundary_evidence_status": "SUPPORTED",
+    "calibration_refs": [
+      "CAL-001",
+      "CAL-002",
+      "CAL-003",
+      "CAL-004",
+      "CAL-005",
+      "CAL-006",
+      "CAL-007",
+      "CAL-008"
+    ],
+    "confidence_semantics": "Qualitative evidence status at declared scale, not a probability or global detector accuracy",
+    "evidence_status": "SUPPORTED",
+    "family": "NGEO",
+    "flow_direction": null,
+    "geometry": {
+      "bounds": [
+        -718,
+        1419,
+        280,
+        2518
+      ],
+      "id": "NGEO-009",
+      "indexed_area_blocks2": 575385,
+      "run_count": 1842,
+      "semantics": "actual_NG2_surface_land_columns"
+    },
+    "id": "NGEO-009",
+    "lineage": [
+      {
+        "ref": "../NG-2/assessments/SITE-003.json",
+        "role": "accepted_local_evidence",
+        "source_id": "SITE-003",
+        "source_kind": "NG-2"
+      },
+      {
+        "ref": "../V1/survey/atlas/FEAT.jsonl#FEAT-618",
+        "role": "evidence_only",
+        "source_id": "FEAT-618",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-277",
+        "role": "evidence_only",
+        "source_id": "GEO-277",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-288",
+        "role": "evidence_only",
+        "source_id": "GEO-288",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-335",
+        "role": "evidence_only",
+        "source_id": "GEO-335",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-569",
+        "role": "evidence_only",
+        "source_id": "GEO-569",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-897",
+        "role": "evidence_only",
+        "source_id": "GEO-897",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/sites/SITE.jsonl#SITE-003",
+        "role": "evidence_only",
+        "source_id": "SITE-003",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "atlas_members WHERE object_id=NGEO-009",
+        "role": "member_index_to_V1_cells",
+        "source_id": "NGEO-009",
+        "source_kind": "V1_cells"
+      },
+      {
+        "ref": "tooling/L2_流程层/图册汇编流程.py",
+        "role": "derived_by",
+        "source_id": "ng3-consolidation/1.0",
+        "source_kind": "algorithm"
+      }
+    ],
+    "machine_label": "verified_southern_low_island",
+    "numeric_candidate": "NGEO-C009",
+    "regional_metrics": {
+      "cells": 140,
+      "edge_censored": false,
+      "max_elevation": 76.6,
+      "mean_elevation": 66.04285714285714,
+      "mean_relief": 17.668571428571425,
+      "mean_slope": 0.052745535714285724,
+      "min_elevation": 57.0,
+      "top_biomes": [
+        [
+          "minecraft:savanna",
+          76
+        ],
+        [
+          "minecraft:beach",
+          32
+        ],
+        [
+          "terralith:arid_highlands",
+          32
+        ]
+      ]
+    },
+    "representative": {
+      "x": -248,
+      "z": 2056
+    },
+    "status": "PROPOSED",
+    "summary": "NG-2逐列外水环验证的低岛；本对象使用真实陆柱轮廓，内池塘不属于陆面。",
+    "type": "island_region",
+    "uncertainty": {
+      "boundary": "1-block outer island outline",
+      "requires_refinement": false,
+      "semantic": "current surface; anthropogenic origin uncertain; local calibration does not validate all members",
+      "topology": "verified outer water ring only"
+    }
+  },
+  {
+    "boundary_evidence_status": "PROVISIONAL",
+    "calibration_refs": [
+      "CAL-001",
+      "CAL-002",
+      "CAL-003",
+      "CAL-004",
+      "CAL-005",
+      "CAL-006",
+      "CAL-007",
+      "CAL-008"
+    ],
+    "confidence_semantics": "Qualitative evidence status at declared scale, not a probability or global detector accuracy",
+    "evidence_status": "PROVISIONAL",
+    "family": "NGEO",
+    "flow_direction": null,
+    "geometry": {
+      "bounds": [
+        -320,
+        1472,
+        1215,
+        2431
+      ],
+      "id": "NGEO-025",
+      "indexed_area_blocks2": 475136,
+      "run_count": 20,
+      "semantics": "64-block regional cell approximation clipped to surveyed full-world extent"
+    },
+    "id": "NGEO-025",
+    "lineage": [
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-001",
+        "role": "evidence_only",
+        "source_id": "GEO-001",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-002",
+        "role": "evidence_only",
+        "source_id": "GEO-002",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-069",
+        "role": "evidence_only",
+        "source_id": "GEO-069",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-274",
+        "role": "evidence_only",
+        "source_id": "GEO-274",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-278",
+        "role": "evidence_only",
+        "source_id": "GEO-278",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-334",
+        "role": "evidence_only",
+        "source_id": "GEO-334",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-445",
+        "role": "evidence_only",
+        "source_id": "GEO-445",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-473",
+        "role": "evidence_only",
+        "source_id": "GEO-473",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-474",
+        "role": "evidence_only",
+        "source_id": "GEO-474",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-537",
+        "role": "evidence_only",
+        "source_id": "GEO-537",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-560",
+        "role": "evidence_only",
+        "source_id": "GEO-560",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-562",
+        "role": "evidence_only",
+        "source_id": "GEO-562",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-585",
+        "role": "evidence_only",
+        "source_id": "GEO-585",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-786",
+        "role": "evidence_only",
+        "source_id": "GEO-786",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-815",
+        "role": "evidence_only",
+        "source_id": "GEO-815",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-835",
+        "role": "evidence_only",
+        "source_id": "GEO-835",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-836",
+        "role": "evidence_only",
+        "source_id": "GEO-836",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-896",
+        "role": "evidence_only",
+        "source_id": "GEO-896",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-898",
+        "role": "evidence_only",
+        "source_id": "GEO-898",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-902",
+        "role": "evidence_only",
+        "source_id": "GEO-902",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-908",
+        "role": "evidence_only",
+        "source_id": "GEO-908",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "atlas_members WHERE object_id=NGEO-025",
+        "role": "member_index_to_V1_cells",
+        "source_id": "NGEO-025",
+        "source_kind": "V1_cells"
+      },
+      {
+        "ref": "tooling/L2_流程层/图册汇编流程.py",
+        "role": "derived_by",
+        "source_id": "ng3-consolidation/1.0",
+        "source_kind": "algorithm"
+      }
+    ],
+    "machine_label": "southern_island_neighbor_relief",
+    "numeric_candidate": "NGEO-C025",
+    "regional_metrics": {
+      "cells": 116,
+      "edge_censored": false,
+      "max_elevation": 160.0,
+      "mean_elevation": 102.14137931034483,
+      "mean_relief": 92.6396551724138,
+      "mean_slope": 0.5136584051724138,
+      "min_elevation": 61.6,
+      "top_biomes": [
+        [
+          "terralith:hot_shrubland",
+          44
+        ],
+        [
+          "terralith:arid_highlands",
+          36
+        ],
+        [
+          "minecraft:stony_shore",
+          31
+        ],
+        [
+          "minecraft:beach",
+          3
+        ],
+        [
+          "terralith:basalt_cliffs",
+          2
+        ]
+      ]
+    },
+    "representative": {
+      "x": 456,
+      "z": 1800
+    },
+    "status": "PROPOSED",
+    "summary": "已验证岛体东侧相邻起伏陆地；未确认整块陆体的岛屿/大陆身份。",
+    "type": "rolling_lowland",
+    "uncertainty": {
+      "boundary": "64-block proxy + 320-block smoothing; not an exact terrain boundary; edge censored=False",
+      "requires_refinement": true,
+      "semantic": "current surface; anthropogenic origin uncertain; local calibration does not validate all members",
+      "topology": "coarse four-neighbor land continuity; narrow water breaks may be missed"
+    }
+  },
+  {
+    "boundary_evidence_status": "PROVISIONAL",
+    "calibration_refs": [
+      "CAL-001",
+      "CAL-002",
+      "CAL-003",
+      "CAL-004",
+      "CAL-005",
+      "CAL-006",
+      "CAL-007",
+      "CAL-008"
+    ],
+    "confidence_semantics": "Qualitative evidence status at declared scale, not a probability or global detector accuracy",
+    "evidence_status": "PROVISIONAL",
+    "family": "NGEO",
+    "flow_direction": null,
+    "geometry": {
+      "bounds": [
+        448,
+        1856,
+        2111,
+        3263
+      ],
+      "id": "NGEO-032",
+      "indexed_area_blocks2": 1216512,
+      "run_count": 28,
+      "semantics": "64-block regional cell approximation clipped to surveyed full-world extent"
+    },
+    "id": "NGEO-032",
+    "lineage": [
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-001",
+        "role": "evidence_only",
+        "source_id": "GEO-001",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-002",
+        "role": "evidence_only",
+        "source_id": "GEO-002",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-023",
+        "role": "evidence_only",
+        "source_id": "GEO-023",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-051",
+        "role": "evidence_only",
+        "source_id": "GEO-051",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-069",
+        "role": "evidence_only",
+        "source_id": "GEO-069",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-070",
+        "role": "evidence_only",
+        "source_id": "GEO-070",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-072",
+        "role": "evidence_only",
+        "source_id": "GEO-072",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-102",
+        "role": "evidence_only",
+        "source_id": "GEO-102",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-106",
+        "role": "evidence_only",
+        "source_id": "GEO-106",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-107",
+        "role": "evidence_only",
+        "source_id": "GEO-107",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-190",
+        "role": "evidence_only",
+        "source_id": "GEO-190",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-193",
+        "role": "evidence_only",
+        "source_id": "GEO-193",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-195",
+        "role": "evidence_only",
+        "source_id": "GEO-195",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-198",
+        "role": "evidence_only",
+        "source_id": "GEO-198",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-199",
+        "role": "evidence_only",
+        "source_id": "GEO-199",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-203",
+        "role": "evidence_only",
+        "source_id": "GEO-203",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-210",
+        "role": "evidence_only",
+        "source_id": "GEO-210",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-211",
+        "role": "evidence_only",
+        "source_id": "GEO-211",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-213",
+        "role": "evidence_only",
+        "source_id": "GEO-213",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-325",
+        "role": "evidence_only",
+        "source_id": "GEO-325",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-326",
+        "role": "evidence_only",
+        "source_id": "GEO-326",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-374",
+        "role": "evidence_only",
+        "source_id": "GEO-374",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-383",
+        "role": "evidence_only",
+        "source_id": "GEO-383",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-384",
+        "role": "evidence_only",
+        "source_id": "GEO-384",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-478",
+        "role": "evidence_only",
+        "source_id": "GEO-478",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-479",
+        "role": "evidence_only",
+        "source_id": "GEO-479",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-480",
+        "role": "evidence_only",
+        "source_id": "GEO-480",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-490",
+        "role": "evidence_only",
+        "source_id": "GEO-490",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-492",
+        "role": "evidence_only",
+        "source_id": "GEO-492",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-504",
+        "role": "evidence_only",
+        "source_id": "GEO-504",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-508",
+        "role": "evidence_only",
+        "source_id": "GEO-508",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-510",
+        "role": "evidence_only",
+        "source_id": "GEO-510",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-511",
+        "role": "evidence_only",
+        "source_id": "GEO-511",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-537",
+        "role": "evidence_only",
+        "source_id": "GEO-537",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-743",
+        "role": "evidence_only",
+        "source_id": "GEO-743",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-771",
+        "role": "evidence_only",
+        "source_id": "GEO-771",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-787",
+        "role": "evidence_only",
+        "source_id": "GEO-787",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-790",
+        "role": "evidence_only",
+        "source_id": "GEO-790",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-797",
+        "role": "evidence_only",
+        "source_id": "GEO-797",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-817",
+        "role": "evidence_only",
+        "source_id": "GEO-817",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-837",
+        "role": "evidence_only",
+        "source_id": "GEO-837",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-841",
+        "role": "evidence_only",
+        "source_id": "GEO-841",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-844",
+        "role": "evidence_only",
+        "source_id": "GEO-844",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-903",
+        "role": "evidence_only",
+        "source_id": "GEO-903",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-904",
+        "role": "evidence_only",
+        "source_id": "GEO-904",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-910",
+        "role": "evidence_only",
+        "source_id": "GEO-910",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-911",
+        "role": "evidence_only",
+        "source_id": "GEO-911",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-916",
+        "role": "evidence_only",
+        "source_id": "GEO-916",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-930",
+        "role": "evidence_only",
+        "source_id": "GEO-930",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-935",
+        "role": "evidence_only",
+        "source_id": "GEO-935",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-940",
+        "role": "evidence_only",
+        "source_id": "GEO-940",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-946",
+        "role": "evidence_only",
+        "source_id": "GEO-946",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "atlas_members WHERE object_id=NGEO-032",
+        "role": "member_index_to_V1_cells",
+        "source_id": "NGEO-032",
+        "source_kind": "V1_cells"
+      },
+      {
+        "ref": "tooling/L2_流程层/图册汇编流程.py",
+        "role": "derived_by",
+        "source_id": "ng3-consolidation/1.0",
+        "source_kind": "algorithm"
+      }
+    ],
+    "machine_label": "southern_relief_highland",
+    "numeric_candidate": "NGEO-C032",
+    "regional_metrics": {
+      "cells": 297,
+      "edge_censored": false,
+      "max_elevation": 298.4,
+      "mean_elevation": 174.53939393939393,
+      "mean_relief": 194.4087542087542,
+      "mean_slope": 0.7930450336700338,
+      "min_elevation": 62.4,
+      "top_biomes": [
+        [
+          "terralith:hot_shrubland",
+          142
+        ],
+        [
+          "minecraft:stony_shore",
+          41
+        ],
+        [
+          "minecraft:sunflower_plains",
+          26
+        ],
+        [
+          "minecraft:savanna_plateau",
+          26
+        ],
+        [
+          "terralith:basalt_cliffs",
+          19
+        ]
+      ]
+    },
+    "representative": {
+      "x": 1288,
+      "z": 2504
+    },
+    "status": "PROPOSED",
+    "summary": "南部水域旁显著起伏高地；岛屿关系仍未验证。",
+    "type": "highland_sector",
+    "uncertainty": {
+      "boundary": "64-block proxy + 320-block smoothing; not an exact terrain boundary; edge censored=False",
+      "requires_refinement": true,
+      "semantic": "current surface; anthropogenic origin uncertain; local calibration does not validate all members",
+      "topology": "coarse four-neighbor land continuity; narrow water breaks may be missed"
+    }
+  },
+  {
+    "calibration_refs": [
+      "CAL-001",
+      "CAL-002",
+      "CAL-003",
+      "CAL-004",
+      "CAL-005",
+      "CAL-006",
+      "CAL-007",
+      "CAL-008"
+    ],
+    "closure": "unknown",
+    "confidence_semantics": "Qualitative evidence status at declared scale, not a probability or global detector accuracy",
+    "evidence_status": "PROVISIONAL",
+    "family": "NHYD",
+    "flow_direction": "unknown",
+    "geometry": {
+      "bounds": [
+        -6224,
+        -6544,
+        3807,
+        3487
+      ],
+      "id": "NHYD-001",
+      "indexed_area_blocks2": 30227200,
+      "run_count": 349,
+      "semantics": "64-block sampled water>=0.6 cell approximation"
+    },
+    "id": "NHYD-001",
+    "lineage": [
+      {
+        "ref": "../V1/survey/atlas/GEO.jsonl#GEO-971",
+        "role": "evidence_only",
+        "source_id": "GEO-971",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-001",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-001",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-138",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-138",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-139",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-139",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-140",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-140",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-193",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-193",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-196",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-196",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-234",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-234",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-235",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-235",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-244",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-244",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-248",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-248",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-250",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-250",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-273",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-273",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-282",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-282",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-284",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-284",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-286",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-286",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-288",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-288",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-289",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-289",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-290",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-290",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-292",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-292",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-293",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-293",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-294",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-294",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-295",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-295",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-296",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-296",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-297",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-297",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-298",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-298",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-300",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-300",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-302",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-302",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-333",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-333",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/atlas/HYD.jsonl#HYD-363",
+        "role": "coarse_water_evidence_not_promoted",
+        "source_id": "HYD-363",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "atlas_members WHERE object_id=NHYD-001",
+        "role": "member_index_to_V1_cells",
+        "source_id": "NHYD-001",
+        "source_kind": "V1_cells"
+      },
+      {
+        "ref": "tooling/L2_流程层/图册汇编流程.py",
+        "role": "derived_by",
+        "source_id": "ng3-consolidation/1.0",
+        "source_kind": "algorithm"
+      }
+    ],
+    "machine_label": "coarse_major_open_water_domain",
+    "numeric_candidate": "NHYD-C001",
+    "representative": {
+      "x": -1848,
+      "z": 584
+    },
+    "status": "PROPOSED",
+    "summary": "真实水样本形成的64格候选水域；既不确认封闭湖体，也不保证全分量实际连通。",
+    "type": "coarse_surface_water_domain",
+    "uncertainty": {
+      "boundary": "shoreline uncertain at subcell scale; edge censored=True",
+      "requires_refinement": true,
+      "semantic": "water biome context does not prove ocean/lake/river classification",
+      "topology": "UNRESOLVED real connectivity, ice and narrow channels; sampled graph only"
+    }
+  },
+  {
+    "calibration_refs": [
+      "CAL-001",
+      "CAL-002",
+      "CAL-003",
+      "CAL-004",
+      "CAL-005",
+      "CAL-006",
+      "CAL-007",
+      "CAL-008"
+    ],
+    "closure": "OPEN_AT_ROI",
+    "confidence_semantics": "Qualitative evidence status at declared scale, not a probability or global detector accuracy",
+    "evidence_status": "SUPPORTED",
+    "family": "NHYD",
+    "flow_direction": "unknown",
+    "geometry": {
+      "bounds": [
+        -800,
+        1376,
+        415,
+        2655
+      ],
+      "id": "NHYD-019",
+      "indexed_area_blocks2": 759503,
+      "run_count": 3283,
+      "semantics": "actual_NG2_primary_water_component_columns"
+    },
+    "id": "NHYD-019",
+    "lineage": [
+      {
+        "ref": "../NG-2/assessments/SITE-003.json",
+        "role": "accepted_local_evidence",
+        "source_id": "SITE-003",
+        "source_kind": "NG-2"
+      },
+      {
+        "ref": "../V1/survey/atlas/FEAT.jsonl#FEAT-618",
+        "role": "evidence_only",
+        "source_id": "FEAT-618",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "../V1/survey/sites/SITE.jsonl#SITE-003",
+        "role": "evidence_only",
+        "source_id": "SITE-003",
+        "source_kind": "V1"
+      },
+      {
+        "ref": "tooling/L2_流程层/图册汇编流程.py",
+        "role": "derived_by",
+        "source_id": "ng3-consolidation/1.0",
+        "source_kind": "algorithm"
+      }
+    ],
+    "machine_label": "verified_island_surrounding_water",
+    "representative": {
+      "x": 227,
+      "z": 1938
+    },
+    "source_roi": [
+      -800,
+      1376,
+      415,
+      2655
+    ],
+    "status": "PROPOSED",
+    "summary": "NG-2 ROI内真实连通水面背景；不是整片海域或唯一海湾边界。",
+    "type": "verified_surface_water_component",
+    "uncertainty": {
+      "boundary": "exact local columns; whole-waterbody boundary remains ROI-censored",
+      "requires_refinement": true,
+      "semantic": "no natural harbor, navigation or flow-direction inference",
+      "topology": "real water intervals verified within ROI; global relation unresolved"
+    }
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "GROWTH-01",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "当期生计或资源使用",
+    "response": "当地有水、有活动的生活工作簇",
+    "new_constraint": "地方使用权与原有通路形成惯性",
+    "next_pressure": "重复交换与修理",
+    "viability": "没有未来远端开发仍须可自理；节点坐标不被宣称为古迹"
+  },
+  {
+    "id": "GROWTH-02",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "北部交换重复且跨坡昂贵",
+    "response": "北台地集中一部分服务，内侧保留工作生活",
+    "new_constraint": "两台地间活动强化，对外需要中域接口",
+    "next_pressure": "协作维护与供给缓冲",
+    "viability": "无全域矿都也能运作；不为未来道路预留大轴线"
+  },
+  {
+    "id": "GROWTH-03",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "地方之间的事务与共用工程",
+    "response": "周期协商和代表外出分享交换通路",
+    "new_constraint": "公共访问和地方权利不能被货运垄断",
+    "next_pressure": "只在远端产生真实剩余时向外延伸",
+    "viability": "停在北组团仍是成立的区域系统"
+  },
+  {
+    "id": "GROWTH-04",
+    "authority": "PLANNING_ASSUMPTION",
+    "driver": "远端资源/水/路/供给都证明",
+    "response": "东南小共同体与必要暂歇服务",
+    "new_constraint": "高运输损耗与维护负担",
+    "next_pressure": "可能季节化、撤退或改线",
+    "viability": "没有证据则不发生，不用未来收益正当化当前常住"
+  }
+]

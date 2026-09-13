@@ -1,0 +1,358 @@
+[
+  {
+    "id": "PACKAGE-01",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "parent_plan": "MP-P02-EAST",
+    "parent_revision": "r1",
+    "parent_scale": "REGIONAL_SYSTEM",
+    "child_scale": "SETTLEMENT",
+    "recipient": "minecraft-planner",
+    "scope": [
+      "NODE-01"
+    ],
+    "name": "北台地交换聚落",
+    "why": "落实区域分工并验证常住成立条件，未授权建筑设计",
+    "scope_search_geometry": [
+      {
+        "node": "NODE-01",
+        "search": {
+          "type": "bbox_search_only",
+          "bounds": [
+            702,
+            1526,
+            922,
+            1746
+          ],
+          "representative_xz": [
+            812,
+            1636
+          ],
+          "point_ground_y": 136
+        }
+      }
+    ],
+    "UPSTREAM_FIXED": [
+      "多个共同体而非全域单核矿都",
+      "矿产是区域 Canon 不能虚构指定矿脉",
+      "不得以搜索窗清空现有实存",
+      "北组团生活/交换分工；与其它节点可用通道及公共访问兼容"
+    ],
+    "DOWNSTREAM_TO_RESOLVE": [
+      "现有方块体积/路/建筑/地权及人工材料标记，先观察再拟形态",
+      "饮水可靠性、食物和燃料来源、具体生产依据",
+      "通道实际坡道/净空/跨越/实存冲突",
+      "内部主要活动、服务接续、规模与密度、开放地",
+      "L2 anchors / sequence / settlement morphology，再交 L3"
+    ],
+    "DOWNSTREAM_ADAPTABLE": [
+      "在本轮搜索逻辑内迁移并保留主要依赖",
+      "共享或嵌入服务、内部容量分配",
+      "缩小/分簇或季节化；条件远端可为0"
+    ],
+    "REVISION_TRIGGER": [
+      "没有水或生计且附近无法替代",
+      "承载不足迫使区域关系/规模数量级改变",
+      "通道或已有实存使跨节点关系无法局部调整"
+    ],
+    "revision_protocol": "报 UPSTREAM_PLANNING_ISSUE，列证据及最小受影响 node/flow/capacity；父案新增 revision 并使关联 child stale，不改 Canon 或直接覆盖上游。",
+    "capacity_hypothesis": [
+      {
+        "node": "NODE-01",
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            4000,
+            8000
+          ],
+          "confidence": "LOW",
+          "status": "CONDITIONAL_TARGET_NOT_EXISTING",
+          "household_pressure_range": [
+            18,
+            32
+          ],
+          "household_land_allowance_range": [
+            130,
+            160
+          ],
+          "shared_land_range": [
+            1660,
+            2880
+          ],
+          "arithmetic": [
+            4000,
+            8000
+          ],
+          "includes": "内部通行/小院/共享服务",
+          "excludes": "完整矿场、燃料林、供水保护地、农业腹地",
+          "morphology": "台地内紧凑生活/交换簇，向同高地适配而非整坡推平",
+          "current_area": "UNVERIFIED",
+          "activation": "水源、实存、当期生计至少成立才可常住；否则缩为周期交换"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL",
+          "description": "北部共同体和可服务资源；经 INTERFACE-01 接中域；不宣称覆盖整个东岛"
+        }
+      }
+    ],
+    "upstream_flow_refs": [
+      "CORRIDOR-01",
+      "CORRIDOR-02",
+      "CORRIDOR-03"
+    ],
+    "cross_package_dependencies": [
+      "PACKAGE-02",
+      "PACKAGE-03"
+    ],
+    "external_interface": "INTERFACE-01 需对端验证，本包不能设计或批准 Middle",
+    "source_refs": [
+      "SRC-PARENT",
+      "SRC-CANON",
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "expected_outputs": [
+      "实存/自然证据与版本",
+      "供给/通达的明确结论或有界分支",
+      "SETTLEMENT Plan 与容量图",
+      "L3 DISTRICT 包，非直接 Builder 包"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false,
+    "execution_precondition": "父案关系用于本 regression；未自动升级 World Canon。可先进行无写入的 L2 调查；常住/建设不得跳过证据条件。"
+  },
+  {
+    "id": "PACKAGE-02",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "parent_plan": "MP-P02-EAST",
+    "parent_revision": "r1",
+    "parent_scale": "REGIONAL_SYSTEM",
+    "child_scale": "SETTLEMENT",
+    "recipient": "minecraft-planner",
+    "scope": [
+      "NODE-02"
+    ],
+    "name": "内侧生产聚落",
+    "why": "落实区域分工并验证常住成立条件，未授权建筑设计",
+    "scope_search_geometry": [
+      {
+        "node": "NODE-02",
+        "search": {
+          "type": "bbox_search_only",
+          "bounds": [
+            530,
+            1858,
+            710,
+            2038
+          ],
+          "representative_xz": [
+            620,
+            1948
+          ],
+          "point_ground_y": 177
+        }
+      }
+    ],
+    "UPSTREAM_FIXED": [
+      "多个共同体而非全域单核矿都",
+      "矿产是区域 Canon 不能虚构指定矿脉",
+      "不得以搜索窗清空现有实存",
+      "北组团生活/交换分工；与其它节点可用通道及公共访问兼容"
+    ],
+    "DOWNSTREAM_TO_RESOLVE": [
+      "现有方块体积/路/建筑/地权及人工材料标记，先观察再拟形态",
+      "饮水可靠性、食物和燃料来源、具体生产依据",
+      "通道实际坡道/净空/跨越/实存冲突",
+      "内部主要活动、服务接续、规模与密度、开放地",
+      "L2 anchors / sequence / settlement morphology，再交 L3"
+    ],
+    "DOWNSTREAM_ADAPTABLE": [
+      "在本轮搜索逻辑内迁移并保留主要依赖",
+      "共享或嵌入服务、内部容量分配",
+      "缩小/分簇或季节化；条件远端可为0"
+    ],
+    "REVISION_TRIGGER": [
+      "没有水或生计且附近无法替代",
+      "承载不足迫使区域关系/规模数量级改变",
+      "通道或已有实存使跨节点关系无法局部调整"
+    ],
+    "revision_protocol": "报 UPSTREAM_PLANNING_ISSUE，列证据及最小受影响 node/flow/capacity；父案新增 revision 并使关联 child stale，不改 Canon 或直接覆盖上游。",
+    "capacity_hypothesis": [
+      {
+        "node": "NODE-02",
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            2000,
+            5000
+          ],
+          "confidence": "LOW",
+          "status": "CONDITIONAL_TARGET_NOT_EXISTING",
+          "household_pressure_range": [
+            10,
+            22
+          ],
+          "household_land_allowance_range": [
+            120,
+            150
+          ],
+          "shared_land_range": [
+            800,
+            1700
+          ],
+          "arithmetic": [
+            2000,
+            5000
+          ],
+          "includes": "内部通行/小院/共享服务",
+          "excludes": "完整矿场、燃料林、供水保护地、农业腹地",
+          "morphology": "较小台地簇，工作与居住有近邻关系但取水和污染分离",
+          "current_area": "UNVERIFIED",
+          "activation": "仅在附近资源或其它持续生计成立时常住；可退为北组团季节工作点"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL",
+          "description": "附近实际生产点/劳动者，不按圆形半径划矿权"
+        }
+      }
+    ],
+    "upstream_flow_refs": [
+      "CORRIDOR-02"
+    ],
+    "cross_package_dependencies": [
+      "PACKAGE-01",
+      "PACKAGE-03"
+    ],
+    "external_interface": "INTERFACE-01 需对端验证，本包不能设计或批准 Middle",
+    "source_refs": [
+      "SRC-PARENT",
+      "SRC-CANON",
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "expected_outputs": [
+      "实存/自然证据与版本",
+      "供给/通达的明确结论或有界分支",
+      "SETTLEMENT Plan 与容量图",
+      "L3 DISTRICT 包，非直接 Builder 包"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false,
+    "execution_precondition": "父案关系用于本 regression；未自动升级 World Canon。可先进行无写入的 L2 调查；常住/建设不得跳过证据条件。"
+  },
+  {
+    "id": "PACKAGE-03",
+    "authority": "DESIGN_PROPOSAL_PENDING_REVIEW",
+    "parent_plan": "MP-P02-EAST",
+    "parent_revision": "r1",
+    "parent_scale": "REGIONAL_SYSTEM",
+    "child_scale": "SETTLEMENT",
+    "recipient": "minecraft-planner",
+    "scope": [
+      "NODE-03"
+    ],
+    "name": "东南条件聚落",
+    "why": "落实区域分工并验证常住成立条件，未授权建筑设计",
+    "scope_search_geometry": [
+      {
+        "node": "NODE-03",
+        "search": {
+          "type": "bbox_search_only",
+          "bounds": [
+            1552,
+            2488,
+            1752,
+            2688
+          ],
+          "representative_xz": [
+            1652,
+            2588
+          ],
+          "point_ground_y": 146
+        }
+      }
+    ],
+    "UPSTREAM_FIXED": [
+      "多个共同体而非全域单核矿都",
+      "矿产是区域 Canon 不能虚构指定矿脉",
+      "不得以搜索窗清空现有实存",
+      "远端支线必须满足启用条件；固定 NODE-04 已撤销"
+    ],
+    "DOWNSTREAM_TO_RESOLVE": [
+      "现有方块体积/路/建筑/地权及人工材料标记，先观察再拟形态",
+      "饮水可靠性、食物和燃料来源、具体生产依据",
+      "通道实际坡道/净空/跨越/实存冲突",
+      "内部主要活动、服务接续、规模与密度、开放地",
+      "L2 anchors / sequence / settlement morphology，再交 L3"
+    ],
+    "DOWNSTREAM_ADAPTABLE": [
+      "在本轮搜索逻辑内迁移并保留主要依赖",
+      "共享或嵌入服务、内部容量分配",
+      "缩小/分簇或季节化；条件远端可为0"
+    ],
+    "REVISION_TRIGGER": [
+      "没有水或生计且附近无法替代",
+      "承载不足迫使区域关系/规模数量级改变",
+      "通道或已有实存使跨节点关系无法局部调整"
+    ],
+    "revision_protocol": "报 UPSTREAM_PLANNING_ISSUE，列证据及最小受影响 node/flow/capacity；父案新增 revision 并使关联 child stale，不改 Canon 或直接覆盖上游。",
+    "capacity_hypothesis": [
+      {
+        "node": "NODE-03",
+        "built_fabric_capacity": {
+          "area_range_blocks2": [
+            3000,
+            6000
+          ],
+          "confidence": "LOW",
+          "status": "CONDITIONAL_TARGET_NOT_EXISTING",
+          "household_pressure_range": [
+            8,
+            16
+          ],
+          "household_land_allowance_range": [
+            150,
+            200
+          ],
+          "shared_land_range": [
+            1800,
+            2800
+          ],
+          "arithmetic": [
+            3000,
+            6000
+          ],
+          "includes": "内部通行/小院/共享服务",
+          "excludes": "完整矿场、燃料林、供水保护地、农业腹地",
+          "morphology": "口袋内分散小簇，避开坡缘；不使用旧代表点所在高地中央",
+          "current_area": "UNVERIFIED",
+          "activation": "默认不批准常住开发；水/资源/运输与供给通过后才启用，未通过=0"
+        },
+        "functional_hinterland": {
+          "type": "RELATIONAL",
+          "description": "东南实际活动，不假定整片山体已开矿"
+        }
+      }
+    ],
+    "upstream_flow_refs": [
+      "CORRIDOR-03"
+    ],
+    "cross_package_dependencies": [
+      "PACKAGE-01",
+      "PACKAGE-02"
+    ],
+    "external_interface": "INTERFACE-01 需对端验证，本包不能设计或批准 Middle",
+    "source_refs": [
+      "SRC-PARENT",
+      "SRC-CANON",
+      "SRC-OBS",
+      "SRC-DERIVED"
+    ],
+    "expected_outputs": [
+      "实存/自然证据与版本",
+      "供给/通达的明确结论或有界分支",
+      "SETTLEMENT Plan 与容量图",
+      "L3 DISTRICT 包，非直接 Builder 包"
+    ],
+    "world_write_authorization": false,
+    "builder_ready": false,
+    "execution_precondition": "父案关系用于本 regression；未自动升级 World Canon。可先进行无写入的 L2 调查；常住/建设不得跳过证据条件。"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "bounds": [
+    256,
+    1440,
+    2175,
+    3263
+  ],
+  "authority": "DERIVED",
+  "east_land_columns": 1565047,
+  "artificial_flag_columns": 1894,
+  "artificial_flag_values": [
+    0,
+    1
+  ],
+  "interpretation": "材料标记不等于建筑识别；没有方块体积、道路或地籍观测。Fabric 保持 UNVERIFIED。",
+  "coarse_patch_count": 36,
+  "top_patch_areas": [
+    26688,
+    19008,
+    15808,
+    13632,
+    12096,
+    7616,
+    7360,
+    5824,
+    4480,
+    4416,
+    3904,
+    3456
+  ],
+  "terrain_thresholds_are_analysis_assumptions": true
+}

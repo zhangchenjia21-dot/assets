@@ -1,0 +1,122 @@
+{
+  "nodes": [
+    {
+      "id": "NODE-01",
+      "capacity": {
+        "area_range_blocks2": [
+          4000,
+          8000
+        ],
+        "confidence": "LOW",
+        "status": "CONDITIONAL_TARGET_NOT_EXISTING",
+        "household_pressure_range": [
+          18,
+          32
+        ],
+        "household_land_allowance_range": [
+          130,
+          160
+        ],
+        "shared_land_range": [
+          1660,
+          2880
+        ],
+        "arithmetic": [
+          4000,
+          8000
+        ],
+        "includes": "内部通行/小院/共享服务",
+        "excludes": "完整矿场、燃料林、供水保护地、农业腹地",
+        "morphology": "台地内紧凑生活/交换簇，向同高地适配而非整坡推平",
+        "current_area": "UNVERIFIED",
+        "activation": "水源、实存、当期生计至少成立才可常住；否则缩为周期交换"
+      }
+    },
+    {
+      "id": "NODE-02",
+      "capacity": {
+        "area_range_blocks2": [
+          2000,
+          5000
+        ],
+        "confidence": "LOW",
+        "status": "CONDITIONAL_TARGET_NOT_EXISTING",
+        "household_pressure_range": [
+          10,
+          22
+        ],
+        "household_land_allowance_range": [
+          120,
+          150
+        ],
+        "shared_land_range": [
+          800,
+          1700
+        ],
+        "arithmetic": [
+          2000,
+          5000
+        ],
+        "includes": "内部通行/小院/共享服务",
+        "excludes": "完整矿场、燃料林、供水保护地、农业腹地",
+        "morphology": "较小台地簇，工作与居住有近邻关系但取水和污染分离",
+        "current_area": "UNVERIFIED",
+        "activation": "仅在附近资源或其它持续生计成立时常住；可退为北组团季节工作点"
+      }
+    },
+    {
+      "id": "NODE-03",
+      "capacity": {
+        "area_range_blocks2": [
+          3000,
+          6000
+        ],
+        "confidence": "LOW",
+        "status": "CONDITIONAL_TARGET_NOT_EXISTING",
+        "household_pressure_range": [
+          8,
+          16
+        ],
+        "household_land_allowance_range": [
+          150,
+          200
+        ],
+        "shared_land_range": [
+          1800,
+          2800
+        ],
+        "arithmetic": [
+          3000,
+          6000
+        ],
+        "includes": "内部通行/小院/共享服务",
+        "excludes": "完整矿场、燃料林、供水保护地、农业腹地",
+        "morphology": "口袋内分散小簇，避开坡缘；不使用旧代表点所在高地中央",
+        "current_area": "UNVERIFIED",
+        "activation": "默认不批准常住开发；水/资源/运输与供给通过后才启用，未通过=0"
+      }
+    }
+  ],
+  "north_total": [
+    6000,
+    13000
+  ],
+  "parent_north": [
+    6000,
+    14000
+  ],
+  "remote_total_if_activated": [
+    3000,
+    6000
+  ],
+  "remote_if_not_activated": 0,
+  "parent_remote": [
+    3000,
+    9000
+  ],
+  "total_if_both_activated": [
+    9000,
+    19000
+  ],
+  "note": "远端内部服务已计入N03；固定NODE-04已撤销，不重复计户。没有全区域人口/粮食自给认证。"
+}

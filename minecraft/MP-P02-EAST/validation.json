@@ -1,0 +1,47 @@
+{
+  "status": "ARTIFACT_CHECKS_COMPLETED_NOT_REGRESSION_VERDICT",
+  "active_nodes": 3,
+  "rejected_candidate": "NODE-04",
+  "corridors": 3,
+  "settlement_packages": 3,
+  "checks": {
+    "unique_ids": true,
+    "references_resolve": true,
+    "capacity_arithmetic": true,
+    "north_parent_capacity_not_duplicated": true,
+    "remote_reduced_not_increased": true,
+    "search_capacity_hinterland_distinct": true,
+    "source_hashes_match_git_snapshot": true,
+    "deterministic_rebuild_equal": true,
+    "service_detour_comparison": {
+      "extra_blocks": 820,
+      "action": "withdraw fixed service node"
+    }
+  },
+  "visual_review": {
+    "method": "rendered PNG view_image",
+    "maps": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05"
+    ],
+    "limitation": "No in-game verification; map scale circles are not exact footprints"
+  },
+  "planning_gates": {
+    "Premise": "READY_AS_CONDITIONAL_PLANNING",
+    "Morphology": "READY_AS_REGIONAL_RELATIONS_AND_CAPACITY_HYPOTHESES",
+    "Handoff": "READY_FOR_L2_EVIDENCE_AND_PLANNING_NOT_BUILD",
+    "REVIEWED": false
+  },
+  "unverified": [
+    "current world freshness",
+    "existing fabric and tenure",
+    "water/food/fuel/ore",
+    "actual usable routes and collision"
+  ],
+  "world_writes": 0,
+  "save_access": "NONE",
+  "protected_sources_modified": false
+}

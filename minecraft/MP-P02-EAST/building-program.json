@@ -1,0 +1,78 @@
+[
+  {
+    "id": "PROGRAM-01",
+    "demand": "DEMAND-01",
+    "functions": "共同体内部生活与周期交换分工，不每日全部下山",
+    "magnitude": "北组团28–54户压力假设",
+    "adjacency": [
+      "NODE-01",
+      "NODE-02",
+      "INTERFACE-01"
+    ],
+    "maturity": "MATURE_HYPOTHESIS / CONDITIONAL_REMOTE",
+    "externality": "库存腐损、动物拥挤",
+    "shared_embedded_dedicated": "共享/嵌入优先，专用量级须L2证明",
+    "uncertainty": "不规定建筑数量/平剖面",
+    "recipient": "SETTLEMENT Planner"
+  },
+  {
+    "id": "PROGRAM-02",
+    "demand": "DEMAND-02",
+    "functions": "共享事务附着可达节点而不设置全域矿都",
+    "magnitude": "低常设/周期高峰",
+    "adjacency": [
+      "NODE-01",
+      "NODE-02"
+    ],
+    "maturity": "MATURE_HYPOTHESIS / CONDITIONAL_REMOTE",
+    "externality": "公共访问被生产流挤占",
+    "shared_embedded_dedicated": "共享/嵌入优先，专用量级须L2证明",
+    "uncertainty": "不规定建筑数量/平剖面",
+    "recipient": "SETTLEMENT Planner"
+  },
+  {
+    "id": "PROGRAM-03",
+    "demand": "DEMAND-03",
+    "functions": "先证资源与燃料再决定加工链；保护取水",
+    "magnitude": "具体产量UNRESOLVED",
+    "adjacency": [
+      "NODE-02",
+      "NODE-03"
+    ],
+    "maturity": "MATURE_HYPOTHESIS / CONDITIONAL_REMOTE",
+    "externality": "矿害、烟、耗水耗林",
+    "shared_embedded_dedicated": "共享/嵌入优先，专用量级须L2证明",
+    "uncertainty": "不规定建筑数量/平剖面",
+    "recipient": "SETTLEMENT Planner"
+  },
+  {
+    "id": "PROGRAM-04",
+    "demand": "DEMAND-04",
+    "functions": "服务节点仅随真实流出现，嵌入优先",
+    "magnitude": "小量/可能为0",
+    "adjacency": [
+      "NODE-03"
+    ],
+    "maturity": "MATURE_HYPOTHESIS / CONDITIONAL_REMOTE",
+    "externality": "缓存腐损、过度扩张",
+    "shared_embedded_dedicated": "共享/嵌入优先，专用量级须L2证明",
+    "uncertainty": "不规定建筑数量/平剖面",
+    "recipient": "SETTLEMENT Planner"
+  },
+  {
+    "id": "PROGRAM-05",
+    "demand": "DEMAND-05",
+    "functions": "各候选先水源和实存确认，未证不得升级为建设包",
+    "magnitude": "饮水/食物证据待补",
+    "adjacency": [
+      "NODE-01",
+      "NODE-02",
+      "NODE-03"
+    ],
+    "maturity": "MATURE_HYPOTHESIS / CONDITIONAL_REMOTE",
+    "externality": "污染与供给中断",
+    "shared_embedded_dedicated": "共享/嵌入优先，专用量级须L2证明",
+    "uncertainty": "不规定建筑数量/平剖面",
+    "recipient": "SETTLEMENT Planner"
+  }
+]

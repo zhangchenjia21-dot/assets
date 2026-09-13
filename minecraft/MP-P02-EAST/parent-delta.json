@@ -1,0 +1,46 @@
+{
+  "parent": "MP-P01R PACKAGE-03",
+  "authority": "REGRESSION_PARENT_NOT_CANON",
+  "changes": [
+    {
+      "parent": "NODE-05",
+      "children": [
+        "NODE-01",
+        "NODE-02"
+      ],
+      "action": "split capacity and location within original search",
+      "old_area": [
+        6000,
+        14000
+      ],
+      "new_area": [
+        6000,
+        13000
+      ],
+      "reason": "两个分离地形口袋与日常/区域服务分工"
+    },
+    {
+      "parent": "NODE-06",
+      "children": [
+        "NODE-03"
+      ],
+      "action": "move primary within search; reject fixed relay after detour test",
+      "old_area": [
+        3000,
+        9000
+      ],
+      "new_area_if_activated": [
+        3000,
+        6000
+      ],
+      "reason": "通道严格模型失败，资源/供给未证，不提高容量"
+    },
+    {
+      "parent": "ROUTE-05/06",
+      "action": "replace conceptual lines with bounded resistance alternatives, no construction guarantee"
+    }
+  ],
+  "fixed_relations_preserved": true,
+  "upstream_planning_issue": "NONE_ESTABLISHED; strict-model failure alone is not proof all routes impossible",
+  "parent_files_modified": false
+}
