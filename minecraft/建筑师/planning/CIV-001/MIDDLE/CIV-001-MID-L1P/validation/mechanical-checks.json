@@ -1,0 +1,44 @@
+{
+  "status": "MECHANICAL_CHECKS_PASSED_NOT_PLANNING_ACCEPTANCE",
+  "independent_rebuild_equal": true,
+  "middle_area": 391002,
+  "middle_component_sizes": [
+    390995,
+    7
+  ],
+  "search_area": 235107,
+  "outside_search": 155895,
+  "search_overlap": 0,
+  "boundary": {
+    "all_edges": 1438,
+    "north_contact_columns": 276,
+    "south_contact_columns": 748,
+    "north_edges": 339,
+    "south_edges": 1099,
+    "edge_step_le1": 1278
+  },
+  "path_witnesses_checked": 20,
+  "path_limit": "Continuity/height/start/target checked; not an independent optimality proof. Deterministic recomputation agrees.",
+  "search_sensitivity": {
+    "west_height_80": 67766,
+    "west_height_90": 73566,
+    "west_height_100": 78418,
+    "upper_x_670": 103448,
+    "upper_x_680": 102027,
+    "upper_x_690": 99909
+  },
+  "built_fabric_range": [
+    29000,
+    47000
+  ],
+  "territory_fraction": [
+    0.07416841857586406,
+    0.12020398872640038
+  ],
+  "handoff_count": 4,
+  "map_count": 6,
+  "world_reads": 0,
+  "world_writes": 0,
+  "builder_calls": 0,
+  "L2_execution": false
+}

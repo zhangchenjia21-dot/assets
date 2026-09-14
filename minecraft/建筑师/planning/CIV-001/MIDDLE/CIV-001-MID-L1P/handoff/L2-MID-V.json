@@ -1,0 +1,88 @@
+{
+  "schema": "minecraft-planner-recursive/1",
+  "package_id": "CIV-001-MID-L1P-L2-MID-V",
+  "revision": "r1",
+  "parent_revision": "CIV-001-MID-L1P-r1",
+  "parent_scale": "REGIONAL_SYSTEM",
+  "child_scale": "SETTLEMENT",
+  "recipient": "minecraft-planner v0.5",
+  "authority": "DESIGN_PROPOSAL_AWAITING_PARENT_ACCEPTANCE",
+  "WHY": "南谷有较小连续缓地及自身生活/接近需求；南岸距离短不消除约80–90格爬升，故先是谷地生活点，非大港镇",
+  "users": "谷地家庭、过路/运输者、有条件岸侧作业者",
+  "search_geometry": {
+    "ref": "../REGIONAL-TERRAIN-SYSTEM.json",
+    "id": "S-V",
+    "members_ref": "../evidence/regional-analysis.json#/search_runs/S-V",
+    "semantic": "APPROXIMATE_SEARCH_ONLY_NOT_BUILD_FOOTPRINT",
+    "territory_ref": "research/human-geography/southern-island/territory-refinement/TT-002R/refined-draft.json",
+    "territory_sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919"
+  },
+  "UPSTREAM_FIXED": [
+    {
+      "authority": "OWNER_CONSTRAINT",
+      "relation": "revision154/Commons不变；world writes=0；不以规划便利改变政治地"
+    },
+    {
+      "authority": "APPROVED_PARENT_L0",
+      "relation": "D-031接受的三域互补、地方自治、公共访问与D-025密度方向"
+    }
+  ],
+  "parent_proposed_fixed": {
+    "activation": "Only after this L1 is independently accepted; currently proposal",
+    "relations": [
+      "日常生活、小供给与南向接近服务；南岸货运成功后可增强，但不能倒置成它唯一生存理由",
+      "优先保持日常居民生活与相应交换的因果角色，避免主干通行被私占"
+    ]
+  },
+  "DOWNSTREAM_TO_RESOLVE": [
+    "先核生活水、需求和土地，再比较南岸带来的增量；分支失败仍可保留小型本地服务",
+    "当前表层/地下人工物、植被、实际通行与历史继承证据；只做局部必要刷新",
+    "饮水/污物/消防/取用权与季节生活支持",
+    "确定精确settlement范围、实际容量、内部主要运动/公共空间与历史生长；下一级仍不替Builder设计",
+    "需求是否足以支持本工作量级；不把搜索面当建成或把峰值当人口"
+  ],
+  "DOWNSTREAM_ADAPTABLE": [
+    "在搜索逻辑附近选择等价位置并记录理由，保持政治边界",
+    "内部形态、容量分配、普通适应方案与共享/分散实现",
+    "地方点可据证据缩量或合并；重要角色消失则报父案",
+    "向下一层递归的分解方式，不继承旧节点/模板"
+  ],
+  "capacity_hypothesis": {
+    "built_fabric_range": [
+      1000,
+      3000
+    ],
+    "confidence": "LOW",
+    "search_is_not_capacity": true,
+    "catchment": [
+      "MID-A基本交换",
+      "WEST-REQUEST南岸分支",
+      "EAST-S-REQUEST谷侧联系"
+    ],
+    "building_footprint": "UNRESOLVED"
+  },
+  "actor_rights": "中域地方地权、用户成本分担、兄弟/公地访问条件未闭合；物理可行不是许可",
+  "water": "井/蓄水/有界供给先比较，未闭合前不能声称常住容量可运行",
+  "seasonal_stock": "日耗与批次/事件峰值分开；消费侧储备与公共通行必须兼容",
+  "resilience": "验证共用段失效与替代关系，不因多箭头宣称冗余",
+  "bounded_knowledge": "当前全图为Planner证据；历史人只使用当时已知局部关系，未发现矿点不预先生成路",
+  "cross_package_dependencies": [
+    "MID-A基本交换",
+    "WEST-REQUEST南岸分支",
+    "EAST-S-REQUEST谷侧联系"
+  ],
+  "revision_triggers": [
+    "普通时代、有界水/地形/通行适应与等价选址仍不能支持本角色",
+    "权利/需求/供给使容量或两个主要中心的分工不成立",
+    "当前可见人工物与本案假说冲突",
+    "只有搜索阈值小幅调整且因果不变无需重编全父案"
+  ],
+  "upstream_issue_protocol": "提交新证据、受影响最小节点/关系、已比较适应及失效原因；仅修订相关链、递增父版并标后代stale，未经批准不改Canon/政治线",
+  "expected_outputs": [
+    "L2 settlement causal plan、现状与权限/适应边界",
+    "真实范围与容量、内部主要运动/共享关系和历史形成",
+    "L3递归包与Critic；不等于Builder或施工授权"
+  ],
+  "world_write_authorization": false,
+  "execution_authorization": false
+}

@@ -1,0 +1,125 @@
+{
+  "schema": "regional-settlement-network/1",
+  "plan_revision": "CIV-001-MID-L1P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "recommendation": "HYBRID_TWO_MAJOR_TWO_LOCAL",
+  "major_center_count": 2,
+  "local_support_objects": 2,
+  "exact_sites": [],
+  "nodes": [
+    {
+      "id": "MID-A",
+      "name": "低地综合中心",
+      "rank": "PRINCIPAL_REGIONAL_SERVICE",
+      "search": "S-W",
+      "area": [
+        16000,
+        24000
+      ],
+      "why": "Commons陆侧访问、低地居民需求与向山地的长期交换重叠；连续低地使市场、较长存留和生活服务可共享，不必在近邻复制两个完整中心",
+      "users": "住户、商旅、货主、工匠、政治来访服务者",
+      "role": "日常主要市场、混合居住/商贸/轻加工/仓储和区域协调；不是议会或唯一强制交易地",
+      "gateway": "连接带有即时服务与经营家庭需求；计入此中心的区域服务体系，未证明应单列独立门户城。L2须比较核心在扩宽段或更东低地的选择，不把connector只当过道",
+      "flows": [
+        "F-PEOPLE",
+        "F-FOOD",
+        "F-METAL",
+        "F-AUTH"
+      ],
+      "growth": "地方生活/重复交换起源，Commons稳固后服务强化",
+      "dependencies": [
+        "MID-B山地侧日常与货物流",
+        "COMMONS-REQUEST政治访问与事件峰值",
+        "WEST-REQUEST跨水供给"
+      ],
+      "constraints": "共同访问与地方住户不能被装卸封住；砂面/岸缘/供水不均，不能把全部73566搜索地当容量",
+      "L2": "核实核心落点、gateway服务如何共享又保持居民可达；不复制两个全功能市镇；闭合水/地权/地面与峰值",
+      "confidence": "地形MEDIUM_HIGH；服务合并与容量LOW_TO_MEDIUM"
+    },
+    {
+      "id": "MID-B",
+      "name": "高位交换中心",
+      "rank": "SPECIALIZED_REGIONAL_SECOND_CENTER",
+      "search": "S-U",
+      "area": [
+        10000,
+        16000
+      ],
+      "why": "第二大平缓组与East北段直接接触；山地生活品、整备/部分处理和批次存留不必全下低地再返回。较大本地日常生活支撑避免纯转运设施",
+      "users": "山地来往者、当地家庭、加工/运输者、地方服务者",
+      "role": "山地侧交换、适合的加工整备、分散库存与居民日常服务；专业权重可高，整体综合服务次于MID-A",
+      "gateway": null,
+      "flows": [
+        "F-FOOD",
+        "F-METAL",
+        "F-PEOPLE",
+        "F-FUEL"
+      ],
+      "growth": "专业交换反复发生后，在地权/高差/供给约束下强化为第二中心",
+      "dependencies": [
+        "MID-A生活品与较长商业网络",
+        "EAST-N-REQUEST北向实际供给/通行",
+        "MID-T地方接近与分段整备"
+      ],
+      "constraints": "石砂砾面、水/燃料与外部性约束；不能因为面宽就填成大城；边界接触不证明East腹地可达",
+      "L2": "水与生活供给先行；比较可用地与服务量级、边界接近和外运模式，保留地形，不锁定镇边",
+      "confidence": "平缓和接触HIGH缓存；资源/水/通达/容量LOW"
+    },
+    {
+      "id": "MID-T",
+      "name": "台地地方服务聚落",
+      "rank": "LOCAL_SUPPORT",
+      "search": "S-T",
+      "area": [
+        2000,
+        4000
+      ],
+      "why": "上升路段与本地台地生活需求值得近处服务；小平缓组不足以在未证吞吐下再复制区域市场",
+      "users": "地方住户、维修/运输家庭与过路者",
+      "role": "地方常住、普通修理整备与日常补给；不承诺重工业",
+      "gateway": null,
+      "flows": [
+        "F-PEOPLE",
+        "F-FOOD",
+        "F-METAL"
+      ],
+      "growth": "地方生计早于大区域网络，可在反复分段交通中得到服务补充",
+      "dependencies": [
+        "MID-A/MID-B较高等级市场",
+        "LINK-AT/LINK-TB实际分段接近"
+      ],
+      "constraints": "台地约4676平缓格不是可建指标；保留排水/水/生活空间，需求低可并入邻近服务",
+      "L2": "检查有独立常住服务腹地还是仅小型活动点；允许降级/合并，不能强行消耗全部台地",
+      "confidence": "角色与容量LOW"
+    },
+    {
+      "id": "MID-V",
+      "name": "南谷地方服务聚落",
+      "rank": "LOCAL_SUPPORT_WITH_CONDITIONAL_SHORE_LINK",
+      "search": "S-V",
+      "area": [
+        1000,
+        3000
+      ],
+      "why": "南谷有较小连续缓地及自身生活/接近需求；南岸距离短不消除约80–90格爬升，故先是谷地生活点，非大港镇",
+      "users": "谷地家庭、过路/运输者、有条件岸侧作业者",
+      "role": "日常生活、小供给与南向接近服务；南岸货运成功后可增强，但不能倒置成它唯一生存理由",
+      "gateway": null,
+      "flows": [
+        "F-PEOPLE",
+        "F-FOOD",
+        "F-METAL"
+      ],
+      "growth": "本地生活可先存在，后随季节通行/南岸交换调整规模",
+      "dependencies": [
+        "MID-A基本交换",
+        "WEST-REQUEST南岸分支",
+        "EAST-S-REQUEST谷侧联系"
+      ],
+      "constraints": "南岸连线地形敏感；未证通行/水/货量，不给码头或港城配额",
+      "L2": "先核生活水、需求和土地，再比较南岸带来的增量；分支失败仍可保留小型本地服务",
+      "confidence": "平缓组HIGH缓存；常住和岸侧容量LOW"
+    }
+  ],
+  "total_settlement_count_note": "本轮4个聚落规划对象；不代表已确定全域全部村庄户群数量。connector服务不是第五个独立区域中心。"
+}

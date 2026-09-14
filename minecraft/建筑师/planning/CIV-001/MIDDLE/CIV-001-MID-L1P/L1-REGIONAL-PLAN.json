@@ -1,0 +1,126 @@
+{
+  "schema": "minecraft-planner-regional/1",
+  "id": "CIV-001-MID-L1P",
+  "revision": "CIV-001-MID-L1P-r1",
+  "parent_revision": "CIV-001-L0P-r1",
+  "parent_acceptance": "D-031",
+  "base_commit": "903947cae6edf39ce088e4558c2dab12af705018",
+  "scale": "REGIONAL_SYSTEM",
+  "recipient": "minecraft-planner v0.5",
+  "state": "HANDOFF_READY",
+  "review_status": "AWAITING_GPT_OWNER_REVIEW",
+  "authority": "DESIGN_PROPOSAL",
+  "context": {
+    "evolution_logic": "EXISTING_EVOLUTION",
+    "fabric_observation_state": "EXISTING_FABRIC_UNVERIFIED",
+    "maturity": "MATURE"
+  },
+  "territory": {
+    "ref": "research/human-geography/southern-island/territory-refinement/TT-002R/refined-draft.json",
+    "sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919",
+    "revision": 154,
+    "category": "MIDDLE_DOMAIN",
+    "area": 391002
+  },
+  "recommendation": {
+    "alternative": "ALT-C",
+    "major_centers": [
+      "MID-A",
+      "MID-B"
+    ],
+    "principal": "MID-A",
+    "local_support": [
+      "MID-T",
+      "MID-V"
+    ],
+    "connector": "gateway activity within western service network; no independently justified fifth town",
+    "L2_priority": "MID-A"
+  },
+  "alternatives": [
+    {
+      "id": "ALT-A",
+      "name": "单个强综合中心",
+      "logic": "在西侧低地合并主要市场、仓储、居民及山地交换，外围保留小型地方服务",
+      "terrain": "主低地连续性好，但山地用户跨61–72格以上升高才能到第二大高位地组；集中并非不可行，代价是反复升降",
+      "access": "共享接近可减少重复设施；不等于每位山地居民愿意下山",
+      "rights": "单中心较易协调，但地主/货主集中有控制通行和价格的诱因，受地方权利制约",
+      "political_freight": "政治访问与全部主货流叠合，峰值拥挤强；需有界分流而非先假定必冲突",
+      "resident": "低地服务丰富，高位/谷地日常需求易被低估",
+      "externalities": "集中库存/加工/污物/消防的负荷大；水点失败影响更多居民",
+      "season_resilience": "季节共用效率高但失效集中；需要多处储备",
+      "density": "可高密，但如果扩城吸走其它本地生活，不能满足区域成熟逻辑",
+      "history": "早期合理；专业交换强化后可能分化，未必保持唯一中心",
+      "verdict": "可信备选；若East需求很低或高位供水/权利无法经普通适应解决，作为退回分支"
+    },
+    {
+      "id": "ALT-B",
+      "name": "多个专门中心",
+      "logic": "门户、低地市场、独立岸货运、山前加工分别建立中心",
+      "terrain": "各活动接近自身地形，但窄岸和小台地难支撑多个完整生活系统",
+      "access": "减少局部换装距离但增加中心间搬运，南岸坡路尤其不能因水隙短被忽略",
+      "rights": "分担控制权但需要更多地方协议，重复小门槛也可增加交易成本",
+      "political_freight": "可较清楚分开，未必需做到每一种需求一镇",
+      "resident": "重复服务可能不足，容易只画物流点而没有家庭",
+      "externalities": "外部性分散但多处水/废物/燃料和火险闭合负担上升",
+      "season_resilience": "不相同故障才有冗余；南北岸可能同受停航，且各处库存成本高",
+      "density": "容易把薄需求摊成稀疏点带；必须有足够需求才能保持D-025",
+      "history": "高吞吐和强地权割裂时可发生；当前尚无足够依据支撑那么多区域中心",
+      "verdict": "不推荐作为默认；保留为未来吞吐/权利变化的上调分支"
+    },
+    {
+      "id": "ALT-C",
+      "name": "两个主要中心 + 地方服务",
+      "logic": "低地综合中心吸收门户即时服务；高位交换形成第二中心；台地/谷地仅地方规模",
+      "terrain": "响应两大片平缓组与升高成本，小口袋不升为大镇；局部适应保留坡地",
+      "access": "两侧日常与货流部分就近，不强制所有物资穿Commons或下低地；南岸保留条件性分支",
+      "rights": "主中心无无限收费权，高位地方协作与Commons访问分别议定，成本随受益协商",
+      "political_freight": "近界即时服务可以共享，长存留/加工向更适合地面组织；不固定街区分界",
+      "resident": "两主要中心都有居民日常服务；小地方点不依赖先成为大港/大矿城",
+      "externalities": "两个生活系统可分担水/库存/加工负荷；仍有水/火/污物未知，需L2闭合",
+      "season_resilience": "消费侧缓冲、区域中心互助，路线多样性仍待验证；不自称双中心即可抗灾",
+      "density": "优先将成熟高周转落在少数紧凑中心，保留其它地形/开放，不沿路铺满",
+      "history": "地方生活→重复交换→共同政治访问→高位专业服务强化→地方缓冲与分流",
+      "verdict": "推荐；有条件、低到中置信度，不是唯一历史必然"
+    }
+  ],
+  "search_refs": [
+    "S-W",
+    "S-U",
+    "S-T",
+    "S-V"
+  ],
+  "node_refs": [
+    "MID-A",
+    "MID-B",
+    "MID-T",
+    "MID-V"
+  ],
+  "link_refs": [
+    "LINK-CA",
+    "LINK-AB",
+    "LINK-AT",
+    "LINK-TB",
+    "LINK-AV",
+    "LINK-VW",
+    "LINK-BE",
+    "LINK-VE"
+  ],
+  "capacity_ref": "CAPACITY-DENSITY.json",
+  "dependent_requests": [
+    "COMMONS-REQUEST",
+    "WEST-REQUEST",
+    "EAST-N-REQUEST",
+    "EAST-S-REQUEST",
+    "LOCAL-RIGHTS"
+  ],
+  "world_write_authorization": false,
+  "builder_call": false,
+  "L2_execution": false,
+  "unresolved": [
+    "供水/通行权/当前人工物",
+    "实际吞吐与人口",
+    "中心/地方点精确位置",
+    "兄弟接口与独立冗余",
+    "最终同口径三域密度验证"
+  ]
+}

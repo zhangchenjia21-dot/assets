@@ -1,0 +1,76 @@
+{
+  "plan_revision": "CIV-001-MID-L1P-r1",
+  "authority": "PLANNING_ASSUMPTION",
+  "settlements": [
+    {
+      "node": "MID-A",
+      "search": "S-W",
+      "built_fabric_range": [
+        16000,
+        24000
+      ],
+      "confidence": "LOW",
+      "basis": "Commons陆侧访问、低地居民需求与向山地的长期交换重叠；连续低地使市场、较长存留和生活服务可共享，不必在近邻复制两个完整中心",
+      "definition": "buildings + internal circulation + small shared/work/service open space; not building footprint",
+      "external_supply": "有限跨域生活品与材料输入，先核水/库存/通行，不假定无限供给",
+      "L2_sensitivity": "共同访问与地方住户不能被装卸封住；砂面/岸缘/供水不均，不能把全部73566搜索地当容量"
+    },
+    {
+      "node": "MID-B",
+      "search": "S-U",
+      "built_fabric_range": [
+        10000,
+        16000
+      ],
+      "confidence": "LOW",
+      "basis": "第二大平缓组与East北段直接接触；山地生活品、整备/部分处理和批次存留不必全下低地再返回。较大本地日常生活支撑避免纯转运设施",
+      "definition": "buildings + internal circulation + small shared/work/service open space; not building footprint",
+      "external_supply": "有限跨域生活品与材料输入，先核水/库存/通行，不假定无限供给",
+      "L2_sensitivity": "石砂砾面、水/燃料与外部性约束；不能因为面宽就填成大城；边界接触不证明East腹地可达"
+    },
+    {
+      "node": "MID-T",
+      "search": "S-T",
+      "built_fabric_range": [
+        2000,
+        4000
+      ],
+      "confidence": "LOW",
+      "basis": "上升路段与本地台地生活需求值得近处服务；小平缓组不足以在未证吞吐下再复制区域市场",
+      "definition": "buildings + internal circulation + small shared/work/service open space; not building footprint",
+      "external_supply": "有限跨域生活品与材料输入，先核水/库存/通行，不假定无限供给",
+      "L2_sensitivity": "台地约4676平缓格不是可建指标；保留排水/水/生活空间，需求低可并入邻近服务"
+    },
+    {
+      "node": "MID-V",
+      "search": "S-V",
+      "built_fabric_range": [
+        1000,
+        3000
+      ],
+      "confidence": "LOW",
+      "basis": "南谷有较小连续缓地及自身生活/接近需求；南岸距离短不消除约80–90格爬升，故先是谷地生活点，非大港镇",
+      "definition": "buildings + internal circulation + small shared/work/service open space; not building footprint",
+      "external_supply": "有限跨域生活品与材料输入，先核水/库存/通行，不假定无限供给",
+      "L2_sensitivity": "南岸连线地形敏感；未证通行/水/货量，不给码头或港城配额"
+    }
+  ],
+  "settlement_built_fabric_sum": [
+    29000,
+    47000
+  ],
+  "territory_area": 391002,
+  "ratio_percent": [
+    7.416841857586406,
+    12.020398872640039
+  ],
+  "building_footprint": "UNRESOLVED; must not multiply by a universal coverage factor",
+  "regional_external_routes": "not included in settlement built-fabric; future de-duplicate before whole-land-use accounting",
+  "remaining_land_interval": [
+    344002,
+    362002
+  ],
+  "remaining_semantics": "non-settlement-fabric arithmetic remainder; includes productive/open/slope/shore/access/vegetation land, not an allocated land-use polygon",
+  "density_test": "Same-definition final Middle coverage must exceed West and East; sibling coverages not yet known, so CONDITIONAL_NOT_EMPIRICALLY_PROVEN",
+  "search_area_not_capacity": true
+}

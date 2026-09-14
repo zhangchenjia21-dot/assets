@@ -1,0 +1,104 @@
+[
+  {
+    "file": "01.png",
+    "sha256": "ba06adf38c14ef15ec392816a90fdfc06e1b677f351a5efbdb790e7cf1f7139b",
+    "world_bounds": [
+      -400,
+      1400,
+      1280,
+      2440
+    ],
+    "pixels_per_block": 1,
+    "map_origin_px": [
+      70,
+      145
+    ],
+    "label_anchor_semantics": "LAYOUT_ONLY_NOT_SITE",
+    "proposal_semantics": "SEARCH_AREAS_AND_RELATIONSHIPS_ONLY"
+  },
+  {
+    "file": "02.png",
+    "sha256": "4227e61a5fdc1ec0fd06f42de921b41a361dba6d86af924aa054f9a6ad34a289",
+    "world_bounds": [
+      -400,
+      1400,
+      1280,
+      2440
+    ],
+    "pixels_per_block": 1,
+    "map_origin_px": [
+      70,
+      145
+    ],
+    "label_anchor_semantics": "LAYOUT_ONLY_NOT_SITE",
+    "proposal_semantics": "SEARCH_AREAS_AND_RELATIONSHIPS_ONLY"
+  },
+  {
+    "file": "03.png",
+    "sha256": "3571ff78140cbd1b934de5d684bbf400ea84dc7bc84d5821f0147c0512eedc31",
+    "world_bounds": [
+      -400,
+      1400,
+      1280,
+      2440
+    ],
+    "pixels_per_block": 1,
+    "map_origin_px": [
+      70,
+      145
+    ],
+    "label_anchor_semantics": "LAYOUT_ONLY_NOT_SITE",
+    "proposal_semantics": "SEARCH_AREAS_AND_RELATIONSHIPS_ONLY"
+  },
+  {
+    "file": "04.png",
+    "sha256": "a535c81a91d9ec48ddc4eac0cd727a16937b442d5d87056de15b43b06da84130",
+    "world_bounds": [
+      -400,
+      1400,
+      1280,
+      2440
+    ],
+    "pixels_per_block": 1,
+    "map_origin_px": [
+      70,
+      145
+    ],
+    "label_anchor_semantics": "LAYOUT_ONLY_NOT_SITE",
+    "proposal_semantics": "SEARCH_AREAS_AND_RELATIONSHIPS_ONLY"
+  },
+  {
+    "file": "05.png",
+    "sha256": "272ae44c61f38d3dfd0fbcd961773534a132d6a2d02e2bee442f3145e9b24b0e",
+    "world_bounds": [
+      -400,
+      1400,
+      1280,
+      2440
+    ],
+    "pixels_per_block": 1,
+    "map_origin_px": [
+      70,
+      145
+    ],
+    "label_anchor_semantics": "LAYOUT_ONLY_NOT_SITE",
+    "proposal_semantics": "SEARCH_AREAS_AND_RELATIONSHIPS_ONLY"
+  },
+  {
+    "file": "06.png",
+    "sha256": "339efb17ca372f89d3cf445d2b05f75ed4058b6c0aae6f6f6a2ad1c4d0af8a26",
+    "world_bounds": [
+      -400,
+      1400,
+      1280,
+      2440
+    ],
+    "pixels_per_block": 1,
+    "map_origin_px": [
+      70,
+      145
+    ],
+    "label_anchor_semantics": "LAYOUT_ONLY_NOT_SITE",
+    "proposal_semantics": "SEARCH_AREAS_AND_RELATIONSHIPS_ONLY"
+  }
+]

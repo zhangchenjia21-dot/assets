@@ -1,0 +1,230 @@
+{
+  "plan_revision": "CIV-001-MID-L1P-r1",
+  "territory_ref": "research/human-geography/southern-island/territory-refinement/TT-002R/refined-draft.json",
+  "territory_sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919",
+  "territory_area": 391002,
+  "whole_scope": {
+    "median_y": 122,
+    "flat": 38040,
+    "gentle": 41013,
+    "other_or_unknown": 311949
+  },
+  "searches": [
+    {
+      "id": "S-W",
+      "area": 73566,
+      "bounds": [
+        89,
+        1453,
+        580,
+        1850
+      ],
+      "y_p10_p50_p90": [
+        62.0,
+        66.0,
+        78.0
+      ],
+      "flat": 27542,
+      "gentle": 13317,
+      "surface_top": [
+        [
+          "minecraft:grass_block",
+          37601
+        ],
+        [
+          "minecraft:sand",
+          12742
+        ],
+        [
+          "minecraft:coarse_dirt",
+          8449
+        ],
+        [
+          "minecraft:granite",
+          4610
+        ],
+        [
+          "minecraft:packed_mud",
+          3946
+        ],
+        [
+          "minecraft:moss_block",
+          2763
+        ]
+      ],
+      "authority": "DESIGN_PROPOSAL_SEARCH_WITH_DERIVED_STATISTICS",
+      "why": "低地与Commons陆侧接近相连，为合并区域市场/门户服务提供搜索空间；不是沿整个海岸建城",
+      "geometry": {
+        "type": "SEARCH_MEMBERS_RLE",
+        "ref": "evidence/regional-analysis.json#/search_runs/S-W",
+        "semantic": "APPROXIMATE_SEARCH_NOT_SETTLEMENT_FOOTPRINT",
+        "editable": "L2可在同等因果条件下调整，不能越政治边界；先报告变化而非把阈值当城墙"
+      }
+    },
+    {
+      "id": "S-U",
+      "area": 102027,
+      "bounds": [
+        680,
+        1535,
+        1173,
+        1840
+      ],
+      "y_p10_p50_p90": [
+        115.0,
+        137.0,
+        150.0
+      ],
+      "flat": 8362,
+      "gentle": 18919,
+      "surface_top": [
+        [
+          "minecraft:stone",
+          60411
+        ],
+        [
+          "minecraft:gravel",
+          20927
+        ],
+        [
+          "minecraft:grass_block",
+          13641
+        ],
+        [
+          "minecraft:coarse_dirt",
+          2043
+        ],
+        [
+          "minecraft:granite",
+          2010
+        ],
+        [
+          "minecraft:dirt",
+          1278
+        ]
+      ],
+      "authority": "DESIGN_PROPOSAL_SEARCH_WITH_DERIVED_STATISTICS",
+      "why": "高位平缓地临东域北段边界，可使山地生活品/处理不必全部先下低地再上山；石/砂砾使水与生活支持必须单独解决",
+      "geometry": {
+        "type": "SEARCH_MEMBERS_RLE",
+        "ref": "evidence/regional-analysis.json#/search_runs/S-U",
+        "semantic": "APPROXIMATE_SEARCH_NOT_SETTLEMENT_FOOTPRINT",
+        "editable": "L2可在同等因果条件下调整，不能越政治边界；先报告变化而非把阈值当城墙"
+      }
+    },
+    {
+      "id": "S-T",
+      "area": 32001,
+      "bounds": [
+        380,
+        1720,
+        580,
+        1880
+      ],
+      "y_p10_p50_p90": [
+        141.0,
+        152.0,
+        161.0
+      ],
+      "flat": 700,
+      "gentle": 4721,
+      "surface_top": [
+        [
+          "minecraft:grass_block",
+          22779
+        ],
+        [
+          "minecraft:coarse_dirt",
+          4794
+        ],
+        [
+          "minecraft:granite",
+          3848
+        ],
+        [
+          "minecraft:dirt",
+          179
+        ],
+        [
+          "minecraft:dandelion",
+          135
+        ],
+        [
+          "minecraft:gravel",
+          86
+        ]
+      ],
+      "authority": "DESIGN_PROPOSAL_SEARCH_WITH_DERIVED_STATISTICS",
+      "why": "中部小台地在升高途中可承接地方生活和分段整备；规模与独立服务腹地不足以直接升为第三个大中心",
+      "geometry": {
+        "type": "SEARCH_MEMBERS_RLE",
+        "ref": "evidence/regional-analysis.json#/search_runs/S-T",
+        "semantic": "APPROXIMATE_SEARCH_NOT_SETTLEMENT_FOOTPRINT",
+        "editable": "L2可在同等因果条件下调整，不能越政治边界；先报告变化而非把阈值当城墙"
+      }
+    },
+    {
+      "id": "S-V",
+      "area": 27513,
+      "bounds": [
+        370,
+        1950,
+        510,
+        2160
+      ],
+      "y_p10_p50_p90": [
+        117.0,
+        132.0,
+        145.0
+      ],
+      "flat": 1340,
+      "gentle": 3126,
+      "surface_top": [
+        [
+          "minecraft:grass_block",
+          19354
+        ],
+        [
+          "minecraft:coarse_dirt",
+          4401
+        ],
+        [
+          "minecraft:granite",
+          2961
+        ],
+        [
+          "minecraft:packed_mud",
+          196
+        ],
+        [
+          "minecraft:dirt",
+          153
+        ],
+        [
+          "minecraft:moss_block",
+          128
+        ]
+      ],
+      "authority": "DESIGN_PROPOSAL_SEARCH_WITH_DERIVED_STATISTICS",
+      "why": "南谷小口袋承担本地生活及通往南岸/山地的有条件接近；不把陡岸当货运大镇",
+      "geometry": {
+        "type": "SEARCH_MEMBERS_RLE",
+        "ref": "evidence/regional-analysis.json#/search_runs/S-V",
+        "semantic": "APPROXIMATE_SEARCH_NOT_SETTLEMENT_FOOTPRINT",
+        "editable": "L2可在同等因果条件下调整，不能越政治边界；先报告变化而非把阈值当城墙"
+      }
+    }
+  ],
+  "search_definitions": "S-W:Middle,Y<=90,X<=580,Z<=1850; S-U:Middle,X>=680,Z<=1840,100<=Y<=175; S-T:Middle,380<=X<=580,1720<=Z<=1880,Y>=125; S-V:Middle,370<=X<=510,1950<=Z<=2160,95<=Y<=155",
+  "remaining_ground_role": "All Middle outside search overlays retained in regional account: slopes, shores, water/vegetation/production possibilities, access and 7 satellite columns; not automatically buildable, protected, agricultural or unused",
+  "not_partition": true,
+  "boundary": {
+    "all_edges": 1438,
+    "north_contact_columns": 276,
+    "south_contact_columns": 748,
+    "north_edges": 339,
+    "south_edges": 1099,
+    "edge_step_le1": 1278
+  },
+  "uncertainty": "Cutoff numbers are coarse search choices; no internal political or settlement boundary"
+}
