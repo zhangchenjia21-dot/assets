@@ -1,0 +1,17 @@
+{
+  "phase": "POST_PRIMARY_FREEZE",
+  "primary_commit": "ff80061937355f4ba4be4c03ded950c30ffedc9d",
+  "recorded_utc": "2026-09-14T14:01:05.235021+00:00",
+  "reads": [
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/MD-001P/MASTERPLAN.md",
+      "sha256": "5e82f8976d27432bf3df64893c1614d5e6ac663976ee6397d205bbf78acc93e4"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/G1/MD-001U1/README.md",
+      "sha256": "a2efeb5d322f948cfd54aacc3d59254dca7c253c8ba482965268c900321a0369"
+    }
+  ],
+  "primary_modified": false,
+  "scope": "Document-level causal comparison, no legacy geometry import or historical world refresh"
+}
