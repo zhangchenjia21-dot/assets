@@ -1,0 +1,164 @@
+{
+  "test": "MP-I01R",
+  "design_state": "CONCEPT_DESIGN_WITH_INTERFACE_HOLD",
+  "regression_verdict": "NOT_ASSIGNED",
+  "world_writes": 0,
+  "deterministic_rebuild": true,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 93,
+      "sha256": "5c50be721e10c8da55a2a0e4b5652b4ea729d9dd42007b9a47dbde70a119c4b9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1825,
+      "sha256": "9927eac99bcdee11173a86f43a0803ad6247530a34572f915bf5584641b7396d"
+    },
+    {
+      "path": "handoff-consumption-record.md",
+      "bytes": 5334,
+      "sha256": "3999590a8f07d7d17c0d22db9feb576ac6d7afed46162ac5545caf3ecbda2777"
+    },
+    {
+      "path": "inputs/BDP-01.json",
+      "bytes": 109620,
+      "sha256": "5af90939e86176c5a71f21d92508e6ff5186f9bb1c345407576011ac10164935"
+    },
+    {
+      "path": "inputs/Builder-SKILL.md",
+      "bytes": 64656,
+      "sha256": "faf6d93466aac789059dd8b0106ec74dc8c80d59d69d6de6f2b51c301f7451ff"
+    },
+    {
+      "path": "inputs/CIV-001-Architecture-Grammar.md",
+      "bytes": 16494,
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6"
+    },
+    {
+      "path": "inputs/CIV-001-Canon.md",
+      "bytes": 7128,
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d"
+    },
+    {
+      "path": "inputs/CIV-001-D014.md",
+      "bytes": 5844,
+      "sha256": "87ad6fe84834bbf76b52a6c8fc1f8b56c1bfc4c58166ba959bc0dcc28e6bbd3d"
+    },
+    {
+      "path": "inputs/planner-builder-contract.md",
+      "bytes": 14540,
+      "sha256": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8"
+    },
+    {
+      "path": "inputs/场地事实切片.json",
+      "bytes": 93892,
+      "sha256": "8a79d1493527de74942f2dc1ab95fb46572b5f1c713075e78fa833dc3d96209d"
+    },
+    {
+      "path": "inputs/接口直接依赖.json",
+      "bytes": 65612,
+      "sha256": "63e53387fcb9b1299988ccc89faee4eb0c64307ad34250d5fc2cde92a7530ab6"
+    },
+    {
+      "path": "inputs/服务直接依赖.json",
+      "bytes": 4159,
+      "sha256": "7765a6878fa783c47b9ce991bfe374525d3345dfb5246a2efde93b8dc6ab1e0c"
+    },
+    {
+      "path": "inputs/来源与读取记录.json",
+      "bytes": 3473,
+      "sha256": "f43e99f6eb137891774d97959a8c686920c2372f2686a1563191a16b42b5fa76"
+    },
+    {
+      "path": "issues.json",
+      "bytes": 5230,
+      "sha256": "7e6eda8ce7741b63bc9f1b1c27b965971893b40fb4892f8dcfd1100e99a84e9f"
+    },
+    {
+      "path": "交付校验.mjs",
+      "bytes": 2309,
+      "sha256": "c09e32358e127415af51035b2ec933a0fa2ad76cc7e5bf31e32a97b629677aeb"
+    },
+    {
+      "path": "体量轴测.svg",
+      "bytes": 351718,
+      "sha256": "996409aed51eec4c828768a8e7c188d21e32f60270a183ed1d37140c1d013344"
+    },
+    {
+      "path": "制图与核验.mjs",
+      "bytes": 10896,
+      "sha256": "6ff7b968496ae36e4dd6e0320ec22e93aed46e4190752569350954d17abe25d2"
+    },
+    {
+      "path": "剖切轴测.svg",
+      "bytes": 228305,
+      "sha256": "679214608f9ca0f3e9a2f27a670ccaa3bc138580e32dfe73aa95d7d2cb455d04"
+    },
+    {
+      "path": "剖面-家庭横向.svg",
+      "bytes": 9009,
+      "sha256": "74f400f4c8fff5a302cf4406d8acd51ca3b885d421892ad796cc83fbd22d0d53"
+    },
+    {
+      "path": "剖面-楼梯.svg",
+      "bytes": 8049,
+      "sha256": "3b5791bb6f40de0afc92c0ff89940de7d834268a1c41283f3ba8cf7a412008ad"
+    },
+    {
+      "path": "审阅与复现记录.md",
+      "bytes": 2365,
+      "sha256": "eeacb4b2a4aef2f8a5a59dc8f836eefa5cc21ca320454fb0a387f605f44b143b"
+    },
+    {
+      "path": "平面-上层.svg",
+      "bytes": 21712,
+      "sha256": "695b20902eead71c91b17fc5cc36c4c581c62fc1192bb4b8cf63c17d4594eeb3"
+    },
+    {
+      "path": "平面-下层.svg",
+      "bytes": 21900,
+      "sha256": "17f172749279d50900beaafdc1d3b4c83f4b5e185bc30c56a0648b468407736d"
+    },
+    {
+      "path": "平面-作坊.svg",
+      "bytes": 21062,
+      "sha256": "a0ce7c582ebbab9af87e42920d0c0bc25a3f41d210c5e766e277550c2027a7b0"
+    },
+    {
+      "path": "建筑设计.md",
+      "bytes": 11281,
+      "sha256": "0d57e4437330139bdd600387ed4feb97ea1c5b0f0c158bf85d110e0321308b39"
+    },
+    {
+      "path": "设计体素.json",
+      "bytes": 85148,
+      "sha256": "2f644d620a52c4528a622dee9adb8b91c548160d5523cf2c5c0bbd56d10198c7"
+    },
+    {
+      "path": "设计几何.json",
+      "bytes": 117664,
+      "sha256": "d1b25e83a1e797511046ae9565b3e05b7094073cf54463911b349b8166358ded"
+    },
+    {
+      "path": "设计核验.json",
+      "bytes": 2011,
+      "sha256": "217294f7b2baf5af67774072c3a8818a993f70dc46b44a86b4bf808daa9eb86d"
+    },
+    {
+      "path": "设计生成.mjs",
+      "bytes": 8544,
+      "sha256": "50ea73a7f37d6f42c25e6b8556e63c3bd47ca038eb72050663f558cd373ef8fb"
+    },
+    {
+      "path": "设计预览.html",
+      "bytes": 1800,
+      "sha256": "93d33e9c700d5e75d4e5d2805e3cc36bedc2fe8565eb9a3a9be8ba1602fbf764"
+    },
+    {
+      "path": "输入提取.mjs",
+      "bytes": 4183,
+      "sha256": "ff52d7196101855710a2bbca3104b262bdaefa10d2b5d3524f1325b733cbec7a"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "test": "MP-I01R",
+  "date": "2026-09-14",
+  "builder": {
+    "version": "1.11",
+    "commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+    "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/minecraft-builder/SKILL.md",
+    "load": "commit-pinned read-only snapshot; not installed or modified",
+    "sha256": "faf6d93466aac789059dd8b0106ec74dc8c80d59d69d6de6f2b51c301f7451ff"
+  },
+  "contract": {
+    "version": "1.0",
+    "commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+    "path": "skill/codex/shared/minecraft-planner-builder-contract.md",
+    "sha256": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8"
+  },
+  "handoff": {
+    "plan": "MP-P05R2",
+    "package": "BDP-01",
+    "revision": "r1",
+    "selected_snapshot_sha256": "5af90939e86176c5a71f21d92508e6ff5186f9bb1c345407576011ac10164935",
+    "selection": "JSON container parsed by tool; only package_id == BDP-01 selected/output/used. BDP-02 was not output or consumed. No whole-file package copy archived."
+  },
+  "dependencies": [
+    {
+      "file": "interface-baselines.json",
+      "revision": "r1",
+      "sha256": "a60079da73e1f7ab3dfd45f57ba1059af17e051eb595af3da34308dbd96cec99",
+      "actual_sha256": "a60079da73e1f7ab3dfd45f57ba1059af17e051eb595af3da34308dbd96cec99"
+    },
+    {
+      "file": "external-service-interfaces.json",
+      "revision": "r1",
+      "sha256": "b8390821f113361c5c8fe4e0c37e155432bcc0202ba13b229caf44c8aa677f04",
+      "actual_sha256": "b8390821f113361c5c8fe4e0c37e155432bcc0202ba13b229caf44c8aa677f04"
+    },
+    {
+      "file": "evidence/地表采样.json",
+      "sha256": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e",
+      "actual_sha256": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e"
+    },
+    {
+      "file": "evidence/浅层采样.json",
+      "sha256": "a1e8560fad263c32f65c79ea6677b54e0ca61012210c851923c314479293a9d7",
+      "actual_sha256": "a1e8560fad263c32f65c79ea6677b54e0ca61012210c851923c314479293a9d7"
+    },
+    {
+      "file": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\world\\civilizations\\CIV-001\\README.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "snapshot": "CIV-001-Canon.md"
+    },
+    {
+      "file": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\decisions\\D-014_CIV-001最小文明Canon收敛与AB-001进入.md",
+      "sha256": "87ad6fe84834bbf76b52a6c8fc1f8b56c1bfc4c58166ba959bc0dcc28e6bbd3d",
+      "snapshot": "CIV-001-D014.md"
+    },
+    {
+      "file": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\architecture\\civilizations\\CIV-001\\Architecture-Grammar.md",
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6",
+      "snapshot": "CIV-001-Architecture-Grammar.md"
+    }
+  ],
+  "other_reads": [
+    "AI工程/ARCHITECTURE.md",
+    "assets/AGENTS.md",
+    "BDP-01 source_refs: provenance.json; sources/来源登记.json (provenance only; no transitive MP-P04 content followed)",
+    "memory registry searched solely to locate Builder source; historical design answers not opened"
+  ],
+  "prohibited_content_consumed": [],
+  "world_writes": 0,
+  "world_write_authorization": false,
+  "regression_verdict": "NOT_ASSIGNED",
+  "input_state": "Planner directory was already untracked; preserved untouched and excluded from task commit"
+}

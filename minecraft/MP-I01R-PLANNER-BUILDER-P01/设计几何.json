@@ -1,0 +1,8490 @@
+{
+  "units": "Minecraft blocks",
+  "authority": "design model only; custom screens/rails require native block-state translation",
+  "boxes": [
+    {
+      "min": [
+        754,
+        131,
+        1626
+      ],
+      "max": [
+        755,
+        132,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1627
+      ],
+      "max": [
+        755,
+        132,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1628
+      ],
+      "max": [
+        755,
+        132,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1629
+      ],
+      "max": [
+        755,
+        132,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1630
+      ],
+      "max": [
+        755,
+        132,
+        1631
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1631
+      ],
+      "max": [
+        755,
+        132,
+        1632
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1626
+      ],
+      "max": [
+        756,
+        132,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1627
+      ],
+      "max": [
+        756,
+        132,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1628
+      ],
+      "max": [
+        756,
+        132,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1629
+      ],
+      "max": [
+        756,
+        132,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1630
+      ],
+      "max": [
+        756,
+        132,
+        1631
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1631
+      ],
+      "max": [
+        756,
+        132,
+        1632
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1626
+      ],
+      "max": [
+        757,
+        132,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1627
+      ],
+      "max": [
+        757,
+        132,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1628
+      ],
+      "max": [
+        757,
+        132,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1629
+      ],
+      "max": [
+        757,
+        132,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1630
+      ],
+      "max": [
+        757,
+        132,
+        1631
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1631
+      ],
+      "max": [
+        757,
+        132,
+        1632
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1626
+      ],
+      "max": [
+        758,
+        132,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1627
+      ],
+      "max": [
+        758,
+        132,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1628
+      ],
+      "max": [
+        758,
+        132,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1629
+      ],
+      "max": [
+        758,
+        132,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1630
+      ],
+      "max": [
+        758,
+        132,
+        1631
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1631
+      ],
+      "max": [
+        758,
+        132,
+        1632
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1626
+      ],
+      "max": [
+        759,
+        132,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1627
+      ],
+      "max": [
+        759,
+        132,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1628
+      ],
+      "max": [
+        759,
+        132,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1629
+      ],
+      "max": [
+        759,
+        132,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1630
+      ],
+      "max": [
+        759,
+        132,
+        1631
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1631
+      ],
+      "max": [
+        759,
+        132,
+        1632
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1626
+      ],
+      "max": [
+        760,
+        132,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1627
+      ],
+      "max": [
+        760,
+        132,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1628
+      ],
+      "max": [
+        760,
+        132,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1629
+      ],
+      "max": [
+        760,
+        132,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1630
+      ],
+      "max": [
+        760,
+        132,
+        1631
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1631
+      ],
+      "max": [
+        760,
+        132,
+        1632
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1624
+      ],
+      "max": [
+        761,
+        134,
+        1625
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1625
+      ],
+      "max": [
+        761,
+        134,
+        1626
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1626
+      ],
+      "max": [
+        761,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1627
+      ],
+      "max": [
+        761,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        760,
+        132,
+        1629
+      ],
+      "max": [
+        761,
+        133,
+        1630
+      ],
+      "material": "stone",
+      "role": "shallow_plinth"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1629
+      ],
+      "max": [
+        761,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1624
+      ],
+      "max": [
+        762,
+        134,
+        1625
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1625
+      ],
+      "max": [
+        762,
+        134,
+        1626
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1626
+      ],
+      "max": [
+        762,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1627
+      ],
+      "max": [
+        762,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1628
+      ],
+      "max": [
+        762,
+        134,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1629
+      ],
+      "max": [
+        762,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1624
+      ],
+      "max": [
+        763,
+        134,
+        1625
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1625
+      ],
+      "max": [
+        763,
+        134,
+        1626
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1626
+      ],
+      "max": [
+        763,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1627
+      ],
+      "max": [
+        763,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1628
+      ],
+      "max": [
+        763,
+        134,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1629
+      ],
+      "max": [
+        763,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1624
+      ],
+      "max": [
+        764,
+        134,
+        1625
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1625
+      ],
+      "max": [
+        764,
+        134,
+        1626
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1626
+      ],
+      "max": [
+        764,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1627
+      ],
+      "max": [
+        764,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1628
+      ],
+      "max": [
+        764,
+        134,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1629
+      ],
+      "max": [
+        764,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1624
+      ],
+      "max": [
+        765,
+        134,
+        1625
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1625
+      ],
+      "max": [
+        765,
+        134,
+        1626
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1626
+      ],
+      "max": [
+        765,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1627
+      ],
+      "max": [
+        765,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1628
+      ],
+      "max": [
+        765,
+        134,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1629
+      ],
+      "max": [
+        765,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1624
+      ],
+      "max": [
+        766,
+        134,
+        1625
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1625
+      ],
+      "max": [
+        766,
+        134,
+        1626
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1626
+      ],
+      "max": [
+        766,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1627
+      ],
+      "max": [
+        766,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1628
+      ],
+      "max": [
+        766,
+        134,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1629
+      ],
+      "max": [
+        766,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1624
+      ],
+      "max": [
+        767,
+        134,
+        1625
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1625
+      ],
+      "max": [
+        767,
+        134,
+        1626
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1626
+      ],
+      "max": [
+        767,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1627
+      ],
+      "max": [
+        767,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1628
+      ],
+      "max": [
+        767,
+        134,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1629
+      ],
+      "max": [
+        767,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1624
+      ],
+      "max": [
+        768,
+        134,
+        1625
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1625
+      ],
+      "max": [
+        768,
+        134,
+        1626
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1626
+      ],
+      "max": [
+        768,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1627
+      ],
+      "max": [
+        768,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1628
+      ],
+      "max": [
+        768,
+        134,
+        1629
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1629
+      ],
+      "max": [
+        768,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "floor"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1626
+      ],
+      "max": [
+        755,
+        133,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1626
+      ],
+      "max": [
+        755,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1626
+      ],
+      "max": [
+        755,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1626
+      ],
+      "max": [
+        755,
+        136,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1627
+      ],
+      "max": [
+        755,
+        133,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1627
+      ],
+      "max": [
+        755,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1627
+      ],
+      "max": [
+        755,
+        135,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1627
+      ],
+      "max": [
+        755,
+        136,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1628
+      ],
+      "max": [
+        755,
+        133,
+        1629
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1628
+      ],
+      "max": [
+        755,
+        134,
+        1629
+      ],
+      "material": "glass",
+      "role": "window"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1628
+      ],
+      "max": [
+        755,
+        135,
+        1629
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1628
+      ],
+      "max": [
+        755,
+        136,
+        1629
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1629
+      ],
+      "max": [
+        755,
+        133,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1629
+      ],
+      "max": [
+        755,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1629
+      ],
+      "max": [
+        755,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1629
+      ],
+      "max": [
+        755,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1630
+      ],
+      "max": [
+        755,
+        133,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1630
+      ],
+      "max": [
+        755,
+        134,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1630
+      ],
+      "max": [
+        755,
+        135,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1630
+      ],
+      "max": [
+        755,
+        136,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1631
+      ],
+      "max": [
+        755,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1631
+      ],
+      "max": [
+        755,
+        134,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1631
+      ],
+      "max": [
+        755,
+        135,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1631
+      ],
+      "max": [
+        755,
+        136,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        755,
+        132,
+        1626
+      ],
+      "max": [
+        756,
+        133,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        755,
+        133,
+        1626
+      ],
+      "max": [
+        756,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        755,
+        134,
+        1626
+      ],
+      "max": [
+        756,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        755,
+        135,
+        1626
+      ],
+      "max": [
+        756,
+        136,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        755,
+        135,
+        1631
+      ],
+      "max": [
+        756,
+        136,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        756,
+        132,
+        1626
+      ],
+      "max": [
+        757,
+        133,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        756,
+        133,
+        1626
+      ],
+      "max": [
+        757,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        756,
+        134,
+        1626
+      ],
+      "max": [
+        757,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        756,
+        135,
+        1626
+      ],
+      "max": [
+        757,
+        136,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        756,
+        132,
+        1631
+      ],
+      "max": [
+        757,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        756,
+        133,
+        1631
+      ],
+      "max": [
+        757,
+        134,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        756,
+        134,
+        1631
+      ],
+      "max": [
+        757,
+        135,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        756,
+        135,
+        1631
+      ],
+      "max": [
+        757,
+        136,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1626
+      ],
+      "max": [
+        758,
+        133,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1626
+      ],
+      "max": [
+        758,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1626
+      ],
+      "max": [
+        758,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        757,
+        135,
+        1626
+      ],
+      "max": [
+        758,
+        136,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1631
+      ],
+      "max": [
+        758,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1631
+      ],
+      "max": [
+        758,
+        134,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1631
+      ],
+      "max": [
+        758,
+        135,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        757,
+        135,
+        1631
+      ],
+      "max": [
+        758,
+        136,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        758,
+        132,
+        1626
+      ],
+      "max": [
+        759,
+        133,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        758,
+        133,
+        1626
+      ],
+      "max": [
+        759,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        758,
+        134,
+        1626
+      ],
+      "max": [
+        759,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        758,
+        135,
+        1626
+      ],
+      "max": [
+        759,
+        136,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        758,
+        135,
+        1631
+      ],
+      "max": [
+        759,
+        136,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1626
+      ],
+      "max": [
+        760,
+        133,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1626
+      ],
+      "max": [
+        760,
+        134,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1626
+      ],
+      "max": [
+        760,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1626
+      ],
+      "max": [
+        760,
+        136,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1627
+      ],
+      "max": [
+        760,
+        133,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1627
+      ],
+      "max": [
+        760,
+        134,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1627
+      ],
+      "max": [
+        760,
+        135,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1627
+      ],
+      "max": [
+        760,
+        136,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1629
+      ],
+      "max": [
+        760,
+        133,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1629
+      ],
+      "max": [
+        760,
+        134,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1629
+      ],
+      "max": [
+        760,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1629
+      ],
+      "max": [
+        760,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1630
+      ],
+      "max": [
+        760,
+        133,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1630
+      ],
+      "max": [
+        760,
+        134,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1630
+      ],
+      "max": [
+        760,
+        135,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1630
+      ],
+      "max": [
+        760,
+        136,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1631
+      ],
+      "max": [
+        760,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1631
+      ],
+      "max": [
+        760,
+        134,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1631
+      ],
+      "max": [
+        760,
+        135,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1631
+      ],
+      "max": [
+        760,
+        136,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_wall"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1624
+      ],
+      "max": [
+        761,
+        135,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1624
+      ],
+      "max": [
+        761,
+        136,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1624
+      ],
+      "max": [
+        761,
+        137,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1624
+      ],
+      "max": [
+        761,
+        138,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1624
+      ],
+      "max": [
+        761,
+        139,
+        1625
+      ],
+      "material": "wood",
+      "role": "post"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1624
+      ],
+      "max": [
+        761,
+        140,
+        1625
+      ],
+      "material": "wood",
+      "role": "post"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1624
+      ],
+      "max": [
+        761,
+        141,
+        1625
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1625
+      ],
+      "max": [
+        761,
+        135,
+        1626
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1625
+      ],
+      "max": [
+        761,
+        136,
+        1626
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1625
+      ],
+      "max": [
+        761,
+        137,
+        1626
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1625
+      ],
+      "max": [
+        761,
+        138,
+        1626
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1625
+      ],
+      "max": [
+        761,
+        139,
+        1626
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1625
+      ],
+      "max": [
+        761,
+        140,
+        1626
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1625
+      ],
+      "max": [
+        761,
+        141,
+        1626
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1626
+      ],
+      "max": [
+        761,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1626
+      ],
+      "max": [
+        761,
+        136,
+        1627
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1626
+      ],
+      "max": [
+        761,
+        137,
+        1627
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1626
+      ],
+      "max": [
+        761,
+        138,
+        1627
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1626
+      ],
+      "max": [
+        761,
+        139,
+        1627
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1626
+      ],
+      "max": [
+        761,
+        140,
+        1627
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1626
+      ],
+      "max": [
+        761,
+        141,
+        1627
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1627
+      ],
+      "max": [
+        761,
+        135,
+        1628
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1627
+      ],
+      "max": [
+        761,
+        136,
+        1628
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1627
+      ],
+      "max": [
+        761,
+        137,
+        1628
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1627
+      ],
+      "max": [
+        761,
+        138,
+        1628
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1627
+      ],
+      "max": [
+        761,
+        139,
+        1628
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1627
+      ],
+      "max": [
+        761,
+        140,
+        1628
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1627
+      ],
+      "max": [
+        761,
+        141,
+        1628
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1628
+      ],
+      "max": [
+        761,
+        139,
+        1629
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1628
+      ],
+      "max": [
+        761,
+        140,
+        1629
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1628
+      ],
+      "max": [
+        761,
+        141,
+        1629
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1629
+      ],
+      "max": [
+        761,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1629
+      ],
+      "max": [
+        761,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1629
+      ],
+      "max": [
+        761,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1629
+      ],
+      "max": [
+        761,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1629
+      ],
+      "max": [
+        761,
+        139,
+        1630
+      ],
+      "material": "wood",
+      "role": "post"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1629
+      ],
+      "max": [
+        761,
+        140,
+        1630
+      ],
+      "material": "wood",
+      "role": "post"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1629
+      ],
+      "max": [
+        761,
+        141,
+        1630
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        761,
+        134,
+        1624
+      ],
+      "max": [
+        762,
+        135,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        761,
+        135,
+        1624
+      ],
+      "max": [
+        762,
+        136,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        761,
+        136,
+        1624
+      ],
+      "max": [
+        762,
+        137,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1624
+      ],
+      "max": [
+        762,
+        138,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1624
+      ],
+      "max": [
+        762,
+        139,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        761,
+        139,
+        1624
+      ],
+      "max": [
+        762,
+        140,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        761,
+        140,
+        1624
+      ],
+      "max": [
+        762,
+        141,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        761,
+        134,
+        1629
+      ],
+      "max": [
+        762,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        761,
+        135,
+        1629
+      ],
+      "max": [
+        762,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        761,
+        136,
+        1629
+      ],
+      "max": [
+        762,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1629
+      ],
+      "max": [
+        762,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1629
+      ],
+      "max": [
+        762,
+        139,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        761,
+        139,
+        1629
+      ],
+      "max": [
+        762,
+        140,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        761,
+        140,
+        1629
+      ],
+      "max": [
+        762,
+        141,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        762,
+        134,
+        1624
+      ],
+      "max": [
+        763,
+        135,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        762,
+        135,
+        1624
+      ],
+      "max": [
+        763,
+        136,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        762,
+        136,
+        1624
+      ],
+      "max": [
+        763,
+        137,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1624
+      ],
+      "max": [
+        763,
+        138,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        762,
+        138,
+        1624
+      ],
+      "max": [
+        763,
+        139,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        762,
+        139,
+        1624
+      ],
+      "max": [
+        763,
+        140,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        762,
+        140,
+        1624
+      ],
+      "max": [
+        763,
+        141,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        762,
+        134,
+        1629
+      ],
+      "max": [
+        763,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        762,
+        135,
+        1629
+      ],
+      "max": [
+        763,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        762,
+        136,
+        1629
+      ],
+      "max": [
+        763,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1629
+      ],
+      "max": [
+        763,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        762,
+        138,
+        1629
+      ],
+      "max": [
+        763,
+        139,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        762,
+        139,
+        1629
+      ],
+      "max": [
+        763,
+        140,
+        1630
+      ],
+      "material": "glass",
+      "role": "window"
+    },
+    {
+      "min": [
+        762,
+        140,
+        1629
+      ],
+      "max": [
+        763,
+        141,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        763,
+        134,
+        1624
+      ],
+      "max": [
+        764,
+        135,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        763,
+        135,
+        1624
+      ],
+      "max": [
+        764,
+        136,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        763,
+        136,
+        1624
+      ],
+      "max": [
+        764,
+        137,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1624
+      ],
+      "max": [
+        764,
+        138,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1624
+      ],
+      "max": [
+        764,
+        139,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        763,
+        139,
+        1624
+      ],
+      "max": [
+        764,
+        140,
+        1625
+      ],
+      "material": "glass",
+      "role": "window"
+    },
+    {
+      "min": [
+        763,
+        140,
+        1624
+      ],
+      "max": [
+        764,
+        141,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        763,
+        134,
+        1629
+      ],
+      "max": [
+        764,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        763,
+        135,
+        1629
+      ],
+      "max": [
+        764,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        763,
+        136,
+        1629
+      ],
+      "max": [
+        764,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1629
+      ],
+      "max": [
+        764,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1629
+      ],
+      "max": [
+        764,
+        139,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        763,
+        139,
+        1629
+      ],
+      "max": [
+        764,
+        140,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        763,
+        140,
+        1629
+      ],
+      "max": [
+        764,
+        141,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        764,
+        134,
+        1624
+      ],
+      "max": [
+        765,
+        135,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        764,
+        135,
+        1624
+      ],
+      "max": [
+        765,
+        136,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        764,
+        136,
+        1624
+      ],
+      "max": [
+        765,
+        137,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1624
+      ],
+      "max": [
+        765,
+        138,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        764,
+        138,
+        1624
+      ],
+      "max": [
+        765,
+        139,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        764,
+        139,
+        1624
+      ],
+      "max": [
+        765,
+        140,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1624
+      ],
+      "max": [
+        765,
+        141,
+        1625
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        764,
+        134,
+        1629
+      ],
+      "max": [
+        765,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        764,
+        135,
+        1629
+      ],
+      "max": [
+        765,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        764,
+        136,
+        1629
+      ],
+      "max": [
+        765,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1629
+      ],
+      "max": [
+        765,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        764,
+        138,
+        1629
+      ],
+      "max": [
+        765,
+        139,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        764,
+        139,
+        1629
+      ],
+      "max": [
+        765,
+        140,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1629
+      ],
+      "max": [
+        765,
+        141,
+        1630
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        765,
+        134,
+        1624
+      ],
+      "max": [
+        766,
+        135,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        765,
+        135,
+        1624
+      ],
+      "max": [
+        766,
+        136,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        765,
+        136,
+        1624
+      ],
+      "max": [
+        766,
+        137,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1624
+      ],
+      "max": [
+        766,
+        138,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1624
+      ],
+      "max": [
+        766,
+        139,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        765,
+        139,
+        1624
+      ],
+      "max": [
+        766,
+        140,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        765,
+        140,
+        1624
+      ],
+      "max": [
+        766,
+        141,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        765,
+        134,
+        1629
+      ],
+      "max": [
+        766,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        765,
+        135,
+        1629
+      ],
+      "max": [
+        766,
+        136,
+        1630
+      ],
+      "material": "glass",
+      "role": "window"
+    },
+    {
+      "min": [
+        765,
+        136,
+        1629
+      ],
+      "max": [
+        766,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1629
+      ],
+      "max": [
+        766,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1629
+      ],
+      "max": [
+        766,
+        139,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        765,
+        139,
+        1629
+      ],
+      "max": [
+        766,
+        140,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        765,
+        140,
+        1629
+      ],
+      "max": [
+        766,
+        141,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1624
+      ],
+      "max": [
+        767,
+        135,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        766,
+        135,
+        1624
+      ],
+      "max": [
+        767,
+        136,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        766,
+        136,
+        1624
+      ],
+      "max": [
+        767,
+        137,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1624
+      ],
+      "max": [
+        767,
+        138,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        766,
+        138,
+        1624
+      ],
+      "max": [
+        767,
+        139,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        766,
+        139,
+        1624
+      ],
+      "max": [
+        767,
+        140,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        766,
+        140,
+        1624
+      ],
+      "max": [
+        767,
+        141,
+        1625
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1629
+      ],
+      "max": [
+        767,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        766,
+        135,
+        1629
+      ],
+      "max": [
+        767,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        766,
+        136,
+        1629
+      ],
+      "max": [
+        767,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1629
+      ],
+      "max": [
+        767,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        766,
+        138,
+        1629
+      ],
+      "max": [
+        767,
+        139,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        766,
+        139,
+        1629
+      ],
+      "max": [
+        767,
+        140,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        766,
+        140,
+        1629
+      ],
+      "max": [
+        767,
+        141,
+        1630
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1624
+      ],
+      "max": [
+        768,
+        135,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1624
+      ],
+      "max": [
+        768,
+        136,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1624
+      ],
+      "max": [
+        768,
+        137,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1624
+      ],
+      "max": [
+        768,
+        138,
+        1625
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1624
+      ],
+      "max": [
+        768,
+        139,
+        1625
+      ],
+      "material": "wood",
+      "role": "post"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1624
+      ],
+      "max": [
+        768,
+        140,
+        1625
+      ],
+      "material": "wood",
+      "role": "post"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1624
+      ],
+      "max": [
+        768,
+        141,
+        1625
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1625
+      ],
+      "max": [
+        768,
+        135,
+        1626
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1625
+      ],
+      "max": [
+        768,
+        136,
+        1626
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1625
+      ],
+      "max": [
+        768,
+        137,
+        1626
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1625
+      ],
+      "max": [
+        768,
+        138,
+        1626
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1625
+      ],
+      "max": [
+        768,
+        139,
+        1626
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1625
+      ],
+      "max": [
+        768,
+        140,
+        1626
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1625
+      ],
+      "max": [
+        768,
+        141,
+        1626
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1626
+      ],
+      "max": [
+        768,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1626
+      ],
+      "max": [
+        768,
+        136,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1626
+      ],
+      "max": [
+        768,
+        137,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1626
+      ],
+      "max": [
+        768,
+        138,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1626
+      ],
+      "max": [
+        768,
+        139,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1626
+      ],
+      "max": [
+        768,
+        140,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1626
+      ],
+      "max": [
+        768,
+        141,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1627
+      ],
+      "max": [
+        768,
+        135,
+        1628
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1627
+      ],
+      "max": [
+        768,
+        136,
+        1628
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1627
+      ],
+      "max": [
+        768,
+        137,
+        1628
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1627
+      ],
+      "max": [
+        768,
+        138,
+        1628
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1627
+      ],
+      "max": [
+        768,
+        139,
+        1628
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1627
+      ],
+      "max": [
+        768,
+        140,
+        1628
+      ],
+      "material": "glass",
+      "role": "window"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1627
+      ],
+      "max": [
+        768,
+        141,
+        1628
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1628
+      ],
+      "max": [
+        768,
+        135,
+        1629
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1628
+      ],
+      "max": [
+        768,
+        136,
+        1629
+      ],
+      "material": "glass",
+      "role": "window"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1628
+      ],
+      "max": [
+        768,
+        137,
+        1629
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1628
+      ],
+      "max": [
+        768,
+        138,
+        1629
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1628
+      ],
+      "max": [
+        768,
+        139,
+        1629
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1628
+      ],
+      "max": [
+        768,
+        140,
+        1629
+      ],
+      "material": "plaster",
+      "role": "upper_infill"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1628
+      ],
+      "max": [
+        768,
+        141,
+        1629
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1629
+      ],
+      "max": [
+        768,
+        135,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1629
+      ],
+      "max": [
+        768,
+        136,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1629
+      ],
+      "max": [
+        768,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1629
+      ],
+      "max": [
+        768,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "house_wall"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1629
+      ],
+      "max": [
+        768,
+        139,
+        1630
+      ],
+      "material": "wood",
+      "role": "post"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1629
+      ],
+      "max": [
+        768,
+        140,
+        1630
+      ],
+      "material": "wood",
+      "role": "post"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1629
+      ],
+      "max": [
+        768,
+        141,
+        1630
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1627
+      ],
+      "max": [
+        758,
+        133,
+        1628
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1628
+      ],
+      "max": [
+        758,
+        133,
+        1629
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1629
+      ],
+      "max": [
+        758,
+        133,
+        1630
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1630
+      ],
+      "max": [
+        758,
+        133,
+        1631
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1627
+      ],
+      "max": [
+        758,
+        134,
+        1628
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1628
+      ],
+      "max": [
+        758,
+        134,
+        1629
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1629
+      ],
+      "max": [
+        758,
+        134,
+        1630
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1630
+      ],
+      "max": [
+        758,
+        134,
+        1631
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1627
+      ],
+      "max": [
+        758,
+        135,
+        1628
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1628
+      ],
+      "max": [
+        758,
+        135,
+        1629
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1629
+      ],
+      "max": [
+        758,
+        135,
+        1630
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1630
+      ],
+      "max": [
+        758,
+        135,
+        1631
+      ],
+      "material": "wood",
+      "role": "work_family_partition"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1628
+      ],
+      "max": [
+        760,
+        132.5,
+        1629
+      ],
+      "material": "stone",
+      "role": "split_level_stair"
+    },
+    {
+      "min": [
+        759.5,
+        132.5,
+        1628
+      ],
+      "max": [
+        760,
+        133,
+        1629
+      ],
+      "material": "stone",
+      "role": "split_level_stair"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1628
+      ],
+      "max": [
+        761,
+        133.5,
+        1629
+      ],
+      "material": "stone",
+      "role": "split_level_stair"
+    },
+    {
+      "min": [
+        760.5,
+        133.5,
+        1628
+      ],
+      "max": [
+        761,
+        134,
+        1629
+      ],
+      "material": "stone",
+      "role": "split_level_stair"
+    },
+    {
+      "min": [
+        760,
+        132,
+        1628
+      ],
+      "max": [
+        761,
+        133,
+        1629
+      ],
+      "material": "stone",
+      "role": "stair_support"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1625
+      ],
+      "max": [
+        762,
+        138,
+        1626
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1626
+      ],
+      "max": [
+        762,
+        138,
+        1627
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1627
+      ],
+      "max": [
+        762,
+        138,
+        1628
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1628
+      ],
+      "max": [
+        762,
+        138,
+        1629
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1626
+      ],
+      "max": [
+        763,
+        138,
+        1627
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1627
+      ],
+      "max": [
+        763,
+        138,
+        1628
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1628
+      ],
+      "max": [
+        763,
+        138,
+        1629
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1626
+      ],
+      "max": [
+        764,
+        138,
+        1627
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1627
+      ],
+      "max": [
+        764,
+        138,
+        1628
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1628
+      ],
+      "max": [
+        764,
+        138,
+        1629
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1626
+      ],
+      "max": [
+        765,
+        138,
+        1627
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1627
+      ],
+      "max": [
+        765,
+        138,
+        1628
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1628
+      ],
+      "max": [
+        765,
+        138,
+        1629
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1626
+      ],
+      "max": [
+        766,
+        138,
+        1627
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1627
+      ],
+      "max": [
+        766,
+        138,
+        1628
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1628
+      ],
+      "max": [
+        766,
+        138,
+        1629
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1625
+      ],
+      "max": [
+        767,
+        138,
+        1626
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1626
+      ],
+      "max": [
+        767,
+        138,
+        1627
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1627
+      ],
+      "max": [
+        767,
+        138,
+        1628
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1628
+      ],
+      "max": [
+        767,
+        138,
+        1629
+      ],
+      "material": "wood",
+      "role": "upper_floor"
+    },
+    {
+      "min": [
+        762,
+        134,
+        1625
+      ],
+      "max": [
+        763,
+        134.5,
+        1626
+      ],
+      "material": "wood",
+      "role": "internal_stair"
+    },
+    {
+      "min": [
+        762.5,
+        134.5,
+        1625
+      ],
+      "max": [
+        763,
+        135,
+        1626
+      ],
+      "material": "wood",
+      "role": "internal_stair"
+    },
+    {
+      "min": [
+        763,
+        135,
+        1625
+      ],
+      "max": [
+        764,
+        135.5,
+        1626
+      ],
+      "material": "wood",
+      "role": "internal_stair"
+    },
+    {
+      "min": [
+        763.5,
+        135.5,
+        1625
+      ],
+      "max": [
+        764,
+        136,
+        1626
+      ],
+      "material": "wood",
+      "role": "internal_stair"
+    },
+    {
+      "min": [
+        764,
+        136,
+        1625
+      ],
+      "max": [
+        765,
+        136.5,
+        1626
+      ],
+      "material": "wood",
+      "role": "internal_stair"
+    },
+    {
+      "min": [
+        764.5,
+        136.5,
+        1625
+      ],
+      "max": [
+        765,
+        137,
+        1626
+      ],
+      "material": "wood",
+      "role": "internal_stair"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1625
+      ],
+      "max": [
+        766,
+        137.5,
+        1626
+      ],
+      "material": "wood",
+      "role": "internal_stair"
+    },
+    {
+      "min": [
+        765.5,
+        137.5,
+        1625
+      ],
+      "max": [
+        766,
+        138,
+        1626
+      ],
+      "material": "wood",
+      "role": "internal_stair"
+    },
+    {
+      "min": [
+        763,
+        134,
+        1625
+      ],
+      "max": [
+        764,
+        135,
+        1626
+      ],
+      "material": "wood",
+      "role": "stair_stringer"
+    },
+    {
+      "min": [
+        764,
+        134,
+        1625
+      ],
+      "max": [
+        765,
+        135,
+        1626
+      ],
+      "material": "wood",
+      "role": "stair_stringer"
+    },
+    {
+      "min": [
+        764,
+        135,
+        1625
+      ],
+      "max": [
+        765,
+        136,
+        1626
+      ],
+      "material": "wood",
+      "role": "stair_stringer"
+    },
+    {
+      "min": [
+        765,
+        134,
+        1625
+      ],
+      "max": [
+        766,
+        135,
+        1626
+      ],
+      "material": "wood",
+      "role": "stair_stringer"
+    },
+    {
+      "min": [
+        765,
+        135,
+        1625
+      ],
+      "max": [
+        766,
+        136,
+        1626
+      ],
+      "material": "wood",
+      "role": "stair_stringer"
+    },
+    {
+      "min": [
+        765,
+        136,
+        1625
+      ],
+      "max": [
+        766,
+        137,
+        1626
+      ],
+      "material": "wood",
+      "role": "stair_stringer"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1625
+      ],
+      "max": [
+        765,
+        141,
+        1626
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1626
+      ],
+      "max": [
+        765,
+        141,
+        1627
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1627
+      ],
+      "max": [
+        765,
+        141,
+        1628
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1628
+      ],
+      "max": [
+        765,
+        141,
+        1629
+      ],
+      "material": "wood",
+      "role": "roof_tie"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1624
+      ],
+      "max": [
+        761,
+        141.5,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        761,
+        142,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        142,
+        1625
+      ],
+      "max": [
+        761,
+        142.5,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        761,
+        143,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1625
+      ],
+      "max": [
+        761,
+        142,
+        1626
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        760,
+        143,
+        1626
+      ],
+      "max": [
+        761,
+        143.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        761,
+        144,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1626
+      ],
+      "max": [
+        761,
+        142,
+        1627
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        760,
+        142,
+        1626
+      ],
+      "max": [
+        761,
+        143,
+        1627
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        760,
+        143,
+        1627
+      ],
+      "max": [
+        761,
+        143.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        143.5,
+        1627
+      ],
+      "max": [
+        761,
+        144,
+        1627.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1627
+      ],
+      "max": [
+        761,
+        142,
+        1628
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        760,
+        142,
+        1627
+      ],
+      "max": [
+        761,
+        143,
+        1628
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        760,
+        142,
+        1628
+      ],
+      "max": [
+        761,
+        142.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        142.5,
+        1628
+      ],
+      "max": [
+        761,
+        143,
+        1628.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1628
+      ],
+      "max": [
+        761,
+        142,
+        1629
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1629
+      ],
+      "max": [
+        761,
+        141.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        760,
+        141.5,
+        1629
+      ],
+      "max": [
+        761,
+        142,
+        1629.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        141,
+        1624
+      ],
+      "max": [
+        762,
+        141.5,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        762,
+        142,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        142,
+        1625
+      ],
+      "max": [
+        762,
+        142.5,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        762,
+        143,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        143,
+        1626
+      ],
+      "max": [
+        762,
+        143.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        762,
+        144,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        143,
+        1627
+      ],
+      "max": [
+        762,
+        143.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        143.5,
+        1627
+      ],
+      "max": [
+        762,
+        144,
+        1627.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        142,
+        1628
+      ],
+      "max": [
+        762,
+        142.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        142.5,
+        1628
+      ],
+      "max": [
+        762,
+        143,
+        1628.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        141,
+        1629
+      ],
+      "max": [
+        762,
+        141.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        761,
+        141.5,
+        1629
+      ],
+      "max": [
+        762,
+        142,
+        1629.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        141,
+        1624
+      ],
+      "max": [
+        763,
+        141.5,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        763,
+        142,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        142,
+        1625
+      ],
+      "max": [
+        763,
+        142.5,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        763,
+        143,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        143,
+        1626
+      ],
+      "max": [
+        763,
+        143.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        763,
+        144,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        143,
+        1627
+      ],
+      "max": [
+        763,
+        143.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        143.5,
+        1627
+      ],
+      "max": [
+        763,
+        144,
+        1627.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        142,
+        1628
+      ],
+      "max": [
+        763,
+        142.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        142.5,
+        1628
+      ],
+      "max": [
+        763,
+        143,
+        1628.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        141,
+        1629
+      ],
+      "max": [
+        763,
+        141.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        762,
+        141.5,
+        1629
+      ],
+      "max": [
+        763,
+        142,
+        1629.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        141,
+        1624
+      ],
+      "max": [
+        764,
+        141.5,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        764,
+        142,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        142,
+        1625
+      ],
+      "max": [
+        764,
+        142.5,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        764,
+        143,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        143,
+        1626
+      ],
+      "max": [
+        764,
+        143.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        764,
+        144,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        143,
+        1627
+      ],
+      "max": [
+        764,
+        143.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        143.5,
+        1627
+      ],
+      "max": [
+        764,
+        144,
+        1627.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        142,
+        1628
+      ],
+      "max": [
+        764,
+        142.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        142.5,
+        1628
+      ],
+      "max": [
+        764,
+        143,
+        1628.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        141,
+        1629
+      ],
+      "max": [
+        764,
+        141.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        763,
+        141.5,
+        1629
+      ],
+      "max": [
+        764,
+        142,
+        1629.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        141,
+        1624
+      ],
+      "max": [
+        765,
+        141.5,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        765,
+        142,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        142,
+        1625
+      ],
+      "max": [
+        765,
+        142.5,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        765,
+        143,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        143,
+        1626
+      ],
+      "max": [
+        765,
+        143.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        765,
+        144,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        143,
+        1627
+      ],
+      "max": [
+        765,
+        143.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        143.5,
+        1627
+      ],
+      "max": [
+        765,
+        144,
+        1627.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        142,
+        1628
+      ],
+      "max": [
+        765,
+        142.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        142.5,
+        1628
+      ],
+      "max": [
+        765,
+        143,
+        1628.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        141,
+        1629
+      ],
+      "max": [
+        765,
+        141.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        764,
+        141.5,
+        1629
+      ],
+      "max": [
+        765,
+        142,
+        1629.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        141,
+        1624
+      ],
+      "max": [
+        766,
+        141.5,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        766,
+        142,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        142,
+        1625
+      ],
+      "max": [
+        766,
+        142.5,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        766,
+        143,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        143,
+        1626
+      ],
+      "max": [
+        766,
+        143.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        766,
+        144,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        143,
+        1627
+      ],
+      "max": [
+        766,
+        143.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        143.5,
+        1627
+      ],
+      "max": [
+        766,
+        144,
+        1627.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        142,
+        1628
+      ],
+      "max": [
+        766,
+        142.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        142.5,
+        1628
+      ],
+      "max": [
+        766,
+        143,
+        1628.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        141,
+        1629
+      ],
+      "max": [
+        766,
+        141.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        765,
+        141.5,
+        1629
+      ],
+      "max": [
+        766,
+        142,
+        1629.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        141,
+        1624
+      ],
+      "max": [
+        767,
+        141.5,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        767,
+        142,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        142,
+        1625
+      ],
+      "max": [
+        767,
+        142.5,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        767,
+        143,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        143,
+        1626
+      ],
+      "max": [
+        767,
+        143.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        767,
+        144,
+        1627
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        143,
+        1627
+      ],
+      "max": [
+        767,
+        143.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        143.5,
+        1627
+      ],
+      "max": [
+        767,
+        144,
+        1627.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        142,
+        1628
+      ],
+      "max": [
+        767,
+        142.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        142.5,
+        1628
+      ],
+      "max": [
+        767,
+        143,
+        1628.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        141,
+        1629
+      ],
+      "max": [
+        767,
+        141.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        766,
+        141.5,
+        1629
+      ],
+      "max": [
+        767,
+        142,
+        1629.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1624
+      ],
+      "max": [
+        768,
+        141.5,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        768,
+        142,
+        1625
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        142,
+        1625
+      ],
+      "max": [
+        768,
+        142.5,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        768,
+        143,
+        1626
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1625
+      ],
+      "max": [
+        768,
+        142,
+        1626
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        767,
+        143,
+        1626
+      ],
+      "max": [
+        768,
+        144,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1626
+      ],
+      "max": [
+        768,
+        142,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        142,
+        1626
+      ],
+      "max": [
+        768,
+        143,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        767,
+        143,
+        1627
+      ],
+      "max": [
+        768,
+        143.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        143.5,
+        1627
+      ],
+      "max": [
+        768,
+        144,
+        1627.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1627
+      ],
+      "max": [
+        768,
+        142,
+        1628
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        767,
+        142,
+        1627
+      ],
+      "max": [
+        768,
+        143,
+        1628
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        767,
+        142,
+        1628
+      ],
+      "max": [
+        768,
+        142.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        142.5,
+        1628
+      ],
+      "max": [
+        768,
+        143,
+        1628.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1628
+      ],
+      "max": [
+        768,
+        142,
+        1629
+      ],
+      "material": "plaster",
+      "role": "gable"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1629
+      ],
+      "max": [
+        768,
+        141.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        767,
+        141.5,
+        1629
+      ],
+      "max": [
+        768,
+        142,
+        1629.5
+      ],
+      "material": "roof",
+      "role": "house_roof"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1626
+      ],
+      "max": [
+        755,
+        136.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1627
+      ],
+      "max": [
+        755,
+        136.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1628
+      ],
+      "max": [
+        755,
+        136.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1629
+      ],
+      "max": [
+        755,
+        136.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1630
+      ],
+      "max": [
+        755,
+        136.5,
+        1631
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1631
+      ],
+      "max": [
+        755,
+        136.5,
+        1632
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1626
+      ],
+      "max": [
+        756,
+        137,
+        1627
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1627
+      ],
+      "max": [
+        756,
+        137,
+        1628
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1628
+      ],
+      "max": [
+        756,
+        137,
+        1629
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1629
+      ],
+      "max": [
+        756,
+        137,
+        1630
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1630
+      ],
+      "max": [
+        756,
+        137,
+        1631
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1631
+      ],
+      "max": [
+        756,
+        137,
+        1632
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1626
+      ],
+      "max": [
+        757,
+        137.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        756,
+        136,
+        1626
+      ],
+      "max": [
+        757,
+        137,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1627
+      ],
+      "max": [
+        757,
+        137.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1628
+      ],
+      "max": [
+        757,
+        137.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1629
+      ],
+      "max": [
+        757,
+        137.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1630
+      ],
+      "max": [
+        757,
+        137.5,
+        1631
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1631
+      ],
+      "max": [
+        757,
+        137.5,
+        1632
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        756,
+        136,
+        1631
+      ],
+      "max": [
+        757,
+        137,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1626
+      ],
+      "max": [
+        758,
+        138,
+        1627
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        757,
+        136,
+        1626
+      ],
+      "max": [
+        758,
+        137,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1627
+      ],
+      "max": [
+        758,
+        138,
+        1628
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1628
+      ],
+      "max": [
+        758,
+        138,
+        1629
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1629
+      ],
+      "max": [
+        758,
+        138,
+        1630
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1630
+      ],
+      "max": [
+        758,
+        138,
+        1631
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1631
+      ],
+      "max": [
+        758,
+        138,
+        1632
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        757,
+        136,
+        1631
+      ],
+      "max": [
+        758,
+        137,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1626
+      ],
+      "max": [
+        759,
+        138.5,
+        1627
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        758,
+        136,
+        1626
+      ],
+      "max": [
+        759,
+        137,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        758,
+        137,
+        1626
+      ],
+      "max": [
+        759,
+        138,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1627
+      ],
+      "max": [
+        759,
+        138.5,
+        1628
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1628
+      ],
+      "max": [
+        759,
+        138.5,
+        1629
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1629
+      ],
+      "max": [
+        759,
+        138.5,
+        1630
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1630
+      ],
+      "max": [
+        759,
+        138.5,
+        1631
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1631
+      ],
+      "max": [
+        759,
+        138.5,
+        1632
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        758,
+        136,
+        1631
+      ],
+      "max": [
+        759,
+        137,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        758,
+        137,
+        1631
+      ],
+      "max": [
+        759,
+        138,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1626
+      ],
+      "max": [
+        760,
+        139,
+        1627
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1626
+      ],
+      "max": [
+        760,
+        137,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1626
+      ],
+      "max": [
+        760,
+        138,
+        1627
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1627
+      ],
+      "max": [
+        760,
+        139,
+        1628
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1627
+      ],
+      "max": [
+        760,
+        137,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1627
+      ],
+      "max": [
+        760,
+        138,
+        1628
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1628
+      ],
+      "max": [
+        760,
+        139,
+        1629
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1628
+      ],
+      "max": [
+        760,
+        137,
+        1629
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1628
+      ],
+      "max": [
+        760,
+        138,
+        1629
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1629
+      ],
+      "max": [
+        760,
+        139,
+        1630
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1629
+      ],
+      "max": [
+        760,
+        137,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1629
+      ],
+      "max": [
+        760,
+        138,
+        1630
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1630
+      ],
+      "max": [
+        760,
+        139,
+        1631
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1630
+      ],
+      "max": [
+        760,
+        137,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1630
+      ],
+      "max": [
+        760,
+        138,
+        1631
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1631
+      ],
+      "max": [
+        760,
+        139,
+        1632
+      ],
+      "material": "roof",
+      "role": "workshop_roof"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1631
+      ],
+      "max": [
+        760,
+        137,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1631
+      ],
+      "max": [
+        760,
+        138,
+        1632
+      ],
+      "material": "stone",
+      "role": "workshop_gable"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1627
+      ],
+      "max": [
+        752,
+        131,
+        1628
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1628
+      ],
+      "max": [
+        752,
+        131,
+        1629
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1629
+      ],
+      "max": [
+        752,
+        131,
+        1630
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1630
+      ],
+      "max": [
+        752,
+        131,
+        1631
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1631
+      ],
+      "max": [
+        752,
+        131,
+        1632
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1632
+      ],
+      "max": [
+        752,
+        131,
+        1633
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1627
+      ],
+      "max": [
+        753,
+        131,
+        1628
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1628
+      ],
+      "max": [
+        753,
+        131,
+        1629
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1629
+      ],
+      "max": [
+        753,
+        131,
+        1630
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1630
+      ],
+      "max": [
+        753,
+        131,
+        1631
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1631
+      ],
+      "max": [
+        753,
+        131,
+        1632
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1632
+      ],
+      "max": [
+        753,
+        131,
+        1633
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1627
+      ],
+      "max": [
+        754,
+        131,
+        1628
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1628
+      ],
+      "max": [
+        754,
+        131,
+        1629
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1629
+      ],
+      "max": [
+        754,
+        131,
+        1630
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1630
+      ],
+      "max": [
+        754,
+        131,
+        1631
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1631
+      ],
+      "max": [
+        754,
+        131,
+        1632
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1632
+      ],
+      "max": [
+        754,
+        131,
+        1633
+      ],
+      "material": "stone",
+      "role": "yard_floor"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1632
+      ],
+      "max": [
+        755,
+        131.5,
+        1633
+      ],
+      "material": "stone",
+      "role": "yard_step"
+    },
+    {
+      "min": [
+        754.5,
+        131.5,
+        1632
+      ],
+      "max": [
+        755,
+        132,
+        1633
+      ],
+      "material": "stone",
+      "role": "yard_step"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1632
+      ],
+      "max": [
+        756,
+        132,
+        1633
+      ],
+      "material": "stone",
+      "role": "private_landing"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1632
+      ],
+      "max": [
+        757,
+        132,
+        1633
+      ],
+      "material": "stone",
+      "role": "private_landing"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1632
+      ],
+      "max": [
+        758,
+        132,
+        1633
+      ],
+      "material": "stone",
+      "role": "private_landing"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1632
+      ],
+      "max": [
+        759,
+        132,
+        1633
+      ],
+      "material": "stone",
+      "role": "private_landing"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1632
+      ],
+      "max": [
+        760,
+        132,
+        1633
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        764,
+        132,
+        1630
+      ],
+      "max": [
+        765,
+        133,
+        1631
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        765,
+        132,
+        1630
+      ],
+      "max": [
+        766,
+        133,
+        1631
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        766,
+        132,
+        1630
+      ],
+      "max": [
+        767,
+        133,
+        1631
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        767,
+        132,
+        1630
+      ],
+      "max": [
+        768,
+        133,
+        1631
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        760,
+        131,
+        1631
+      ],
+      "max": [
+        761,
+        132,
+        1632
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        761,
+        132,
+        1631
+      ],
+      "max": [
+        762,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        762,
+        132,
+        1631
+      ],
+      "max": [
+        763,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        763,
+        132,
+        1631
+      ],
+      "max": [
+        764,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        764,
+        132,
+        1631
+      ],
+      "max": [
+        765,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        765,
+        132,
+        1631
+      ],
+      "max": [
+        766,
+        133,
+        1632
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        760,
+        131,
+        1632
+      ],
+      "max": [
+        761,
+        132,
+        1633
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        761,
+        132,
+        1632
+      ],
+      "max": [
+        762,
+        133,
+        1633
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        754,
+        130,
+        1633
+      ],
+      "max": [
+        755,
+        131,
+        1634
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1633
+      ],
+      "max": [
+        756,
+        132,
+        1634
+      ],
+      "material": "stone",
+      "role": "private_landing"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1633
+      ],
+      "max": [
+        757,
+        132,
+        1634
+      ],
+      "material": "stone",
+      "role": "private_landing"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1633
+      ],
+      "max": [
+        758,
+        132,
+        1634
+      ],
+      "material": "stone",
+      "role": "private_landing"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1634
+      ],
+      "max": [
+        752,
+        131,
+        1635
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1634
+      ],
+      "max": [
+        753,
+        131,
+        1635
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1634
+      ],
+      "max": [
+        754,
+        131,
+        1635
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        754,
+        130,
+        1634
+      ],
+      "max": [
+        755,
+        131,
+        1635
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1635
+      ],
+      "max": [
+        752,
+        131,
+        1636
+      ],
+      "material": "stone",
+      "role": "apron_floor"
+    },
+    {
+      "min": [
+        755,
+        132,
+        1627
+      ],
+      "max": [
+        756,
+        133,
+        1628
+      ],
+      "material": "wood",
+      "role": "repair_bench"
+    },
+    {
+      "min": [
+        756,
+        132,
+        1627
+      ],
+      "max": [
+        757,
+        133,
+        1628
+      ],
+      "material": "metal",
+      "role": "small_vise"
+    },
+    {
+      "min": [
+        755,
+        132,
+        1629
+      ],
+      "max": [
+        756,
+        133,
+        1630
+      ],
+      "material": "wood",
+      "role": "batch_storage"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1625
+      ],
+      "max": [
+        767,
+        135,
+        1626
+      ],
+      "material": "wood",
+      "role": "clean_water_storage"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1626
+      ],
+      "max": [
+        767,
+        135,
+        1627
+      ],
+      "material": "stone",
+      "role": "cooking_hearth"
+    },
+    {
+      "min": [
+        765,
+        134,
+        1626
+      ],
+      "max": [
+        766,
+        135,
+        1627
+      ],
+      "material": "wood",
+      "role": "food_preparation"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1627
+      ],
+      "max": [
+        767,
+        135,
+        1628
+      ],
+      "material": "wood",
+      "role": "food_storage"
+    },
+    {
+      "min": [
+        764,
+        134,
+        1627
+      ],
+      "max": [
+        765,
+        134.5,
+        1628
+      ],
+      "material": "wood",
+      "role": "dining_table"
+    },
+    {
+      "min": [
+        767,
+        144,
+        1626
+      ],
+      "max": [
+        768,
+        145,
+        1627
+      ],
+      "material": "stone",
+      "role": "chimney"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1627
+      ],
+      "max": [
+        762,
+        138.5,
+        1628
+      ],
+      "material": "bed",
+      "role": "sleeping_place"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1628
+      ],
+      "max": [
+        762,
+        138.5,
+        1629
+      ],
+      "material": "bed",
+      "role": "sleeping_place"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1627
+      ],
+      "max": [
+        764,
+        138.5,
+        1628
+      ],
+      "material": "bed",
+      "role": "sleeping_place"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1628
+      ],
+      "max": [
+        764,
+        138.5,
+        1629
+      ],
+      "material": "bed",
+      "role": "sleeping_place"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1625
+      ],
+      "max": [
+        762,
+        139,
+        1626
+      ],
+      "material": "wood",
+      "role": "linen_storage"
+    },
+    {
+      "min": [
+        764.4,
+        138,
+        1627
+      ],
+      "max": [
+        764.6,
+        140,
+        1628
+      ],
+      "material": "wood",
+      "role": "privacy_screen"
+    },
+    {
+      "min": [
+        764.4,
+        138,
+        1628
+      ],
+      "max": [
+        764.6,
+        140,
+        1629
+      ],
+      "material": "wood",
+      "role": "privacy_screen"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1628
+      ],
+      "max": [
+        766,
+        138.5,
+        1629
+      ],
+      "material": "wood",
+      "role": "sealed_waste"
+    },
+    {
+      "min": [
+        766,
+        138,
+        1628
+      ],
+      "max": [
+        767,
+        138.5,
+        1629
+      ],
+      "material": "stone",
+      "role": "wash_basin"
+    },
+    {
+      "min": [
+        762,
+        138,
+        1626
+      ],
+      "max": [
+        763,
+        139.5,
+        1626.12
+      ],
+      "material": "wood",
+      "role": "stair_guard"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1626
+      ],
+      "max": [
+        764,
+        139.5,
+        1626.12
+      ],
+      "material": "wood",
+      "role": "stair_guard"
+    },
+    {
+      "min": [
+        764,
+        138,
+        1626
+      ],
+      "max": [
+        765,
+        139.5,
+        1626.12
+      ],
+      "material": "wood",
+      "role": "stair_guard"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1626
+      ],
+      "max": [
+        766,
+        139.5,
+        1626.12
+      ],
+      "material": "wood",
+      "role": "stair_guard"
+    },
+    {
+      "min": [
+        756.1,
+        132,
+        1625.1
+      ],
+      "max": [
+        756.9,
+        132.9,
+        1625.9
+      ],
+      "material": "water",
+      "role": "rain_reservation"
+    },
+    {
+      "min": [
+        757.1,
+        132,
+        1625.1
+      ],
+      "max": [
+        757.9,
+        132.9,
+        1625.9
+      ],
+      "material": "water",
+      "role": "rain_reservation"
+    }
+  ]
+}
