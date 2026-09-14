@@ -1,0 +1,9 @@
+{
+  "handoff_id":"MP-P05R","recipient":"minecraft-builder","status":"READY_FOR_INDEPENDENT_REVIEW","world_writes":0,
+  "packages":[
+    {"id":"BDP-NF-01","kind":"MIXED_FRONTAGE_LOW_SHOULDER","parcel":"PARCEL-NF-01","program":"one household; repair/watch function with domestic rear relationship","fixed":["remain within parcel","frontage is not wall line","keep SPACE-01 and LANE-NF-01 continuous","respond to Y129-133 stepped rock","no basement until subsurface recheck"],"builder_owns":["exact footprint","height","structure","roof","openings","materials","terrain execution"],"preflight":["recheck base and artificial traces","confirm water interface","verify shared-yard easement"]},
+    {"id":"BDP-NF-02","kind":"MIXED_FRONTAGE_UPPER_REVIEW","parcel":"PARCEL-NF-02","program":"one household; review/short-stay function with light-load exit","fixed":["remain within parcel","keep LANE-NF-02 continuous to P04-ROUTE-02","keep LANE-NF-03 service access","respond to Y133-136 and east rise","no basement until subsurface recheck"],"builder_owns":["exact footprint","height","structure","roof","openings","materials","terrain execution"],"preflight":["recheck base and artificial traces","verify east-route clearance","confirm water and waste interfaces"]},
+    {"id":"BDP-NF-03","kind":"PUBLIC_INTERFACE","space":"SPACE-01","lanes":["LANE-NF-01","LANE-NF-02","LANE-NF-03"],"program":"shared unloading, queue, pedestrian and light-service continuity","fixed":["no private enclosure","preserve timed unloading and light-load flow","do not treat nominal widths as construction certification","no permanent livestock standing"],"builder_owns":["exact surface treatment","steps/retaining/drainage details","construction sequence","block palette"]}
+  ],
+  "not_authorized":["world write","canon change","archive overwrite","construction PASS","architectural design by planner"]
+}

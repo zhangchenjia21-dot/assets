@@ -1,0 +1,18 @@
+{
+  "id":"MP-P05R","revision":"r0","scale":"URBAN_ENSEMBLE","authority":"DESIGN_PROPOSAL","state":"SCOPED","review_status":"READY_FOR_GPT_OWNER_REVIEW","world_writes":0,"world_write_authorization":false,"builder_ready":true,
+  "parent":{"id":"MP-P04-WEST-APPROACH","package":"PACKAGE-01","authority":"PARENT_PROPOSAL_NOT_CANON"},
+  "scope":{"id":"BLOCK-NF-01","polygon":[[748,1625],[794,1626],[798,1648],[782,1668],[755,1666],[748,1646]],"fabric_observation":"EXISTING_FABRIC_PARTIAL","evolution_logic":"EXISTING_EVOLUTION"},
+  "capacity":{"households":2,"parcel_area_blocks2":270,"shared_area_excluded":true,"not_a_third_household":true},
+  "parcels":[
+    {"id":"PARCEL-NF-01","role":"LOW_SHOULDER_REPAIR_WATCH","polygon":[[750,1627],[765,1623],[768,1624],[768,1631],[760,1633],[751,1636]],"frontage":"FRONTAGE-NF-01","access":["SPACE-01","LANE-NF-01"],"area_blocks2":150,"ground_y":[129,133],"tenure":"PROPOSED_NOT_CONFIRMED"},
+    {"id":"PARCEL-NF-02","role":"UPPER_REVIEW_SHORT_STAY","polygon":[[771,1625],[792,1628],[793,1633],[786,1636],[779,1630],[773,1630]],"frontage":"FRONTAGE-NF-02","access":["LANE-NF-02","LANE-NF-03"],"area_blocks2":120,"ground_y":[133,136],"tenure":"PROPOSED_NOT_CONFIRMED"}
+  ],
+  "frontages":[{"id":"FRONTAGE-NF-01","points":[[751,1636],[760,1633],[768,1631]],"meaning":"exchange_and_entry_interface_not_wall_line","public_access":"SPACE-01/LANE-NF-01"},{"id":"FRONTAGE-NF-02","points":[[779,1630],[786,1636],[793,1633]],"meaning":"exchange_and_entry_interface_not_wall_line","public_access":"LANE-NF-02/LANE-NF-03"}],
+  "shared_spaces":[{"id":"SPACE-01","role":"unloading_review_queue","use":"batch_unloading_then_light_load_delivery","controller":"JOINT_COMMUNITY_AGREEMENT_PROPOSED","protection":"no_enclosure_no_permanent_livestock_standing","area_blocks2":569}],
+  "lanes":[{"id":"LANE-NF-01","mode":"PACK_CANDIDATE","nominal_width":4,"points":[[749,1647],[756,1645],[764,1642]],"verified":false},{"id":"LANE-NF-02","mode":"PEDESTRIAN_LIGHT_LOAD","nominal_width":3,"points":[[778,1641],[787,1638],[796,1634]],"verified":false,"continues":"P04-ROUTE-02"},{"id":"LANE-NF-03","mode":"PEDESTRIAN_SERVICE","nominal_width":2,"points":[[757,1664],[781,1666],[791,1654],[796,1644]],"verified":false}],
+  "terrain":{"surface":"ROCK_OBSERVED","ground_y_range":[129,136],"east_route_y_range":[134,139],"adaptation":"small_steps_or_local_retaining_only_as_builder_design","deep_subsurface":"UNVERIFIED","air_voids":"PROTECT_UNTIL_RECHECK"},
+  "phasing":["GROWTH-01_SHARED_YARD_AND_ACCESS","GROWTH-02_TWO_HOUSEHOLD_MIXED_FRONTAGE"],
+  "dependencies":["P04-PACKAGE-01","P04-ROUTE-02","CIV-001-APPROVED-CANON"],
+  "revision_triggers":["water_daily_need_unproven","access_easement_not_approved","protected_trace_conflict","subsurface_or_base_condition_blocks_bounded_adaptation"],
+  "planner_builder_boundary":"PLANNER_FIXES_RELATIONS_AND_CONSTRAINTS; BUILDER_DESIGNS_BUILDINGS_AND_EXACT_ENGINEERING"
+}

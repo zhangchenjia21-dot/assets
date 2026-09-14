@@ -1,0 +1,6 @@
+{
+  "allowed_inputs":["MP-P04 PACKAGE-01","MP-P04 parent-interfaces","CIV-001 current approved Canon","current-world terrain/surface/shallow facts required by this scope"],
+  "consumed_interfaces":[{"id":"P04-ROUTE-02","use":"east light-load continuation","authority":"DESIGN_PROPOSAL_NOT_CANON"},{"id":"CIV-001","use":"program and architectural-kit constraints only","authority":"APPROVED_CANON"}],
+  "unresolved":{"water":"parent coordination required","tenure":"proposed easement not confirmed","subsurface":"builder preflight required","deep_stability":"not evidenced"},
+  "forbidden_inputs":["MP-P05-NORTH-FRONTAGE-ENSEMBLE","MP-I01-PLANNER-BUILDER-P01","MP-P04 Independent Review","MP-P05 Independent Review","MP-I01 Independent Review","other URBAN_ENSEMBLE or Builder answers"]
+}

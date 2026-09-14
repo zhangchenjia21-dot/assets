@@ -1,0 +1,7 @@
+{
+  "world_writes":0,"source_lineage":["MP-P04 planning-data.json","MP-P04 implementation-packages.json","MP-P04 sources/parent-interfaces.json","CIV-001 current approved Canon"],
+  "observations":{"surface":"rock","north_parcels_ground_y":"129-136","east_continuation_ground_y":"134-139","subsurface":"not fully verified"},
+  "section_control":{"west_low":[749,1647,130],"low_frontage":[760,1633,132],"yard":[775,1640,134],"upper_frontage":[786,1635,135],"east_exit":[796,1634,136]},
+  "builder_gate":"recheck base, air voids, artificial traces, drainage, water and easement before architectural design",
+  "review_boundary":"GPT and Owner decide regression outcome"
+}
