@@ -1,0 +1,104 @@
+{
+  "test": "MP-I01R",
+  "package": "BDP-01",
+  "revision": "r1",
+  "regression_verdict": "NOT_ASSIGNED",
+  "design_state": "CONCEPT_DESIGN_WITH_INTERFACE_HOLD",
+  "world_writes": 0,
+  "issues": [
+    {
+      "id": "U-PUBLIC",
+      "interfaces": [
+        "R2-IF-THRESHOLD-1",
+        "R2-IF-LANE-04"
+      ],
+      "dependency_revision": "r1",
+      "owner": "PUBLIC-COORDINATOR + BDP-01",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "UNRESOLVED",
+      "evidence": "Observed contact around (757,1633) is surface Y132; internal proposal preserves this and absorbs remaining rise to Y134 privately. Public minimum is continuous 2 wide / 3 high, not the nominal route mask alone.",
+      "bounded_adaptation": "Two private doors and all landings/steps remain within P1. No lane movement or widening proposed.",
+      "why_insufficient": "Builder cannot approve public final elevation, easement or swept path on behalf of its owner.",
+      "minimum_upstream_change": "Countersign local threshold surface and the adjacent continuous public clear-envelope/section, with interface revision. No whole-plan rewrite requested.",
+      "affected_if_changed": [
+        "BDP-01 concept r1",
+        "R-FAMILY",
+        "R-WORK",
+        "private apron details"
+      ]
+    },
+    {
+      "id": "U-RAINWATER",
+      "interfaces": [
+        "R2-S1-RAINWATER",
+        "R2-IF-THRESHOLD-1"
+      ],
+      "dependency_revision": "r1",
+      "owner": "PUBLIC-COORDINATOR for receiving point; Builder for bounded roof collection",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "UNRESOLVED",
+      "evidence": "No approved public outfall. Model reserves two dry containers at (756,1625),(757,1625), no water blocks or cross-boundary pipe.",
+      "bounded_adaptation": "All roofs kept inside parcel; local finite collection reservation rather than direct street discharge.",
+      "why_insufficient": "Finite vessels do not establish design-storm capacity, overflow safety or receiving rights.",
+      "minimum_upstream_change": "Supply authorized receiving location/elevation/capacity responsibility, or approve a quantitatively verified closed local strategy. Then Builder resolves gutters, junctions and overflow.",
+      "affected_if_changed": [
+        "BDP-01 roof/collection design",
+        "R2-S1-RAINWATER"
+      ]
+    },
+    {
+      "id": "U-GROUND",
+      "owner": "Builder + authorized site/engineering reviewer",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "PARTIAL_EVIDENCE",
+      "evidence": "151 parcel columns and near-ground snapshot available. No proposed block is below observed ground_y, but top natural blocks are replaced for some floors.",
+      "bounded_adaptation": "No cellar or deep trench; separate shallow stepped plinths rather than whole-frontage platform.",
+      "minimum_closure": "Review exact load/influence volume, ground contact and known artificial-content protections before foundation freeze. Do not treat shallow no-air evidence as deep clearance."
+    },
+    {
+      "id": "U-HABITABILITY",
+      "owner": "Builder + household/Owner",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "CONCEPT_GEOMETRY_PROVIDED_NOT_CLOSED",
+      "evidence": "Two beds, cooking/living, daily storage, screened 2x2 sanitation, 18-cell yard and separate family route have dimensioned model geometry.",
+      "minimum_closure": "Confirm household design occupancy; finalize door privacy/weathering, ventilation, flue and fire separation, native railing/screen collision. Two-bed study is not evidence of actual household size."
+    },
+    {
+      "id": "U-TITLE",
+      "owner": "Owner + original rights holders",
+      "resolve_before": "BEFORE_WORLD_WRITE",
+      "status": "UNRESOLVED",
+      "minimum_closure": "Explicit target/revision/hash authorization, land-use and common-easement agreement. This task requests no construction."
+    },
+    {
+      "id": "U-SUPPLY",
+      "interfaces": [
+        "R2-S1-CLEAN_WATER",
+        "R2-S1-GOODS_FUEL"
+      ],
+      "owner": "PUBLIC-COORDINATOR + household operators",
+      "resolve_before": "BEFORE_PERMANENT_OCCUPATION",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "minimum_closure": "Actual clean-water source/quality/capacity, food/fuel delivery cadence, reserve and interruption response. Palette does not prove materials supply."
+    },
+    {
+      "id": "U-OPERATION",
+      "interfaces": [
+        "R2-S1-WASTE",
+        "R2-S1-GOODS_FUEL"
+      ],
+      "owner": "PUBLIC-COORDINATOR + household operators",
+      "resolve_before": "BEFORE_OPERATION",
+      "status": "UNRESOLVED",
+      "minimum_closure": "Waste destination/responsibility, closed carrying containers, clean/dirty time separation, and one-batch handheld work limit. No throughput claim."
+    },
+    {
+      "id": "B-TRANSLATION",
+      "owner": "Builder",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "DETAIL_AND_RUNTIME_UNVERIFIED",
+      "minimum_closure": "Compile selected native block states, roof flashing/gutters, chimney lumen and doors; recheck supports, stairs and route collision. Custom review boxes are not an executable Canonical Blueprint."
+    }
+  ],
+  "stop_rule": "Archive current unfrozen design then stop for GPT + Owner. Do not expand reads, construct, modify Planner/Canon/Skills/contract, or assign regression PASS/FAIL."
+}

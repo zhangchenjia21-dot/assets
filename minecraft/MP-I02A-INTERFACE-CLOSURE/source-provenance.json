@@ -1,0 +1,98 @@
+{
+  "test": "MP-I02A",
+  "date": "2026-09-14",
+  "planner": "0.5",
+  "shared_contract": "1.0",
+  "remote_HEAD_verified": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+  "records": [
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\builder-design-packages.json",
+      "sha256": "81f7f16e9c6705d34deb939a1e37e42b7d0a54b4d6d3f4bfc4d90773dc62d19c",
+      "selection": "packages[package_id=BDP-01]"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\interface-baselines.json",
+      "sha256": "a60079da73e1f7ab3dfd45f57ba1059af17e051eb595af3da34308dbd96cec99",
+      "selection": [
+        "R2-IF-COMMON-EDGE",
+        "R2-IF-LANE-01",
+        "R2-IF-LANE-02",
+        "R2-IF-LANE-04",
+        "R2-IF-THRESHOLD-1"
+      ]
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\external-service-interfaces.json",
+      "sha256": "b8390821f113361c5c8fe4e0c37e155432bcc0202ba13b229caf44c8aa677f04",
+      "selection": [
+        "R2-S1-CLEAN_WATER",
+        "R2-S1-GOODS_FUEL",
+        "R2-S1-RAINWATER",
+        "R2-S1-WASTE"
+      ]
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\handoff-register.json",
+      "sha256": "df36149519856a8b6351c67732838d862f9440145f93a927d08c8de2c08cddcd",
+      "selection": "public_coordination only"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\issues.json",
+      "sha256": "7e6eda8ce7741b63bc9f1b1c27b965971893b40fb4892f8dcfd1100e99a84e9f",
+      "selection": "whole authorized file"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\handoff-consumption-record.md",
+      "sha256": "3999590a8f07d7d17c0d22db9feb576ac6d7afed46162ac5545caf3ecbda2777",
+      "selection": "whole authorized file"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\设计核验.json",
+      "sha256": "217294f7b2baf5af67774072c3a8818a993f70dc46b44a86b4bf808daa9eb86d",
+      "selection": "whole authorized file"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\world\\civilizations\\CIV-001\\README.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "selection": "current approved Canon / Grammar; no transitive references followed"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\architecture\\civilizations\\CIV-001\\Architecture-Grammar.md",
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6",
+      "selection": "current approved Canon / Grammar; no transitive references followed"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\evidence\\地表采样.json",
+      "sha256": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e",
+      "selection": "753 <= x <= 761 and 1632 <= z <= 1638"
+    },
+    {
+      "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/minecraft-planner/SKILL.md",
+      "sha256": "71c4e5b26be761cda80afd4ce694bce2f046820560c91f5a1dc6c5fe0f745304",
+      "snapshot": "inputs/Planner-SKILL.md"
+    },
+    {
+      "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/shared/minecraft-planner-builder-contract.md",
+      "sha256": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8",
+      "snapshot": "inputs/planner-builder-contract.md"
+    },
+    {
+      "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/minecraft-planner/references/planner-builder-handoff.md",
+      "sha256": "7c54178792e17b930553833d2db452f9a3ba3b28c14028012e3342aca88cbda5",
+      "snapshot": "inputs/planner-builder-handoff.md"
+    }
+  ],
+  "other_read_log": [
+    "AI工程/ARCHITECTURE.md and assets/AGENTS.md for workspace boundaries",
+    "MP-I01R inputs/来源与读取记录.json solely to locate current Skill and Canon; historical design answers not followed",
+    "MP-I01R 设计几何.json parsed only keys, count and first two floor boxes to inspect format; no full architecture consumed or copied",
+    "Memory registry keyword lookup returned no task-specific source; no historical rollout read",
+    "Directory names listed for locating allowed inputs; no Independent Review contents opened"
+  ],
+  "excluded_content_read": [],
+  "selection_policy": "Containers parsed by tools; only BDP-01 and its exact direct interface IDs exposed/copied. No BDP-02 selected.",
+  "authority": "Observed snapshot supports elevations; local controls are DESIGN_PROPOSAL, neither Canon change nor permission.",
+  "world_writes": 0,
+  "world_write_authorization": false,
+  "regression_verdict": "NOT_ASSIGNED"
+}

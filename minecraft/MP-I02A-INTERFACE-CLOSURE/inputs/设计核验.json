@@ -1,0 +1,61 @@
+{
+  "test": "MP-I01R",
+  "regression_verdict": "NOT_ASSIGNED — GPT + Owner only",
+  "design_state": "CONCEPT_DESIGN_WITH_INTERFACE_HOLD",
+  "world_writes": 0,
+  "checks": {
+    "voxel_count": 552,
+    "parcel_columns": 151,
+    "outside_mask": 0,
+    "protected_mask_intrusions": 0,
+    "private_yard_area": 18,
+    "yard_roof_intrusions": 0,
+    "proposed_below_observed_ground": 0,
+    "route_sample_count": 524,
+    "route_results": [
+      {
+        "route": "R-FAMILY",
+        "sampled_obstructions": 0,
+        "examples": []
+      },
+      {
+        "route": "R-WORK",
+        "sampled_obstructions": 0,
+        "examples": []
+      },
+      {
+        "route": "R-YARD",
+        "sampled_obstructions": 0,
+        "examples": []
+      },
+      {
+        "route": "R-UP",
+        "sampled_obstructions": 0,
+        "examples": []
+      },
+      {
+        "route": "R-SLEEP",
+        "sampled_obstructions": 0,
+        "examples": []
+      },
+      {
+        "route": "R-HYGIENE",
+        "sampled_obstructions": 0,
+        "examples": []
+      }
+    ]
+  },
+  "limitations": [
+    "No Minecraft client/server/save was opened.",
+    "Public 2-wide swept movement and final threshold elevation require PUBLIC-COORDINATOR closure; mask non-overlap alone does not certify them.",
+    "Custom screen/rail collision boxes are design requirements, not certified vanilla block-state collision.",
+    "Route scan raises the 0.6 x 1.8 body above the highest designed stair/floor intersecting its projection (within one block of nominal route height); this is a head-envelope test, not a step-height or physics test.",
+    "Foundation scan covers this proposal footprint, not deep historical clearance."
+  ],
+  "freeze_holds": [
+    "U-PUBLIC / rainwater outfall and final contact surface",
+    "U-GROUND / foundation influence volume and structural assessment",
+    "door-state and custom-detail collision translation; handrail/light/ventilation detailing"
+  ],
+  "integration_review": "AWAITING_GPT_AND_OWNER"
+}

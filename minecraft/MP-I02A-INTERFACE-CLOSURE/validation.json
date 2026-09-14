@@ -1,0 +1,33 @@
+{
+  "test": "MP-I02A",
+  "check_scope": "artifact integrity and local patch geometry only",
+  "checks": {
+    "embedded_interfaces_match": true,
+    "embedded_services_match": true,
+    "dependency_hashes_match": true,
+    "unaffected_BDP_fields_unchanged": true,
+    "unaffected_interfaces_unchanged": true,
+    "unaffected_services_unchanged": true,
+    "patch_inside_existing_lane_mask": true,
+    "patch_does_not_occupy_parcel": true,
+    "private_contact_inside_apron": true,
+    "five_contact_columns_observed_surface_132": true,
+    "local_patch_minimum_dimensions": true,
+    "contact_face_shares_boundary": true,
+    "upstream_holds_remain_before_freeze": true,
+    "other_issue_status_and_time_preserved": true,
+    "no_false_readiness_or_authorization": true,
+    "downstream_marked_stale": true,
+    "registered_local_sources_unchanged": true
+  },
+  "checks_count": 17,
+  "discrepancies": 0,
+  "regression_verdict": "NOT_ASSIGNED",
+  "world_writes": 0,
+  "not_verified": [
+    "continuous two-sided public tie-ins and turn clearance",
+    "rainwater quantitative capacity, recovery and overflow safety",
+    "Builder fidelity under r2",
+    "actual public appointment / rights / world execution"
+  ]
+}

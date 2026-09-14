@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="680" viewBox="0 0 1060 680">
+<rect width="1060" height="680" fill="#f5f3ed"/>
+<g font-family="Microsoft YaHei, sans-serif" fill="#20363d">
+<text x="40" y="42" font-size="23">MP-I02A · BDP-01 局部表面与未闭合衔接</text>
+<text x="40" y="75" font-size="15">DESIGN_PROPOSAL · world writes = 0 · 回归裁决 NOT_ASSIGNED</text>
+<text x="40" y="118" font-size="17">平面：X 向右，Z 向下（每格 70 px）</text>
+<g transform="translate(80 150)">
+<path d="M0 0H350 M0 70H350 M0 140H350 M0 210H350 M0 280H350 M0 0V280 M70 0V280 M140 0V280 M210 0V280 M280 0V280 M350 0V280" fill="none" stroke="#d0d0c9"/>
+<rect x="140" y="0" width="70" height="70" fill="#d9bd81" stroke="#876931"/>
+<rect x="70" y="70" width="140" height="140" fill="#b7d7d0" stroke="#28695d" stroke-width="2"/>
+<path d="M140 70H210" stroke="#bf573e" stroke-width="6"/>
+<path d="M70 70V210 M210 70V210" stroke="#b87626" stroke-width="4" stroke-dasharray="8 5"/>
+<text x="-35" y="5" font-size="12">1633</text><text x="-35" y="75" font-size="12">1634</text><text x="-35" y="145" font-size="12">1635</text><text x="-35" y="215" font-size="12">1636</text>
+<text x="-8" y="303" font-size="12">755</text><text x="62" y="303" font-size="12">756</text><text x="132" y="303" font-size="12">757</text><text x="202" y="303" font-size="12">758</text><text x="272" y="303" font-size="12">759</text>
+<text x="148" y="38" font-size="12">私侧</text><text x="87" y="129" font-size="14">公侧连接块</text><text x="104" y="158" font-size="14">Y132</text>
+</g>
+<text x="500" y="150" font-size="17">断面：接触面 Z=1634</text>
+<rect x="515" y="185" width="210" height="180" fill="#e4efe9" stroke="#28695d" stroke-dasharray="7 4"/>
+<path d="M515 365H725" stroke="#28695d" stroke-width="5"/>
+<text x="743" y="190" font-size="14">Y135</text><text x="743" y="369" font-size="14">Y132 行走面</text>
+<text x="545" y="263" font-size="17">规划净高 3</text><text x="538" y="394" font-size="14">X756—758：宽 2</text>
+<text x="500" y="435" font-size="14">观测：四列 ground_y=131，surface_y=132。</text>
+<text x="40" y="505" font-size="16" fill="#995f15">虚线两侧为未闭合 tie-in：不能把四列局部净空外推为连续道路。</text>
+<text x="40" y="540" font-size="15">需补：接回原斜向 LANE-04 的连续法向净宽 ≥2、净高 ≥3、转折与标高证明。</text>
+<text x="40" y="575" font-size="15">接触面固定 Y132；公侧不外扩；户内门、阶梯与余高差由 Builder 设计。</text>
+<text x="40" y="610" font-size="15">雨水：无受纳点；本地闭合仅允许条件性研究，当前仍 RESERVE_INTERFACE_ONLY。</text>
+<text x="40" y="645" font-size="14">来源：BDP-01 r1 threshold / LANE-04 + 公共接口地表切片；规划控制不是土地或地役许可。</text>
+</g></svg>

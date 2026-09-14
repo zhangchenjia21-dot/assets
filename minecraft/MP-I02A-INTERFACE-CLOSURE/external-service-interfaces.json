@@ -1,0 +1,90 @@
+{
+  "revision": "r2",
+  "source_plan_revision": "MP-P05R2-r1",
+  "scope": "BDP-01 services only",
+  "services": [
+    {
+      "service_id": "R2-S1-CLEAN_WATER",
+      "service_type": "CLEAN_WATER",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认水源、送达来向、供水节奏/水质与持续能力；现有父包没有已闭合的供水承诺",
+      "local_requirement": "户内保留洁净接收和日需小储备空间；不得因裸岩推断地下水，也不预定打井坐标",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_PERMANENT_OCCUPATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "洁净水"
+    },
+    {
+      "service_id": "R2-S1-WASTE",
+      "service_type": "WASTE",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认转运终端、时间和责任；不得由家庭Builder发明场外终端",
+      "local_requirement": "户内封闭暂存、按批带出；洁净收水和污物搬出不同时间，不宣称东口天然洁污分离",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_OPERATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "污物收集"
+    },
+    {
+      "service_id": "R2-S1-GOODS_FUEL",
+      "service_type": "GOODS_FUEL",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认转运终端、时间和责任；不得由家庭Builder发明场外终端",
+      "local_requirement": "仅手提批次送至门内apron；较重来货在公共首卸卸下，不在LANE-04长期存放",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_OPERATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "小批货物/燃料"
+    },
+    {
+      "service_id": "R2-S1-RAINWATER",
+      "service_type": "RAINWATER",
+      "status": "UNRESOLVED_WITH_BOUNDED_LOCAL_OPTION",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1 (access/boundary reference only; NOT an outfall)",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR：跨 parcel 受纳边界、接口位置/标高及责任协调；户内收集与留存由 BDP-01 Builder 设计、拟议住户运行。",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "没有当前受纳承诺。若采用跨界方案，公共方提供局部受纳对象、位置/标高、设计事件/峰值/容量和下游责任；本户不得把邻户、公路、共同院当作默认受纳地。",
+      "local_requirement": "本户保持收集/调蓄预留；允许研究不跨界的闭合 local strategy，但两只干容器只证明预留，不证明容量、溢流安全或清空能力。",
+      "allowed_local_adjustment": "仅原 R2-P1 cells 内；不得占用独立家庭院、必要生活空间或公共净空，不预设地下渗排、公共管道或无限容器。",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "uncertainty": "受纳方案或经定量核验的闭合本地方案均未具备，保留 U-RAINWATER HOLD；真实土地/地役许可另保持 BEFORE_WORLD_WRITE。",
+      "label": "雨水边界",
+      "service_revision": "r2",
+      "supersedes": {
+        "service_id": "R2-S1-RAINWATER",
+        "revision": "r1",
+        "revision_semantic": "r1 inherited from external-service-interfaces container"
+      },
+      "conditional_local_strategy": {
+        "permission": "允许 Builder 设计比较与提交定量闭合证据；当前不是 FULL_SCOPE_OWNER 或已获批准的闭合系统。",
+        "current_reservation_only": true,
+        "responsibility_after_verified_selection": "FULL_SCOPE_OWNER limited to parcel-local collection/retention; public receiving obligation remains NONE",
+        "selection_requires_new_service_revision": true,
+        "quantitative_minimum": [
+          "明确有来源的设计降雨事件、历时及连续事件/恢复时间假设；不得由地表岩石臆测渗透。",
+          "明确全部屋面/汇水面和外来流入边界，核算有效入流、有效储量、初始占用及余量。",
+          "明确在设计事件与超设计事件/堵塞/满储失效时水的去向，证明不危害公共通行、邻户、基础及生活空间；不能把越界溢流称为闭合。",
+          "明确可持续清空/再利用能力、责任与中断条件；不得借尚未证实的清运服务闭合质量平衡。"
+        ],
+        "planner_boundary": "Planner 固定是否跨界、责任与所需性能证据；不指定 gutter/pipe/cistern/foundation 的尺寸、构件和布局。"
+      },
+      "receiving_location": null,
+      "receiving_elevation": null,
+      "receiving_capacity": null,
+      "retention_responsibility": {
+        "design": "BDP-01 Builder",
+        "operation": "proposed household operator; actual commitment unverified",
+        "cross_parcel_receiving": "NONE_COMMITTED"
+      }
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "test": "MP-I02A",
+  "revision": "r1",
+  "regression_verdict": "NOT_ASSIGNED",
+  "review_status": "AWAITING_GPT_AND_OWNER",
+  "world_writes": 0,
+  "files": [
+    {
+      "file": ".gitattributes",
+      "sha256": "199c5222364207d2273492a029360ed92a17cedfa7738e5c21ab604ccc8f9fb3",
+      "bytes": 93
+    },
+    {
+      "file": "BDP-01.json",
+      "sha256": "d007f4c253140d24f839ccce0e984078a43121bd3f027f54f39ffa12fb5c24c7",
+      "bytes": 123512
+    },
+    {
+      "file": "closure-register.json",
+      "sha256": "80b20e5b065e3f75262153b8f8c75b2d51e8abbf88bcc11026578499a524ac39",
+      "bytes": 7137
+    },
+    {
+      "file": "evidence/公共接口地表切片.json",
+      "sha256": "cb8100cffa44a92768dbebd798dfcf78ee22576cd43e68bcf9a82e88516c07be",
+      "bytes": 10079
+    },
+    {
+      "file": "external-service-interfaces.json",
+      "sha256": "608fbb03b4614b42979381eb7503e0b17ec2cbcf77a3e211893d81038e4ad530",
+      "bytes": 6535
+    },
+    {
+      "file": "inputs/BDP-01-r1.json",
+      "sha256": "5af90939e86176c5a71f21d92508e6ff5186f9bb1c345407576011ac10164935",
+      "bytes": 109620
+    },
+    {
+      "file": "inputs/CIV-001-Architecture-Grammar.md",
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6",
+      "bytes": 16494
+    },
+    {
+      "file": "inputs/CIV-001-Canon.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "bytes": 7128
+    },
+    {
+      "file": "inputs/external-service-interfaces-r1.json",
+      "sha256": "9fddd125343cb0915eeb5da30fb2dc559291b83b7b7f0f7525128e16d26dbe59",
+      "bytes": 4351
+    },
+    {
+      "file": "inputs/handoff-consumption-record.md",
+      "sha256": "3999590a8f07d7d17c0d22db9feb576ac6d7afed46162ac5545caf3ecbda2777",
+      "bytes": 5334
+    },
+    {
+      "file": "inputs/interface-baselines-r1.json",
+      "sha256": "5e6df09ec4ee228c07786189b47d51a8320f0d2e18c6d9737623dfed15b4d28e",
+      "bytes": 78742
+    },
+    {
+      "file": "inputs/MP-I01R-issues.json",
+      "sha256": "47a3116b9b7bc8461be29d3cf32b5574d9fcfd5b4e7af491fd7117aae8425813",
+      "bytes": 5494
+    },
+    {
+      "file": "inputs/planner-builder-contract.md",
+      "sha256": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8",
+      "bytes": 14540
+    },
+    {
+      "file": "inputs/planner-builder-handoff.md",
+      "sha256": "7c54178792e17b930553833d2db452f9a3ba3b28c14028012e3342aca88cbda5",
+      "bytes": 15478
+    },
+    {
+      "file": "inputs/Planner-SKILL.md",
+      "sha256": "71c4e5b26be761cda80afd4ce694bce2f046820560c91f5a1dc6c5fe0f745304",
+      "bytes": 40159
+    },
+    {
+      "file": "inputs/public-coordination-r1.json",
+      "sha256": "37a0dc5730f0bdef2d06e09609aba6cf46560d8ae25855561801754baac4ea98",
+      "bytes": 268
+    },
+    {
+      "file": "inputs/设计核验.json",
+      "sha256": "217294f7b2baf5af67774072c3a8818a993f70dc46b44a86b4bf808daa9eb86d",
+      "bytes": 2011
+    },
+    {
+      "file": "interface-baselines.json",
+      "sha256": "4f9bf536133393afc9b33fedb7e28f08b1141cfe05cdcefb19a233bb8231027f",
+      "bytes": 84756
+    },
+    {
+      "file": "README.md",
+      "sha256": "a2138ff1d6453d3d57119d24417e31852293f3198103eca65643fc8fe6f1b7d0",
+      "bytes": 3994
+    },
+    {
+      "file": "revision-lineage.json",
+      "sha256": "9ee15387dfdd68599844dadfe851c18843647ed59df002587f5da781ca6d275c",
+      "bytes": 1242
+    },
+    {
+      "file": "source-provenance.json",
+      "sha256": "dbeb5f3f6924a52ec381f49bb62657c0509d2b3f0404162fe2597da7f0e51a67",
+      "bytes": 5209
+    },
+    {
+      "file": "validation.json",
+      "sha256": "2e95d827f9f69fbd04618dbca48947e37e46dcd50da2254224713a0719d632e3",
+      "bytes": 1247
+    },
+    {
+      "file": "交付校验.py",
+      "sha256": "d90c256483167a7ad0ddf12a3c2237fd4ee94c848ff8e348482e0302d405c3ab",
+      "bytes": 4626
+    },
+    {
+      "file": "修订差异.md",
+      "sha256": "5fd0a0cb862de8d0c8f83b0b40b538965bc1b575ad5af2ad5cdf688e99ce9e11",
+      "bytes": 3414
+    },
+    {
+      "file": "公共接口局部图.svg",
+      "sha256": "9f962b4be1191b596fe3f5e95551f69935c7f6554cf277d8b236f0140d05e005",
+      "bytes": 2870
+    },
+    {
+      "file": "接口修订.py",
+      "sha256": "dba244f6e356f936406fc452a4dec24668ae58b69e908f225cd71722c929a81a",
+      "bytes": 16220
+    }
+  ]
+}
