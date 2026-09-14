@@ -2,6 +2,11 @@
   "algorithm": "SHA256",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 73,
+      "sha256": "02552f9fa8837337fd2ca581cff892ff9ee1b2db01e2a2141cabd96745de532a"
+    },
+    {
       "path": "Builder-owned-closure.json",
       "bytes": 3269,
       "sha256": "238b34957e8a37a1dbf18a493d590e552504dc81682758f9f14fe93062ad4eed"
