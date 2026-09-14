@@ -1,0 +1,71 @@
+{
+  "schema": "legacy-read-register/1",
+  "primary_commit": "24c9ecab79f7b71e519521c698766768658d2950",
+  "primary_freeze_utc": "2026-09-14T11:53:21.232038+00:00",
+  "first_legacy_read_utc": "2026-09-14T11:54:01.3838645Z",
+  "phase": "POST_PRIMARY_FREEZE",
+  "files": [
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/MD-001P/README.md",
+      "sha256": "cc420c295cc457c810b724c88cb466cf04357e7e64adf94d49eda07c151b5716",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/MD-001P/MASTERPLAN.md",
+      "sha256": "5e82f8976d27432bf3df64893c1614d5e6ac663976ee6397d205bbf78acc93e4",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/MD-001P/REVISION-R1.md",
+      "sha256": "acf0588f2a779cc04d48c9b28f4a5dd6697e089d0d02fc765f9d263d89f00e4f",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/MD-001P/first-build-recommendation.md",
+      "sha256": "5c04adf37fde00af377a2b8ece7cf893be4dbca5c84f11f4733a55a64a1feb76",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/G1/MD-001U1/README.md",
+      "sha256": "a2efeb5d322f948cfd54aacc3d59254dca7c253c8ba482965268c900321a0369",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/G1/MD-001U1/URBAN-ENSEMBLE.md",
+      "sha256": "8583cd14c26b1f0d5280f95bedd442661f0663f7debfe135d2d65f75a965e252",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/research/build-sites/CIV-001/MD-001S1/README.md",
+      "sha256": "350ebada9f70ccb485f87e9fec7d46e3d58544e38eaae48b93b722a6587a749e",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/research/build-sites/CIV-001/MD-001S1/SITE-GATE.md",
+      "sha256": "b64de2b385a33664e393f5a662ae12b23b5b5b0ef837ea4eca67114c47199738",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/README.md",
+      "sha256": "0dea86e9fb085f86f9bdbf392b5f4b6229ffe1fb9842c28c4a97a0bc1ce1eef4",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    },
+    {
+      "path": "minecraft/建筑师/architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/KIT.md",
+      "sha256": "e00c5411f578c025fe9568792f8814d3ec13408fb403b440500a0a8ecca2b308",
+      "scope": "README/Markdown comparison only; no local legacy design model/cache loaded",
+      "authority": "LEGACY_REFERENCE_ONLY; separately reported local observations are historical evidence, not planning mandates"
+    }
+  ],
+  "no_primary_changes": true,
+  "upstream_input_issue": "No material L0 contradiction identified in bounded comparison; local water/access/current-fabric limitations already unresolved in primary"
+}

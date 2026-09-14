@@ -1,0 +1,33 @@
+{
+  "schema": "l0-final-checks/1",
+  "checked_utc": "2026-09-14T11:58:17.583197+00:00",
+  "scope": "Post-Legacy mechanical verification; no semantic independent-review verdict",
+  "primary_commit": "24c9ecab79f7b71e519521c698766768658d2950",
+  "primary_file_count": 36,
+  "primary_worktree_hashes": "UNCHANGED",
+  "primary_committed_blob_sha256": "ALL_MATCH_FREEZE",
+  "repeat_render": {
+    "01-territory-terrain-context.png": true,
+    "02-polity-regional-roles.png": true,
+    "03-major-flows.png": true,
+    "04-settlement-hierarchy-search-logic.png": true,
+    "05-movement-access-skeleton.png": true,
+    "map-metadata.json": true
+  },
+  "raw_after_hashes": {
+    "observed.sqlite": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7",
+    "derived.npz": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff"
+  },
+  "source_territory_unchanged": true,
+  "existing_evidence_canon_legacy_modifications": 0,
+  "git_diff_allowed_scope": "Only new task plan + completion and mechanical current update",
+  "payload_bytes_excluding_this_final_report": 2943479,
+  "delivery_limit_bytes": 15728640,
+  "world_writes": 0,
+  "world_reads": 0,
+  "broad_rescan": 0,
+  "builder_calls": 0,
+  "L1_execution": false,
+  "remote_main_last_fetched": "a91abf728218ca43a694be96c08e71e456ed4910",
+  "push_status": "TO_BE_VERIFIED_BY_FINAL_GIT_DELIVERY; avoid claiming remote success before push"
+}
