@@ -1,0 +1,263 @@
+{
+  "authority": "DERIVED",
+  "method": "revision154 inclusive RLE intersected with unchanged R1 terrain and exposed surface",
+  "source_epoch": "R1 cached snapshot; no freshness claim for current world",
+  "terrain_codes": {
+    "0": "OTHER_OR_UNKNOWN",
+    "1": "FLAT",
+    "2": "GENTLE"
+  },
+  "categories": [
+    {
+      "category": "ALLIANCE_COMMONS",
+      "area": 92124,
+      "bounds": [
+        -349,
+        1685,
+        88,
+        1982
+      ],
+      "height_percentiles": [
+        65.0,
+        69.0,
+        73.0
+      ],
+      "height_max": 75,
+      "terrain_counts": {
+        "0": 18633,
+        "1": 45834,
+        "2": 27657
+      },
+      "surface_top": [
+        [
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          51852
+        ],
+        [
+          {
+            "Name": "minecraft:packed_mud"
+          },
+          13491
+        ],
+        [
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          11507
+        ],
+        [
+          {
+            "Name": "minecraft:moss_block"
+          },
+          9386
+        ],
+        [
+          {
+            "Name": "minecraft:rooted_dirt"
+          },
+          3853
+        ],
+        [
+          {
+            "Name": "minecraft:stone"
+          },
+          1012
+        ]
+      ]
+    },
+    {
+      "category": "WEST_DOMAIN",
+      "area": 575397,
+      "bounds": [
+        -718,
+        1419,
+        280,
+        2518
+      ],
+      "height_percentiles": [
+        63.0,
+        66.0,
+        71.0
+      ],
+      "height_max": 79,
+      "terrain_counts": {
+        "0": 97051,
+        "1": 389225,
+        "2": 89121
+      },
+      "surface_top": [
+        [
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          373896
+        ],
+        [
+          {
+            "Name": "minecraft:sand"
+          },
+          112488
+        ],
+        [
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          23700
+        ],
+        [
+          {
+            "Name": "minecraft:packed_mud"
+          },
+          22418
+        ],
+        [
+          {
+            "Name": "minecraft:moss_block"
+          },
+          15996
+        ],
+        [
+          {
+            "Name": "minecraft:dirt_path"
+          },
+          9960
+        ]
+      ]
+    },
+    {
+      "category": "MIDDLE_DOMAIN",
+      "area": 391002,
+      "bounds": [
+        89,
+        1453,
+        1188,
+        2382
+      ],
+      "height_percentiles": [
+        65.0,
+        122.0,
+        152.0
+      ],
+      "height_max": 183,
+      "terrain_counts": {
+        "0": 311949,
+        "1": 38040,
+        "2": 41013
+      },
+      "surface_top": [
+        [
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          185537
+        ],
+        [
+          {
+            "Name": "minecraft:stone"
+          },
+          73863
+        ],
+        [
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          39557
+        ],
+        [
+          {
+            "Name": "minecraft:gravel"
+          },
+          26155
+        ],
+        [
+          {
+            "Name": "minecraft:granite"
+          },
+          25684
+        ],
+        [
+          {
+            "Name": "minecraft:sand"
+          },
+          12744
+        ]
+      ]
+    },
+    {
+      "category": "EAST_DOMAIN",
+      "area": 1198158,
+      "bounds": [
+        346,
+        1787,
+        2091,
+        3214
+      ],
+      "height_percentiles": [
+        89.0,
+        177.0,
+        251.0
+      ],
+      "height_max": 300,
+      "terrain_counts": {
+        "0": 1118948,
+        "1": 16508,
+        "2": 62702
+      },
+      "surface_top": [
+        [
+          {
+            "Name": "minecraft:grass_block",
+            "Properties": {
+              "snowy": "false"
+            }
+          },
+          586795
+        ],
+        [
+          {
+            "Name": "minecraft:stone"
+          },
+          156622
+        ],
+        [
+          {
+            "Name": "minecraft:granite"
+          },
+          137674
+        ],
+        [
+          {
+            "Name": "minecraft:coarse_dirt"
+          },
+          113546
+        ],
+        [
+          {
+            "Name": "minecraft:terracotta"
+          },
+          68895
+        ],
+        [
+          {
+            "Name": "minecraft:basalt",
+            "Properties": {
+              "axis": "y"
+            }
+          },
+          64535
+        ]
+      ]
+    }
+  ]
+}

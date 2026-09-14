@@ -1,0 +1,132 @@
+{
+  "plan_revision": "CIV-001-L0P-r1",
+  "authority": "PLANNING_ASSUMPTION",
+  "capacities": [
+    {
+      "id": "CAP-C",
+      "role_ref": "H-C",
+      "authority": "PLANNING_ASSUMPTION",
+      "resident_scale": "小型常住服务、周期代表与访问峰值",
+      "class_name": "INSTITUTIONAL_COMPACT_WITH_EVENT_OPEN_SPACE",
+      "built_fabric_area_range_blocks2": [
+        6000,
+        16000
+      ],
+      "confidence": "LOW",
+      "basis": "政治重要性高，但普通司法与生产仍本地；峰值利用共享开放地，不将92,124全地建满",
+      "location_search_envelope": "完整Commons 92,124是搜索与共同土地，建成假说仅是其中一部分",
+      "functional_hinterland": "政治服务全联盟，生活供给可跨域",
+      "maturity": "MATURE_FICTIONAL_CAPACITY_HYPOTHESIS",
+      "unresolved": "供水/事件规模/岸陆通达/共同地使用规则",
+      "area_semantics": "building footprints + internal circulation + small work/civic courts; excludes productive hinterland and major event/landscape open space",
+      "not_additive": "Role may be combined; no node-count quota; CAP-X never added",
+      "adaptation": "普通井/蓄水、局部排水、稳路或台地有界适应待查；不能将不存在地表水直接缩到零",
+      "supply_buffer": "生活持续消耗与季节/批次补入分开，分散库存；外供有限且通达有条件"
+    },
+    {
+      "id": "CAP-W",
+      "role_ref": "H-W",
+      "authority": "PLANNING_ASSUMPTION",
+      "resident_scale": "较多常住生产与市场服务者；区域总人口不估",
+      "class_name": "MARKET_TOWN_OR_LINKED_CENTERS",
+      "built_fabric_area_range_blocks2": [
+        9000,
+        24000
+      ],
+      "confidence": "LOW",
+      "basis": "重复日常服务与收获峰值支撑镇级角色；较宽生产院落且保护域外农牧腹地",
+      "location_search_envelope": "West全部成员作为网络搜索，不是575,397的城镇包络",
+      "functional_hinterland": "生产户、本地市场与内湾交换",
+      "maturity": "MATURE_FICTIONAL_CAPACITY_HYPOTHESIS",
+      "unresolved": "农牧生产布局、地权/水利、集散频率和本地替代中心",
+      "area_semantics": "building footprints + internal circulation + small work/civic courts; excludes productive hinterland and major event/landscape open space",
+      "not_additive": "Role may be combined; no node-count quota; CAP-X never added",
+      "adaptation": "普通井/蓄水、局部排水、稳路或台地有界适应待查；不能将不存在地表水直接缩到零",
+      "supply_buffer": "生活持续消耗与季节/批次补入分开，分散库存；外供有限且通达有条件"
+    },
+    {
+      "id": "CAP-M",
+      "role_ref": "H-M",
+      "authority": "PLANNING_ASSUMPTION",
+      "resident_scale": "中等常住混合居民及高周期周转负荷",
+      "class_name": "COMPACT_TRANSFER_SERVICE_TOWN",
+      "built_fabric_area_range_blocks2": [
+        10000,
+        26000
+      ],
+      "confidence": "LOW",
+      "basis": "多个必要流叠加与常住家庭产生持续紧凑利用；短期等待不能全换成常住住宅",
+      "location_search_envelope": "完整Middle，不能将20.2%平缓地直接等同可建容量",
+      "functional_hinterland": "西部供给、东部生产及Commons访问，域内仍有本地服务",
+      "maturity": "MATURE_FICTIONAL_CAPACITY_HYPOTHESIS",
+      "unresolved": "分合中心方案、实际货量、饮水/通达与居民外部性",
+      "area_semantics": "building footprints + internal circulation + small work/civic courts; excludes productive hinterland and major event/landscape open space",
+      "not_additive": "Role may be combined; no node-count quota; CAP-X never added",
+      "adaptation": "普通井/蓄水、局部排水、稳路或台地有界适应待查；不能将不存在地表水直接缩到零",
+      "supply_buffer": "生活持续消耗与季节/批次补入分开，分散库存；外供有限且通达有条件"
+    },
+    {
+      "id": "CAP-E",
+      "role_ref": "H-E",
+      "authority": "PLANNING_ASSUMPTION",
+      "resident_scale": "小到中型共同体，局部专业节点可紧凑",
+      "class_name": "FRAGMENTED_MOUNTAIN_SERVICE_CLUSTER",
+      "built_fabric_area_range_blocks2": [
+        3000,
+        10000
+      ],
+      "confidence": "LOW",
+      "basis": "近源专业生产与本地生活支撑常住；垂直/分片适应及有限外运约束单点规模",
+      "location_search_envelope": "East全域搜寻，不用单个山体包络当城界",
+      "functional_hinterland": "本地生产与相邻共同体；食物部分外供",
+      "maturity": "MATURE_FICTIONAL_CAPACITY_HYPOTHESIS",
+      "unresolved": "矿点/燃料/水/台地/有效运料方式；不可用均质面积乘人口",
+      "area_semantics": "building footprints + internal circulation + small work/civic courts; excludes productive hinterland and major event/landscape open space",
+      "not_additive": "Role may be combined; no node-count quota; CAP-X never added",
+      "adaptation": "普通井/蓄水、局部排水、稳路或台地有界适应待查；不能将不存在地表水直接缩到零",
+      "supply_buffer": "生活持续消耗与季节/批次补入分开，分散库存；外供有限且通达有条件"
+    },
+    {
+      "id": "CAP-L",
+      "role_ref": "H-L",
+      "authority": "PLANNING_ASSUMPTION",
+      "resident_scale": "小型日常生活与生产服务",
+      "class_name": "HAMLET_VILLAGE_SUPPORT",
+      "built_fabric_area_range_blocks2": [
+        800,
+        4000
+      ],
+      "confidence": "LOW",
+      "basis": "日常生活和小规模生产支撑，能嵌入地方生产地；不复制镇级公建",
+      "location_search_envelope": "各域服务缺口，非统一半径",
+      "functional_hinterland": "近邻家庭和生产地",
+      "maturity": "MATURE_FICTIONAL_CAPACITY_HYPOTHESIS",
+      "unresolved": "常住/季节属性、既有格局、取水与权利",
+      "area_semantics": "building footprints + internal circulation + small work/civic courts; excludes productive hinterland and major event/landscape open space",
+      "not_additive": "Role may be combined; no node-count quota; CAP-X never added",
+      "adaptation": "普通井/蓄水、局部排水、稳路或台地有界适应待查；不能将不存在地表水直接缩到零",
+      "supply_buffer": "生活持续消耗与季节/批次补入分开，分散库存；外供有限且通达有条件"
+    },
+    {
+      "id": "CAP-X",
+      "role_ref": "H-X",
+      "authority": "PLANNING_ASSUMPTION",
+      "resident_scale": "事件性协调，可无独立居民",
+      "class_name": "OVERLAY_NOT_ADDITIVE",
+      "built_fabric_area_range_blocks2": null,
+      "confidence": "LOW",
+      "basis": "战略重要不自动产生额外城镇；优先由其他角色承担",
+      "location_search_envelope": "跨域接近关系，不是地块",
+      "functional_hinterland": "对应流/应急用户",
+      "maturity": "MATURE_FICTIONAL_CAPACITY_HYPOTHESIS",
+      "unresolved": "是否真需要独立常住服务；下层确定",
+      "area_semantics": "building footprints + internal circulation + small work/civic courts; excludes productive hinterland and major event/landscape open space",
+      "not_additive": "Role may be combined; no node-count quota; CAP-X never added",
+      "adaptation": "普通井/蓄水、局部排水、稳路或台地有界适应待查；不能将不存在地表水直接缩到零",
+      "supply_buffer": "生活持续消耗与季节/批次补入分开，分散库存；外供有限且通达有条件"
+    }
+  ],
+  "density_constraint": "Territory-wide Middle > West > East; local exceptions permitted",
+  "density_aggregate": "UNRESOLVED: L1 must sum non-overlapping actual built hypotheses / accepted territory area; no total population or numerical coverage targets invented",
+  "sensitivity": "Ranges are low-confidence working scale brackets, not measured carrying capacity, quotas or approved footprints"
+}

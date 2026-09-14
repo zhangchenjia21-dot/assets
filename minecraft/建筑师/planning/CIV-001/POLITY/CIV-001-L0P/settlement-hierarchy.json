@@ -1,0 +1,129 @@
+{
+  "plan_revision": "CIV-001-L0P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "roles": [
+    {
+      "id": "H-C",
+      "domain": "ALLIANCE_COMMONS",
+      "role": "联盟共同政治/誓约与争端中心",
+      "rank": "ALLIANCE_INSTITUTIONAL",
+      "why": "自治三域仍需共同裁决与对外表达；中立土地抑制一域吞并共同机构",
+      "search": "完整Commons成员；岸侧和陆侧访问均保留研究；不得缩成新行政椭圆",
+      "flows": [
+        "F-AUTH",
+        "F-PEOPLE",
+        "F-FOOD"
+      ],
+      "routes": [
+        "R-WC",
+        "R-CM"
+      ],
+      "capacity": "CAP-C",
+      "catchment": "三域代表与跨域事务；不是承接全部普通司法与全部货运",
+      "freedom": "政治等级最高不等于人口/建成规模最大"
+    },
+    {
+      "id": "H-W",
+      "domain": "WEST_DOMAIN",
+      "role": "地方市场/生产集散与区域服务中心",
+      "rank": "REGIONAL_SERVICE",
+      "why": "收获季集中外运、日常工具和服务需要持续节点；土地生产价值反对连续城市化",
+      "search": "West实际成员内比较产地服务与内湾接近关系，兼顾C形南北两翼的有效可达；不设唯一首城",
+      "flows": [
+        "F-FOOD",
+        "F-METAL",
+        "F-PEOPLE"
+      ],
+      "routes": [
+        "R-WC",
+        "R-WM"
+      ],
+      "capacity": "CAP-W",
+      "catchment": "可协商通行的生产户与次级集散；不按最近距离画圆",
+      "freedom": "一个复合中心或多中心都可比较，地权与生产组织决定"
+    },
+    {
+      "id": "H-M",
+      "domain": "MIDDLE_DOMAIN",
+      "role": "接驳/加工/居民服务的转换中心族",
+      "rank": "REGIONAL_SERVICE_AND_GATEWAY",
+      "why": "Commons通达、跨水货运和山地交换汇合但权利/节奏不同；有限低地竞争促成混合紧凑利用",
+      "search": "Middle完整成员；比较Commons connector、低地岸缘、谷地/坡麓与跨界接近之间的网络；不预定数量与主次",
+      "flows": [
+        "F-FOOD",
+        "F-METAL",
+        "F-PEOPLE",
+        "F-AUTH"
+      ],
+      "routes": [
+        "R-CM",
+        "R-WM",
+        "R-ME"
+      ],
+      "capacity": "CAP-M",
+      "catchment": "三域交换与域内居民双重服务；不是West/East全部活动的垄断漏斗",
+      "freedom": "合并式中心与分工式中心必须比较；具体城址/排序留L1"
+    },
+    {
+      "id": "H-E",
+      "domain": "EAST_DOMAIN",
+      "role": "山地共同体服务/矿业石工专业节点族",
+      "rank": "REGIONAL_FEDERATED_AND_SPECIALIZED",
+      "why": "矿业Canon与强地方自治共同促成近源专业生产；山地阻力与分散社区要求本地服务",
+      "search": "East全域actual members，包含内山和远端；地形、后来发现的资源与地权共同筛选，不沿西界排一串",
+      "flows": [
+        "F-FOOD",
+        "F-METAL",
+        "F-FUEL",
+        "F-DEF"
+      ],
+      "routes": [
+        "R-ME",
+        "R-EE"
+      ],
+      "capacity": "CAP-E",
+      "catchment": "本地生产共同体与相邻山地服务；山地联合席位不必拥有一座行政首都",
+      "freedom": "多节点分级可异质；不预定矿种/矿城或氏族边界"
+    },
+    {
+      "id": "H-L",
+      "domain": "ALL_DOMAINS",
+      "role": "地方村落、小生产点与次级服务",
+      "rank": "LOCAL_SUPPORT",
+      "why": "每日生活/生产不可能全部远行；支持区域中心而非只服侍中心",
+      "search": "各域在有效服务缺口中寻找，不为填满图而等距撒点",
+      "flows": [
+        "F-FOOD",
+        "F-PEOPLE",
+        "F-FUEL"
+      ],
+      "routes": [],
+      "capacity": "CAP-L",
+      "catchment": "局部生产/日常服务，按交通、权利和季节形成",
+      "freedom": "数量、规模、是否常住由L1核实；小岛礁不自动变村"
+    },
+    {
+      "id": "H-X",
+      "domain": "CROSS_DOMAIN",
+      "role": "有条件的战略接近/应急联络角色",
+      "rank": "INTERFACE_OVERLAY",
+      "why": "跨水与山地断点需协调，事件需求不等于永久驻军城",
+      "search": "R-WC/R-WM/R-CM/R-ME的可行接近选项；与其他角色共享或不形成常住点",
+      "flows": [
+        "F-DEF",
+        "F-AUTH"
+      ],
+      "routes": [
+        "R-WC",
+        "R-WM",
+        "R-CM",
+        "R-ME"
+      ],
+      "capacity": "CAP-X",
+      "catchment": "具体跨界用户与应急联络",
+      "freedom": "不得重复累计为独立城镇"
+    }
+  ],
+  "exact_sites": [],
+  "node_count": "UNRESOLVED_AT_L0"
+}

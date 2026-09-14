@@ -1,0 +1,305 @@
+{
+  "repo_base_commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+  "sources": [
+    {
+      "path": "minecraft/建筑师/tasks/CIV-001-L0P/AUTHORITY-MATRIX.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "e0ed65ef9b9263b686ce7cb98d0c0165baaf4245dba454a102be94151395d982",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "26d1524502021f3bea71202fbe82823eb0bcb2c0",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/tasks/CIV-001-L0P/TASK.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "0ca6d15dedf52ca6d55cf81e672963203ff09c04dcd3c269bc8ca4ffcc48555e",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "602d3fa2aba4ff9f38458a720d8b194fdb89b12c",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/README.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "fb7b88295cd826e4d9349eb44263cfe8dfaaa0c65deb004aebfd935eae284626",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "6fdd8641153c4e7ad075031793ebd8bc74057c9e",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/AGENTS.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "7ec3c140cdc0c5c9ec8a2f75ab9b4ddbbb80788170200e0000f041b5df678984",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "aae6314b2f3bb2bc5913d681c7cff757a2fb036a",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/current/README.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "125bacda8ab81453013878e5879cced1e9f44dd7f5f36ead955aa01ca238d4ce",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "3d918c5dafa6ffcbd62fbbbb9652080a7e348a27",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/current/项目状态.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "b0b6f8a7425c996598962183c8cf22387db0d237b9dccba88867eef7da1d1650",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "bf1149a56ba0d0702af05e22b37ac5b4ad00943d",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/world/civilizations/CIV-001/README.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "authority": "APPROVED_CANON",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "8f5998e0409e27b28d9a36584226db08b2e54a4f",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/territory-refinement/TT-002R/refined-draft.json",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "3511d855264b95cbb1cc3d9196c74a5286719edd",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-011_CIV-001人类三域联盟与三席议会方向批准.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "d58f8dab7d5ebe29430b4a9792b5ebb9d625d02fa8f33101ffe849d12de4bc03",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "73f28bf39eceb2d7cf76166666a8a75038148a05",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-013_可见世界约束与隐性设定可创作原则.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "605654b500747cc8e53a62209f710579a6b533ba7378e1deddd25d8d95acdff8",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "73a365210a5400ce8ad66e895c491f795dda4f11",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-014_CIV-001最小文明Canon收敛与AB-001进入.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "87ad6fe84834bbf76b52a6c8fc1f8b56c1bfc4c58166ba959bc0dcc28e6bbd3d",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "947b67db81030a821e53543463a723f3ca3f7b13",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-018_CouncilCenterland联盟公地与中域交割.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "1d39f67e4af31a872731d0bec3986a7b3556a3150265bc2eefc3641362d9c875",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "d6bdfe4ca73fc0a82f026281ece2c3a66b8c4cb8",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-020_AB-001P1R联盟公地精确边界接受.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "fa39f2fa635b1d269db8ca5e34ceec04dce03998b590a1c1acf8a2749f7c0ccc",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "ebd832503e3b56d9c1c15def3bb73a7e1fffef26",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-024_TT-002R中域东域精修边界接受并进入MD-001P.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "a082c3fec790ad111b0d4aa061b06199e8b0e37841bba6fa16f935c61a1f8771",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "0a65d3619f036c57416d0aacf09050fb096de7c6",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-025_三域聚落密度与土地利用梯度.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "9bbf526523f1b0d1e91308cc264ea4ba8c98e92f098a828d33eb7dfa026a25d8",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "8b8db3f3d0ec5ff56120c2b52ac853ced404e4d8",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-030_启用MinecraftPlanner并从CIV-001联盟L0重新编译.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "50555443d7083e8410dd1dd8214363e93505f08af3abc965428bf2f19c91c88f",
+      "authority": "OWNER_CONSTRAINT",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "936d82eddd94adebafcb39ea1d777889224113f0",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/README.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "586b143741a495466a594c5ab2ba8d2c729754885aee5abd1c4a635d290d001c",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "291ac549f6c1984581baee0b607e5caee5bee85f",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-003R/README.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "f184e0f0343c43982f7493edec6aa52b06295092bbd75e7dca2a695423e01dc5",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "7ba04c4590ef4805ef9014b2c039a9521e57e89e",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-002R-R1/reports/南部岛屿群完整区域画像.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "82b1c8a4d5bde47cd65f9556fd0706746333722a1c7f58dd82f1149a205926e3",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "1af14590e4ffa6f4adfcaf8e6788523bbc1fc13e",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-003R/reports/经济与通达性前置画像.md",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "382d237eb1c0f52fd8a319c8928fb0f98f7fe379b3f97c5177e8dcefb16e7ef0",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "b0f85be9e0ba65d21ce5d277355b72df2d6de429",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-003R/manifest/raw-cache.json",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "de90c1935e5a8bd877036e254b72ffbee41f00ccbb1307ed9f6a3d0f2aa55e7b",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "a14560bee53b4dc93fcb888847bbf1cfed061fa1",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-003R/profile/crossing-profile.json",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "2da9fb77637fc43c3e012cc549e17db37c33b6a5f8f119f764d96a12555250b7",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "92f5069e704b689a2cbea72c3190b01ea72a5376",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/WB-003R/profile/movement-corridors.json",
+      "commit": "a91abf728218ca43a694be96c08e71e456ed4910",
+      "sha256": "4f7e1168bc14eb3a1104a96211cea22dd7dfc8ac4e4016caa332aa6a2e211b08",
+      "authority": "EVIDENCE_OR_PROTOCOL",
+      "read_phase": "PRIMARY",
+      "git_blob_oid": "5aa401f38621742aa459d1e5848ee1cebb1f0efc",
+      "sha256_semantic": "worktree bytes at primary intake; git_blob_oid independently pins repository bytes"
+    }
+  ],
+  "skill_version": "minecraft-planner v0.5",
+  "skill_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+  "skill_files": [
+    {
+      "name": "causal-growth-model.md",
+      "sha256": "b5dba0e34f1bd864652036ed87679d80f43ea9cf1c3ddd8f153486130383d7b6",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "flows-externalities-and-demand.md",
+      "sha256": "476e717be54d49e88cc9ed99aede9210c1ae618ab853c06bf2da563b194e66bf",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "human-geography-kernels.md",
+      "sha256": "d47e56bfdada958a4b6ad8fc421f4967bccdbe2b87489c0d5ca86511f639bc3c",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "minecraft-planner-builder-contract.md",
+      "sha256": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "planning-artifacts-and-maps.md",
+      "sha256": "425a08716ab24aee8fe1fa7a5f8715ec80b98c29662efe4c80a59b6b2c3ec4aa",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "recursive-planning-handoff.md",
+      "sha256": "91e662a77407e5f9fe99d5036b5ef648b79e4ab171c474f6b2837391e3b75053",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "REGRESSION-BASELINE.md",
+      "sha256": "9b88e4276d87182c6128cb9413352edca6f513fb15974e71d7c49ff0f7bea310",
+      "source_commit": null,
+      "source_url": "https://raw.githubusercontent.com/zhangchenjia21-dot/Vibe-Coding/main/skill/codex/REGRESSION-BASELINE.md",
+      "note": "Regression record retrieved from main because absent at pinned source; it confirms the pinned skill commit."
+    },
+    {
+      "name": "regression-rubric.md",
+      "sha256": "ac164f5f23aec02caf542db2b7f0a2df951ac6f96eae57f1a352c7241db9aa8c",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "settlement-capacity-and-scale.md",
+      "sha256": "774318ff5dab75042122eb117bfb095801eda132e58dd2ed6d319bef2aac6106",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "SKILL.md",
+      "sha256": "71c4e5b26be761cda80afd4ce694bce2f046820560c91f5a1dc6c5fe0f745304",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    },
+    {
+      "name": "surface-substrate-landcover.md",
+      "sha256": "bdde70dd0d1cca8d61b3c8a48d535b2f21629cbd2b494ce1f72d16d735832fab",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "source_url": "pinned skill/codex tree",
+      "note": "Pinned immutable implementation reference"
+    }
+  ],
+  "raw_cache": [
+    {
+      "name": "observed.sqlite",
+      "sha256": "01d115d6c686cc6d59772cfc68e1cbd50a5816045eeaa7f48fa8a4a8d4a791b7"
+    },
+    {
+      "name": "derived.npz",
+      "sha256": "575861ecd5b791ffd0e0c32614c5dc63de7563de477ee963994103f44024beff"
+    }
+  ],
+  "world_reads": 0,
+  "world_writes": 0
+}

@@ -1,0 +1,132 @@
+{
+  "schema": "minecraft-planner-recursive/1",
+  "package_id": "CIV-001-L0P-L1-EAST",
+  "package_revision": "r1",
+  "parent_plan_revision": "CIV-001-L0P-r1",
+  "parent_plan_ref": "../L0-POLITY-PLAN.json",
+  "parent_scale": "POLITY_TERRITORY",
+  "child_scale": "REGIONAL_SYSTEM",
+  "recipient": "minecraft-planner v0.5",
+  "status": "HANDOFF_READY / AWAITING_PARENT_REVIEW",
+  "WHY": "近源专业生产与地方共同体日常生活共同形成全域分散的山地服务网络",
+  "scope": {
+    "territory_ref": "research/human-geography/southern-island/territory-refinement/TT-002R/refined-draft.json",
+    "territory_sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919",
+    "revision": 154,
+    "category": "EAST_DOMAIN",
+    "search_logic": "全部1,198,158正式成员，主动覆盖内山/远端/各方向的服务可能；不得只围西边易达带安排节点，也不为填图强制每个山头住人",
+    "geometry_semantics": "EXACT_ACCEPTED_POLITICAL_MEMBERS; search logic is not settlement mask"
+  },
+  "upstream_anchors": [
+    "H-E",
+    "H-C"
+  ],
+  "upstream_flows": [
+    "F-FOOD",
+    "F-METAL",
+    "F-FUEL",
+    "F-PEOPLE",
+    "F-AUTH",
+    "F-DEF"
+  ],
+  "upstream_movement_relations": [
+    "R-ME",
+    "R-EE"
+  ],
+  "UPSTREAM_FIXED": [
+    {
+      "authority": "OWNER_CONSTRAINT",
+      "rule": "revision154与Commons边界不变；world_write_authorization=false"
+    },
+    {
+      "authority": "APPROVED_CANON",
+      "rule": "三席联盟与地方自治、区域broad role、共同政治地非第四域"
+    },
+    {
+      "authority": "OWNER_CONSTRAINT",
+      "rule": "D-025 territory-wide Middle > West > East；West生产开敞；East全域分散与最强局部地形适应"
+    }
+  ],
+  "parent_proposed_relations": {
+    "authority": "DESIGN_PROPOSAL",
+    "activation": "Only bind after GPT + Owner accept this parent; not accepted fixed now",
+    "relations": [
+      "R-ME",
+      "R-EE"
+    ],
+    "requirements": [
+      "政治访问与货运需求均需保留，不得用商业最短路取代共同性",
+      "关键断运后果应有有界缓冲/备选，不得将共用段伪装独立冗余"
+    ]
+  },
+  "DOWNSTREAM_TO_RESOLVE": [
+    "已知/后发现矿点与地方权利怎样生成分散网络，而非倒用Planner全图知识？",
+    "山地日常食物/饮水/燃料与近源处理能支持什么量级？",
+    "R-ME候选共享段如何核实，哪些内部关系有真正不同的故障暴露？",
+    "怎样保持广域分散与最低平均密度，并允许局部紧凑工程？",
+    "局部定址前刷新必要当前人工物/水/表层/危险与通行证据，不broad rescan",
+    "独立选择角色/容量，不承袭旧下游节点"
+  ],
+  "DOWNSTREAM_ADAPTABLE": [
+    "专业与地方服务节点的数量、等级和位置",
+    "不同山地接近方向与分段模式",
+    "近源处理与外运比例假说",
+    "地方供给、库存与联络组合"
+  ],
+  "capacity_hypothesis": {
+    "ref": "../capacity-scale.json",
+    "ids": [
+      "CAP-E",
+      "CAP-L",
+      "CAP-X"
+    ],
+    "location_search_envelope": "全部1,198,158正式成员，主动覆盖内山/远端/各方向的服务可能；不得只围西边易达带安排节点，也不为填图强制每个山头住人",
+    "built_fabric": "LOW confidence per-role ranges; combined roles not summed twice",
+    "functional_hinterland": "Effective access + users/rights/season; no nearest-circle partition"
+  },
+  "evidence_refs": [
+    "../evidence/source-register.json",
+    "../evidence/territory-terrain-summary.json"
+  ],
+  "actor_rights_assumptions": {
+    "actor_refs": "A-E/A-U/A-M/A-C",
+    "canon": "地方治理/土地/生产组织自治；根本权利三域同意",
+    "unresolved": "具体地役、水权、岸权、分担、地方组织边界，不可从地形推定许可"
+  },
+  "epistemic_state": "Current fabric unverified; full map is PLANNER_ONLY_EVIDENCE; resource discovery sequence and locally known access to be resolved",
+  "mitigation_assumptions": "短段挡护、折返、小台地/桥和分散取水；局部可HIGH但拒绝SYSTEMIC削山",
+  "effective_access_conditions": "Read parent movement relations: physical / tenure / permission / security / season / mode remain distinct and conditional",
+  "stock_buffer_dependency": "消费侧储备与生产批次/燃料缓冲；不得假设无限西域供给",
+  "resilience_dependency": "Use parent RESILIENCE-DEPENDENCIES; compare common failure exposure before calling any alternative independent",
+  "cross_package_dependencies": [
+    "L1-MIDDLE:R-ME双向货物/生活品接口",
+    "L1-WEST:生活品供给与非垄断普通材料交换",
+    "COMMONS:东席政治访问，经Middle及湾内备选关系"
+  ],
+  "known_uncertainty": [
+    "没有当前已建道路/聚落证据保证",
+    "流量/人口/产能未测；工作容量非配额",
+    "历史阶段/成本分摊方案待审核"
+  ],
+  "revision_triggers": [
+    "普通时代、有界局部适应及等价选址仍无法支持某父级关系",
+    "通行/水/资源/容量证据使角色量级无法成立，或两个固定关系不可兼容",
+    "地形/人工物的新鲜证据与可见世界兼容性冲突",
+    "Canon/Owner边界方向改变；不能因方便私改"
+  ],
+  "upstream_issue_protocol": [
+    "指明最小父对象与新证据",
+    "列原始约束、权利障碍、已比较的有界适应与失败理由",
+    "保留无关对象，提出最小因果链修订",
+    "父版更新并标识受影响后代stale，重新过相关gate"
+  ],
+  "expected_L1_outputs": [
+    "区域网络与搜索比较，保留真实未决问题",
+    "有效通达/权利/供给/有界适应证据与不确定性",
+    "量级收敛与D-025非重叠密度检查",
+    "跨包接口关系和resilience协调记录",
+    "向L2递归的Planning Packages，仍非Builder设计"
+  ],
+  "world_write_authorization": false,
+  "execution_authorization": "NOT_STARTED; stop for GPT + Owner review"
+}

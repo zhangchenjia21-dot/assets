@@ -1,0 +1,195 @@
+{
+  "schema": "primary-freeze/1",
+  "plan_revision": "CIV-001-L0P-r1",
+  "frozen_at_utc": "2026-09-14T11:53:21.232038+00:00",
+  "repo_execution_base": "a91abf728218ca43a694be96c08e71e456ed4910",
+  "planning_state": "HANDOFF_READY",
+  "primary_artifacts": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "ACTORS-RIGHTS.md",
+      "bytes": 3721,
+      "sha256": "20fddb5bf9f34f910de33447d5d533908f07555e5102d4befcda5ceb6802e43c"
+    },
+    {
+      "path": "AUTHORITY-TRACE.md",
+      "bytes": 3583,
+      "sha256": "d708ed049271407cfc26f3010d044c456a63a6bff66ab5c287180aa75c3b877f"
+    },
+    {
+      "path": "capacity-scale.json",
+      "bytes": 8079,
+      "sha256": "cddff071e3813857100294469ecb3906acafa9e737c1c643fce9a18f46364b52"
+    },
+    {
+      "path": "CAPACITY-SCALE.md",
+      "bytes": 3179,
+      "sha256": "439c6c0643cfb8434ebb9acd1b0cdeb91eae045ef62c130056ff6c715851d46b"
+    },
+    {
+      "path": "evidence/source-register.json",
+      "bytes": 15573,
+      "sha256": "362b41773bc5d42500dc86d1cee10a072e286e4011279886133d9a21de499b4e"
+    },
+    {
+      "path": "evidence/territory-terrain-summary.json",
+      "bytes": 4696,
+      "sha256": "442e1a2af359d842a638af4b3a444c215d074228b72b31659d570376f7c227a8"
+    },
+    {
+      "path": "flows-system.json",
+      "bytes": 7221,
+      "sha256": "2880363105ecb2403ce7973398a18e8a480159285a1aa6706743e6b077ec4bbd"
+    },
+    {
+      "path": "FLOWS-SYSTEM.md",
+      "bytes": 3776,
+      "sha256": "8613f975715e3d6f0152304c3accee79708f7428296729018f569ff509ac4537"
+    },
+    {
+      "path": "GROWTH-PATH-DEPENDENCE.md",
+      "bytes": 3646,
+      "sha256": "6341ea6db4f90ce42237e7fc568236cc6d7f14c2751a3b4262daf4406d236ee8"
+    },
+    {
+      "path": "handoff/COMMONS-HANDOFF-DECISION.md",
+      "bytes": 1664,
+      "sha256": "2ee2218265f7a99551c97b762f330ca2b30bcdd27c66a85d7fcec5d8bbffb681"
+    },
+    {
+      "path": "handoff/L1-EAST.json",
+      "bytes": 6010,
+      "sha256": "71bb38584c1cb7a73d51bf46fa9082680c98a9baf033d3fac7d4f1fd8809065b"
+    },
+    {
+      "path": "handoff/L1-EAST.md",
+      "bytes": 3380,
+      "sha256": "aafab36095b30924c2d59f00a4e31856000a9892afaa6b598bbdf2dadc588b6f"
+    },
+    {
+      "path": "handoff/L1-MIDDLE.json",
+      "bytes": 6053,
+      "sha256": "d26016f692fe3385d370aec05b349d5ed2f40a14d06e9671343aece58bdedd27"
+    },
+    {
+      "path": "handoff/L1-MIDDLE.md",
+      "bytes": 3409,
+      "sha256": "2289030cd60028e693b9f927e67f7ad83e30ced48146546f083383227070b32f"
+    },
+    {
+      "path": "handoff/L1-WEST.json",
+      "bytes": 5817,
+      "sha256": "73891439ebb61cea6e66f1c6aa3f076ec3fbf5042afa8c90f2350945f8705e48"
+    },
+    {
+      "path": "handoff/L1-WEST.md",
+      "bytes": 3225,
+      "sha256": "551aacade7ddeae911a750a6096f6378b2a1e0c0d2d7a6ab00602bb286b63cca"
+    },
+    {
+      "path": "L0-POLITY-PLAN.json",
+      "bytes": 6112,
+      "sha256": "79207df93b41e998ff19a68b4a2dd95bc37229941409b72f6a4cc03bbfa0337d"
+    },
+    {
+      "path": "L0-POLITY-PLAN.md",
+      "bytes": 4275,
+      "sha256": "8f38c087afcc7149903037524c731012cab6d1e7dfd1f9f689f8497c3a63ad3f"
+    },
+    {
+      "path": "movement-access-skeleton.json",
+      "bytes": 5874,
+      "sha256": "8937e95ae531b1a9de7af57a8114b3de44608f6745065bf6d9edd8638f750148"
+    },
+    {
+      "path": "MOVEMENT-ACCESS-SKELETON.md",
+      "bytes": 4439,
+      "sha256": "fee9b8da06de41381bdb7417af418d6e045bbf067ae80f7fe366d07590a536c5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1670,
+      "sha256": "98592235e99d83cc105cd73ed317dc12826e9589a75d786fbaba7a2fe080f8bf"
+    },
+    {
+      "path": "RESILIENCE-DEPENDENCIES.md",
+      "bytes": 1727,
+      "sha256": "45ff0e2aacdb35ed41d0d1fe57a7cc2dfe32d0092d3e7515e639ccbb09f2c561"
+    },
+    {
+      "path": "settlement-hierarchy.json",
+      "bytes": 4609,
+      "sha256": "fe05797475a6812c61bcb59dac806fd49227a1cfcebbdd1a285ef9e6a504a40f"
+    },
+    {
+      "path": "SETTLEMENT-HIERARCHY.md",
+      "bytes": 3138,
+      "sha256": "d9dd98bb901e282e87c5ce34b41866b8dd461878c0fcfc9c19a82010f5a69eb3"
+    },
+    {
+      "path": "tooling/README.md",
+      "bytes": 1595,
+      "sha256": "6ec5774934bb7b41835321403259f54b79194f5d0efc6c5770ee4dc9885a8294"
+    },
+    {
+      "path": "tooling/封存核验.py",
+      "bytes": 4724,
+      "sha256": "2cdce82920c670a6290735b6d0dc5a0907b85b0f75914b7f50ed8237e917a469"
+    },
+    {
+      "path": "tooling/规划图复现.py",
+      "bytes": 14112,
+      "sha256": "5151d819e4036bfafefb6631650c922ee7e231d23af615376b46c54bfd2eec9b"
+    },
+    {
+      "path": "validation/PLANNER-CRITIC.md",
+      "bytes": 4307,
+      "sha256": "ad24fa75c635b71cfe1535a0e3fda95ba97de34701508778ae568e756b7d1e5f"
+    },
+    {
+      "path": "validation/PRIMARY-CHECKS.json",
+      "bytes": 1903,
+      "sha256": "55445e8617088af543e7b29a97a84b63e0818856b00aab4b5d516cf922751257"
+    },
+    {
+      "path": "visual/01-territory-terrain-context.png",
+      "bytes": 537804,
+      "sha256": "368c06b42f29332a5c7194d6d9ca35a865dd22e73dcc8a089d93cefb527c3e29"
+    },
+    {
+      "path": "visual/02-polity-regional-roles.png",
+      "bytes": 532132,
+      "sha256": "01a9de86fb742af38c9f7bfcb5da738cd99eb3a78f39a836ea491a4616b8e4e1"
+    },
+    {
+      "path": "visual/03-major-flows.png",
+      "bytes": 535607,
+      "sha256": "c997390c0ada2ae53f9890fac8a622e8bb7496a11bb42b770b3c49196a06e182"
+    },
+    {
+      "path": "visual/04-settlement-hierarchy-search-logic.png",
+      "bytes": 625178,
+      "sha256": "0b666f98da04899aaf511a9f3c2003bbcb238ac092c368c927d65ef760f07eb6"
+    },
+    {
+      "path": "visual/05-movement-access-skeleton.png",
+      "bytes": 552882,
+      "sha256": "8ea205899204784986989ab77eef89f7f08554f0905d5d6933ee7670c7b6bb4e"
+    },
+    {
+      "path": "visual/map-metadata.json",
+      "bytes": 2057,
+      "sha256": "e4efcaf5a158067405b1421f452865bba75b63d85114c81c315fa26d99f59977"
+    }
+  ],
+  "legacy_middle_planning_not_read_before_freeze": true,
+  "statement_scope": "Current-run tool retrieval: no Authority C-class file opened or used as premise before freeze. Mandatory A-class records contain legacy status and links; these were not followed.",
+  "prior_context_limitation": "Conversation history contains earlier tasks and summary; not a claim of fully blinded model memory.",
+  "world_writes": 0,
+  "world_write_authorization": false,
+  "review_status": "AWAITING_GPT_OWNER_REVIEW"
+}

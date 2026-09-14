@@ -1,0 +1,58 @@
+{
+  "schema": "l0-map-transform/1",
+  "world_bounds_inclusive": [
+    -800,
+    1376,
+    2463,
+    3487
+  ],
+  "world_cell_boundary_extent": [
+    -800,
+    1376,
+    2464,
+    3488
+  ],
+  "image_size": [
+    2400,
+    1320
+  ],
+  "map_origin_px": [
+    60,
+    140
+  ],
+  "pixels_per_block": 0.5,
+  "north": "negative Z / top",
+  "accepted_geometry": "revision154 exact members before downsample; no new political polygons",
+  "display_only_labels": "Role label rectangles and arrow endpoints are page-layout annotations, NOT settlement sites or route geometry",
+  "source_refs": [
+    "evidence/source-register.json",
+    "evidence/territory-terrain-summary.json"
+  ],
+  "maps": [
+    {
+      "file": "visual/01-territory-terrain-context.png",
+      "title": "领土与地形｜接受边界上的真实差异",
+      "semantic": "same-scale explanatory map; exact members from accepted RLE; annotations are proposals or labeled research witnesses"
+    },
+    {
+      "file": "visual/02-polity-regional-roles.png",
+      "title": "联盟空间角色｜共同政治地与地方网络",
+      "semantic": "same-scale explanatory map; exact members from accepted RLE; annotations are proposals or labeled research witnesses"
+    },
+    {
+      "file": "visual/03-major-flows.png",
+      "title": "主要流与缓冲｜需求关系，不是路线图",
+      "semantic": "same-scale explanatory map; exact members from accepted RLE; annotations are proposals or labeled research witnesses"
+    },
+    {
+      "file": "visual/04-settlement-hierarchy-search-logic.png",
+      "title": "聚落层级与搜索｜角色确定，城址未定",
+      "semantic": "same-scale explanatory map; exact members from accepted RLE; annotations are proposals or labeled research witnesses"
+    },
+    {
+      "file": "visual/05-movement-access-skeleton.png",
+      "title": "通达搜索骨架｜几何见证与许可分开",
+      "semantic": "same-scale explanatory map; exact members from accepted RLE; annotations are proposals or labeled research witnesses"
+    }
+  ]
+}

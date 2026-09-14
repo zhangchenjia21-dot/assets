@@ -1,0 +1,47 @@
+{
+  "schema": "primary-checks/1",
+  "execution_base": "a91abf728218ca43a694be96c08e71e456ed4910",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "font_sha256": "d79c55e68b1131eea0cc1c47be4f572d964f28c682e143db2ad09c1e4cb07a3f"
+  },
+  "mechanical_checks": {
+    "raw_sha256": "MATCH: observed.sqlite and derived.npz",
+    "territory": "EXACT: all 2256681 R1 dry columns covered once; revision154 [92124,575397,391002,1198158,0,0]",
+    "per_domain_terrain_surface": "REPRODUCED from readonly cached SQLite + NPZ",
+    "crossing_endpoint_categories": {
+      "X-00": [
+        "WEST_DOMAIN",
+        "ALLIANCE_COMMONS"
+      ],
+      "X-01": [
+        "WEST_DOMAIN",
+        "ALLIANCE_COMMONS"
+      ],
+      "X-02": "REJECTED_CLEAR_STRAIGHT_CROSSING",
+      "X-03": [
+        "WEST_DOMAIN",
+        "MIDDLE_DOMAIN"
+      ]
+    },
+    "commons_middle_interface": "48 unit edges confirmed",
+    "map_size": "2400x1320, scale .5 pixel/block, all identical transform",
+    "render_repeat_comparison": {
+      "01-territory-terrain-context.png": true,
+      "02-polity-regional-roles.png": true,
+      "03-major-flows.png": true,
+      "04-settlement-hierarchy-search-logic.png": true,
+      "05-movement-access-skeleton.png": false
+    },
+    "visual_review": "All five inspected; map05 path-label overlap corrected before freeze; no exact settlement markers",
+    "world_io": "No world file opened; cached inputs only; world writes=0"
+  },
+  "limits": [
+    "No semantic independent-review verdict",
+    "No current-world freshness claim",
+    "No demonstrated live navigation, hydrology, resource yield or actual density"
+  ],
+  "recovered_execution_note": "Initial critic write encountered missing validation directory; directory and document created before checks/freeze; no source or world affected"
+}
