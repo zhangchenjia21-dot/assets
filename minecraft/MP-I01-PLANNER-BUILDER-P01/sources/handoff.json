@@ -1,0 +1,297 @@
+[
+  {
+    "id": "BDP-00",
+    "recipient": "minecraft-builder",
+    "scale": "URBAN_ENSEMBLE",
+    "scope": "两户门前接口联审，非公共院建设包",
+    "why": "共享前沿若分开定高程会将通路剩余空间吞掉",
+    "spatial_envelope_refs": [
+      "TH-01",
+      "TH-02",
+      "TH-03",
+      "TH-04",
+      "LANE-04",
+      "LANE-02接点"
+    ],
+    "planner_fixed": [
+      "父包LANE-04名义2格步行、LANE-02名义3格轻载关系保留；真实净宽由设计验证",
+      "门前停留进入各自用地，公共通行连续",
+      "污物清运与洁净补给错时且封闭搬运；不是已验证卫生能力"
+    ],
+    "builder_adaptable": [
+      "exact footprint within envelope",
+      "room arrangement / exact Plan and Section",
+      "floor count and floor heights",
+      "roof / facade / openings",
+      "structural and tectonic system",
+      "foundation / drainage / local threshold geometry",
+      "block palette and Minecraft translation",
+      "门位等价移位、关系分配mask重划，保留接口语义"
+    ],
+    "dependencies": [
+      "MP-P04 PACKAGE-03协调",
+      "C-RIGHTS",
+      "C-SUPPLY"
+    ],
+    "program_requirements": [
+      "共同门前连续通行和各户受控入口",
+      "对公共接口提出最小门位/高程协商"
+    ],
+    "historical_growth_stage": "不对应新历史建筑",
+    "implementation_note": "先协调后冻结两户设计；仅输出接口设计要求，不授权改公共包",
+    "known_uncertainty": [
+      {
+        "id": "C-RIGHTS",
+        "state": "UNRESOLVED",
+        "resolve_before": "world write / permanent occupation",
+        "owner": "地方权利主体与公共接口协调者（角色提案，非已任命机构）",
+        "requirement": "核实两户用益、LANE-04连续地役及东口权利；没有许可不能以规划取代"
+      },
+      {
+        "id": "C-SUPPLY",
+        "state": "UNRESOLVED",
+        "resolve_before": "permanent residence / guest operation",
+        "owner": "父聚落供给接口",
+        "requirement": "确认水粮来源、搬运频次、洁净到货与污物终端；本包只容纳户内缓冲，不证明上游水源"
+      },
+      {
+        "id": "C-GROUND",
+        "state": "PARTIAL",
+        "resolve_before": "Builder foundation design freeze",
+        "owner": "Builder",
+        "requirement": "按真实拟用体积复核基底、地下既有物与保护，当前仅地表下24格抽取"
+      },
+      {
+        "id": "C-ACCESS",
+        "state": "UNVERIFIED",
+        "resolve_before": "Builder design acceptance",
+        "owner": "公共接口设计者+两户Builder",
+        "requirement": "协同门前净宽、步级、转弯、落脚面与东口；检验真实使用而非端点连通"
+      },
+      {
+        "id": "C-CAPACITY",
+        "state": "DESIGN_TEST_REQUIRED",
+        "resolve_before": "Builder design acceptance",
+        "owner": "Builder",
+        "requirement": "两户各自生活与院落独立成立；P02先检验附带1–2人约定短宿，拥挤时先缩服务频次而非挤生活或公共路；固定program仍无解则回报父层"
+      }
+    ],
+    "world_write_authorization": false
+  },
+  {
+    "id": "BDP-01",
+    "recipient": "minecraft-builder",
+    "scale": "URBAN_ENSEMBLE",
+    "scope": "PARCEL-01",
+    "why": "西来货物最先需要小修理；较低肩部保留门前停留，生活小院嵌在后侧，较宽占地承担工作与工具暂存。",
+    "upstream_anchors_flows": [
+      "SPACE-01西首卸 / LANE-04步行",
+      "LANE-02东轻载"
+    ],
+    "spatial_envelope": [
+      [
+        750,
+        1627
+      ],
+      [
+        765,
+        1623
+      ],
+      [
+        768,
+        1624
+      ],
+      [
+        768,
+        1631
+      ],
+      [
+        760,
+        1633
+      ],
+      [
+        751,
+        1636
+      ]
+    ],
+    "envelope_semantic": "parcel not exact building footprint",
+    "required_adjacency": [
+      {
+        "from": "TH-01",
+        "to": "Z1-FLEX_BUILDING_SEARCH",
+        "mode": "customer/work",
+        "rule": "接单近门前；家庭私域不充作穿行道"
+      },
+      {
+        "from": "TH-02",
+        "to": "Z1-PRIVATE_YARD",
+        "mode": "household / clean supplies",
+        "rule": "户内受控通达，可由建筑内部边缘通过；不强制额外后巷"
+      },
+      {
+        "from": "Z1-PRIVATE_YARD",
+        "to": "Z2-PRIVATE_YARD",
+        "mode": "NONE",
+        "rule": "两户不依赖彼此家庭院落作为公共捷径；没有未经批准的共用后巷"
+      }
+    ],
+    "required_access": [
+      {
+        "id": "TH-01",
+        "parcel_ref": "PARCEL-01",
+        "search_line": [
+          [
+            755,
+            1634.9
+          ],
+          [
+            759,
+            1633.5
+          ]
+        ],
+        "role": "修理交接/顾客到达；暂停在户内门前，不占LANE-04",
+        "route_ref": "LANE-04",
+        "authority": "DESIGN_PROPOSAL",
+        "geometry_semantic": "ENTRY_SEARCH_SEGMENT_NOT_DOOR",
+        "height_rule": "顺应所在门前地段，Builder选择精确门槛与步级；不得借台阶或门扇侵占通行",
+        "observed_nearest_ground_y": [
+          131,
+          131
+        ],
+        "access_status": "RIGHTS_AND_MOVEMENT_UNVERIFIED"
+      },
+      {
+        "id": "TH-02",
+        "parcel_ref": "PARCEL-01",
+        "search_line": [
+          [
+            762,
+            1632.5
+          ],
+          [
+            766,
+            1631.5
+          ]
+        ],
+        "role": "家庭与日需进入；与脏修理分流或错时",
+        "route_ref": "LANE-04",
+        "authority": "DESIGN_PROPOSAL",
+        "geometry_semantic": "ENTRY_SEARCH_SEGMENT_NOT_DOOR",
+        "height_rule": "顺应所在门前地段，Builder选择精确门槛与步级；不得借台阶或门扇侵占通行",
+        "observed_nearest_ground_y": [
+          132,
+          132
+        ],
+        "access_status": "RIGHTS_AND_MOVEMENT_UNVERIFIED"
+      }
+    ],
+    "shared_space_service_relation": "公共部分仍属MP-P04 PACKAGE-03；两户共担门前通行协调，不增加共用后院",
+    "program_requirements": [
+      "单户完整居住、做饭、休息、日需和污物暂存",
+      "门前接单、小件修理、工具短储与值守",
+      "家庭内院；不强制冶炼炉或大宗矿石堆场"
+    ],
+    "capacity": {
+      "households": 1,
+      "area_columns": 151,
+      "built_footprint_test_range": [
+        55,
+        85
+      ],
+      "range_authority": "PLANNING_ASSUMPTION / nonbinding design budget, not demonstrated floor area",
+      "priority": "公共通行、单户生活、院落先成立，再证明附带服务；不以提高户数消化投资"
+    },
+    "historical_growth_stage": "H2下肩日常修理稳定后形成两户经营；非实存年代",
+    "architecture_kit_requirements": {
+      "state": "HYPOTHESIS",
+      "canon_family": "东域前现代石木/贴山适应能力；具体系统由Builder",
+      "capabilities": [
+        "混合工作生活边界",
+        "分段门前与受控私院",
+        "洁净补给和脏服务的分离或错时",
+        "裸岩基底适应与节制地形施工"
+      ],
+      "variation": "P01较深修理户 / P02较浅复核户，不复制同屋"
+    },
+    "planner_fixed": [
+      "保留两户独立生活与家庭开敞空间；不新增第三户",
+      "朝向父包门前公共接口，停留/门扇/服务不得消灭公共通行",
+      "不能把公共院或户间间隙私有化；不强迫借另一户私域通行",
+      "普通分段地形适应，不将组团与公共院重做为整片等高平台",
+      "不得擅动未知地下现状；权利与供给仍为条件",
+      "修理接单面向西来首卸后的手提流"
+    ],
+    "builder_adaptable": [
+      "exact footprint within envelope",
+      "room arrangement / exact Plan and Section",
+      "floor count and floor heights",
+      "roof / facade / openings",
+      "structural and tectonic system",
+      "foundation / drainage / local threshold geometry",
+      "block palette and Minecraft translation",
+      "门位等价移位、关系分配mask重划，保留接口语义"
+    ],
+    "dependencies": [
+      "BDP-00接口联审",
+      "C-RIGHTS",
+      "C-SUPPLY",
+      "C-GROUND",
+      "C-ACCESS",
+      "C-CAPACITY"
+    ],
+    "known_uncertainty": [
+      {
+        "id": "C-RIGHTS",
+        "state": "UNRESOLVED",
+        "resolve_before": "world write / permanent occupation",
+        "owner": "地方权利主体与公共接口协调者（角色提案，非已任命机构）",
+        "requirement": "核实两户用益、LANE-04连续地役及东口权利；没有许可不能以规划取代"
+      },
+      {
+        "id": "C-SUPPLY",
+        "state": "UNRESOLVED",
+        "resolve_before": "permanent residence / guest operation",
+        "owner": "父聚落供给接口",
+        "requirement": "确认水粮来源、搬运频次、洁净到货与污物终端；本包只容纳户内缓冲，不证明上游水源"
+      },
+      {
+        "id": "C-GROUND",
+        "state": "PARTIAL",
+        "resolve_before": "Builder foundation design freeze",
+        "owner": "Builder",
+        "requirement": "按真实拟用体积复核基底、地下既有物与保护，当前仅地表下24格抽取"
+      },
+      {
+        "id": "C-ACCESS",
+        "state": "UNVERIFIED",
+        "resolve_before": "Builder design acceptance",
+        "owner": "公共接口设计者+两户Builder",
+        "requirement": "协同门前净宽、步级、转弯、落脚面与东口；检验真实使用而非端点连通"
+      },
+      {
+        "id": "C-CAPACITY",
+        "state": "DESIGN_TEST_REQUIRED",
+        "resolve_before": "Builder design acceptance",
+        "owner": "Builder",
+        "requirement": "两户各自生活与院落独立成立；P02先检验附带1–2人约定短宿，拥挤时先缩服务频次而非挤生活或公共路；固定program仍无解则回报父层"
+      }
+    ],
+    "implementation_note": "可直接开展Architecture Design；不得施工。房屋冻结前和公共接口共同复核",
+    "upstream_issue_protocol": {
+      "trigger": "普通门位调整、分段落脚、服务错时、户内重排仍无法满足固定关系",
+      "return": [
+        "冲突约束",
+        "拟用体积/使用证据",
+        "有界适应尝试",
+        "最小父包决定"
+      ],
+      "no_silent_change": [
+        "地块扩张",
+        "户数",
+        "封公共路",
+        "取消必需生活或全部既定服务"
+      ]
+    },
+    "world_write_authorization": false
+  }
+]

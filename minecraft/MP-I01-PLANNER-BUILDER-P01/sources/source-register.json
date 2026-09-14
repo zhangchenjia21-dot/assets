@@ -1,0 +1,37 @@
+{
+  "skill_commit": "0e4cfe2d8bfc66b724c38cd80c5bf59bcd9940ca",
+  "read_sources": [
+    {
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05-NORTH-FRONTAGE-ENSEMBLE\\builder-design-packages.json",
+      "sha256": "b7a0a1b0f9b45ead7937791132600e44be3f503e5a5935ace257fbf9fb43e35a",
+      "use": "Only BDP-00/01 selected"
+    },
+    {
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05-NORTH-FRONTAGE-ENSEMBLE\\evidence\\near-ground.json.gz",
+      "sha256": "a6681e6c7fa7ae0de1ae252216acc238e227ae6b9ef05a06434224c38ab9db35",
+      "use": "Factual site states only"
+    },
+    {
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05-NORTH-FRONTAGE-ENSEMBLE\\evidence\\inherited-world-read-provenance.json",
+      "sha256": "35dcfe1f12bbc5399b59bbecab238eb15bfc106e96f3498ccd9a1f9adfb09504",
+      "use": "Factual source lineage"
+    },
+    {
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I01-PLANNER-BUILDER-P01\\sources\\CIV-001-Canon.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "use": "Approved Canon"
+    },
+    {
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I01-PLANNER-BUILDER-P01\\sources\\Architecture-Grammar.md",
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6",
+      "use": "Approved grammar"
+    },
+    {
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I01-PLANNER-BUILDER-P01\\sources\\skill\\SKILL.md",
+      "sha256": "1c719db419f51410ba894d9731ab2026e68b4bbcb73b9c092863dfb5edd85f9e",
+      "use": "Current v1.10"
+    }
+  ],
+  "forbidden_files_read_this_task": [],
+  "context_isolation": "Previous conversation contains Planner results; none are used as additional design authority. No Planning Packet/Critic/Review or upstream plans opened."
+}

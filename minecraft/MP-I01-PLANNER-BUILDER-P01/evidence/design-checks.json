@@ -1,0 +1,19 @@
+{
+  "world_writes": 0,
+  "all_design_columns_inside_parent_column_mask": true,
+  "households": 1,
+  "people_design_assumption": 2,
+  "gross_footprint": 82,
+  "interior_envelopes": {
+    "workshop": 16,
+    "main_each_level_before_stair_and_furniture": 24
+  },
+  "public_lane_geometry": "MISSING_FROM_HANDOFF",
+  "external_interface_gate": "HOLD",
+  "collision": "UNVERIFIED",
+  "architectural_state": "DESIGN_REVIEW_READY_WITH_INTERFACE_HOLD",
+  "palette_count": 15,
+  "model_blocks_including_air": 884,
+  "excavation": "design air only; not applied",
+  "world_read": "hash checks and inherited factual crop only"
+}

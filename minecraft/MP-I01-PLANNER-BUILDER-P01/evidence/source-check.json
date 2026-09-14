@@ -1,0 +1,12 @@
+{
+  "time": "2026-09-14T04:21:06.737109+00:00",
+  "world_writes": 0,
+  "source_path": "D:/Games/Minecraft/.minecraft/versions/26.2-Fabric 0.19.5/saves/建筑师",
+  "files": {
+    "level.dat": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410",
+    "dimensions/minecraft/overworld/region/r.1.2.mca": "753f85c70f07ee4a2c39c5eaff2876ac941e1e35915e405519abb8fc37021cd6",
+    "dimensions/minecraft/overworld/region/r.1.3.mca": "c7d6a492ed978ee40b807e482973b94a3397cb48a86e1d58a0777ea81c73688b"
+  },
+  "method": "read hashes, no Minecraft runtime",
+  "inherited_timestamp": "2026-09-13T14:45:37.354Z"
+}
