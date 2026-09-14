@@ -1,0 +1,52 @@
+{
+  "baseline_id": "PLANNER-BUILDER-REGRESSION-BASELINE-v0.5-v1.11",
+  "date": "2026-09-14",
+  "core_regression_suite": "PASS_WITH_NOTES",
+  "versions": [
+    {
+      "name": "minecraft-planner",
+      "version": "0.5",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "path": "skill/codex/minecraft-planner/SKILL.md",
+      "git_blob": "dff88b163d18520cb5f5e5a59e7c2103883fd115",
+      "sha256_git_bytes": "71c4e5b26be761cda80afd4ce694bce2f046820560c91f5a1dc6c5fe0f745304",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/minecraft-planner/SKILL.md"
+    },
+    {
+      "name": "minecraft-builder",
+      "version": "1.11",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "path": "skill/codex/minecraft-builder/SKILL.md",
+      "git_blob": "98ebc77b26137c0a7a78f9159bb3bcdc25727605",
+      "sha256_git_bytes": "faf6d93466aac789059dd8b0106ec74dc8c80d59d69d6de6f2b51c301f7451ff",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/minecraft-builder/SKILL.md"
+    },
+    {
+      "name": "Minecraft Planner–Builder Contract",
+      "version": "1.0",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "path": "skill/codex/shared/minecraft-planner-builder-contract.md",
+      "git_blob": "3431c7a048148cdb6c24f44604777eaa6c9b2c9e",
+      "sha256_git_bytes": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/shared/minecraft-planner-builder-contract.md"
+    }
+  ],
+  "evidence_commit": "8b897602f47b6c2f0e290617dae05108df262478",
+  "independent_review_count": 15,
+  "coverage_type": "Cumulative historical recursive coverage plus targeted final-version integration; not full replay under final versions",
+  "historical_failure_retained": {
+    "test": "MP-P05R",
+    "verdict": "FAIL_MODEL_EXECUTION",
+    "positive_rerun": "MP-P05R2"
+  },
+  "building_design_state": "UNFROZEN_DESIGN_WITH_BLOCKERS",
+  "design_ready": false,
+  "positive_design_ready_transition": "NOT_DEMONSTRATED",
+  "world_write_authorization": false,
+  "world_writes": 0,
+  "production_construction_authorized": false,
+  "skill_behavior_changed": false,
+  "shared_contract_changed": false,
+  "canon_or_formal_project_changed": false,
+  "evidence_review": "Existing Independent Reviews reconciled with archived primary artifacts; no new independent review or original regression execution"
+}

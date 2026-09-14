@@ -1,0 +1,46 @@
+{
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": "baseline.json",
+      "bytes": 2614,
+      "sha256": "34bfd253eb3cd0a1200f77cf05a90fee66edcbbaf6c5c8151e7a11a6c4774d75"
+    },
+    {
+      "path": "evidence-index.json",
+      "bytes": 32686,
+      "sha256": "7215e49af1ea8cbf946b00d11fcb110a9f19a8dca92e79c4597729aa1b60cccb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 926,
+      "sha256": "625d036abc494863da7025a33b721272ee434e2a34ced0175c8982154cb5a464"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 22001,
+      "sha256": "3aef00e6d56f38e065f91802510cc6a05d349ca0279237413e205b7b6d09ac81"
+    },
+    {
+      "path": "基线核对.py",
+      "bytes": 5483,
+      "sha256": "5165d9ae6c65bf67341e6d091b43fde7aed19ae56a80ba190b752f1803006bc0"
+    },
+    {
+      "path": "审核结论索引.md",
+      "bytes": 19866,
+      "sha256": "7aba522010d9f984931a7caf6cfa3ea0f8fde7d2a3c2891d46b680981aa8287b"
+    },
+    {
+      "path": "总回归报告.md",
+      "bytes": 15513,
+      "sha256": "43f8e0d4fc027cf86975601d831f0f41699eb4777fafcf0806da9b5e34275b99"
+    }
+  ],
+  "note": "Only closeout artifacts; original evidence remains at pinned assets commit. No Skill/contract snapshots duplicated into active paths."
+}

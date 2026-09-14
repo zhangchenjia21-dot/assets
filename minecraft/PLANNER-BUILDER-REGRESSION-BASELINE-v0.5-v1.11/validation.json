@@ -1,0 +1,732 @@
+{
+  "validation_scope": "Read-only reconciliation of archived facts, source hashes and baseline metadata; NOT re-execution of original regression tests or semantic quality scoring",
+  "source_commit": "8b897602f47b6c2f0e290617dae05108df262478",
+  "check_count": 180,
+  "unsatisfied": 0,
+  "checks": [
+    {
+      "name": "evidence SHA256: minecraft/MP-I01-PLANNER-BUILDER-P01/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I01-PLANNER-BUILDER-P01/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I01-PLANNER-BUILDER-P01/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I01-PLANNER-BUILDER-P01/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I01R-PLANNER-BUILDER-P01/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I01R-PLANNER-BUILDER-P01/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I01R-PLANNER-BUILDER-P01/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I01R-PLANNER-BUILDER-P01/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A-INTERFACE-CLOSURE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A-INTERFACE-CLOSURE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A-INTERFACE-CLOSURE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A-INTERFACE-CLOSURE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A-INTERFACE-CLOSURE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A-INTERFACE-CLOSURE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A-INTERFACE-CLOSURE/revision-lineage.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A-INTERFACE-CLOSURE/revision-lineage.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A2-FREEZE-BASELINE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A2-FREEZE-BASELINE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A2-FREEZE-BASELINE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A2-FREEZE-BASELINE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A2-FREEZE-BASELINE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A2-FREEZE-BASELINE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A2-FREEZE-BASELINE/revision-lineage.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A2-FREEZE-BASELINE/revision-lineage.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/Completion-Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/Completion-Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01-CIV001/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01-CIV001/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01-CIV001/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01-CIV001/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01-CIV001/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01-CIV001/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01-CIV001/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01-CIV001/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01-CIV001/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01-CIV001/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01R-CIV001/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01R-CIV001/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01R-CIV001/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01R-CIV001/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01R-CIV001/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01R-CIV001/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01R-CIV001/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01R-CIV001/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01R-CIV001/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01R-CIV001/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02-EAST/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02-EAST/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02-EAST/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02-EAST/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02-EAST/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02-EAST/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02-EAST/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02-EAST/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02-EAST/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02-EAST/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02R-EAST/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02R-EAST/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02R-EAST/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02R-EAST/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02R-EAST/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02R-EAST/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02R-EAST/evidence/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02R-EAST/evidence/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02R-EAST/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02R-EAST/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03-NORTH-ROCK-TERRACE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03-NORTH-ROCK-TERRACE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03-NORTH-ROCK-TERRACE/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03-NORTH-ROCK-TERRACE/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03-NORTH-ROCK-TERRACE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03-NORTH-ROCK-TERRACE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03-NORTH-ROCK-TERRACE/evidence/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03-NORTH-ROCK-TERRACE/evidence/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03-NORTH-ROCK-TERRACE/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03-NORTH-ROCK-TERRACE/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03M-NORTH-ROCK-TERRACE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03M-NORTH-ROCK-TERRACE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03M-NORTH-ROCK-TERRACE/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03M-NORTH-ROCK-TERRACE/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03M-NORTH-ROCK-TERRACE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03M-NORTH-ROCK-TERRACE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03M-NORTH-ROCK-TERRACE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03M-NORTH-ROCK-TERRACE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P04-WEST-APPROACH/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P04-WEST-APPROACH/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P04-WEST-APPROACH/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P04-WEST-APPROACH/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P04-WEST-APPROACH/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P04-WEST-APPROACH/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P04-WEST-APPROACH/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P04-WEST-APPROACH/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P04-WEST-APPROACH/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P04-WEST-APPROACH/implementation-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/Completion Report.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/README.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/validation.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01R-CIV001/planning-objects.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01R-CIV001/planning-objects.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P01R-CIV001/settlement-capacity.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P01R-CIV001/settlement-capacity.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P02R-EAST/planning-data.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P02R-EAST/planning-data.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P03M-NORTH-ROCK-TERRACE/assessment-data.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P03M-NORTH-ROCK-TERRACE/assessment-data.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/planning-data.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/planning-data.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/provenance.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/provenance.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/handoff-register.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/handoff-register.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I01R-PLANNER-BUILDER-P01/handoff-consumption-record.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I01R-PLANNER-BUILDER-P01/handoff-consumption-record.md",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I01R-PLANNER-BUILDER-P01/设计核验.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I01R-PLANNER-BUILDER-P01/设计核验.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A-INTERFACE-CLOSURE/BDP-01.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A-INTERFACE-CLOSURE/BDP-01.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A-INTERFACE-CLOSURE/closure-register.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A-INTERFACE-CLOSURE/closure-register.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A2-FREEZE-BASELINE/BDP-01.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A2-FREEZE-BASELINE/BDP-01.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02A2-FREEZE-BASELINE/closure-register.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02A2-FREEZE-BASELINE/closure-register.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/Builder-owned-closure.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/Builder-owned-closure.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/Planning-Fidelity-Gate.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/Planning-Fidelity-Gate.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/remaining-uncertainty.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/remaining-uncertainty.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/设计核验.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/设计核验.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence SHA256: minecraft/MP-I02B-DESIGN-FREEZE/雨水性能.json",
+      "satisfied": true
+    },
+    {
+      "name": "evidence blob: minecraft/MP-I02B-DESIGN-FREEZE/雨水性能.json",
+      "satisfied": true
+    },
+    {
+      "name": "15 existing reviews",
+      "satisfied": true
+    },
+    {
+      "name": "fixed Skill/contract hash: minecraft-planner",
+      "satisfied": true
+    },
+    {
+      "name": "current Skill/contract unchanged: minecraft-planner",
+      "satisfied": true
+    },
+    {
+      "name": "fixed Skill/contract hash: minecraft-builder",
+      "satisfied": true
+    },
+    {
+      "name": "current Skill/contract unchanged: minecraft-builder",
+      "satisfied": true
+    },
+    {
+      "name": "fixed Skill/contract hash: Minecraft Planner–Builder Contract",
+      "satisfied": true
+    },
+    {
+      "name": "current Skill/contract unchanged: Minecraft Planner–Builder Contract",
+      "satisfied": true
+    },
+    {
+      "name": "recursive scale/recipient: MP-P01R-CIV001",
+      "satisfied": true
+    },
+    {
+      "name": "recursive scale/recipient: MP-P02R-EAST",
+      "satisfied": true
+    },
+    {
+      "name": "recursive scale/recipient: MP-P03-NORTH-ROCK-TERRACE",
+      "satisfied": true
+    },
+    {
+      "name": "recursive scale/recipient: MP-P04-WEST-APPROACH",
+      "satisfied": true
+    },
+    {
+      "name": "P05R failure retained as observed",
+      "satisfied": true
+    },
+    {
+      "name": "P05R2 concrete handoff fields",
+      "satisfied": true
+    },
+    {
+      "name": "revision/readiness: MP-I02A-INTERFACE-CLOSURE",
+      "satisfied": true
+    },
+    {
+      "name": "revision/readiness: MP-I02A2-FREEZE-BASELINE",
+      "satisfied": true
+    },
+    {
+      "name": "I02B legitimately unfrozen",
+      "satisfied": true
+    },
+    {
+      "name": "I02B actual Fidelity issue",
+      "satisfied": true
+    },
+    {
+      "name": "I02B recorded static evidence",
+      "satisfied": true
+    },
+    {
+      "name": "three status domains separated",
+      "satisfied": true
+    },
+    {
+      "name": "positive transition limit retained",
+      "satisfied": true
+    },
+    {
+      "name": "no world writes",
+      "satisfied": true
+    },
+    {
+      "name": "mandatory report sections present",
+      "satisfied": true
+    }
+  ],
+  "world_writes": 0,
+  "runtime_started": false,
+  "new_independent_review_performed": false,
+  "core_verdict_basis": "Model synthesis of existing Independent Reviews, especially MP-I02B Final suite interpretation; not generated from check count"
+}

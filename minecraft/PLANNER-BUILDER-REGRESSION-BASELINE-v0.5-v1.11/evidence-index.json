@@ -1,0 +1,514 @@
+{
+  "source_commit": "8b897602f47b6c2f0e290617dae05108df262478",
+  "files": [
+    {
+      "path": "minecraft/MP-I01-PLANNER-BUILDER-P01/Independent Review.md",
+      "sha256": "8c9d7d7eaf03a63d41e1139dba01159b9e9470483f821c918c1334ac8a9b7f53",
+      "git_blob": "02f0fb63b380aeaebc5f6bb779b7df6b7684516a",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I01-PLANNER-BUILDER-P01/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-I01-PLANNER-BUILDER-P01/Completion Report.md",
+      "sha256": "43ab95d65d42353e853899a92f1674bb9622d71a7dfd51ea723179ecda2db5f8",
+      "git_blob": "64c8834f6e0086b890bb3c1e1c6be5bfa6eca5ee",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I01-PLANNER-BUILDER-P01/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-I01R-PLANNER-BUILDER-P01/Independent Review.md",
+      "sha256": "87350fc9ebbcc1e1ba71038e509a5d6f86046f68e589843a6d629a9f500b5a8b",
+      "git_blob": "c606b17b78820c8e2ac960ce70a048f8a1f0e031",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I01R-PLANNER-BUILDER-P01/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-I01R-PLANNER-BUILDER-P01/README.md",
+      "sha256": "9927eac99bcdee11173a86f43a0803ad6247530a34572f915bf5584641b7396d",
+      "git_blob": "43e27cf03cb4909f2f2f8ca8a186a9a90ef5b29b",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I01R-PLANNER-BUILDER-P01/README.md"
+    },
+    {
+      "path": "minecraft/MP-I02A-INTERFACE-CLOSURE/Independent Review.md",
+      "sha256": "7e1c8f78b0e3a7b77bf7f41751dc1035a7b42e1da4e3d8a92add48c076e05855",
+      "git_blob": "409b2f48f76c663e1b03320cf231c1aba8629224",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A-INTERFACE-CLOSURE/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-I02A-INTERFACE-CLOSURE/README.md",
+      "sha256": "a2138ff1d6453d3d57119d24417e31852293f3198103eca65643fc8fe6f1b7d0",
+      "git_blob": "c649f23eba93e60c1c51a595288a6ab504eb8e07",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A-INTERFACE-CLOSURE/README.md"
+    },
+    {
+      "path": "minecraft/MP-I02A-INTERFACE-CLOSURE/validation.json",
+      "sha256": "2e95d827f9f69fbd04618dbca48947e37e46dcd50da2254224713a0719d632e3",
+      "git_blob": "c93851712491f11ba2999da71b13c637a549851f",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A-INTERFACE-CLOSURE/validation.json"
+    },
+    {
+      "path": "minecraft/MP-I02A-INTERFACE-CLOSURE/revision-lineage.json",
+      "sha256": "9ee15387dfdd68599844dadfe851c18843647ed59df002587f5da781ca6d275c",
+      "git_blob": "5c1a434a95c82975e1d61eee1d6b53fedef572d2",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A-INTERFACE-CLOSURE/revision-lineage.json"
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/Independent Review.md",
+      "sha256": "b04ddd1f7ba0b8413c3d49f483657ab3ba45fc29f3ee4c3e583aa2d43159ab48",
+      "git_blob": "fa939fa79f5676f53636ab2eeb3fe35065b8f05c",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A2-FREEZE-BASELINE/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/README.md",
+      "sha256": "c15a86e5368bedf9d2f1aff504627263e453dc4301217f845f7f47310014f2f4",
+      "git_blob": "91be8da51881f068c803a0fc10a2626df868eb5d",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A2-FREEZE-BASELINE/README.md"
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/validation.json",
+      "sha256": "00497ed2b575348a5200e63dbd991fb47ab3ccd54de6e8889c4c00b70c85b3fc",
+      "git_blob": "5b0fef569d45e9dd099b6449ac897bb66fda213e",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A2-FREEZE-BASELINE/validation.json"
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/revision-lineage.json",
+      "sha256": "924e80b1d3b41f48280db7d65f611ef78e3b07a74a6ddfdd611b67992e3d3a5c",
+      "git_blob": "92051cd1fa3ccf7935f2195569ee4dc6044ea03d",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A2-FREEZE-BASELINE/revision-lineage.json"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/Independent Review.md",
+      "sha256": "414e3fdac94f10eadd89c0652e0416f016070f281ad01914e48defdd70fbbd54",
+      "git_blob": "53e72f1153ba3e7ae85d927fe26c1964c1daa5ee",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/Completion-Report.md",
+      "sha256": "12453a4be83113c7af3cf0b4439a5fbe7b2b6f3817363d7b938458bdc6156093",
+      "git_blob": "07917efee31c9e4f9f009cb8b4e45b7e13160f0a",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/Completion-Report.md"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/README.md",
+      "sha256": "3a333985dcde7b48fd398f3ed04e336663f583219c4b7ad63bfc12f798803320",
+      "git_blob": "c9ba6681821215850e536bb67e2f0521d33be518",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/README.md"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/validation.json",
+      "sha256": "09306d6d7a1d08b51e9c8ee407aeba1a83f6c2fdcaf534282120b81d708815a3",
+      "git_blob": "7e9ff17b28e022eaf73c10d9d2282348df2806b3",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P01-CIV001/Independent Review.md",
+      "sha256": "55875a8520639f79557256f7e1f79e8d8638b8fc09dcd648a358dd33441d18bf",
+      "git_blob": "91fb5817f4c4a3a4d2050e846ca9ef118c81cb9d",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01-CIV001/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P01-CIV001/Completion Report.md",
+      "sha256": "8bc1c2b6e4cda264940e98e66eab12ccc90d99f39fb42535a1660dddc1fbffc6",
+      "git_blob": "f62745fbca899d5b250e6e01015b6dbb8f4fddec",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01-CIV001/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-P01-CIV001/README.md",
+      "sha256": "5f740152d79c8f800be7ccf8f94fdb96f2c91a6a0f5668262ec3556afdd10dfb",
+      "git_blob": "46f1192a2a98aab68ed2428effc45159f6e7714b",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01-CIV001/README.md"
+    },
+    {
+      "path": "minecraft/MP-P01-CIV001/validation.json",
+      "sha256": "692f3d342329f701572dbb73064e4cf418ef119275b8cc4a02aad2c67a5ba62b",
+      "git_blob": "30212077ebc57e1ca1efee00b34931c9c7d8c68c",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01-CIV001/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P01-CIV001/implementation-packages.json",
+      "sha256": "81462586d6c1b4dc80ae2acee772f9c4edd629426692aefd80eb943cfb0bcada",
+      "git_blob": "b591d0cf5ee7e259a9fe022a6b7042da866b3d23",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01-CIV001/implementation-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P01R-CIV001/Independent Review.md",
+      "sha256": "5e5880b22176cc82de728b306fec505dde7488e17e3d76dc0afa148d45ba342a",
+      "git_blob": "f732fd4127b55bc16f23fb266d97f445d4b6c321",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01R-CIV001/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P01R-CIV001/Completion Report.md",
+      "sha256": "64673af74c09fbdb8a9a23c2b69086ac2f17ffa0596cc847846bb253ab94742f",
+      "git_blob": "31c4c218e3fcd4253e90448257fa70a766a50ba1",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01R-CIV001/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-P01R-CIV001/README.md",
+      "sha256": "edce70cb0d6dfebd416c4a70993866016322689ed69448381b9784205e973af2",
+      "git_blob": "47a5df71e3012ed5cd6f847eb36ea3ee03945fc6",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01R-CIV001/README.md"
+    },
+    {
+      "path": "minecraft/MP-P01R-CIV001/validation.json",
+      "sha256": "4da65a4030695293b7fa32c72cf384d1244600951369b0e3f47e238951c81cef",
+      "git_blob": "601fbe98a2f323489021008682b4c6290f924f82",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01R-CIV001/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P01R-CIV001/implementation-packages.json",
+      "sha256": "79ee8f8841d073d175d8cd1e26bbacf7827c81d3a5bde01c2f11527df1deed77",
+      "git_blob": "cadba9822784ef0cf91aba4dc12afa189b762ef2",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01R-CIV001/implementation-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P02-EAST/Independent Review.md",
+      "sha256": "3bab66a58939ec3321ee69c32922ee1b7763949e1ae67cad4a649558279577c9",
+      "git_blob": "520e669ea450fcd377f72de95b892c63f01cd403",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02-EAST/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P02-EAST/Completion Report.md",
+      "sha256": "5a2e480726be02c562a2c0f35b720bb3de2a37a3f1462a6e7c2bca911a90fd88",
+      "git_blob": "f2c08bdf83b8024219c3cc43a3f1712597dc0bc0",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02-EAST/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-P02-EAST/README.md",
+      "sha256": "fec17c39307fa60065def85823b30c04b6f425e59cec465b765781d9498ebe94",
+      "git_blob": "0c42d1e02e7061ef0153b2a84f619a4e9e95618e",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02-EAST/README.md"
+    },
+    {
+      "path": "minecraft/MP-P02-EAST/validation.json",
+      "sha256": "7ba9de4908a07e7f2b5fdacac1194e667c302ad9795280b8c887eccdff4d2346",
+      "git_blob": "4beb9042f4bd664d04a173cb8c3a9372a836b5be",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02-EAST/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P02-EAST/implementation-packages.json",
+      "sha256": "10c6f5680d3938b4ec3d6b285f9a23f1d7e62e463a45b0bbb0c24e399ca33c90",
+      "git_blob": "1495e3a11e3c901b72067724fecaf309d0907dcb",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02-EAST/implementation-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P02R-EAST/Independent Review.md",
+      "sha256": "2f2c2e423c6036e8c19a5446242f35222b1bd45fcd0f475061a43b5db458d621",
+      "git_blob": "2b818e157849c33b0fe91147d83eaf982468eaac",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02R-EAST/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P02R-EAST/Completion Report.md",
+      "sha256": "a790474dfb52473327629b8320dc6ca0bf4552ad7970b62293cabb18e443ff55",
+      "git_blob": "23fb707c4e7eb5148801ec3fbb58826bdf7b78b9",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02R-EAST/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-P02R-EAST/README.md",
+      "sha256": "b50296ce2202abf187a085a499abac3cbce7b7eedc7e3f71a6fba9868cfb9e5d",
+      "git_blob": "01b9ea4972639ca4c7b1dfcdffd5f935d3a66709",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02R-EAST/README.md"
+    },
+    {
+      "path": "minecraft/MP-P02R-EAST/evidence/validation.json",
+      "sha256": "7d014ca9b47bfe464f2a0d3d3394386db8f8bc48e19ae66ef604066225846091",
+      "git_blob": "b89b6139af3a1a1bf68402ff4c3b78441af6c993",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02R-EAST/evidence/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P02R-EAST/implementation-packages.json",
+      "sha256": "0dc898c12d99ce640cf467ebb52e93d7a530bc10b51b9a9ae8b8167dfcb98fab",
+      "git_blob": "9258097700b827bf355065ff4c27c450542ba2f5",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02R-EAST/implementation-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P03-NORTH-ROCK-TERRACE/Independent Review.md",
+      "sha256": "dd5cec6d5d752950e352f882556ad0472d842531d25caaca7a1c06e464e60b78",
+      "git_blob": "d3dfee41593443196bc33e2863780421d43f732f",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03-NORTH-ROCK-TERRACE/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P03-NORTH-ROCK-TERRACE/Completion Report.md",
+      "sha256": "0d732efa11757b0256395c1946e168d46c1f94637f11520f34b140f256e3bb4b",
+      "git_blob": "3c0ef0e1e8ffb5cf6af129b2f4b9589bcb2d0bde",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03-NORTH-ROCK-TERRACE/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-P03-NORTH-ROCK-TERRACE/README.md",
+      "sha256": "5c865dba55a82af21fe3049f7b842416d210115963d7ff4175db00f46f6ce768",
+      "git_blob": "05a11d3729320302d9936a347996779d1f6a6dd7",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03-NORTH-ROCK-TERRACE/README.md"
+    },
+    {
+      "path": "minecraft/MP-P03-NORTH-ROCK-TERRACE/evidence/validation.json",
+      "sha256": "47a4c1f88640ac30e8b6de3e8783cad4edc31256aaa5488fbd2097f25eef7f60",
+      "git_blob": "72bc3e9402013279fc35cb3bdd18b45051a0ed16",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03-NORTH-ROCK-TERRACE/evidence/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P03-NORTH-ROCK-TERRACE/implementation-packages.json",
+      "sha256": "9100306bf4e4e434d0a33ea3d7b5be3f54563f3b5b9dc266b831979179aa2b95",
+      "git_blob": "1cfa27d18bc53dae038fefe7b8859d8238291da3",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03-NORTH-ROCK-TERRACE/implementation-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P03M-NORTH-ROCK-TERRACE/Independent Review.md",
+      "sha256": "688d33a3e77744486f9e64f509b29e3664d7285a98ea054c8a92a2609913a247",
+      "git_blob": "e3114c30c567ce5e26b87d8eac49b08fd8ec116c",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03M-NORTH-ROCK-TERRACE/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P03M-NORTH-ROCK-TERRACE/Completion Report.md",
+      "sha256": "534e3d423f2c11a6d7cf59ef97bf9d7638d3f72e0b6df49c712d2aa30d1f8690",
+      "git_blob": "ef51cc82a25e65fad21314477bb435665d52ddcd",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03M-NORTH-ROCK-TERRACE/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-P03M-NORTH-ROCK-TERRACE/README.md",
+      "sha256": "0eb6a3703d37d02b1a1b4517577ae12b744f4952007cf3d1272e5215696cccc9",
+      "git_blob": "aa1569f4655c97555f9dd164f630a1f70ce4cbc6",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03M-NORTH-ROCK-TERRACE/README.md"
+    },
+    {
+      "path": "minecraft/MP-P03M-NORTH-ROCK-TERRACE/validation.json",
+      "sha256": "dc5b0059821d7c9247676662e2ecaad9ca4cfcd94464f003806664a4868cf9e0",
+      "git_blob": "d627685bf45d5846af518c10f4e8ebf3f9777f15",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03M-NORTH-ROCK-TERRACE/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/Independent Review.md",
+      "sha256": "6d549e0bdac88cab8c053bbdab6f3e0196360c8762ffe3e9ac9da476812ea018",
+      "git_blob": "030e68083337275732d6d355c865edeec7bd478d",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P04-WEST-APPROACH/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/Completion Report.md",
+      "sha256": "cc1842b59b92ffd69fa870803356e74dfeb245c03c8514da7b7d05ae92f760d8",
+      "git_blob": "af46727e2f87258ee7b6e0fd8deec35a95a9a46c",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P04-WEST-APPROACH/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/README.md",
+      "sha256": "32c52b9349367dce1985deb53623e7977c1aefe5517d92b51112dbeb8f2d64ff",
+      "git_blob": "3dacf89af65841b379afa20b809576b19a939ba5",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P04-WEST-APPROACH/README.md"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/validation.json",
+      "sha256": "4e85e51bb45361ed3ba565f50128a9fb35ec4a6b3b9f4a28154d80525ee7d5b8",
+      "git_blob": "b45658067fe2b9542f4632ee64191ce1c08c35f5",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P04-WEST-APPROACH/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/implementation-packages.json",
+      "sha256": "8d861fe4b0831d0fd35804fcf2dabff099394298d4bf37d53aaedc21d9ff37e8",
+      "git_blob": "a237ae9f0ef1e43e4d851f427839f51dbc71a94d",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P04-WEST-APPROACH/implementation-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "sha256": "1ed7eb89a845cea49aaa194761d5baedd4ea7d60c013c47ef294dc0ab41db0be",
+      "git_blob": "f574fb1bd551c8fddbf8456a5b84b7570ee33091",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/Completion Report.md",
+      "sha256": "dae2a9c448c5b0534b4d205db69b384f3dac9bc28dc7d7983f9c103b993c376d",
+      "git_blob": "7b4773d62eeaf4c1a2f3e960f5cf664a22f3b25d",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/Completion%20Report.md"
+    },
+    {
+      "path": "minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/validation.json",
+      "sha256": "70cdbd982ba0130c8b2615688daaad73d81dc79043fefa79dec2c42c5fa27af7",
+      "git_blob": "b72983900e70461663df34d5e48d00fffccba28a",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "sha256": "b7a0a1b0f9b45ead7937791132600e44be3f503e5a5935ace257fbf9fb43e35a",
+      "git_blob": "cc424fd43cc4e3e2bf19a0eff8eaf7952c080e63",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "sha256": "f1ce060a0cf3153416b558f9e0ff471beadb0f8d9c19a38e03f08a4b3020c63a",
+      "git_blob": "954b12b1ca8ea006dfd754c8fc3931be3820840e",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/README.md",
+      "sha256": "85e3196517c1b7dec26f8f1dfaee1377c2099ba8f29fac1263430613295923b8",
+      "git_blob": "d3a492f804623e8db50ed8e15767bbf140b3af07",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/README.md"
+    },
+    {
+      "path": "minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "sha256": "2b2dbf5919654b445476bee55c3237f7b639d66508c7be4a742c6eece9ef9a22",
+      "git_blob": "8bedab922fdf69b256b9b62b102205af6864c90a",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/Independent Review.md",
+      "sha256": "e918a7110fe163caa284ee8a4be3558afd4856686583ba424d7748fe0d636018",
+      "git_blob": "f2f65e57acd809c9448300fba529f35b2134ac8d",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/Independent%20Review.md"
+    },
+    {
+      "path": "minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/README.md",
+      "sha256": "88de91f49faf9e5e1846be59c0e03f93b2655efeb8b516bef2b1b29acccc48ea",
+      "git_blob": "21a0a0aca4a3c59380da2ef7fafb47f2122e80bb",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/README.md"
+    },
+    {
+      "path": "minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/validation.json",
+      "sha256": "9efaccebf4b8cd2f8d3dd9e5e2b88bc0925d75c15d80d63e5b6cab0814a7cfa4",
+      "git_blob": "557dfbc4fef7507d5ccb84a5a6723fba7fd257ab",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/validation.json"
+    },
+    {
+      "path": "minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json",
+      "sha256": "81f7f16e9c6705d34deb939a1e37e42b7d0a54b4d6d3f4bfc4d90773dc62d19c",
+      "git_blob": "0abb374f7ff2383acb0b9fa0fae9841f11cc80f5",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/builder-design-packages.json"
+    },
+    {
+      "path": "minecraft/MP-P01R-CIV001/planning-objects.json",
+      "sha256": "77132e6c20eb0675def22162e06b24420ed55e3e66890e303b226ee93dd74f2e",
+      "git_blob": "d2abc291085a3501ae61b99de0d84b51afc8a879",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01R-CIV001/planning-objects.json"
+    },
+    {
+      "path": "minecraft/MP-P01R-CIV001/settlement-capacity.json",
+      "sha256": "c7ec84a7acac3669493f31d7d13d1b4aefa8df097d796be0394b8d636817afc0",
+      "git_blob": "023f18c28c98a95e0c8e696200541cef6f4df9f1",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P01R-CIV001/settlement-capacity.json"
+    },
+    {
+      "path": "minecraft/MP-P02R-EAST/planning-data.json",
+      "sha256": "dfb3219031bff69a031307d628057ba49e2ceb23edff3ad5aefa674c43a6370f",
+      "git_blob": "3bb70555fd426a28b522d02e6a8274b80b288ee4",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P02R-EAST/planning-data.json"
+    },
+    {
+      "path": "minecraft/MP-P03M-NORTH-ROCK-TERRACE/assessment-data.json",
+      "sha256": "d05e51c275fe9672ff5269fd9f743f2c4b18eea0f2456937b6c5a0561bf7667e",
+      "git_blob": "707ef04e67b1b4d7789f8c6017f63eaa44772ef7",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P03M-NORTH-ROCK-TERRACE/assessment-data.json"
+    },
+    {
+      "path": "minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/planning-data.json",
+      "sha256": "a826e4131b32267476c9f57efd070f2373e9ec3140d5668c483cc14b09ae5c9c",
+      "git_blob": "f63925f4a1cfcac7bb313695c2201acbfad72227",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R-NORTH-FRONTAGE-ENSEMBLE/planning-data.json"
+    },
+    {
+      "path": "minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/provenance.json",
+      "sha256": "06a842b1068e17c1e87451f30820df8a188edfcf0d9c046fd86becb5fcf22128",
+      "git_blob": "fcfa2106499b5c4baf00f93c3f53612a8bd82480",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/provenance.json"
+    },
+    {
+      "path": "minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/handoff-register.json",
+      "sha256": "df36149519856a8b6351c67732838d862f9440145f93a927d08c8de2c08cddcd",
+      "git_blob": "f1251288334ff901a543120686f9da2c3ad39b81",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-P05R2-NORTH-FRONTAGE-ENSEMBLE/handoff-register.json"
+    },
+    {
+      "path": "minecraft/MP-I01R-PLANNER-BUILDER-P01/handoff-consumption-record.md",
+      "sha256": "3999590a8f07d7d17c0d22db9feb576ac6d7afed46162ac5545caf3ecbda2777",
+      "git_blob": "2eb5df66608a9487933e0de50ce1e6bdb73404a0",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I01R-PLANNER-BUILDER-P01/handoff-consumption-record.md"
+    },
+    {
+      "path": "minecraft/MP-I01R-PLANNER-BUILDER-P01/设计核验.json",
+      "sha256": "217294f7b2baf5af67774072c3a8818a993f70dc46b44a86b4bf808daa9eb86d",
+      "git_blob": "35137d41351c537f1335d26d6229a2f6109aa6d2",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I01R-PLANNER-BUILDER-P01/%E8%AE%BE%E8%AE%A1%E6%A0%B8%E9%AA%8C.json"
+    },
+    {
+      "path": "minecraft/MP-I02A-INTERFACE-CLOSURE/BDP-01.json",
+      "sha256": "d007f4c253140d24f839ccce0e984078a43121bd3f027f54f39ffa12fb5c24c7",
+      "git_blob": "06f74317869b3996244136a5e3386374e87ec18f",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A-INTERFACE-CLOSURE/BDP-01.json"
+    },
+    {
+      "path": "minecraft/MP-I02A-INTERFACE-CLOSURE/closure-register.json",
+      "sha256": "80b20e5b065e3f75262153b8f8c75b2d51e8abbf88bcc11026578499a524ac39",
+      "git_blob": "8dae7b949ff1ef4b6d8a5e9c760cc04989f195d0",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A-INTERFACE-CLOSURE/closure-register.json"
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/BDP-01.json",
+      "sha256": "ec606c108ed882a2eab44430036fc99d85772d90d770bda1c27f406d8364d7e7",
+      "git_blob": "15030aadb390b336662ff3562bd3269891f9585d",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A2-FREEZE-BASELINE/BDP-01.json"
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/closure-register.json",
+      "sha256": "db4fdca023a61c263a9e8f06ab5670be0eb2e9b389d17ffc2bf75dfdff18cd37",
+      "git_blob": "23d1400d64f922bfb537e39925091f2453f26812",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02A2-FREEZE-BASELINE/closure-register.json"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/Builder-owned-closure.json",
+      "sha256": "238b34957e8a37a1dbf18a493d590e552504dc81682758f9f14fe93062ad4eed",
+      "git_blob": "0c29569c8611e64a2fa85128345dedb0cd01e326",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/Builder-owned-closure.json"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/Planning-Fidelity-Gate.json",
+      "sha256": "f3b1cab389d6667994e639fedbf3be24a4f4d05dceb25a08b53d72bf4a5632c7",
+      "git_blob": "99192f848ce1d4615dd6418d745afe2651796b33",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/Planning-Fidelity-Gate.json"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/remaining-uncertainty.json",
+      "sha256": "51e1c65ea9265754652cff39868f4f4fcdca8e4aa749b54259d0616e78cdaee5",
+      "git_blob": "af8b5350178415321e0abfb14bf8c04420fffdd9",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/remaining-uncertainty.json"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/设计核验.json",
+      "sha256": "5e6b90f6097471cd9a03b8d6ec8ab56b6910c2fc8776de07b5adf85ec6f5a75a",
+      "git_blob": "adad966a499f4d4e60a105050856eafb27f46295",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/%E8%AE%BE%E8%AE%A1%E6%A0%B8%E9%AA%8C.json"
+    },
+    {
+      "path": "minecraft/MP-I02B-DESIGN-FREEZE/雨水性能.json",
+      "sha256": "5f227bee330897ddcd5d3f6875b92c0273e8899c0b25554dbdb88721507b9ea5",
+      "git_blob": "f7a4e74b89bf3802cef30960f49e474d6b60e028",
+      "url": "https://github.com/zhangchenjia21-dot/assets/blob/8b897602f47b6c2f0e290617dae05108df262478/minecraft/MP-I02B-DESIGN-FREEZE/%E9%9B%A8%E6%B0%B4%E6%80%A7%E8%83%BD.json"
+    }
+  ],
+  "scope": "Existing regression evidence and Independent Reviews only; no original test rerun",
+  "skill_source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+  "tested_versions": [
+    {
+      "name": "minecraft-planner",
+      "version": "0.5",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "path": "skill/codex/minecraft-planner/SKILL.md",
+      "git_blob": "dff88b163d18520cb5f5e5a59e7c2103883fd115",
+      "sha256_git_bytes": "71c4e5b26be761cda80afd4ce694bce2f046820560c91f5a1dc6c5fe0f745304",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/minecraft-planner/SKILL.md"
+    },
+    {
+      "name": "minecraft-builder",
+      "version": "1.11",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "path": "skill/codex/minecraft-builder/SKILL.md",
+      "git_blob": "98ebc77b26137c0a7a78f9159bb3bcdc25727605",
+      "sha256_git_bytes": "faf6d93466aac789059dd8b0106ec74dc8c80d59d69d6de6f2b51c301f7451ff",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/minecraft-builder/SKILL.md"
+    },
+    {
+      "name": "Minecraft Planner–Builder Contract",
+      "version": "1.0",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+      "path": "skill/codex/shared/minecraft-planner-builder-contract.md",
+      "git_blob": "3431c7a048148cdb6c24f44604777eaa6c9b2c9e",
+      "sha256_git_bytes": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8",
+      "url": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/shared/minecraft-planner-builder-contract.md"
+    }
+  ],
+  "world_writes": 0,
+  "source_archives_modified": false,
+  "formal_project_modified": false,
+  "skill_or_contract_behavior_modified": false
+}
