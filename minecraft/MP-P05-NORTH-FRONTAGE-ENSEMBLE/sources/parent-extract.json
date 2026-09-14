@@ -1,0 +1,447 @@
+{
+  "source_revision": "r1",
+  "authority": "DESIGN_PROPOSAL",
+  "packages": [
+    {
+      "id": "PACKAGE-01",
+      "parent_plan": "MP-P04-WEST-APPROACH",
+      "parent_revision": "r1",
+      "parent_scale": "DISTRICT",
+      "child_scale": "URBAN_ENSEMBLE",
+      "recipient": "minecraft-planner",
+      "authority": "DESIGN_PROPOSAL",
+      "scope_refs": [
+        "BLOCK-01",
+        "PARCEL-01",
+        "PARCEL-02",
+        "FRONTAGE-01",
+        "FRONTAGE-02"
+      ],
+      "geometry_ref": "planning-data.json / parcels01..02",
+      "accounting_area_blocks2": 269,
+      "households": 2,
+      "why": "下肩先修理、上沿复核短宿的混合前沿，门前共享通行使两家不封公共院",
+      "upstream_fixed": [
+        "北侧两地块不是整栋楼体",
+        "保留LANE-04与东轻载出口",
+        "不直接假设常住供给与土地用益已获准",
+        "地下现状不得擅改"
+      ],
+      "downstream_to_resolve": [
+        "门前高差与家庭后院/入口关系",
+        "P02较浅地块的生活与复核是否兼容",
+        "原权属、既有人工痕迹和基底",
+        "需要分户时证明可居住尺度，不自动由2户升3户"
+      ],
+      "downstream_adaptable": [
+        "内部建筑占地与院落划分",
+        "等价门前移位与局部边界协商",
+        "嵌入修理/值守的具体关系"
+      ],
+      "dependencies": [
+        "PACKAGE-03公共接口",
+        "MP-P03 PACKAGE-02/03供水日需协调"
+      ],
+      "revision_triggers": [
+        "两户使用无法与公共通行共存且局部调整无解",
+        "普通地基/门前适应不相称",
+        "现状权属冲突不可移位"
+      ],
+      "revision_protocol": "提交最小parcel/frontage/接口变化，不覆写父案；改变容量或公共关系须父层重Gate",
+      "expected_outputs": [
+        "ensemble地块组内关系与拟建体量接口",
+        "共享通行与门前剖面要求",
+        "条件闭合/未证账本",
+        "之后才形成Builder package"
+      ],
+      "world_write_authorization": false,
+      "builder_ready": false
+    }
+  ],
+  "public_contract": [
+    {
+      "id": "PACKAGE-03",
+      "parent_plan": "MP-P04-WEST-APPROACH",
+      "parent_revision": "r1",
+      "parent_scale": "DISTRICT",
+      "child_scale": "URBAN_ENSEMBLE",
+      "recipient": "minecraft-planner",
+      "authority": "DESIGN_PROPOSAL",
+      "scope_refs": [
+        "BLOCK-03",
+        "PARCEL-05",
+        "SPACE-01",
+        "SPACE-02",
+        "LANE-01",
+        "LANE-02",
+        "LANE-03",
+        "LANE-04"
+      ],
+      "geometry_ref": "planning-data.json / parcel05 + shared_spaces + lanes",
+      "accounting_area_blocks2": 913,
+      "households": 0,
+      "accounting_note": "P05计60，公院门前与路带并集853；其它包只引用共同空间，不再计地",
+      "why": "公共首卸、轻载穿行和门前/后巷接口必须先形成共同契约，才能约束两侧各户",
+      "upstream_fixed": [
+        "西先卸、东轻载、不能封横向通路",
+        "公院不因临街竞争被填满",
+        "普通坡面分段使用，不建整片等高大平台",
+        "供水与污物不得把共用东口当自然完全分离",
+        "原16格浅空气避让；L03新深空气先核定"
+      ],
+      "downstream_to_resolve": [
+        "连续路带净宽、转弯、入口跨边界衔接及地役",
+        "院内首卸/等待/轻载的峰值共用和时序",
+        "供水方案及洁净到货接口，替代来源可能改变来向",
+        "污物收集终端与清运时序",
+        "P05短储能力与其它包储备不得重复",
+        "高差、基底与防堵接口"
+      ],
+      "downstream_adaptable": [
+        "局部线位/停留面调整",
+        "同等作用的共享接口实现",
+        "普通步级/坡面/挡护选项在Planner层比较，不固定Builder结构"
+      ],
+      "dependencies": [
+        "PACKAGE-01/02门前接口",
+        "MP-P03 ROUTE-01/02及PACKAGE-02/03"
+      ],
+      "revision_triggers": [
+        "合理错峰、局部绕行或普通路工仍不能维持首卸与穿行",
+        "日需/供水普通适应失败",
+        "通行权不能取得",
+        "改动会令总面积超1600或增加父聚落总额度"
+      ],
+      "revision_protocol": "只提最小共同空间/route/capacity关系修订；未解决前不得输出Builder-ready",
+      "expected_outputs": [
+        "带条件的ensemble公共接口图和剖面要求",
+        "有效通达与使用协议问题清单",
+        "各包互不重复的容量核算",
+        "需回父层的证据或可继续L4结论"
+      ],
+      "world_write_authorization": false,
+      "builder_ready": false
+    }
+  ],
+  "parcels": [
+    {
+      "id": "PARCEL-01",
+      "block_ref": "BLOCK-01",
+      "name": "下肩修理与值守合院",
+      "polygon": [
+        [
+          750,
+          1627
+        ],
+        [
+          765,
+          1623
+        ],
+        [
+          768,
+          1624
+        ],
+        [
+          768,
+          1631
+        ],
+        [
+          760,
+          1633
+        ],
+        [
+          751,
+          1636
+        ]
+      ],
+      "frontage": [
+        [
+          751,
+          1636
+        ],
+        [
+          760,
+          1633
+        ],
+        [
+          768,
+          1631
+        ]
+      ],
+      "households": 1,
+      "why": "西来货物最先需要小修理；较低肩部保留门前停留，生活小院嵌在后侧，较宽占地承担工作与工具暂存。",
+      "growth": "GROWTH-02",
+      "access": "SPACE-01 / LANE-04",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry_semantics": "PROVISIONAL_PARCEL_OR_SHARED_SPACE_NOT_BUILDING",
+      "source_refs": [
+        "SRC-PARENT",
+        "SRC-FACT",
+        "SRC-CANON",
+        "SRC-ASSESSMENT"
+      ],
+      "metrics": {
+        "polygon_area": 152.5,
+        "cell_center_area": 151,
+        "outside_scope_cells": 0,
+        "ground_y_range": [
+          129,
+          133
+        ],
+        "void24_columns": 0,
+        "void16_columns": 0,
+        "soil_columns": 0,
+        "above_ground_nonair_columns": 0,
+        "public_edge_adjacent_cells": 16
+      },
+      "tenure": "PROPOSED_FAMILY_USE_NOT_CONFIRMED_TITLE",
+      "rear_space_semantic": "家庭院落包含于地块内，确切房屋/院界由L4决定",
+      "ground_condition": "NO_AIR_OBSERVED_TO24_NOT_STABILITY_PROOF"
+    },
+    {
+      "id": "PARCEL-02",
+      "block_ref": "BLOCK-01",
+      "name": "上沿复核与短宿合院",
+      "polygon": [
+        [
+          771,
+          1625
+        ],
+        [
+          792,
+          1628
+        ],
+        [
+          793,
+          1633
+        ],
+        [
+          786,
+          1636
+        ],
+        [
+          779,
+          1630
+        ],
+        [
+          773,
+          1630
+        ]
+      ],
+      "frontage": [
+        [
+          779,
+          1630
+        ],
+        [
+          786,
+          1636
+        ],
+        [
+          793,
+          1633
+        ]
+      ],
+      "households": 1,
+      "why": "较高且临轻载出口，接单复核与值守短宿混合；不截断通往上台的东口。",
+      "growth": "GROWTH-02",
+      "access": "LANE-02 / LANE-04",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry_semantics": "PROVISIONAL_PARCEL_OR_SHARED_SPACE_NOT_BUILDING",
+      "source_refs": [
+        "SRC-PARENT",
+        "SRC-FACT",
+        "SRC-CANON",
+        "SRC-ASSESSMENT"
+      ],
+      "metrics": {
+        "polygon_area": 120.5,
+        "cell_center_area": 118,
+        "outside_scope_cells": 0,
+        "ground_y_range": [
+          133,
+          136
+        ],
+        "void24_columns": 0,
+        "void16_columns": 0,
+        "soil_columns": 0,
+        "above_ground_nonair_columns": 0,
+        "public_edge_adjacent_cells": 10
+      },
+      "tenure": "PROPOSED_FAMILY_USE_NOT_CONFIRMED_TITLE",
+      "rear_space_semantic": "家庭院落包含于地块内，确切房屋/院界由L4决定",
+      "ground_condition": "NO_AIR_OBSERVED_TO24_NOT_STABILITY_PROOF"
+    }
+  ],
+  "lanes": [
+    {
+      "id": "LANE-02",
+      "name": "东向轻载横通",
+      "points": [
+        [
+          778,
+          1641
+        ],
+        [
+          787,
+          1638
+        ],
+        [
+          796,
+          1634
+        ]
+      ],
+      "width": 3,
+      "mode": "PEDESTRIAN_LIGHT_LOAD",
+      "why": "从交割院通向父包ROUTE-02，侧门和停货不截断贯穿。",
+      "growth": "GROWTH-01",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry_semantics": "PLANNING_LANE_ENVELOPE_NOT_ENGINEERED_ROAD",
+      "source_refs": [
+        "SRC-PARENT",
+        "SRC-FACT",
+        "SRC-CANON",
+        "SRC-ASSESSMENT"
+      ],
+      "metrics": {
+        "polygon_area": null,
+        "cell_center_area": 58,
+        "outside_scope_cells": 3,
+        "ground_y_range": [
+          134,
+          136
+        ],
+        "void24_columns": 0,
+        "void16_columns": 0,
+        "soil_columns": 0,
+        "above_ground_nonair_columns": 0
+      },
+      "rights": "PROPOSED_EASEMENT_NOT_CONFIRMED",
+      "usable_route": "UNVERIFIED",
+      "width_semantic": "规划通行带名义宽度，非实机净宽认证；端头跨父边界部分另协调，不计本包"
+    },
+    {
+      "id": "LANE-04",
+      "name": "北前沿门前通行",
+      "points": [
+        [
+          751,
+          1637
+        ],
+        [
+          760,
+          1634
+        ],
+        [
+          769,
+          1632
+        ],
+        [
+          778,
+          1631
+        ],
+        [
+          786,
+          1638
+        ]
+      ],
+      "width": 2,
+      "mode": "PEDESTRIAN",
+      "why": "跨不同家庭门前的连续通行地役；不把院沿缝隙分配为私人可堵门廊。",
+      "growth": "GROWTH-02",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry_semantics": "PLANNING_LANE_ENVELOPE_NOT_ENGINEERED_ROAD",
+      "source_refs": [
+        "SRC-PARENT",
+        "SRC-FACT",
+        "SRC-CANON",
+        "SRC-ASSESSMENT"
+      ],
+      "metrics": {
+        "polygon_area": null,
+        "cell_center_area": 84,
+        "outside_scope_cells": 0,
+        "ground_y_range": [
+          130,
+          135
+        ],
+        "void24_columns": 0,
+        "void16_columns": 0,
+        "soil_columns": 0,
+        "above_ground_nonair_columns": 0
+      },
+      "rights": "PROPOSED_EASEMENT_NOT_CONFIRMED",
+      "usable_route": "UNVERIFIED",
+      "width_semantic": "规划通行带名义宽度，非实机净宽认证；端头跨父边界部分另协调，不计本包"
+    }
+  ],
+  "shared_spaces": [
+    {
+      "id": "SPACE-01",
+      "name": "卸载—复核共同院",
+      "polygon": [
+        [
+          750,
+          1638
+        ],
+        [
+          760,
+          1634
+        ],
+        [
+          774,
+          1632
+        ],
+        [
+          779,
+          1632
+        ],
+        [
+          785,
+          1638
+        ],
+        [
+          786,
+          1643
+        ],
+        [
+          780,
+          1652
+        ],
+        [
+          761,
+          1652
+        ],
+        [
+          753,
+          1648
+        ]
+      ],
+      "controller": "多共同体使用协议，待批准",
+      "use": "西侧分批卸载，东侧轻载交付；院内通行与轮候分时，非驻养牲畜场",
+      "protection": "沿院家庭不能圈占；最高峰溢出先错峰，不延伸到西南浅层异常边",
+      "growth": "GROWTH-01",
+      "authority": "DESIGN_PROPOSAL",
+      "geometry_semantics": "PROVISIONAL_PARCEL_OR_SHARED_SPACE_NOT_BUILDING",
+      "source_refs": [
+        "SRC-PARENT",
+        "SRC-FACT",
+        "SRC-CANON",
+        "SRC-ASSESSMENT"
+      ],
+      "metrics": {
+        "polygon_area": 569.5,
+        "cell_center_area": 567,
+        "outside_scope_cells": 0,
+        "ground_y_range": [
+          130,
+          135
+        ],
+        "void24_columns": 0,
+        "void16_columns": 0,
+        "soil_columns": 0,
+        "above_ground_nonair_columns": 0
+      }
+    }
+  ]
+}

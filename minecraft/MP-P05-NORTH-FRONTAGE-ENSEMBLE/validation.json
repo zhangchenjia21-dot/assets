@@ -1,0 +1,21 @@
+{
+  "world_writes": 0,
+  "parcel_counts": [
+    151,
+    118
+  ],
+  "parcel_overlap": 0,
+  "zone_partition_unique": true,
+  "parent_parcel_geometry_unchanged": true,
+  "public_lane_envelope_overlap_columns": {
+    "LANE-02": 0,
+    "LANE-04": 0
+  },
+  "note": "如父规划路带与私用列交叠，通行优先；关系mask不是可封闭建筑面",
+  "missing_surface_columns": 0,
+  "building_design": "NOT_PERFORMED",
+  "collision_and_usable_route": "UNVERIFIED",
+  "foundation_stability": "UNVERIFIED",
+  "rights": "UNRESOLVED",
+  "data_checks_not_quality_proof": true
+}

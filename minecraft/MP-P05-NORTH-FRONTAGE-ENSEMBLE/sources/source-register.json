@@ -1,0 +1,49 @@
+{
+  "skill_commit": "0e4cfe2d8bfc66b724c38cd80c5bf59bcd9940ca",
+  "sources": [
+    {
+      "id": "SRC-PARENT",
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P04-WEST-APPROACH\\implementation-packages.json",
+      "sha256": "8d861fe4b0831d0fd35804fcf2dabff099394298d4bf37d53aaedc21d9ff37e8",
+      "authority": "DESIGN_PROPOSAL",
+      "used_for": "PACKAGE-01 and direct PACKAGE-03 interface only"
+    },
+    {
+      "id": "SRC-PARCELS",
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P04-WEST-APPROACH\\planning-data.json",
+      "sha256": "a68291991164865a52ddc2a361c2def9810e5cf17d16e6da6c8d39c93e174e17",
+      "authority": "DESIGN_PROPOSAL",
+      "used_for": "P01/P02 L02/L04 SPACE01 only"
+    },
+    {
+      "id": "SRC-CANON",
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\world\\civilizations\\CIV-001\\README.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "authority": "APPROVED_CANON",
+      "used_for": "CIV001 minimal canon; no architecture answer links followed"
+    },
+    {
+      "id": "SRC-SURFACE",
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P04-WEST-APPROACH\\evidence\\surface-crop.json.gz",
+      "sha256": "051bd85c47d8a2c675021a71b4d2b4aa6b4bdfb98b0a3e6c8da106a0dc475848",
+      "authority": "OBSERVED",
+      "used_for": "factual cropped surface"
+    },
+    {
+      "id": "SRC-NEAR",
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P04-WEST-APPROACH\\evidence\\near-ground.json.gz",
+      "sha256": "c7f8834c71f91e2bbd7862cbe1bcce4186d04d3d9a710bd59196a2ba7d03971a",
+      "authority": "OBSERVED",
+      "used_for": "factual shallow read"
+    },
+    {
+      "id": "SRC-SKILL",
+      "path": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05-NORTH-FRONTAGE-ENSEMBLE\\sources\\skill\\SKILL.md",
+      "sha256": "a6f2e3d248d9846a9e1d51fd7f47d0cb390180a107dbf8733a604172230eef20",
+      "authority": "OWNER_CONSTRAINT",
+      "used_for": "v0.4 workflow"
+    }
+  ],
+  "isolation_note": "未读取独立审核内容。一次父包JSON深度1输出连带出现PACKAGE-02摘要，未作设计依据；归档和实际几何只取PACKAGE-01及公共接口。远端FF仅报告新增review文件名，未打开内容。",
+  "freshness": "Source hashes match inherited readonly snapshot; not a new simulation"
+}

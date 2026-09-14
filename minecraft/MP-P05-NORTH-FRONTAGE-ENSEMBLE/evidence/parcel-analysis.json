@@ -1,0 +1,51 @@
+{
+  "authority": "DERIVED",
+  "sample_semantics": "integer world columns, polygon selection at x+.5/z+.5; ground_y is block Y, not walking elevation",
+  "stats": [
+    {
+      "parcel": "PARCEL-01",
+      "cell_count": 151,
+      "ground_y_range": [
+        129,
+        133
+      ],
+      "surface": {
+        "minecraft:stone": 149,
+        "minecraft:coal_ore": 2
+      },
+      "air_to24_columns": 0,
+      "above4_nonair_columns": 0,
+      "zone_counts": {
+        "FRONT_THRESHOLD": 24,
+        "PRIVATE_YARD": 35,
+        "FLEX_BUILDING_SEARCH": 92,
+        "NARROW_SERVICE": 0
+      }
+    },
+    {
+      "parcel": "PARCEL-02",
+      "cell_count": 118,
+      "ground_y_range": [
+        133,
+        136
+      ],
+      "surface": {
+        "minecraft:stone": 118
+      },
+      "air_to24_columns": 0,
+      "above4_nonair_columns": 0,
+      "zone_counts": {
+        "FRONT_THRESHOLD": 24,
+        "PRIVATE_YARD": 15,
+        "FLEX_BUILDING_SEARCH": 53,
+        "NARROW_SERVICE": 26
+      }
+    }
+  ],
+  "limitations": [
+    "No air observed to24 does not certify foundations",
+    "Surface rock does not prove resource yield",
+    "Deep block entities are not identified ownership",
+    "Actual movement and future building usable routes UNVERIFIED"
+  ]
+}
