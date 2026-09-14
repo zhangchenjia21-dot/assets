@@ -1,0 +1,1672 @@
+{
+  "baseline_id": "I02A2-PUBLIC-BDP01",
+  "revision": "r1",
+  "authority": "DESIGN_PROPOSAL",
+  "scope": "BDP-01 frontage only: original LANE-04 control points (751,1637) to (769,1632)",
+  "coordinate_semantic": "World X/Z; cells are complete unit squares, closed shared edges; Y is walking surface height.",
+  "spine": [
+    [
+      751,
+      1637
+    ],
+    [
+      756,
+      1637
+    ],
+    [
+      756,
+      1635
+    ],
+    [
+      760,
+      1635
+    ],
+    [
+      760,
+      1634
+    ],
+    [
+      765,
+      1634
+    ],
+    [
+      765,
+      1633
+    ],
+    [
+      769,
+      1633
+    ],
+    [
+      769,
+      1632
+    ]
+  ],
+  "sweep_kernel": {
+    "metric": "L_INFINITY",
+    "half_width": 1,
+    "turns": "FULL_2_BY_2_SQUARE",
+    "caps": "SQUARE"
+  },
+  "protected_horizontal_geometry": {
+    "type": "EXACT_UNION_OF_CLOSED_RECTANGLES",
+    "rectangles": [
+      {
+        "x": [
+          750,
+          757
+        ],
+        "z": [
+          1636,
+          1638
+        ]
+      },
+      {
+        "x": [
+          755,
+          757
+        ],
+        "z": [
+          1634,
+          1638
+        ]
+      },
+      {
+        "x": [
+          755,
+          761
+        ],
+        "z": [
+          1634,
+          1636
+        ]
+      },
+      {
+        "x": [
+          759,
+          761
+        ],
+        "z": [
+          1633,
+          1636
+        ]
+      },
+      {
+        "x": [
+          759,
+          766
+        ],
+        "z": [
+          1633,
+          1635
+        ]
+      },
+      {
+        "x": [
+          764,
+          766
+        ],
+        "z": [
+          1632,
+          1635
+        ]
+      },
+      {
+        "x": [
+          764,
+          770
+        ],
+        "z": [
+          1632,
+          1634
+        ]
+      },
+      {
+        "x": [
+          768,
+          770
+        ],
+        "z": [
+          1631,
+          1634
+        ]
+      }
+    ],
+    "cells": [
+      [
+        750,
+        1636
+      ],
+      [
+        750,
+        1637
+      ],
+      [
+        751,
+        1636
+      ],
+      [
+        751,
+        1637
+      ],
+      [
+        752,
+        1636
+      ],
+      [
+        752,
+        1637
+      ],
+      [
+        753,
+        1636
+      ],
+      [
+        753,
+        1637
+      ],
+      [
+        754,
+        1636
+      ],
+      [
+        754,
+        1637
+      ],
+      [
+        755,
+        1634
+      ],
+      [
+        755,
+        1635
+      ],
+      [
+        755,
+        1636
+      ],
+      [
+        755,
+        1637
+      ],
+      [
+        756,
+        1634
+      ],
+      [
+        756,
+        1635
+      ],
+      [
+        756,
+        1636
+      ],
+      [
+        756,
+        1637
+      ],
+      [
+        757,
+        1634
+      ],
+      [
+        757,
+        1635
+      ],
+      [
+        758,
+        1634
+      ],
+      [
+        758,
+        1635
+      ],
+      [
+        759,
+        1633
+      ],
+      [
+        759,
+        1634
+      ],
+      [
+        759,
+        1635
+      ],
+      [
+        760,
+        1633
+      ],
+      [
+        760,
+        1634
+      ],
+      [
+        760,
+        1635
+      ],
+      [
+        761,
+        1633
+      ],
+      [
+        761,
+        1634
+      ],
+      [
+        762,
+        1633
+      ],
+      [
+        762,
+        1634
+      ],
+      [
+        763,
+        1633
+      ],
+      [
+        763,
+        1634
+      ],
+      [
+        764,
+        1632
+      ],
+      [
+        764,
+        1633
+      ],
+      [
+        764,
+        1634
+      ],
+      [
+        765,
+        1632
+      ],
+      [
+        765,
+        1633
+      ],
+      [
+        765,
+        1634
+      ],
+      [
+        766,
+        1632
+      ],
+      [
+        766,
+        1633
+      ],
+      [
+        767,
+        1632
+      ],
+      [
+        767,
+        1633
+      ],
+      [
+        768,
+        1631
+      ],
+      [
+        768,
+        1632
+      ],
+      [
+        768,
+        1633
+      ],
+      [
+        769,
+        1631
+      ],
+      [
+        769,
+        1632
+      ],
+      [
+        769,
+        1633
+      ]
+    ]
+  },
+  "minimum_horizontal_clear": 2,
+  "minimum_vertical_clear": 3,
+  "continuous_width_proof": "For every point on the continuous spine, its closed [-1,1]^2 translate lies in the rectangle union. This contains the Euclidean radius-1 disk, including at every turn. This is a proposal clearance proof, not runtime movement.",
+  "design_surface": {
+    "type": "CONTINUOUS_PIECEWISE_LINEAR_HEIGHT_FIELD",
+    "formula": "Y=H(X), independent of Z; linearly interpolate profile breakpoints",
+    "profile_x_y": [
+      [
+        750,
+        131
+      ],
+      [
+        754,
+        131
+      ],
+      [
+        755,
+        132
+      ],
+      [
+        760,
+        132
+      ],
+      [
+        762,
+        133
+      ],
+      [
+        767,
+        133
+      ],
+      [
+        768,
+        134
+      ],
+      [
+        770,
+        134
+      ]
+    ],
+    "per_cell": [
+      {
+        "x": 750,
+        "z": 1636,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          131.0,
+          131.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.0,
+        "protected_vertical_interval": [
+          131.0,
+          134.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 750,
+        "z": 1637,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          131.0,
+          131.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.0,
+        "protected_vertical_interval": [
+          131.0,
+          134.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 751,
+        "z": 1636,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          131.0,
+          131.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.0,
+        "protected_vertical_interval": [
+          131.0,
+          134.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 751,
+        "z": 1637,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          131.0,
+          131.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.0,
+        "protected_vertical_interval": [
+          131.0,
+          134.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 752,
+        "z": 1636,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          131.0,
+          131.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.0,
+        "protected_vertical_interval": [
+          131.0,
+          134.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 752,
+        "z": 1637,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          131.0,
+          131.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.0,
+        "protected_vertical_interval": [
+          131.0,
+          134.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 753,
+        "z": 1636,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          131.0,
+          131.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.0,
+        "protected_vertical_interval": [
+          131.0,
+          134.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 753,
+        "z": 1637,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          131.0,
+          131.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.0,
+        "protected_vertical_interval": [
+          131.0,
+          134.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 754,
+        "z": 1636,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          132.0,
+          132.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.5,
+        "protected_vertical_interval": [
+          131.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 754,
+        "z": 1637,
+        "observed_ground_block_y": 130,
+        "observed_surface_y": 131,
+        "design_surface_corner_y": [
+          131.0,
+          132.0,
+          132.0,
+          131.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 131.5,
+        "protected_vertical_interval": [
+          131.0,
+          135.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 755,
+        "z": 1634,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 755,
+        "z": 1635,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 755,
+        "z": 1636,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 755,
+        "z": 1637,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 756,
+        "z": 1634,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 756,
+        "z": 1635,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 756,
+        "z": 1636,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 756,
+        "z": 1637,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 757,
+        "z": 1634,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 757,
+        "z": 1635,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 758,
+        "z": 1634,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 758,
+        "z": 1635,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 759,
+        "z": 1633,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 759,
+        "z": 1634,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 759,
+        "z": 1635,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.0,
+          132.0,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.0,
+        "protected_vertical_interval": [
+          132.0,
+          135.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 760,
+        "z": 1633,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.5,
+          132.5,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.25,
+        "protected_vertical_interval": [
+          132.0,
+          135.5
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 760,
+        "z": 1634,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.5,
+          132.5,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.25,
+        "protected_vertical_interval": [
+          132.0,
+          135.5
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 760,
+        "z": 1635,
+        "observed_ground_block_y": 131,
+        "observed_surface_y": 132,
+        "design_surface_corner_y": [
+          132.0,
+          132.5,
+          132.5,
+          132.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.25,
+        "protected_vertical_interval": [
+          132.0,
+          135.5
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 761,
+        "z": 1633,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          132.5,
+          133.0,
+          133.0,
+          132.5
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.75,
+        "protected_vertical_interval": [
+          132.5,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 761,
+        "z": 1634,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          132.5,
+          133.0,
+          133.0,
+          132.5
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 132.75,
+        "protected_vertical_interval": [
+          132.5,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 762,
+        "z": 1633,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 762,
+        "z": 1634,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 763,
+        "z": 1633,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 763,
+        "z": 1634,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 764,
+        "z": 1632,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 764,
+        "z": 1633,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 764,
+        "z": 1634,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 765,
+        "z": 1632,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 765,
+        "z": 1633,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 765,
+        "z": 1634,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 766,
+        "z": 1632,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 766,
+        "z": 1633,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          133.0,
+          133.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.0,
+        "protected_vertical_interval": [
+          133.0,
+          136.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 767,
+        "z": 1632,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          134.0,
+          134.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.5,
+        "protected_vertical_interval": [
+          133.0,
+          137.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 767,
+        "z": 1633,
+        "observed_ground_block_y": 132,
+        "observed_surface_y": 133,
+        "design_surface_corner_y": [
+          133.0,
+          134.0,
+          134.0,
+          133.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 133.5,
+        "protected_vertical_interval": [
+          133.0,
+          137.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 768,
+        "z": 1631,
+        "observed_ground_block_y": 133,
+        "observed_surface_y": 134,
+        "design_surface_corner_y": [
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 134.0,
+        "protected_vertical_interval": [
+          134.0,
+          137.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 768,
+        "z": 1632,
+        "observed_ground_block_y": 133,
+        "observed_surface_y": 134,
+        "design_surface_corner_y": [
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 134.0,
+        "protected_vertical_interval": [
+          134.0,
+          137.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 768,
+        "z": 1633,
+        "observed_ground_block_y": 133,
+        "observed_surface_y": 134,
+        "design_surface_corner_y": [
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 134.0,
+        "protected_vertical_interval": [
+          134.0,
+          137.0
+        ],
+        "public_source": "COMMON-EDGE"
+      },
+      {
+        "x": 769,
+        "z": 1631,
+        "observed_ground_block_y": 133,
+        "observed_surface_y": 134,
+        "design_surface_corner_y": [
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 134.0,
+        "protected_vertical_interval": [
+          134.0,
+          137.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 769,
+        "z": 1632,
+        "observed_ground_block_y": 133,
+        "observed_surface_y": 134,
+        "design_surface_corner_y": [
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 134.0,
+        "protected_vertical_interval": [
+          134.0,
+          137.0
+        ],
+        "public_source": "LANE-04"
+      },
+      {
+        "x": 769,
+        "z": 1633,
+        "observed_ground_block_y": 133,
+        "observed_surface_y": 134,
+        "design_surface_corner_y": [
+          134.0,
+          134.0,
+          134.0,
+          134.0
+        ],
+        "corner_order": [
+          "x,z",
+          "x+1,z",
+          "x+1,z+1",
+          "x,z+1"
+        ],
+        "design_surface_center_y": 134.0,
+        "protected_vertical_interval": [
+          134.0,
+          137.0
+        ],
+        "public_source": "COMMON-EDGE"
+      }
+    ],
+    "authority": "DESIGN_PROPOSAL",
+    "native_translation": "A planning surface, not native block geometry. Detailed public steps/paving remain implementation authorship; any realization must retain minimum clear width/height and the fixed contact/port levels."
+  },
+  "vertical_protection": "For each cell reserve [min(corner surface Y), max(corner surface Y)+3]. Only the declared walking surface/support may occupy below its local H(X); no door, roof, storage, railing or discharge may occupy the above-surface clearance.",
+  "ports": [
+    {
+      "id": "WEST",
+      "point": [
+        751,
+        1637
+      ],
+      "surface_y": 131,
+      "cap_square": {
+        "x": [
+          750,
+          752
+        ],
+        "z": [
+          1636,
+          1638
+        ]
+      },
+      "source": "r1 LANE-04 first original control point; observed surface131"
+    },
+    {
+      "id": "EAST",
+      "point": [
+        769,
+        1632
+      ],
+      "surface_y": 134,
+      "cap_square": {
+        "x": [
+          768,
+          770
+        ],
+        "z": [
+          1631,
+          1633
+        ]
+      },
+      "source": "r1 LANE-04 third original control point; observed surface134"
+    }
+  ],
+  "threshold": {
+    "private_cell": [
+      757,
+      1633
+    ],
+    "shared_face": {
+      "x": [
+        757,
+        758
+      ],
+      "z": 1634,
+      "surface_y": 132
+    },
+    "public_connection_axis": [
+      [
+        757.5,
+        1634
+      ],
+      [
+        757.5,
+        1635
+      ]
+    ],
+    "connection_surface_y": 132,
+    "private_entry_clear_width": 1,
+    "public_through_clear_width": 2,
+    "semantic": "One-block private entrance opens directly onto the protected public strip; it does not reduce the continuous two-block through corridor. No private door is redesigned."
+  },
+  "adjustment_envelope": {
+    "horizontal_shift": 0,
+    "parcel_expansion": 0,
+    "private_contact_surface_delta": 0,
+    "port_surface_delta": 0,
+    "protected_surface_delta": 0,
+    "rule": "This revision fixes the continuous planning control surface and corridor. Builder may adjust only private doors, apron and internal rise within existing parcel; no public obstruction. Public realization must satisfy this baseline. Any incompatible local adjustment returns a new interface revision."
+  },
+  "coordination": {
+    "role": "PUBLIC-COORDINATOR",
+    "kind": "TASK_LOCAL_PLANNING_COORDINATION_ROLE",
+    "assigned_by": "MP-I02A2 task boundary",
+    "responsibility": "Own this public baseline, preserve port/threshold continuity, coordinate public detailed realization and accept minimal interface issues.",
+    "actual_institution_appointment_required_for_planning_freeze": false,
+    "easement_approval_required_for_planning_freeze": false,
+    "land_easement_world_write_resolve_before": "BEFORE_WORLD_WRITE"
+  },
+  "runtime_movement_verified": false,
+  "world_write_authorization": false,
+  "boundary_of_claim": "Local geometric continuity from threshold to both existing LANE-04 control points is specified. Does not certify construction, native movement, the rest of LANE-04, LANE-01/02 operations or actual land rights."
+}

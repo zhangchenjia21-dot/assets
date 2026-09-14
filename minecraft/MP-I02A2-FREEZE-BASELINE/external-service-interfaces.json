@@ -1,0 +1,82 @@
+{
+  "revision": "r3",
+  "revision_package": "MP-I02A2-r1",
+  "source_plan_revision": "MP-P05R2-r1",
+  "scope": "BDP-01 only",
+  "services": [
+    {
+      "service_id": "R2-S1-CLEAN_WATER",
+      "service_type": "CLEAN_WATER",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认水源、送达来向、供水节奏/水质与持续能力；现有父包没有已闭合的供水承诺",
+      "local_requirement": "户内保留洁净接收和日需小储备空间；不得因裸岩推断地下水，也不预定打井坐标",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_PERMANENT_OCCUPATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "洁净水"
+    },
+    {
+      "service_id": "R2-S1-WASTE",
+      "service_type": "WASTE",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认转运终端、时间和责任；不得由家庭Builder发明场外终端",
+      "local_requirement": "户内封闭暂存、按批带出；洁净收水和污物搬出不同时间，不宣称东口天然洁污分离",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_OPERATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "污物收集"
+    },
+    {
+      "service_id": "R2-S1-GOODS_FUEL",
+      "service_type": "GOODS_FUEL",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认转运终端、时间和责任；不得由家庭Builder发明场外终端",
+      "local_requirement": "仅手提批次送至门内apron；较重来货在公共首卸卸下，不在LANE-04长期存放",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_OPERATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "小批货物/燃料"
+    },
+    {
+      "service_id": "R2-S1-RAINWATER",
+      "service_revision": "r3",
+      "service_type": "RAINWATER",
+      "status": "PLANNING_INTERFACE_CLOSED_BUILDER_PERFORMANCE_OPEN",
+      "supersedes": {
+        "package": "MP-I02A",
+        "service_revision": "r2"
+      },
+      "cross_boundary_discharge": "FORBIDDEN_UNLESS_FUTURE_INTERFACE_REVISION",
+      "public_receiving_obligation": "NONE",
+      "builder_responsibility": "DESIGN_AND_PROVE_PARCEL_LOCAL_CLOSED_STRATEGY",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "interface_location_or_ref": {
+        "parcel": "BDP-01.json#spatial_envelope",
+        "boundary_semantic": "CELL_CENTER_MASK as inherited; full occupied columns, no edge tolerance",
+        "threshold": "R2-IF-THRESHOLD-1 r3 is access and no-discharge boundary only; NOT an outfall"
+      },
+      "upstream_or_downstream_owner": "BDP-01 Builder owns parcel-local design and proof; PUBLIC-COORDINATOR owns the public no-discharge boundary only.",
+      "neighbor_or_public_responsibility": "No receiving, conveyance, overflow or clearing commitment; no public outfall dependency.",
+      "allowed_local_adjustment": "Within original parcel, preserving household program, independent yard, foundation protections and public corridor. Exact roof/gutter/pipe/retention layout remains Builder authorship.",
+      "builder_to_prove": [
+        "Define justified design-event and failure assumptions; Planner supplies no invented rain or infiltration data.",
+        "Demonstrate collection, retention, recovery and safe failure within parcel; finite dry containers alone are not proof.",
+        "Demonstrate no boundary discharge or public/neighbor harm; no unproven external collection operation or assumed rock infiltration."
+      ],
+      "engineering_condition_id": "B-RAINWATER-PERFORMANCE",
+      "return_protocol": "If the parcel-local strategy cannot be proved without violating fixed program/boundaries, return a new UPSTREAM_PLANNING_ISSUE with attempted bounded adaptations and minimum requested interface revision. Never silently create an outfall.",
+      "planning_interface_state": "CLOSED_AT_PLANNING_LEVEL",
+      "performance_state": "UNRESOLVED_BUILDER_RESPONSIBILITY",
+      "world_write_authorization": false
+    }
+  ]
+}

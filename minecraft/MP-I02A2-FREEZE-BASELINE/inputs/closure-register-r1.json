@@ -1,0 +1,130 @@
+{
+  "test": "MP-I02A",
+  "package": "BDP-01",
+  "revision": "r1",
+  "regression_verdict": "NOT_ASSIGNED",
+  "design_state": "STALE_FOR_FIDELITY_REVIEW",
+  "world_writes": 0,
+  "issues": [
+    {
+      "id": "U-PUBLIC",
+      "interfaces": [
+        "R2-IF-THRESHOLD-1",
+        "R2-IF-LANE-04"
+      ],
+      "dependency_revision": "r2",
+      "owner": "PUBLIC-COORDINATOR + BDP-01",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "UNRESOLVED",
+      "evidence": "Observed contact around (757,1633) is surface Y132; internal proposal preserves this and absorbs remaining rise to Y134 privately. Public minimum is continuous 2 wide / 3 high, not the nominal route mask alone.",
+      "bounded_adaptation": "Two private doors and all landings/steps remain within P1. No lane movement or widening proposed.",
+      "why_insufficient": "Builder cannot approve public final elevation, easement or swept path on behalf of its owner.",
+      "minimum_upstream_change": "Countersign local threshold surface and the adjacent continuous public clear-envelope/section, with interface revision. No whole-plan rewrite requested.",
+      "affected_if_changed": [
+        "BDP-01 concept r1",
+        "R-FAMILY",
+        "R-WORK",
+        "private apron details"
+      ],
+      "closed_subconditions": [
+        "规划级接触面Y132、四列公共连接块及其3格净高要求已具体化。",
+        "本地adjustment envelope及Planner/Builder/公共角色责任已明确。"
+      ],
+      "minimum_missing_evidence": [
+        "两侧tie-in连续2格法向净宽、3格净高与标高衔接的局部几何/section证明。",
+        "PUBLIC-COORDINATOR规划责任承接/回签记录；不要求此时伪造真实地役许可。"
+      ],
+      "closure_limit": "四列连接块只完成局部设计控制，未证明两侧公共通行连续性。"
+    },
+    {
+      "id": "U-RAINWATER",
+      "interfaces": [
+        "R2-S1-RAINWATER",
+        "R2-IF-THRESHOLD-1"
+      ],
+      "dependency_revision": "r2",
+      "owner": "PUBLIC-COORDINATOR for receiving point; Builder for bounded roof collection",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "UNRESOLVED",
+      "evidence": "No approved public outfall. Model reserves two dry containers at (756,1625),(757,1625), no water blocks or cross-boundary pipe.",
+      "bounded_adaptation": "All roofs kept inside parcel; local finite collection reservation rather than direct street discharge.",
+      "why_insufficient": "Finite vessels do not establish design-storm capacity, overflow safety or receiving rights.",
+      "minimum_upstream_change": "Supply authorized receiving location/elevation/capacity responsibility, or approve a quantitatively verified closed local strategy. Then Builder resolves gutters, junctions and overflow.",
+      "affected_if_changed": [
+        "BDP-01 roof/collection design",
+        "R2-S1-RAINWATER"
+      ],
+      "closed_subconditions": [
+        "跨parcel责任与不可默认排放边界明确。",
+        "允许有条件研究闭合local strategy；当前仍只预留。"
+      ],
+      "minimum_missing_evidence": [
+        "外部路径：局部受纳点/标高/容量设计依据及责任承接。",
+        "或本地路径：有来源的设计事件、入流/有效储量/恢复质量平衡、超限失效安全证据及责任确认。"
+      ],
+      "closure_limit": "两个路径任选其一充分闭合后才能消除冻结前雨水HOLD；本轮没有量化数据。"
+    },
+    {
+      "id": "U-GROUND",
+      "owner": "Builder + authorized site/engineering reviewer",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "PARTIAL_EVIDENCE",
+      "evidence": "151 parcel columns and near-ground snapshot available. No proposed block is below observed ground_y, but top natural blocks are replaced for some floors.",
+      "bounded_adaptation": "No cellar or deep trench; separate shallow stepped plinths rather than whole-frontage platform.",
+      "minimum_closure": "Review exact load/influence volume, ground contact and known artificial-content protections before foundation freeze. Do not treat shallow no-air evidence as deep clearance.",
+      "handling_in_MP_I02A": "OUT_OF_SCOPE_UNCHANGED; no closure asserted"
+    },
+    {
+      "id": "U-HABITABILITY",
+      "owner": "Builder + household/Owner",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "CONCEPT_GEOMETRY_PROVIDED_NOT_CLOSED",
+      "evidence": "Two beds, cooking/living, daily storage, screened 2x2 sanitation, 18-cell yard and separate family route have dimensioned model geometry.",
+      "minimum_closure": "Confirm household design occupancy; finalize door privacy/weathering, ventilation, flue and fire separation, native railing/screen collision. Two-bed study is not evidence of actual household size.",
+      "handling_in_MP_I02A": "OUT_OF_SCOPE_UNCHANGED; no closure asserted"
+    },
+    {
+      "id": "U-TITLE",
+      "owner": "Owner + original rights holders",
+      "resolve_before": "BEFORE_WORLD_WRITE",
+      "status": "UNRESOLVED",
+      "minimum_closure": "Explicit target/revision/hash authorization, land-use and common-easement agreement. This task requests no construction.",
+      "handling_in_MP_I02A": "OUT_OF_SCOPE_UNCHANGED; no closure asserted"
+    },
+    {
+      "id": "U-SUPPLY",
+      "interfaces": [
+        "R2-S1-CLEAN_WATER",
+        "R2-S1-GOODS_FUEL"
+      ],
+      "owner": "PUBLIC-COORDINATOR + household operators",
+      "resolve_before": "BEFORE_PERMANENT_OCCUPATION",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "minimum_closure": "Actual clean-water source/quality/capacity, food/fuel delivery cadence, reserve and interruption response. Palette does not prove materials supply.",
+      "handling_in_MP_I02A": "OUT_OF_SCOPE_UNCHANGED; no closure asserted"
+    },
+    {
+      "id": "U-OPERATION",
+      "interfaces": [
+        "R2-S1-WASTE",
+        "R2-S1-GOODS_FUEL"
+      ],
+      "owner": "PUBLIC-COORDINATOR + household operators",
+      "resolve_before": "BEFORE_OPERATION",
+      "status": "UNRESOLVED",
+      "minimum_closure": "Waste destination/responsibility, closed carrying containers, clean/dirty time separation, and one-batch handheld work limit. No throughput claim.",
+      "handling_in_MP_I02A": "OUT_OF_SCOPE_UNCHANGED; no closure asserted"
+    },
+    {
+      "id": "B-TRANSLATION",
+      "owner": "Builder",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "DETAIL_AND_RUNTIME_UNVERIFIED",
+      "minimum_closure": "Compile selected native block states, roof flashing/gutters, chimney lumen and doors; recheck supports, stairs and route collision. Custom review boxes are not an executable Canonical Blueprint.",
+      "handling_in_MP_I02A": "OUT_OF_SCOPE_UNCHANGED; no closure asserted"
+    }
+  ],
+  "stop_rule": "Deliver MP-I02A revision package then stop for GPT + Owner; regression verdict NOT_ASSIGNED.",
+  "package_revision": "r2",
+  "review_status": "AWAITING_GPT_AND_OWNER"
+}

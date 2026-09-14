@@ -1,0 +1,42 @@
+[
+  {
+    "id": "U-PUBLIC",
+    "interfaces": [
+      "R2-IF-THRESHOLD-1",
+      "R2-IF-LANE-04"
+    ],
+    "dependency_revision": "r1",
+    "owner": "PUBLIC-COORDINATOR + BDP-01",
+    "resolve_before": "BEFORE_DESIGN_FREEZE",
+    "status": "UNRESOLVED",
+    "evidence": "Observed contact around (757,1633) is surface Y132; internal proposal preserves this and absorbs remaining rise to Y134 privately. Public minimum is continuous 2 wide / 3 high, not the nominal route mask alone.",
+    "bounded_adaptation": "Two private doors and all landings/steps remain within P1. No lane movement or widening proposed.",
+    "why_insufficient": "Builder cannot approve public final elevation, easement or swept path on behalf of its owner.",
+    "minimum_upstream_change": "Countersign local threshold surface and the adjacent continuous public clear-envelope/section, with interface revision. No whole-plan rewrite requested.",
+    "affected_if_changed": [
+      "BDP-01 concept r1",
+      "R-FAMILY",
+      "R-WORK",
+      "private apron details"
+    ]
+  },
+  {
+    "id": "U-RAINWATER",
+    "interfaces": [
+      "R2-S1-RAINWATER",
+      "R2-IF-THRESHOLD-1"
+    ],
+    "dependency_revision": "r1",
+    "owner": "PUBLIC-COORDINATOR for receiving point; Builder for bounded roof collection",
+    "resolve_before": "BEFORE_DESIGN_FREEZE",
+    "status": "UNRESOLVED",
+    "evidence": "No approved public outfall. Model reserves two dry containers at (756,1625),(757,1625), no water blocks or cross-boundary pipe.",
+    "bounded_adaptation": "All roofs kept inside parcel; local finite collection reservation rather than direct street discharge.",
+    "why_insufficient": "Finite vessels do not establish design-storm capacity, overflow safety or receiving rights.",
+    "minimum_upstream_change": "Supply authorized receiving location/elevation/capacity responsibility, or approve a quantitatively verified closed local strategy. Then Builder resolves gutters, junctions and overflow.",
+    "affected_if_changed": [
+      "BDP-01 roof/collection design",
+      "R2-S1-RAINWATER"
+    ]
+  }
+]

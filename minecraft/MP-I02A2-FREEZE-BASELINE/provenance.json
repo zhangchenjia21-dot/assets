@@ -1,0 +1,93 @@
+{
+  "test": "MP-I02A2",
+  "authority": "DESIGN_PROPOSAL under explicit current Owner task boundaries",
+  "planner_version": "0.5",
+  "shared_contract_version": "1.0",
+  "remote_HEAD_verified": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+  "date": "2026-09-14",
+  "records": [
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I02A-INTERFACE-CLOSURE\\BDP-01.json",
+      "sha256": "d007f4c253140d24f839ccce0e984078a43121bd3f027f54f39ffa12fb5c24c7",
+      "snapshot": "inputs/BDP-01-r2.json",
+      "selection": "whole authorized object"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I02A-INTERFACE-CLOSURE\\interface-baselines.json",
+      "sha256": "4f9bf536133393afc9b33fedb7e28f08b1141cfe05cdcefb19a233bb8231027f",
+      "snapshot": "inputs/interface-baselines-r2.json",
+      "selection": "whole authorized object"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I02A-INTERFACE-CLOSURE\\external-service-interfaces.json",
+      "sha256": "608fbb03b4614b42979381eb7503e0b17ec2cbcf77a3e211893d81038e4ad530",
+      "snapshot": "inputs/external-service-interfaces-r2.json",
+      "selection": "whole authorized object"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I02A-INTERFACE-CLOSURE\\closure-register.json",
+      "sha256": "80b20e5b065e3f75262153b8f8c75b2d51e8abbf88bcc11026578499a524ac39",
+      "snapshot": "inputs/closure-register-r1.json",
+      "selection": "whole authorized object"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I02A-INTERFACE-CLOSURE\\revision-lineage.json",
+      "sha256": "9ee15387dfdd68599844dadfe851c18843647ed59df002587f5da781ca6d275c",
+      "snapshot": "inputs/revision-lineage-r1.json",
+      "selection": "whole authorized object"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-I02A-INTERFACE-CLOSURE\\evidence\\公共接口地表切片.json",
+      "sha256": "cb8100cffa44a92768dbebd798dfcf78ee22576cd43e68bcf9a82e88516c07be",
+      "selection": "hash-only integrity check of BDP direct dependency; not otherwise consumed"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\evidence\\地表采样.json",
+      "sha256": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e",
+      "selection": "50 public swept-corridor cells + private threshold cell; no other surface rows output or archived",
+      "snapshot": "evidence/局部地表事实.json",
+      "parent_ref": "BDP-01 r2 source_dependencies_inherited"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\issues.json",
+      "sha256": "7e6eda8ce7741b63bc9f1b1c27b965971893b40fb4892f8dcfd1100e99a84e9f",
+      "selection": "U-PUBLIC and U-RAINWATER only, to confirm threshold and existing reservation locations",
+      "snapshot": "inputs/设计接口位置.json"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\world\\civilizations\\CIV-001\\README.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "snapshot": "inputs/CIV-001-Canon.md",
+      "selection": "current approved Canon/Grammar; current hash matches content loaded earlier in this conversation"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\architecture\\civilizations\\CIV-001\\Architecture-Grammar.md",
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6",
+      "snapshot": "inputs/CIV-001-Architecture-Grammar.md",
+      "selection": "current approved Canon/Grammar; current hash matches content loaded earlier in this conversation"
+    },
+    {
+      "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/minecraft-planner/SKILL.md",
+      "sha256": "71c4e5b26be761cda80afd4ce694bce2f046820560c91f5a1dc6c5fe0f745304",
+      "snapshot": "inputs/Planner-SKILL.md",
+      "selection": "current commit-pinned Skill / shared contract, previously read in this conversation and freshly fetched"
+    },
+    {
+      "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/shared/minecraft-planner-builder-contract.md",
+      "sha256": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8",
+      "snapshot": "inputs/planner-builder-contract.md",
+      "selection": "current commit-pinned Skill / shared contract, previously read in this conversation and freshly fetched"
+    }
+  ],
+  "owner_constraints": {
+    "public_role": "task-local; no actual appointment/easement needed for planning freeze",
+    "cross_boundary_discharge": "FORBIDDEN_UNLESS_FUTURE_INTERFACE_REVISION",
+    "public_receiving_obligation": "NONE",
+    "builder_responsibility": "DESIGN_AND_PROVE_PARCEL_LOCAL_CLOSED_STRATEGY",
+    "resolve_before": "BEFORE_DESIGN_FREEZE"
+  },
+  "disclosure": "No Independent Review, BDP-02, other Builder answer or full MP-P04 read. Original archives, Skills, contract, Canon and Minecraft saves untouched. No new memory/rollout lookup in this follow-up; current allowed sources are authoritative.",
+  "world_writes": 0,
+  "world_write_authorization": false,
+  "regression_verdict": "NOT_ASSIGNED"
+}

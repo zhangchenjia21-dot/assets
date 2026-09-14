@@ -1,0 +1,41 @@
+{
+  "revision_package": "MP-I02A-r1",
+  "parent": "MP-P05R2-r1 / BDP-01-r1",
+  "package_revision": "r2",
+  "scope": "BDP-01 only; not global replacement of MP-P05R2",
+  "interface_changes": [
+    {
+      "id": "R2-IF-THRESHOLD-1",
+      "from": "r1",
+      "to": "r2"
+    },
+    {
+      "id": "R2-IF-LANE-04",
+      "from": "r1",
+      "to": "r2"
+    },
+    {
+      "id": "R2-S1-RAINWATER",
+      "from": "r1",
+      "to": "r2"
+    }
+  ],
+  "unchanged_interfaces": [
+    "R2-IF-COMMON-EDGE",
+    "R2-IF-LANE-01",
+    "R2-IF-LANE-02",
+    "R2-S1-CLEAN_WATER",
+    "R2-S1-GOODS_FUEL",
+    "R2-S1-WASTE"
+  ],
+  "downstream": {
+    "design": "MP-I01R / BDP-01 concept r1",
+    "status": "STALE_FOR_FIDELITY_REVIEW",
+    "reason": "THRESHOLD-1 / LANE-04 / RAINWATER revisions r1 -> r2",
+    "original_design_modified": false,
+    "recheck": "Builder must consume r2 and recheck affected fidelity after interface HOLD closure; no automatic redesign authorized here."
+  },
+  "other_consumers": "未读取其它BDP或设计。共享LANE-04的其它消费者须在采用本BDP-01局部overlay前由公共协调方识别；本包不覆盖其r1。",
+  "regression_verdict": "NOT_ASSIGNED",
+  "world_writes": 0
+}
