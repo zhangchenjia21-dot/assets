@@ -1,0 +1,98 @@
+[
+  {
+    "file": "01.png",
+    "sha256": "1efd556aa1cad3a89b65b99d069a13420f4435881b977ab7c1981ce146dc5abf",
+    "world_bounds": [
+      89,
+      1550,
+      435,
+      1860
+    ],
+    "pixels_per_block": 3,
+    "map_origin": [
+      70,
+      130
+    ],
+    "coordinate_semantic": "Minecraft block-column X/Z; proposal not construction"
+  },
+  {
+    "file": "02.png",
+    "sha256": "1911247bcd5a3cace79f00009b2130f7663d64deb6ab1926dec3876c6b765fa7",
+    "world_bounds": [
+      89,
+      1550,
+      435,
+      1860
+    ],
+    "pixels_per_block": 3,
+    "map_origin": [
+      70,
+      130
+    ],
+    "coordinate_semantic": "Minecraft block-column X/Z; proposal not construction"
+  },
+  {
+    "file": "03.png",
+    "sha256": "c3405ac3839ee9baab3125ca2e6bca659114c3b0fc9fa595a0803908c3310164",
+    "world_bounds": [
+      89,
+      1550,
+      435,
+      1860
+    ],
+    "pixels_per_block": 3,
+    "map_origin": [
+      70,
+      130
+    ],
+    "coordinate_semantic": "Minecraft block-column X/Z; proposal not construction"
+  },
+  {
+    "file": "04.png",
+    "sha256": "99b7eb112b2dfd1afd5a33ea7eb7c4fd3600ef0d0e332a718c3c231e5821d981",
+    "world_bounds": [
+      89,
+      1550,
+      435,
+      1860
+    ],
+    "pixels_per_block": 3,
+    "map_origin": [
+      70,
+      130
+    ],
+    "coordinate_semantic": "Minecraft block-column X/Z; proposal not construction"
+  },
+  {
+    "file": "05.png",
+    "sha256": "53f21a01b43723100cb3572797fd43a6d4b71acce84b016263825e4af8d8650c",
+    "world_bounds": [
+      89,
+      1550,
+      435,
+      1860
+    ],
+    "pixels_per_block": 3,
+    "map_origin": [
+      70,
+      130
+    ],
+    "coordinate_semantic": "Minecraft block-column X/Z; proposal not construction"
+  },
+  {
+    "file": "06.png",
+    "sha256": "c4df00d184e85f98191b77c840e279632523cbe8acf73ce0bb028280bdfa5b9e",
+    "world_bounds": [
+      89,
+      1550,
+      435,
+      1860
+    ],
+    "pixels_per_block": 3,
+    "map_origin": [
+      70,
+      130
+    ],
+    "coordinate_semantic": "Minecraft block-column X/Z; proposal not construction"
+  }
+]

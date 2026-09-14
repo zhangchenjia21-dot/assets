@@ -1,0 +1,45 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "demands": [
+    {
+      "id": "BD-HOME",
+      "role": "常住家庭、学徒/照护与可独立回家",
+      "where": "三片均有，内城非商业时段生活最稳定",
+      "relation": "上层/背向混合的需求，不穿越营业仓或货院才能回家",
+      "count": "UNRESOLVED"
+    },
+    {
+      "id": "BD-TRADE",
+      "role": "即时与较长交易、日用市场",
+      "where": "门户短时服务 + 内城综合市场",
+      "relation": "共享人流，但不把政治访问变为强制交易",
+      "count": "UNRESOLVED"
+    },
+    {
+      "id": "BD-STOCK",
+      "role": "短存/消费侧储备/适合的修整加工",
+      "where": "门户小批、内城分散、后场批次",
+      "relation": "存货/火/水/承载条件决定规模，不把原矿都搬到城里",
+      "count": "UNRESOLVED"
+    },
+    {
+      "id": "BD-STAY",
+      "role": "食宿与旅人服务",
+      "where": "门户与市场之间嵌入常住生活",
+      "relation": "事件峰值与全年需求分开，避免整城旅馆化",
+      "count": "UNRESOLVED"
+    },
+    {
+      "id": "BD-COMMON",
+      "role": "市场、协商/记录、照护、公共服务",
+      "where": "PS-M及三片生活链",
+      "relation": "是地方生活支撑，不取代Commons联盟政治职能",
+      "count": "UNRESOLVED"
+    }
+  ],
+  "exact_buildings": [],
+  "first_build": "NOT_SELECTED_AT_L2",
+  "population_and_throughput": "UNKNOWN_NOT_BACKCALCULATED_FROM_AREA"
+}

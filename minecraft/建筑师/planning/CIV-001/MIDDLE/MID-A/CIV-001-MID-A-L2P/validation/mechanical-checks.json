@@ -1,0 +1,27 @@
+{
+  "status": "MECHANICAL_CHECKS_PASSED_NOT_INDEPENDENT_PLANNING_ACCEPTANCE",
+  "city_area": 29175,
+  "city_components": 1,
+  "political_overreach": 0,
+  "district_partition_overlap": 0,
+  "non_roof_reserve": 7058,
+  "working_fabric": 22117,
+  "surface_columns": 47704,
+  "selected_city_shallow_columns": 29175,
+  "selected_city_shallow_voxels": 379275,
+  "total_shallow_voxels": 389714,
+  "snapshot_hashes_match": true,
+  "heightmap_independent_checks": 47,
+  "current_access_witnesses": 3,
+  "maps": 6,
+  "L3_packages": 3,
+  "world_writes": 0,
+  "world_loads": 0,
+  "Builder_calls": 0,
+  "L3_executed": false,
+  "limits": [
+    "Five isolated single-column nonreserved pieces are not standalone buildable parcels; capacities remain upper working hypotheses",
+    "No real road/collision/tenure or potable water proof",
+    "Underlying NBT containers include unqueried context; analysis bounded to mask and selected chunks"
+  ]
+}

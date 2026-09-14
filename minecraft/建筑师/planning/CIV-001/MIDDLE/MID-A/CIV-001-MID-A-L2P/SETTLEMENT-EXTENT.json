@@ -1,0 +1,44 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "selected": "C2_LINKED_CORE",
+  "alternatives": [
+    {
+      "id": "C1_GATEWAY",
+      "area": 19623,
+      "logic": "门户即主要核心，城市紧收在扩宽低地",
+      "benefit": "政治访问与即时服务最短、共享负担少",
+      "cost": "接口峰值/常住生活/长存货竞争同一窄前场；区域市场成长缺少可协商分流空间",
+      "verdict": "可信紧缩分支；不作为成熟最高密综合城市的首选"
+    },
+    {
+      "id": "C2_LINKED_CORE",
+      "area": 29175,
+      "logic": "门户繁华，综合市场核心稍向东；同一连续城市",
+      "benefit": "门户持续营业，内部有更宽日常市场和居民/库存调配空间；短联系共享城市服务",
+      "cost": "需要共同水/维护协作和核心之间公共通达；浅层水/空腔限制南后场",
+      "verdict": "推荐；不形成两座城，不将全部需求压到接口"
+    },
+    {
+      "id": "C3_NORTH_CORE",
+      "area": 39890,
+      "logic": "核心进一步向东北低地展开，门户至新核形成更长城市带",
+      "benefit": "更大平缓容量及对外上升路接近",
+      "cost": "未证需求下增加线路/供水长度，北部旧植被和东缘虫蚀方块需更多调查，容易稀释整城密度",
+      "verdict": "保留远期选择，不纳入当前成熟城市范围"
+    }
+  ],
+  "exact_city_area": 29175,
+  "geometry_ref": "evidence/settlement-geometry.json#/city_runs",
+  "membership": "inclusive block-column RLE, world X/Z, not build authorization",
+  "non_roof_reserve": 7058,
+  "working_fabric": 22117,
+  "political_boundary_immutable": true,
+  "edge_semantics": {
+    "west": "ACCEPTED_X89",
+    "north_east": "PROPOSED_MATURITY_LIMIT_ADAPTABLE_WITH_REVIEW",
+    "shore_south": "CURRENT_WATER_TERRAIN_AND_SHALLOW_RISK"
+  },
+  "outside_hinterland": "Not urbanized, not predesignated farming or protected land"
+}

@@ -1,0 +1,60 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "anchors": [
+    {
+      "id": "A-LOCAL",
+      "role": "联盟前地方住户与近邻交换",
+      "area_hint": [
+        240,
+        270,
+        1670,
+        1710
+      ],
+      "history": "先有当地住户、就近水与土地协作的需求；具体早期井址未证",
+      "rank": "HISTORICAL_CAUSAL_NOT_OBSERVED"
+    },
+    {
+      "id": "A-GATE",
+      "role": "繁华门户商业和访问服务",
+      "area_hint": [
+        150,
+        225,
+        1695,
+        1770
+      ],
+      "history": "Commons稳定后反复访问、短停与经营家庭提高沿线价值",
+      "rank": "PRIMARY_GATEWAY_WITHIN_CITY"
+    },
+    {
+      "id": "A-MARKET",
+      "role": "综合市场与日常公共生活主核心",
+      "area_hint": [
+        260,
+        320,
+        1660,
+        1720
+      ],
+      "history": "较宽低地容纳长期存留、日常采购及协商，避免共用政治窄口",
+      "rank": "PRINCIPAL_CITY_CORE"
+    },
+    {
+      "id": "A-SERVICE",
+      "role": "内城后场与分散保障",
+      "area_hint": [
+        250,
+        320,
+        1730,
+        1790
+      ],
+      "history": "拥堵与污物/装卸外部性推动背向市场的后场；不是独立工业区",
+      "rank": "SUPPORTING_SHARED_SERVICE"
+    }
+  ],
+  "anchor_boxes_are_search_not_buildings": true,
+  "anchor_geometry_clip": "Intersect all area_hint boxes with accepted proposed city_runs; no outside-city land allocated",
+  "selected_structure": "BUSY_GATEWAY_PLUS_SLIGHTLY_EAST_PRINCIPAL_CORE_IN_ONE_CITY",
+  "core_confidence": "MEDIUM_SPATIAL_LOW_DEMAND",
+  "water_anchor": "UNVERIFIED_REQUIREMENT_NOT_OBSERVED_SPRING"
+}

@@ -1,0 +1,62 @@
+{
+  "cache_id": "CIV-001-MID-A-L2P-20260914T133000Z",
+  "status": "LOCAL_ONLY",
+  "retention": "PRESERVE_LOCAL",
+  "schema": "NBT4903 + current-npz/1 + derived-city-raster/1",
+  "source_epoch": "2026-09-14T13:30:00.998549+00:00",
+  "generated_at": "2026-09-14T13:53:30.741854+00:00",
+  "source_world_fingerprint": "current-observation.json#/before",
+  "rebuild_command": "tooling/README.md explicit snapshot replay",
+  "files": [
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\current.npz",
+      "sha256": "c03a21f32c010cdcdb8e160dfcbb2dad3727438b5a936e8aa35772dde37101f0",
+      "bytes": 930830
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\current-observation.json",
+      "sha256": "0ed9767c5bf2a66b2ab22ff68ae473b797d322e80a2076260fb1fa322964f95e",
+      "bytes": 87224
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\city-map.npz",
+      "sha256": "fffd073eccf7db7b254ff39e80d4cf30a63973860eace507150a62a22c89207e",
+      "bytes": 56306
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\current-surface-runs.json",
+      "sha256": "92ed30caad31eb8d905a662eae0867da96c5e394fadfd1d50a889e2dcaf7d0d7",
+      "bytes": 528070
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\shallow-exceptions.json",
+      "sha256": "cfb6eebdbd4bbae3e39acb33f0cac24ead4b3184c49d507e994931990102398d",
+      "bytes": 184729
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\snapshot\\dimensions\\minecraft\\overworld\\entities\\r.0.3.mca",
+      "sha256": "a7e2d92dea21ec03224ed5099a32ff0454f9e5c70714af2a1efab1049bb7121f",
+      "bytes": 790528
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\snapshot\\dimensions\\minecraft\\overworld\\poi\\r.0.3.mca",
+      "sha256": "fa1600957844e93436d7371067df45daacaa6b0ea74c63375f44d7300689f230",
+      "bytes": 16384
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\snapshot\\dimensions\\minecraft\\overworld\\region\\r.0.3.mca",
+      "sha256": "7d873f5e82c557e489b872aaae6ae36e501f5a3675754665ba752691c554ef99",
+      "bytes": 10039296
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\snapshot\\level.dat",
+      "sha256": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410",
+      "bytes": 521
+    },
+    {
+      "local_path_hint": "D:\\Games\\Minecraft\\AI工程\\研究缓存\\CIV-001-MID-A-L2P\\snapshot\\session.lock",
+      "sha256": "51643361c79ecaef25a8de802de24f570ba25d9c2df1d22d94fade11b4f466cc",
+      "bytes": 3
+    }
+  ]
+}

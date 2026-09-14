@@ -1,0 +1,25 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "id": "CIV-001-MID-A-L2P",
+  "parent": "CIV-001-MID-L1P-r1",
+  "acceptance": "D-032",
+  "scale": "SETTLEMENT",
+  "state": "HANDOFF_READY_AWAITING_REVIEW",
+  "fabric_observation": "EXISTING_FABRIC_PARTIAL",
+  "evolution": "EXISTING_EVOLUTION",
+  "maturity": "MATURE_PLANNING_ASSUMPTION",
+  "city_area": 29175,
+  "working_built_fabric": 22117,
+  "core": "A-MARKET",
+  "gateway": "A-GATE_WITHIN_MID_A",
+  "district_ids": [
+    "Q-GATE",
+    "Q-MARKET",
+    "Q-YARDS"
+  ],
+  "world_writes": 0,
+  "L3_executed": false,
+  "builder_calls": 0
+}

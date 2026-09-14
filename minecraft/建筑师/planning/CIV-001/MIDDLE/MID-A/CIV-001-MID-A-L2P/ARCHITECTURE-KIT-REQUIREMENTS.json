@@ -1,0 +1,40 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "requirements": [
+    {
+      "id": "KR-MIX",
+      "requirement": "同一建筑群可支撑商住/短仓/轻作不同组合及独立生活接近",
+      "reason": "高价值沿线多用户竞争",
+      "resolve": "L3/L4后按实际program选机制"
+    },
+    {
+      "id": "KR-TERRAIN",
+      "requirement": "保留微地形和岸/浅层风险，能以小尺度错层与接近处理局部差异",
+      "reason": "不能用整城平台换密度",
+      "resolve": "不指定台基/楼梯构件"
+    },
+    {
+      "id": "KR-SERVICE",
+      "requirement": "高连续frontage仍能容纳消防、水/雨污、维护与后向服务",
+      "reason": "填充后共同通行容易丢失",
+      "resolve": "按片区共同接口证明连续性"
+    },
+    {
+      "id": "KR-VARIATION",
+      "requirement": "变化由家庭分户/功能/历史与位置产生，禁止同款复制换色",
+      "reason": "成熟城市积累而非一次布置",
+      "resolve": "不继承旧Middle Kit尺度/材料"
+    },
+    {
+      "id": "KR-EXTERNALITY",
+      "requirement": "存货、热工、饮食和家庭生活有分流/安全能力",
+      "reason": "混合不是无条件叠加",
+      "resolve": "具体屋顶/墙/门/方块状态非本轮"
+    }
+  ],
+  "builder_modules": [],
+  "palette": [],
+  "world_write_authorization": false
+}

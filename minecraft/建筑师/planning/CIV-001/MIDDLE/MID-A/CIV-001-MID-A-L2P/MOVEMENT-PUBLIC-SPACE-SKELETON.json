@@ -1,0 +1,186 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "relations": [
+    {
+      "id": "M-GM",
+      "from_": "X89 / 门户",
+      "to": "主市场",
+      "purpose": "公共访问、居民和短交易",
+      "geometry": [
+        [
+          89,
+          1750
+        ],
+        [
+          175,
+          1735
+        ],
+        [
+          235,
+          1710
+        ],
+        [
+          290,
+          1690
+        ]
+      ],
+      "modes": "步行/手搬/驮运调查，车行未证",
+      "history": "近邻联系被Commons访问和市场强化",
+      "rights": "共同访问与居民全天回家，商户无阻断权",
+      "geometry_semantic": "RELATIONAL_CONTROL_POINTS_NOT_ROAD_CENTERLINE",
+      "physical_access": "当前地面与障碍已局部刷新；折返、树/叶避让及浅层风险由L3选择等价线",
+      "tenure_access": "地方地役待协商",
+      "political_permission": "公共访问义务，不是征地/收费授权",
+      "security": "地方协作未定，不假定全天安全",
+      "seasonality": "停航/事件峰值/补给间隔未知，需共享buffer"
+    },
+    {
+      "id": "M-IN",
+      "from_": "主市场",
+      "to": "北东城市边缘 / MID-B方向",
+      "purpose": "日常供给与山地货物分流",
+      "geometry": [
+        [
+          290,
+          1690
+        ],
+        [
+          335,
+          1665
+        ],
+        [
+          365,
+          1650
+        ]
+      ],
+      "modes": "步行/分段驮运假说",
+      "history": "跨域稳定交易引入内城",
+      "rights": "区域出城接近需地方协商；不延伸设计MID-B",
+      "geometry_semantic": "RELATIONAL_CONTROL_POINTS_NOT_ROAD_CENTERLINE",
+      "physical_access": "当前地面与障碍已局部刷新；折返、树/叶避让及浅层风险由L3选择等价线",
+      "tenure_access": "地方地役待协商",
+      "political_permission": "公共访问义务，不是征地/收费授权",
+      "security": "地方协作未定，不假定全天安全",
+      "seasonality": "停航/事件峰值/补给间隔未知，需共享buffer"
+    },
+    {
+      "id": "M-SERVICE",
+      "from_": "门户内部",
+      "to": "后场 / 内城",
+      "purpose": "批次货与维护减少挤占主市场",
+      "geometry": [
+        [
+          210,
+          1745
+        ],
+        [
+          255,
+          1730
+        ],
+        [
+          285,
+          1715
+        ],
+        [
+          310,
+          1710
+        ]
+      ],
+      "modes": "人力/驮運待地面净空与承载",
+      "history": "拥堵反馈使背向地更有价值",
+      "rights": "共享时段、负荷和居民通行不被货主独占",
+      "geometry_semantic": "RELATIONAL_CONTROL_POINTS_NOT_ROAD_CENTERLINE",
+      "physical_access": "当前地面与障碍已局部刷新；折返、树/叶避让及浅层风险由L3选择等价线",
+      "tenure_access": "地方地役待协商",
+      "political_permission": "公共访问义务，不是征地/收费授权",
+      "security": "地方协作未定，不假定全天安全",
+      "seasonality": "停航/事件峰值/补给间隔未知，需共享buffer"
+    },
+    {
+      "id": "M-LIFE",
+      "from_": "内城生活",
+      "to": "后场住户",
+      "purpose": "日常回家、水与照护服务",
+      "geometry": [
+        [
+          280,
+          1705
+        ],
+        [
+          280,
+          1730
+        ],
+        [
+          280,
+          1770
+        ]
+      ],
+      "modes": "步行/担运",
+      "history": "家庭分户后形成后向共用需求",
+      "rights": "夜间闭店不切断回家和消防",
+      "geometry_semantic": "RELATIONAL_CONTROL_POINTS_NOT_ROAD_CENTERLINE",
+      "physical_access": "当前地面与障碍已局部刷新；折返、树/叶避让及浅层风险由L3选择等价线",
+      "tenure_access": "地方地役待协商",
+      "political_permission": "公共访问义务，不是征地/收费授权",
+      "security": "地方协作未定，不假定全天安全",
+      "seasonality": "停航/事件峰值/补给间隔未知，需共享buffer"
+    },
+    {
+      "id": "M-REGIONAL",
+      "from_": "城市东南边缘",
+      "to": "MID-T/V / West输入关系",
+      "purpose": "保留区域接近及条件南岸货流",
+      "geometry": [
+        [
+          270,
+          1790
+        ],
+        [
+          285,
+          1810
+        ],
+        [
+          310,
+          1820
+        ]
+      ],
+      "modes": "区域步行/驮运；渡运仍条件性",
+      "history": "外来货物分批进入后场/库存",
+      "rights": "不承诺X03已营运；不得靠Commons强制贸易",
+      "geometry_semantic": "RELATIONAL_CONTROL_POINTS_NOT_ROAD_CENTERLINE",
+      "physical_access": "当前地面与障碍已局部刷新；折返、树/叶避让及浅层风险由L3选择等价线",
+      "tenure_access": "地方地役待协商",
+      "political_permission": "公共访问义务，不是征地/收费授权",
+      "security": "地方协作未定，不假定全天安全",
+      "seasonality": "停航/事件峰值/补给间隔未知，需共享buffer"
+    }
+  ],
+  "public_space_families": [
+    {
+      "id": "PS-G",
+      "role": "近界短停与让行",
+      "users": "公众/商旅/居民",
+      "control": "地方维护并承诺联盟访问，不允许商户独占",
+      "keep_open": "事件峰值仍保连续通行，不把队列推进Commons"
+    },
+    {
+      "id": "PS-M",
+      "role": "主市场与地方公共生活",
+      "users": "日常采购、邻里协商、照护/告示",
+      "control": "公共使用约定抵抗门面增建",
+      "keep_open": "日常/集市时段共享，消防集结不与永久货堆冲突"
+    },
+    {
+      "id": "PS-S",
+      "role": "后场轮用与服务接近",
+      "users": "住户/仓工/运输/维护者",
+      "control": "使用者按收益协商维护，永久过路权与临时装卸分开",
+      "keep_open": "雨污分流、货物短停、清运有时段；不能堵家门"
+    }
+  ],
+  "road_geometry_frozen": false,
+  "public_space_exact_polygon": "DOWNSTREAM_TO_RESOLVE",
+  "interface_dependency": "Q-GATE/Q-MARKET共同解决M-GM；Q-YARDS与两片共同解决M-SERVICE/M-LIFE"
+}

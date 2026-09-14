@@ -1,0 +1,82 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "services": [
+    {
+      "id": "WATER",
+      "need": "全年饮用/备餐/卫生与消防储水",
+      "evidence": "表层水主要岸侧；浅层水797列不证明饮用质量或可持续供水",
+      "options": [
+        "有界井/近源取用调查",
+        "分布储水与外供结合",
+        "火用/生活水分开管理"
+      ],
+      "space": "三片均保服务接近；至少两处失效不完全共因的消费侧储备关系，具体位置L3",
+      "gate": "精确人口/入住和服务容量冻结前证明源、权利、补给节律；不能只有画水桶"
+    },
+    {
+      "id": "WASTE",
+      "need": "日常污物/粪污/商食废物",
+      "evidence": "没有已证污水工程",
+      "options": [
+        "封闭短存与定期外运/合规回用",
+        "雨污分开，不向岸水/地下洞排放"
+      ],
+      "space": "后场接近与住户可达；避清洁水线/备餐",
+      "gate": "L3证明操作链与维护责任，非凭坡向排海"
+    },
+    {
+      "id": "FIRE",
+      "need": "高密混合库存与生活风险",
+      "evidence": "未设计建筑，火传播未模拟",
+      "options": [
+        "库存分散",
+        "共享应急接近和水储",
+        "热工限制及运营时段"
+      ],
+      "space": "主市场和后场必须留可用集结/穿行，不能与永久装卸重合",
+      "gate": "后续形态必须容纳独立逃生/维护；无现成消防PASS"
+    },
+    {
+      "id": "DRAIN",
+      "need": "雨水下泄、岸缘与洞穴保护",
+      "evidence": "572浅层空腔列、797水列；不是洪水模型",
+      "options": [
+        "绕开/保留",
+        "有界盖沟或小地形适应的规划需求",
+        "下游接纳另查"
+      ],
+      "space": "7058非屋顶层保有连续维护逻辑，不直接当可铺广场",
+      "gate": "L3核汇水范围/承接点，不用局部下降证明全部安全"
+    },
+    {
+      "id": "LOAD",
+      "need": "批次货物存留、日常短停、季节峰值",
+      "evidence": "吞吐和运输模式未实证",
+      "options": [
+        "短停靠门户、长存向内",
+        "后场轮用",
+        "消费侧库存抵御停航"
+      ],
+      "space": "M-SERVICE与PS-S，家门可达不穿过货堆",
+      "gate": "不得新增固定重仓面积/大车道路来填数"
+    },
+    {
+      "id": "HABITAT",
+      "need": "蜂巢/树木、地下既有内容",
+      "evidence": "蜂巢(331,68,1651)，深层箱/刷怪笼位于西侧地下；自然材料可能有人工作用",
+      "options": [
+        "蜂巢/树冠避让",
+        "地下结构坐标保护标记",
+        "深挖前单独核体积"
+      ],
+      "space": "蜂巢5格调查缓冲；深层保护不是浅层检查可解除",
+      "gate": "当前世界再变更后需再刷新，不默认为可清除"
+    }
+  ],
+  "operational_capacity_verified": false,
+  "current_evidence_ref": "evidence/current-observation.json",
+  "rights": "LOCAL_AUTONOMY / TENURE_UNRESOLVED",
+  "resolve_before": "L3 MORPHOLOGY_FREEZE / ANY OCCUPANCY OR BUILD AUTHORIZATION"
+}

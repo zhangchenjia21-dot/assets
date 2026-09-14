@@ -1,0 +1,45 @@
+{
+  "base_commit": "2e1bfd4e52d65d9d4dc30802b173180e1afd19ee",
+  "sources": [
+    {
+      "path": "minecraft/建筑师/tasks/CIV-001-MID-A-L2P/AUTHORITY-MATRIX.md",
+      "sha256": "14cd8c2fbc9ba155222c7239fb5a67093a3d65406fc6286b3f7cd897d6b7c031"
+    },
+    {
+      "path": "minecraft/建筑师/tasks/CIV-001-MID-A-L2P/TASK.md",
+      "sha256": "1329125a2bd248885fe0b284e5cd62f8bf898236c668bcf87f96e75a55925d9d"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-032_MiddleL1接受并确认MID-A为联盟最高密度城市进入L2.md",
+      "sha256": "c964efdc5bba1a7c46963942d1e83e2f2594836b8162899d2576960aca48e4a6"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/CIV-001-MID-L1P/handoff/L2-MID-A.json",
+      "sha256": "aed9418a0ff73328c49f733bb7e634d69aa281c1249c82b88d59cbe878d4f829"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/CIV-001-MID-L1P/REGIONAL-TERRAIN-SYSTEM.json",
+      "sha256": "2141f88f8f2f8e66e1b251f567d68adae21ef0520f61c906fd9aecd7abd50a97"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/CIV-001-MID-L1P/MOVEMENT-ACCESS-NETWORK.json",
+      "sha256": "0928e545cc7740e41d7ae85cead35801b910f8983f12b973f37d6e947bf9f600"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/CIV-001-MID-L1P/evidence/regional-analysis.json",
+      "sha256": "d0f5e8148ee46459b27a67037b11ee008a662942b723c3dd69c42fb392807055"
+    },
+    {
+      "path": "minecraft/建筑师/research/human-geography/southern-island/territory-refinement/TT-002R/refined-draft.json",
+      "sha256": "01b888d39d65ed87ff2275de594552b62bc7ccab896a5d50c37ac9368a275919"
+    }
+  ],
+  "planner_version": "0.5",
+  "planner_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+  "current_snapshot_ref": "current-observation.json",
+  "observation_algorithm_sha256": "03a78f46c5e565bce51c6707091eea1f6efc840b7aa8cbf219f4b5c7577d828d",
+  "raw_policy": "Local-only",
+  "world_writes": 0,
+  "archived_observation_algorithm_sha256": "fcab18f19a6b77a9349d46cb1f14019d4e8b3128f87a6c86929fd24bbded235a",
+  "reproduction": "Snapshot replay NPZ identical; all derived evidence and six maps byte-for-byte identical in separate output; no raw in Git"
+}

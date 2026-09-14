@@ -1,0 +1,76 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "districts": [
+    {
+      "id": "Q-GATE",
+      "name": "门户街市片",
+      "why": "公共访问集中且地面逐渐扩宽，来往者与家庭争取同一沿线，短交易/饮食/短住/修理向上和向后混合",
+      "users": "居民、经营家庭、来访者、运输者",
+      "mix": [
+        "居住",
+        "即时商业",
+        "饮食旅宿",
+        "短存与冷作",
+        "公共访问"
+      ],
+      "adjacency": "必须与Q-MARKET连续共享主通达；不成另一城；批量待卸转向Q-YARDS",
+      "density": "很高活动与较连续frontage；最西窄口和岸侧仍须留白",
+      "risks": "岸侧浅水/洞穴、访问峰值、排队侵占家门",
+      "growth": "Commons后强化，在成熟期以分户/上层利用和共享后场增容",
+      "area": 12786,
+      "non_roof_reserve": 3495,
+      "working_fabric_area": 9291,
+      "geometry_ref": "evidence/settlement-geometry.json#/districts/0",
+      "boundary_semantic": "L2_RESPONSIBILITY_SEAM_ADAPTABLE_NOT_POLITICAL_OR_PARCEL"
+    },
+    {
+      "id": "Q-MARKET",
+      "name": "内城市场生活片",
+      "why": "稍东宽缓地让较长交易与地方服务不堵接口，常住生活支撑非事件日活力",
+      "users": "住户、商户、工匠、旅人、地方公共服务者",
+      "mix": [
+        "居住",
+        "主市场",
+        "轻加工与修理",
+        "分散库存",
+        "公共协商/照护"
+      ],
+      "adjacency": "西接门户，南接后场，北东接区域出城关系；保留蜂巢维护关系",
+      "density": "整城最高综合覆盖/多层利用倾向，公共市场空隙不可填满",
+      "risks": "地价/分户压缩服务通道，库存火险与饮水需求",
+      "growth": "地方交易→周期市场→多户混合/背向服务→成熟填充",
+      "area": 10617,
+      "non_roof_reserve": 1170,
+      "working_fabric_area": 9447,
+      "geometry_ref": "evidence/settlement-geometry.json#/districts/1",
+      "boundary_semantic": "L2_RESPONSIBILITY_SEAM_ADAPTABLE_NOT_POLITICAL_OR_PARCEL"
+    },
+    {
+      "id": "Q-YARDS",
+      "name": "南侧混合后场片",
+      "why": "市场与门户的货物/污物/维护不宜都压主行人链，向较少门面竞争的后侧分化",
+      "users": "住户、仓工、修理家庭、装卸和维护者",
+      "mix": [
+        "居住",
+        "工作共享后場",
+        "批次周转",
+        "冷作修理",
+        "储水/维护"
+      ],
+      "adjacency": "同时服务前两片，居民可经生活联系回家不穿货堆；不向南岸越过陡坡扩港",
+      "density": "有效地紧凑，因浅层风险有更多真实非屋顶空间；不设大片空仓园区",
+      "risks": "浅层水/空腔与Y较高边缘；未证承载前不放重货",
+      "growth": "拥堵/外部性促成分工；家庭并存，不是后期无居民工业新区",
+      "area": 5772,
+      "non_roof_reserve": 2393,
+      "working_fabric_area": 3379,
+      "geometry_ref": "evidence/settlement-geometry.json#/districts/2",
+      "boundary_semantic": "L2_RESPONSIBILITY_SEAM_ADAPTABLE_NOT_POLITICAL_OR_PARCEL"
+    }
+  ],
+  "exact_partition_area": 29175,
+  "not_single_use_zoning": true,
+  "seams_adaptable": true
+}

@@ -1,0 +1,49 @@
+{
+  "schema": "minecraft-planner-settlement/1",
+  "plan_revision": "CIV-001-MID-A-L2P-r1",
+  "authority": "DESIGN_PROPOSAL",
+  "whole_city_area": 29175,
+  "non_roof_reserve": 7058,
+  "working_built_fabric": 22117,
+  "building_footprint_range": [
+    14585,
+    16628
+  ],
+  "whole_city_footprint_fraction": [
+    0.4999280205655527,
+    0.5699280205655527
+  ],
+  "district_density": [
+    {
+      "id": "Q-GATE",
+      "building_footprint_fraction_of_whole_quarter": [
+        0.48,
+        0.55
+      ],
+      "active_ground_use": "紧凑商住/短仓/内部巷院，门户高周转，岸/浅层/阈口维持非屋顶",
+      "verticality": "高多层混用需求，不定层高/楼数"
+    },
+    {
+      "id": "Q-MARKET",
+      "building_footprint_fraction_of_whole_quarter": [
+        0.6,
+        0.67
+      ],
+      "active_ground_use": "持续门面和背向生活最紧，市场公地与火/水维护不能被填掉",
+      "verticality": "城市最强叠合需求，后续核生活/火/日照"
+    },
+    {
+      "id": "Q-YARDS",
+      "building_footprint_fraction_of_whole_quarter": [
+        0.36,
+        0.43
+      ],
+      "active_ground_use": "剩余安全地面集中使用，后场与水洞缓冲约束屋顶率",
+      "verticality": "适合生活/轻作共享，重仓和重热工无自动上叠权"
+    }
+  ],
+  "authority_highest_density": "D-032_OWNER_CONSTRAINT_NOT_YET_CROSS_CITY_MEASURED",
+  "floor_area": "UNRESOLVED",
+  "population": "UNRESOLVED",
+  "service_space_is_not_waste": true
+}
