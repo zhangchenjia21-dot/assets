@@ -1,0 +1,56 @@
+{
+  "references": [
+    {
+      "path": "skill/codex/minecraft-planner/references/human-geography-kernels.md",
+      "git_blob_sha": "fa2a308af48e14b094b005478a67dca02baecbbc",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/planner-builder-handoff.md",
+      "git_blob_sha": "f8029fba6e1713ec6ad54aac0d23d8494410e6f3",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/planning-artifacts-and-maps.md",
+      "git_blob_sha": "ec801e31b2024e75a58aba19effc8a3ed4616946",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/morphology-parcels-and-density.md",
+      "git_blob_sha": "aa1bd53ef1352bf071c6030a2f13828bce4503a5",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/surface-substrate-landcover.md",
+      "git_blob_sha": "c99b085a645b6eb6030a9187535cf06c12a669db",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/architecture-kit-requirements.md",
+      "git_blob_sha": "8bd04471fa9dd9fb2191b8765f941753cdbbf82e",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/causal-growth-model.md",
+      "git_blob_sha": "48177ec76b164a5d73ab7ed08c8eaa60b6c81fff",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/flows-externalities-and-demand.md",
+      "git_blob_sha": "dbfc558d3d95b4db0174131abac1d7fc5c89dea9",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/settlement-capacity-and-scale.md",
+      "git_blob_sha": "da8cfa3590353d1a4c872d472371f1e589e69bdc",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/recursive-planning-handoff.md",
+      "git_blob_sha": "48082b9f9f083e61a7e6c843ade4970045bc06f0",
+      "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696"
+    }
+  ],
+  "regression_rubric_loaded": false,
+  "note": "只加载当前Skill的方法参考；不读取任何项目独立审核或既有L4/Builder答案。Skill自带通用示例属于用户允许的当前Skill内容，不是额外读取项目文件。"
+}

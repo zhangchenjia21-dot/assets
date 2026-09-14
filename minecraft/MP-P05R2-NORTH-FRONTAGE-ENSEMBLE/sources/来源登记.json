@@ -1,0 +1,51 @@
+{
+  "assets_snapshot_commit": "6c6dafc6c1bc5163dccce76b54470e8edb48ab2a",
+  "selection": "PACKAGE-01; PACKAGE-03 direct public coordination; BLOCK-01; PARCEL/FRONTAGE-01,02; LANE-01,02,04; SPACE-01. No other package answers or review files.",
+  "files": [
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/implementation-packages.json",
+      "sha256": "8d861fe4b0831d0fd35804fcf2dabff099394298d4bf37d53aaedc21d9ff37e8",
+      "authority": "DESIGN_PROPOSAL"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/planning-data.json",
+      "sha256": "a68291991164865a52ddc2a361c2def9810e5cf17d16e6da6c8d39c93e174e17",
+      "authority": "DESIGN_PROPOSAL"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/evidence/world-read-provenance.json",
+      "sha256": "35dcfe1f12bbc5399b59bbecab238eb15bfc106e96f3498ccd9a1f9adfb09504",
+      "authority": "OBSERVED_SNAPSHOT"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/evidence/surface-crop.json.gz",
+      "sha256": "051bd85c47d8a2c675021a71b4d2b4aa6b4bdfb98b0a3e6c8da106a0dc475848",
+      "authority": "OBSERVED_SNAPSHOT"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/evidence/near-ground.json.gz",
+      "sha256": "c7f8834c71f91e2bbd7862cbe1bcce4186d04d3d9a710bd59196a2ba7d03971a",
+      "authority": "OBSERVED_SNAPSHOT"
+    },
+    {
+      "path": "minecraft/MP-P04-WEST-APPROACH/evidence/lane-profiles.json",
+      "sha256": "fc039a3d331efbed3e651b7102b1f6da2d39373a529b09677ba79c50a127decb",
+      "authority": "OBSERVED_SNAPSHOT"
+    },
+    {
+      "path": "minecraft/建筑师/world/civilizations/CIV-001/README.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "authority": "APPROVED_CANON"
+    },
+    {
+      "path": "minecraft/建筑师/decisions/D-014_CIV-001最小文明Canon收敛与AB-001进入.md",
+      "sha256": "87ad6fe84834bbf76b52a6c8fc1f8b56c1bfc4c58166ba959bc0dcc28e6bbd3d",
+      "authority": "APPROVED_CANON"
+    },
+    {
+      "path": "minecraft/建筑师/architecture/civilizations/CIV-001/Architecture-Grammar.md",
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6",
+      "authority": "APPROVED_CANON"
+    }
+  ]
+}

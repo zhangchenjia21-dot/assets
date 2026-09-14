@@ -1,0 +1,26 @@
+{
+  "test_id": "MP-P05R2",
+  "recorded_at": "2026-09-14",
+  "skill": {
+    "name": "minecraft-planner",
+    "version": "0.5",
+    "load_method": "GitHub connector, commit-pinned full source read; not a locally installed Skill",
+    "repository": "https://github.com/zhangchenjia21-dot/Vibe-Coding",
+    "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+    "path": "skill/codex/minecraft-planner/SKILL.md",
+    "git_blob_sha": "dff88b163d18520cb5f5e5a59e7c2103883fd115"
+  },
+  "shared_contract": {
+    "name": "Minecraft Planner–Builder Contract",
+    "version": "1.0",
+    "source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+    "path": "skill/codex/shared/minecraft-planner-builder-contract.md",
+    "git_blob_sha": "3431c7a048148cdb6c24f44604777eaa6c9b2c9e",
+    "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/blob/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex/shared/minecraft-planner-builder-contract.md"
+  },
+  "verification": "GitHub main-to-main compare resolved the source commit; both files were read at that commit before L4 planning.",
+  "purpose": "provenance only; no changes to planning method",
+  "world_writes": 0,
+  "world_write_authorization": false,
+  "regression_verdict": "NOT_ASSIGNED; GPT + Owner review required"
+}

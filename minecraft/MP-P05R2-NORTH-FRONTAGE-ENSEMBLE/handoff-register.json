@@ -1,0 +1,111 @@
+{
+  "source_plan_revision": "r1",
+  "review_status": "AWAITING_GPT_AND_OWNER_REVIEW",
+  "regression_verdict": null,
+  "uncertainties": [
+    {
+      "id": "U-PUBLIC",
+      "state": "UNRESOLVED",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "owner": "PUBLIC-COORDINATOR",
+      "question": "接受局部路带、净宽要求、门前接触标高和跨界雨水责任",
+      "minimum_closure": "回签interface revision及服务受纳位置；如变更，仅重发受影响接口与BDP",
+      "does_not_block": "两户在所给包络内概念设计"
+    },
+    {
+      "id": "U-HABITABILITY",
+      "state": "TO_BE_DESIGNED",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "owner": "minecraft-builder",
+      "question": "证明两户各自完整生活、储备/卫生、入口及P02短宿可共存",
+      "minimum_closure": "实际Plan/Section/Sequence功能净尺度和通行证据；不可用总地块面积代替",
+      "does_not_block": "包络内Architecture Design探索"
+    },
+    {
+      "id": "U-GROUND",
+      "state": "PARTIAL_EVIDENCE",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "owner": "minecraft-builder with read-only site evidence",
+      "question": "具体基础/切挖影响与深部既有内容兼容",
+      "minimum_closure": "沿具体设计影响体积核验；已知深部位置保持不触及，禁止借本轮浅层无空气推定深部可改"
+    },
+    {
+      "id": "U-TITLE",
+      "state": "UNRESOLVED",
+      "resolve_before": "BEFORE_WORLD_WRITE",
+      "owner": "Owner + original rights holders",
+      "question": "户用地、公共地役、现场既有内容保护的实际许可",
+      "minimum_closure": "目标/revision/hash绑定授权；不修改Canon解决许可"
+    },
+    {
+      "id": "U-SUPPLY",
+      "state": "UNRESOLVED",
+      "resolve_before": "BEFORE_PERMANENT_OCCUPATION",
+      "owner": "PUBLIC-COORDINATOR + household operators",
+      "question": "外部日需与洁净水能力/稳定性",
+      "minimum_closure": "实际来源、批次、储备与中断应对；不默认从任何方向已供应"
+    },
+    {
+      "id": "U-OPERATION",
+      "state": "UNRESOLVED",
+      "resolve_before": "BEFORE_OPERATION",
+      "owner": "PUBLIC-COORDINATOR + household operators",
+      "question": "错峰洁污、轻载通行及废物终端",
+      "minimum_closure": "服务时段/责任与有效通达验证；无运行数据时不得承诺吞吐量"
+    }
+  ],
+  "upstream_issue_protocol": {
+    "report_fields": [
+      "package/interface IDs and revisions",
+      "conflicting relation or missing information",
+      "observed evidence",
+      "bounded adaptation attempted",
+      "why insufficient",
+      "minimum upstream change",
+      "affected downstream packages"
+    ],
+    "adapt_first": [
+      "户内移动入口与小院",
+      "顺坡分段或垂直组织",
+      "错时复核/收件且不删家庭功能"
+    ],
+    "escalate_when": [
+      "两户完整生活与通行经局部适应仍不能共存",
+      "共同接口或深部保护与相称工程冲突",
+      "日需/权属方案无法闭合"
+    ],
+    "forbidden_silent_changes": [
+      "扩地/扩户",
+      "删除短宿或家庭程序",
+      "圈占共同院",
+      "关闭LANE-04或东口",
+      "发明公共管线或终端"
+    ],
+    "revision_rule": "最小对象修订；变更接口时递增revision，相关下游设计置STALE_FOR_FIDELITY_REVIEW；不覆写MP-P04"
+  },
+  "public_coordination": {
+    "id": "PUBLIC-COORDINATOR",
+    "assignment": "PROPOSED_ROLE_NOT_ACTUAL_APPOINTMENT",
+    "scope": "只协调直接公共接口，不在本轮重规划PACKAGE-03其它用地/建筑",
+    "approval": "由Owner指派/确认；不是本轮构造出的既有机构"
+  },
+  "deep_existing_content": {
+    "source": "evidence/浅层采样.json block_entities",
+    "items": [
+      {
+        "x": 779,
+        "y": 81,
+        "z": 1631,
+        "id": "minecraft:mob_spawner"
+      },
+      {
+        "x": 781,
+        "y": 81,
+        "z": 1634,
+        "id": "minecraft:chest"
+      }
+    ],
+    "meaning": "深处有实体位置证据，不能把地表无建筑解读成地下无人造内容；不读库存、不改结构"
+  },
+  "world_writes": 0
+}

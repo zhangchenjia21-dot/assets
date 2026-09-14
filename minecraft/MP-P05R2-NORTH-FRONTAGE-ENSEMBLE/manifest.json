@@ -1,0 +1,163 @@
+{
+  "test_id": "MP-P05R2",
+  "revision": "r1",
+  "excluded_self": "manifest.json",
+  "world_writes": 0,
+  "files": [
+    {
+      "path": "规划编译.mjs",
+      "bytes": 25133,
+      "sha256": "0833349ca7e936f0de965ae9e403d66b3e38018f117599b703443b7ce5130167"
+    },
+    {
+      "path": "规划制图.mjs",
+      "bytes": 11432,
+      "sha256": "8d69acbf4f5864f54a1ccaf81eebc651a92ca104be4d8a39a0aed55b3852dfad"
+    },
+    {
+      "path": "几何核算.mjs",
+      "bytes": 1039,
+      "sha256": "6f103f4138b7beb89e8edc853384465a3b4f436253201ccb8c73a2879a1c1583"
+    },
+    {
+      "path": "交付说明.md",
+      "bytes": 4502,
+      "sha256": "4d3d3228593282e68c31e6d846a1f1d3bdf8e825342140c8008a14f1504facdd"
+    },
+    {
+      "path": "交付校验.mjs",
+      "bytes": 7690,
+      "sha256": "00e4101a07c1924012f73ef7e00c4e907e7d2c017f24dc915c657a365cd7092d"
+    },
+    {
+      "path": "证据提取.mjs",
+      "bytes": 4321,
+      "sha256": "6a0fd91c19d001404154abd1635b10c279d3ad12ebfa6045a98be0404f3282f4"
+    },
+    {
+      "path": "builder-design-packages.json",
+      "bytes": 250940,
+      "sha256": "81f7f16e9c6705d34deb939a1e37e42b7d0a54b4d6d3f4bfc4d90773dc62d19c"
+    },
+    {
+      "path": "evidence/地表采样.json",
+      "bytes": 195433,
+      "sha256": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e"
+    },
+    {
+      "path": "evidence/公共路纵断面.json",
+      "bytes": 7830,
+      "sha256": "614c44a9470fc5f0ffeade796fb588bc631fd74074184e332f0ff86ec9090249"
+    },
+    {
+      "path": "evidence/浅层采样.json",
+      "bytes": 766081,
+      "sha256": "a1e8560fad263c32f65c79ea6677b54e0ca61012210c851923c314479293a9d7"
+    },
+    {
+      "path": "evidence/世界来源核验.json",
+      "bytes": 2914,
+      "sha256": "e2a6d8757e35898fe0b44f7a7929dc96e61eb63637d6c4e3eabd87dfaba5c72d"
+    },
+    {
+      "path": "external-service-interfaces.json",
+      "bytes": 9023,
+      "sha256": "b8390821f113361c5c8fe4e0c37e155432bcc0202ba13b229caf44c8aa677f04"
+    },
+    {
+      "path": "handoff-register.json",
+      "bytes": 4235,
+      "sha256": "df36149519856a8b6351c67732838d862f9440145f93a927d08c8de2c08cddcd"
+    },
+    {
+      "path": "interface-baselines.json",
+      "bytes": 81329,
+      "sha256": "a60079da73e1f7ab3dfd45f57ba1059af17e051eb595af3da34308dbd96cec99"
+    },
+    {
+      "path": "maps/01-组团与地形.png",
+      "bytes": 236982,
+      "sha256": "17db12ceeee8880dcead91e73d2b392b808e2df52cfb1f2dbecc5635b6f9d065"
+    },
+    {
+      "path": "maps/01-组团与地形.svg",
+      "bytes": 177871,
+      "sha256": "6d229a0c8225f89d21f01ddcda5fb3f17fe4711bd5a5e21bd00304622700f08d"
+    },
+    {
+      "path": "maps/02-门前与公共接口.png",
+      "bytes": 235022,
+      "sha256": "41fde8c049d367f3bfa000e56e0d78eded4a434de994b1a84d31f190aad5344b"
+    },
+    {
+      "path": "maps/02-门前与公共接口.svg",
+      "bytes": 161360,
+      "sha256": "2ab2641d6bf9621b3d36c91097c39a049bfb9463a5ea5e07de7ed5bd4e21851c"
+    },
+    {
+      "path": "maps/03-地形与门前剖面.png",
+      "bytes": 149604,
+      "sha256": "f97be20c599bb0faa54710dad6fd9dd17e882e73a2ac3016c4a71763ca896a81"
+    },
+    {
+      "path": "maps/03-地形与门前剖面.svg",
+      "bytes": 8575,
+      "sha256": "2ebda8d6ad38dcf4b2e33ba98fc42f6ecf1d98a173dd610fadf811bcefd4a0f0"
+    },
+    {
+      "path": "planning-data.json",
+      "bytes": 43438,
+      "sha256": "6ce327db39a7a4c5ec13781378e80b75b224a6e1a08945b6e560e26d5289aae9"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1283,
+      "sha256": "06a842b1068e17c1e87451f30820df8a188edfcf0d9c046fd86becb5fcf22128"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2873,
+      "sha256": "88de91f49faf9e5e1846be59c0e03f93b2655efeb8b516bef2b1b29acccc48ea"
+    },
+    {
+      "path": "sources/父包直接对象.json",
+      "bytes": 15533,
+      "sha256": "8a5f14d86c019a99f10114dc5563a65b0d03077074f06b5bf311f1d6fbdc2c89"
+    },
+    {
+      "path": "sources/来源登记.json",
+      "bytes": 2204,
+      "sha256": "ecf4049373d6a348b7435a8eae8a14db23ab35b846b18c3a5694cb8212f7b71e"
+    },
+    {
+      "path": "sources/CIV-001-批准.md",
+      "bytes": 5844,
+      "sha256": "87ad6fe84834bbf76b52a6c8fc1f8b56c1bfc4c58166ba959bc0dcc28e6bbd3d"
+    },
+    {
+      "path": "sources/CIV-001-Canon.md",
+      "bytes": 7128,
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d"
+    },
+    {
+      "path": "sources/CIV-001-Grammar.md",
+      "bytes": 16494,
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6"
+    },
+    {
+      "path": "sources/Skill参考加载.json",
+      "bytes": 2605,
+      "sha256": "54b6f7a9de9b0718161fa0817138de9de1fb8ce609de566236314c8c515f76fe"
+    },
+    {
+      "path": "URBAN-ENSEMBLE.md",
+      "bytes": 16312,
+      "sha256": "3150d081eec6dba6b60bcae7ecc146386ba2ed1f8f61a0adef948818acce8b14"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 13303,
+      "sha256": "9efaccebf4b8cd2f8d3dd9e5e2b88bc0925d75c15d80d63e5b6cab0814a7cfa4"
+    }
+  ]
+}

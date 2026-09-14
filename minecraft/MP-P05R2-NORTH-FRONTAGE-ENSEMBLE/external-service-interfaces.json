@@ -1,0 +1,127 @@
+{
+  "revision": "r1",
+  "services": [
+    {
+      "service_id": "R2-S1-CLEAN_WATER",
+      "service_type": "CLEAN_WATER",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认水源、送达来向、供水节奏/水质与持续能力；现有父包没有已闭合的供水承诺",
+      "local_requirement": "户内保留洁净接收和日需小储备空间；不得因裸岩推断地下水，也不预定打井坐标",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_PERMANENT_OCCUPATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "洁净水"
+    },
+    {
+      "service_id": "R2-S1-WASTE",
+      "service_type": "WASTE",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认转运终端、时间和责任；不得由家庭Builder发明场外终端",
+      "local_requirement": "户内封闭暂存、按批带出；洁净收水和污物搬出不同时间，不宣称东口天然洁污分离",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_OPERATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "污物收集"
+    },
+    {
+      "service_id": "R2-S1-GOODS_FUEL",
+      "service_type": "GOODS_FUEL",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认转运终端、时间和责任；不得由家庭Builder发明场外终端",
+      "local_requirement": "仅手提批次送至门内apron；较重来货在公共首卸卸下，不在LANE-04长期存放",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_OPERATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "小批货物/燃料"
+    },
+    {
+      "service_id": "R2-S1-RAINWATER",
+      "service_type": "RAINWATER",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-1",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认允许受纳点/路面边界控制标高、污染隔离和下游责任后，才可冻结跨界排水；无可用公共排水设施事实",
+      "local_requirement": "保留户内收集/调蓄与可接续能力；公共通行面不得作为默认排放终点，未闭合前不得设计越界出水管",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "uncertainty": "跨界雨水受纳点与责任尚未被公共方冻结，因此两户保持CONCEPT_DESIGN_READY",
+      "label": "雨水边界"
+    },
+    {
+      "service_id": "R2-S2-CLEAN_WATER",
+      "service_type": "CLEAN_WATER",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-2",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认水源、送达来向、供水节奏/水质与持续能力；现有父包没有已闭合的供水承诺",
+      "local_requirement": "户内保留洁净接收和日需小储备空间；不得因裸岩推断地下水，也不预定打井坐标",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_PERMANENT_OCCUPATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "洁净水"
+    },
+    {
+      "service_id": "R2-S2-WASTE",
+      "service_type": "WASTE",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-2",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认转运终端、时间和责任；不得由家庭Builder发明场外终端",
+      "local_requirement": "户内封闭暂存、按批带出；洁净收水和污物搬出不同时间，不宣称东口天然洁污分离",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_OPERATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "污物收集"
+    },
+    {
+      "service_id": "R2-S2-GOODS_FUEL",
+      "service_type": "GOODS_FUEL",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-2",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认转运终端、时间和责任；不得由家庭Builder发明场外终端",
+      "local_requirement": "仅手提批次送至门内apron；较重来货在公共首卸卸下，不在LANE-04长期存放",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_OPERATION",
+      "uncertainty": "许可/供给/清运尚未证实；预留位置已本地化，运行承诺不因此成立",
+      "label": "小批货物/燃料"
+    },
+    {
+      "service_id": "R2-S2-RAINWATER",
+      "service_type": "RAINWATER",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "interface_location_or_ref": "interface-baselines.json#R2-IF-THRESHOLD-2",
+      "upstream_or_downstream_owner": "PUBLIC-COORDINATOR 负责与 MP-P04 PACKAGE-03 公共服务及其已声明的MP-P03日需协调方对接；本轮未读取MP-P03包",
+      "builder_responsibility": "RESERVE_INTERFACE_ONLY",
+      "neighbor_or_public_responsibility": "确认允许受纳点/路面边界控制标高、污染隔离和下游责任后，才可冻结跨界排水；无可用公共排水设施事实",
+      "local_requirement": "保留户内收集/调蓄与可接续能力；公共通行面不得作为默认排放终点，未闭合前不得设计越界出水管",
+      "allowed_local_adjustment": "本户apron内移动预留，保持洁污隔离和门前净空；跨界改点需接口revision",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "uncertainty": "跨界雨水受纳点与责任尚未被公共方冻结，因此两户保持CONCEPT_DESIGN_READY",
+      "label": "雨水边界"
+    }
+  ],
+  "temporal_protocol": {
+    "authority": "DESIGN_PROPOSAL",
+    "sequence": [
+      "通行持续优先；到货按小批首卸",
+      "洁净水/食品先接收，移入户内",
+      "货物与复核分批，不占路排队",
+      "污物在无洁净接收时段封闭转运；清理后恢复"
+    ],
+    "peak_response": "溢出时暂停收件/短宿接纳，由公共协调方调度；不启用未给出的替代路或私占院地"
+  }
+}

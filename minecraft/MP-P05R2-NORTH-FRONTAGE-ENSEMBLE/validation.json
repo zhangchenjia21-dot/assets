@@ -1,0 +1,522 @@
+{
+  "type": "ARTIFACT_CONSISTENCY_CHECKS_NOT_REGRESSION_VERDICT",
+  "regression_verdict": null,
+  "review_status": "AWAITING_GPT_AND_OWNER_REVIEW",
+  "world_writes": 0,
+  "checks": [
+    {
+      "name": "two_households_only",
+      "ok": true,
+      "evidence": {
+        "households": 2,
+        "gross_parcel_columns": 269,
+        "continuous_polygon_area": 273,
+        "private_yard_columns": 26,
+        "private_frontage_columns": 49,
+        "architectural_search_columns": 194,
+        "search_area_is_not_floor_area": true,
+        "public_space_accounted_here": 0,
+        "public_accounting_owner": "MP-P04 PACKAGE-03",
+        "overnight_guest_target": {
+          "range": [
+            0,
+            2
+          ],
+          "authority": "PLANNING_ASSUMPTION",
+          "note": "P02最多同时两名短宿者，不构成新户；Builder 须证明家庭功能不被占用，否则报容量冲突"
+        },
+        "local_food_production": "NOT_ASSUMED",
+        "supply": "外部按批次供应；日需、土地用益与公共服务协议未获本轮批准"
+      }
+    },
+    {
+      "name": "no_regression_verdict",
+      "ok": true,
+      "evidence": "AWAITING_GPT_AND_OWNER_REVIEW"
+    },
+    {
+      "name": "R2-P1_unique_cells",
+      "ok": true,
+      "evidence": 151
+    },
+    {
+      "name": "R2-P1_no_other_parcel_overlap",
+      "ok": true,
+      "evidence": 151
+    },
+    {
+      "name": "R2-P1_disjoint_complete_allocation",
+      "ok": true,
+      "evidence": [
+        18,
+        24,
+        109
+      ]
+    },
+    {
+      "name": "R2-P1_private_yard_connected",
+      "ok": true,
+      "evidence": [
+        18
+      ]
+    },
+    {
+      "name": "R2-P2_unique_cells",
+      "ok": true,
+      "evidence": 118
+    },
+    {
+      "name": "R2-P2_no_other_parcel_overlap",
+      "ok": true,
+      "evidence": 118
+    },
+    {
+      "name": "R2-P2_disjoint_complete_allocation",
+      "ok": true,
+      "evidence": [
+        8,
+        25,
+        85
+      ]
+    },
+    {
+      "name": "R2-P2_private_yard_connected",
+      "ok": true,
+      "evidence": [
+        8
+      ]
+    },
+    {
+      "name": "gross_parcel_mask_269",
+      "ok": true,
+      "evidence": 269
+    },
+    {
+      "name": "private_public_masks_disjoint",
+      "ok": true,
+      "evidence": {
+        "private": 269,
+        "public_union": 685
+      }
+    },
+    {
+      "name": "direct_public_union_face_connected",
+      "ok": true,
+      "evidence": [
+        685
+      ]
+    },
+    {
+      "name": "R2-P1_frontage_touches_public",
+      "ok": true,
+      "evidence": {
+        "contact_cells": [
+          [
+            767,
+            1630
+          ],
+          [
+            762,
+            1631
+          ],
+          [
+            763,
+            1631
+          ],
+          [
+            764,
+            1631
+          ],
+          [
+            765,
+            1631
+          ],
+          [
+            758,
+            1632
+          ],
+          [
+            759,
+            1632
+          ],
+          [
+            760,
+            1632
+          ],
+          [
+            761,
+            1632
+          ],
+          [
+            755,
+            1633
+          ],
+          [
+            756,
+            1633
+          ],
+          [
+            757,
+            1633
+          ],
+          [
+            752,
+            1634
+          ],
+          [
+            753,
+            1634
+          ],
+          [
+            754,
+            1634
+          ],
+          [
+            751,
+            1635
+          ]
+        ]
+      }
+    },
+    {
+      "name": "R2-P2_frontage_touches_public",
+      "ok": true,
+      "evidence": {
+        "contact_cells": [
+          [
+            778,
+            1629
+          ],
+          [
+            783,
+            1633
+          ],
+          [
+            791,
+            1633
+          ],
+          [
+            784,
+            1634
+          ],
+          [
+            785,
+            1635
+          ]
+        ]
+      }
+    },
+    {
+      "name": "R2-IF-LANE-01_minimum_contract",
+      "ok": true,
+      "evidence": "r1"
+    },
+    {
+      "name": "R2-IF-LANE-02_minimum_contract",
+      "ok": true,
+      "evidence": "r1"
+    },
+    {
+      "name": "R2-IF-LANE-04_minimum_contract",
+      "ok": true,
+      "evidence": "r1"
+    },
+    {
+      "name": "R2-IF-COMMON-EDGE_minimum_contract",
+      "ok": true,
+      "evidence": "r1"
+    },
+    {
+      "name": "R2-IF-THRESHOLD-1_minimum_contract",
+      "ok": true,
+      "evidence": "r1"
+    },
+    {
+      "name": "R2-IF-THRESHOLD-2_minimum_contract",
+      "ok": true,
+      "evidence": "r1"
+    },
+    {
+      "name": "BDP-01_readiness_is_explicit_concept",
+      "ok": true,
+      "evidence": "本地地块、公共通路、门前与保护语义可解析，可开始Architecture Design；跨界雨水受纳和公共协同标高未闭合，不能冻结设计。此状态不是回归评判。"
+    },
+    {
+      "name": "BDP-01_no_world_write",
+      "ok": true,
+      "evidence": false
+    },
+    {
+      "name": "BDP-01_embedded_interfaces_resolve",
+      "ok": true,
+      "evidence": [
+        "R2-IF-THRESHOLD-1",
+        "R2-IF-LANE-04",
+        "R2-IF-LANE-02"
+      ]
+    },
+    {
+      "name": "BDP-01_direct_dependency_interface-baselines.json",
+      "ok": true,
+      "evidence": {
+        "expected": "a60079da73e1f7ab3dfd45f57ba1059af17e051eb595af3da34308dbd96cec99",
+        "actual": "a60079da73e1f7ab3dfd45f57ba1059af17e051eb595af3da34308dbd96cec99"
+      }
+    },
+    {
+      "name": "BDP-01_direct_dependency_external-service-interfaces.json",
+      "ok": true,
+      "evidence": {
+        "expected": "b8390821f113361c5c8fe4e0c37e155432bcc0202ba13b229caf44c8aa677f04",
+        "actual": "b8390821f113361c5c8fe4e0c37e155432bcc0202ba13b229caf44c8aa677f04"
+      }
+    },
+    {
+      "name": "BDP-01_direct_dependency_evidence/地表采样.json",
+      "ok": true,
+      "evidence": {
+        "expected": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e",
+        "actual": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e"
+      }
+    },
+    {
+      "name": "BDP-01_direct_dependency_evidence/浅层采样.json",
+      "ok": true,
+      "evidence": {
+        "expected": "a1e8560fad263c32f65c79ea6677b54e0ca61012210c851923c314479293a9d7",
+        "actual": "a1e8560fad263c32f65c79ea6677b54e0ca61012210c851923c314479293a9d7"
+      }
+    },
+    {
+      "name": "BDP-01_own_services",
+      "ok": true,
+      "evidence": [
+        "R2-S1-CLEAN_WATER",
+        "R2-S1-WASTE",
+        "R2-S1-GOODS_FUEL",
+        "R2-S1-RAINWATER"
+      ]
+    },
+    {
+      "name": "BDP-02_readiness_is_explicit_concept",
+      "ok": true,
+      "evidence": "本地地块、公共通路、门前与保护语义可解析，可开始Architecture Design；跨界雨水受纳和公共协同标高未闭合，不能冻结设计。此状态不是回归评判。"
+    },
+    {
+      "name": "BDP-02_no_world_write",
+      "ok": true,
+      "evidence": false
+    },
+    {
+      "name": "BDP-02_embedded_interfaces_resolve",
+      "ok": true,
+      "evidence": [
+        "R2-IF-THRESHOLD-2",
+        "R2-IF-LANE-04",
+        "R2-IF-LANE-02"
+      ]
+    },
+    {
+      "name": "BDP-02_direct_dependency_interface-baselines.json",
+      "ok": true,
+      "evidence": {
+        "expected": "a60079da73e1f7ab3dfd45f57ba1059af17e051eb595af3da34308dbd96cec99",
+        "actual": "a60079da73e1f7ab3dfd45f57ba1059af17e051eb595af3da34308dbd96cec99"
+      }
+    },
+    {
+      "name": "BDP-02_direct_dependency_external-service-interfaces.json",
+      "ok": true,
+      "evidence": {
+        "expected": "b8390821f113361c5c8fe4e0c37e155432bcc0202ba13b229caf44c8aa677f04",
+        "actual": "b8390821f113361c5c8fe4e0c37e155432bcc0202ba13b229caf44c8aa677f04"
+      }
+    },
+    {
+      "name": "BDP-02_direct_dependency_evidence/地表采样.json",
+      "ok": true,
+      "evidence": {
+        "expected": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e",
+        "actual": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e"
+      }
+    },
+    {
+      "name": "BDP-02_direct_dependency_evidence/浅层采样.json",
+      "ok": true,
+      "evidence": {
+        "expected": "a1e8560fad263c32f65c79ea6677b54e0ca61012210c851923c314479293a9d7",
+        "actual": "a1e8560fad263c32f65c79ea6677b54e0ca61012210c851923c314479293a9d7"
+      }
+    },
+    {
+      "name": "BDP-02_own_services",
+      "ok": true,
+      "evidence": [
+        "R2-S2-CLEAN_WATER",
+        "R2-S2-WASTE",
+        "R2-S2-GOODS_FUEL",
+        "R2-S2-RAINWATER"
+      ]
+    },
+    {
+      "name": "R2-S1-CLEAN_WATER_resolvable_location",
+      "ok": true,
+      "evidence": "interface-baselines.json#R2-IF-THRESHOLD-1"
+    },
+    {
+      "name": "R2-S1-WASTE_resolvable_location",
+      "ok": true,
+      "evidence": "interface-baselines.json#R2-IF-THRESHOLD-1"
+    },
+    {
+      "name": "R2-S1-GOODS_FUEL_resolvable_location",
+      "ok": true,
+      "evidence": "interface-baselines.json#R2-IF-THRESHOLD-1"
+    },
+    {
+      "name": "R2-S1-RAINWATER_resolvable_location",
+      "ok": true,
+      "evidence": "interface-baselines.json#R2-IF-THRESHOLD-1"
+    },
+    {
+      "name": "R2-S2-CLEAN_WATER_resolvable_location",
+      "ok": true,
+      "evidence": "interface-baselines.json#R2-IF-THRESHOLD-2"
+    },
+    {
+      "name": "R2-S2-WASTE_resolvable_location",
+      "ok": true,
+      "evidence": "interface-baselines.json#R2-IF-THRESHOLD-2"
+    },
+    {
+      "name": "R2-S2-GOODS_FUEL_resolvable_location",
+      "ok": true,
+      "evidence": "interface-baselines.json#R2-IF-THRESHOLD-2"
+    },
+    {
+      "name": "R2-S2-RAINWATER_resolvable_location",
+      "ok": true,
+      "evidence": "interface-baselines.json#R2-IF-THRESHOLD-2"
+    },
+    {
+      "name": "available_allowed_sources_unchanged",
+      "ok": true,
+      "evidence": [
+        {
+          "path": "minecraft/MP-P04-WEST-APPROACH/implementation-packages.json",
+          "unchanged": true
+        },
+        {
+          "path": "minecraft/MP-P04-WEST-APPROACH/planning-data.json",
+          "unchanged": true
+        },
+        {
+          "path": "minecraft/MP-P04-WEST-APPROACH/evidence/world-read-provenance.json",
+          "unchanged": true
+        },
+        {
+          "path": "minecraft/MP-P04-WEST-APPROACH/evidence/surface-crop.json.gz",
+          "unchanged": true
+        },
+        {
+          "path": "minecraft/MP-P04-WEST-APPROACH/evidence/near-ground.json.gz",
+          "unchanged": true
+        },
+        {
+          "path": "minecraft/MP-P04-WEST-APPROACH/evidence/lane-profiles.json",
+          "unchanged": true
+        },
+        {
+          "path": "minecraft/建筑师/world/civilizations/CIV-001/README.md",
+          "unchanged": true
+        },
+        {
+          "path": "minecraft/建筑师/decisions/D-014_CIV-001最小文明Canon收敛与AB-001进入.md",
+          "unchanged": true
+        },
+        {
+          "path": "minecraft/建筑师/architecture/civilizations/CIV-001/Architecture-Grammar.md",
+          "unchanged": true
+        }
+      ]
+    },
+    {
+      "name": "available_world_files_unchanged",
+      "ok": true,
+      "evidence": [
+        {
+          "path": "level.dat",
+          "sha256": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410",
+          "matches_initial": true
+        },
+        {
+          "path": "dimensions/minecraft/overworld/region/r.1.2.mca",
+          "sha256": "753f85c70f07ee4a2c39c5eaff2876ac941e1e35915e405519abb8fc37021cd6",
+          "matches_initial": true
+        },
+        {
+          "path": "dimensions/minecraft/overworld/region/r.1.3.mca",
+          "sha256": "c7d6a492ed978ee40b807e482973b94a3397cb48a86e1d58a0777ea81c73688b",
+          "matches_initial": true
+        }
+      ]
+    },
+    {
+      "name": "map_present_maps/01-组团与地形.svg",
+      "ok": true,
+      "evidence": {
+        "bytes": 177871
+      }
+    },
+    {
+      "name": "map_present_maps/02-门前与公共接口.svg",
+      "ok": true,
+      "evidence": {
+        "bytes": 161360
+      }
+    },
+    {
+      "name": "map_present_maps/03-地形与门前剖面.svg",
+      "ok": true,
+      "evidence": {
+        "bytes": 8575
+      }
+    }
+  ],
+  "derived_facts": [
+    {
+      "name": "R2-P1_architectural_search_components",
+      "component_column_counts": [
+        109
+      ],
+      "interpretation": "不将碎片或搜索总量当作房间面积/居住证明。"
+    },
+    {
+      "name": "R2-P2_architectural_search_components",
+      "component_column_counts": [
+        85
+      ],
+      "interpretation": "不将碎片或搜索总量当作房间面积/居住证明。"
+    },
+    {
+      "name": "two_by_two_public_plan_candidates",
+      "anchors": 606,
+      "components": [
+        606
+      ],
+      "interpretation": "平面空地候选统计；未断言沿名义中心线全程满足2格净宽。公共肩部适应需回签。"
+    }
+  ],
+  "summary": {
+    "checks": 50,
+    "unsatisfied_checks": 0
+  },
+  "not_verified": [
+    "Builder Architecture Design",
+    "真实门/楼板/楼梯/净宽与转弯碰撞",
+    "结构稳定与基础影响体积",
+    "公共接口接受、土地/通行许可",
+    "供水量/清运及运行能力",
+    "独立回归裁定"
+  ]
+}
