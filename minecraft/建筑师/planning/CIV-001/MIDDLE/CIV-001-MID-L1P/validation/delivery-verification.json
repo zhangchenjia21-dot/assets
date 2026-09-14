@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-09-14T13:11:44.901996+00:00",
+  "primary_commit": "9f67b682cdff285d96a0523b752427912e751453",
+  "frozen_files_verified": 42,
+  "git_blob_sha256_equal": true,
+  "deterministic_regional_analysis_equal": true,
+  "deterministic_six_maps_equal": true,
+  "visual_review": "All six rendered maps individually inspected; accepted X89 edges computed from territory; no site dots or build footprint",
+  "mechanical_checks": "mechanical-checks.json",
+  "payload_before_completion_bytes": 2614580,
+  "payload_ceiling_bytes": 15728640,
+  "raw_upload": false,
+  "world_reads": 0,
+  "world_writes": 0,
+  "Builder_calls": 0,
+  "L2_executed": false,
+  "whitespace_note": "Frozen .gitattributes retains a CRLF newline. Default git diff --check reports CR at EOL there; git -c core.whitespace=cr-at-eol diff --check succeeds. Preserved frozen bytes rather than post-freeze rewriting.",
+  "final_push": "To be verified against remote HEAD after final delivery commit; final response records exact result"
+}

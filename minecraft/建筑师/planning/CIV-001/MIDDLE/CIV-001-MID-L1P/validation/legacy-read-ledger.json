@@ -1,0 +1,42 @@
+{
+  "recorded_after_reads_utc": "2026-09-14T13:11:44.898693+00:00",
+  "primary_freeze_utc": "2026-09-14T13:07:51.606544+00:00",
+  "primary_commit": "9f67b682cdff285d96a0523b752427912e751453",
+  "ordering": "Freeze -> primary commit -> freeze verify -> scoped rg --files inventory -> bounded Get-Content reads -> comparison. Tool chronology is read-order evidence; this timestamp records the ledger, not individual read times.",
+  "primary_git_blobs_and_worktree_sha256_match": true,
+  "reads": [
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/MD-001P/MASTERPLAN.md",
+      "sha256": "5e82f8976d27432bf3df64893c1614d5e6ac663976ee6397d205bbf78acc93e4",
+      "purpose": "POST_FREEZE_AB_ONLY",
+      "coverage": "Full content requested; truncated middle of combined output recovered by separate REVISION and SITE-GATE opening read"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/MD-001P/REVISION-R1.md",
+      "sha256": "acf0588f2a779cc04d48c9b28f4a5dd6697e089d0d02fc765f9d263d89f00e4f",
+      "purpose": "POST_FREEZE_AB_ONLY",
+      "coverage": "Full content requested; truncated middle of combined output recovered by separate REVISION and SITE-GATE opening read"
+    },
+    {
+      "path": "minecraft/建筑师/research/build-sites/CIV-001/MD-001S1/SITE-GATE.md",
+      "sha256": "b64de2b385a33664e393f5a662ae12b23b5b5b0ef837ea4eca67114c47199738",
+      "purpose": "POST_FREEZE_AB_ONLY",
+      "coverage": "Full content requested; truncated middle of combined output recovered by separate REVISION and SITE-GATE opening read"
+    },
+    {
+      "path": "minecraft/建筑师/planning/CIV-001/MIDDLE/G1/MD-001U1/URBAN-ENSEMBLE.md",
+      "sha256": "8583cd14c26b1f0d5280f95bedd442661f0663f7debfe135d2d65f75a965e252",
+      "purpose": "POST_FREEZE_AB_ONLY",
+      "coverage": "Full content requested; truncated middle of combined output recovered by separate REVISION and SITE-GATE opening read"
+    },
+    {
+      "path": "minecraft/建筑师/architecture/civilizations/CIV-001/kits/MIDDLE/v0.1/KIT.md",
+      "sha256": "e00c5411f578c025fe9568792f8814d3ec13408fb403b440500a0a8ecca2b308",
+      "purpose": "POST_FREEZE_AB_ONLY",
+      "coverage": "Full content requested; truncated middle of combined output recovered by separate REVISION and SITE-GATE opening read"
+    }
+  ],
+  "inventory": "Scoped Markdown filenames only in the four authorized legacy roots, after primary commit",
+  "L0_legacy_comparison_read": false,
+  "primary_backfill": false
+}
