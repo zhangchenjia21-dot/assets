@@ -1,0 +1,57 @@
+{
+  "core": {
+    "bounds": [
+      704,
+      1520,
+      895,
+      1711
+    ],
+    "area": 36864,
+    "y_min_median_max": [
+      45,
+      131.0,
+      144
+    ],
+    "surface_counts": {
+      "ROCK": 26902,
+      "SOIL": 951,
+      "SAND_GRAVEL": 6345,
+      "WATER": 2448,
+      "LAVA": 158,
+      "OTHER": 60
+    },
+    "leaf_columns": 19
+  },
+  "context": {
+    "bounds": [
+      640,
+      1488,
+      959,
+      1775
+    ],
+    "area": 92160,
+    "y_min_median_max": [
+      26,
+      123.0,
+      157
+    ],
+    "surface_counts": {
+      "ROCK": 45978,
+      "SOIL": 18620,
+      "SAND_GRAVEL": 14733,
+      "WATER": 12366,
+      "LAVA": 158,
+      "OTHER": 305
+    },
+    "leaf_columns": 1487
+  },
+  "classes": [
+    "ROCK",
+    "SOIL",
+    "SAND_GRAVEL",
+    "WATER",
+    "LAVA",
+    "OTHER"
+  ],
+  "classification_note": "ROCK含可见矿石但非矿床；OTHER含苔藓、虫蚀石、陶瓦质等；WATER表示列上方观察到水而非饮水"
+}

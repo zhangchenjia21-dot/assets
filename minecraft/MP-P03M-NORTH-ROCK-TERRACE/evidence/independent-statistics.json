@@ -1,0 +1,83 @@
+{
+  "authority": "DERIVED",
+  "method": "逐列事实重新分类；分窗为本轮调查提案，不是建成区；空气只在既有16格深扫描范围计数",
+  "windows": {
+    "parent_search": {
+      "bounds": [
+        704,
+        1520,
+        895,
+        1711
+      ],
+      "columns": 36864,
+      "ground_y_percentiles_0_10_50_90_100": [
+        45.0,
+        77.0,
+        131.0,
+        139.0,
+        144.0
+      ],
+      "surface_counts": {
+        "ROCK": 26902,
+        "SOIL": 951,
+        "SAND_GRAVEL": 6345,
+        "WATER": 2448,
+        "LAVA": 158,
+        "OTHER": 60
+      },
+      "observed_void_columns": 603
+    },
+    "A": {
+      "bounds": [
+        752,
+        1596,
+        824,
+        1672
+      ],
+      "columns": 5621,
+      "ground_y_percentiles_0_10_50_90_100": [
+        113.0,
+        132.0,
+        135.0,
+        136.0,
+        137.0
+      ],
+      "surface_counts": {
+        "ROCK": 5452,
+        "SOIL": 100,
+        "SAND_GRAVEL": 62,
+        "WATER": 0,
+        "LAVA": 5,
+        "OTHER": 2
+      },
+      "observed_void_columns": 7
+    },
+    "B": {
+      "bounds": [
+        825,
+        1596,
+        884,
+        1672
+      ],
+      "columns": 4620,
+      "ground_y_percentiles_0_10_50_90_100": [
+        129.0,
+        137.0,
+        138.0,
+        140.0,
+        141.0
+      ],
+      "surface_counts": {
+        "ROCK": 2942,
+        "SOIL": 111,
+        "SAND_GRAVEL": 1565,
+        "WATER": 0,
+        "LAVA": 0,
+        "OTHER": 2
+      },
+      "observed_void_columns": 448
+    }
+  },
+  "void_scan_columns": 13677,
+  "void_columns": 603
+}

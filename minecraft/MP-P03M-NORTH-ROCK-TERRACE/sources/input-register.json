@@ -1,0 +1,128 @@
+[
+  {
+    "path": "建筑师/world/civilizations/CIV-001/README.md",
+    "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "APPROVED_CANON",
+    "use": "文明身份、生产互补、地方自治、技术；不追读后续设计链接"
+  },
+  {
+    "path": "MP-P02R-EAST/implementation-packages.json",
+    "sha256": "0dc898c12d99ce640cf467ebb52e93d7a530bc10b51b9a9ae8b8167dfcb98fab",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "DESIGN_PROPOSAL",
+    "use": "仅摘录 PACKAGE-01；不升级 Canon"
+  },
+  {
+    "path": "MP-P02R-EAST/planning-data.json",
+    "sha256": "dfb3219031bff69a031307d628057ba49e2ceb23edff3ad5aefa674c43a6370f",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "DESIGN_PROPOSAL",
+    "use": "仅 ROUTE-01/02，保留关系及上游调查证据，不当已建道路"
+  },
+  {
+    "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/world-read-provenance.json",
+    "sha256": "5007ace6802d3552c89e401680400b1d5c408a5bdcd2888074a8915489f95db4",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "OBSERVED / DERIVED",
+    "use": "仅事实字段；忽略原文件中任何规划倾向语句"
+  },
+  {
+    "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/current-surface-summary.json",
+    "sha256": "14d97dd0db3749cc08564f37a0cea82ee4fe8331cd23c062a8e128b0bab833ae",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "OBSERVED / DERIVED",
+    "use": "仅事实字段；忽略原文件中任何规划倾向语句"
+  },
+  {
+    "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/shallow-void-columns.json",
+    "sha256": "409f2f693256ca5748f5f833c6ace2ee3eb0ff2eb92f3352dd701390bde9bf55",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "OBSERVED / DERIVED",
+    "use": "仅事实字段；忽略原文件中任何规划倾向语句"
+  },
+  {
+    "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/fabric-witnesses.json",
+    "sha256": "3f0bfbe35652b799ea073d3b2f8ce93a229c491b9e740ffa2a2f0fdacc294ced",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "OBSERVED / DERIVED",
+    "use": "仅事实字段；忽略原文件中任何规划倾向语句"
+  },
+  {
+    "path": "MP-P03-NORTH-ROCK-TERRACE/sources/source-register.json",
+    "sha256": "f140d7e8ca958a43b2967cedd9e26e1fbe843a2c0be82c14bd91a8818d0d1eda",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "PROVENANCE",
+    "use": "只追溯事实调查；不采用旧 Skill 或方案"
+  },
+  {
+    "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/现场地形.png",
+    "sha256": "03e6d675559e999397b8781b40ed6598462461122e483ce4bf15594d9ca31533",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "DERIVED",
+    "use": "仅地理底图；本轮重新制图"
+  },
+  {
+    "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/现场地表.png",
+    "sha256": "be81b7afebca0af59fae10346a81eef77e94b366d93b8668692ddbd56a2cf729",
+    "revision": "26d52a0636aae3d740ccfd5a0b996c3351acdba5",
+    "authority": "DERIVED",
+    "use": "仅地理底图；本轮重新制图"
+  },
+  {
+    "path": "skill/codex/minecraft-planner/references/causal-growth-model.md",
+    "sha256": "b5dba0e34f1bd864652036ed87679d80f43ea9cf1c3ddd8f153486130383d7b6",
+    "revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/causal-growth-model.md"
+  },
+  {
+    "path": "skill/codex/minecraft-planner/references/flows-externalities-and-demand.md",
+    "sha256": "476e717be54d49e88cc9ed99aede9210c1ae618ab853c06bf2da563b194e66bf",
+    "revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/flows-externalities-and-demand.md"
+  },
+  {
+    "path": "skill/codex/minecraft-planner/references/human-geography-kernels.md",
+    "sha256": "d47e56bfdada958a4b6ad8fc421f4967bccdbe2b87489c0d5ca86511f639bc3c",
+    "revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/human-geography-kernels.md"
+  },
+  {
+    "path": "skill/codex/minecraft-planner/references/planning-artifacts-and-maps.md",
+    "sha256": "c0b76602b899d3bdbb6b787b435e7de5fab76818df7c57d192ee6e0a1bf381e4",
+    "revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/planning-artifacts-and-maps.md"
+  },
+  {
+    "path": "skill/codex/minecraft-planner/references/recursive-planning-handoff.md",
+    "sha256": "91e662a77407e5f9fe99d5036b5ef648b79e4ab171c474f6b2837391e3b75053",
+    "revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/recursive-planning-handoff.md"
+  },
+  {
+    "path": "skill/codex/minecraft-planner/references/settlement-capacity-and-scale.md",
+    "sha256": "774318ff5dab75042122eb117bfb095801eda132e58dd2ed6d319bef2aac6106",
+    "revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/settlement-capacity-and-scale.md"
+  },
+  {
+    "path": "skill/codex/minecraft-planner/references/surface-substrate-landcover.md",
+    "sha256": "bdde70dd0d1cca8d61b3c8a48d535b2f21629cbd2b494ce1f72d16d735832fab",
+    "revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/references/surface-substrate-landcover.md"
+  },
+  {
+    "path": "skill/codex/minecraft-planner/SKILL.md",
+    "sha256": "a6f2e3d248d9846a9e1d51fd7f47d0cb390180a107dbf8733a604172230eef20",
+    "revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+    "authority": "SKILL_INSTRUCTION",
+    "local_copy": "sources/skill/SKILL.md"
+  }
+]

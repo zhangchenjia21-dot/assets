@@ -1,0 +1,90 @@
+[
+  {
+    "x": 664,
+    "y": 67,
+    "z": 1536,
+    "id": "minecraft:beehive",
+    "surface_y": 67,
+    "depth_to_ground": 0
+  },
+  {
+    "x": 943,
+    "y": 83,
+    "z": 1583,
+    "id": "minecraft:mob_spawner",
+    "surface_y": 145,
+    "depth_to_ground": 62
+  },
+  {
+    "x": 945,
+    "y": 83,
+    "z": 1582,
+    "id": "minecraft:chest",
+    "surface_y": 145,
+    "depth_to_ground": 62
+  },
+  {
+    "x": 945,
+    "y": 83,
+    "z": 1584,
+    "id": "minecraft:chest",
+    "surface_y": 145,
+    "depth_to_ground": 62
+  },
+  {
+    "x": 779,
+    "y": 81,
+    "z": 1631,
+    "id": "minecraft:mob_spawner",
+    "surface_y": 134,
+    "depth_to_ground": 53
+  },
+  {
+    "x": 931,
+    "y": 125,
+    "z": 1616,
+    "id": "minecraft:mob_spawner",
+    "surface_y": 151,
+    "depth_to_ground": 26
+  },
+  {
+    "x": 933,
+    "y": 125,
+    "z": 1616,
+    "id": "minecraft:chest",
+    "surface_y": 151,
+    "depth_to_ground": 26
+  },
+  {
+    "x": 781,
+    "y": 81,
+    "z": 1634,
+    "id": "minecraft:chest",
+    "surface_y": 135,
+    "depth_to_ground": 54
+  },
+  {
+    "x": 775,
+    "y": 99,
+    "z": 1661,
+    "id": "minecraft:chest",
+    "surface_y": 135,
+    "depth_to_ground": 36
+  },
+  {
+    "x": 777,
+    "y": 99,
+    "z": 1662,
+    "id": "minecraft:mob_spawner",
+    "surface_y": 135,
+    "depth_to_ground": 36
+  },
+  {
+    "x": 777,
+    "y": 99,
+    "z": 1664,
+    "id": "minecraft:chest",
+    "surface_y": 135,
+    "depth_to_ground": 36
+  }
+]

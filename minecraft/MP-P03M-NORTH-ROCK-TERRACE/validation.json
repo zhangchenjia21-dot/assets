@@ -1,0 +1,147 @@
+{
+  "task": "MP-P03M-NORTH-ROCK-TERRACE",
+  "checked_utc": "2026-09-14T02:11:33.435013+00:00",
+  "world_writes": 0,
+  "world_identity": "建筑师",
+  "source_snapshot_utc": "2026-09-13T14:45:37.354Z",
+  "current_source_freshness": "相关3文件与原快照、本轮初始及末次哈希相同；未声称整个世界文件清单验证",
+  "world_hash_checks": [
+    {
+      "path": "level.dat",
+      "baseline_sha256": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410",
+      "final_sha256": "c4d0585e7e0d1e6e7ab71e369025f844fee4388c152ed3411252ccb6692e3410",
+      "unchanged": true
+    },
+    {
+      "path": "dimensions/minecraft/overworld/region/r.1.2.mca",
+      "baseline_sha256": "753f85c70f07ee4a2c39c5eaff2876ac941e1e35915e405519abb8fc37021cd6",
+      "final_sha256": "753f85c70f07ee4a2c39c5eaff2876ac941e1e35915e405519abb8fc37021cd6",
+      "unchanged": true
+    },
+    {
+      "path": "dimensions/minecraft/overworld/region/r.1.3.mca",
+      "baseline_sha256": "c7d6a492ed978ee40b807e482973b94a3397cb48a86e1d58a0777ea81c73688b",
+      "final_sha256": "c7d6a492ed978ee40b807e482973b94a3397cb48a86e1d58a0777ea81c73688b",
+      "unchanged": true
+    }
+  ],
+  "input_hash_checks": [
+    {
+      "path": "建筑师/world/civilizations/CIV-001/README.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P02R-EAST/implementation-packages.json",
+      "sha256": "0dc898c12d99ce640cf467ebb52e93d7a530bc10b51b9a9ae8b8167dfcb98fab",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P02R-EAST/planning-data.json",
+      "sha256": "dfb3219031bff69a031307d628057ba49e2ceb23edff3ad5aefa674c43a6370f",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/world-read-provenance.json",
+      "sha256": "5007ace6802d3552c89e401680400b1d5c408a5bdcd2888074a8915489f95db4",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/current-surface-summary.json",
+      "sha256": "14d97dd0db3749cc08564f37a0cea82ee4fe8331cd23c062a8e128b0bab833ae",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/shallow-void-columns.json",
+      "sha256": "409f2f693256ca5748f5f833c6ace2ee3eb0ff2eb92f3352dd701390bde9bf55",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/fabric-witnesses.json",
+      "sha256": "3f0bfbe35652b799ea073d3b2f8ce93a229c491b9e740ffa2a2f0fdacc294ced",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P03-NORTH-ROCK-TERRACE/sources/source-register.json",
+      "sha256": "f140d7e8ca958a43b2967cedd9e26e1fbe843a2c0be82c14bd91a8818d0d1eda",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/现场地形.png",
+      "sha256": "03e6d675559e999397b8781b40ed6598462461122e483ce4bf15594d9ca31533",
+      "unchanged": true
+    },
+    {
+      "path": "MP-P03-NORTH-ROCK-TERRACE/evidence/现场地表.png",
+      "sha256": "be81b7afebca0af59fae10346a81eef77e94b366d93b8668692ddbd56a2cf729",
+      "unchanged": true
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/causal-growth-model.md",
+      "sha256": "b5dba0e34f1bd864652036ed87679d80f43ea9cf1c3ddd8f153486130383d7b6",
+      "unchanged": true
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/flows-externalities-and-demand.md",
+      "sha256": "476e717be54d49e88cc9ed99aede9210c1ae618ab853c06bf2da563b194e66bf",
+      "unchanged": true
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/human-geography-kernels.md",
+      "sha256": "d47e56bfdada958a4b6ad8fc421f4967bccdbe2b87489c0d5ca86511f639bc3c",
+      "unchanged": true
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/planning-artifacts-and-maps.md",
+      "sha256": "c0b76602b899d3bdbb6b787b435e7de5fab76818df7c57d192ee6e0a1bf381e4",
+      "unchanged": true
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/recursive-planning-handoff.md",
+      "sha256": "91e662a77407e5f9fe99d5036b5ef648b79e4ab171c474f6b2837391e3b75053",
+      "unchanged": true
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/settlement-capacity-and-scale.md",
+      "sha256": "774318ff5dab75042122eb117bfb095801eda132e58dd2ed6d319bef2aac6106",
+      "unchanged": true
+    },
+    {
+      "path": "skill/codex/minecraft-planner/references/surface-substrate-landcover.md",
+      "sha256": "bdde70dd0d1cca8d61b3c8a48d535b2f21629cbd2b494ce1f72d16d735832fab",
+      "unchanged": true
+    },
+    {
+      "path": "skill/codex/minecraft-planner/SKILL.md",
+      "sha256": "a6f2e3d248d9846a9e1d51fd7f47d0cb390180a107dbf8733a604172230eef20",
+      "unchanged": true
+    }
+  ],
+  "raw_uncompressed_sha256": "d11f036d8baac7fabcfa7c4ed9ba804dd4862f55fc3d1ec2ce25cec68d6eb7f2",
+  "raw_column_count": 92160,
+  "technical_checks": {
+    "json_parse": true,
+    "capacity_arithmetic": true,
+    "source_hashes": true,
+    "source_world_selected_files_unchanged": true,
+    "map_rebuild_identical": true,
+    "observed_class_counts": true,
+    "coordinates_within_survey": true,
+    "tracked_changes_scoped": true
+  },
+  "visual_review": "Planner实际打开检查两图：文字可读、坐标与图例齐备；修正剖面引用文字",
+  "excluded_claims": [
+    "不是现场通行验证",
+    "不是水文/饮用水验证",
+    "不是结构安全验证",
+    "不是地权批准",
+    "不是Skill回归判定"
+  ],
+  "limits": [
+    "不运行游戏或服务器",
+    "空洞扫描仅指定窗地下16格",
+    "静态数据不证明社会关系",
+    "未读取禁用规划和审核文件",
+    "制图复现需要Python、NumPy、Pillow与微软雅黑字体"
+  ]
+}

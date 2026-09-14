@@ -1,0 +1,108 @@
+{
+  "id": "MP-P03M-NORTH-ROCK-TERRACE",
+  "revision": "r1",
+  "scale": "SETTLEMENT",
+  "skill": "minecraft-planner v0.4",
+  "skill_revision": "6746b17af504b31b790e425d6f36bf2a2ac5f480",
+  "authority": "DESIGN_PROPOSAL",
+  "state": "HANDOFF_READY",
+  "review_status": "AWAITING_GPT_AND_OWNER",
+  "world_writes": 0,
+  "world_write_authorization": false,
+  "builder_ready": false,
+  "parent": {"plan": "MP-P02R-EAST", "package": "PACKAGE-01", "authority": "DESIGN_PROPOSAL", "snapshot": "sources/parent-package.json"},
+  "context": {
+    "fabric_observation_state": "EXISTING_FABRIC_PARTIAL",
+    "evolution_logic": "EXISTING_EVOLUTION",
+    "note": "成熟文明中的候选节点；仅观测方块及部分方块实体，不认定现场为空白、不虚构既存村史。以下成长为条件性形成路径。",
+    "historical_land_rights": "UNKNOWN_TO_PLANNER"
+  },
+  "assessment": {
+    "long_term_viability": "CONDITIONALLY_PLAUSIBLE_NOT_DEMONSTRATED",
+    "conclusion": "保留有常住服务家庭的长期交割、修理与储备节点；没有足够依据否决或按自然地表机械缩容，也没有证据把父包上限当已兑现容量。",
+    "primary_constraints_after_mitigation": ["供水的持续补充与搬运负担", "中域和西南方向有效驮运通达", "地方土地、水、通行与共储合作权利", "粮食燃料输入与地方产品形成的持续交换需求"],
+    "local_constraints": ["东侧浅空洞影响精确占地与荷载调查", "稀缺土面与砂砾影响生产假设和道路接口", "A西南角局部熔岩及突降需避让和调查"],
+    "upstream_planning_issue": "NOT_ESTABLISHED",
+    "upstream_reason": "尚未发现普通工程、移位、分期与供给协议均无法维持父包关系的证据；未证不等于失败。",
+    "not_supported": ["已证全年宜居", "农业自给村", "大型集中冶炼中心", "天然港口", "东席唯一首府", "已证8000格平方米建设用地"]
+  },
+  "spatial_objects": [
+    {"id":"SEARCH-01","authority":"DESIGN_PROPOSAL","type":"PARENT_LOCATION_SEARCH","bounds_inclusive_xz":[704,1520,895,1711],"not_built_extent":true},
+    {"id":"AREA-A","authority":"DESIGN_PROPOSAL","type":"PRIORITY_INVESTIGATION_WINDOW","bounds_inclusive_xz":[752,1596,824,1672],"why":"接近西侧与西南来向、岩面连续、既有扫描中浅空洞较少；优先比较共享交割院与供水接口周边混合常住。","not_exact_site":true,"limits":"不包含建成许可；西南角熔岩与局部突降须绕避，7列空气不等于只有7列风险。","evidence":"evidence/independent-statistics.json#/windows/A"},
+    {"id":"AREA-B","authority":"DESIGN_PROPOSAL","type":"LATER_INVESTIGATION_WINDOW","bounds_inclusive_xz":[825,1596,884,1672],"why":"较高台面可提供后续空间，但浅空洞与砂砾使其需更细的占地、路线和工程比选。","not_exact_site":true,"limits":"不整体禁建、不自动填洞；荷载位置避开或局部跨越仅为待验证方案。","evidence":"evidence/independent-statistics.json#/windows/B"},
+    {"id":"REL-W","authority":"DESIGN_PROPOSAL","type":"APPROACH_INVESTIGATION_DIRECTION","points_xz":[[650,1620],[720,1620],[770,1620]],"parent_ref":"ROUTE-01","geometry_semantic":"NOT_ROAD_ALIGNMENT","effective_access":"UNVERIFIED"},
+    {"id":"REL-SW","authority":"DESIGN_PROPOSAL","type":"APPROACH_INVESTIGATION_DIRECTION","points_xz":[[685,1770],[730,1705],[770,1645]],"parent_ref":"ROUTE-02","geometry_semantic":"NOT_ROAD_ALIGNMENT","effective_access":"UNVERIFIED"}
+  ],
+  "capacity": {
+    "authority": "PLANNING_ASSUMPTION",
+    "confidence": "LOW",
+    "existing_residents": "UNVERIFIED",
+    "parent_area_range_blocks2": [3500,8000],
+    "parent_households": [12,24],
+    "conditional_long_term_area_range_blocks2": [3500,8000],
+    "conditional_long_term_households": [12,24],
+    "change": "总范围暂保留，改为分阶段条件兑现；不是保留既有MP-P03容量。",
+    "first_residential_stage": {
+      "households": [12,16],
+      "household_land_per_household_blocks2": [100,150],
+      "shared_service_blocks2": [2300,2600],
+      "total_area_range_blocks2": [3500,5000],
+      "formula": "12*100+2300=3500;16*150+2600=5000",
+      "conditions": ["证明可持续日常供水并含访客峰值缓冲", "一条有权、相应运输方式可用的常规补给通道", "地方共同体明确共储、取水及开放院使用规则", "持续交割与修理需求足以负担输入和普通工程"]
+    },
+    "upper_growth": {
+      "cumulative_households": [12,24],
+      "cumulative_area_range_blocks2": [3500,8000],
+      "formula_upper": "24*150+4400=8000",
+      "conditions": ["高于首段的实测服务压力", "峰值饮水与货运供给仍可维持", "局部浅基底与用地核定", "不挤占必要储备院和土面，不重复计算其它社区服务"]
+    },
+    "counting_rule": "户用地含嵌入工坊、生活院和本地通行；共享部分只计不重复的装卸、储备、访客等待、供水及其接口。调查窗、图外驮路、未建设公地、农林腹地均不计。",
+    "branch_if_supply_unclosed": "暂不启动常住建设；调查/季节交割可先行论证，容量UNRESOLVED而非自动零人口。若普通适应证实失败，再回报父包角色迁移/拆分。",
+    "functional_hinterland": {"type":"RELATIONAL_NOT_POLYGON","relations":["中域输入粮食日用物 ↔ 北部交割", "西南地方共同体 ↔ 北部维修共储", "远端生产出现并有有效通达后才接入"],"not_local_self_sufficiency":true}
+  },
+  "actors": [
+    {"id":"ACTOR-01","role":"地方共同体与土地使用者","canon_basis":"强地方自治；东席为多个山地共同体联合","proposed_action":"协商共储院、取水与通路使用","burden":"土地机会成本、共同劳动与储备份额","benefit":"较稳日用品供给与维修","veto":"可拒绝征地、外来垄断或不公平取水；具体权属未证"},
+    {"id":"ACTOR-02","role":"承担交割的商旅与生产家庭","authority":"PLANNING_ASSUMPTION","proposed_action":"以重复使用和协商分担运输、储存及局部路工","burden":"运力、商品库存和等待","benefit":"合并小批货物、减少重复上山","veto":"负担过高或需求不足可改用其它交割点"},
+    {"id":"ACTOR-03","role":"常住服务家庭","authority":"PLANNING_ASSUMPTION","proposed_action":"承担仓储管理、日常修理与供水照料，商业生活混合","burden":"输入依赖及日常劳动","benefit":"稳定服务生计","veto":"水和食物不可持续则不迁入"}
+  ],
+  "constraint_transformations": [
+    {"id":"CT-WATER","raw_condition":"台面调查窗无观测地表水；北侧水与台顶有明显高差，南侧亦有低处水信号","affected_activity":"常住、访客饮用、牲畜和火灾初期应对","options":[{"method":"台面普通井","burden":"UNRESOLVED","capability":"Canon水利/矿山工程支持调查，不保证地下水","test":"试查含水、可用水及开凿负担；若需深岩巨井不能称普通低成本"},{"method":"蓄水与雨水收集","burden":"MODERATE_CONDITIONAL","test":"储存本身不产水；需季节补充、洁净收集、储存损耗与污染隔离闭合"},{"method":"附近水点搬运或局部提水+高位缓冲","burden":"MODERATE_TO_HIGH_CONDITIONAL","test":"确认水点及通路，再按日常/峰值劳动验证；不默认北岸可直上"}],"residual":"来源可持续性、消耗与补给失衡仍会限制常住和访客，不支持农业灌溉推论","spatial_consequence":"生活院靠已证供水接口；装卸牲畜与污水不穿洁净取水空间；不能预定井坐标","reject_boundary":"所有普通方案在本规模均需长期高负担或系统性工程时才迁移/季节化","source_refs":["evidence/section-samples.json","evidence/independent-statistics.json","sources/Canon入口.md"]},
+    {"id":"CT-FOOD","raw_condition":"父窗土面951/36864列，叶覆盖稀少；无农业产能证据","affected_activity":"粮食、燃料、牲畜饲料与新增家庭","options":[{"method":"由中域和地方交换批量输入、家庭与共储结合","burden":"MODERATE_CONDITIONAL","test":"供应者余量、运输权与运力、当地可交换产品成立"},{"method":"保留土面试验小园地","burden":"LOW_TO_MODERATE_CONDITIONAL","test":"土深、用水、利用权；不算主粮自给"}],"residual":"外部供给中断与饲料峰值，不以裸岩算粮食承载","spatial_consequence":"共享库存与空院先于纯住宅扩张；不把好土全部建设或把小村升级大型冶炼中心","source_refs":["evidence/independent-statistics.json","sources/parent-routes.json"]},
+    {"id":"CT-ACCESS","raw_condition":"西侧上升至台面，西南联系跨越高差；父线只是关系折线","affected_activity":"食物、产品、旅人运输","options":[{"method":"顺坡绕行、短挡护、路基整固、分段卸载","burden":"MODERATE_CONDITIONAL","test":"连续路带、转折、净空、会让、地基及驮运劳动"},{"method":"较陡段步行台阶","burden":"LOW_TO_MODERATE_CONDITIONAL","test":"只能解释步行，不替代驮畜或重货"}],"residual":"地役权、季节通行、安全与运力仍未知；大量低值重货可能不经济","spatial_consequence":"交割与短储优先靠西侧来向；若只能人背，小批服务而非大吞吐","reject_boundary":"普通绕坡与分段转运仍不可用或权利无解，则将受影响交割关系回报父包","source_refs":["sources/parent-routes.json","evidence/section-samples.json"]},
+    {"id":"CT-GROUND","raw_condition":"已扫描13677列中603列在地下16格内有空气；A7列、B448列；B砂砾1565列","affected_activity":"重仓、供水储存、常用通路与住宅基底","options":[{"method":"小范围移位、避开薄覆顶和洞口","burden":"LOW_TO_MODERATE_CONDITIONAL","test":"拟用地点逐块基底/出入口调查，不以未见空气等于坚实"},{"method":"短跨越或局部地基调整","burden":"MODERATE_CONDITIONAL","test":"跨度、支承、现状来源、保留需求由下层与Builder证明"}],"residual":"扫描不证明结构稳定、不覆盖深层；砂砾不自动失稳","spatial_consequence":"优先A调查，B分段使用；不画全台禁建区、不整体灌填空洞","source_refs":["evidence/shallow-void-columns.json","evidence/independent-statistics.json"]},
+    {"id":"CT-HAZARD-FABRIC","raw_condition":"父窗熔岩158列，A内5列且局部地面突降；发现部分方块实体但权属来源不明","affected_activity":"道路、住房、开挖及取水设施","options":[{"method":"局部绕避、现状识别和权属核查","burden":"LOW_TO_MODERATE_CONDITIONAL","test":"对实物留出相称边界；先识别危险和已有使用者，再定占地"}],"residual":"图面无法认证实体危险性、历史地权、未显露结构","spatial_consequence":"A不是整框可建；不得将未知构造拆除或将地下箱子当既有城镇","source_refs":["evidence/fabric-witnesses.json","evidence/independent-statistics.json"]}
+  ],
+  "metabolism": [
+    {"flow":"水","use":"每日居民，交割日增加旅人与牲畜","stock":"供水接口附近洁净缓冲；不等于已证井","cadence":"来源调查决定，至少闭合普通补给间隔及一次可信中断","failure":"先限访客/牲畜峰值，不能仅靠加仓容解决长期缺源","spatial_effect":"洁净服务支路与装卸分流"},
+    {"flow":"粮食与日用物","use":"每日消费","stock":"家庭库存+共同储备，避免全压一间高风险重仓","cadence":"批次输入；收获季储备为假说，合同与间隔待查","failure":"中域路中断时地方分散储备提供缓冲；不虚构第二条全天候公路","spatial_effect":"装卸院邻接储存，峰值等待空间不能被住宅填满"},
+    {"flow":"燃料、修理料与输出产品","use":"家庭及小修理，间歇集货","stock":"限定小批料堆，火源与粮水有间隔","cadence":"返程批量携带，实际矿点和数量未证","failure":"无持续产品与服务需求则共储节点缺经济起因","spatial_effect":"修理嵌入临交割混合用地，不配置大冶炼区"},
+    {"flow":"商旅、地方代表与牲畜","use":"周期峰值而非日均满载","stock":"开放等待、短宿与装卸容量共享","cadence":"协商分时交割；牲畜饮水饲料要并入供给","failure":"拥堵和消耗越过供给则错峰/分点，非无限扩院","spatial_effect":"公共空院保留使用权，低峰不任意占建"},
+    {"flow":"废水、粪污与垃圾","use":"每日产生，峰日增加","stock":"暂存和定期清出，不等于就近排入自然水体","cadence":"随日常服务及周期清运","failure":"污染供水会使生活锚点失效","spatial_effect":"基于实测坡向另核清污分离，禁止直接认南凹为排污谷"}
+  ],
+  "effective_access": {"physical":"UNVERIFIED_CONTINUOUS_ROUTE","legal_tenure":"UNVERIFIED","political_permission":"LOCAL_NEGOTIATION_REQUIRED","security":"UNVERIFIED_NO_INVENTED_WAR","timing":"SEASONAL_RELIABILITY_UNKNOWN","mode":"PEDESTRIAN_AND_PACK_CANDIDATES; CART_AND_BULK_NOT_ASSUMED","parent_routes":["ROUTE-01","ROUTE-02"]},
+  "growth_sequence": [
+    {"id":"GROWTH-01","pressure":"地方产品与日用品重复交换","knowledge":"不预知远矿；地方真实活动与惯用路径须调查","actor":"地方共同体与商旅","choice":"短时交割及通行协商，先比较台面与坡脚负担","response":"形成可重复使用的交割关系，而非预建完整聚落","feedback":"反复停留产生共储和供水投资动机","conditional":true},
+    {"id":"GROWTH-02","pressure":"输入间隔、维修与等待消耗","knowledge":"试用供水和路线反馈可被当地人知道；地下空气图仍属Planner证据","actor":"共同体与服务家庭","choice":"承担普通供水、储存和局部路工；明确公共院权利","response":"首段常住围绕交割/供水接口，工作生活混合","feedback":"可靠补给吸引服务家庭，取水与通路旁出现竞争","conditional":true},
+    {"id":"GROWTH-03","pressure":"真实重复货流和家庭形成增加","knowledge":"只用已发现的需求，未知矿种不驱动扩张","actor":"家庭与共同设施使用者","choice":"分段核实B或其它可接入台地，允许共享后院与局部增密","response":"保护装卸和洁净取水通道，东侧不连续铺满","feedback":"拥堵/取水负担上升促成错峰、分点或停止增长；不命定到24户","conditional":true}
+  ],
+  "downstream": {
+    "package_id":"MP-P03M-PACKAGE-01",
+    "recipient":"minecraft-planner",
+    "child_scale":"DISTRICT",
+    "scope":"AREA-A为首要条件调查与混合交割生活关系；AREA-B仅后续比较，不是固定区界",
+    "upstream_fixed":["不独占东席；保留中域—北部—条件远端关系", "保护共享装卸/储备与洁净水接口的有效使用", "供给闭合以前不得把条件容量当可施工规模", "现状与土地权利未经核实不可视为空白"],
+    "downstream_adaptable":["等价移位或分段占地", "普通井/储水/搬运组合选择", "混合前后院和嵌入修理的形式", "台地内局部密度与共享院分布"],
+    "investigations":[
+      {"id":"Q-W","priority":"BEFORE_RESIDENTIAL_COMMITMENT","question":"普通供水能否闭合居民+峰值访客及一次补给中断？","evidence_needed":"可用来源、季节性、取用权、供给与搬运劳动；井需含水/开凿证据，水方块不替代这些","decision":"成立则保留常住；不成立先换方案/移位，比例失衡才回报父包"},
+      {"id":"Q-R","priority":"BEFORE_RESIDENTIAL_COMMITMENT","question":"西侧及西南联系是否存在可负担且有权的连续驮路？","evidence_needed":"完整路带坡折、净空、转弯、装卸、地基、季节和通行协议","decision":"明确步行/驮运/重货服务差异；跨图范围交区域层协调"},
+      {"id":"Q-S","priority":"BEFORE_RESIDENTIAL_COMMITMENT","question":"谁持续供粮供料，谁提供足够交换/维修需求？","evidence_needed":"实际生产关系、运力、补给节奏、缓冲责任、权利","decision":"无重复需求则节点角色收缩或分散，不用富矿Canon替代经营证据"},
+      {"id":"Q-G","priority":"BEFORE_FOOTPRINT_FREEZE","question":"拟用路带、储水、重仓与住房的浅空洞、熔岩及基底关系？","evidence_needed":"拟用体积近地逐块截面和现状识别，不能用整个扫描窗的比例代替","decision":"优先局部移位/有限跨越；广泛高代价才调整容量和分段位置"},
+      {"id":"Q-T","priority":"BEFORE_FOOTPRINT_FREEZE","question":"土地、取水、共院与道路由谁同意和维护？","evidence_needed":"Owner批准的地方制度或标清待批准假说；历史已有使用者","decision":"拒绝某块地就改占地；普遍拒绝跨域合作再回报区域关系"},
+      {"id":"Q-P","priority":"BEFORE_UPPER_GROWTH","question":"更大服务量、土面利用和公共空间压力是否支持上限？","evidence_needed":"需求与库存峰值、土深与用途、供水/运输余量","decision":"只有证据支持才扩到5000以上；不把预留调查窗算已建容量"}
+    ],
+    "revision_triggers":["普通供水与搬运均不相称，移位仍无解", "普通路工和转运不能维持必要吞吐，或通行权无法协调", "服务需求被其它节点吸收，缺独立起因", "保护现状/土面和局部地基适应后仍无兼容用地"],
+    "revision_protocol":"向区域父包提交最小 NODE-01 / ROUTE-01或02 / 容量关系的证据与已试适应；不覆写父案，经批准修订后重跑相关Gate并标受影响子包stale。",
+    "expected_outputs":["条件供给与通达结论", "有权的分段占地和共享通路", "修订容量与剩余不确定性", "必要L4交接，不直接给Builder施工许可"],
+    "world_write_authorization":false
+  }
+}
