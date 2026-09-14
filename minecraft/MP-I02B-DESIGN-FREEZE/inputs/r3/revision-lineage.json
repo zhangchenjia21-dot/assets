@@ -1,0 +1,49 @@
+{
+  "revision_package": "MP-I02A2-r1",
+  "parent_package": "MP-I02A / BDP-01 r2",
+  "source_plan_revision": "MP-P05R2-r1",
+  "package_revision": "r3",
+  "source_parent_revision_lineage_sha256": "9ee15387dfdd68599844dadfe851c18843647ed59df002587f5da781ca6d275c",
+  "changed_objects": [
+    {
+      "id": "BDP-01",
+      "from": "r2",
+      "to": "r3"
+    },
+    {
+      "id": "R2-IF-LANE-04",
+      "from": "r2",
+      "to": "r3"
+    },
+    {
+      "id": "R2-IF-THRESHOLD-1",
+      "from": "r2",
+      "to": "r3"
+    },
+    {
+      "id": "R2-S1-RAINWATER",
+      "from": "r2",
+      "to": "r3"
+    }
+  ],
+  "unchanged_objects": [
+    "R2-IF-LANE-01",
+    "R2-IF-LANE-02",
+    "R2-IF-COMMON-EDGE",
+    "R2-S1-CLEAN_WATER",
+    "R2-S1-WASTE",
+    "R2-S1-GOODS_FUEL"
+  ],
+  "new_baseline": "I02A2-PUBLIC-BDP01 r1",
+  "application_scope": "BDP-01 local overlay only; not a replacement of MP-P05R2, other packages or other designs.",
+  "downstream": {
+    "design": "MP-I01R / BDP-01 concept r1",
+    "status": "STALE_FOR_FIDELITY_REVIEW",
+    "reason": "Consumed r1; MP-I02A r2 and MP-I02A2 r3 require new fidelity check. No design changes in this task.",
+    "original_design_modified": false,
+    "building_design_ready": false,
+    "builder_next_step": "Close remaining design conditions and run its own Planning Fidelity Gate against r3."
+  },
+  "world_write_authorization": false,
+  "regression_verdict": "NOT_ASSIGNED"
+}

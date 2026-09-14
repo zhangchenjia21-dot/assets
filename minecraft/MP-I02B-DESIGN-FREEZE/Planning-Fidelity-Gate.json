@@ -1,0 +1,111 @@
+{
+  "test": "MP-I02B",
+  "BDP_revision": "r3",
+  "candidate_revision": "r2",
+  "authorship": "Model architectural judgement; not automated semantic scoring",
+  "original_r1_recheck": {
+    "outside_mask": 0,
+    "public_horizontal_intrusions": 0,
+    "threshold_surface": 132,
+    "conclusion": "Original Plan/Section/Massing remain locally compatible with r3 public geometry. r1 deferred public drainage assumption superseded; Builder technical conditions still need closure."
+  },
+  "dimensions": [
+    {
+      "dimension": "WHY",
+      "status": "PRESERVED",
+      "evidence": "Low-shoulder repair/watch/handheld handover retained; not pure dwelling or heavy works."
+    },
+    {
+      "dimension": "Program",
+      "status": "GEOMETRY_PRESERVED_ENVIRONMENT_BLOCKED",
+      "evidence": "One household, two-resident design scenario; fixed life/cooking/sleep/hygiene/storage/yard; flue still blocks actual habitability."
+    },
+    {
+      "dimension": "Flow",
+      "status": "PRESERVED_STATIC_ONLY",
+      "evidence": "Separate work/family entrances and six expected routes; clean/dirty time separation is later operator responsibility."
+    },
+    {
+      "dimension": "Rights",
+      "status": "PRESERVED",
+      "evidence": "No common land privatization; proposed rights remain U-TITLE BEFORE_WORLD_WRITE."
+    },
+    {
+      "dimension": "public/private threshold",
+      "status": "MATCHES_R3",
+      "evidence": "Private (757,1633), surface132, shared face X757..758/Z1634; no public step/door."
+    },
+    {
+      "dimension": "parcel boundary",
+      "status": "MATCHES_R3",
+      "evidence": "564 states within explicit 151 CELL_CENTER_MASK columns; tolerance0."
+    },
+    {
+      "dimension": "public clear envelope",
+      "status": "NO_BUILDER_INTRUSION",
+      "evidence": "50-cell exact swept union and per-cell protected Y checked; public construction/runtime not certified."
+    },
+    {
+      "dimension": "terrain response",
+      "status": "PRESERVED_GROUND_BLOCKED",
+      "evidence": "131/132/134/138 stepped section; 80 top replacements, no below-ground edits; influence verification still open."
+    },
+    {
+      "dimension": "Planner Fixed",
+      "status": "PRESERVED_EXCEPT_UNPROVED_PERFORMANCE",
+      "evidence": "All six fixed statements separately mapped; no silent capacity/parcel/public change."
+    },
+    {
+      "dimension": "unresolved conditions / resolve_before",
+      "status": "PRESERVED",
+      "evidence": "All 8 inherited conditions carried; public/rain planning closures not undone. No unproven evidence converted to fact."
+    },
+    {
+      "dimension": "external services",
+      "status": "RAINWATER_ISSUE",
+      "evidence": "Local closed strategy unproven after bounded alternatives; no invented public receiving/discharge."
+    },
+    {
+      "dimension": "Builder authorship",
+      "status": "PRESERVED",
+      "evidence": "Concept retained; bounded native details authored without copying another building."
+    }
+  ],
+  "planner_fixed_mapping": [
+    {
+      "text": "一完整家庭/户；两户总量不增",
+      "mapping": "One household only; residents=2 is a design scenario"
+    },
+    {
+      "text": "保持修理低肩/复核上沿的流动关系",
+      "mapping": "Low workshop and public onward route retained"
+    },
+    {
+      "text": "公共通路和共同院不能转为门廊、楼梯、长时堆货或排队区",
+      "mapping": "No lane/common court occupied by building/queue/roof"
+    },
+    {
+      "text": "家庭小院与门前缓冲保留，可在等价同户范围适应",
+      "mapping": "18-cell independent yard and original24-cell apron retained"
+    },
+    {
+      "text": "不擅改地下现状",
+      "mapping": "No underground edits; ground blocker retained"
+    },
+    {
+      "text": "所有服务越界必须由公共责任方闭合",
+      "mapping": "No service crosses boundary; rainwater performance escalated without creating receiver"
+    }
+  ],
+  "result": "UPSTREAM_PLANNING_ISSUE",
+  "issue_id": "MP-I02B-UPI-RAIN-01",
+  "other_builder_blockers": [
+    "U-GROUND",
+    "U-HABITABILITY",
+    "B-TRANSLATION"
+  ],
+  "not_incomplete_handoff": "r3 boundary, public baseline and service responsibility are locally resolvable; not asking to reopen U-PUBLIC or to appoint real institution before freeze",
+  "design_ready": false,
+  "world_writes": 0,
+  "regression_verdict": "NOT_ASSIGNED"
+}

@@ -1,0 +1,190 @@
+{
+  "task": "MP-I02B",
+  "delivery_validation": "CHECKS_SATISFIED",
+  "checks": [
+    {
+      "check": "r3 selected",
+      "satisfied": true
+    },
+    {
+      "check": "dependency hash interface-baselines.json",
+      "satisfied": true
+    },
+    {
+      "check": "dependency hash external-service-interfaces.json",
+      "satisfied": true
+    },
+    {
+      "check": "dependency hash closure-register.json",
+      "satisfied": true
+    },
+    {
+      "check": "dependency hash evidence/公共通行冻结基线.json",
+      "satisfied": true
+    },
+    {
+      "check": "dependency hash evidence/局部地表事实.json",
+      "satisfied": true
+    },
+    {
+      "check": "unique native cells",
+      "satisfied": true
+    },
+    {
+      "check": "all native state namespace explicit",
+      "satisfied": true
+    },
+    {
+      "check": "paired bed (761, 138, 1627)",
+      "satisfied": true
+    },
+    {
+      "check": "paired bed (763, 138, 1627)",
+      "satisfied": true
+    },
+    {
+      "check": "paired door (755, 132, 1631)",
+      "satisfied": true
+    },
+    {
+      "check": "paired door (758, 132, 1631)",
+      "satisfied": true
+    },
+    {
+      "check": "paired door (766, 138, 1627)",
+      "satisfied": true
+    },
+    {
+      "check": "parcel containment",
+      "satisfied": true
+    },
+    {
+      "check": "public clear volume",
+      "satisfied": true
+    },
+    {
+      "check": "18-cell open yard",
+      "satisfied": true
+    },
+    {
+      "check": "r3 threshold 132",
+      "satisfied": true
+    },
+    {
+      "check": "six static routes clear",
+      "satisfied": true
+    },
+    {
+      "check": "not DESIGN_READY",
+      "satisfied": true
+    },
+    {
+      "check": "no suite verdict",
+      "satisfied": true
+    },
+    {
+      "check": "all five conditions recorded",
+      "satisfied": true
+    },
+    {
+      "check": "fidelity rechecked r3",
+      "satisfied": true
+    },
+    {
+      "check": "original resolve_before retained",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\BDP-01.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\interface-baselines.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\external-service-interfaces.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\closure-register.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\revision-lineage.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\evidence\\公共通行冻结基线.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\evidence\\局部地表事实.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\建筑设计.md",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\handoff-consumption-record.md",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\issues.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\设计体素.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\设计几何.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\设计核验.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\world\\civilizations\\CIV-001\\README.md",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\architecture\\civilizations\\CIV-001\\Architecture-Grammar.md",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\evidence\\地表采样.json",
+      "satisfied": true
+    },
+    {
+      "check": "source unchanged D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\evidence\\浅层采样.json",
+      "satisfied": true
+    },
+    {
+      "check": "deterministic design rebuild",
+      "satisfied": true
+    }
+  ],
+  "rebuild": {
+    "设计体素.json": "eac2fedf0e073a55ceaea3bdab9a3d95c6f2e3ebb9188ab72990c2b17c9f7ba9",
+    "设计几何.json": "1dfce88b628b75efb55dfc372251cf36d8a112ad6eaa88150c4d273ed4747b4d",
+    "设计修订.json": "bc4b78e3cd08291f5da42e2e65c8e38d6ae341ce51b64fabc498170c463e9eb6",
+    "地基影响核验.json": "0ff2237e83344dfa714f3d1653f9a5c54f350ee8cac0a3633828240c9e804888",
+    "雨水性能.json": "5f227bee330897ddcd5d3f6875b92c0273e8899c0b25554dbdb88721507b9ea5",
+    "设计核验.json": "5e6b90f6097471cd9a03b8d6ec8ab56b6910c2fc8776de07b5adf85ec6f5a75a"
+  },
+  "world_writes": 0,
+  "runtime_started": false,
+  "perceptual_review": "Author viewed all 7 final PNGs: plan, section and massing preserved; chimney and water omissions explicitly marked. Not independent review.",
+  "architecture_review": "Two single-purpose evidence scripts plus delivery checker; no production module architecture added, no cross-module internals imported. Chinese filenames/comments. Source snapshots kept immutable.",
+  "not_certified": [
+    "DESIGN_READY",
+    "ground capacity",
+    "functional flue",
+    "rainwater performance",
+    "Minecraft runtime collision",
+    "whole skill regression"
+  ]
+}

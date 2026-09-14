@@ -1,0 +1,207 @@
+{
+  "test": "MP-I02B",
+  "loaded_at": "2026-09-14T10:42:01.686063+00:00",
+  "builder_version": "1.11",
+  "builder_source_commit": "fc6371361685e2eeaefdef5a513f21dbe64c6696",
+  "contract_version": "1.0",
+  "contract_source": "skill/codex/shared/minecraft-planner-builder-contract.md at same commit",
+  "BDP_revision": "BDP-01 r3",
+  "concept_revision": "MP-I01R concept r1",
+  "direct_dependencies": [
+    {
+      "file": "interface-baselines.json",
+      "sha256": "472ac496bd718551141365cfb6ae82de2840c0841005b76babafc9c915281232",
+      "revision": "r3"
+    },
+    {
+      "file": "external-service-interfaces.json",
+      "sha256": "114f70361cc3e457cd198c61910fffb95729ec72d601a6f8cbea51ad75812613",
+      "revision": "r3"
+    },
+    {
+      "file": "closure-register.json",
+      "sha256": "db4fdca023a61c263a9e8f06ab5670be0eb2e9b389d17ffc2bf75dfdff18cd37",
+      "revision": "r1"
+    },
+    {
+      "file": "evidence/公共通行冻结基线.json",
+      "sha256": "459b20f42cef729f9800e5f00f071ba973405376599f241f3015ba72afc3bb05",
+      "revision": "r1"
+    },
+    {
+      "file": "evidence/局部地表事实.json",
+      "sha256": "94e8a6962c877e57e58385b4540cccb2bfa20f44dff2cd49821616c47b460908",
+      "revision": "r1"
+    }
+  ],
+  "interface_revisions": {
+    "R2-IF-LANE-01": "r1",
+    "R2-IF-LANE-02": "r1",
+    "R2-IF-LANE-04": "r3",
+    "R2-IF-COMMON-EDGE": "r1",
+    "R2-IF-THRESHOLD-1": "r3"
+  },
+  "service_revisions": {
+    "R2-S1-CLEAN_WATER": "r1",
+    "R2-S1-WASTE": "r1",
+    "R2-S1-GOODS_FUEL": "r1",
+    "R2-S1-RAINWATER": "r3"
+  },
+  "sources": [
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\BDP-01.json",
+      "snapshot": "inputs/r3/BDP-01.json",
+      "sha256": "ec606c108ed882a2eab44430036fc99d85772d90d770bda1c27f406d8364d7e7"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\interface-baselines.json",
+      "snapshot": "inputs/r3/interface-baselines.json",
+      "sha256": "472ac496bd718551141365cfb6ae82de2840c0841005b76babafc9c915281232"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\external-service-interfaces.json",
+      "snapshot": "inputs/r3/external-service-interfaces.json",
+      "sha256": "114f70361cc3e457cd198c61910fffb95729ec72d601a6f8cbea51ad75812613"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\closure-register.json",
+      "snapshot": "inputs/r3/closure-register.json",
+      "sha256": "db4fdca023a61c263a9e8f06ab5670be0eb2e9b389d17ffc2bf75dfdff18cd37"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\revision-lineage.json",
+      "snapshot": "inputs/r3/revision-lineage.json",
+      "sha256": "924e80b1d3b41f48280db7d65f611ef78e3b07a74a6ddfdd611b67992e3d3a5c"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\evidence\\公共通行冻结基线.json",
+      "snapshot": "inputs/r3/evidence/公共通行冻结基线.json",
+      "sha256": "459b20f42cef729f9800e5f00f071ba973405376599f241f3015ba72afc3bb05"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I02A2-FREEZE-BASELINE\\evidence\\局部地表事实.json",
+      "snapshot": "inputs/r3/evidence/局部地表事实.json",
+      "sha256": "94e8a6962c877e57e58385b4540cccb2bfa20f44dff2cd49821616c47b460908"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\建筑设计.md",
+      "snapshot": "inputs/concept-r1/建筑设计.md",
+      "sha256": "0d57e4437330139bdd600387ed4feb97ea1c5b0f0c158bf85d110e0321308b39"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\handoff-consumption-record.md",
+      "snapshot": "inputs/concept-r1/handoff-consumption-record.md",
+      "sha256": "3999590a8f07d7d17c0d22db9feb576ac6d7afed46162ac5545caf3ecbda2777"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\issues.json",
+      "snapshot": "inputs/concept-r1/issues.json",
+      "sha256": "7e6eda8ce7741b63bc9f1b1c27b965971893b40fb4892f8dcfd1100e99a84e9f"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\设计体素.json",
+      "snapshot": "inputs/concept-r1/设计体素.json",
+      "sha256": "2f644d620a52c4528a622dee9adb8b91c548160d5523cf2c5c0bbd56d10198c7"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\设计几何.json",
+      "snapshot": "inputs/concept-r1/设计几何.json",
+      "sha256": "d1b25e83a1e797511046ae9565b3e05b7094073cf54463911b349b8166358ded"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\MP-I01R-PLANNER-BUILDER-P01\\设计核验.json",
+      "snapshot": "inputs/concept-r1/设计核验.json",
+      "sha256": "217294f7b2baf5af67774072c3a8818a993f70dc46b44a86b4bf808daa9eb86d"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\world\\civilizations\\CIV-001\\README.md",
+      "snapshot": "inputs/CIV-001-Canon.md",
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\建筑师\\architecture\\civilizations\\CIV-001\\Architecture-Grammar.md",
+      "snapshot": "inputs/CIV-001-Architecture-Grammar.md",
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6"
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\evidence\\地表采样.json",
+      "sha256": "4917db2395e538795574e2f6bf038d99bdc3a3213794cb9e634641ec22aced2e",
+      "selection": "151 surface columns; 268 shallow columns only for parcel + bounded foundation screening; inherited source hashes unchanged",
+      "inherited_factual_dependency": true
+    },
+    {
+      "source": "D:\\Games\\Minecraft\\AI工程\\发布\\assets\\minecraft\\MP-P05R2-NORTH-FRONTAGE-ENSEMBLE\\evidence\\浅层采样.json",
+      "sha256": "a1e8560fad263c32f65c79ea6677b54e0ca61012210c851923c314479293a9d7",
+      "selection": "151 surface columns; 268 shallow columns only for parcel + bounded foundation screening; inherited source hashes unchanged",
+      "inherited_factual_dependency": true
+    },
+    {
+      "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/tree/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex",
+      "snapshot": "inputs/Builder-SKILL.md",
+      "sha256": "faf6d93466aac789059dd8b0106ec74dc8c80d59d69d6de6f2b51c301f7451ff"
+    },
+    {
+      "source": "https://github.com/zhangchenjia21-dot/Vibe-Coding/tree/fc6371361685e2eeaefdef5a513f21dbe64c6696/skill/codex",
+      "snapshot": "inputs/planner-builder-contract.md",
+      "sha256": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8"
+    }
+  ],
+  "world_writes": 0,
+  "prohibited_content_consumed": [],
+  "note": "Only explicitly inherited factual surface/shallow files in MP-P05R2 dereferenced; no full planning or independent review. Existing untracked archival directories preserved.",
+  "remote_currentness_checks": [
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/BDP-01.json",
+      "remote_sha256": "ec606c108ed882a2eab44430036fc99d85772d90d770bda1c27f406d8364d7e7",
+      "local_sha256": "ec606c108ed882a2eab44430036fc99d85772d90d770bda1c27f406d8364d7e7",
+      "match": true
+    },
+    {
+      "path": "minecraft/MP-I01R-PLANNER-BUILDER-P01/设计体素.json",
+      "remote_sha256": "2f644d620a52c4528a622dee9adb8b91c548160d5523cf2c5c0bbd56d10198c7",
+      "local_sha256": "2f644d620a52c4528a622dee9adb8b91c548160d5523cf2c5c0bbd56d10198c7",
+      "match": true
+    },
+    {
+      "path": "minecraft/建筑师/world/civilizations/CIV-001/README.md",
+      "remote_sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "local_sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+      "match": true
+    },
+    {
+      "path": "minecraft/建筑师/architecture/civilizations/CIV-001/Architecture-Grammar.md",
+      "remote_sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6",
+      "local_sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6",
+      "match": true
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/interface-baselines.json",
+      "remote_sha256": "472ac496bd718551141365cfb6ae82de2840c0841005b76babafc9c915281232",
+      "match": true
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/external-service-interfaces.json",
+      "remote_sha256": "114f70361cc3e457cd198c61910fffb95729ec72d601a6f8cbea51ad75812613",
+      "match": true
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/closure-register.json",
+      "remote_sha256": "db4fdca023a61c263a9e8f06ab5670be0eb2e9b389d17ffc2bf75dfdff18cd37",
+      "match": true
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/evidence/公共通行冻结基线.json",
+      "remote_sha256": "459b20f42cef729f9800e5f00f071ba973405376599f241f3015ba72afc3bb05",
+      "match": true
+    },
+    {
+      "path": "minecraft/MP-I02A2-FREEZE-BASELINE/evidence/局部地表事实.json",
+      "remote_sha256": "94e8a6962c877e57e58385b4540cccb2bfa20f44dff2cd49821616c47b460908",
+      "match": true
+    }
+  ],
+  "remote_assets_head_at_recheck": "e7797cfe7db5a7ae42ed47a40e1cc4eb69bfb0a7",
+  "candidate_revision": "r2",
+  "currentness": "RECHECKED_AGAINST_R3_NOT_STALE; BLOCKED_FOR_FREEZE",
+  "site_selection": "151 surface columns; 268 shallow columns only for parcel + bounded foundation screening; inherited source hashes unchanged"
+}

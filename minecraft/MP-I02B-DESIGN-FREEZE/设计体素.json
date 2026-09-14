@@ -1,0 +1,5583 @@
+{
+  "format": "MP-I02B native-state review candidate v1",
+  "revision": "r2",
+  "authority": "UNFROZEN_ARCHITECTURE_DESIGN",
+  "world_writes": 0,
+  "world_write_authorization": false,
+  "coordinate_semantic": "world x,y,z; y is block bottom; all integers index unit columns; shaped voxels carry collision/render boxes",
+  "blocks": [
+    {
+      "x": 754,
+      "y": 131,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 131,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 131,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 131,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 131,
+      "z": 1630,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 131,
+      "z": 1631,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 131,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 131,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 131,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 131,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 131,
+      "z": 1630,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 131,
+      "z": 1631,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 131,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 131,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 131,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 131,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 131,
+      "z": 1630,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 131,
+      "z": 1631,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 131,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 131,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 131,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 131,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 131,
+      "z": 1630,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 131,
+      "z": 1631,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 131,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 131,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 131,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 131,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 131,
+      "z": 1630,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 131,
+      "z": 1631,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 131,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 131,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 131,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 131,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 131,
+      "z": 1630,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 131,
+      "z": 1631,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 133,
+      "z": 1624,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 133,
+      "z": 1625,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 132,
+      "z": 1629,
+      "material": "stone",
+      "role": "shallow_plinth",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 133,
+      "z": 1624,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 133,
+      "z": 1625,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 133,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 133,
+      "z": 1624,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 133,
+      "z": 1625,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 133,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 133,
+      "z": 1624,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 133,
+      "z": 1625,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 133,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 133,
+      "z": 1624,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 133,
+      "z": 1625,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 133,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 133,
+      "z": 1624,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 133,
+      "z": 1625,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 133,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 133,
+      "z": 1624,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 133,
+      "z": 1625,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 133,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 133,
+      "z": 1624,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 133,
+      "z": 1625,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 133,
+      "z": 1628,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 132,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 135,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 132,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 134,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 135,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 132,
+      "z": 1628,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 133,
+      "z": 1628,
+      "material": "glass",
+      "role": "window",
+      "shape": "cube",
+      "state": "minecraft:glass"
+    },
+    {
+      "x": 754,
+      "y": 134,
+      "z": 1628,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 135,
+      "z": 1628,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 132,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 132,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 133,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 134,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 135,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 133,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 134,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 135,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 132,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 135,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 135,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 132,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 135,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 133,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 134,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 135,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 132,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 135,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 133,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 134,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 135,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 132,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 135,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 135,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 132,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 133,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 135,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 132,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 133,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 134,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 135,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 132,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 133,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 132,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 133,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 134,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 135,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 133,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 134,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 135,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 134,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 135,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 136,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 137,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 138,
+      "z": 1624,
+      "material": "wood",
+      "role": "post",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "x": 760,
+      "y": 139,
+      "z": 1624,
+      "material": "wood",
+      "role": "post",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "x": 760,
+      "y": 140,
+      "z": 1624,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 760,
+      "y": 134,
+      "z": 1625,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 135,
+      "z": 1625,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 136,
+      "z": 1625,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 137,
+      "z": 1625,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 138,
+      "z": 1625,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 139,
+      "z": 1625,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 140,
+      "z": 1625,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 760,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 135,
+      "z": 1626,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 136,
+      "z": 1626,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 137,
+      "z": 1626,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 138,
+      "z": 1626,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 139,
+      "z": 1626,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 140,
+      "z": 1626,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 760,
+      "y": 134,
+      "z": 1627,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 135,
+      "z": 1627,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 136,
+      "z": 1627,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 137,
+      "z": 1627,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 138,
+      "z": 1627,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 139,
+      "z": 1627,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 140,
+      "z": 1627,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 760,
+      "y": 138,
+      "z": 1628,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 139,
+      "z": 1628,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 140,
+      "z": 1628,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 760,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 138,
+      "z": 1629,
+      "material": "wood",
+      "role": "post",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "x": 760,
+      "y": 139,
+      "z": 1629,
+      "material": "wood",
+      "role": "post",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "x": 760,
+      "y": 140,
+      "z": 1629,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 761,
+      "y": 134,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 135,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 136,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 137,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 138,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 761,
+      "y": 139,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 761,
+      "y": 140,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 761,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 138,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 761,
+      "y": 139,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 761,
+      "y": 140,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 762,
+      "y": 134,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 135,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 136,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 137,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 138,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 762,
+      "y": 139,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 762,
+      "y": 140,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 762,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 138,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 762,
+      "y": 139,
+      "z": 1629,
+      "material": "glass",
+      "role": "window",
+      "shape": "cube",
+      "state": "minecraft:glass"
+    },
+    {
+      "x": 762,
+      "y": 140,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 763,
+      "y": 134,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 135,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 136,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 137,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 138,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 763,
+      "y": 139,
+      "z": 1624,
+      "material": "glass",
+      "role": "window",
+      "shape": "cube",
+      "state": "minecraft:glass"
+    },
+    {
+      "x": 763,
+      "y": 140,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 763,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 138,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 763,
+      "y": 139,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 763,
+      "y": 140,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 764,
+      "y": 134,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 135,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 136,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 137,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 138,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 764,
+      "y": 139,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 764,
+      "y": 140,
+      "z": 1624,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 764,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 138,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 764,
+      "y": 139,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 764,
+      "y": 140,
+      "z": 1629,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 765,
+      "y": 134,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 135,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 136,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 137,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 138,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 765,
+      "y": 139,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 765,
+      "y": 140,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 765,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 135,
+      "z": 1629,
+      "material": "wood",
+      "role": "ventilation_shutter",
+      "shape": "trapdoor",
+      "state": "minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 138,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 765,
+      "y": 139,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 765,
+      "y": 140,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 766,
+      "y": 134,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 135,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 136,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 137,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 138,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 766,
+      "y": 139,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 766,
+      "y": 140,
+      "z": 1624,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 766,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 138,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 766,
+      "y": 139,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 766,
+      "y": 140,
+      "z": 1629,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 134,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 135,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 136,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 137,
+      "z": 1624,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 138,
+      "z": 1624,
+      "material": "wood",
+      "role": "post",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "x": 767,
+      "y": 139,
+      "z": 1624,
+      "material": "wood",
+      "role": "post",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "x": 767,
+      "y": 140,
+      "z": 1624,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 767,
+      "y": 134,
+      "z": 1625,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 135,
+      "z": 1625,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 136,
+      "z": 1625,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 137,
+      "z": 1625,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 138,
+      "z": 1625,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 139,
+      "z": 1625,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 140,
+      "z": 1625,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 767,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 135,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 136,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 137,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 138,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 139,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 140,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 134,
+      "z": 1627,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 135,
+      "z": 1627,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 136,
+      "z": 1627,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 137,
+      "z": 1627,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 138,
+      "z": 1627,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 139,
+      "z": 1627,
+      "material": "wood",
+      "role": "ventilation_shutter",
+      "shape": "trapdoor",
+      "state": "minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "x": 767,
+      "y": 140,
+      "z": 1627,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 767,
+      "y": 134,
+      "z": 1628,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 135,
+      "z": 1628,
+      "material": "glass",
+      "role": "window",
+      "shape": "cube",
+      "state": "minecraft:glass"
+    },
+    {
+      "x": 767,
+      "y": 136,
+      "z": 1628,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 137,
+      "z": 1628,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 138,
+      "z": 1628,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 139,
+      "z": 1628,
+      "material": "plaster",
+      "role": "upper_infill",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 140,
+      "z": 1628,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 767,
+      "y": 134,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 135,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "house_wall",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 138,
+      "z": 1629,
+      "material": "wood",
+      "role": "post",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "x": 767,
+      "y": 139,
+      "z": 1629,
+      "material": "wood",
+      "role": "post",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "x": 767,
+      "y": 140,
+      "z": 1629,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 757,
+      "y": 132,
+      "z": 1627,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 132,
+      "z": 1628,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 132,
+      "z": 1629,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 132,
+      "z": 1630,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 133,
+      "z": 1627,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 133,
+      "z": 1628,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 133,
+      "z": 1629,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 133,
+      "z": 1630,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 134,
+      "z": 1627,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 134,
+      "z": 1628,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 134,
+      "z": 1629,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 757,
+      "y": 134,
+      "z": 1630,
+      "material": "wood",
+      "role": "work_family_partition",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 759,
+      "y": 132,
+      "z": 1628,
+      "material": "stone",
+      "role": "split_level_stair",
+      "shape": "stair",
+      "facing": "east",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 760,
+      "y": 133,
+      "z": 1628,
+      "material": "stone",
+      "role": "split_level_stair",
+      "shape": "stair",
+      "facing": "east",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 760,
+      "y": 132,
+      "z": 1628,
+      "material": "stone",
+      "role": "stair_support",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 137,
+      "z": 1625,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 761,
+      "y": 137,
+      "z": 1626,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 761,
+      "y": 137,
+      "z": 1627,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 761,
+      "y": 137,
+      "z": 1628,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 762,
+      "y": 137,
+      "z": 1626,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 762,
+      "y": 137,
+      "z": 1627,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 762,
+      "y": 137,
+      "z": 1628,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 763,
+      "y": 137,
+      "z": 1626,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 763,
+      "y": 137,
+      "z": 1627,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 763,
+      "y": 137,
+      "z": 1628,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 137,
+      "z": 1626,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 137,
+      "z": 1627,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 137,
+      "z": 1628,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 765,
+      "y": 137,
+      "z": 1626,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 765,
+      "y": 137,
+      "z": 1627,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 765,
+      "y": 137,
+      "z": 1628,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 766,
+      "y": 137,
+      "z": 1625,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 766,
+      "y": 137,
+      "z": 1626,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 766,
+      "y": 137,
+      "z": 1627,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 766,
+      "y": 137,
+      "z": 1628,
+      "material": "wood",
+      "role": "upper_floor",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 762,
+      "y": 134,
+      "z": 1625,
+      "material": "wood",
+      "role": "internal_stair",
+      "shape": "stair",
+      "facing": "east",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 135,
+      "z": 1625,
+      "material": "wood",
+      "role": "internal_stair",
+      "shape": "stair",
+      "facing": "east",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 764,
+      "y": 136,
+      "z": 1625,
+      "material": "wood",
+      "role": "internal_stair",
+      "shape": "stair",
+      "facing": "east",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 137,
+      "z": 1625,
+      "material": "wood",
+      "role": "internal_stair",
+      "shape": "stair",
+      "facing": "east",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 134,
+      "z": 1625,
+      "material": "wood",
+      "role": "stair_stringer",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 134,
+      "z": 1625,
+      "material": "wood",
+      "role": "stair_stringer",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 135,
+      "z": 1625,
+      "material": "wood",
+      "role": "stair_stringer",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 765,
+      "y": 134,
+      "z": 1625,
+      "material": "wood",
+      "role": "stair_stringer",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 765,
+      "y": 135,
+      "z": 1625,
+      "material": "wood",
+      "role": "stair_stringer",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 765,
+      "y": 136,
+      "z": 1625,
+      "material": "wood",
+      "role": "stair_stringer",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 140,
+      "z": 1625,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 764,
+      "y": 140,
+      "z": 1626,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 764,
+      "y": 140,
+      "z": 1627,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 764,
+      "y": 140,
+      "z": 1628,
+      "material": "wood",
+      "role": "roof_tie",
+      "shape": "cube",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "x": 760,
+      "y": 141,
+      "z": 1624,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 760,
+      "y": 142,
+      "z": 1625,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 760,
+      "y": 141,
+      "z": 1625,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 143,
+      "z": 1626,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 760,
+      "y": 141,
+      "z": 1626,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 142,
+      "z": 1626,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 143,
+      "z": 1627,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 760,
+      "y": 141,
+      "z": 1627,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 142,
+      "z": 1627,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 142,
+      "z": 1628,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 760,
+      "y": 141,
+      "z": 1628,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 760,
+      "y": 141,
+      "z": 1629,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 761,
+      "y": 141,
+      "z": 1624,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 761,
+      "y": 142,
+      "z": 1625,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 761,
+      "y": 143,
+      "z": 1626,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 761,
+      "y": 143,
+      "z": 1627,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 761,
+      "y": 142,
+      "z": 1628,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 761,
+      "y": 141,
+      "z": 1629,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 762,
+      "y": 141,
+      "z": 1624,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 762,
+      "y": 142,
+      "z": 1625,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 762,
+      "y": 143,
+      "z": 1626,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 762,
+      "y": 143,
+      "z": 1627,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 762,
+      "y": 142,
+      "z": 1628,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 762,
+      "y": 141,
+      "z": 1629,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 141,
+      "z": 1624,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 142,
+      "z": 1625,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 143,
+      "z": 1626,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 143,
+      "z": 1627,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 142,
+      "z": 1628,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 141,
+      "z": 1629,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 764,
+      "y": 141,
+      "z": 1624,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 764,
+      "y": 142,
+      "z": 1625,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 764,
+      "y": 143,
+      "z": 1626,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 764,
+      "y": 143,
+      "z": 1627,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 764,
+      "y": 142,
+      "z": 1628,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 764,
+      "y": 141,
+      "z": 1629,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 141,
+      "z": 1624,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 142,
+      "z": 1625,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 143,
+      "z": 1626,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 143,
+      "z": 1627,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 142,
+      "z": 1628,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 141,
+      "z": 1629,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 766,
+      "y": 141,
+      "z": 1624,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 766,
+      "y": 142,
+      "z": 1625,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 766,
+      "y": 143,
+      "z": 1626,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 766,
+      "y": 143,
+      "z": 1627,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 766,
+      "y": 142,
+      "z": 1628,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 766,
+      "y": 141,
+      "z": 1629,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 767,
+      "y": 141,
+      "z": 1624,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 767,
+      "y": 142,
+      "z": 1625,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "south",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 767,
+      "y": 141,
+      "z": 1625,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 143,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 141,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 142,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 143,
+      "z": 1627,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 767,
+      "y": 141,
+      "z": 1627,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 142,
+      "z": 1627,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 142,
+      "z": 1628,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 767,
+      "y": 141,
+      "z": 1628,
+      "material": "plaster",
+      "role": "gable",
+      "shape": "cube",
+      "state": "minecraft:calcite"
+    },
+    {
+      "x": 767,
+      "y": 141,
+      "z": 1629,
+      "material": "roof",
+      "role": "house_roof",
+      "shape": "stair",
+      "facing": "north",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 754,
+      "y": 136,
+      "z": 1626,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 754,
+      "y": 136,
+      "z": 1627,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 754,
+      "y": 136,
+      "z": 1628,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 754,
+      "y": 136,
+      "z": 1629,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 754,
+      "y": 136,
+      "z": 1630,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 754,
+      "y": 136,
+      "z": 1631,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 755,
+      "y": 136,
+      "z": 1626,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 755,
+      "y": 136,
+      "z": 1627,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 755,
+      "y": 136,
+      "z": 1628,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 755,
+      "y": 136,
+      "z": 1629,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 755,
+      "y": 136,
+      "z": 1630,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 755,
+      "y": 136,
+      "z": 1631,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 756,
+      "y": 137,
+      "z": 1626,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 756,
+      "y": 136,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 137,
+      "z": 1627,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 756,
+      "y": 137,
+      "z": 1628,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 756,
+      "y": 137,
+      "z": 1629,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 756,
+      "y": 137,
+      "z": 1630,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 756,
+      "y": 137,
+      "z": 1631,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 756,
+      "y": 136,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 137,
+      "z": 1626,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 757,
+      "y": 136,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 137,
+      "z": 1627,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 757,
+      "y": 137,
+      "z": 1628,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 757,
+      "y": 137,
+      "z": 1629,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 757,
+      "y": 137,
+      "z": 1630,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 757,
+      "y": 137,
+      "z": 1631,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 757,
+      "y": 136,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 138,
+      "z": 1626,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 758,
+      "y": 136,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 137,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 138,
+      "z": 1627,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 758,
+      "y": 138,
+      "z": 1628,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 758,
+      "y": 138,
+      "z": 1629,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 758,
+      "y": 138,
+      "z": 1630,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 758,
+      "y": 138,
+      "z": 1631,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "slab",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 758,
+      "y": 136,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 137,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 138,
+      "z": 1626,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 759,
+      "y": 136,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 137,
+      "z": 1626,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 138,
+      "z": 1627,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 759,
+      "y": 136,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 137,
+      "z": 1627,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 138,
+      "z": 1628,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 759,
+      "y": 136,
+      "z": 1628,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 137,
+      "z": 1628,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 138,
+      "z": 1629,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 759,
+      "y": 136,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 137,
+      "z": 1629,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 138,
+      "z": 1630,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 759,
+      "y": 136,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 137,
+      "z": 1630,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 138,
+      "z": 1631,
+      "material": "roof",
+      "role": "workshop_roof",
+      "shape": "cube",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "x": 759,
+      "y": 136,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 137,
+      "z": 1631,
+      "material": "stone",
+      "role": "workshop_gable",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 751,
+      "y": 130,
+      "z": 1627,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 751,
+      "y": 130,
+      "z": 1628,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 751,
+      "y": 130,
+      "z": 1629,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 751,
+      "y": 130,
+      "z": 1630,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 751,
+      "y": 130,
+      "z": 1631,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 751,
+      "y": 130,
+      "z": 1632,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 752,
+      "y": 130,
+      "z": 1627,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 752,
+      "y": 130,
+      "z": 1628,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 752,
+      "y": 130,
+      "z": 1629,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 752,
+      "y": 130,
+      "z": 1630,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 752,
+      "y": 130,
+      "z": 1631,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 752,
+      "y": 130,
+      "z": 1632,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 753,
+      "y": 130,
+      "z": 1627,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 753,
+      "y": 130,
+      "z": 1628,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 753,
+      "y": 130,
+      "z": 1629,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 753,
+      "y": 130,
+      "z": 1630,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 753,
+      "y": 130,
+      "z": 1631,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 753,
+      "y": 130,
+      "z": 1632,
+      "material": "stone",
+      "role": "yard_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 131,
+      "z": 1632,
+      "material": "stone",
+      "role": "yard_step",
+      "shape": "stair",
+      "facing": "east",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "x": 755,
+      "y": 131,
+      "z": 1632,
+      "material": "stone",
+      "role": "private_landing",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 131,
+      "z": 1632,
+      "material": "stone",
+      "role": "private_landing",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 131,
+      "z": 1632,
+      "material": "stone",
+      "role": "private_landing",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 131,
+      "z": 1632,
+      "material": "stone",
+      "role": "private_landing",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 759,
+      "y": 131,
+      "z": 1632,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 132,
+      "z": 1630,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 132,
+      "z": 1630,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 132,
+      "z": 1630,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 767,
+      "y": 132,
+      "z": 1630,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 131,
+      "z": 1631,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 762,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 763,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 764,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 765,
+      "y": 132,
+      "z": 1631,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 760,
+      "y": 131,
+      "z": 1632,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 132,
+      "z": 1632,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 130,
+      "z": 1633,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 131,
+      "z": 1633,
+      "material": "stone",
+      "role": "private_landing",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 756,
+      "y": 131,
+      "z": 1633,
+      "material": "stone",
+      "role": "private_landing",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 757,
+      "y": 131,
+      "z": 1633,
+      "material": "stone",
+      "role": "private_landing",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 751,
+      "y": 130,
+      "z": 1634,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 752,
+      "y": 130,
+      "z": 1634,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 753,
+      "y": 130,
+      "z": 1634,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 754,
+      "y": 130,
+      "z": 1634,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 751,
+      "y": 130,
+      "z": 1635,
+      "material": "stone",
+      "role": "apron_floor",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 755,
+      "y": 132,
+      "z": 1627,
+      "material": "wood",
+      "role": "repair_bench",
+      "shape": "cube",
+      "state": "minecraft:crafting_table"
+    },
+    {
+      "x": 756,
+      "y": 132,
+      "z": 1627,
+      "material": "metal",
+      "role": "small_vise",
+      "shape": "cube",
+      "state": "minecraft:anvil[facing=north]"
+    },
+    {
+      "x": 755,
+      "y": 132,
+      "z": 1629,
+      "material": "wood",
+      "role": "batch_storage",
+      "shape": "cube",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "x": 766,
+      "y": 134,
+      "z": 1625,
+      "material": "wood",
+      "role": "clean_water_storage",
+      "shape": "cube",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "x": 766,
+      "y": 134,
+      "z": 1626,
+      "material": "stone",
+      "role": "cooking_hearth",
+      "shape": "cube",
+      "state": "minecraft:furnace[facing=west,lit=false]"
+    },
+    {
+      "x": 765,
+      "y": 134,
+      "z": 1626,
+      "material": "wood",
+      "role": "food_preparation",
+      "shape": "cube",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 766,
+      "y": 134,
+      "z": 1627,
+      "material": "wood",
+      "role": "food_storage",
+      "shape": "cube",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "x": 764,
+      "y": 134,
+      "z": 1627,
+      "material": "wood",
+      "role": "dining_table",
+      "shape": "slab",
+      "state": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "x": 767,
+      "y": 144,
+      "z": 1626,
+      "material": "stone",
+      "role": "chimney",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 761,
+      "y": 138,
+      "z": 1627,
+      "material": "bed",
+      "role": "sleeping_place",
+      "shape": "slab",
+      "state": "minecraft:red_bed[facing=south,occupied=false,part=foot]"
+    },
+    {
+      "x": 761,
+      "y": 138,
+      "z": 1628,
+      "material": "bed",
+      "role": "sleeping_place",
+      "shape": "slab",
+      "state": "minecraft:red_bed[facing=south,occupied=false,part=head]"
+    },
+    {
+      "x": 763,
+      "y": 138,
+      "z": 1627,
+      "material": "bed",
+      "role": "sleeping_place",
+      "shape": "slab",
+      "state": "minecraft:red_bed[facing=south,occupied=false,part=foot]"
+    },
+    {
+      "x": 763,
+      "y": 138,
+      "z": 1628,
+      "material": "bed",
+      "role": "sleeping_place",
+      "shape": "slab",
+      "state": "minecraft:red_bed[facing=south,occupied=false,part=head]"
+    },
+    {
+      "x": 761,
+      "y": 138,
+      "z": 1625,
+      "material": "wood",
+      "role": "linen_storage",
+      "shape": "cube",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "x": 764,
+      "y": 138,
+      "z": 1627,
+      "material": "wood",
+      "role": "privacy_screen",
+      "shape": "screen",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 139,
+      "z": 1627,
+      "material": "wood",
+      "role": "privacy_screen",
+      "shape": "screen",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 138,
+      "z": 1628,
+      "material": "wood",
+      "role": "privacy_screen",
+      "shape": "screen",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 764,
+      "y": 139,
+      "z": 1628,
+      "material": "wood",
+      "role": "privacy_screen",
+      "shape": "screen",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "x": 765,
+      "y": 138,
+      "z": 1628,
+      "material": "wood",
+      "role": "sealed_waste",
+      "shape": "slab",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "x": 766,
+      "y": 138,
+      "z": 1628,
+      "material": "stone",
+      "role": "wash_basin",
+      "shape": "slab",
+      "state": "minecraft:cauldron"
+    },
+    {
+      "x": 762,
+      "y": 138,
+      "z": 1626,
+      "material": "wood",
+      "role": "stair_guard",
+      "shape": "rail",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "x": 763,
+      "y": 138,
+      "z": 1626,
+      "material": "wood",
+      "role": "stair_guard",
+      "shape": "rail",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "x": 764,
+      "y": 138,
+      "z": 1626,
+      "material": "wood",
+      "role": "stair_guard",
+      "shape": "rail",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 138,
+      "z": 1626,
+      "material": "wood",
+      "role": "stair_guard",
+      "shape": "rail",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "x": 756,
+      "y": 132,
+      "z": 1625,
+      "material": "water",
+      "role": "rain_reservation",
+      "shape": "vessel",
+      "state": "minecraft:cauldron"
+    },
+    {
+      "x": 757,
+      "y": 132,
+      "z": 1625,
+      "material": "water",
+      "role": "rain_reservation",
+      "shape": "vessel",
+      "state": "minecraft:cauldron"
+    },
+    {
+      "x": 755,
+      "y": 132,
+      "z": 1631,
+      "material": "wood",
+      "role": "work_door",
+      "shape": "door",
+      "state": "minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "x": 755,
+      "y": 133,
+      "z": 1631,
+      "material": "wood",
+      "role": "work_door",
+      "shape": "door",
+      "state": "minecraft:spruce_door[facing=north,half=upper,hinge=left,open=false,powered=false]"
+    },
+    {
+      "x": 755,
+      "y": 134,
+      "z": 1631,
+      "material": "stone",
+      "role": "door_head_closure",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 758,
+      "y": 132,
+      "z": 1631,
+      "material": "wood",
+      "role": "family_door",
+      "shape": "door",
+      "state": "minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "x": 758,
+      "y": 133,
+      "z": 1631,
+      "material": "wood",
+      "role": "family_door",
+      "shape": "door",
+      "state": "minecraft:spruce_door[facing=north,half=upper,hinge=left,open=false,powered=false]"
+    },
+    {
+      "x": 758,
+      "y": 134,
+      "z": 1631,
+      "material": "stone",
+      "role": "door_head_closure",
+      "shape": "cube",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "x": 766,
+      "y": 138,
+      "z": 1627,
+      "material": "wood",
+      "role": "hygiene_door",
+      "shape": "door",
+      "state": "minecraft:spruce_door[facing=north,half=lower,hinge=right,open=false,powered=false]"
+    },
+    {
+      "x": 766,
+      "y": 139,
+      "z": 1627,
+      "material": "wood",
+      "role": "hygiene_door",
+      "shape": "door",
+      "state": "minecraft:spruce_door[facing=north,half=upper,hinge=right,open=false,powered=false]"
+    },
+    {
+      "x": 765,
+      "y": 138,
+      "z": 1627,
+      "material": "wood",
+      "role": "hygiene_front_screen",
+      "shape": "trapdoor",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "x": 765,
+      "y": 139,
+      "z": 1627,
+      "material": "wood",
+      "role": "hygiene_front_screen",
+      "shape": "trapdoor",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    }
+  ],
+  "palette": {
+    "stone": "#938a78",
+    "wood": "#775039",
+    "plaster": "#d4c3a1",
+    "roof": "#4f6267",
+    "glass": "#8caeb0",
+    "metal": "#53514c",
+    "bed": "#ac6751",
+    "water": "#608896"
+  },
+  "spaces": [
+    {
+      "id": "AP",
+      "name": "门前缓冲",
+      "cells": 24,
+      "area": 24
+    },
+    {
+      "id": "W",
+      "name": "小修理净室",
+      "bounds": [
+        755,
+        756,
+        1627,
+        1630
+      ],
+      "surface": 132,
+      "gross_clear_area": 8,
+      "furniture_cells": 3
+    },
+    {
+      "id": "C",
+      "name": "家庭独立廊",
+      "bounds": [
+        758,
+        758,
+        1627,
+        1630
+      ],
+      "surface": 132,
+      "gross_clear_area": 4
+    },
+    {
+      "id": "L",
+      "name": "炊食起居与楼梯",
+      "bounds": [
+        761,
+        766,
+        1625,
+        1628
+      ],
+      "surface": 134,
+      "gross_clear_area": 24
+    },
+    {
+      "id": "B",
+      "name": "睡眠及储物",
+      "bounds": [
+        761,
+        763,
+        1627,
+        1628
+      ],
+      "surface": 138
+    },
+    {
+      "id": "H",
+      "name": "屏隔洗涤卫生",
+      "bounds": [
+        765,
+        766,
+        1627,
+        1628
+      ],
+      "surface": 138,
+      "gross_clear_area": 4
+    },
+    {
+      "id": "Y",
+      "name": "家庭露天小院",
+      "bounds": [
+        751,
+        753,
+        1627,
+        1632
+      ],
+      "surface": 131,
+      "gross_clear_area": 18
+    }
+  ],
+  "routes": [
+    {
+      "id": "R-FAMILY",
+      "role": "public interface → independent family passage → living",
+      "surface": [
+        [
+          757,
+          1633,
+          132
+        ],
+        [
+          757,
+          1632,
+          132
+        ],
+        [
+          758,
+          1632,
+          132
+        ],
+        [
+          758,
+          1631,
+          132
+        ],
+        [
+          758,
+          1630,
+          132
+        ],
+        [
+          758,
+          1629,
+          132
+        ],
+        [
+          758,
+          1628,
+          132
+        ],
+        [
+          759,
+          1628,
+          132.5
+        ],
+        [
+          759.5,
+          1628,
+          133
+        ],
+        [
+          760,
+          1628,
+          133.5
+        ],
+        [
+          760.5,
+          1628,
+          134
+        ],
+        [
+          761,
+          1628,
+          134
+        ],
+        [
+          762,
+          1628,
+          134
+        ]
+      ]
+    },
+    {
+      "id": "R-WORK",
+      "role": "private apron → handover → repair",
+      "surface": [
+        [
+          755,
+          1633,
+          132
+        ],
+        [
+          755,
+          1632,
+          132
+        ],
+        [
+          755,
+          1631,
+          132
+        ],
+        [
+          755,
+          1630,
+          132
+        ],
+        [
+          756,
+          1630,
+          132
+        ],
+        [
+          756,
+          1629,
+          132
+        ],
+        [
+          756,
+          1628,
+          132
+        ]
+      ]
+    },
+    {
+      "id": "R-YARD",
+      "role": "family threshold → private landing → yard; not workshop",
+      "surface": [
+        [
+          758,
+          1631,
+          132
+        ],
+        [
+          758,
+          1632,
+          132
+        ],
+        [
+          757,
+          1632,
+          132
+        ],
+        [
+          756,
+          1632,
+          132
+        ],
+        [
+          755,
+          1632,
+          132
+        ],
+        [
+          754.5,
+          1632,
+          132
+        ],
+        [
+          754,
+          1632,
+          131.5
+        ],
+        [
+          753,
+          1632,
+          131
+        ],
+        [
+          752,
+          1632,
+          131
+        ],
+        [
+          752,
+          1631,
+          131
+        ],
+        [
+          752,
+          1630,
+          131
+        ],
+        [
+          752,
+          1629,
+          131
+        ],
+        [
+          752,
+          1628,
+          131
+        ]
+      ]
+    },
+    {
+      "id": "R-UP",
+      "role": "living → four-rise internal stair → bedroom landing",
+      "surface": [
+        [
+          762,
+          1628,
+          134
+        ],
+        [
+          762,
+          1627,
+          134
+        ],
+        [
+          762,
+          1626,
+          134
+        ],
+        [
+          761,
+          1626,
+          134
+        ],
+        [
+          761,
+          1625,
+          134
+        ],
+        [
+          762,
+          1625,
+          134.5
+        ],
+        [
+          762.5,
+          1625,
+          135
+        ],
+        [
+          763,
+          1625,
+          135.5
+        ],
+        [
+          763.5,
+          1625,
+          136
+        ],
+        [
+          764,
+          1625,
+          136.5
+        ],
+        [
+          764.5,
+          1625,
+          137
+        ],
+        [
+          765,
+          1625,
+          137.5
+        ],
+        [
+          765.5,
+          1625,
+          138
+        ],
+        [
+          766,
+          1625,
+          138
+        ],
+        [
+          766,
+          1626,
+          138
+        ]
+      ]
+    },
+    {
+      "id": "R-SLEEP",
+      "role": "upper landing → bed side",
+      "surface": [
+        [
+          766,
+          1625,
+          138
+        ],
+        [
+          766,
+          1626,
+          138
+        ],
+        [
+          765,
+          1626,
+          138
+        ],
+        [
+          764,
+          1626,
+          138
+        ],
+        [
+          763,
+          1626,
+          138
+        ],
+        [
+          762,
+          1626,
+          138
+        ],
+        [
+          762,
+          1627,
+          138
+        ],
+        [
+          762,
+          1628,
+          138
+        ]
+      ]
+    },
+    {
+      "id": "R-HYGIENE",
+      "role": "upper landing → screened hygiene",
+      "surface": [
+        [
+          766,
+          1625,
+          138
+        ],
+        [
+          766,
+          1626,
+          138
+        ],
+        [
+          766,
+          1627,
+          138
+        ],
+        [
+          765,
+          1627,
+          138
+        ]
+      ]
+    }
+  ],
+  "roof_and_services": {
+    "rain": "UNPROVED; no public discharge; see 雨水性能.json",
+    "flue": "SOLID_PLACEHOLDER_NOT_FUNCTIONAL",
+    "roof_top_y": 144,
+    "chimney_top_y": 145
+  },
+  "status": "UNFROZEN_DESIGN_WITH_BLOCKERS",
+  "regression_verdict": "NOT_ASSIGNED",
+  "predecessor": "MP-I01R concept r1",
+  "consumed_bdp": "BDP-01 r3",
+  "design_occupancy": {
+    "residents": 2,
+    "households": 1,
+    "basis": "Builder design scenario, not actual population; repair operator included among residents; one temporary handover visitor on apron"
+  }
+}

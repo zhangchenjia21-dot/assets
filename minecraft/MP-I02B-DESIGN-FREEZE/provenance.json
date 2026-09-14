@@ -1,0 +1,29 @@
+{
+  "test": "MP-I02B",
+  "inputs": "revision-currentness.json; inputs snapshots",
+  "script_entrypoints": [
+    "冻结候选编译.py",
+    "冻结候选制图.py",
+    "交付核验.py"
+  ],
+  "reproduction": [
+    "python 冻结候选编译.py",
+    "python 冻结候选制图.py",
+    "python 交付核验.py"
+  ],
+  "dependencies": "Python3; Pillow for diagrams; Microsoft YaHei font for Chinese labels",
+  "source_immutability": "Permitted source hashes rechecked; no source Skill/contract/Canon/planning/concept edits. Archived copies are read-only design inputs.",
+  "scope_exclusions": [
+    "all prohibited Independent Reviews",
+    "BDP-02",
+    "full MP-P05R2/MP-P04/upstream planning",
+    "other North Rock building answers",
+    "Minecraft saves/runtime"
+  ],
+  "factual_exception": "Only BDP inherited SHA256-matched surface/shallow factual files, selected parcel/contact-screening columns and artificial locations; no containers read.",
+  "native_state_semantics": "state is authoritative; inherited material/shape labels are roles only. Collision model is conservative static review, not registry or game certification.",
+  "visual_review": "All 7 final PNGs inspected by Builder; no independent review claim",
+  "world_writes": 0,
+  "runtime_started": false,
+  "suite_verdict": "NOT_ASSIGNED"
+}

@@ -1,0 +1,227 @@
+{
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": "Builder-owned-closure.json",
+      "bytes": 3269,
+      "sha256": "238b34957e8a37a1dbf18a493d590e552504dc81682758f9f14fe93062ad4eed"
+    },
+    {
+      "path": "Completion-Report.md",
+      "bytes": 2907,
+      "sha256": "12453a4be83113c7af3cf0b4439a5fbe7b2b6f3817363d7b938458bdc6156093"
+    },
+    {
+      "path": "inputs/Builder-SKILL.md",
+      "bytes": 64656,
+      "sha256": "faf6d93466aac789059dd8b0106ec74dc8c80d59d69d6de6f2b51c301f7451ff"
+    },
+    {
+      "path": "inputs/CIV-001-Architecture-Grammar.md",
+      "bytes": 16494,
+      "sha256": "dc9b3f14792fb9085d3192caac0e3ac04484bd147c064f3646f99cbe29d880a6"
+    },
+    {
+      "path": "inputs/CIV-001-Canon.md",
+      "bytes": 7128,
+      "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d"
+    },
+    {
+      "path": "inputs/concept-r1/handoff-consumption-record.md",
+      "bytes": 5334,
+      "sha256": "3999590a8f07d7d17c0d22db9feb576ac6d7afed46162ac5545caf3ecbda2777"
+    },
+    {
+      "path": "inputs/concept-r1/issues.json",
+      "bytes": 5230,
+      "sha256": "7e6eda8ce7741b63bc9f1b1c27b965971893b40fb4892f8dcfd1100e99a84e9f"
+    },
+    {
+      "path": "inputs/concept-r1/建筑设计.md",
+      "bytes": 11281,
+      "sha256": "0d57e4437330139bdd600387ed4feb97ea1c5b0f0c158bf85d110e0321308b39"
+    },
+    {
+      "path": "inputs/concept-r1/设计体素.json",
+      "bytes": 85148,
+      "sha256": "2f644d620a52c4528a622dee9adb8b91c548160d5523cf2c5c0bbd56d10198c7"
+    },
+    {
+      "path": "inputs/concept-r1/设计几何.json",
+      "bytes": 117664,
+      "sha256": "d1b25e83a1e797511046ae9565b3e05b7094073cf54463911b349b8166358ded"
+    },
+    {
+      "path": "inputs/concept-r1/设计核验.json",
+      "bytes": 2011,
+      "sha256": "217294f7b2baf5af67774072c3a8818a993f70dc46b44a86b4bf808daa9eb86d"
+    },
+    {
+      "path": "inputs/planner-builder-contract.md",
+      "bytes": 14540,
+      "sha256": "1a92be450ec410f9171379f407c2aefbabbeb8d5a241cb41e658c2a21c2bfda8"
+    },
+    {
+      "path": "inputs/r3/BDP-01.json",
+      "bytes": 151566,
+      "sha256": "ec606c108ed882a2eab44430036fc99d85772d90d770bda1c27f406d8364d7e7"
+    },
+    {
+      "path": "inputs/r3/closure-register.json",
+      "bytes": 5606,
+      "sha256": "db4fdca023a61c263a9e8f06ab5670be0eb2e9b389d17ffc2bf75dfdff18cd37"
+    },
+    {
+      "path": "inputs/r3/evidence/公共通行冻结基线.json",
+      "bytes": 34067,
+      "sha256": "459b20f42cef729f9800e5f00f071ba973405376599f241f3015ba72afc3bb05"
+    },
+    {
+      "path": "inputs/r3/evidence/局部地表事实.json",
+      "bytes": 8065,
+      "sha256": "94e8a6962c877e57e58385b4540cccb2bfa20f44dff2cd49821616c47b460908"
+    },
+    {
+      "path": "inputs/r3/external-service-interfaces.json",
+      "bytes": 5556,
+      "sha256": "114f70361cc3e457cd198c61910fffb95729ec72d601a6f8cbea51ad75812613"
+    },
+    {
+      "path": "inputs/r3/interface-baselines.json",
+      "bytes": 115540,
+      "sha256": "472ac496bd718551141365cfb6ae82de2840c0841005b76babafc9c915281232"
+    },
+    {
+      "path": "inputs/r3/revision-lineage.json",
+      "bytes": 1422,
+      "sha256": "924e80b1d3b41f48280db7d65f611ef78e3b07a74a6ddfdd611b67992e3d3a5c"
+    },
+    {
+      "path": "inputs/场地事实切片.json",
+      "bytes": 163272,
+      "sha256": "8051641c23b8ee53fe125d38d18918d129c4fb1a42b27a7ab111c1ed3439f298"
+    },
+    {
+      "path": "Planning-Fidelity-Gate.json",
+      "bytes": 4510,
+      "sha256": "f3b1cab389d6667994e639fedbf3be24a4f4d05dceb25a08b53d72bf4a5632c7"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 1343,
+      "sha256": "2abf4b3f4a53ee7f5f6e5c594da77a15670b266fe3fe65b9b1eeb90921e945e6"
+    },
+    {
+      "path": "README.md",
+      "bytes": 455,
+      "sha256": "3a333985dcde7b48fd398f3ed04e336663f583219c4b7ad63bfc12f798803320"
+    },
+    {
+      "path": "remaining-uncertainty.json",
+      "bytes": 6417,
+      "sha256": "51e1c65ea9265754652cff39868f4f4fcdca8e4aa749b54259d0616e78cdaee5"
+    },
+    {
+      "path": "revision-currentness.json",
+      "bytes": 9879,
+      "sha256": "ebda60ba1f2c34dc0ecbd1b10545e5c9eba260bd67fa667b534cac496cb3d519"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 6274,
+      "sha256": "09306d6d7a1d08b51e9c8ee407aeba1a83f6c2fdcaf534282120b81d708815a3"
+    },
+    {
+      "path": "交付核验.py",
+      "bytes": 4477,
+      "sha256": "05bb3f89f697416733e72eade32e8d34fb2b31c15c949216abeb74f038eeb38e"
+    },
+    {
+      "path": "体量轴测.png",
+      "bytes": 65210,
+      "sha256": "efdd40435b23608bf529717359634ac6bdbca779a4c34a790b226168d35c7b6e"
+    },
+    {
+      "path": "冻结候选制图.py",
+      "bytes": 5145,
+      "sha256": "3141c5317a6d42613eacca8dcd1dfe34a3ca6a8d85a89cb005f8de347ad3b454"
+    },
+    {
+      "path": "冻结候选编译.py",
+      "bytes": 15295,
+      "sha256": "82da2d8a89bcd5b0845d791d927dfbbc7c34f09c76542db5f708257281e8d1fb"
+    },
+    {
+      "path": "剖切轴测.png",
+      "bytes": 66389,
+      "sha256": "ff8fe13246df39c764c1d27ab0416ad627bd3c64a495c1b476031760b80adb0b"
+    },
+    {
+      "path": "剖面-家庭.png",
+      "bytes": 46499,
+      "sha256": "d8ccda60fd9559b1d0f22498e3f13743be49a9f68d616edb72c1bca551dab136"
+    },
+    {
+      "path": "剖面-楼梯.png",
+      "bytes": 48014,
+      "sha256": "af1ec5e95f4f30c0c4c3e48dd760e40c1f896ed0eda32143369907f208ab7ae6"
+    },
+    {
+      "path": "地基影响核验.json",
+      "bytes": 69574,
+      "sha256": "0ff2237e83344dfa714f3d1653f9a5c54f350ee8cac0a3633828240c9e804888"
+    },
+    {
+      "path": "平面-上层.png",
+      "bytes": 71061,
+      "sha256": "4ecf4cd99bfde27feeefcfcec421a2151c2a18bc73c71b8a1e643cb152ef4d42"
+    },
+    {
+      "path": "平面-下层.png",
+      "bytes": 70836,
+      "sha256": "69c67583764bdc7250e0d7fd8f096af663a18aa8645d8ec96bd7d95b0bb34363"
+    },
+    {
+      "path": "平面-作坊.png",
+      "bytes": 73475,
+      "sha256": "4bbd4c3100a1c2f59465f5a9da0b4399f9ce2e571585ae903ad4eb453fef00ce"
+    },
+    {
+      "path": "建筑设计.md",
+      "bytes": 8333,
+      "sha256": "7a60f66888b17f112449111639a0ca06f80079f21b3895b8fcf1ab4d34567395"
+    },
+    {
+      "path": "设计体素.json",
+      "bytes": 121339,
+      "sha256": "eac2fedf0e073a55ceaea3bdab9a3d95c6f2e3ebb9188ab72990c2b17c9f7ba9"
+    },
+    {
+      "path": "设计修订.json",
+      "bytes": 1951,
+      "sha256": "bc4b78e3cd08291f5da42e2e65c8e38d6ae341ce51b64fabc498170c463e9eb6"
+    },
+    {
+      "path": "设计几何.json",
+      "bytes": 163822,
+      "sha256": "1dfce88b628b75efb55dfc372251cf36d8a112ad6eaa88150c4d273ed4747b4d"
+    },
+    {
+      "path": "设计核验.json",
+      "bytes": 1693,
+      "sha256": "5e6b90f6097471cd9a03b8d6ec8ab56b6910c2fc8776de07b5adf85ec6f5a75a"
+    },
+    {
+      "path": "设计预览.html",
+      "bytes": 813,
+      "sha256": "1b0eafab3b9fe1ce63095b0eb1491ee8441bd2c422db1180ffc8a2bb6fb9cf18"
+    },
+    {
+      "path": "雨水性能.json",
+      "bytes": 3616,
+      "sha256": "5f227bee330897ddcd5d3f6875b92c0273e8899c0b25554dbdb88721507b9ea5"
+    }
+  ],
+  "world_writes": 0,
+  "state": "UNFROZEN_DESIGN_WITH_BLOCKERS"
+}

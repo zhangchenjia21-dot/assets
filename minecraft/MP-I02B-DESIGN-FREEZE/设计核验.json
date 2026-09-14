@@ -1,0 +1,64 @@
+{
+  "test": "MP-I02B",
+  "revision": "r2",
+  "world_writes": 0,
+  "regression_verdict": "NOT_ASSIGNED",
+  "checks": {
+    "native_state_count": 564,
+    "outside_parcel": [],
+    "public_clear_envelope_intrusions": [],
+    "private_yard_cells": 18,
+    "yard_above_obstructions": [],
+    "threshold_top": 132,
+    "required_threshold_top": 132,
+    "route_results": [
+      {
+        "route": "R-FAMILY",
+        "samples": 172,
+        "body_obstructions": 0,
+        "unsupported": 0,
+        "examples": []
+      },
+      {
+        "route": "R-WORK",
+        "samples": 102,
+        "body_obstructions": 0,
+        "unsupported": 0,
+        "examples": []
+      },
+      {
+        "route": "R-YARD",
+        "samples": 188,
+        "body_obstructions": 0,
+        "unsupported": 0,
+        "examples": []
+      },
+      {
+        "route": "R-UP",
+        "samples": 174,
+        "body_obstructions": 0,
+        "unsupported": 0,
+        "examples": []
+      },
+      {
+        "route": "R-SLEEP",
+        "samples": 119,
+        "body_obstructions": 0,
+        "unsupported": 0,
+        "examples": []
+      },
+      {
+        "route": "R-HYGIENE",
+        "samples": 51,
+        "body_obstructions": 0,
+        "unsupported": 0,
+        "examples": []
+      }
+    ]
+  },
+  "limits": [
+    "Static 0.6 x 1.8 body envelope only, doors deliberately opened. Foot lifted to local supporting stair surface for headroom; not game stepping/jump simulation.",
+    "Runtime movement and native-state neighbor updates unverified.",
+    "Solid chimney is not a lumen. Roof collection, water balance and storage are not certified."
+  ]
+}

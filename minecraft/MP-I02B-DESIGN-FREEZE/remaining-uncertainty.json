@@ -1,0 +1,121 @@
+{
+  "conditions": [
+    {
+      "id": "U-GROUND",
+      "owner": "Builder + authorized site/engineering reviewer",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "PARTIAL_EVIDENCE_BLOCKER",
+      "evidence": [
+        "地基影响核验.json"
+      ],
+      "bounded_adaptation": "No cellar or deep trench; separate shallow stepped plinths rather than whole-frontage platform.",
+      "minimum_closure": "Review exact load/influence volume, ground contact and known artificial-content protections before foundation freeze. Do not treat shallow no-air evidence as deep clearance.",
+      "closed_parts": "Actual edit/contact volume and bounded screening coverage; no below-ground edits, known artificial positions not directly intersected",
+      "minimum_gap": "Justify load/influence depth and lateral extent; verify bearing/ground discontinuities and relevant artificial structure extent. No blanket full geology request."
+    },
+    {
+      "id": "U-HABITABILITY",
+      "owner": "Builder + household/Owner",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "PARTIAL_BUILDER_BLOCKER",
+      "evidence": [
+        "建筑设计.md",
+        "设计核验.json",
+        "平面-上层.png"
+      ],
+      "minimum_closure": "Confirm household design occupancy; finalize door privacy/weathering, ventilation, flue and fire separation, native railing/screen collision. Two-bed study is not evidence of actual household size.",
+      "closed_parts": "2-resident design scenario, separate work/family/yard, fixed sleeping/cooking/hygiene/storage spaces; doors/screens and static routes",
+      "minimum_gap": "Functional flue and fire/heat separation; validate ventilation/privacy/weathering and native interactions as required for final design; actual population not asserted."
+    },
+    {
+      "id": "U-TITLE",
+      "owner": "Owner + original rights holders",
+      "resolve_before": "BEFORE_WORLD_WRITE",
+      "status": "UNRESOLVED",
+      "minimum_closure": "Explicit target/revision/hash authorization, land-use and common-easement agreement. This task requests no construction."
+    },
+    {
+      "id": "U-SUPPLY",
+      "interfaces": [
+        "R2-S1-CLEAN_WATER",
+        "R2-S1-GOODS_FUEL"
+      ],
+      "owner": "PUBLIC-COORDINATOR + household operators",
+      "resolve_before": "BEFORE_PERMANENT_OCCUPATION",
+      "status": "RESERVATION_WITH_EXTERNAL_HOLD",
+      "minimum_closure": "Actual clean-water source/quality/capacity, food/fuel delivery cadence, reserve and interruption response. Palette does not prove materials supply."
+    },
+    {
+      "id": "U-OPERATION",
+      "interfaces": [
+        "R2-S1-WASTE",
+        "R2-S1-GOODS_FUEL"
+      ],
+      "owner": "PUBLIC-COORDINATOR + household operators",
+      "resolve_before": "BEFORE_OPERATION",
+      "status": "UNRESOLVED",
+      "minimum_closure": "Waste destination/responsibility, closed carrying containers, clean/dirty time separation, and one-batch handheld work limit. No throughput claim."
+    },
+    {
+      "id": "B-TRANSLATION",
+      "owner": "Builder",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "status": "PARTIAL_BUILDER_BLOCKER",
+      "minimum_closure": "Compile selected native block states, roof flashing/gutters, chimney lumen and doors; recheck supports, stairs and route collision. Custom review boxes are not an executable Canonical Blueprint.",
+      "evidence": [
+        "设计体素.json",
+        "设计几何.json",
+        "设计修订.json",
+        "建筑设计.md"
+      ],
+      "closed_parts": "Explicit native doors/stairs/slabs/guards/screens/beds/roof/support states; static movement checked",
+      "minimum_gap": "Flue lumen, roof flashing and connected collection/retention details remain uncompiled; native interaction/update behavior unverified. Solid chimney is not valid translation of a flue."
+    },
+    {
+      "id": "B-RAINWATER-PERFORMANCE",
+      "origin_issue": "U-RAINWATER",
+      "status": "UPSTREAM_PLANNING_ISSUE",
+      "owner": "BDP-01 Builder",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "minimum_closure": "Design and prove parcel-local collection/retention/recovery/safe failure; or return new UPSTREAM_PLANNING_ISSUE if infeasible.",
+      "engineering_scope": "Not a Planner receiving-interface HOLD.",
+      "issue_id": "MP-I02B-UPI-RAIN-01",
+      "evidence": [
+        "雨水性能.json"
+      ],
+      "closed_parts": "No-discharge/public-no-receiver responsibility inherited; original and larger local storage options assessed",
+      "minimum_gap": "Justified cumulative design/failure envelope and proved local recovery; if infeasible, smallest explicit rainwater service revision, never assumed public outfall."
+    },
+    {
+      "id": "B-PLANNING-FIDELITY",
+      "status": "RECHECKED_NOT_PASSED",
+      "owner": "BDP-01 Builder",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "minimum_closure": "Consume BDP-01 r3 and prove design fidelity to revised public and rainwater baselines; no gate result assigned by Planner.",
+      "evidence": [
+        "Planning-Fidelity-Gate.json"
+      ],
+      "closed_parts": "All requested r3 fidelity dimensions explicitly reviewed",
+      "minimum_gap": "Rainwater issue and Builder-owned blockers prevent freeze; no semantic PASS inferred from geometric checks."
+    }
+  ],
+  "planning_closures_preserved": [
+    {
+      "id": "U-PUBLIC",
+      "status": "CLOSED_AT_PLANNING_LEVEL",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "evidence": "evidence/公共通行冻结基线.json",
+      "basis": "50-cell exact public sweep, connected turns and fixed local continuous per-cell design surface. Task-local coordination role is sufficient under Owner task boundary.",
+      "residual": "Runtime/detail implementation and real rights remain outside this planning closure."
+    },
+    {
+      "id": "U-RAINWATER",
+      "status": "CLOSED_AT_PLANNING_LEVEL",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "evidence": "external-service-interfaces.json#R2-S1-RAINWATER",
+      "basis": "No cross-boundary discharge and no public receiving obligation; Builder owns parcel-local closed design/proof.",
+      "residual": "B-RAINWATER-PERFORMANCE remains open; no hydraulic success is asserted."
+    }
+  ],
+  "world_writes": 0
+}

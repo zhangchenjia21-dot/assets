@@ -1,0 +1,78 @@
+{
+  "status": "UPSTREAM_PLANNING_ISSUE",
+  "interface": "R2-S1-RAINWATER r3",
+  "catchment": {
+    "roof_projection_cells": 84,
+    "parcel_cells": 151,
+    "yard_exposed_cells": 18,
+    "conversion": "Conditional 1 block = 1 m, runoff coefficient 1 for conservative screening; not measured site hydrology"
+  },
+  "existing_native_cauldrons": {
+    "count": 2,
+    "certified_storage_m3": 0,
+    "reason": "Minecraft cauldron levels are not calibrated real cubic metres; roof runoff is not simulated by native rain"
+  },
+  "bounded_options": [
+    {
+      "id": "RW-A",
+      "geometry": "Existing two reservation columns (756,1625),(757,1625)",
+      "assumed_engineered_net_storage_m3": 2,
+      "status": "REJECTED_AS_PROOF",
+      "reason": "Even generously assuming 1 m3 per column does not create recovery or safe failure; original vessels have no gutter connection."
+    },
+    {
+      "id": "RW-B",
+      "geometry": "Above-ground sealed north strip X756..759 / Z1625 (four legal columns), maximum 2 m useful depth, independent support required",
+      "assumed_engineered_net_storage_m3": 8,
+      "status": "BOUNDED_ENVELOPE_STUDY_ONLY",
+      "reason": "8 m3 is optimistic net volume before wall/freeboard losses, not an installed tank. No verified recovery sink; additional water loads reopen U-GROUND. Roof branches and all exposed yard drainage remain to be collected."
+    },
+    {
+      "id": "RW-C",
+      "geometry": "Buried retention/infiltration or converted yard",
+      "status": "NOT_ADOPTED",
+      "reason": "Cannot assume rock infiltration or deep excavation safety. Taking the mandatory 18-cell yard or routing overflow across boundary violates fixed relations."
+    }
+  ],
+  "sensitivity": [
+    {
+      "rain_mm": 10,
+      "roof_m3": 0.84,
+      "whole_parcel_m3": 1.51,
+      "8m3_optimistic_remaining": 6.49
+    },
+    {
+      "rain_mm": 25,
+      "roof_m3": 2.1,
+      "whole_parcel_m3": 3.775,
+      "8m3_optimistic_remaining": 4.225
+    },
+    {
+      "rain_mm": 50,
+      "roof_m3": 4.2,
+      "whole_parcel_m3": 7.55,
+      "8m3_optimistic_remaining": 0.45
+    },
+    {
+      "rain_mm": 100,
+      "roof_m3": 8.4,
+      "whole_parcel_m3": 15.1,
+      "8m3_optimistic_remaining": -7.1
+    },
+    {
+      "rain_mm": 200,
+      "roof_m3": 16.8,
+      "whole_parcel_m3": 30.2,
+      "8m3_optimistic_remaining": -22.2
+    }
+  ],
+  "balance": "S_next = S + precipitation * catchment - verified recovery. Verified guaranteed recovery lower bound is 0. For any finite storage, repeated positive rainfall exceeds capacity without a bounded cumulative event and a proved recovery/failure path.",
+  "safe_failure": "Not demonstrated. Entry flood barrier would conflict with Y132 fixed contact / access; full yard enclosure without safe retained water depth and recovery does not establish safe occupancy.",
+  "minimum_upstream_request": "Preserve r3 no-discharge baseline. Provide/accept a justified cumulative design-event and failure envelope plus a guaranteed parcel-local recovery mechanism compatible with current evidence; if impossible, planner must decide the smallest explicit R2-S1-RAINWATER interface revision. Builder does not propose or assume a public outfall.",
+  "affected": [
+    "BDP-01",
+    "R2-S1-RAINWATER",
+    "MP-I02B candidate r2; any changed boundary/contact also requires explicit related interface revision"
+  ],
+  "claim_limit": "Inability to prove under current evidence and bounded adaptations; not a mathematical claim that every possible parcel-local solution is impossible."
+}

@@ -1,0 +1,9276 @@
+{
+  "authority": "static native-shape review; doors in interaction-open state",
+  "boxes": [
+    {
+      "min": [
+        754,
+        131,
+        1626
+      ],
+      "max": [
+        755,
+        132,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1627
+      ],
+      "max": [
+        755,
+        132,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1628
+      ],
+      "max": [
+        755,
+        132,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1629
+      ],
+      "max": [
+        755,
+        132,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1630
+      ],
+      "max": [
+        755,
+        132,
+        1631
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1631
+      ],
+      "max": [
+        755,
+        132,
+        1632
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1626
+      ],
+      "max": [
+        756,
+        132,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1627
+      ],
+      "max": [
+        756,
+        132,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1628
+      ],
+      "max": [
+        756,
+        132,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1629
+      ],
+      "max": [
+        756,
+        132,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1630
+      ],
+      "max": [
+        756,
+        132,
+        1631
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1631
+      ],
+      "max": [
+        756,
+        132,
+        1632
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1626
+      ],
+      "max": [
+        757,
+        132,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1627
+      ],
+      "max": [
+        757,
+        132,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1628
+      ],
+      "max": [
+        757,
+        132,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1629
+      ],
+      "max": [
+        757,
+        132,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1630
+      ],
+      "max": [
+        757,
+        132,
+        1631
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1631
+      ],
+      "max": [
+        757,
+        132,
+        1632
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1626
+      ],
+      "max": [
+        758,
+        132,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1627
+      ],
+      "max": [
+        758,
+        132,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1628
+      ],
+      "max": [
+        758,
+        132,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1629
+      ],
+      "max": [
+        758,
+        132,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1630
+      ],
+      "max": [
+        758,
+        132,
+        1631
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1631
+      ],
+      "max": [
+        758,
+        132,
+        1632
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1626
+      ],
+      "max": [
+        759,
+        132,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1627
+      ],
+      "max": [
+        759,
+        132,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1628
+      ],
+      "max": [
+        759,
+        132,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1629
+      ],
+      "max": [
+        759,
+        132,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1630
+      ],
+      "max": [
+        759,
+        132,
+        1631
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1631
+      ],
+      "max": [
+        759,
+        132,
+        1632
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1626
+      ],
+      "max": [
+        760,
+        132,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1627
+      ],
+      "max": [
+        760,
+        132,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1628
+      ],
+      "max": [
+        760,
+        132,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1629
+      ],
+      "max": [
+        760,
+        132,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1630
+      ],
+      "max": [
+        760,
+        132,
+        1631
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1631
+      ],
+      "max": [
+        760,
+        132,
+        1632
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1624
+      ],
+      "max": [
+        761,
+        134,
+        1625
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1625
+      ],
+      "max": [
+        761,
+        134,
+        1626
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1626
+      ],
+      "max": [
+        761,
+        134,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1627
+      ],
+      "max": [
+        761,
+        134,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        132,
+        1629
+      ],
+      "max": [
+        761,
+        133,
+        1630
+      ],
+      "role": "shallow_plinth",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1629
+      ],
+      "max": [
+        761,
+        134,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1624
+      ],
+      "max": [
+        762,
+        134,
+        1625
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1625
+      ],
+      "max": [
+        762,
+        134,
+        1626
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1626
+      ],
+      "max": [
+        762,
+        134,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1627
+      ],
+      "max": [
+        762,
+        134,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1628
+      ],
+      "max": [
+        762,
+        134,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        133,
+        1629
+      ],
+      "max": [
+        762,
+        134,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1624
+      ],
+      "max": [
+        763,
+        134,
+        1625
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1625
+      ],
+      "max": [
+        763,
+        134,
+        1626
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1626
+      ],
+      "max": [
+        763,
+        134,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1627
+      ],
+      "max": [
+        763,
+        134,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1628
+      ],
+      "max": [
+        763,
+        134,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        133,
+        1629
+      ],
+      "max": [
+        763,
+        134,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1624
+      ],
+      "max": [
+        764,
+        134,
+        1625
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1625
+      ],
+      "max": [
+        764,
+        134,
+        1626
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1626
+      ],
+      "max": [
+        764,
+        134,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1627
+      ],
+      "max": [
+        764,
+        134,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1628
+      ],
+      "max": [
+        764,
+        134,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        133,
+        1629
+      ],
+      "max": [
+        764,
+        134,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1624
+      ],
+      "max": [
+        765,
+        134,
+        1625
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1625
+      ],
+      "max": [
+        765,
+        134,
+        1626
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1626
+      ],
+      "max": [
+        765,
+        134,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1627
+      ],
+      "max": [
+        765,
+        134,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1628
+      ],
+      "max": [
+        765,
+        134,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        133,
+        1629
+      ],
+      "max": [
+        765,
+        134,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1624
+      ],
+      "max": [
+        766,
+        134,
+        1625
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1625
+      ],
+      "max": [
+        766,
+        134,
+        1626
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1626
+      ],
+      "max": [
+        766,
+        134,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1627
+      ],
+      "max": [
+        766,
+        134,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1628
+      ],
+      "max": [
+        766,
+        134,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        133,
+        1629
+      ],
+      "max": [
+        766,
+        134,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1624
+      ],
+      "max": [
+        767,
+        134,
+        1625
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1625
+      ],
+      "max": [
+        767,
+        134,
+        1626
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1626
+      ],
+      "max": [
+        767,
+        134,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1627
+      ],
+      "max": [
+        767,
+        134,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1628
+      ],
+      "max": [
+        767,
+        134,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        133,
+        1629
+      ],
+      "max": [
+        767,
+        134,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1624
+      ],
+      "max": [
+        768,
+        134,
+        1625
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1625
+      ],
+      "max": [
+        768,
+        134,
+        1626
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1626
+      ],
+      "max": [
+        768,
+        134,
+        1627
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1627
+      ],
+      "max": [
+        768,
+        134,
+        1628
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1628
+      ],
+      "max": [
+        768,
+        134,
+        1629
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        133,
+        1629
+      ],
+      "max": [
+        768,
+        134,
+        1630
+      ],
+      "role": "floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1626
+      ],
+      "max": [
+        755,
+        133,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1626
+      ],
+      "max": [
+        755,
+        134,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1626
+      ],
+      "max": [
+        755,
+        135,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1626
+      ],
+      "max": [
+        755,
+        136,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1627
+      ],
+      "max": [
+        755,
+        133,
+        1628
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1627
+      ],
+      "max": [
+        755,
+        134,
+        1628
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1627
+      ],
+      "max": [
+        755,
+        135,
+        1628
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1627
+      ],
+      "max": [
+        755,
+        136,
+        1628
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1628
+      ],
+      "max": [
+        755,
+        133,
+        1629
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1628
+      ],
+      "max": [
+        755,
+        134,
+        1629
+      ],
+      "role": "window",
+      "material": "glass",
+      "state": "minecraft:glass"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1628
+      ],
+      "max": [
+        755,
+        135,
+        1629
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1628
+      ],
+      "max": [
+        755,
+        136,
+        1629
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1629
+      ],
+      "max": [
+        755,
+        133,
+        1630
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1629
+      ],
+      "max": [
+        755,
+        134,
+        1630
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1629
+      ],
+      "max": [
+        755,
+        135,
+        1630
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1629
+      ],
+      "max": [
+        755,
+        136,
+        1630
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1630
+      ],
+      "max": [
+        755,
+        133,
+        1631
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1630
+      ],
+      "max": [
+        755,
+        134,
+        1631
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1630
+      ],
+      "max": [
+        755,
+        135,
+        1631
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1630
+      ],
+      "max": [
+        755,
+        136,
+        1631
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        132,
+        1631
+      ],
+      "max": [
+        755,
+        133,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        133,
+        1631
+      ],
+      "max": [
+        755,
+        134,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        134,
+        1631
+      ],
+      "max": [
+        755,
+        135,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        135,
+        1631
+      ],
+      "max": [
+        755,
+        136,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        132,
+        1626
+      ],
+      "max": [
+        756,
+        133,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        133,
+        1626
+      ],
+      "max": [
+        756,
+        134,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        134,
+        1626
+      ],
+      "max": [
+        756,
+        135,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        135,
+        1626
+      ],
+      "max": [
+        756,
+        136,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        135,
+        1631
+      ],
+      "max": [
+        756,
+        136,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        132,
+        1626
+      ],
+      "max": [
+        757,
+        133,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        133,
+        1626
+      ],
+      "max": [
+        757,
+        134,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        134,
+        1626
+      ],
+      "max": [
+        757,
+        135,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        135,
+        1626
+      ],
+      "max": [
+        757,
+        136,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        132,
+        1631
+      ],
+      "max": [
+        757,
+        133,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        133,
+        1631
+      ],
+      "max": [
+        757,
+        134,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        134,
+        1631
+      ],
+      "max": [
+        757,
+        135,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        135,
+        1631
+      ],
+      "max": [
+        757,
+        136,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1626
+      ],
+      "max": [
+        758,
+        133,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1626
+      ],
+      "max": [
+        758,
+        134,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1626
+      ],
+      "max": [
+        758,
+        135,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        135,
+        1626
+      ],
+      "max": [
+        758,
+        136,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1631
+      ],
+      "max": [
+        758,
+        133,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1631
+      ],
+      "max": [
+        758,
+        134,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1631
+      ],
+      "max": [
+        758,
+        135,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        135,
+        1631
+      ],
+      "max": [
+        758,
+        136,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        132,
+        1626
+      ],
+      "max": [
+        759,
+        133,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        133,
+        1626
+      ],
+      "max": [
+        759,
+        134,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        134,
+        1626
+      ],
+      "max": [
+        759,
+        135,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        135,
+        1626
+      ],
+      "max": [
+        759,
+        136,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        135,
+        1631
+      ],
+      "max": [
+        759,
+        136,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1626
+      ],
+      "max": [
+        760,
+        133,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1626
+      ],
+      "max": [
+        760,
+        134,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1626
+      ],
+      "max": [
+        760,
+        135,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1626
+      ],
+      "max": [
+        760,
+        136,
+        1627
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1627
+      ],
+      "max": [
+        760,
+        133,
+        1628
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1627
+      ],
+      "max": [
+        760,
+        134,
+        1628
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1627
+      ],
+      "max": [
+        760,
+        135,
+        1628
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1627
+      ],
+      "max": [
+        760,
+        136,
+        1628
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1629
+      ],
+      "max": [
+        760,
+        133,
+        1630
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1629
+      ],
+      "max": [
+        760,
+        134,
+        1630
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1629
+      ],
+      "max": [
+        760,
+        135,
+        1630
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1629
+      ],
+      "max": [
+        760,
+        136,
+        1630
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1630
+      ],
+      "max": [
+        760,
+        133,
+        1631
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1630
+      ],
+      "max": [
+        760,
+        134,
+        1631
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1630
+      ],
+      "max": [
+        760,
+        135,
+        1631
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1630
+      ],
+      "max": [
+        760,
+        136,
+        1631
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1631
+      ],
+      "max": [
+        760,
+        133,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        133,
+        1631
+      ],
+      "max": [
+        760,
+        134,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        134,
+        1631
+      ],
+      "max": [
+        760,
+        135,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        135,
+        1631
+      ],
+      "max": [
+        760,
+        136,
+        1632
+      ],
+      "role": "workshop_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1624
+      ],
+      "max": [
+        761,
+        135,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1624
+      ],
+      "max": [
+        761,
+        136,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1624
+      ],
+      "max": [
+        761,
+        137,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1624
+      ],
+      "max": [
+        761,
+        138,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1624
+      ],
+      "max": [
+        761,
+        139,
+        1625
+      ],
+      "role": "post",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1624
+      ],
+      "max": [
+        761,
+        140,
+        1625
+      ],
+      "role": "post",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1624
+      ],
+      "max": [
+        761,
+        141,
+        1625
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1625
+      ],
+      "max": [
+        761,
+        135,
+        1626
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1625
+      ],
+      "max": [
+        761,
+        136,
+        1626
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1625
+      ],
+      "max": [
+        761,
+        137,
+        1626
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1625
+      ],
+      "max": [
+        761,
+        138,
+        1626
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1625
+      ],
+      "max": [
+        761,
+        139,
+        1626
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1625
+      ],
+      "max": [
+        761,
+        140,
+        1626
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1625
+      ],
+      "max": [
+        761,
+        141,
+        1626
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1626
+      ],
+      "max": [
+        761,
+        135,
+        1627
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1626
+      ],
+      "max": [
+        761,
+        136,
+        1627
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1626
+      ],
+      "max": [
+        761,
+        137,
+        1627
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1626
+      ],
+      "max": [
+        761,
+        138,
+        1627
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1626
+      ],
+      "max": [
+        761,
+        139,
+        1627
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1626
+      ],
+      "max": [
+        761,
+        140,
+        1627
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1626
+      ],
+      "max": [
+        761,
+        141,
+        1627
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1627
+      ],
+      "max": [
+        761,
+        135,
+        1628
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1627
+      ],
+      "max": [
+        761,
+        136,
+        1628
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1627
+      ],
+      "max": [
+        761,
+        137,
+        1628
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1627
+      ],
+      "max": [
+        761,
+        138,
+        1628
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1627
+      ],
+      "max": [
+        761,
+        139,
+        1628
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1627
+      ],
+      "max": [
+        761,
+        140,
+        1628
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1627
+      ],
+      "max": [
+        761,
+        141,
+        1628
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1628
+      ],
+      "max": [
+        761,
+        139,
+        1629
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1628
+      ],
+      "max": [
+        761,
+        140,
+        1629
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1628
+      ],
+      "max": [
+        761,
+        141,
+        1629
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        760,
+        134,
+        1629
+      ],
+      "max": [
+        761,
+        135,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        135,
+        1629
+      ],
+      "max": [
+        761,
+        136,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        136,
+        1629
+      ],
+      "max": [
+        761,
+        137,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        137,
+        1629
+      ],
+      "max": [
+        761,
+        138,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        138,
+        1629
+      ],
+      "max": [
+        761,
+        139,
+        1630
+      ],
+      "role": "post",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "min": [
+        760,
+        139,
+        1629
+      ],
+      "max": [
+        761,
+        140,
+        1630
+      ],
+      "role": "post",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "min": [
+        760,
+        140,
+        1629
+      ],
+      "max": [
+        761,
+        141,
+        1630
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        761,
+        134,
+        1624
+      ],
+      "max": [
+        762,
+        135,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        135,
+        1624
+      ],
+      "max": [
+        762,
+        136,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        136,
+        1624
+      ],
+      "max": [
+        762,
+        137,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1624
+      ],
+      "max": [
+        762,
+        138,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1624
+      ],
+      "max": [
+        762,
+        139,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        761,
+        139,
+        1624
+      ],
+      "max": [
+        762,
+        140,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        761,
+        140,
+        1624
+      ],
+      "max": [
+        762,
+        141,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        761,
+        134,
+        1629
+      ],
+      "max": [
+        762,
+        135,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        135,
+        1629
+      ],
+      "max": [
+        762,
+        136,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        136,
+        1629
+      ],
+      "max": [
+        762,
+        137,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1629
+      ],
+      "max": [
+        762,
+        138,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1629
+      ],
+      "max": [
+        762,
+        139,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        761,
+        139,
+        1629
+      ],
+      "max": [
+        762,
+        140,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        761,
+        140,
+        1629
+      ],
+      "max": [
+        762,
+        141,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        762,
+        134,
+        1624
+      ],
+      "max": [
+        763,
+        135,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        135,
+        1624
+      ],
+      "max": [
+        763,
+        136,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        136,
+        1624
+      ],
+      "max": [
+        763,
+        137,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1624
+      ],
+      "max": [
+        763,
+        138,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        138,
+        1624
+      ],
+      "max": [
+        763,
+        139,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        762,
+        139,
+        1624
+      ],
+      "max": [
+        763,
+        140,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        762,
+        140,
+        1624
+      ],
+      "max": [
+        763,
+        141,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        762,
+        134,
+        1629
+      ],
+      "max": [
+        763,
+        135,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        135,
+        1629
+      ],
+      "max": [
+        763,
+        136,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        136,
+        1629
+      ],
+      "max": [
+        763,
+        137,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1629
+      ],
+      "max": [
+        763,
+        138,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        138,
+        1629
+      ],
+      "max": [
+        763,
+        139,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        762,
+        139,
+        1629
+      ],
+      "max": [
+        763,
+        140,
+        1630
+      ],
+      "role": "window",
+      "material": "glass",
+      "state": "minecraft:glass"
+    },
+    {
+      "min": [
+        762,
+        140,
+        1629
+      ],
+      "max": [
+        763,
+        141,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        763,
+        134,
+        1624
+      ],
+      "max": [
+        764,
+        135,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        135,
+        1624
+      ],
+      "max": [
+        764,
+        136,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        136,
+        1624
+      ],
+      "max": [
+        764,
+        137,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1624
+      ],
+      "max": [
+        764,
+        138,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1624
+      ],
+      "max": [
+        764,
+        139,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        763,
+        139,
+        1624
+      ],
+      "max": [
+        764,
+        140,
+        1625
+      ],
+      "role": "window",
+      "material": "glass",
+      "state": "minecraft:glass"
+    },
+    {
+      "min": [
+        763,
+        140,
+        1624
+      ],
+      "max": [
+        764,
+        141,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        763,
+        134,
+        1629
+      ],
+      "max": [
+        764,
+        135,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        135,
+        1629
+      ],
+      "max": [
+        764,
+        136,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        136,
+        1629
+      ],
+      "max": [
+        764,
+        137,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1629
+      ],
+      "max": [
+        764,
+        138,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1629
+      ],
+      "max": [
+        764,
+        139,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        763,
+        139,
+        1629
+      ],
+      "max": [
+        764,
+        140,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        763,
+        140,
+        1629
+      ],
+      "max": [
+        764,
+        141,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        764,
+        134,
+        1624
+      ],
+      "max": [
+        765,
+        135,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        135,
+        1624
+      ],
+      "max": [
+        765,
+        136,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        136,
+        1624
+      ],
+      "max": [
+        765,
+        137,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1624
+      ],
+      "max": [
+        765,
+        138,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        138,
+        1624
+      ],
+      "max": [
+        765,
+        139,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        764,
+        139,
+        1624
+      ],
+      "max": [
+        765,
+        140,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1624
+      ],
+      "max": [
+        765,
+        141,
+        1625
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        764,
+        134,
+        1629
+      ],
+      "max": [
+        765,
+        135,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        135,
+        1629
+      ],
+      "max": [
+        765,
+        136,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        136,
+        1629
+      ],
+      "max": [
+        765,
+        137,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1629
+      ],
+      "max": [
+        765,
+        138,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        138,
+        1629
+      ],
+      "max": [
+        765,
+        139,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        764,
+        139,
+        1629
+      ],
+      "max": [
+        765,
+        140,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1629
+      ],
+      "max": [
+        765,
+        141,
+        1630
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        765,
+        134,
+        1624
+      ],
+      "max": [
+        766,
+        135,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        135,
+        1624
+      ],
+      "max": [
+        766,
+        136,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        136,
+        1624
+      ],
+      "max": [
+        766,
+        137,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1624
+      ],
+      "max": [
+        766,
+        138,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1624
+      ],
+      "max": [
+        766,
+        139,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        765,
+        139,
+        1624
+      ],
+      "max": [
+        766,
+        140,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        765,
+        140,
+        1624
+      ],
+      "max": [
+        766,
+        141,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        765,
+        134,
+        1629
+      ],
+      "max": [
+        766,
+        135,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        135,
+        1629.8125
+      ],
+      "max": [
+        766,
+        136,
+        1630
+      ],
+      "role": "ventilation_shutter",
+      "material": "wood",
+      "state": "minecraft:spruce_trapdoor[facing=north,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        136,
+        1629
+      ],
+      "max": [
+        766,
+        137,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1629
+      ],
+      "max": [
+        766,
+        138,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1629
+      ],
+      "max": [
+        766,
+        139,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        765,
+        139,
+        1629
+      ],
+      "max": [
+        766,
+        140,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        765,
+        140,
+        1629
+      ],
+      "max": [
+        766,
+        141,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1624
+      ],
+      "max": [
+        767,
+        135,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        135,
+        1624
+      ],
+      "max": [
+        767,
+        136,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        136,
+        1624
+      ],
+      "max": [
+        767,
+        137,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1624
+      ],
+      "max": [
+        767,
+        138,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        138,
+        1624
+      ],
+      "max": [
+        767,
+        139,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        766,
+        139,
+        1624
+      ],
+      "max": [
+        767,
+        140,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        766,
+        140,
+        1624
+      ],
+      "max": [
+        767,
+        141,
+        1625
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1629
+      ],
+      "max": [
+        767,
+        135,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        135,
+        1629
+      ],
+      "max": [
+        767,
+        136,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        136,
+        1629
+      ],
+      "max": [
+        767,
+        137,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1629
+      ],
+      "max": [
+        767,
+        138,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        138,
+        1629
+      ],
+      "max": [
+        767,
+        139,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        766,
+        139,
+        1629
+      ],
+      "max": [
+        767,
+        140,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        766,
+        140,
+        1629
+      ],
+      "max": [
+        767,
+        141,
+        1630
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1624
+      ],
+      "max": [
+        768,
+        135,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1624
+      ],
+      "max": [
+        768,
+        136,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1624
+      ],
+      "max": [
+        768,
+        137,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1624
+      ],
+      "max": [
+        768,
+        138,
+        1625
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1624
+      ],
+      "max": [
+        768,
+        139,
+        1625
+      ],
+      "role": "post",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1624
+      ],
+      "max": [
+        768,
+        140,
+        1625
+      ],
+      "role": "post",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1624
+      ],
+      "max": [
+        768,
+        141,
+        1625
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1625
+      ],
+      "max": [
+        768,
+        135,
+        1626
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1625
+      ],
+      "max": [
+        768,
+        136,
+        1626
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1625
+      ],
+      "max": [
+        768,
+        137,
+        1626
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1625
+      ],
+      "max": [
+        768,
+        138,
+        1626
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1625
+      ],
+      "max": [
+        768,
+        139,
+        1626
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1625
+      ],
+      "max": [
+        768,
+        140,
+        1626
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1625
+      ],
+      "max": [
+        768,
+        141,
+        1626
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1626
+      ],
+      "max": [
+        768,
+        135,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1626
+      ],
+      "max": [
+        768,
+        136,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1626
+      ],
+      "max": [
+        768,
+        137,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1626
+      ],
+      "max": [
+        768,
+        138,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1626
+      ],
+      "max": [
+        768,
+        139,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1626
+      ],
+      "max": [
+        768,
+        140,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1626
+      ],
+      "max": [
+        768,
+        141,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1627
+      ],
+      "max": [
+        768,
+        135,
+        1628
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1627
+      ],
+      "max": [
+        768,
+        136,
+        1628
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1627
+      ],
+      "max": [
+        768,
+        137,
+        1628
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1627
+      ],
+      "max": [
+        768,
+        138,
+        1628
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1627
+      ],
+      "max": [
+        768,
+        139,
+        1628
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767.8125,
+        139,
+        1627
+      ],
+      "max": [
+        768,
+        140,
+        1628
+      ],
+      "role": "ventilation_shutter",
+      "material": "wood",
+      "state": "minecraft:spruce_trapdoor[facing=west,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1627
+      ],
+      "max": [
+        768,
+        141,
+        1628
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1628
+      ],
+      "max": [
+        768,
+        135,
+        1629
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1628
+      ],
+      "max": [
+        768,
+        136,
+        1629
+      ],
+      "role": "window",
+      "material": "glass",
+      "state": "minecraft:glass"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1628
+      ],
+      "max": [
+        768,
+        137,
+        1629
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1628
+      ],
+      "max": [
+        768,
+        138,
+        1629
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1628
+      ],
+      "max": [
+        768,
+        139,
+        1629
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1628
+      ],
+      "max": [
+        768,
+        140,
+        1629
+      ],
+      "role": "upper_infill",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1628
+      ],
+      "max": [
+        768,
+        141,
+        1629
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        767,
+        134,
+        1629
+      ],
+      "max": [
+        768,
+        135,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        135,
+        1629
+      ],
+      "max": [
+        768,
+        136,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        136,
+        1629
+      ],
+      "max": [
+        768,
+        137,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        137,
+        1629
+      ],
+      "max": [
+        768,
+        138,
+        1630
+      ],
+      "role": "house_wall",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        138,
+        1629
+      ],
+      "max": [
+        768,
+        139,
+        1630
+      ],
+      "role": "post",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "min": [
+        767,
+        139,
+        1629
+      ],
+      "max": [
+        768,
+        140,
+        1630
+      ],
+      "role": "post",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=y]"
+    },
+    {
+      "min": [
+        767,
+        140,
+        1629
+      ],
+      "max": [
+        768,
+        141,
+        1630
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1627
+      ],
+      "max": [
+        758,
+        133,
+        1628
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1628
+      ],
+      "max": [
+        758,
+        133,
+        1629
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1629
+      ],
+      "max": [
+        758,
+        133,
+        1630
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1630
+      ],
+      "max": [
+        758,
+        133,
+        1631
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1627
+      ],
+      "max": [
+        758,
+        134,
+        1628
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1628
+      ],
+      "max": [
+        758,
+        134,
+        1629
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1629
+      ],
+      "max": [
+        758,
+        134,
+        1630
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        133,
+        1630
+      ],
+      "max": [
+        758,
+        134,
+        1631
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1627
+      ],
+      "max": [
+        758,
+        135,
+        1628
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1628
+      ],
+      "max": [
+        758,
+        135,
+        1629
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1629
+      ],
+      "max": [
+        758,
+        135,
+        1630
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        757,
+        134,
+        1630
+      ],
+      "max": [
+        758,
+        135,
+        1631
+      ],
+      "role": "work_family_partition",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        759,
+        132,
+        1628
+      ],
+      "max": [
+        760,
+        132.5,
+        1629
+      ],
+      "role": "split_level_stair",
+      "material": "stone",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        759.5,
+        132.5,
+        1628
+      ],
+      "max": [
+        760,
+        133,
+        1629
+      ],
+      "role": "split_level_stair",
+      "material": "stone",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        133,
+        1628
+      ],
+      "max": [
+        761,
+        133.5,
+        1629
+      ],
+      "role": "split_level_stair",
+      "material": "stone",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760.5,
+        133.5,
+        1628
+      ],
+      "max": [
+        761,
+        134,
+        1629
+      ],
+      "role": "split_level_stair",
+      "material": "stone",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        132,
+        1628
+      ],
+      "max": [
+        761,
+        133,
+        1629
+      ],
+      "role": "stair_support",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1625
+      ],
+      "max": [
+        762,
+        138,
+        1626
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1626
+      ],
+      "max": [
+        762,
+        138,
+        1627
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1627
+      ],
+      "max": [
+        762,
+        138,
+        1628
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        761,
+        137,
+        1628
+      ],
+      "max": [
+        762,
+        138,
+        1629
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1626
+      ],
+      "max": [
+        763,
+        138,
+        1627
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1627
+      ],
+      "max": [
+        763,
+        138,
+        1628
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        762,
+        137,
+        1628
+      ],
+      "max": [
+        763,
+        138,
+        1629
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1626
+      ],
+      "max": [
+        764,
+        138,
+        1627
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1627
+      ],
+      "max": [
+        764,
+        138,
+        1628
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        763,
+        137,
+        1628
+      ],
+      "max": [
+        764,
+        138,
+        1629
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1626
+      ],
+      "max": [
+        765,
+        138,
+        1627
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1627
+      ],
+      "max": [
+        765,
+        138,
+        1628
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        137,
+        1628
+      ],
+      "max": [
+        765,
+        138,
+        1629
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1626
+      ],
+      "max": [
+        766,
+        138,
+        1627
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1627
+      ],
+      "max": [
+        766,
+        138,
+        1628
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1628
+      ],
+      "max": [
+        766,
+        138,
+        1629
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1625
+      ],
+      "max": [
+        767,
+        138,
+        1626
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1626
+      ],
+      "max": [
+        767,
+        138,
+        1627
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1627
+      ],
+      "max": [
+        767,
+        138,
+        1628
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        766,
+        137,
+        1628
+      ],
+      "max": [
+        767,
+        138,
+        1629
+      ],
+      "role": "upper_floor",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        762,
+        134,
+        1625
+      ],
+      "max": [
+        763,
+        134.5,
+        1626
+      ],
+      "role": "internal_stair",
+      "material": "wood",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762.5,
+        134.5,
+        1625
+      ],
+      "max": [
+        763,
+        135,
+        1626
+      ],
+      "role": "internal_stair",
+      "material": "wood",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        135,
+        1625
+      ],
+      "max": [
+        764,
+        135.5,
+        1626
+      ],
+      "role": "internal_stair",
+      "material": "wood",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763.5,
+        135.5,
+        1625
+      ],
+      "max": [
+        764,
+        136,
+        1626
+      ],
+      "role": "internal_stair",
+      "material": "wood",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        136,
+        1625
+      ],
+      "max": [
+        765,
+        136.5,
+        1626
+      ],
+      "role": "internal_stair",
+      "material": "wood",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764.5,
+        136.5,
+        1625
+      ],
+      "max": [
+        765,
+        137,
+        1626
+      ],
+      "role": "internal_stair",
+      "material": "wood",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        137,
+        1625
+      ],
+      "max": [
+        766,
+        137.5,
+        1626
+      ],
+      "role": "internal_stair",
+      "material": "wood",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765.5,
+        137.5,
+        1625
+      ],
+      "max": [
+        766,
+        138,
+        1626
+      ],
+      "role": "internal_stair",
+      "material": "wood",
+      "state": "minecraft:spruce_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        134,
+        1625
+      ],
+      "max": [
+        764,
+        135,
+        1626
+      ],
+      "role": "stair_stringer",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        134,
+        1625
+      ],
+      "max": [
+        765,
+        135,
+        1626
+      ],
+      "role": "stair_stringer",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        135,
+        1625
+      ],
+      "max": [
+        765,
+        136,
+        1626
+      ],
+      "role": "stair_stringer",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        765,
+        134,
+        1625
+      ],
+      "max": [
+        766,
+        135,
+        1626
+      ],
+      "role": "stair_stringer",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        765,
+        135,
+        1625
+      ],
+      "max": [
+        766,
+        136,
+        1626
+      ],
+      "role": "stair_stringer",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        765,
+        136,
+        1625
+      ],
+      "max": [
+        766,
+        137,
+        1626
+      ],
+      "role": "stair_stringer",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1625
+      ],
+      "max": [
+        765,
+        141,
+        1626
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1626
+      ],
+      "max": [
+        765,
+        141,
+        1627
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1627
+      ],
+      "max": [
+        765,
+        141,
+        1628
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        764,
+        140,
+        1628
+      ],
+      "max": [
+        765,
+        141,
+        1629
+      ],
+      "role": "roof_tie",
+      "material": "wood",
+      "state": "minecraft:spruce_log[axis=z]"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1624
+      ],
+      "max": [
+        761,
+        141.5,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        761,
+        142,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        142,
+        1625
+      ],
+      "max": [
+        761,
+        142.5,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        761,
+        143,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1625
+      ],
+      "max": [
+        761,
+        142,
+        1626
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        143,
+        1626
+      ],
+      "max": [
+        761,
+        143.5,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        761,
+        144,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1626
+      ],
+      "max": [
+        761,
+        142,
+        1627
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        142,
+        1626
+      ],
+      "max": [
+        761,
+        143,
+        1627
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        143,
+        1627
+      ],
+      "max": [
+        761,
+        143.5,
+        1628
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        143.5,
+        1627
+      ],
+      "max": [
+        761,
+        144,
+        1627.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1627
+      ],
+      "max": [
+        761,
+        142,
+        1628
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        142,
+        1627
+      ],
+      "max": [
+        761,
+        143,
+        1628
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        142,
+        1628
+      ],
+      "max": [
+        761,
+        142.5,
+        1629
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        142.5,
+        1628
+      ],
+      "max": [
+        761,
+        143,
+        1628.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1628
+      ],
+      "max": [
+        761,
+        142,
+        1629
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        760,
+        141,
+        1629
+      ],
+      "max": [
+        761,
+        141.5,
+        1630
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        760,
+        141.5,
+        1629
+      ],
+      "max": [
+        761,
+        142,
+        1629.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        141,
+        1624
+      ],
+      "max": [
+        762,
+        141.5,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        762,
+        142,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        142,
+        1625
+      ],
+      "max": [
+        762,
+        142.5,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        762,
+        143,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        143,
+        1626
+      ],
+      "max": [
+        762,
+        143.5,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        762,
+        144,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        143,
+        1627
+      ],
+      "max": [
+        762,
+        143.5,
+        1628
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        143.5,
+        1627
+      ],
+      "max": [
+        762,
+        144,
+        1627.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        142,
+        1628
+      ],
+      "max": [
+        762,
+        142.5,
+        1629
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        142.5,
+        1628
+      ],
+      "max": [
+        762,
+        143,
+        1628.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        141,
+        1629
+      ],
+      "max": [
+        762,
+        141.5,
+        1630
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        761,
+        141.5,
+        1629
+      ],
+      "max": [
+        762,
+        142,
+        1629.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        141,
+        1624
+      ],
+      "max": [
+        763,
+        141.5,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        763,
+        142,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        142,
+        1625
+      ],
+      "max": [
+        763,
+        142.5,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        763,
+        143,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        143,
+        1626
+      ],
+      "max": [
+        763,
+        143.5,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        763,
+        144,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        143,
+        1627
+      ],
+      "max": [
+        763,
+        143.5,
+        1628
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        143.5,
+        1627
+      ],
+      "max": [
+        763,
+        144,
+        1627.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        142,
+        1628
+      ],
+      "max": [
+        763,
+        142.5,
+        1629
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        142.5,
+        1628
+      ],
+      "max": [
+        763,
+        143,
+        1628.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        141,
+        1629
+      ],
+      "max": [
+        763,
+        141.5,
+        1630
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        762,
+        141.5,
+        1629
+      ],
+      "max": [
+        763,
+        142,
+        1629.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        141,
+        1624
+      ],
+      "max": [
+        764,
+        141.5,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        764,
+        142,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        142,
+        1625
+      ],
+      "max": [
+        764,
+        142.5,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        764,
+        143,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        143,
+        1626
+      ],
+      "max": [
+        764,
+        143.5,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        764,
+        144,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        143,
+        1627
+      ],
+      "max": [
+        764,
+        143.5,
+        1628
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        143.5,
+        1627
+      ],
+      "max": [
+        764,
+        144,
+        1627.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        142,
+        1628
+      ],
+      "max": [
+        764,
+        142.5,
+        1629
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        142.5,
+        1628
+      ],
+      "max": [
+        764,
+        143,
+        1628.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        141,
+        1629
+      ],
+      "max": [
+        764,
+        141.5,
+        1630
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        141.5,
+        1629
+      ],
+      "max": [
+        764,
+        142,
+        1629.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        141,
+        1624
+      ],
+      "max": [
+        765,
+        141.5,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        765,
+        142,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        142,
+        1625
+      ],
+      "max": [
+        765,
+        142.5,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        765,
+        143,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        143,
+        1626
+      ],
+      "max": [
+        765,
+        143.5,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        765,
+        144,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        143,
+        1627
+      ],
+      "max": [
+        765,
+        143.5,
+        1628
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        143.5,
+        1627
+      ],
+      "max": [
+        765,
+        144,
+        1627.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        142,
+        1628
+      ],
+      "max": [
+        765,
+        142.5,
+        1629
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        142.5,
+        1628
+      ],
+      "max": [
+        765,
+        143,
+        1628.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        141,
+        1629
+      ],
+      "max": [
+        765,
+        141.5,
+        1630
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        141.5,
+        1629
+      ],
+      "max": [
+        765,
+        142,
+        1629.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        141,
+        1624
+      ],
+      "max": [
+        766,
+        141.5,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        766,
+        142,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        142,
+        1625
+      ],
+      "max": [
+        766,
+        142.5,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        766,
+        143,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        143,
+        1626
+      ],
+      "max": [
+        766,
+        143.5,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        766,
+        144,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        143,
+        1627
+      ],
+      "max": [
+        766,
+        143.5,
+        1628
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        143.5,
+        1627
+      ],
+      "max": [
+        766,
+        144,
+        1627.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        142,
+        1628
+      ],
+      "max": [
+        766,
+        142.5,
+        1629
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        142.5,
+        1628
+      ],
+      "max": [
+        766,
+        143,
+        1628.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        141,
+        1629
+      ],
+      "max": [
+        766,
+        141.5,
+        1630
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        141.5,
+        1629
+      ],
+      "max": [
+        766,
+        142,
+        1629.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        141,
+        1624
+      ],
+      "max": [
+        767,
+        141.5,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        767,
+        142,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        142,
+        1625
+      ],
+      "max": [
+        767,
+        142.5,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        767,
+        143,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        143,
+        1626
+      ],
+      "max": [
+        767,
+        143.5,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        143.5,
+        1626.5
+      ],
+      "max": [
+        767,
+        144,
+        1627
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        143,
+        1627
+      ],
+      "max": [
+        767,
+        143.5,
+        1628
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        143.5,
+        1627
+      ],
+      "max": [
+        767,
+        144,
+        1627.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        142,
+        1628
+      ],
+      "max": [
+        767,
+        142.5,
+        1629
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        142.5,
+        1628
+      ],
+      "max": [
+        767,
+        143,
+        1628.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        141,
+        1629
+      ],
+      "max": [
+        767,
+        141.5,
+        1630
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        766,
+        141.5,
+        1629
+      ],
+      "max": [
+        767,
+        142,
+        1629.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1624
+      ],
+      "max": [
+        768,
+        141.5,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        141.5,
+        1624.5
+      ],
+      "max": [
+        768,
+        142,
+        1625
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        142,
+        1625
+      ],
+      "max": [
+        768,
+        142.5,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        142.5,
+        1625.5
+      ],
+      "max": [
+        768,
+        143,
+        1626
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=south,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1625
+      ],
+      "max": [
+        768,
+        142,
+        1626
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        143,
+        1626
+      ],
+      "max": [
+        768,
+        144,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1626
+      ],
+      "max": [
+        768,
+        142,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        142,
+        1626
+      ],
+      "max": [
+        768,
+        143,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        143,
+        1627
+      ],
+      "max": [
+        768,
+        143.5,
+        1628
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        143.5,
+        1627
+      ],
+      "max": [
+        768,
+        144,
+        1627.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1627
+      ],
+      "max": [
+        768,
+        142,
+        1628
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        142,
+        1627
+      ],
+      "max": [
+        768,
+        143,
+        1628
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        142,
+        1628
+      ],
+      "max": [
+        768,
+        142.5,
+        1629
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        142.5,
+        1628
+      ],
+      "max": [
+        768,
+        143,
+        1628.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1628
+      ],
+      "max": [
+        768,
+        142,
+        1629
+      ],
+      "role": "gable",
+      "material": "plaster",
+      "state": "minecraft:calcite"
+    },
+    {
+      "min": [
+        767,
+        141,
+        1629
+      ],
+      "max": [
+        768,
+        141.5,
+        1630
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        141.5,
+        1629
+      ],
+      "max": [
+        768,
+        142,
+        1629.5
+      ],
+      "role": "house_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_stairs[facing=north,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1626
+      ],
+      "max": [
+        755,
+        136.5,
+        1627
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1627
+      ],
+      "max": [
+        755,
+        136.5,
+        1628
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1628
+      ],
+      "max": [
+        755,
+        136.5,
+        1629
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1629
+      ],
+      "max": [
+        755,
+        136.5,
+        1630
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1630
+      ],
+      "max": [
+        755,
+        136.5,
+        1631
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        754,
+        136,
+        1631
+      ],
+      "max": [
+        755,
+        136.5,
+        1632
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1626
+      ],
+      "max": [
+        756,
+        137,
+        1627
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1627
+      ],
+      "max": [
+        756,
+        137,
+        1628
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1628
+      ],
+      "max": [
+        756,
+        137,
+        1629
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1629
+      ],
+      "max": [
+        756,
+        137,
+        1630
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1630
+      ],
+      "max": [
+        756,
+        137,
+        1631
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        755,
+        136,
+        1631
+      ],
+      "max": [
+        756,
+        137,
+        1632
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1626
+      ],
+      "max": [
+        757,
+        137.5,
+        1627
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        756,
+        136,
+        1626
+      ],
+      "max": [
+        757,
+        137,
+        1627
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1627
+      ],
+      "max": [
+        757,
+        137.5,
+        1628
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1628
+      ],
+      "max": [
+        757,
+        137.5,
+        1629
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1629
+      ],
+      "max": [
+        757,
+        137.5,
+        1630
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1630
+      ],
+      "max": [
+        757,
+        137.5,
+        1631
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        756,
+        137,
+        1631
+      ],
+      "max": [
+        757,
+        137.5,
+        1632
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        756,
+        136,
+        1631
+      ],
+      "max": [
+        757,
+        137,
+        1632
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1626
+      ],
+      "max": [
+        758,
+        138,
+        1627
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        757,
+        136,
+        1626
+      ],
+      "max": [
+        758,
+        137,
+        1627
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1627
+      ],
+      "max": [
+        758,
+        138,
+        1628
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1628
+      ],
+      "max": [
+        758,
+        138,
+        1629
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1629
+      ],
+      "max": [
+        758,
+        138,
+        1630
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1630
+      ],
+      "max": [
+        758,
+        138,
+        1631
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        757,
+        137,
+        1631
+      ],
+      "max": [
+        758,
+        138,
+        1632
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        757,
+        136,
+        1631
+      ],
+      "max": [
+        758,
+        137,
+        1632
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1626
+      ],
+      "max": [
+        759,
+        138.5,
+        1627
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        758,
+        136,
+        1626
+      ],
+      "max": [
+        759,
+        137,
+        1627
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        137,
+        1626
+      ],
+      "max": [
+        759,
+        138,
+        1627
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1627
+      ],
+      "max": [
+        759,
+        138.5,
+        1628
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1628
+      ],
+      "max": [
+        759,
+        138.5,
+        1629
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1629
+      ],
+      "max": [
+        759,
+        138.5,
+        1630
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1630
+      ],
+      "max": [
+        759,
+        138.5,
+        1631
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        758,
+        138,
+        1631
+      ],
+      "max": [
+        759,
+        138.5,
+        1632
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tile_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        758,
+        136,
+        1631
+      ],
+      "max": [
+        759,
+        137,
+        1632
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        137,
+        1631
+      ],
+      "max": [
+        759,
+        138,
+        1632
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1626
+      ],
+      "max": [
+        760,
+        139,
+        1627
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1626
+      ],
+      "max": [
+        760,
+        137,
+        1627
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1626
+      ],
+      "max": [
+        760,
+        138,
+        1627
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1627
+      ],
+      "max": [
+        760,
+        139,
+        1628
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1627
+      ],
+      "max": [
+        760,
+        137,
+        1628
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1627
+      ],
+      "max": [
+        760,
+        138,
+        1628
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1628
+      ],
+      "max": [
+        760,
+        139,
+        1629
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1628
+      ],
+      "max": [
+        760,
+        137,
+        1629
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1628
+      ],
+      "max": [
+        760,
+        138,
+        1629
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1629
+      ],
+      "max": [
+        760,
+        139,
+        1630
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1629
+      ],
+      "max": [
+        760,
+        137,
+        1630
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1629
+      ],
+      "max": [
+        760,
+        138,
+        1630
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1630
+      ],
+      "max": [
+        760,
+        139,
+        1631
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1630
+      ],
+      "max": [
+        760,
+        137,
+        1631
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1630
+      ],
+      "max": [
+        760,
+        138,
+        1631
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        138,
+        1631
+      ],
+      "max": [
+        760,
+        139,
+        1632
+      ],
+      "role": "workshop_roof",
+      "material": "roof",
+      "state": "minecraft:deepslate_tiles"
+    },
+    {
+      "min": [
+        759,
+        136,
+        1631
+      ],
+      "max": [
+        760,
+        137,
+        1632
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        137,
+        1631
+      ],
+      "max": [
+        760,
+        138,
+        1632
+      ],
+      "role": "workshop_gable",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1627
+      ],
+      "max": [
+        752,
+        131,
+        1628
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1628
+      ],
+      "max": [
+        752,
+        131,
+        1629
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1629
+      ],
+      "max": [
+        752,
+        131,
+        1630
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1630
+      ],
+      "max": [
+        752,
+        131,
+        1631
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1631
+      ],
+      "max": [
+        752,
+        131,
+        1632
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1632
+      ],
+      "max": [
+        752,
+        131,
+        1633
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1627
+      ],
+      "max": [
+        753,
+        131,
+        1628
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1628
+      ],
+      "max": [
+        753,
+        131,
+        1629
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1629
+      ],
+      "max": [
+        753,
+        131,
+        1630
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1630
+      ],
+      "max": [
+        753,
+        131,
+        1631
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1631
+      ],
+      "max": [
+        753,
+        131,
+        1632
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1632
+      ],
+      "max": [
+        753,
+        131,
+        1633
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1627
+      ],
+      "max": [
+        754,
+        131,
+        1628
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1628
+      ],
+      "max": [
+        754,
+        131,
+        1629
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1629
+      ],
+      "max": [
+        754,
+        131,
+        1630
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1630
+      ],
+      "max": [
+        754,
+        131,
+        1631
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1631
+      ],
+      "max": [
+        754,
+        131,
+        1632
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1632
+      ],
+      "max": [
+        754,
+        131,
+        1633
+      ],
+      "role": "yard_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        131,
+        1632
+      ],
+      "max": [
+        755,
+        131.5,
+        1633
+      ],
+      "role": "yard_step",
+      "material": "stone",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        754.5,
+        131.5,
+        1632
+      ],
+      "max": [
+        755,
+        132,
+        1633
+      ],
+      "role": "yard_step",
+      "material": "stone",
+      "state": "minecraft:stone_brick_stairs[facing=east,half=bottom,shape=straight,waterlogged=false]"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1632
+      ],
+      "max": [
+        756,
+        132,
+        1633
+      ],
+      "role": "private_landing",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1632
+      ],
+      "max": [
+        757,
+        132,
+        1633
+      ],
+      "role": "private_landing",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1632
+      ],
+      "max": [
+        758,
+        132,
+        1633
+      ],
+      "role": "private_landing",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        131,
+        1632
+      ],
+      "max": [
+        759,
+        132,
+        1633
+      ],
+      "role": "private_landing",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        759,
+        131,
+        1632
+      ],
+      "max": [
+        760,
+        132,
+        1633
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        132,
+        1630
+      ],
+      "max": [
+        765,
+        133,
+        1631
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        132,
+        1630
+      ],
+      "max": [
+        766,
+        133,
+        1631
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766,
+        132,
+        1630
+      ],
+      "max": [
+        767,
+        133,
+        1631
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        767,
+        132,
+        1630
+      ],
+      "max": [
+        768,
+        133,
+        1631
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        131,
+        1631
+      ],
+      "max": [
+        761,
+        132,
+        1632
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        132,
+        1631
+      ],
+      "max": [
+        762,
+        133,
+        1632
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        762,
+        132,
+        1631
+      ],
+      "max": [
+        763,
+        133,
+        1632
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        763,
+        132,
+        1631
+      ],
+      "max": [
+        764,
+        133,
+        1632
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        764,
+        132,
+        1631
+      ],
+      "max": [
+        765,
+        133,
+        1632
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        765,
+        132,
+        1631
+      ],
+      "max": [
+        766,
+        133,
+        1632
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        760,
+        131,
+        1632
+      ],
+      "max": [
+        761,
+        132,
+        1633
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        132,
+        1632
+      ],
+      "max": [
+        762,
+        133,
+        1633
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        130,
+        1633
+      ],
+      "max": [
+        755,
+        131,
+        1634
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        131,
+        1633
+      ],
+      "max": [
+        756,
+        132,
+        1634
+      ],
+      "role": "private_landing",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        756,
+        131,
+        1633
+      ],
+      "max": [
+        757,
+        132,
+        1634
+      ],
+      "role": "private_landing",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        757,
+        131,
+        1633
+      ],
+      "max": [
+        758,
+        132,
+        1634
+      ],
+      "role": "private_landing",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1634
+      ],
+      "max": [
+        752,
+        131,
+        1635
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        752,
+        130,
+        1634
+      ],
+      "max": [
+        753,
+        131,
+        1635
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        753,
+        130,
+        1634
+      ],
+      "max": [
+        754,
+        131,
+        1635
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        754,
+        130,
+        1634
+      ],
+      "max": [
+        755,
+        131,
+        1635
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        751,
+        130,
+        1635
+      ],
+      "max": [
+        752,
+        131,
+        1636
+      ],
+      "role": "apron_floor",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        755,
+        132,
+        1627
+      ],
+      "max": [
+        756,
+        133,
+        1628
+      ],
+      "role": "repair_bench",
+      "material": "wood",
+      "state": "minecraft:crafting_table"
+    },
+    {
+      "min": [
+        756,
+        132,
+        1627
+      ],
+      "max": [
+        757,
+        133,
+        1628
+      ],
+      "role": "small_vise",
+      "material": "metal",
+      "state": "minecraft:anvil[facing=north]"
+    },
+    {
+      "min": [
+        755,
+        132,
+        1629
+      ],
+      "max": [
+        756,
+        133,
+        1630
+      ],
+      "role": "batch_storage",
+      "material": "wood",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1625
+      ],
+      "max": [
+        767,
+        135,
+        1626
+      ],
+      "role": "clean_water_storage",
+      "material": "wood",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1626
+      ],
+      "max": [
+        767,
+        135,
+        1627
+      ],
+      "role": "cooking_hearth",
+      "material": "stone",
+      "state": "minecraft:furnace[facing=west,lit=false]"
+    },
+    {
+      "min": [
+        765,
+        134,
+        1626
+      ],
+      "max": [
+        766,
+        135,
+        1627
+      ],
+      "role": "food_preparation",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        766,
+        134,
+        1627
+      ],
+      "max": [
+        767,
+        135,
+        1628
+      ],
+      "role": "food_storage",
+      "material": "wood",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "min": [
+        764,
+        134,
+        1627
+      ],
+      "max": [
+        765,
+        134.5,
+        1628
+      ],
+      "role": "dining_table",
+      "material": "wood",
+      "state": "minecraft:spruce_slab[type=bottom,waterlogged=false]"
+    },
+    {
+      "min": [
+        767,
+        144,
+        1626
+      ],
+      "max": [
+        768,
+        145,
+        1627
+      ],
+      "role": "chimney",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1627
+      ],
+      "max": [
+        762,
+        138.5625,
+        1628
+      ],
+      "role": "sleeping_place",
+      "material": "bed",
+      "state": "minecraft:red_bed[facing=south,occupied=false,part=foot]"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1628
+      ],
+      "max": [
+        762,
+        138.5625,
+        1629
+      ],
+      "role": "sleeping_place",
+      "material": "bed",
+      "state": "minecraft:red_bed[facing=south,occupied=false,part=head]"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1627
+      ],
+      "max": [
+        764,
+        138.5625,
+        1628
+      ],
+      "role": "sleeping_place",
+      "material": "bed",
+      "state": "minecraft:red_bed[facing=south,occupied=false,part=foot]"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1628
+      ],
+      "max": [
+        764,
+        138.5625,
+        1629
+      ],
+      "role": "sleeping_place",
+      "material": "bed",
+      "state": "minecraft:red_bed[facing=south,occupied=false,part=head]"
+    },
+    {
+      "min": [
+        761,
+        138,
+        1625
+      ],
+      "max": [
+        762,
+        139,
+        1626
+      ],
+      "role": "linen_storage",
+      "material": "wood",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "min": [
+        764,
+        138,
+        1627
+      ],
+      "max": [
+        765,
+        139,
+        1628
+      ],
+      "role": "privacy_screen",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        139,
+        1627
+      ],
+      "max": [
+        765,
+        140,
+        1628
+      ],
+      "role": "privacy_screen",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        138,
+        1628
+      ],
+      "max": [
+        765,
+        139,
+        1629
+      ],
+      "role": "privacy_screen",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        764,
+        139,
+        1628
+      ],
+      "max": [
+        765,
+        140,
+        1629
+      ],
+      "role": "privacy_screen",
+      "material": "wood",
+      "state": "minecraft:spruce_planks"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1628
+      ],
+      "max": [
+        766,
+        139,
+        1629
+      ],
+      "role": "sealed_waste",
+      "material": "wood",
+      "state": "minecraft:barrel[facing=up,open=false]"
+    },
+    {
+      "min": [
+        766,
+        138,
+        1628
+      ],
+      "max": [
+        767,
+        139,
+        1629
+      ],
+      "role": "wash_basin",
+      "material": "stone",
+      "state": "minecraft:cauldron"
+    },
+    {
+      "min": [
+        762,
+        138,
+        1626
+      ],
+      "max": [
+        763,
+        139,
+        1626.1875
+      ],
+      "role": "stair_guard",
+      "material": "wood",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "min": [
+        763,
+        138,
+        1626
+      ],
+      "max": [
+        764,
+        139,
+        1626.1875
+      ],
+      "role": "stair_guard",
+      "material": "wood",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "min": [
+        764,
+        138,
+        1626
+      ],
+      "max": [
+        765,
+        139,
+        1626.1875
+      ],
+      "role": "stair_guard",
+      "material": "wood",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1626
+      ],
+      "max": [
+        766,
+        139,
+        1626.1875
+      ],
+      "role": "stair_guard",
+      "material": "wood",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "min": [
+        756,
+        132,
+        1625
+      ],
+      "max": [
+        757,
+        133,
+        1626
+      ],
+      "role": "rain_reservation",
+      "material": "water",
+      "state": "minecraft:cauldron"
+    },
+    {
+      "min": [
+        757,
+        132,
+        1625
+      ],
+      "max": [
+        758,
+        133,
+        1626
+      ],
+      "role": "rain_reservation",
+      "material": "water",
+      "state": "minecraft:cauldron"
+    },
+    {
+      "min": [
+        755,
+        132,
+        1631
+      ],
+      "max": [
+        755.1875,
+        133,
+        1632
+      ],
+      "role": "work_door",
+      "material": "wood",
+      "state": "minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "min": [
+        755,
+        133,
+        1631
+      ],
+      "max": [
+        755.1875,
+        134,
+        1632
+      ],
+      "role": "work_door",
+      "material": "wood",
+      "state": "minecraft:spruce_door[facing=north,half=upper,hinge=left,open=false,powered=false]"
+    },
+    {
+      "min": [
+        755,
+        134,
+        1631
+      ],
+      "max": [
+        756,
+        135,
+        1632
+      ],
+      "role": "door_head_closure",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        758,
+        132,
+        1631
+      ],
+      "max": [
+        758.1875,
+        133,
+        1632
+      ],
+      "role": "family_door",
+      "material": "wood",
+      "state": "minecraft:spruce_door[facing=north,half=lower,hinge=left,open=false,powered=false]"
+    },
+    {
+      "min": [
+        758,
+        133,
+        1631
+      ],
+      "max": [
+        758.1875,
+        134,
+        1632
+      ],
+      "role": "family_door",
+      "material": "wood",
+      "state": "minecraft:spruce_door[facing=north,half=upper,hinge=left,open=false,powered=false]"
+    },
+    {
+      "min": [
+        758,
+        134,
+        1631
+      ],
+      "max": [
+        759,
+        135,
+        1632
+      ],
+      "role": "door_head_closure",
+      "material": "stone",
+      "state": "minecraft:stone_bricks"
+    },
+    {
+      "min": [
+        766.8125,
+        138,
+        1627
+      ],
+      "max": [
+        767,
+        139,
+        1628
+      ],
+      "role": "hygiene_door",
+      "material": "wood",
+      "state": "minecraft:spruce_door[facing=north,half=lower,hinge=right,open=false,powered=false]"
+    },
+    {
+      "min": [
+        766.8125,
+        139,
+        1627
+      ],
+      "max": [
+        767,
+        140,
+        1628
+      ],
+      "role": "hygiene_door",
+      "material": "wood",
+      "state": "minecraft:spruce_door[facing=north,half=upper,hinge=right,open=false,powered=false]"
+    },
+    {
+      "min": [
+        765,
+        138,
+        1627
+      ],
+      "max": [
+        766,
+        139,
+        1627.1875
+      ],
+      "role": "hygiene_front_screen",
+      "material": "wood",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    },
+    {
+      "min": [
+        765,
+        139,
+        1627
+      ],
+      "max": [
+        766,
+        140,
+        1627.1875
+      ],
+      "role": "hygiene_front_screen",
+      "material": "wood",
+      "state": "minecraft:spruce_trapdoor[facing=south,half=bottom,open=true,powered=false,waterlogged=false]"
+    }
+  ],
+  "unverified": "no Minecraft registry/update/physics execution; dynamic trapdoor opening not claimed as a route action"
+}

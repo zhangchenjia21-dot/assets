@@ -1,0 +1,73 @@
+{
+  "test": "MP-I02B",
+  "candidate_revision": "r2",
+  "BDP_revision": "r3",
+  "conditions": [
+    {
+      "id": "U-GROUND",
+      "status": "PARTIAL_EVIDENCE_BLOCKER",
+      "evidence": [
+        "地基影响核验.json"
+      ],
+      "closed_parts": "Actual edit/contact volume and bounded screening coverage; no below-ground edits, known artificial positions not directly intersected",
+      "minimum_gap": "Justify load/influence depth and lateral extent; verify bearing/ground discontinuities and relevant artificial structure extent. No blanket full geology request.",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "owner": "Builder + authorized site/engineering reviewer"
+    },
+    {
+      "id": "U-HABITABILITY",
+      "status": "PARTIAL_BUILDER_BLOCKER",
+      "evidence": [
+        "建筑设计.md",
+        "设计核验.json",
+        "平面-上层.png"
+      ],
+      "closed_parts": "2-resident design scenario, separate work/family/yard, fixed sleeping/cooking/hygiene/storage spaces; doors/screens and static routes",
+      "minimum_gap": "Functional flue and fire/heat separation; validate ventilation/privacy/weathering and native interactions as required for final design; actual population not asserted.",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "owner": "Builder + household/Owner"
+    },
+    {
+      "id": "B-TRANSLATION",
+      "status": "PARTIAL_BUILDER_BLOCKER",
+      "evidence": [
+        "设计体素.json",
+        "设计几何.json",
+        "设计修订.json",
+        "建筑设计.md"
+      ],
+      "closed_parts": "Explicit native doors/stairs/slabs/guards/screens/beds/roof/support states; static movement checked",
+      "minimum_gap": "Flue lumen, roof flashing and connected collection/retention details remain uncompiled; native interaction/update behavior unverified. Solid chimney is not valid translation of a flue.",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "owner": "Builder"
+    },
+    {
+      "id": "B-RAINWATER-PERFORMANCE",
+      "status": "UPSTREAM_PLANNING_ISSUE",
+      "issue_id": "MP-I02B-UPI-RAIN-01",
+      "evidence": [
+        "雨水性能.json"
+      ],
+      "closed_parts": "No-discharge/public-no-receiver responsibility inherited; original and larger local storage options assessed",
+      "minimum_gap": "Justified cumulative design/failure envelope and proved local recovery; if infeasible, smallest explicit rainwater service revision, never assumed public outfall.",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "owner": "BDP-01 Builder"
+    },
+    {
+      "id": "B-PLANNING-FIDELITY",
+      "status": "RECHECKED_NOT_PASSED",
+      "evidence": [
+        "Planning-Fidelity-Gate.json"
+      ],
+      "closed_parts": "All requested r3 fidelity dimensions explicitly reviewed",
+      "minimum_gap": "Rainwater issue and Builder-owned blockers prevent freeze; no semantic PASS inferred from geometric checks.",
+      "resolve_before": "BEFORE_DESIGN_FREEZE",
+      "owner": "BDP-01 Builder"
+    }
+  ],
+  "design_ready": false,
+  "building_state": "UNFROZEN_DESIGN_WITH_BLOCKERS",
+  "world_writes": 0,
+  "regression_verdict": "NOT_ASSIGNED",
+  "review": "AWAITING_GPT_AND_OWNER"
+}

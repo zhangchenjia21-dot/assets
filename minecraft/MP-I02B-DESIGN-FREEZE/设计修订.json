@@ -1,0 +1,65 @@
+{
+  "revision": "r2",
+  "preserved": [
+    "Architectural Intent",
+    "primary Plan/Section",
+    "Program and Space Graph",
+    "Massing",
+    "stone plinth and timber tectonic logic",
+    "routes",
+    "private yard",
+    "public threshold"
+  ],
+  "bounded_changes": [
+    {
+      "component": "work_door",
+      "at": [
+        755,
+        132,
+        1631
+      ],
+      "change": "two native door halves; inside original parcel; open for transit, close for privacy"
+    },
+    {
+      "component": "family_door",
+      "at": [
+        758,
+        132,
+        1631
+      ],
+      "change": "two native door halves; inside original parcel; open for transit, close for privacy"
+    },
+    {
+      "component": "hygiene_door",
+      "at": [
+        766,
+        138,
+        1627
+      ],
+      "change": "two native door halves; inside original parcel; open for transit, close for privacy"
+    },
+    {
+      "component": "privacy_screen",
+      "change": "replace custom 0.2-wide screen by two-high full native planks in the same two columns"
+    },
+    {
+      "component": "stair_guard",
+      "change": "replace custom 0.12-wide rail by open native south-facing trapdoor, north-edge thickness 3/16; upper passage remains 13/16 wide"
+    },
+    {
+      "component": "chimney",
+      "change": "unchanged solid stone placeholder; explicitly NOT a functioning flue"
+    },
+    {
+      "component": "rain",
+      "change": "dry native cauldrons are reservations only; zero certified design storage; performance alternatives separately evaluated"
+    }
+  ],
+  "superseded": [
+    "r1 custom screen/rail geometry",
+    "r1 open doorways",
+    "r1 pending public interface coordination wording",
+    "r1 anticipated public rainwater receiver"
+  ],
+  "not_superseded": "r1 conceptual functional flue and rain closure requirements remain unsatisfied; no construction authorization"
+}
