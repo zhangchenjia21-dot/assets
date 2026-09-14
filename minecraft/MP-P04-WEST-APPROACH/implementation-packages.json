@@ -1,0 +1,48 @@
+[
+  {
+    "id":"PACKAGE-01",
+    "parent_plan":"MP-P04-WEST-APPROACH","parent_revision":"r1","parent_scale":"DISTRICT","child_scale":"URBAN_ENSEMBLE","recipient":"minecraft-planner","authority":"DESIGN_PROPOSAL",
+    "scope_refs":["BLOCK-01","PARCEL-01","PARCEL-02","FRONTAGE-01","FRONTAGE-02"],
+    "geometry_ref":"planning-data.json / parcels01..02","accounting_area_blocks2":269,"households":2,
+    "why":"下肩先修理、上沿复核短宿的混合前沿，门前共享通行使两家不封公共院",
+    "upstream_fixed":["北侧两地块不是整栋楼体","保留LANE-04与东轻载出口","不直接假设常住供给与土地用益已获准","地下现状不得擅改"],
+    "downstream_to_resolve":["门前高差与家庭后院/入口关系","P02较浅地块的生活与复核是否兼容","原权属、既有人工痕迹和基底","需要分户时证明可居住尺度，不自动由2户升3户"],
+    "downstream_adaptable":["内部建筑占地与院落划分","等价门前移位与局部边界协商","嵌入修理/值守的具体关系"],
+    "dependencies":["PACKAGE-03公共接口","MP-P03 PACKAGE-02/03供水日需协调"],
+    "revision_triggers":["两户使用无法与公共通行共存且局部调整无解","普通地基/门前适应不相称","现状权属冲突不可移位"],
+    "revision_protocol":"提交最小parcel/frontage/接口变化，不覆写父案；改变容量或公共关系须父层重Gate",
+    "expected_outputs":["ensemble地块组内关系与拟建体量接口","共享通行与门前剖面要求","条件闭合/未证账本","之后才形成Builder package"],
+    "world_write_authorization":false,"builder_ready":false
+  },
+  {
+    "id":"PACKAGE-02",
+    "parent_plan":"MP-P04-WEST-APPROACH","parent_revision":"r1","parent_scale":"DISTRICT","child_scale":"URBAN_ENSEMBLE","recipient":"minecraft-planner","authority":"DESIGN_PROPOSAL",
+    "scope_refs":["BLOCK-02","PARCEL-03","PARCEL-04","FRONTAGE-03","FRONTAGE-04"],
+    "geometry_ref":"planning-data.json / parcels03..04","accounting_area_blocks2":275,"households":2,
+    "why":"南侧收货、照看与生活混合，重复卸货压力产生门前地役和后巷",
+    "upstream_fixed":["保留SPACE-02门前共享带","不侵占后巷与转角","P03下17列地下24格空气不分配具体基础/重载，先复核","常住需要供水日需闭合"],
+    "downstream_to_resolve":["P03拟用体积及深空气是否需局部移位/普通适应","家庭院落与前后服务关系","地下箱体/刷怪笼来源与保护","后巷错时清运与终端合法性"],
+    "downstream_adaptable":["局部地块轮廓与户内院位置","在公共关系不变时使用未分配余地移位","分户仅作为待证分支，不能承诺第5/6户"],
+    "dependencies":["PACKAGE-03共同院与后巷","父聚落供给/污物终端协调"],
+    "revision_triggers":["基底/保护对象无法有界处理","两户与门前/后巷无法并存","供给或权属无兼容方案"],
+    "revision_protocol":"先局部移位和有限适应；仍无解报最小BLOCK-02及相关接口，父层重Gate并标影响包stale",
+    "expected_outputs":["南侧ensemble内部关系与条件基底方案","前后通行及家庭可用空间","未决供给与权利","后续Builder接口而非当前施工授权"],
+    "world_write_authorization":false,"builder_ready":false
+  },
+  {
+    "id":"PACKAGE-03",
+    "parent_plan":"MP-P04-WEST-APPROACH","parent_revision":"r1","parent_scale":"DISTRICT","child_scale":"URBAN_ENSEMBLE","recipient":"minecraft-planner","authority":"DESIGN_PROPOSAL",
+    "scope_refs":["BLOCK-03","PARCEL-05","SPACE-01","SPACE-02","LANE-01","LANE-02","LANE-03","LANE-04"],
+    "geometry_ref":"planning-data.json / parcel05 + shared_spaces + lanes","accounting_area_blocks2":913,"households":0,
+    "accounting_note":"P05计60，公院门前与路带并集853；其它包只引用共同空间，不再计地",
+    "why":"公共首卸、轻载穿行和门前/后巷接口必须先形成共同契约，才能约束两侧各户",
+    "upstream_fixed":["西先卸、东轻载、不能封横向通路","公院不因临街竞争被填满","普通坡面分段使用，不建整片等高大平台","供水与污物不得把共用东口当自然完全分离","原16格浅空气避让；L03新深空气先核定"],
+    "downstream_to_resolve":["连续路带净宽、转弯、入口跨边界衔接及地役","院内首卸/等待/轻载的峰值共用和时序","供水方案及洁净到货接口，替代来源可能改变来向","污物收集终端与清运时序","P05短储能力与其它包储备不得重复","高差、基底与防堵接口"],
+    "downstream_adaptable":["局部线位/停留面调整","同等作用的共享接口实现","普通步级/坡面/挡护选项在Planner层比较，不固定Builder结构"],
+    "dependencies":["PACKAGE-01/02门前接口","MP-P03 ROUTE-01/02及PACKAGE-02/03"],
+    "revision_triggers":["合理错峰、局部绕行或普通路工仍不能维持首卸与穿行","日需/供水普通适应失败","通行权不能取得","改动会令总面积超1600或增加父聚落总额度"],
+    "revision_protocol":"只提最小共同空间/route/capacity关系修订；未解决前不得输出Builder-ready",
+    "expected_outputs":["带条件的ensemble公共接口图和剖面要求","有效通达与使用协议问题清单","各包互不重复的容量核算","需回父层的证据或可继续L4结论"],
+    "world_write_authorization":false,"builder_ready":false
+  }
+]

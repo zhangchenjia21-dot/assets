@@ -1,0 +1,1237 @@
+{
+  "bounds": [
+    730,
+    1616,
+    806,
+    1674
+  ],
+  "column_count": 4543,
+  "void_columns": [
+    {
+      "x": 782,
+      "z": 1619,
+      "minimum_cover": 24
+    },
+    {
+      "x": 783,
+      "z": 1619,
+      "minimum_cover": 24
+    },
+    {
+      "x": 735,
+      "z": 1640,
+      "minimum_cover": 19
+    },
+    {
+      "x": 736,
+      "z": 1640,
+      "minimum_cover": 19
+    },
+    {
+      "x": 731,
+      "z": 1641,
+      "minimum_cover": 16
+    },
+    {
+      "x": 732,
+      "z": 1641,
+      "minimum_cover": 16
+    },
+    {
+      "x": 733,
+      "z": 1641,
+      "minimum_cover": 17
+    },
+    {
+      "x": 734,
+      "z": 1641,
+      "minimum_cover": 18
+    },
+    {
+      "x": 735,
+      "z": 1641,
+      "minimum_cover": 18
+    },
+    {
+      "x": 736,
+      "z": 1641,
+      "minimum_cover": 18
+    },
+    {
+      "x": 737,
+      "z": 1641,
+      "minimum_cover": 20
+    },
+    {
+      "x": 738,
+      "z": 1641,
+      "minimum_cover": 19
+    },
+    {
+      "x": 739,
+      "z": 1641,
+      "minimum_cover": 19
+    },
+    {
+      "x": 730,
+      "z": 1642,
+      "minimum_cover": 14
+    },
+    {
+      "x": 731,
+      "z": 1642,
+      "minimum_cover": 15
+    },
+    {
+      "x": 732,
+      "z": 1642,
+      "minimum_cover": 16
+    },
+    {
+      "x": 733,
+      "z": 1642,
+      "minimum_cover": 17
+    },
+    {
+      "x": 734,
+      "z": 1642,
+      "minimum_cover": 18
+    },
+    {
+      "x": 735,
+      "z": 1642,
+      "minimum_cover": 18
+    },
+    {
+      "x": 736,
+      "z": 1642,
+      "minimum_cover": 18
+    },
+    {
+      "x": 738,
+      "z": 1642,
+      "minimum_cover": 19
+    },
+    {
+      "x": 739,
+      "z": 1642,
+      "minimum_cover": 19
+    },
+    {
+      "x": 740,
+      "z": 1642,
+      "minimum_cover": 21
+    },
+    {
+      "x": 741,
+      "z": 1642,
+      "minimum_cover": 20
+    },
+    {
+      "x": 730,
+      "z": 1643,
+      "minimum_cover": 14
+    },
+    {
+      "x": 731,
+      "z": 1643,
+      "minimum_cover": 15
+    },
+    {
+      "x": 732,
+      "z": 1643,
+      "minimum_cover": 16
+    },
+    {
+      "x": 734,
+      "z": 1643,
+      "minimum_cover": 19
+    },
+    {
+      "x": 738,
+      "z": 1643,
+      "minimum_cover": 20
+    },
+    {
+      "x": 739,
+      "z": 1643,
+      "minimum_cover": 20
+    },
+    {
+      "x": 740,
+      "z": 1643,
+      "minimum_cover": 19
+    },
+    {
+      "x": 741,
+      "z": 1643,
+      "minimum_cover": 20
+    },
+    {
+      "x": 730,
+      "z": 1644,
+      "minimum_cover": 14
+    },
+    {
+      "x": 739,
+      "z": 1644,
+      "minimum_cover": 21
+    },
+    {
+      "x": 740,
+      "z": 1644,
+      "minimum_cover": 21
+    },
+    {
+      "x": 741,
+      "z": 1644,
+      "minimum_cover": 20
+    },
+    {
+      "x": 742,
+      "z": 1644,
+      "minimum_cover": 20
+    },
+    {
+      "x": 740,
+      "z": 1645,
+      "minimum_cover": 20
+    },
+    {
+      "x": 741,
+      "z": 1645,
+      "minimum_cover": 19
+    },
+    {
+      "x": 742,
+      "z": 1645,
+      "minimum_cover": 21
+    },
+    {
+      "x": 740,
+      "z": 1646,
+      "minimum_cover": 20
+    },
+    {
+      "x": 741,
+      "z": 1646,
+      "minimum_cover": 19
+    },
+    {
+      "x": 742,
+      "z": 1646,
+      "minimum_cover": 21
+    },
+    {
+      "x": 740,
+      "z": 1647,
+      "minimum_cover": 21
+    },
+    {
+      "x": 741,
+      "z": 1647,
+      "minimum_cover": 21
+    },
+    {
+      "x": 742,
+      "z": 1647,
+      "minimum_cover": 21
+    },
+    {
+      "x": 743,
+      "z": 1647,
+      "minimum_cover": 21
+    },
+    {
+      "x": 741,
+      "z": 1648,
+      "minimum_cover": 21
+    },
+    {
+      "x": 742,
+      "z": 1648,
+      "minimum_cover": 21
+    },
+    {
+      "x": 743,
+      "z": 1648,
+      "minimum_cover": 21
+    },
+    {
+      "x": 741,
+      "z": 1649,
+      "minimum_cover": 21
+    },
+    {
+      "x": 742,
+      "z": 1649,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1649,
+      "minimum_cover": 21
+    },
+    {
+      "x": 742,
+      "z": 1650,
+      "minimum_cover": 21
+    },
+    {
+      "x": 743,
+      "z": 1650,
+      "minimum_cover": 21
+    },
+    {
+      "x": 742,
+      "z": 1651,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1651,
+      "minimum_cover": 21
+    },
+    {
+      "x": 744,
+      "z": 1651,
+      "minimum_cover": 22
+    },
+    {
+      "x": 742,
+      "z": 1652,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1652,
+      "minimum_cover": 21
+    },
+    {
+      "x": 744,
+      "z": 1652,
+      "minimum_cover": 21
+    },
+    {
+      "x": 730,
+      "z": 1653,
+      "minimum_cover": 8
+    },
+    {
+      "x": 742,
+      "z": 1653,
+      "minimum_cover": 21
+    },
+    {
+      "x": 743,
+      "z": 1653,
+      "minimum_cover": 20
+    },
+    {
+      "x": 744,
+      "z": 1653,
+      "minimum_cover": 20
+    },
+    {
+      "x": 730,
+      "z": 1654,
+      "minimum_cover": 8
+    },
+    {
+      "x": 742,
+      "z": 1654,
+      "minimum_cover": 21
+    },
+    {
+      "x": 743,
+      "z": 1654,
+      "minimum_cover": 20
+    },
+    {
+      "x": 768,
+      "z": 1654,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1655,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1655,
+      "minimum_cover": 20
+    },
+    {
+      "x": 744,
+      "z": 1655,
+      "minimum_cover": 20
+    },
+    {
+      "x": 745,
+      "z": 1655,
+      "minimum_cover": 21
+    },
+    {
+      "x": 766,
+      "z": 1655,
+      "minimum_cover": 24
+    },
+    {
+      "x": 768,
+      "z": 1655,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1656,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1656,
+      "minimum_cover": 22
+    },
+    {
+      "x": 744,
+      "z": 1656,
+      "minimum_cover": 19
+    },
+    {
+      "x": 764,
+      "z": 1656,
+      "minimum_cover": 24
+    },
+    {
+      "x": 766,
+      "z": 1656,
+      "minimum_cover": 24
+    },
+    {
+      "x": 767,
+      "z": 1656,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1657,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1657,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1657,
+      "minimum_cover": 19
+    },
+    {
+      "x": 763,
+      "z": 1657,
+      "minimum_cover": 24
+    },
+    {
+      "x": 765,
+      "z": 1657,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1658,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1658,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1658,
+      "minimum_cover": 19
+    },
+    {
+      "x": 756,
+      "z": 1658,
+      "minimum_cover": 24
+    },
+    {
+      "x": 758,
+      "z": 1658,
+      "minimum_cover": 24
+    },
+    {
+      "x": 759,
+      "z": 1658,
+      "minimum_cover": 24
+    },
+    {
+      "x": 760,
+      "z": 1658,
+      "minimum_cover": 24
+    },
+    {
+      "x": 762,
+      "z": 1658,
+      "minimum_cover": 24
+    },
+    {
+      "x": 786,
+      "z": 1658,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1659,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1659,
+      "minimum_cover": 22
+    },
+    {
+      "x": 744,
+      "z": 1659,
+      "minimum_cover": 20
+    },
+    {
+      "x": 754,
+      "z": 1659,
+      "minimum_cover": 23
+    },
+    {
+      "x": 755,
+      "z": 1659,
+      "minimum_cover": 23
+    },
+    {
+      "x": 756,
+      "z": 1659,
+      "minimum_cover": 23
+    },
+    {
+      "x": 757,
+      "z": 1659,
+      "minimum_cover": 24
+    },
+    {
+      "x": 758,
+      "z": 1659,
+      "minimum_cover": 24
+    },
+    {
+      "x": 759,
+      "z": 1659,
+      "minimum_cover": 24
+    },
+    {
+      "x": 760,
+      "z": 1659,
+      "minimum_cover": 24
+    },
+    {
+      "x": 761,
+      "z": 1659,
+      "minimum_cover": 24
+    },
+    {
+      "x": 762,
+      "z": 1659,
+      "minimum_cover": 24
+    },
+    {
+      "x": 786,
+      "z": 1659,
+      "minimum_cover": 24
+    },
+    {
+      "x": 787,
+      "z": 1659,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1660,
+      "minimum_cover": 19
+    },
+    {
+      "x": 743,
+      "z": 1660,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1660,
+      "minimum_cover": 20
+    },
+    {
+      "x": 754,
+      "z": 1660,
+      "minimum_cover": 22
+    },
+    {
+      "x": 755,
+      "z": 1660,
+      "minimum_cover": 22
+    },
+    {
+      "x": 756,
+      "z": 1660,
+      "minimum_cover": 23
+    },
+    {
+      "x": 757,
+      "z": 1660,
+      "minimum_cover": 23
+    },
+    {
+      "x": 786,
+      "z": 1660,
+      "minimum_cover": 24
+    },
+    {
+      "x": 787,
+      "z": 1660,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1661,
+      "minimum_cover": 19
+    },
+    {
+      "x": 743,
+      "z": 1661,
+      "minimum_cover": 20
+    },
+    {
+      "x": 744,
+      "z": 1661,
+      "minimum_cover": 20
+    },
+    {
+      "x": 745,
+      "z": 1661,
+      "minimum_cover": 21
+    },
+    {
+      "x": 753,
+      "z": 1661,
+      "minimum_cover": 21
+    },
+    {
+      "x": 755,
+      "z": 1661,
+      "minimum_cover": 22
+    },
+    {
+      "x": 756,
+      "z": 1661,
+      "minimum_cover": 23
+    },
+    {
+      "x": 786,
+      "z": 1661,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1662,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1662,
+      "minimum_cover": 20
+    },
+    {
+      "x": 744,
+      "z": 1662,
+      "minimum_cover": 20
+    },
+    {
+      "x": 753,
+      "z": 1662,
+      "minimum_cover": 20
+    },
+    {
+      "x": 754,
+      "z": 1662,
+      "minimum_cover": 21
+    },
+    {
+      "x": 755,
+      "z": 1662,
+      "minimum_cover": 21
+    },
+    {
+      "x": 756,
+      "z": 1662,
+      "minimum_cover": 23
+    },
+    {
+      "x": 786,
+      "z": 1662,
+      "minimum_cover": 24
+    },
+    {
+      "x": 787,
+      "z": 1662,
+      "minimum_cover": 24
+    },
+    {
+      "x": 743,
+      "z": 1663,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1663,
+      "minimum_cover": 21
+    },
+    {
+      "x": 752,
+      "z": 1663,
+      "minimum_cover": 20
+    },
+    {
+      "x": 753,
+      "z": 1663,
+      "minimum_cover": 19
+    },
+    {
+      "x": 754,
+      "z": 1663,
+      "minimum_cover": 20
+    },
+    {
+      "x": 755,
+      "z": 1663,
+      "minimum_cover": 20
+    },
+    {
+      "x": 786,
+      "z": 1663,
+      "minimum_cover": 24
+    },
+    {
+      "x": 787,
+      "z": 1663,
+      "minimum_cover": 24
+    },
+    {
+      "x": 742,
+      "z": 1664,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1664,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1664,
+      "minimum_cover": 19
+    },
+    {
+      "x": 745,
+      "z": 1664,
+      "minimum_cover": 20
+    },
+    {
+      "x": 752,
+      "z": 1664,
+      "minimum_cover": 19
+    },
+    {
+      "x": 753,
+      "z": 1664,
+      "minimum_cover": 19
+    },
+    {
+      "x": 754,
+      "z": 1664,
+      "minimum_cover": 21
+    },
+    {
+      "x": 755,
+      "z": 1664,
+      "minimum_cover": 19
+    },
+    {
+      "x": 742,
+      "z": 1665,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1665,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1665,
+      "minimum_cover": 19
+    },
+    {
+      "x": 745,
+      "z": 1665,
+      "minimum_cover": 20
+    },
+    {
+      "x": 752,
+      "z": 1665,
+      "minimum_cover": 18
+    },
+    {
+      "x": 753,
+      "z": 1665,
+      "minimum_cover": 16
+    },
+    {
+      "x": 754,
+      "z": 1665,
+      "minimum_cover": 17
+    },
+    {
+      "x": 755,
+      "z": 1665,
+      "minimum_cover": 18
+    },
+    {
+      "x": 742,
+      "z": 1666,
+      "minimum_cover": 20
+    },
+    {
+      "x": 743,
+      "z": 1666,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1666,
+      "minimum_cover": 19
+    },
+    {
+      "x": 745,
+      "z": 1666,
+      "minimum_cover": 19
+    },
+    {
+      "x": 751,
+      "z": 1666,
+      "minimum_cover": 8
+    },
+    {
+      "x": 752,
+      "z": 1666,
+      "minimum_cover": 4
+    },
+    {
+      "x": 754,
+      "z": 1666,
+      "minimum_cover": 13
+    },
+    {
+      "x": 755,
+      "z": 1666,
+      "minimum_cover": 18
+    },
+    {
+      "x": 743,
+      "z": 1667,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1667,
+      "minimum_cover": 19
+    },
+    {
+      "x": 745,
+      "z": 1667,
+      "minimum_cover": 20
+    },
+    {
+      "x": 750,
+      "z": 1667,
+      "minimum_cover": 9
+    },
+    {
+      "x": 751,
+      "z": 1667,
+      "minimum_cover": 6
+    },
+    {
+      "x": 754,
+      "z": 1667,
+      "minimum_cover": 4
+    },
+    {
+      "x": 755,
+      "z": 1667,
+      "minimum_cover": 17
+    },
+    {
+      "x": 743,
+      "z": 1668,
+      "minimum_cover": 19
+    },
+    {
+      "x": 744,
+      "z": 1668,
+      "minimum_cover": 19
+    },
+    {
+      "x": 745,
+      "z": 1668,
+      "minimum_cover": 20
+    },
+    {
+      "x": 750,
+      "z": 1668,
+      "minimum_cover": 9
+    },
+    {
+      "x": 751,
+      "z": 1668,
+      "minimum_cover": 6
+    },
+    {
+      "x": 754,
+      "z": 1668,
+      "minimum_cover": 5
+    },
+    {
+      "x": 755,
+      "z": 1668,
+      "minimum_cover": 1
+    },
+    {
+      "x": 743,
+      "z": 1669,
+      "minimum_cover": 20
+    },
+    {
+      "x": 744,
+      "z": 1669,
+      "minimum_cover": 20
+    },
+    {
+      "x": 745,
+      "z": 1669,
+      "minimum_cover": 20
+    },
+    {
+      "x": 746,
+      "z": 1669,
+      "minimum_cover": 21
+    },
+    {
+      "x": 751,
+      "z": 1669,
+      "minimum_cover": 9
+    },
+    {
+      "x": 753,
+      "z": 1669,
+      "minimum_cover": 2
+    },
+    {
+      "x": 743,
+      "z": 1670,
+      "minimum_cover": 20
+    },
+    {
+      "x": 744,
+      "z": 1670,
+      "minimum_cover": 20
+    },
+    {
+      "x": 745,
+      "z": 1670,
+      "minimum_cover": 20
+    },
+    {
+      "x": 746,
+      "z": 1670,
+      "minimum_cover": 20
+    },
+    {
+      "x": 747,
+      "z": 1670,
+      "minimum_cover": 21
+    },
+    {
+      "x": 748,
+      "z": 1670,
+      "minimum_cover": 21
+    },
+    {
+      "x": 749,
+      "z": 1670,
+      "minimum_cover": 22
+    },
+    {
+      "x": 750,
+      "z": 1670,
+      "minimum_cover": 24
+    },
+    {
+      "x": 743,
+      "z": 1671,
+      "minimum_cover": 21
+    },
+    {
+      "x": 744,
+      "z": 1671,
+      "minimum_cover": 20
+    },
+    {
+      "x": 745,
+      "z": 1671,
+      "minimum_cover": 20
+    },
+    {
+      "x": 746,
+      "z": 1671,
+      "minimum_cover": 20
+    },
+    {
+      "x": 747,
+      "z": 1671,
+      "minimum_cover": 20
+    },
+    {
+      "x": 749,
+      "z": 1671,
+      "minimum_cover": 22
+    },
+    {
+      "x": 750,
+      "z": 1671,
+      "minimum_cover": 23
+    },
+    {
+      "x": 751,
+      "z": 1671,
+      "minimum_cover": 24
+    },
+    {
+      "x": 752,
+      "z": 1671,
+      "minimum_cover": 24
+    },
+    {
+      "x": 743,
+      "z": 1672,
+      "minimum_cover": 20
+    },
+    {
+      "x": 744,
+      "z": 1672,
+      "minimum_cover": 20
+    },
+    {
+      "x": 745,
+      "z": 1672,
+      "minimum_cover": 20
+    },
+    {
+      "x": 746,
+      "z": 1672,
+      "minimum_cover": 20
+    },
+    {
+      "x": 747,
+      "z": 1672,
+      "minimum_cover": 21
+    },
+    {
+      "x": 748,
+      "z": 1672,
+      "minimum_cover": 21
+    },
+    {
+      "x": 749,
+      "z": 1672,
+      "minimum_cover": 22
+    },
+    {
+      "x": 750,
+      "z": 1672,
+      "minimum_cover": 23
+    },
+    {
+      "x": 751,
+      "z": 1672,
+      "minimum_cover": 23
+    },
+    {
+      "x": 752,
+      "z": 1672,
+      "minimum_cover": 24
+    },
+    {
+      "x": 753,
+      "z": 1672,
+      "minimum_cover": 24
+    },
+    {
+      "x": 744,
+      "z": 1673,
+      "minimum_cover": 20
+    },
+    {
+      "x": 745,
+      "z": 1673,
+      "minimum_cover": 20
+    },
+    {
+      "x": 746,
+      "z": 1673,
+      "minimum_cover": 21
+    },
+    {
+      "x": 747,
+      "z": 1673,
+      "minimum_cover": 24
+    },
+    {
+      "x": 748,
+      "z": 1673,
+      "minimum_cover": 23
+    },
+    {
+      "x": 749,
+      "z": 1673,
+      "minimum_cover": 23
+    },
+    {
+      "x": 750,
+      "z": 1673,
+      "minimum_cover": 23
+    },
+    {
+      "x": 751,
+      "z": 1673,
+      "minimum_cover": 23
+    },
+    {
+      "x": 752,
+      "z": 1673,
+      "minimum_cover": 23
+    },
+    {
+      "x": 753,
+      "z": 1673,
+      "minimum_cover": 24
+    },
+    {
+      "x": 749,
+      "z": 1674,
+      "minimum_cover": 24
+    },
+    {
+      "x": 750,
+      "z": 1674,
+      "minimum_cover": 24
+    },
+    {
+      "x": 751,
+      "z": 1674,
+      "minimum_cover": 24
+    },
+    {
+      "x": 752,
+      "z": 1674,
+      "minimum_cover": 24
+    }
+  ],
+  "block_entities": [
+    {
+      "x": 779,
+      "y": 81,
+      "z": 1631,
+      "id": "minecraft:mob_spawner"
+    },
+    {
+      "x": 803,
+      "y": -4,
+      "z": 1629,
+      "id": "minecraft:sculk_sensor"
+    },
+    {
+      "x": 800,
+      "y": -4,
+      "z": 1629,
+      "id": "minecraft:sculk_sensor"
+    },
+    {
+      "x": 734,
+      "y": -53,
+      "z": 1644,
+      "id": "minecraft:sculk_sensor"
+    },
+    {
+      "x": 781,
+      "y": 81,
+      "z": 1634,
+      "id": "minecraft:chest"
+    },
+    {
+      "x": 796,
+      "y": -10,
+      "z": 1644,
+      "id": "minecraft:sculk_sensor"
+    },
+    {
+      "x": 731,
+      "y": -23,
+      "z": 1659,
+      "id": "minecraft:sculk_catalyst"
+    },
+    {
+      "x": 755,
+      "y": -24,
+      "z": 1649,
+      "id": "minecraft:sculk_sensor"
+    },
+    {
+      "x": 757,
+      "y": -24,
+      "z": 1649,
+      "id": "minecraft:sculk_catalyst"
+    },
+    {
+      "x": 775,
+      "y": 99,
+      "z": 1661,
+      "id": "minecraft:chest"
+    },
+    {
+      "x": 777,
+      "y": 99,
+      "z": 1662,
+      "id": "minecraft:mob_spawner"
+    },
+    {
+      "x": 798,
+      "y": -53,
+      "z": 1648,
+      "id": "minecraft:sculk_sensor"
+    },
+    {
+      "x": 777,
+      "y": 99,
+      "z": 1664,
+      "id": "minecraft:chest"
+    }
+  ],
+  "source_unchanged": true
+}

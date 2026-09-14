@@ -1,0 +1,14 @@
+{
+  "scope_continuous_area": 1931.5,
+  "scope_cell_center_area": 1932,
+  "parcel_area_including_shared_holding": 604,
+  "public_area": 853,
+  "union_area": 1457,
+  "unallocated_scope_area": 475,
+  "collisions": [],
+  "scope_void24_columns": 43,
+  "occupied_void24_columns": 21,
+  "scanned_columns": 4543,
+  "world_writes": 0,
+  "cell_semantic": "cell centers x+0.5,z+0.5; scope clips lane ends only; union avoids double-counting lanes inside commons"
+}

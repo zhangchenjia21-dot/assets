@@ -1,0 +1,150 @@
+{
+  ".gitattributes": {
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "bytes": 8
+  },
+  "Completion Report.md": {
+    "sha256": "cc1842b59b92ffd69fa870803356e74dfeb245c03c8514da7b7d05ae92f760d8",
+    "bytes": 12300
+  },
+  "Critic and Gates.md": {
+    "sha256": "0b1f0f980c7d13c929db215c4742ee4507e83379b7741c0397b6ab4502fb56d9",
+    "bytes": 3507
+  },
+  "evidence/geometry-audit.json": {
+    "sha256": "db9ad2cada53ffd3de600bbd4fa989a6f4effe36d88467a2ee1dae17a4fcc2a2",
+    "bytes": 453
+  },
+  "evidence/lane-profiles.json": {
+    "sha256": "fc039a3d331efbed3e651b7102b1f6da2d39373a529b09677ba79c50a127decb",
+    "bytes": 13713
+  },
+  "evidence/near-ground-summary.json": {
+    "sha256": "d323c20833ef62d612eac7d462da2987c417b27def130def16dee74299489f19",
+    "bytes": 17897
+  },
+  "evidence/near-ground.json.gz": {
+    "sha256": "c7f8834c71f91e2bbd7862cbe1bcce4186d04d3d9a710bd59196a2ba7d03971a",
+    "bytes": 22468
+  },
+  "evidence/surface-crop.json.gz": {
+    "sha256": "051bd85c47d8a2c675021a71b4d2b4aa6b4bdfb98b0a3e6c8da106a0dc475848",
+    "bytes": 10825
+  },
+  "evidence/world-read-provenance.json": {
+    "sha256": "35dcfe1f12bbc5399b59bbecab238eb15bfc106e96f3498ccd9a1f9adfb09504",
+    "bytes": 1683
+  },
+  "growth-and-demand.json": {
+    "sha256": "e477bb0552440e57c6ec130359d0be51a0da8614a2d5036a5f4af5577e53ee51",
+    "bytes": 6114
+  },
+  "implementation-packages.json": {
+    "sha256": "8d861fe4b0831d0fd35804fcf2dabff099394298d4bf37d53aaedc21d9ff37e8",
+    "bytes": 5502
+  },
+  "maps/街区地块与通行.png": {
+    "sha256": "b1b0cd84a61e59ac61bd8840b62dc07b93b9fc697b394ecd9276d5ebf744d9f2",
+    "bytes": 213091
+  },
+  "maps/通路与高差剖面.png": {
+    "sha256": "a73a1461039bd868998b9d5f3d8b38c9db085698b6ae5a170df7f2a62a610ee7",
+    "bytes": 151501
+  },
+  "maps/阶段01-交割起因.png": {
+    "sha256": "29e48e0520b23a1f0ac5aa46218372e9da7cbb8592839572da497a84ef461be1",
+    "bytes": 204174
+  },
+  "maps/阶段02-条件常住.png": {
+    "sha256": "972ac35fab8b7ec851d692ececb6f0df5acf76f3f7288078d3c8fc4c7e9fac9c",
+    "bytes": 215330
+  },
+  "planning-data.json": {
+    "sha256": "a68291991164865a52ddc2a361c2def9810e5cf17d16e6da6c8d39c93e174e17",
+    "bytes": 25647
+  },
+  "README.md": {
+    "sha256": "32c52b9349367dce1985deb53623e7977c1aefe5517d92b51112dbeb8f2d64ff",
+    "bytes": 1568
+  },
+  "sources/Canon入口.md": {
+    "sha256": "4cfb31adbf7cd1ff84adaed2982edec77eed398e3b84723359ee13b4b2199b4d",
+    "bytes": 7128
+  },
+  "sources/parent-interfaces.json": {
+    "sha256": "64e30ba7be8ffceba6807d01491cd8b359d2ca15822a709c81a27945269d4fcc",
+    "bytes": 22446
+  },
+  "sources/parent-package.json": {
+    "sha256": "29255eb22125fbac1b2c9ea9163c4b459d363a4c629ede6a177a7c99446ad652",
+    "bytes": 2875
+  },
+  "sources/skill/references/architecture-kit-requirements.md": {
+    "sha256": "d0080b34fc2cad22f288f3e82121287a499e937b82d136a2ca7bd84d13e07c71",
+    "bytes": 6560
+  },
+  "sources/skill/references/causal-growth-model.md": {
+    "sha256": "b5dba0e34f1bd864652036ed87679d80f43ea9cf1c3ddd8f153486130383d7b6",
+    "bytes": 8091
+  },
+  "sources/skill/references/flows-externalities-and-demand.md": {
+    "sha256": "476e717be54d49e88cc9ed99aede9210c1ae618ab853c06bf2da563b194e66bf",
+    "bytes": 7756
+  },
+  "sources/skill/references/human-geography-kernels.md": {
+    "sha256": "d47e56bfdada958a4b6ad8fc421f4967bccdbe2b87489c0d5ca86511f639bc3c",
+    "bytes": 11984
+  },
+  "sources/skill/references/morphology-parcels-and-density.md": {
+    "sha256": "06dd9212f0da183b638eb1a339ddb9dfad16b6cd9b2c7c049617bedf636f7566",
+    "bytes": 10284
+  },
+  "sources/skill/references/planning-artifacts-and-maps.md": {
+    "sha256": "c0b76602b899d3bdbb6b787b435e7de5fab76818df7c57d192ee6e0a1bf381e4",
+    "bytes": 11254
+  },
+  "sources/skill/references/recursive-planning-handoff.md": {
+    "sha256": "91e662a77407e5f9fe99d5036b5ef648b79e4ab171c474f6b2837391e3b75053",
+    "bytes": 11654
+  },
+  "sources/skill/references/settlement-capacity-and-scale.md": {
+    "sha256": "774318ff5dab75042122eb117bfb095801eda132e58dd2ed6d319bef2aac6106",
+    "bytes": 10130
+  },
+  "sources/skill/references/surface-substrate-landcover.md": {
+    "sha256": "bdde70dd0d1cca8d61b3c8a48d535b2f21629cbd2b494ce1f72d16d735832fab",
+    "bytes": 9698
+  },
+  "sources/skill/SKILL.md": {
+    "sha256": "a6f2e3d248d9846a9e1d51fd7f47d0cb390180a107dbf8733a604172230eef20",
+    "bytes": 36129
+  },
+  "sources/skill-revision.txt": {
+    "sha256": "989ff94f6efb8f0f4a8879f6ba0348b92e642bb567bce67526ec1675739c448f",
+    "bytes": 42
+  },
+  "sources/source-register.json": {
+    "sha256": "dfb5e94aaa42324a99b5f1fbd7bbd0d9ccfbf2ffed502121b030fd589b3ad70b",
+    "bytes": 5631
+  },
+  "sources/supplemental-assessment.json": {
+    "sha256": "d05e51c275fe9672ff5269fd9f743f2c4b18eea0f2456937b6c5a0561bf7667e",
+    "bytes": 17992
+  },
+  "validation.json": {
+    "sha256": "4e85e51bb45361ed3ba565f50128a9fb35ec4a6b3b9f4a28154d80525ee7d5b8",
+    "bytes": 5779
+  },
+  "归档校验.py": {
+    "sha256": "be17c8643860b1c7bb121ed222fdbfe1ddc41c7cad5831739ac674e295d6e19a",
+    "bytes": 5063
+  },
+  "街区只读调查.mjs": {
+    "sha256": "0b861732c701a40716616b0460b9c334b2ad19d23da4e45d3fc87a1eb7db3107",
+    "bytes": 3945
+  },
+  "街区规划与制图.py": {
+    "sha256": "617745930813897bd0a897f7db3680b386d1ff3a2d019500639f8544b8bb936e",
+    "bytes": 23714
+  }
+}

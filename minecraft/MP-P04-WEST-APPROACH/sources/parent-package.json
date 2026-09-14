@@ -1,0 +1,98 @@
+{
+  "id": "PACKAGE-01",
+  "parent_plan": "MP-P03-NORTH-ROCK-TERRACE",
+  "parent_revision": "r1",
+  "parent_scale": "SETTLEMENT",
+  "child_scale": "DISTRICT",
+  "recipient": "minecraft-planner",
+  "scope_ref": "DISTRICT-01",
+  "scope_geometry": [
+    [
+      748,
+      1625
+    ],
+    [
+      765,
+      1620
+    ],
+    [
+      794,
+      1626
+    ],
+    [
+      798,
+      1648
+    ],
+    [
+      782,
+      1668
+    ],
+    [
+      755,
+      1666
+    ],
+    [
+      748,
+      1646
+    ]
+  ],
+  "authority": "PARENT_PROPOSAL_NOT_CANON",
+  "why": "货物从西南方向爬升到台面后需要卸载、复核与修理；照看者就近居住，不让重货穿过全聚落",
+  "upstream_fixed": [
+    "公共交割由西侧先卸载、内部逐步轻载",
+    "共享院与横向通路不得被前沿封闭",
+    "多共同体共享不等于唯一东席中心",
+    "北坡/南陷/砂砾边缘不以总图理由自动填平",
+    "常住分支以供水/日需成立为前提",
+    "保持本轮浅层空气带暂不分配建设，不能默认填洞或建地下室"
+  ],
+  "downstream_to_resolve": [
+    "确认本簇实际人工痕迹/权属/旧路，不能按新地清空",
+    "逐前沿与院检查基底、空洞、排水；本轮已有8格13层初查和核心逐柱16层复核，深部/结构稳定仍未证",
+    "细化block/parcel/frontage演变和共享院面积，不将示意带当楼体",
+    "连续步行/驮运坡度、转折、净空；按profile定位问题",
+    "供水来源、搬运或收集量、贮存和密闭污物终端，跨包共同闭合"
+  ],
+  "downstream_adaptable": [
+    "本簇内移位/拆分前沿与调整小院",
+    "支巷、地块和边界细化",
+    "总3500–4600范围内跨包协商容量，不各自取上限扩大总量",
+    "若常住分支不成立，按BRANCH-02回退并报告上游"
+  ],
+  "capacity_hypothesis": {
+    "area_range_blocks2": [
+      1200,
+      1600
+    ],
+    "households": [
+      4,
+      6
+    ],
+    "includes": "共享场院与本地通行在总压力内，不另加"
+  },
+  "cross_package_dependencies": [
+    "PACKAGE-02",
+    "PACKAGE-03"
+  ],
+  "source_refs": [
+    "SRC-LIVE",
+    "SRC-PARENT",
+    "SRC-CANON",
+    "SRC-SKILL"
+  ],
+  "revision_triggers": [
+    "稳定饮水无法支持12户",
+    "入口需要大规模重整才能服务",
+    "现存保护对象冲突不可局部避让",
+    "扣除公共通行与土面后需求无法容纳"
+  ],
+  "revision_protocol": "最小受影响district/route/capacity先局部调整；若破坏供给/共享关系则回退本案Gate，提交上游问题并标关联包stale，不覆盖父案",
+  "expected_outputs": [
+    "DISTRICT因果规划",
+    "block/parcel/巷道/前沿及阶段图",
+    "可追溯JSON和L4交接包",
+    "供水/通行/现状未决与修订账本"
+  ],
+  "world_write_authorization": false,
+  "builder_ready": false
+}

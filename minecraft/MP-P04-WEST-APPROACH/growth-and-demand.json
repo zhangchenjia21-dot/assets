@@ -1,0 +1,31 @@
+{
+  "authority": "DESIGN_PROPOSAL",
+  "historical_truth": "HYPOTHESIS_NOT_OBSERVED_HISTORY",
+  "actors": [
+    {"id":"ACTOR-01","role":"地方共同体及现有土地使用者","canon_basis":"强地方自治","choice":"提供或拒绝共同院与通行地役","burden":"地面占用、路工和储备劳动","benefit":"减少分散交割与临时维修成本","veto":"不是联盟自动征地；未获权利须移位或重开父案"},
+    {"id":"ACTOR-02","role":"交割与维修家庭","authority":"PLANNING_ASSUMPTION","choice":"在P01至P04嵌入居住、照看和小修理","burden":"日需输入、地基核定与公共通行义务","benefit":"门前重复货流与值守生计","veto":"供水或交换负担不可承受时不驻留"},
+    {"id":"ACTOR-03","role":"商旅与其它共同体来人","authority":"PLANNING_ASSUMPTION","choice":"分时卸货，轻载继续东行","burden":"轮候与共同维护份额","benefit":"公平接入与短储","veto":"服务垄断或额外负担过高可转向其它交割点"}
+  ],
+  "stages": [
+    {"id":"GROWTH-01","driver":"重复小批交割先需要可被共同使用的首卸地点","knowledge":"沿途条件可通过行走和试用知道，地下空间和远端货源不能预知","actor_refs":["ACTOR-01","ACTOR-03"],"choice":"协商西进东出的共同使用与分时装卸；照看短储","spatial_objects":["SPACE-01","LANE-01","LANE-02","PARCEL-05"],"counterfactual":"即使不常住，也只在当天往返、用水和交割需求可闭合的条件下有短时服务理由","conditions":["实际需求与进入权成立","当日供给和返回路径成立"],"feedback":"重复轮候与临时修理使就近服务家庭和日常缓冲更有价值","map":"maps/阶段01-交割起因.png"},
+    {"id":"GROWTH-02","driver":"重复交割产生值守、复核与家庭生活压力","knowledge":"普通供水试用、搬运和补给经验可被居民掌握；不声称已打井","actor_refs":["ACTOR-01","ACTOR-02"],"choice":"供水/日需成立后，沿现有交割关系确认四处家庭用益；保留门前通行","spatial_objects":["PARCEL-01","PARCEL-02","PARCEL-03","PARCEL-04","SPACE-02","LANE-04"],"conditions":["常住供水与日需闭合","四家庭生计/权利与近地使用核定"],"feedback":"门前交割提高沿院价值，但拥堵和家庭后侧通行需求增加","map":"maps/阶段02-条件常住.png"},
+    {"id":"GROWTH-03","driver":"交割高峰妨碍南侧家庭日常进出及清运","knowledge":"来自重复使用而非先验规划完美路网","actor_refs":["ACTOR-01","ACTOR-02"],"choice":"南侧地役形成后巷并接东口；北侧家庭仍以内院处理后勤，不建完整环街","spatial_objects":["LANE-03"],"conditions":["真实后勤冲突足以支持地役","后巷与深空气关系核定","清运与供水错时制度成立"],"feedback":"后巷便利可能增加分户压力；公共院与通路先保留，再检验5–6户可能，不必扩张","map":"maps/街区地块与通行.png"}
+  ],
+  "metabolism": [
+    {"demand":"首卸与复核","users":"ACTOR-02/03","rhythm":"周期批次高峰","flow":"西口→共同院→短储或东轻载","stock":"P05仅少量短储；院内轮候不长期占用","replenishment":"随交割批次","failure":"车队过大、长时驻养或持续拥堵时先错峰/减少批次，不挤占通路","spatial_rule":"公院保留坡度下的分段作业，不强造等高平台"},
+    {"demand":"日常粮食与生活物","users":"四服务家庭，常住条件分支","rhythm":"批次输入、每日消耗","stock":"户内库存加跨包共储，不把P05重复算整个聚落储备","replenishment":"由真实补给间隔决定，数字尚无证据","failure":"中断超过可承受缓冲则停启常住或回报父包","spatial_rule":"货物减载后才进入门前/背巷；保留家庭内院"},
+    {"demand":"洁净水","users":"家庭和来人；动物峰值单列","rhythm":"每日且交割日增加","stock":"洁净到货可在已核接口短时交接，不自动建井","replenishment":"跨包供水方式未决，井/蓄水/搬运保留选择","failure":"缺源不能用加储量解决","spatial_rule":"暂以东轻载接口协调家庭送水；若选择西取水必须重查院内动物/清污时序，不宣称单向水流"},
+    {"demand":"废物清运","users":"家庭和修理者","rhythm":"日常暂存、定期外运","stock":"户内封闭暂存，准确终端未证","replenishment":"不适用；随清运班次移出","failure":"终端无权/无能力则不得启用长期使用","spatial_rule":"优先后巷步行分时；东口送水时不同时走污物，不假设天然凹地是排污处"},
+    {"demand":"小修理与安全","users":"维修家庭与商旅","rhythm":"间歇","stock":"工具和少量材料嵌入P01/P04，不增独立大工厂","replenishment":"交割带入","failure":"若需求为高热大冶炼则角色与尺度不符，应回报父包","spatial_rule":"热作与粉尘避开短储门口和洁净交接；确切构造由Builder设计"}
+  ],
+  "competition_and_parcels": {
+    "P01":"最先接触货物，较宽前沿承担工具和即时修理；不把全地块建成覆盖率100%的楼体。",
+    "P02":"靠轻载出口，值守复核比重货堆积更有利；较短后深与上沿边界约束必须留给L4解决。",
+    "P03":"收货家庭需要前场与内院，深度高于北侧；若未来分户只能在供给与可居住尺度重新核定后实施，公共门前不能切断。",
+    "P04":"转角具有照看和轻修价值，但不可侵占共享通行以换取更大 frontage。",
+    "P05":"共同体保留短储地抵制切分；若权利没有建立，这个形态也不是永久成立。",
+    "unallocated_ground":"475格统计余量不是公共绿地或待填地；保留调查、边界调节和基底移位余地，不计入当前建成量。"
+  },
+  "implementation_order": ["先核跨包供给/通达/权利与地基限制", "先由L4共同接口包核公共院与连通权利", "再处理南北两组地块与门前/后院关系", "具体Builder设计及任何world write另行授权"],
+  "world_writes": 0
+}
